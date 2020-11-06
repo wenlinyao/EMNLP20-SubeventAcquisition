@@ -1,0 +1,95 @@
+<DOC> article-20480.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 |
+<word> A Malaysian court has convicted three Mexican brothers and two other people and sentenced them to be hanged for drug trafficking . 
+<lemma> a malaysian court have convict three mexican brother and two other people and sentence they to be hang for drug trafficking . 
+<POS> DT JJ NN VBZ VBN CD JJ NNS CC CD JJ NNS CC VBN PRP TO VB VBN IN NN NN . 
+<NER> O MISC O O O NUMBER MISC O O NUMBER O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (JJ Malaysian) (NN court)) (VP (VBZ has) (VP (VP (VBN convicted) (NP (NP (CD three) (JJ Mexican) (NNS brothers)) (CC and) (NP (CD two) (JJ other) (NNS people)))) (CC and) (VP (VBN sentenced) (S (NP (PRP them)) (VP (TO to) (VP (VB be) (VP (VBN hanged) (PP (IN for) (NP (NN drug) (NN trafficking)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|14 nsubj 3|5 aux 4|8 nummod 6|8 amod 7|5 dobj 8|8 cc 9|12 nummod 10|12 amod 11|5 dobj 12|8 conj:and 12|5 cc 13|5 conj:and 14|14 dobj 15|18 nsubjpass:xsubj 15|18 mark 16|18 auxpass 17|14 xcomp 18|21 case 19|21 compound 20|18 nmod:for 21|5 punct 22|
+<word> The Mexicans are from Sinaloa state , the cradle of their country 's drug trade , but have no criminal record at home . 
+<lemma> the Mexicans be from sinaloa state , the cradle of they country 's drug trade , but have no criminal record at home . 
+<POS> DT NNPS VBP IN JJ NN , DT NN IN PRP$ NN POS NN NN , CC VBP DT JJ NN IN NN . 
+<NER> O MISC O O LOCATION O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Mexicans)) (VP (VP (VBP are) (PP (IN from) (NP (NP (JJ Sinaloa) (NN state)) (, ,) (NP (NP (DT the) (NN cradle)) (PP (IN of) (NP (NP (PRP$ their) (NN country) (POS 's)) (NN drug) (NN trade))))))) (, ,) (CC but) (VP (VBP have) (NP (NP (DT no) (JJ criminal) (NN record)) (PP (IN at) (NP (NN home)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|18 nsubj 2|6 cop 3|6 case 4|6 amod 5|6 punct 7|9 det 8|6 appos 9|15 case 10|12 nmod:poss 11|15 nmod:poss 12|12 case 13|15 compound 14|9 nmod:of 15|6 punct 16|6 cc 17|6 conj:but 18|21 neg 19|21 amod 20|18 dobj 21|23 case 22|21 nmod:at 23|6 punct 24|
+<word> They were arrested at a secluded drug-making factory in 2008 and claimed they had been cleaning the place , not making drugs . 
+<lemma> they be arrest at a secluded drug-making factory in 2008 and claim they have be clean the place , not make drug . 
+<POS> PRP VBD VBN IN DT JJ NN NN IN CD CC VBD PRP VBD VBN VBG DT NN , RB VBG NNS . 
+<NER> O O O O O O O O O DATE O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VP (VBD were) (VP (VBN arrested) (PP (IN at) (NP (NP (DT a) (JJ secluded) (NN drug-making) (NN factory)) (PP (IN in) (NP (CD 2008))))))) (CC and) (VP (VBD claimed) (SBAR (S (NP (PRP they)) (VP (VBD had) (VP (VBN been) (VP (VBG cleaning) (NP (DT the) (NN place)) (, ,) (S (RB not) (VP (VBG making) (NP (NNS drugs))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|12 nsubjpass 1|3 auxpass 2|8 case 4|8 det 5|8 amod 6|8 compound 7|3 nmod:at 8|10 case 9|8 nmod:in 10|3 cc 11|3 conj:and 12|16 nsubj 13|16 aux 14|16 aux 15|12 ccomp 16|18 det 17|16 dobj 18|16 punct 19|21 neg 20|16 advcl 21|21 dobj 22|3 punct 23|
+<word> Kuala Lumpur High Court Judge Mohamad Zawawi Salleh ruled the prosecution had proven its case beyond reasonable doubt and imposed the death sentence , the mandatory penalty for drug trafficking in Malaysia . 
+<lemma> Kuala Lumpur High Court Judge Mohamad Zawawi Salleh rule the prosecution have prove its case beyond reasonable doubt and impose the death sentence , the mandatory penalty for drug trafficking in Malaysia . 
+<POS> NNP NNP NNP NNP NNP NNP NNP NNP VBD DT NN VBD VBN PRP$ NN IN JJ NN CC VBD DT NN NN , DT JJ NN IN NN NN IN NNP . 
+<NER> ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O PERSON PERSON PERSON O O O O O O O O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Kuala) (NNP Lumpur) (NNP High) (NNP Court) (NNP Judge) (NNP Mohamad) (NNP Zawawi) (NNP Salleh)) (VP (VP (VBD ruled) (SBAR (S (NP (DT the) (NN prosecution)) (VP (VBD had) (VP (VBN proven) (NP (PRP$ its) (NN case)) (PP (IN beyond) (NP (JJ reasonable) (NN doubt)))))))) (CC and) (VP (VBD imposed) (NP (NP (DT the) (NN death) (NN sentence)) (, ,) (NP (NP (DT the) (JJ mandatory) (NN penalty)) (PP (IN for) (NP (NN drug) (NN trafficking))))) (PP (IN in) (NP (NNP Malaysia))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|8 compound 1|8 compound 2|8 compound 3|8 compound 4|8 compound 5|8 compound 6|8 compound 7|9 nsubj 8|20 nsubj 8|11 det 10|13 nsubj 11|13 aux 12|9 ccomp 13|15 nmod:poss 14|13 dobj 15|18 case 16|18 amod 17|13 nmod:beyond 18|9 cc 19|9 conj:and 20|23 det 21|23 compound 22|20 dobj 23|23 punct 24|27 det 25|27 amod 26|23 appos 27|30 case 28|30 compound 29|27 nmod:for 30|32 case 31|20 nmod:in 32|9 punct 33|
+<word> The other defendants are a Singaporean and a Malaysian . 
+<lemma> the other defendant be a singaporean and a malaysian . 
+<POS> DT JJ NNS VBP DT JJ CC DT JJ . 
+<NER> O O O O O MISC O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ other) (NNS defendants)) (VP (VBP are) (NP (NP (DT a) (JJ Singaporean)) (CC and) (NP (DT a) (JJ Malaysian)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 amod 2|6 nsubj 3|9 nsubj 3|6 cop 4|6 det 5|6 cc 7|9 det 8|6 conj:and 9|6 punct 10|
+<word> `` The court finds all five accused are aware and are involved in the activity of drug-making , '' Mohamad Zawawi said , adding that the verdict should be a warning to potential drug offenders . 
+<lemma> `` the court find all five accuse be aware and be involve in the activity of drug-making , '' Mohamad Zawawi say , add that the verdict should be a warn to potential drug offender . 
+<POS> `` DT NN VBZ DT CD VBN VBP JJ CC VBP VBN IN DT NN IN NN , '' NNP NNP VBD , VBG IN DT NN MD VB DT VBG TO JJ NN NNS . 
+<NER> O O O O O NUMBER O O O O O O O O O O O O O PERSON PERSON O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (DT The) (NN court)) (VP (VBZ finds) (SBAR (S (NP (NP (DT all) (CD five)) (VP (VBN accused))) (VP (VP (VBP are) (ADJP (JJ aware))) (CC and) (VP (VBP are) (VP (VBN involved) (PP (IN in) (NP (NP (DT the) (NN activity)) (PP (IN of) (NP (NN drug-making)))))))))))) (, ,) ('' '') (NP (NNP Mohamad) (NNP Zawawi)) (VP (VBD said) (, ,) (S (VP (VBG adding) (SBAR (IN that) (S (NP (DT the) (NN verdict)) (VP (MD should) (VP (VB be) (NP (NP (DT a) (VBG warning)) (PP (TO to) (NP (JJ potential) (NN drug) (NNS offenders))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|22 punct 1|3 det 2|4 nsubj 3|22 ccomp 4|6 det 5|9 nsubj 6|12 nsubjpass 6|6 acl 7|9 cop 8|4 ccomp 9|9 cc 10|12 auxpass 11|4 ccomp 12|9 conj:and 12|15 case 13|15 det 14|12 nmod:in 15|17 case 16|15 nmod:of 17|22 punct 18|22 punct 19|21 compound 20|22 nsubj 21|22 punct 23|22 xcomp 24|30 mark 25|27 det 26|30 nsubj 27|30 aux 28|30 cop 29|24 ccomp 30|30 amod 31|35 case 32|35 amod 33|35 compound 34|30 nmod:to 35|22 punct 36|
+<word> `` We are very sad . 
+<lemma> `` we be very sad . 
+<POS> `` PRP VBP RB JJ . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP We)) (VP (VBP are) (ADJP (RB very) (JJ sad))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 cop 3|5 advmod 4|5 punct 6|
+<word> We thought we would be acquitted , '' said the eldest brother , Luis Alfonso Gonzales . 
+<lemma> we think we would be acquit , '' say the eldest brother , Luis Alfonso Gonzales . 
+<POS> PRP VBD PRP MD VB VBN , '' VBD DT JJS NN , NNP NNP NNP . 
+<NER> O O O O O O O O O O O O O PERSON PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (PRP We)) (VP (VBD thought) (SBAR (S (NP (PRP we)) (VP (MD would) (VP (VB be) (VP (VBN acquitted)))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (DT the) (JJS eldest) (NN brother)) (, ,) (NP (NNP Luis) (NNP Alfonso) (NNP Gonzales))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|2 nsubj 1|9 ccomp 2|6 nsubjpass 3|6 aux 4|6 auxpass 5|2 ccomp 6|9 punct 7|9 punct 8|12 det 10|12 amod 11|9 nsubj 12|12 punct 13|16 compound 14|16 compound 15|12 appos 16|9 punct 17|
+<word> The court had previously rejected the defence 's contention that some evidence discrepancies amounted to tampering after a chemist testified that seven items he received for analysis looked different from what he had seen at the factory . 
+<lemma> the court have previously reject the defence 's contention that some evidence discrepancy amount to tamper after a chemist testify that seven item he receive for analysis look different from what he have see at the factory . 
+<POS> DT NN VBD RB VBN DT NN POS NN IN DT NN NNS VBD TO VBG IN DT NN VBD IN CD NNS PRP VBD IN NN VBD JJ IN WP PRP VBD VBN IN DT NN . 
+<NER> O O O DATE O O O O O O O O O O O O O O O O O NUMBER O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN court)) (VP (VBD had) (ADVP (RB previously)) (VP (VBN rejected) (NP (NP (DT the) (NN defence) (POS 's)) (NN contention)) (SBAR (IN that) (S (NP (DT some) (NN evidence) (NNS discrepancies)) (VP (VBD amounted) (PP (TO to) (S (VP (VBG tampering) (SBAR (IN after) (S (NP (DT a) (NN chemist)) (VP (VBD testified) (SBAR (IN that) (S (NP (NP (CD seven) (NNS items)) (SBAR (S (NP (PRP he)) (VP (VBD received) (PP (IN for) (NP (NN analysis))))))) (VP (VBD looked) (ADJP (JJ different) (PP (IN from) (SBAR (WHNP (WP what)) (S (NP (PRP he)) (VP (VBD had) (VP (VBN seen) (PP (IN at) (NP (DT the) (NN factory))))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|5 aux 3|5 advmod 4|7 det 6|9 nmod:poss 7|7 case 8|5 dobj 9|14 mark 10|13 det 11|13 compound 12|14 nsubj 13|5 ccomp 14|16 mark 15|14 advcl:to 16|20 mark 17|19 det 18|20 nsubj 19|16 advcl:after 20|28 mark 21|23 nummod 22|28 nsubj 23|25 nsubj 24|23 acl:relcl 25|27 case 26|25 nmod:for 27|20 ccomp 28|28 xcomp 29|34 mark 30|34 dobj 31|34 nsubj 32|34 aux 33|29 advcl:from 34|37 case 35|37 det 36|34 nmod:at 37|5 punct 38|
+<word> The prosecution denied there was any manipulation that undermined the trial . 
+<lemma> the prosecution deny there be any manipulation that undermine the trial . 
+<POS> DT NN VBD EX VBD DT NN WDT VBD DT NN . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN prosecution)) (VP (VBD denied) (SBAR (S (NP (EX there)) (VP (VBD was) (NP (NP (DT any) (NN manipulation)) (SBAR (WHNP (WDT that)) (S (VP (VBD undermined) (NP (DT the) (NN trial)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 expl 4|3 ccomp 5|7 det 6|5 nsubj 7|9 nsubj 7|7 ref 8|7 acl:relcl 9|11 det 10|9 dobj 11|3 punct 12|
+<word> At the factory where the men were arrested , police found more than 29 kilograms of methamphetamine worth 44 million ringgit -LRB- 15 million US dollars -RRB- . 
+<lemma> at the factory where the man be arrest , police find more than 29 kilogram of methamphetamine worth 44 million ringgit -lrb- 15 million US dollar -rrb- . 
+<POS> IN DT NN WRB DT NNS VBD VBN , NN VBD JJR IN CD NNS IN NN JJ CD CD NN -LRB- CD CD NNP NNS -RRB- . 
+<NER> O O O O O O O O O O O O O NUMBER O O O O MONEY MONEY MONEY O MONEY MONEY MONEY MONEY O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN At) (NP (NP (DT the) (NN factory)) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NNS men)) (VP (VBD were) (VP (VBN arrested))))))) (, ,) (NP (NN police)) (VP (VBD found) (NP (NP (QP (JJR more) (IN than) (CD 29)) (NNS kilograms)) (PP (IN of) (NP (NN methamphetamine)))) (PP (JJ worth) (NP (NP (QP (CD 44) (CD million)) (NN ringgit)) (PRN (-LRB- -LRB-) (NP (NP (NP (QP (CD 15) (CD million))) (NP (NNP US))) (NP (NNS dollars))) (-RRB- -RRB-))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|3 case 1|3 det 2|11 nmod:at 3|8 advmod 4|6 det 5|8 nsubjpass 6|8 auxpass 7|3 acl:relcl 8|11 punct 9|11 nsubj 10|14 advmod 12|12 mwe 13|15 nummod 14|11 dobj 15|17 case 16|15 nmod:of 17|21 case 18|20 compound 19|21 nummod 20|11 nmod:worth 21|24 punct 22|24 compound 23|21 dep 24|24 appos 25|24 dep 26|24 punct 27|11 punct 28|
+<word> Judge Mohamed Zawawi said it was clear the men were arrested at an illegal drug laboratory . 
+<lemma> Judge Mohamed Zawawi say it be clear the man be arrest at a illegal drug laboratory . 
+<POS> NNP NNP NNP VBD PRP VBD JJ DT NNS VBD VBN IN DT JJ NN NN . 
+<NER> O PERSON PERSON O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Judge) (NNP Mohamed) (NNP Zawawi)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD was) (ADJP (JJ clear) (SBAR (S (NP (DT the) (NNS men)) (VP (VBD were) (VP (VBN arrested) (PP (IN at) (NP (DT an) (JJ illegal) (NN drug) (NN laboratory)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 compound 1|3 compound 2|4 nsubj 3|7 nsubj 5|7 cop 6|4 ccomp 7|9 det 8|11 nsubjpass 9|11 auxpass 10|7 ccomp 11|16 case 12|16 det 13|16 amod 14|16 compound 15|11 nmod:at 16|4 punct 17|
+<word> Traces of drug chemicals were on their clothes , and their claim to have been cleaning the place was not logical because stains were also found on their underwear , he said . 
+<lemma> trace of drug chemical be on they clothes , and they claim to have be clean the place be not logical because stain be also find on they underwear , he say . 
+<POS> NNS IN NN NNS VBD IN PRP$ NNS , CC PRP$ NN TO VB VBN VBG DT NN VBD RB JJ IN NNS VBD RB VBN IN PRP$ NN , PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (NP (NNS Traces)) (PP (IN of) (NP (NN drug) (NNS chemicals)))) (VP (VBD were) (PP (IN on) (NP (PRP$ their) (NNS clothes))))) (, ,) (CC and) (S (NP (PRP$ their) (NN claim) (S (VP (TO to) (VP (VB have) (VP (VBN been) (VP (VBG cleaning) (NP (DT the) (NN place)))))))) (VP (VBD was) (RB not) (ADJP (JJ logical)) (SBAR (IN because) (S (NP (NNS stains)) (VP (VBD were) (ADVP (RB also)) (VP (VBN found) (PP (IN on) (NP (PRP$ their) (NN underwear)))))))))) (, ,) (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 32|8 nsubj 1|4 case 2|4 compound 3|1 nmod:of 4|8 cop 5|8 case 6|8 nmod:poss 7|32 ccomp 8|8 punct 9|8 cc 10|12 nmod:poss 11|21 nsubj 12|16 mark 13|16 aux 14|16 aux 15|12 acl:to 16|18 det 17|16 dobj 18|21 cop 19|21 neg 20|8 conj:and 21|32 ccomp 21|26 mark 22|26 nsubjpass 23|26 auxpass 24|26 advmod 25|21 advcl:because 26|29 case 27|29 nmod:poss 28|26 nmod:on 29|32 punct 30|32 nsubj 31|32 punct 33|
+<coreference> [['1,6,9,8', '1,15,16,15', '2,11,12,11', '3,1,2,1', '3,13,14,13'], ['1,20,22,21', '4,29,31,30'], ['3,17,19,18', '13,17,19,18'], ['4,1,5,4', '6,2,4,3', '9,1,3,2'], ['4,1,9,8', '6,20,22,21'], ['4,10,12,11', '4,14,15,14', '10,1,3,2'], ['4,21,24,23', '4,25,31,27'], ['5,5,7,6', '5,1,4,3', '5,5,10,6'], ['6,26,28,27', '6,30,36,30'], ['6,33,36,35', '7,2,3,2', '8,1,2,1', '8,3,4,3'], ['8,14,17,16', '8,10,13,12'], ['9,18,20,19', '9,24,25,24', '9,32,33,32'], ['9,36,38,37', '11,2,9,3'], ['11,5,7,6', '12,8,10,9', '13,7,8,7', '13,11,12,11', '13,28,29,28'], ['13,28,30,29', '13,31,32,31']]
+</DOC>

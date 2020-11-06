@@ -1,0 +1,53 @@
+<DOC> article-1864.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 |
+<word> The body of a young man has been found in Cork city , in a yard off Douglas Street just after 11am today . 
+<lemma> the body of a young man have be find in Cork city , in a yard off Douglas Street just after 11am today . 
+<POS> DT NN IN DT JJ NN VBZ VBN VBN IN NNP NN , IN DT NN IN NNP NNP RB IN JJ NN . 
+<NER> O O O O O O O O O O LOCATION LOCATION O O O O O LOCATION LOCATION O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN body)) (PP (IN of) (NP (DT a) (JJ young) (NN man)))) (VP (VBZ has) (VP (VBN been) (VP (VBN found) (PP (IN in) (NP (NNP Cork) (NN city))) (, ,) (PP (IN in) (NP (NP (DT a) (NN yard)) (PP (IN off) (NP (NP (NNP Douglas) (NNP Street)) (ADVP (RB just) (PP (IN after) (NP-TMP (JJ 11am) (NN today))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|2 det 1|9 nsubjpass 2|6 case 3|6 det 4|6 amod 5|2 nmod:of 6|9 aux 7|9 auxpass 8|12 case 10|12 compound 11|9 nmod:in 12|9 punct 13|16 case 14|16 det 15|9 nmod:in 16|19 case 17|19 compound 18|16 nmod:off 19|19 advmod 20|23 case 21|23 amod 22|20 nmod:after 23|9 punct 24|
+<word> The remains have not yet been identified . 
+<lemma> the remains have not yet be identify . 
+<POS> DT NNS VBP RB RB VBN VBN . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS remains)) (VP (VBP have) (RB not) (ADVP (RB yet)) (VP (VBN been) (VP (VBN identified)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubjpass 2|7 aux 3|7 neg 4|7 advmod 5|7 auxpass 6|7 punct 8|
+<word> A post mortem is due to be carried out at Cork University Hospital later today . 
+<lemma> a post mortem be due to be carry out at Cork University Hospital later today . 
+<POS> DT NN FW VBZ JJ TO VB VBN RP IN NNP NNP NNP RB NN . 
+<NER> O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN post)) (NP (FW mortem))) (VP (VBZ is) (ADJP (JJ due) (S (VP (TO to) (VP (VB be) (VP (VBN carried) (PRT (RP out)) (PP (IN at) (NP (NNP Cork) (NNP University) (NNP Hospital))) (NP-TMP (RB later) (NN today)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|8 nsubjpass:xsubj 2|2 dep 3|5 cop 4|8 mark 6|8 auxpass 7|5 xcomp 8|8 compound:prt 9|13 case 10|13 compound 11|13 compound 12|8 nmod:at 13|15 advmod 14|8 nmod:tmod 15|5 punct 16|
+<word> A search operation for 18-year-old student Caolan Mulrooney was being carried out in the area at the time of the discovery . 
+<lemma> a search operation for 18-year-old student Caolan Mulrooney be be carry out in the area at the time of the discovery . 
+<POS> DT NN NN IN JJ NN NNP NNP VBD VBG VBN RP IN DT NN IN DT NN IN DT NN . 
+<NER> O O O O DURATION O PERSON PERSON O O O O O O O O O DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN search) (NN operation)) (PP (IN for) (NP (JJ 18-year-old) (NN student) (NNP Caolan) (NNP Mulrooney)))) (VP (VBD was) (VP (VBG being) (VP (VBN carried) (PRT (RP out)) (PP (IN in) (NP (DT the) (NN area))) (PP (IN at) (NP (NP (DT the) (NN time)) (PP (IN of) (NP (DT the) (NN discovery)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|3 det 1|3 compound 2|11 nsubjpass 3|8 case 4|8 amod 5|8 compound 6|8 compound 7|3 nmod:for 8|11 aux 9|11 auxpass 10|11 compound:prt 12|15 case 13|15 det 14|11 nmod:in 15|18 case 16|18 det 17|11 nmod:at 18|21 case 19|21 det 20|18 nmod:of 21|11 punct 22|
+<word> The search operation for Mr Mulrooney has now been suspended . 
+<lemma> the search operation for Mr Mulrooney have now be suspend . 
+<POS> DT NN NN IN NNP NNP VBZ RB VBN VBN . 
+<NER> O O O O O PERSON O DATE O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN search) (NN operation)) (PP (IN for) (NP (NNP Mr) (NNP Mulrooney)))) (VP (VBZ has) (ADVP (RB now)) (VP (VBN been) (VP (VBN suspended)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 det 1|3 compound 2|10 nsubjpass 3|6 case 4|6 compound 5|3 nmod:for 6|10 aux 7|10 advmod 8|10 auxpass 9|10 punct 11|
+<word> Irish Examiner reporter Eoin English said the discovery was made at a place known as Blue Anchor Lane at the Capwell Road end of Douglas Street , a narrow lane running perpendicular to Douglas Street . 
+<lemma> irish Examiner reporter Eoin English say the discovery be make at a place know as blue Anchor Lane at the Capwell Road end of Douglas Street , a narrow lane run perpendicular to Douglas Street . 
+<POS> JJ NNP NN NNP NNP VBD DT NN VBD VBN IN DT NN VBN IN JJ NNP NNP IN DT NNP NNP NN IN NNP NNP , DT JJ NN VBG JJ TO NNP NNP . 
+<NER> ORGANIZATION ORGANIZATION O PERSON PERSON O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O LOCATION LOCATION O O LOCATION LOCATION O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (SINV (NP (JJ Irish) (NNP Examiner) (NN reporter) (NNP Eoin) (NNP English)) (VP (VBD said) (SBAR (S (NP (DT the) (NN discovery)) (VP (VBD was) (VP (VBN made) (PP (IN at) (NP (NP (DT a) (NN place)) (VP (VBN known) (PP (IN as) (NP (JJ Blue) (NNP Anchor) (NNP Lane))) (PP (IN at) (NP (NP (DT the) (NNP Capwell) (NNP Road) (NN end)) (PP (IN of) (NP (NP (NNP Douglas) (NNP Street)) (, ,) (NP (NP (DT a) (JJ narrow) (NN lane)) (VP (VBG running) (ADJP (JJ perpendicular) (PP (TO to) (NP (NNP Douglas) (NNP Street)))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 amod 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|8 det 7|10 nsubjpass 8|10 auxpass 9|6 ccomp 10|13 case 11|13 det 12|10 nmod:at 13|13 acl 14|18 case 15|18 amod 16|18 compound 17|14 nmod:as 18|23 case 19|23 det 20|23 compound 21|23 compound 22|14 nmod:at 23|26 case 24|26 compound 25|23 nmod:of 26|26 punct 27|30 det 28|30 amod 29|26 appos 30|30 acl 31|31 xcomp 32|35 case 33|35 compound 34|32 nmod:to 35|6 punct 36|
+<word> `` The scene has been sealed off for a full forensic and technical examination of the scene , '' he said . 
+<lemma> `` the scene have be seal off for a full forensic and technical examination of the scene , '' he say . 
+<POS> `` DT NN VBZ VBN VBN RP IN DT JJ JJ CC JJ NN IN DT NN , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (DT The) (NN scene)) (VP (VBZ has) (VP (VBN been) (VP (VBN sealed) (PRT (RP off)) (PP (IN for) (NP (NP (DT a) (JJ full) (ADJP (JJ forensic) (CC and) (JJ technical)) (NN examination)) (PP (IN of) (NP (DT the) (NN scene))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|21 punct 1|3 det 2|6 nsubjpass 3|6 aux 4|6 auxpass 5|21 ccomp 6|6 compound:prt 7|14 case 8|14 det 9|14 amod 10|14 amod 11|11 cc 12|11 conj:and 13|14 amod 13|6 nmod:for 14|17 case 15|17 det 16|14 nmod:of 17|21 punct 18|21 punct 19|21 nsubj 20|21 punct 22|
+<coreference> [['1,18,24,19', '6,25,36,26', '6,25,27,26', '6,28,36,30', '6,34,36,35'], ['4,20,22,21', '6,7,9,8'], ['6,1,6,5', '7,20,21,20'], ['7,2,4,3', '7,16,18,17']]
+</DOC>

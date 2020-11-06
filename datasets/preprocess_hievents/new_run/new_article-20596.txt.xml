@@ -1,0 +1,67 @@
+<DOC> article-20596.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 |
+<word> A group of suicide attackers stormed a government compound in western Afghanistan today , killing at least seven people , officials said . 
+<lemma> a group of suicide attacker storm a government compound in western Afghanistan today , kill at least seven people , official say . 
+<POS> DT NN IN NN NNS VBD DT NN NN IN JJ NNP NN , VBG IN JJS CD NNS , NNS VBD . 
+<NER> O O O O O O O O O O O LOCATION DATE O O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT A) (NN group)) (PP (IN of) (NP (NN suicide) (NNS attackers)))) (VP (VBD stormed) (NP (DT a) (NN government) (NN compound)) (PP (IN in) (NP (JJ western) (NNP Afghanistan))) (NP-TMP (NN today)) (, ,) (S (VP (VBG killing) (NP (QP (IN at) (JJS least) (CD seven)) (NNS people)))))) (, ,) (NP (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|2 det 1|6 nsubj 2|5 case 3|5 compound 4|2 nmod:of 5|22 ccomp 6|9 det 7|9 compound 8|6 dobj 9|12 case 10|12 amod 11|6 nmod:in 12|6 nmod:tmod 13|6 punct 14|6 advcl 15|17 case 16|18 nmod:npmod 17|19 nummod 18|15 dobj 19|22 punct 20|22 nsubj 21|22 punct 23|
+<word> The militants were armed with explosive-laden vests , automatic weapons and rocket propelled grenades for the assault on the governor 's complex in Farah province . 
+<lemma> the militant be arm with explosive-laden vest , automatic weapon and rocket propel grenade for the assault on the governor 's complex in Farah province . 
+<POS> DT NNS VBD VBN IN JJ NNS , JJ NNS CC NN VBD NNS IN DT NN IN DT NN POS NN IN NNP NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNS militants)) (VP (VBD were) (VP (VBN armed) (PP (IN with) (NP (JJ explosive-laden) (NNS vests)))))) (, ,) (NP (JJ automatic) (NNS weapons) (CC and) (NN rocket)) (VP (VBD propelled) (NP (NNS grenades)) (PP (IN for) (NP (NP (DT the) (NN assault)) (PP (IN on) (NP (NP (DT the) (NN governor) (POS 's)) (NN complex))))) (PP (IN in) (NP (NNP Farah) (NN province)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 det 1|4 nsubjpass 2|4 auxpass 3|13 ccomp 4|7 case 5|7 amod 6|4 nmod:with 7|13 punct 8|10 amod 9|13 nsubj 10|10 cc 11|10 conj:and 12|13 nsubj 12|13 dobj 14|17 case 15|17 det 16|13 nmod:for 17|22 case 18|20 det 19|22 nmod:poss 20|20 case 21|17 nmod:on 22|25 case 23|25 compound 24|13 nmod:in 25|13 punct 26|
+<word> One attacker blew himself up at the gate of the compound , then three others fought their way inside , said Raouf Ahmadi , the regional police spokesman . 
+<lemma> one attacker blow himself up at the gate of the compound , then three other fight they way inside , say Raouf Ahmadi , the regional police spokesman . 
+<POS> CD NN VBD PRP RP IN DT NN IN DT NN , RB CD NNS VBD PRP$ NN IN , VBD NNP NNP , DT JJ NN NN . 
+<NER> NUMBER O O O O O O O O O O O O NUMBER O O O O O O O PERSON PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (CD One) (NN attacker)) (VP (VP (VBD blew) (NP (PRP himself)) (PRT (RP up)) (PP (IN at) (NP (NP (DT the) (NN gate)) (PP (IN of) (NP (DT the) (NN compound)))))) (, ,) (ADVP (RB then) (NP (CD three) (NNS others))) (VP (VBD fought) (NP (PRP$ their) (NN way)) (PP (IN inside))))) (, ,) (VP (VBD said)) (NP (NP (NNP Raouf) (NNP Ahmadi)) (, ,) (NP (DT the) (JJ regional) (NN police) (NN spokesman))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|2 nummod 1|3 nsubj 2|21 ccomp 3|3 dobj 4|3 compound:prt 5|8 case 6|8 det 7|3 nmod:at 8|11 case 9|11 det 10|8 nmod:of 11|3 punct 12|3 advmod 13|15 nummod 14|13 nmod:npmod 15|3 dep 16|18 nmod:poss 17|16 dobj 18|16 nmod 19|21 punct 20|23 compound 22|21 nsubj 23|23 punct 24|28 det 25|28 amod 26|28 compound 27|23 appos 28|21 punct 29|
+<word> A two-hour gun battle with police left all the attackers dead , Mr Ahmadi said . 
+<lemma> a two-hour gun battle with police leave all the attacker dead , Mr Ahmadi say . 
+<POS> DT JJ NN NN IN NN VBD PDT DT NNS JJ , NNP NNP VBD . 
+<NER> O DURATION O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT A) (JJ two-hour) (NN gun) (NN battle)) (PP (IN with) (NP (NN police)))) (VP (VBD left) (S (NP (PDT all) (DT the) (NNS attackers)) (ADJP (JJ dead))))) (, ,) (NP (NNP Mr) (NNP Ahmadi)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|4 det 1|4 amod 2|4 compound 3|7 nsubj 4|6 case 5|4 nmod:with 6|15 ccomp 7|10 det:predet 8|10 det 9|11 nsubj 10|7 xcomp 11|15 punct 12|14 compound 13|15 nsubj 14|15 punct 16|
+<word> He added that six policemen and one civilian were also killed in the attack , while another 12 people were wounded . 
+<lemma> he add that six policeman and one civilian be also kill in the attack , while another 12 people be wound . 
+<POS> PRP VBD IN CD NNS CC CD JJ VBD RB VBN IN DT NN , IN DT CD NNS VBD VBN . 
+<NER> O O O NUMBER O O NUMBER O O O O O O O O O O NUMBER O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD added) (SBAR (IN that) (S (NP (NP (CD six) (NNS policemen)) (CC and) (NP (NP (CD one)) (ADJP (JJ civilian)))) (VP (VBD were) (VP (ADVP (RB also)) (VBN killed) (PP (IN in) (NP (DT the) (NN attack))) (, ,) (SBAR (IN while) (S (NP (DT another) (CD 12) (NNS people)) (VP (VBD were) (VP (VBN wounded)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|11 mark 3|5 nummod 4|11 nsubjpass 5|5 cc 6|5 conj:and 7|11 nsubjpass 7|7 amod 8|11 auxpass 9|11 advmod 10|2 ccomp 11|14 case 12|14 det 13|11 nmod:in 14|11 punct 15|21 mark 16|19 det 17|19 nummod 18|21 nsubjpass 19|21 auxpass 20|11 advcl:while 21|2 punct 22|
+<word> Government offices are a common target for militants in Afghanistan . 
+<lemma> Government office be a common target for militant in Afghanistan . 
+<POS> NNP NNS VBP DT JJ NN IN NNS IN NNP . 
+<NER> O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Government) (NNS offices)) (VP (VBP are) (NP (NP (DT a) (JJ common) (NN target)) (PP (IN for) (NP (NP (NNS militants)) (PP (IN in) (NP (NNP Afghanistan))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 compound 1|6 nsubj 2|6 cop 3|6 det 4|6 amod 5|8 case 7|6 nmod:for 8|10 case 9|8 nmod:in 10|6 punct 11|
+<word> Last month two Taliban fighters smuggled guns into the governor 's compound in Kandahar , sparking a gun battle in which two guards and both attackers were killed . 
+<lemma> last month two Taliban fighter smuggle gun into the governor 's compound in Kandahar , spark a gun battle in which two guard and both attacker be kill . 
+<POS> JJ NN CD NNP NNS VBD NNS IN DT NN POS NN IN NNP , VBG DT NN NN IN WDT CD NNS CC DT NNS VBD VBN . 
+<NER> DATE DATE NUMBER ORGANIZATION O O O O O O O O O LOCATION O O O O O O O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP-TMP (JJ Last) (NN month)) (NP (CD two) (NNP Taliban) (NNS fighters)) (VP (VBD smuggled) (NP (NNS guns)) (PP (IN into) (NP (NP (DT the) (NN governor) (POS 's)) (NN compound))) (PP (IN in) (NP (NNP Kandahar))) (, ,) (S (VP (VBG sparking) (NP (NP (DT a) (NN gun) (NN battle)) (SBAR (WHPP (IN in) (WHNP (WDT which))) (S (NP (NP (CD two) (NNS guards)) (CC and) (NP (DT both) (NNS attackers))) (VP (VBD were) (VP (VBN killed))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 amod 1|6 nmod:tmod 2|5 nummod 3|5 compound 4|6 nsubj 5|6 dobj 7|12 case 8|10 det 9|12 nmod:poss 10|10 case 11|6 nmod:into 12|14 case 13|6 nmod:in 14|6 punct 15|6 advcl 16|19 det 17|19 compound 18|16 dobj 19|28 nmod:in 19|21 case 20|19 ref 21|23 nummod 22|28 nsubjpass 23|23 cc 24|26 det 25|23 conj:and 26|28 nsubjpass 26|28 auxpass 27|19 acl:relcl 28|6 punct 29|
+<word> Elsewhere , Taliban militants attacked a Nato supply convoy overnight in Herat province . 
+<lemma> elsewhere , Taliban militant attack a Nato supply convoy overnight in Herat province . 
+<POS> RB , NNP NNS VBD DT NNP NN NN JJ IN NNP NN . 
+<NER> O O ORGANIZATION O O O ORGANIZATION O O TIME O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Elsewhere)) (, ,) (NP (NNP Taliban) (NNS militants)) (VP (VBD attacked) (NP (NP (DT a) (NNP Nato) (NN supply) (NN convoy) (JJ overnight)) (PP (IN in) (NP (NNP Herat) (NN province))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 advmod 1|5 punct 2|4 compound 3|5 nsubj 4|9 det 6|9 compound 7|9 compound 8|5 dobj 9|9 amod 10|13 case 11|13 compound 12|9 nmod:in 13|5 punct 14|
+<word> Provincial police spokesman Raouf Ahmadi said one police officer , two security guards and a militant were killed in the fighting . 
+<lemma> provincial police spokesman Raouf Ahmadi say one police officer , two security guard and a militant be kill in the fighting . 
+<POS> JJ NNS NN NNP NNP VBD CD NN NN , CD NN NNS CC DT JJ VBD VBN IN DT NN . 
+<NER> O O O PERSON PERSON O NUMBER O O O NUMBER O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Provincial) (NNS police)) (SBAR (S (NP (NN spokesman) (NNP Raouf) (NNP Ahmadi)) (VP (VBD said) (NP (NP (CD one) (NN police) (NN officer)) (, ,) (NP (CD two) (NN security) (NNS guards)) (CC and) (NP (DT a) (JJ militant))))))) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (DT the) (NN fighting))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|2 amod 1|18 nsubjpass 2|5 compound 3|5 compound 4|6 nsubj 5|2 acl:relcl 6|9 nummod 7|9 compound 8|6 dobj 9|9 punct 10|13 nummod 11|13 compound 12|6 dobj 13|9 conj:and 13|9 cc 14|16 det 15|6 dobj 16|9 conj:and 16|18 auxpass 17|21 case 19|21 det 20|18 nmod:in 21|18 punct 22|
+<coreference> [['1,7,10,9', '3,10,12,11'], ['1,11,13,12', '6,10,11,10'], ['2,19,22,20', '7,9,12,10'], ['3,22,24,23', '3,25,29,28'], ['3,1,3,2', '3,4,5,4'], ['3,14,16,15', '3,17,18,17'], ['9,3,6,5', '3,22,29,23'], ['4,13,15,14', '5,1,2,1'], ['7,3,4,3', '7,22,23,22', '9,11,12,11'], ['7,4,5,4', '8,3,4,3']]
+</DOC>

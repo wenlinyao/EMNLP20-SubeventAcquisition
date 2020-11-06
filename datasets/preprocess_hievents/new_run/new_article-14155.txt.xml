@@ -1,0 +1,39 @@
+<DOC> article-14155.txt.xml story
+<paragraph> | 0 1 2 3 4 |
+<word> As part of an operation involving the Garda National Drugs Unit , Gardai from the Kilkenny Division and Regional Support Units a search was carried out at double warehouse in Kildalton , Piltown , Co. . 
+<lemma> as part of a operation involve the Garda National Drugs Unit , Gardai from the Kilkenny Division and Regional support unit a search be carry out at double warehouse in Kildalton , Piltown , Co. . 
+<POS> IN NN IN DT NN VBG DT NNP NNP NNPS NNP , NNP IN DT NNP NNP CC NNP NN NNS DT NN VBD VBN RP IN JJ NN IN NNP , NNP , NNP . 
+<NER> O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O PERSON O O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O LOCATION O LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN As) (NP (NP (NN part)) (PP (IN of) (NP (NP (DT an) (NN operation)) (PP (VBG involving) (NP (NP (DT the) (NNP Garda) (NNP National) (NNPS Drugs) (NNP Unit)) (, ,) (NP (NP (NNP Gardai)) (PP (IN from) (NP (DT the) (NNP Kilkenny) (NNP Division) (CC and) (NNP Regional) (NN Support) (NNS Units)))))))))) (NP (DT a) (NN search)) (VP (VBD was) (VP (VBN carried) (PRT (RP out)) (PP (IN at) (NP (JJ double) (NN warehouse))) (PP (IN in) (NP (NP (NNP Kildalton)) (, ,) (NP (NNP Piltown) (, ,) (NNP Co.)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 25|2 case 1|25 nmod:as 2|5 case 3|5 det 4|2 nmod:of 5|11 case 6|11 det 7|11 compound 8|11 compound 9|11 compound 10|5 nmod:involving 11|11 punct 12|11 appos 13|17 case 14|17 det 15|17 compound 16|13 nmod:from 17|17 cc 18|21 compound 19|21 compound 20|13 nmod:from 21|17 conj:and 21|23 det 22|25 nsubjpass 23|25 auxpass 24|25 compound:prt 26|29 case 27|29 amod 28|25 nmod:at 29|31 case 30|25 nmod:in 31|31 punct 32|35 compound 33|35 punct 34|31 appos 35|25 punct 36|
+<word> Kilkenny , this evening . 
+<lemma> Kilkenny , this evening . 
+<POS> NNP , DT NN . 
+<NER> PERSON O TIME TIME O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NNP Kilkenny)) (, ,) (NP (DT this) (NN evening)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|1 punct 2|4 det 3|1 appos 4|1 punct 5|
+<word> During the search two Cannabis grow houses were discovered . 
+<lemma> during the search two Cannabis grow house be discover . 
+<POS> IN DT NN CD NNP VB NNS VBD VBN . 
+<NER> O O O NUMBER O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN During) (NP (DT the) (NN search))) (NP (NP (CD two)) (SBAR (S (NP (NNP Cannabis)) (VP (VB grow) (NP (NNS houses)))))) (VP (VBD were) (VP (VBN discovered))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 case 1|3 det 2|9 nmod:during 3|9 nsubjpass 4|6 nsubj 5|4 acl:relcl 6|6 dobj 7|9 auxpass 8|9 punct 10|
+<word> Cannabis plants at various stages of growth and Herbal Cannabis with a combined estimated street value of $ 3 million -LRB- subject to analysis -RRB- have been seized . 
+<lemma> cannabis plant at various stage of growth and herbal cannabis with a combined estimated street value of $ 3 million -lrb- subject to analysis -rrb- have be seize . 
+<POS> NN NNS IN JJ NNS IN NN CC JJ NN IN DT JJ JJ NN NN IN $ CD CD -LRB- NN TO NN -RRB- VBP VBN VBN . 
+<NER> O O O O O O O O O O O O O O O O O MONEY MONEY MONEY O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NN Cannabis) (NNS plants)) (PP (IN at) (NP (NP (NP (JJ various) (NNS stages)) (PP (IN of) (NP (NN growth)))) (CC and) (NP (NP (JJ Herbal) (NN Cannabis)) (PP (IN with) (NP (NP (DT a) (JJ combined) (JJ estimated) (NN street) (NN value)) (PP (IN of) (NP (NP (QP ($ $) (CD 3) (CD million))) (PRN (-LRB- -LRB-) (NP (NP (NN subject)) (PP (TO to) (NP (NN analysis)))) (-RRB- -RRB-)))))))))) (VP (VBP have) (VP (VBN been) (VP (VBN seized)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 28|2 compound 1|28 nsubjpass 2|5 case 3|5 amod 4|2 nmod:at 5|7 case 6|5 nmod:of 7|5 cc 8|10 amod 9|2 nmod:at 10|5 conj:and 10|16 case 11|16 det 12|16 amod 13|16 amod 14|16 compound 15|10 nmod:with 16|18 case 17|16 nmod:of 18|20 compound 19|18 nummod 20|22 punct 21|18 dep 22|24 case 23|22 nmod:to 24|22 punct 25|28 aux 26|28 auxpass 27|28 punct 29|
+<word> Three males aged in their 30s were arrested at the scene and are currently detained under Section 2 of the Criminal Justice -LRB- Drug Trafficking -RRB- Act , 1996 , at Thomastown and Kilkenny Garda Stations . 
+<lemma> three male age in they 30 be arrest at the scene and be currently detain under section 2 of the Criminal Justice -lrb- Drug trafficking -rrb- act , 1996 , at Thomastown and Kilkenny Garda Stations . 
+<POS> CD NNS VBN IN PRP$ NNS VBD VBN IN DT NN CC VBP RB VBN IN NN CD IN DT NNP NNP -LRB- NNP NN -RRB- NN , CD , IN NNP CC NNP NNP NNPS . 
+<NER> NUMBER O O O O O O O O O O O O DATE O O O NUMBER O O O O O O O O O O DATE O O LOCATION O ORGANIZATION ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Three) (NNS males)) (VP (VBN aged) (PP (IN in) (NP (PRP$ their) (NNS 30s))))) (VP (VP (VBD were) (VP (VBN arrested) (PP (IN at) (NP (DT the) (NN scene))))) (CC and) (VP (VBP are) (ADVP (RB currently)) (VP (VBN detained) (PP (IN under) (NP (NP (NN Section) (CD 2)) (PP (IN of) (NP (NP (DT the) (NP (NP (NNP Criminal) (NNP Justice)) (PRN (-LRB- -LRB-) (NP (NNP Drug) (NN Trafficking)) (-RRB- -RRB-))) (NN Act)) (, ,) (NP (CD 1996)) (, ,))))) (PP (IN at) (NP (NP (NNP Thomastown)) (CC and) (NP (NNP Kilkenny) (NNP Garda) (NNPS Stations))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 nummod 1|8 nsubjpass 2|15 nsubjpass 2|2 acl 3|6 case 4|6 nmod:poss 5|3 nmod:in 6|8 auxpass 7|11 case 9|11 det 10|8 nmod:at 11|8 cc 12|15 auxpass 13|15 advmod 14|8 conj:and 15|17 case 16|15 nmod:under 17|17 nummod 18|27 case 19|27 det 20|22 compound 21|27 compound 22|25 punct 23|25 compound 24|22 appos 25|25 punct 26|17 nmod:of 27|27 punct 28|27 amod 29|27 punct 30|32 case 31|15 nmod:at 32|32 cc 33|36 compound 34|36 compound 35|15 nmod:at 36|32 conj:and 36|8 punct 37|
+<coreference> [['1,13,22,13', '2,1,2,1'], ['1,22,24,23', '3,2,4,3'], ['5,29,30,29', '5,20,28,27']]
+</DOC>

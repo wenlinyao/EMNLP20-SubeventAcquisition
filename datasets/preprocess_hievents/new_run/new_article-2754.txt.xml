@@ -1,0 +1,88 @@
+<DOC> article-2754.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 |
+<word> Russian Prime Minister Vladimir Putin has said most Russians do not want a repeat of political unrest that occurred in neighbouring Kyrgyzstan and Ukraine . 
+<lemma> russian Prime Minister Vladimir Putin have say most Russians do not want a repeat of political unrest that occur in neighbouring Kyrgyzstan and Ukraine . 
+<POS> JJ NNP NNP NNP NNP VBZ VBN JJS NNPS VBP RB VB DT NN IN JJ NN WDT VBD IN JJ NNP CC NNP . 
+<NER> MISC O O PERSON PERSON O O O MISC O O O O O O O O O O O O LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Russian) (NNP Prime) (NNP Minister) (NNP Vladimir) (NNP Putin)) (VP (VBZ has) (VP (VBN said) (SBAR (S (NP (JJS most) (NNPS Russians)) (VP (VBP do) (RB not) (VP (VB want) (NP (NP (DT a) (NN repeat)) (PP (IN of) (NP (JJ political) (NN unrest))) (SBAR (WHNP (WDT that)) (S (VP (VBD occurred) (PP (IN in) (NP (JJ neighbouring) (NNP Kyrgyzstan) (CC and) (NNP Ukraine))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|5 amod 1|5 compound 2|5 compound 3|5 compound 4|7 nsubj 5|7 aux 6|9 amod 8|12 nsubj 9|12 aux 10|12 neg 11|7 ccomp 12|14 det 13|12 dobj 14|19 nsubj 14|17 case 15|17 amod 16|14 nmod:of 17|14 ref 18|14 acl:relcl 19|22 case 20|22 amod 21|19 nmod:in 22|22 cc 23|19 nmod:in 24|22 conj:and 24|7 punct 25|
+<word> Mr Putin also sought to address allegations of outside influence in the political process as the country is hit by a wave of protests after a disputed election on Sunday . 
+<lemma> Mr Putin also seek to address allegation of outside influence in the political process as the country be hit by a wave of protest after a dispute election on Sunday . 
+<POS> NNP NNP RB VBD TO VB NNS IN JJ NN IN DT JJ NN IN DT NN VBZ VBN IN DT NN IN NNS IN DT VBN NN IN NNP . 
+<NER> O PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Putin)) (ADVP (RB also)) (VP (VBD sought) (S (VP (TO to) (VP (VB address) (NP (NP (NNS allegations)) (PP (IN of) (NP (JJ outside) (NN influence)))) (PP (IN in) (NP (DT the) (JJ political) (NN process))) (SBAR (IN as) (S (NP (DT the) (NN country)) (VP (VBZ is) (VP (VBN hit) (PP (IN by) (NP (NP (DT a) (NN wave)) (PP (IN of) (NP (NNS protests))))) (PP (IN after) (NP (NP (DT a) (VBN disputed) (NN election)) (PP (IN on) (NP (NNP Sunday))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|6 nsubj:xsubj 2|4 advmod 3|6 mark 5|4 xcomp 6|6 dobj 7|10 case 8|10 amod 9|7 nmod:of 10|14 case 11|14 det 12|14 amod 13|6 nmod:in 14|19 mark 15|17 det 16|19 nsubjpass 17|19 auxpass 18|6 advcl:as 19|22 case 20|24 det:qmod 21|21 mwe 22|21 mwe 23|19 nmod 24|28 case 25|28 det 26|28 amod 27|19 nmod:after 28|30 case 29|28 nmod:on 30|4 punct 31|
+<word> His comments come after US secretary of state Hillary Clinton spoke about support of democratic opponents . 
+<lemma> he comment come after US secretary of state Hillary Clinton speak about support of democratic opponent . 
+<POS> PRP$ NNS VBN IN NNP NN IN NN NNP NNP VBD IN NN IN JJ NNS . 
+<NER> O O O O LOCATION O O O PERSON PERSON O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (PRP$ His) (NNS comments)) (VP (VBN come) (PP (IN after) (NP (NNP US) (NAC (NN secretary) (PP (IN of) (NP (NN state)))) (NNP Hillary) (NNP Clinton))))) (VP (VBD spoke) (PP (IN about) (NP (NP (NN support)) (PP (IN of) (NP (JJ democratic) (NNS opponents)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|2 nmod:poss 1|11 nsubj 2|2 acl 3|10 case 4|10 compound 5|10 dep 6|8 case 7|6 nmod:of 8|10 compound 9|3 nmod:after 10|13 case 12|11 nmod:about 13|16 case 14|16 amod 15|13 nmod:of 16|11 punct 17|
+<word> Mr Putin said that by describing Russia 's election as rigged , Mrs Clinton `` gave a signal '' to opposition parties : `` They heard this signal and with the support of the US State Department began their active work , '' he said . 
+<lemma> Mr Putin say that by describe Russia 's election as rig , Mrs Clinton `` give a signal '' to opposition party : `` they hear this signal and with the support of the US State Department begin they active work , '' he say . 
+<POS> NNP NNP VBD IN IN VBG NNP POS NN IN VBN , NNP NNP `` VBD DT NN '' TO NN NNS : `` PRP VBD DT NN CC IN DT NN IN DT NNP NNP NNP VBD PRP$ JJ NN , '' PRP VBD . 
+<NER> O PERSON O O O O LOCATION O O O O O PERSON PERSON O O O O O O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Mr) (NNP Putin)) (VP (VBD said) (SBAR (IN that) (S (PP (IN by) (S (VP (VBG describing) (NP (NP (NNP Russia) (POS 's)) (NN election)) (SBAR (IN as) (S (VP (VBN rigged))))))) (, ,) (NP (NNP Mrs) (NNP Clinton)) (VP (`` ``) (VBD gave) (NP (DT a) (NN signal)) ('' '') (PP (TO to) (NP (NN opposition) (NNS parties)))))))) (: :) (S (`` ``) (S (NP (PRP They)) (VP (VP (VBD heard) (NP (DT this) (NN signal))) (CC and) (VP (PP (IN with) (NP (NP (DT the) (NN support)) (PP (IN of) (NP (DT the) (NNP US) (NNP State) (NNP Department))))) (VBD began) (NP (PRP$ their) (JJ active) (NN work))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|16 mark 4|6 mark 5|16 advcl:by 6|9 nmod:poss 7|7 case 8|6 dobj 9|11 mark 10|6 advcl:as 11|16 punct 12|14 compound 13|16 nsubj 14|16 punct 15|3 ccomp 16|18 det 17|16 dobj 18|16 punct 19|22 case 20|22 compound 21|16 nmod:to 22|3 punct 23|45 punct 24|26 nsubj 25|38 nsubj 25|45 ccomp 26|28 det 27|26 dobj 28|26 cc 29|32 case 30|32 det 31|38 nmod:with 32|37 case 33|37 det 34|37 compound 35|37 compound 36|32 nmod:of 37|26 conj:and 38|45 ccomp 38|41 nmod:poss 39|41 amod 40|38 dobj 41|45 punct 42|45 punct 43|45 nsubj 44|3 parataxis 45|3 punct 46|
+<word> Mr Putin alleged that hundreds of millions of dollars in foreign funds were funnelled and used to sway the vote . 
+<lemma> Mr Putin allege that hundred of million of dollar in foreign fund be funnel and use to sway the vote . 
+<POS> NNP NNP VBD IN NNS IN NNS IN NNS IN JJ NNS VBD VBN CC VBN TO VB DT NN . 
+<NER> O PERSON O O MONEY MONEY MONEY MONEY MONEY O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Putin)) (VP (VBD alleged) (SBAR (IN that) (S (NP (NP (NNS hundreds)) (PP (IN of) (NP (NP (NNS millions)) (PP (IN of) (NP (NP (NNS dollars)) (PP (IN in) (NP (JJ foreign) (NNS funds)))))))) (VP (VBD were) (VP (VBN funnelled) (CC and) (VBN used) (S (VP (TO to) (VP (VB sway) (NP (DT the) (NN vote)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|14 mark 4|7 det:qmod 5|18 nsubj:xsubj 5|5 mwe 6|9 det:qmod 7|7 mwe 8|14 nsubjpass 9|16 nsubjpass 9|18 nsubj:xsubj 9|12 case 10|12 amod 11|9 nmod:in 12|14 auxpass 13|3 ccomp 14|14 cc 15|3 ccomp 16|14 conj:and 16|18 mark 17|14 xcomp 18|20 det 19|18 dobj 20|3 punct 21|
+<word> His ruling United Russia party lost a significant number of parliamentary seats in the election . 
+<lemma> he ruling United Russia party lose a significant number of parliamentary seat in the election . 
+<POS> PRP$ NN NNP NNP NN VBD DT JJ NN IN JJ NNS IN DT NN . 
+<NER> O O LOCATION LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP$ His) (NN ruling) (NNP United) (NNP Russia) (NN party)) (VP (VBD lost) (NP (NP (DT a) (JJ significant) (NN number)) (PP (IN of) (NP (JJ parliamentary) (NNS seats)))) (PP (IN in) (NP (DT the) (NN election)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 nmod:poss 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|9 det 7|9 amod 8|6 dobj 9|12 case 10|12 amod 11|9 nmod:of 12|15 case 13|15 det 14|6 nmod:in 15|6 punct 16|
+<word> Former Soviet leader Mikhail Gorbachev said the results must be annulled and a new poll held amid fraud claims . 
+<lemma> former soviet leader Mikhail Gorbachev say the result must be annul and a new poll hold amid fraud claim . 
+<POS> JJ JJ NN NNP NNP VBD DT NNS MD VB VBN CC DT JJ NN VBD IN NN NNS . 
+<NER> O MISC O PERSON PERSON O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (JJ Former) (JJ Soviet) (NN leader) (NNP Mikhail) (NNP Gorbachev)) (VP (VBD said) (SBAR (S (NP (DT the) (NNS results)) (VP (MD must) (VP (VB be) (VP (VBN annulled)))))))) (CC and) (S (NP (DT a) (JJ new) (NN poll)) (VP (VBD held) (PP (IN amid) (NP (NN fraud) (NNS claims))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 amod 1|5 amod 2|5 compound 3|5 compound 4|6 nsubj 5|8 det 7|11 nsubjpass 8|11 aux 9|11 auxpass 10|6 ccomp 11|6 cc 12|15 det 13|15 amod 14|16 nsubj 15|6 conj:and 16|19 case 17|19 compound 18|16 nmod:amid 19|6 punct 20|
+<word> Days of protests have hit the capital Moscow and elsewhere as residents vent their anger at the ruling elite . 
+<lemma> day of protest have hit the capital Moscow and elsewhere as resident vent they anger at the ruling elite . 
+<POS> NNS IN NNS VBP VBN DT NN NNP CC RB IN NNS VBP PRP$ NN IN DT NN NN . 
+<NER> DURATION O O O O O O LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Days)) (PP (IN of) (NP (NNS protests)))) (VP (VBP have) (VP (VBN hit) (NP (NP (DT the) (NN capital)) (UCP (NP (NNP Moscow)) (CC and) (ADVP (RB elsewhere)))) (SBAR (IN as) (S (NP (NNS residents)) (VP (VBP vent) (NP (PRP$ their) (NN anger)) (PP (IN at) (NP (DT the) (NN ruling) (NN elite)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|3 case 2|1 nmod:of 3|5 aux 4|7 det 6|5 dobj 7|7 dep 8|8 cc 9|8 advmod 10|13 mark 11|13 nsubj 12|5 advcl:as 13|15 nmod:poss 14|13 dobj 15|19 case 16|19 det 17|19 compound 18|13 nmod:at 19|5 punct 20|
+<word> More than 250 people were arrested during rallies in Moscow and St Petersburg on Tuesday night as they demanded Mr Putin step down . 
+<lemma> more than 250 people be arrest during rally in Moscow and St Petersburg on Tuesday night as they demand Mr Putin step down . 
+<POS> JJR IN CD NNS VBD VBN IN NNS IN NNP CC NNP NNP IN NNP NN IN PRP VBD NNP NNP VB RP . 
+<NER> O O NUMBER O O O O O O LOCATION O LOCATION LOCATION O DATE TIME O O O O PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (QP (JJR More) (IN than) (CD 250)) (NNS people)) (VP (VBD were) (VP (VBN arrested) (PP (IN during) (NP (NP (NP (NNS rallies)) (PP (IN in) (NP (NNP Moscow)))) (CC and) (NP (NP (NNP St) (NNP Petersburg)) (PP (IN on) (NP (NNP Tuesday)))))) (NP-TMP (NN night)) (SBAR (IN as) (S (NP (PRP they)) (VP (VBD demanded) (S (NP (NNP Mr) (NNP Putin)) (VP (VB step) (PRT (RP down))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 advmod 1|1 mwe 2|4 nummod 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:during 8|10 case 9|8 nmod:in 10|8 cc 11|13 compound 12|6 nmod:during 13|8 conj:and 13|15 case 14|13 nmod:on 15|6 nmod:tmod 16|19 mark 17|19 nsubj 18|6 advcl:as 19|21 compound 20|22 nsubj 21|19 ccomp 22|22 compound:prt 23|6 punct 24|
+<word> Thousands of troops have been deployed in the Russian capital as a result . 
+<lemma> thousand of troops have be deploy in the russian capital as a result . 
+<POS> NNS IN NNS VBP VBN VBN IN DT JJ NN IN DT NN . 
+<NER> O O O O O O O O MISC O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Thousands)) (PP (IN of) (NP (NNS troops)))) (VP (VBP have) (VP (VBN been) (VP (VBN deployed) (PP (IN in) (NP (NP (DT the) (JJ Russian) (NN capital)) (PP (IN as) (NP (DT a) (NN result)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det:qmod 1|1 mwe 2|6 nsubjpass 3|6 aux 4|6 auxpass 5|10 case 7|10 det 8|10 amod 9|6 nmod:in 10|13 case 11|13 det 12|10 nmod:as 13|6 punct 14|
+<word> Liberal opposition party leader Boris Nemtsov was among the hundreds of people who were arrested . 
+<lemma> liberal opposition party leader Boris Nemtsov be among the hundred of people who be arrest . 
+<POS> JJ NN NN NN NNP NNP VBD IN DT NNS IN NNS WP VBD VBN . 
+<NER> O O O O PERSON PERSON O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Liberal) (NN opposition) (NN party) (NN leader) (NNP Boris) (NNP Nemtsov)) (VP (VBD was) (PP (IN among) (NP (NP (DT the) (NNS hundreds)) (PP (IN of) (NP (NP (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN arrested)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|6 amod 1|6 compound 2|6 compound 3|6 compound 4|6 compound 5|10 nsubj 6|10 cop 7|10 case 8|10 det 9|12 det:qmod 10|10 mwe 11|15 nsubjpass 12|12 ref 13|15 auxpass 14|12 acl:relcl 15|10 punct 16|
+<word> He was later released without charge . 
+<lemma> he be later release without charge . 
+<POS> PRP VBD RB VBN IN NN . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD was) (ADVP (RB later)) (VP (VBN released) (PP (IN without) (NP (NN charge))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubjpass 1|4 auxpass 2|4 advmod 3|6 case 5|4 nmod:without 6|4 punct 7|
+<coreference> [['2,1,3,2', '3,1,2,1', '4,1,3,2', '4,44,45,44', '5,1,3,2', '6,1,2,1', '9,20,22,21'], ['2,24,25,24', '8,3,4,3'], ['4,7,10,9', '6,14,16,15'], ['4,17,19,18', '4,27,29,28'], ['4,21,23,22', '4,25,26,25', '4,39,40,39'], ['8,8,9,8', '9,10,11,10'], ['8,12,13,12', '8,14,15,14'], ['9,1,5,4', '9,18,19,18'], ['11,1,7,6', '12,1,2,1']]
+</DOC>

@@ -1,0 +1,81 @@
+<DOC> article-17213.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> Lance Corporal Lee Thomas Davies , 27 , from the 1st Battalion Welsh Guards , was killed alongside Corporal Brent John McCarthy , 25 , of the Royal Air Force at a patrol base in the Lashkar Gah district of Helmand province . 
+<lemma> Lance corporal Lee Thomas Davies , 27 , from the 1st Battalion Welsh Guards , be kill alongside corporal Brent John McCarthy , 25 , of the Royal Air Force at a patrol base in the Lashkar Gah district of Helmand province . 
+<POS> NNP NN NNP NNP NNP , CD , IN DT CD NNP NNP NNP , VBD VBN IN NN NNP NNP NNP , CD , IN DT NNP NNP NNP IN DT NN NN IN DT NNP NNP NN IN NNP NN . 
+<NER> PERSON PERSON PERSON PERSON PERSON O NUMBER O O O ORDINAL MISC MISC MISC O O O O O O PERSON PERSON O NUMBER O O O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O LOCATION LOCATION LOCATION O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Lance) (NN Corporal) (NNP Lee) (NNP Thomas) (NNP Davies)) (, ,) (NP (CD 27)) (, ,) (PP (IN from) (NP (DT the) (CD 1st) (NNP Battalion) (NNP Welsh) (NNP Guards))) (, ,)) (VP (VBD was) (VP (VBN killed) (PP (IN alongside) (NP (NP (NP (NN Corporal) (NNP Brent) (NNP John) (NNP McCarthy)) (, ,) (NP (CD 25)) (, ,)) (PP (IN of) (NP (DT the) (NNP Royal) (NNP Air) (NNP Force))))) (PP (IN at) (NP (NP (DT a) (NN patrol) (NN base)) (PP (IN in) (NP (NP (DT the) (NNP Lashkar) (NNP Gah) (NN district)) (PP (IN of) (NP (NNP Helmand) (NN province))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|5 compound 1|5 compound 2|5 compound 3|5 compound 4|17 nsubjpass 5|5 punct 6|5 amod 7|5 punct 8|14 case 9|14 det 10|14 nummod 11|14 compound 12|14 compound 13|5 nmod:from 14|5 punct 15|17 auxpass 16|22 case 18|22 compound 19|22 compound 20|22 compound 21|17 nmod:alongside 22|22 punct 23|22 amod 24|22 punct 25|30 case 26|30 det 27|30 compound 28|30 compound 29|22 nmod:of 30|34 case 31|34 det 32|34 compound 33|17 nmod:at 34|39 case 35|39 det 36|39 compound 37|39 compound 38|34 nmod:in 39|42 case 40|42 compound 41|39 nmod:of 42|17 punct 43|
+<word> The servicemen were providing security for a meeting with local officials when two people wearing Afghan police uniforms opened fire . 
+<lemma> the serviceman be provide security for a meeting with local official when two people wear Afghan police uniform open fire . 
+<POS> DT NNS VBD VBG NN IN DT NN IN JJ NNS WRB CD NNS VBG NNP NNS NNS VBD NN . 
+<NER> O O O O O O O O O O O O NUMBER O O MISC O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS servicemen)) (VP (VBD were) (VP (VBG providing) (NP (NP (NN security)) (PP (IN for) (NP (NP (DT a) (NN meeting)) (PP (IN with) (NP (JJ local) (NNS officials)))))) (SBAR (WHADVP (WRB when)) (S (NP (NP (CD two) (NNS people)) (VP (VBG wearing) (NP (NNP Afghan) (NNS police)) (NP (NNS uniforms)))) (VP (VBD opened) (NP (NN fire))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|4 dobj 5|8 case 6|8 det 7|5 nmod:for 8|11 case 9|11 amod 10|8 nmod:with 11|19 advmod 12|14 nummod 13|19 nsubj 14|14 acl 15|17 compound 16|15 iobj 17|15 dobj 18|4 advcl 19|19 dobj 20|4 punct 21|
+<word> One of the policemen was shot dead in an ensuing gunfight and the other fled and has yet to be caught . 
+<lemma> one of the policeman be shoot dead in a ensue gunfight and the other flee and have yet to be catch . 
+<POS> CD IN DT NNS VBD VBN JJ IN DT VBG NN CC DT JJ VBN CC VBZ RB TO VB VBN . 
+<NER> NUMBER O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD One)) (PP (IN of) (NP (DT the) (NNS policemen)))) (VP (VBD was) (VP (VBN shot) (S (S (ADJP (JJ dead) (PP (IN in) (NP (NP (DT an) (VBG ensuing) (NN gunfight)) (CC and) (NP (NP (DT the) (JJ other)) (VP (VBN fled))))))) (CC and) (S (VP (VBZ has) (ADVP (RB yet)) (S (VP (TO to) (VP (VB be) (VP (VBN caught)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det:qmod 1|1 mwe 2|4 det 3|6 nsubjpass 4|6 auxpass 5|6 xcomp 7|11 case 8|11 det 9|11 amod 10|7 nmod:in 11|11 cc 12|14 det 13|7 nmod:in 14|11 conj:and 14|14 acl 15|7 cc 16|6 xcomp 17|7 conj:and 17|17 advmod 18|21 mark 19|21 auxpass 20|17 xcomp 21|6 punct 22|
+<word> The killings in Helmand came less than two months after two other British servicemen were shot dead by an Afghan soldier in Lashkar Gah after an apparent quarrel . 
+<lemma> the killing in Helmand come less than two month after two other british serviceman be shoot dead by a Afghan soldier in Lashkar Gah after a apparent quarrel . 
+<POS> DT NNS IN NNP VBD JJR IN CD NNS IN CD JJ JJ NNS VBD VBN JJ IN DT NNP NN IN NNP NNP IN DT JJ VBP . 
+<NER> O O O LOCATION O DURATION DURATION DURATION DURATION O NUMBER O MISC O O O O O O MISC O O LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNS killings)) (PP (IN in) (NP (NNP Helmand)))) (VP (VBD came) (NP-TMP (QP (JJR less) (IN than) (CD two)) (NNS months)) (SBAR (IN after) (S (NP (CD two) (JJ other) (JJ British) (NNS servicemen)) (VP (VBD were) (VP (VBN shot) (ADJP (JJ dead) (PP (IN by) (NP (NP (DT an) (NNP Afghan) (NN soldier)) (PP (IN in) (NP (NNP Lashkar) (NNP Gah)))))) (SBAR (IN after) (S (NP (DT an) (JJ apparent)) (VP (VBP quarrel))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|4 case 3|2 nmod:in 4|8 advmod 6|6 mwe 7|9 nummod 8|5 nmod:tmod 9|16 mark 10|14 nummod 11|14 amod 12|14 amod 13|16 nsubjpass 14|16 auxpass 15|5 advcl:after 16|16 xcomp 17|21 case 18|21 det 19|21 compound 20|17 nmod:by 21|24 case 22|24 compound 23|21 nmod:in 24|28 mark 25|27 det 26|28 nsubj 27|16 advcl:after 28|5 punct 29|
+<word> A total of 414 British troops have died in the Afghan campaign . 
+<lemma> a total of 414 british troops have die in the Afghan campaign . 
+<POS> DT NN IN CD JJ NNS VBP VBN IN DT NNP NN . 
+<NER> O O O NUMBER MISC O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN total)) (PP (IN of) (NP (CD 414) (JJ British) (NNS troops)))) (VP (VBP have) (VP (VBN died) (PP (IN in) (NP (DT the) (NNP Afghan) (NN campaign))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|6 det:qmod 1|1 mwe 2|1 mwe 3|6 nummod 4|6 amod 5|8 nsubj 6|8 aux 7|12 case 9|12 det 10|12 compound 11|8 nmod:in 12|8 punct 13|
+<word> Around 20 coalition troops have been shot dead in 2012 so far by their allies and many more wounded . 
+<lemma> around 20 coalition troops have be shoot dead in 2012 so far by they ally and many more wound . 
+<POS> IN CD NN NNS VBP VBN VBN JJ IN CD RB RB IN PRP$ NNS CC JJ JJR VBN . 
+<NER> O NUMBER O O O O O O O DATE O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN Around) (NP (CD 20))) (NP (NN coalition) (NNS troops)) (VP (VBP have) (VP (VBN been) (VP (VBN shot) (S (ADJP (JJ dead) (PP (IN in) (NP (CD 2012))))) (ADVP (RB so) (RB far) (PP (IN by) (NP (NP (PRP$ their) (NNS allies)) (CC and) (NP (NP (JJ many) (JJR more)) (VP (VBN wounded))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|7 nmod:around 2|4 compound 3|7 nsubjpass 4|7 aux 5|7 auxpass 6|7 xcomp 8|10 case 9|8 nmod:in 10|12 advmod 11|7 advmod 12|15 case 13|15 nmod:poss 14|12 nmod:by 15|15 cc 16|18 amod 17|12 nmod:by 18|15 conj:and 18|18 acl 19|7 punct 20|
+<word> The toll of the `` green on blue '' attacks has risen steeply in the past year , leading commanders to enforce new safeguards against infiltration and assassination , including `` guardian angel '' sentries to watch over soldiers as they eat or sleep . 
+<lemma> the toll of the `` green on blue '' attack have rise steeply in the past year , lead commander to enforce new safeguard against infiltration and assassination , include `` guardian angel '' sentry to watch over soldier as they eat or sleep . 
+<POS> DT NN IN DT `` JJ IN JJ '' NNS VBZ VBN RB IN DT JJ NN , VBG NNS TO VB JJ NNS IN NN CC NN , VBG `` NN NN '' NNS TO VB IN NNS IN PRP VBP CC VBP . 
+<NER> O O O O O O O O O O O O O O DATE DATE DATE O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN toll)) (PP (IN of) (NP (DT the) (NP (`` ``) (ADJP (JJ green) (PP (IN on) (ADJP (JJ blue)))) ('' '') (NNS attacks))))) (VP (VBZ has) (VP (VBN risen) (ADVP (RB steeply)) (PP (IN in) (NP (DT the) (JJ past) (NN year))) (, ,) (S (VP (VBG leading) (NP (NNS commanders)) (S (VP (TO to) (VP (VB enforce) (NP (NP (JJ new) (NNS safeguards)) (PP (IN against) (NP (NN infiltration) (CC and) (NN assassination))) (, ,) (PP (VBG including) (NP (`` ``) (NP (NN guardian) (NN angel)) ('' '') (NNS sentries)))) (S (VP (TO to) (VP (VB watch) (PP (IN over) (NP (NNS soldiers))) (SBAR (IN as) (S (NP (PRP they)) (VP (VBP eat) (CC or) (VBP sleep)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|2 det 1|12 nsubj 2|10 case 3|10 det 4|10 punct 5|10 amod 6|8 case 7|6 advcl:on 8|10 punct 9|2 nmod:of 10|12 aux 11|12 advmod 13|17 case 14|17 det 15|17 amod 16|12 nmod:in 17|12 punct 18|12 xcomp 19|19 dobj 20|22 mark 21|19 advcl:to 22|24 amod 23|22 dobj 24|26 case 25|24 nmod:against 26|26 cc 27|24 nmod:against 28|26 conj:and 28|24 punct 29|35 case 30|35 punct 31|33 compound 32|35 compound 33|35 punct 34|24 nmod:including 35|37 mark 36|22 advcl:to 37|39 case 38|37 nmod:over 39|42 mark 40|42 nsubj 41|44 nsubj 41|37 advcl:as 42|42 cc 43|37 advcl:as 44|42 conj:or 44|12 punct 45|
+<word> The reasons for the killings remain unclear . 
+<lemma> the reason for the killing remain unclear . 
+<POS> DT NNS IN DT NNS VBP JJ . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNS reasons)) (PP (IN for) (NP (DT the) (NNS killings)))) (VP (VBP remain) (ADJP (JJ unclear))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|5 case 3|5 det 4|2 nmod:for 5|6 xcomp 7|6 punct 8|
+<word> While some appear to be assassinations by Taliban sympathisers , many appear instead to be due to disputes and arguments . 
+<lemma> while some appear to be assassination by Taliban sympathiser , many appear instead to be due to dispute and argument . 
+<POS> IN DT VBP TO VB NNS IN NNP NNS , JJ VBP RB TO VB JJ TO NNS CC NNS . 
+<NER> O O O O O O O ORGANIZATION O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (SBAR (IN While) (S (NP (DT some)) (VP (VBP appear) (S (VP (TO to) (VP (VB be) (NP (NNS assassinations)) (PP (IN by) (NP (NNP Taliban) (NNS sympathisers))))))))) (, ,) (NP (JJ many)) (VP (VBP appear) (ADVP (RB instead)) (S (VP (TO to) (VP (VB be) (ADJP (JJ due) (PP (TO to) (NP (NNS disputes) (CC and) (NNS arguments)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|3 mark 1|3 nsubj 2|6 nsubj:xsubj 2|12 advcl:while 3|6 mark 4|6 cop 5|3 xcomp 6|9 case 7|9 compound 8|6 nmod:by 9|12 punct 10|12 nsubj 11|16 nsubj:xsubj 11|12 advmod 13|16 mark 14|16 cop 15|12 xcomp 16|18 case 17|16 nmod:to 18|18 cc 19|16 nmod:to 20|18 conj:and 20|12 punct 21|
+<word> Coalition commanders seeking to play down the significance of the killings have said there are many more incidents where Afghan police or soldiers shoot each other due to feuds or grievances . 
+<lemma> Coalition commander seek to play down the significance of the killing have say there be many more incident where Afghan police or soldier shoot each other due to feud or grievance . 
+<POS> NNP NNS VBG TO VB RP DT NN IN DT NNS VBP VBN EX VBP JJ JJR NNS WRB NNP NN CC NNS VBP DT JJ JJ TO NNS CC NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O MISC O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Coalition) (NNS commanders)) (VP (VBG seeking) (S (VP (TO to) (VP (VB play) (PRT (RP down)) (NP (NP (DT the) (NN significance)) (PP (IN of) (NP (DT the) (NNS killings))))))))) (VP (VBP have) (VP (VBN said) (SBAR (S (NP (EX there)) (VP (VBP are) (NP (NP (JJ many) (JJR more) (NNS incidents)) (SBAR (WHADVP (WRB where)) (S (NP (NP (NNP Afghan) (NN police)) (CC or) (NP (NNS soldiers))) (VP (VBP shoot) (ADJP (DT each) (JJ other) (JJ due)) (PP (TO to) (NP (NNS feuds) (CC or) (NNS grievances)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 compound 1|13 nsubj 2|2 acl 3|5 mark 4|3 xcomp 5|5 compound:prt 6|8 det 7|5 dobj 8|11 case 9|11 det 10|8 nmod:of 11|13 aux 12|15 expl 14|13 ccomp 15|18 amod 16|18 amod 17|15 nsubj 18|24 advmod 19|21 compound 20|24 nsubj 21|21 cc 22|21 conj:or 23|24 nsubj 23|18 acl:relcl 24|27 det 25|27 amod 26|24 xcomp 27|29 case 28|24 nmod:to 29|29 cc 30|24 nmod:to 31|29 conj:or 31|13 punct 32|
+<word> They also claim the increase in the number of shootings only mirrors the rapidly growing size of the Afghan police and army . 
+<lemma> they also claim the increase in the number of shooting only mirror the rapidly grow size of the Afghan police and army . 
+<POS> PRP RB VBP DT NN IN DT NN IN NNS RB VBZ DT RB VBG NN IN DT NNP NN CC NN . 
+<NER> O O O O O O O O O O O O O O O O O O MISC O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (ADVP (RB also)) (VP (VBP claim) (SBAR (S (NP (NP (DT the) (NN increase)) (PP (IN in) (NP (NP (DT the) (NN number)) (PP (IN of) (NP (NNS shootings)))))) (ADVP (RB only)) (VP (VBZ mirrors) (NP (NP (DT the) (ADJP (RB rapidly) (VBG growing)) (NN size)) (PP (IN of) (NP (NP (DT the) (NNP Afghan) (NN police)) (CC and) (NP (NN army))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|5 det 4|12 nsubj 5|8 case 6|8 det 7|5 nmod:in 8|10 case 9|8 nmod:of 10|12 advmod 11|3 ccomp 12|16 det 13|15 advmod 14|16 amod 15|12 dobj 16|20 case 17|20 det 18|20 compound 19|16 nmod:of 20|20 cc 21|16 nmod:of 22|20 conj:and 22|3 punct 23|
+<coreference> [['1,36,43,39', '4,4,5,4', '4,23,24,23'], ['2,13,14,13', '4,11,12,11'], ['11,18,21,20', '2,16,18,17', '10,20,22,21'], ['4,1,5,2', '8,4,6,5', '10,10,12,11'], ['6,3,5,4', '6,14,15,14'], ['7,39,40,39', '7,41,42,41', '10,23,24,23'], ['10,1,12,2', '11,1,2,1']]
+</DOC>

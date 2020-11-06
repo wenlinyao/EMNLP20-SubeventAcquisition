@@ -1,0 +1,116 @@
+<DOC> article-16742.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 |
+<word> Greek state television says radical left SYRIZA party leader Alexis Tsipras is refusing to attend the next round of coalition talks on Monday , convened by the country 's president . 
+<lemma> greek state television say radical leave SYRIZA party leader Alexis Tsipras be refuse to attend the next round of coalition talk on Monday , convene by the country 's president . 
+<POS> JJ NN NN VBZ JJ VBD NNP NN NN NNP NNP VBZ VBG TO VB DT JJ NN IN NN NNS IN NNP , VBN IN DT NN POS NN . 
+<NER> MISC O O O O O ORGANIZATION O O PERSON PERSON O O O O O O O O O O O DATE O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Greek) (NN state) (NN television)) (VP (VBZ says) (ADJP (JJ radical) (SBAR (S (VP (VBD left) (SBAR (S (NP (NNP SYRIZA) (NN party) (NN leader) (NNP Alexis) (NNP Tsipras)) (VP (VBZ is) (VP (VBG refusing) (S (VP (TO to) (VP (VB attend) (NP (NP (DT the) (JJ next) (NN round)) (PP (IN of) (NP (NN coalition) (NNS talks)))) (PP (IN on) (NP (NP (NNP Monday)) (, ,) (VP (VBN convened) (PP (IN by) (NP (NP (DT the) (NN country) (POS 's)) (NN president)))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 amod 1|3 compound 2|4 nsubj 3|4 xcomp 5|5 ccomp 6|11 compound 7|11 compound 8|11 compound 9|11 compound 10|13 nsubj 11|15 nsubj:xsubj 11|13 aux 12|6 ccomp 13|15 mark 14|13 xcomp 15|18 det 16|18 amod 17|15 dobj 18|21 case 19|21 compound 20|18 nmod:of 21|23 case 22|15 nmod:on 23|23 punct 24|23 acl 25|30 case 26|28 det 27|30 nmod:poss 28|28 case 29|25 nmod:by 30|4 punct 31|
+<word> Tsipras insists he wo n't join any coalition government seeking to push ahead with an international bailout deal . 
+<lemma> tsipras insist he will not join any coalition government seek to push ahead with a international bailout deal . 
+<POS> FW VBZ PRP MD RB VB DT NN NN VBG TO VB RB IN DT JJ NN NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (FW Tsipras)) (VP (VBZ insists) (SBAR (S (NP (PRP he)) (VP (MD wo) (RB n't) (VP (VB join) (NP (NP (DT any) (NN coalition) (NN government)) (VP (VBG seeking) (S (VP (TO to) (VP (VB push) (ADVP (RB ahead)) (PP (IN with) (NP (DT an) (JJ international) (NN bailout) (NN deal))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 nsubj 3|6 aux 4|6 neg 5|2 ccomp 6|9 det 7|9 compound 8|6 dobj 9|9 acl 10|12 mark 11|10 xcomp 12|12 advmod 13|18 case 14|18 det 15|18 amod 16|18 compound 17|12 nmod:with 18|2 punct 19|
+<word> The continued political deadlock is bringing the prospect of an election re-run ever closer . 
+<lemma> the continue political deadlock be bring the prospect of a election re-run ever closer . 
+<POS> DT VBN JJ NN VBZ VBG DT NN IN DT NN NN RB RBR . 
+<NER> O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (VBN continued) (JJ political) (NN deadlock)) (VP (VBZ is) (VP (VBG bringing) (NP (NP (DT the) (NN prospect)) (PP (IN of) (NP (DT an) (NN election) (NN re-run)))) (ADVP (RB ever) (RBR closer)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 amod 2|4 amod 3|6 nsubj 4|6 aux 5|8 det 7|6 dobj 8|12 case 9|12 det 10|12 compound 11|8 nmod:of 12|14 advmod 13|6 advmod 14|6 punct 15|
+<word> The discussions continue ... but without agreement , and apparently , with little compromise . 
+<lemma> the discussion continue ... but without agreement , and apparently , with little compromise . 
+<POS> DT NNS VBP : CC IN NN , CC RB , IN JJ NN . 
+<NER> O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS discussions)) (VP (VBP continue) (: ...) (PP (CC but) (PP (IN without) (NP (NP (NN agreement)) (, ,) (CC and) (ADVP (RB apparently)) (, ,)))) (PP (IN with) (NP (JJ little) (NN compromise)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|3 punct 4|7 cc 5|7 case 6|3 nmod:without 7|7 punct 8|7 cc 9|3 nmod:without 10|7 conj:but 10|7 punct 11|14 case 12|14 amod 13|3 nmod:with 14|3 punct 15|
+<word> Leftists leader Alexis Tsipras on Sunday met with President Karolos Papoulias , along with the leaders of Greece 's two other main parties - the conservative `` New Democracy '' and the socialist `` PASOK '' . 
+<lemma> leftist leader Alexis Tsipras on Sunday meet with President Karolos Papoulias , along with the leader of Greece 's two other main party - the conservative `` New Democracy '' and the socialist `` PASOK '' . 
+<POS> NNS NN NNP NNP IN NNP VBD IN NNP NNP NNP , IN IN DT NNS IN NNP POS CD JJ JJ NNS : DT JJ `` NNP NNP '' CC DT JJ `` NNP '' . 
+<NER> O O PERSON PERSON O DATE O O O PERSON PERSON O O O O O O LOCATION O NUMBER O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Leftists)) (NP (NN leader)) (NP (NP (NNP Alexis) (NNP Tsipras)) (PP (IN on) (NP (NNP Sunday))))) (VP (VBD met) (PP (IN with) (NP (NP (NP (NNP President) (NNP Karolos) (NNP Papoulias)) (, ,) (ADVP (IN along) (PP (IN with) (NP (NP (DT the) (NNS leaders)) (PP (IN of) (NP (NP (NNP Greece) (POS 's)) (CD two) (JJ other) (JJ main) (NNS parties))))))) (: -) (NP (DT the) (JJ conservative) (`` ``) (NNP New) (NNP Democracy) ('' '')) (CC and) (NP (DT the) (JJ socialist) (`` ``) (NNP PASOK)) ('' '')))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 nsubj 1|1 dep 2|4 compound 3|1 dep 4|6 case 5|4 nmod:on 6|11 case 8|11 compound 9|11 compound 10|7 nmod:with 11|11 punct 12|11 advmod 13|16 case 14|16 det 15|13 nmod:with 16|23 case 17|23 nmod:poss 18|18 case 19|23 nummod 20|23 amod 21|23 amod 22|16 nmod:of 23|11 punct 24|29 det 25|29 amod 26|29 punct 27|29 compound 28|7 nmod:with 29|11 conj:and 29|29 punct 30|11 cc 31|35 det 32|35 amod 33|35 punct 34|7 nmod:with 35|11 conj:and 35|11 punct 36|7 punct 37|
+<word> THEY 'RE both accusing Tsipras 's SYRIZA party of shirking its social responsibility , by refusing to participate in a unity government . 
+<lemma> THEY 'RE both accuse Tsipras 's SYRIZA party of shirk its social responsibility , by refuse to participate in a unity government . 
+<POS> NNP NNP CC VBG NNP POS NNP NN IN VBG PRP$ JJ NN , IN VBG TO VB IN DT NN NN . 
+<NER> O O O O PERSON O ORGANIZATION O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NNP THEY) (NNP 'RE)) (PP (CC both) (S (VP (VBG accusing) (NP (NP (NNP Tsipras) (POS 's)) (NNP SYRIZA) (NN party)) (PP (IN of) (S (VP (VBG shirking) (NP (PRP$ its) (JJ social) (NN responsibility))))) (, ,) (PP (IN by) (S (VP (VBG refusing) (S (VP (TO to) (VP (VB participate) (PP (IN in) (NP (DT a) (NN unity) (NN government)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 compound 1|4 dep 3|2 acl 4|8 nmod:poss 5|5 case 6|8 compound 7|4 dobj 8|10 mark 9|4 advcl:of 10|13 nmod:poss 11|13 amod 12|10 dobj 13|4 punct 14|16 mark 15|4 advcl:by 16|18 mark 17|16 xcomp 18|22 case 19|22 det 20|22 compound 21|18 nmod:in 22|2 punct 23|
+<word> But speaking afterwards , Tsipras reiterated that his party was bound by its election promise - to DITCH the country 's EU-IMF-backed bailout agreement . 
+<lemma> but speak afterwards , tsipras reiterate that he party be bind by its election promise - to ditch the country 's eu-imf-backed bailout agreement . 
+<POS> CC VBG RB , FW VBD IN PRP$ NN VBD VBN IN PRP$ NN NN : TO VB DT NN POS JJ NN NN . 
+<NER> O O O O PERSON O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (S (VP (VBG speaking) (ADVP (RB afterwards)))) (, ,) (NP (FW Tsipras)) (VP (VBD reiterated) (SBAR (IN that) (S (NP (PRP$ his) (NN party)) (VP (VBD was) (VP (VBN bound) (PP (IN by) (NP (PRP$ its) (NN election) (NN promise))))))) (: -) (S (VP (TO to) (VP (VB DITCH) (NP (NP (DT the) (NN country) (POS 's)) (JJ EU-IMF-backed) (NN bailout) (NN agreement)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 cc 1|6 advcl 2|2 advmod 3|6 punct 4|6 nsubj 5|11 mark 7|9 nmod:poss 8|11 nsubjpass 9|11 auxpass 10|6 ccomp 11|15 case 12|15 nmod:poss 13|15 compound 14|11 nmod:agent 15|6 punct 16|18 mark 17|6 parataxis 18|20 det 19|24 nmod:poss 20|20 case 21|24 amod 22|24 compound 23|18 dobj 24|6 punct 25|
+<word> Tsipras said , `` We take our responsibilities seriously . 
+<lemma> Tsipras say , `` we take we responsibility seriously . 
+<POS> NNP VBD , `` PRP VBP PRP$ NNS RB . 
+<NER> PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Tsipras)) (VP (VBD said) (, ,) (`` ``) (S (NP (PRP We)) (VP (VBP take) (NP (PRP$ our) (NNS responsibilities)) (ADVP (RB seriously))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 punct 3|2 punct 4|6 nsubj 5|2 ccomp 6|8 nmod:poss 7|6 dobj 8|6 advmod 9|2 punct 10|
+<word> And the biggest responsibility we have is to not let the people , or our supporters , lose hope . 
+<lemma> and the biggest responsibility we have be to not let the people , or we supporter , lose hope . 
+<POS> CC DT JJS NN PRP VBP VBZ TO RB VB DT NNS , CC PRP$ NNS , VBP NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC And) (NP (NP (DT the) (JJS biggest) (NN responsibility)) (SBAR (S (NP (PRP we)) (VP (VBP have) (VP (VBZ is) (S (VP (TO to) (RB not) (VP (VB let) (NP (NP (DT the) (NNS people)) (, ,) (CC or) (NP (PRP$ our) (NNS supporters)) (, ,)))))))))) (VP (VBP lose) (NP (NN hope))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 cc 1|4 det 2|4 amod 3|18 nsubj 4|7 nsubj 5|10 nsubj:xsubj 5|7 aux 6|4 acl:relcl 7|10 mark 8|10 neg 9|7 xcomp 10|12 det 11|10 dobj 12|12 punct 13|12 cc 14|16 nmod:poss 15|10 dobj 16|12 conj:or 16|12 punct 17|18 dobj 19|18 punct 20|
+<word> We must not backtrack on what we promised before the election . 
+<lemma> we must not backtrack on what we promise before the election . 
+<POS> PRP MD RB VB IN WP PRP VBD IN DT NN . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP We)) (VP (MD must) (RB not) (VP (VB backtrack) (PP (IN on) (SBAR (WHNP (WP what)) (S (NP (PRP we)) (VP (VBD promised) (PP (IN before) (NP (DT the) (NN election))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|8 mark 5|8 dobj 6|8 nsubj 7|4 advcl:on 8|11 case 9|11 det 10|8 nmod:before 11|4 punct 12|
+<word> And we wo n't . '' 
+<lemma> and we will not . '' 
+<POS> CC PRP MD RB . '' 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC And) (NP (PRP we)) (VP (MD wo) (RB n't)) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 cc 1|3 nsubj 2|3 neg 4|3 punct 5|3 punct 6|
+<word> There remains the small possibility of a coalition that excludes SYRIZA . 
+<lemma> there remain the small possibility of a coalition that exclude SYRIZA . 
+<POS> EX VBZ DT JJ NN IN DT NN WDT VBZ NNP . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (EX There)) (VP (VBZ remains) (NP (NP (DT the) (JJ small) (NN possibility)) (PP (IN of) (NP (NP (DT a) (NN coalition)) (SBAR (WHNP (WDT that)) (S (VP (VBZ excludes) (NP (NNP SYRIZA))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|5 det 3|5 amod 4|2 nsubj 5|8 case 6|8 det 7|5 nmod:of 8|10 nsubj 8|8 ref 9|8 acl:relcl 10|10 dobj 11|2 punct 12|
+<word> The smaller Democratic Left party could provide enough seats to form a majority government with New Democracy and PASOK . 
+<lemma> the smaller democratic leave party could provide enough seat to form a majority government with New Democracy and PASOK . 
+<POS> DT JJR JJ VBN NN MD VB JJ NNS TO VB DT NN NN IN NNP NNP CC NNP . 
+<NER> O O O O O O O O O O O O O O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NP (ADJP (JJR smaller)) (JJ Democratic) (ADJP (VBN Left)) (NN party))) (VP (MD could) (VP (VB provide) (NP (JJ enough) (NNS seats)) (S (VP (TO to) (VP (VB form) (NP (DT a) (NN majority) (NN government)) (PP (IN with) (NP (NNP New) (NNP Democracy) (CC and) (NNP PASOK)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|5 det 1|5 amod 2|5 amod 3|5 amod 4|7 nsubj 5|7 aux 6|9 amod 8|7 dobj 9|11 mark 10|7 advcl:to 11|14 det 12|14 compound 13|11 dobj 14|17 case 15|17 compound 16|11 nmod:with 17|17 cc 18|11 nmod:with 19|17 conj:and 19|7 punct 20|
+<word> But they 've so far refused to consider such a deal - unless the coalition also includes SYRIZA . 
+<lemma> but they have so far refuse to consider such a deal - unless the coalition also include SYRIZA . 
+<POS> CC PRP VBP RB RB VBN TO VB PDT DT NN : IN DT NN RB VBZ NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (PRP they)) (VP (VBP 've) (ADVP (RB so) (RB far)) (VP (VBN refused) (S (VP (TO to) (VP (VB consider) (NP (PDT such) (DT a) (NN deal)) (: -) (SBAR (IN unless) (S (NP (DT the) (NN coalition)) (ADVP (RB also)) (VP (VBZ includes) (NP (NNP SYRIZA)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 cc 1|6 nsubj 2|8 nsubj:xsubj 2|6 aux 3|5 advmod 4|6 advmod 5|8 mark 7|6 xcomp 8|11 det:predet 9|11 det 10|8 dobj 11|8 punct 12|17 mark 13|15 det 14|17 nsubj 15|17 advmod 16|8 advcl:unless 17|17 dobj 18|6 punct 19|
+<word> The president 's mediation process could potentially run until May 17th , the scheduled opening date for the new parliament . 
+<lemma> the president 's mediation process could potentially run until May 17th , the schedule opening date for the new parliament . 
+<POS> DT NN POS NN NN MD RB VB IN NNP JJ , DT VBN NN NN IN DT JJ NN . 
+<NER> O O O O O O O O O DATE DATE O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN president) (POS 's)) (NN mediation) (NN process)) (VP (MD could) (ADVP (RB potentially)) (VP (VB run) (PP (IN until) (NP (NNP May))) (NP (NP (JJ 17th)) (, ,) (NP (NP (DT the) (VBN scheduled) (NN opening) (NN date)) (PP (IN for) (NP (DT the) (JJ new) (NN parliament))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|5 nmod:poss 2|2 case 3|5 compound 4|8 nsubj 5|8 aux 6|8 advmod 7|10 case 9|8 nmod:until 10|8 dobj 11|11 punct 12|16 det 13|16 amod 14|16 compound 15|11 appos 16|20 case 17|20 det 18|20 amod 19|16 nmod:for 20|8 punct 21|
+<word> If no agreement is reached , Greece will have to hold new elections next month , most likely on June 10th or 17th . 
+<lemma> if no agreement be reach , Greece will have to hold new election next month , most likely on June 10th or 17th . 
+<POS> IN DT NN VBZ VBN , NNP MD VB TO VB JJ NNS JJ NN , RBS RB IN NNP JJ CC JJ . 
+<NER> O O O O O O LOCATION O O O O O O DATE DATE O O O O DATE DATE O ORDINAL O 
+<Timex> None
+<parse>         (ROOT (S (SBAR (IN If) (S (NP (DT no) (NN agreement)) (VP (VBZ is) (VP (VBN reached))))) (, ,) (NP (NNP Greece)) (VP (MD will) (VP (VB have) (S (VP (TO to) (VP (VB hold) (NP (JJ new) (NNS elections)))) (NP-TMP (JJ next) (NN month)) (, ,) (ADVP (RBS most) (RB likely))) (PP (IN on) (NP (NP (NNP June)) (ADJP (JJ 10th) (CC or) (JJ 17th)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|5 mark 1|3 neg 2|5 nsubjpass 3|5 auxpass 4|9 advcl:if 5|9 punct 6|9 nsubj 7|9 aux 8|11 mark 10|9 ccomp 11|13 amod 12|11 dobj 13|15 amod 14|11 dep 15|11 punct 16|18 advmod 17|11 advmod 18|20 case 19|9 nmod:on 20|20 amod 21|21 cc 22|20 amod 23|21 conj:or 23|9 punct 24|
+<coreference> [['1,7,8,7', '6,7,8,7', '6,11,12,11', '12,11,12,11', '14,18,19,18'], ['1,7,12,11', '2,1,2,1', '6,5,7,5', '7,5,6,5', '8,1,2,1'], ['1,27,31,30', '2,3,4,3', '15,1,4,2'], ['1,27,30,28', '7,19,22,20'], ['5,18,20,18', '16,7,8,7'], ['5,1,7,1', '8,5,6,5', '8,7,8,7', '9,5,6,5', '9,15,16,15', '10,1,2,1', '10,7,8,7', '11,2,3,2', '14,2,3,2'], ['5,25,31,29', '13,17,18,17'], ['13,19,20,19', '5,32,36,35'], ['6,1,24,2', '7,13,14,13'], ['6,1,3,2', '7,8,9,8'], ['6,5,9,8', '7,8,10,9'], ['7,19,25,24', '16,2,4,3'], ['12,7,12,8', '14,14,16,15'], ['15,11,12,11', '15,13,21,16', '16,23,24,23']]
+</DOC>

@@ -1,0 +1,60 @@
+<DOC> article-2001.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 |
+<word> Police in Mogadishu arrested a man who triggered explosion after being allowed back to his vehicle Somali police appeared to make a deadly error when they returned a suspected suicide car bomber they had arrested to his vehicle , where he then detonated a blast that killed four people , officials and witnesses have said . 
+<lemma> police in Mogadishu arrest a man who trigger explosion after be allow back to he vehicle somali police appear to make a deadly error when they return a suspect suicide car bomber they have arrest to he vehicle , where he then detonate a blast that kill four people , official and witness have say . 
+<POS> NNS IN NNP VBD DT NN WP VBD NN IN VBG VBN RB TO PRP$ NN JJ NN VBD TO VB DT JJ NN WRB PRP VBD DT VBN NN NN NN PRP VBD VBN TO PRP$ NN , WRB PRP RB VBD DT NN WDT VBD CD NNS , NNS CC NNS VBP VBN . 
+<NER> O O LOCATION O O O O O O O O O O O O O MISC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O NUMBER O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNS Police)) (PP (IN in) (NP (NNP Mogadishu)))) (VP (VBD arrested) (SBAR (S (NP (NP (DT a) (NN man)) (SBAR (WHNP (WP who)) (S (VP (VBD triggered) (NP (NN explosion)) (PP (IN after) (S (VP (VBG being) (VP (VBN allowed) (ADVP (RB back)) (PP (TO to) (NP (PRP$ his) (NN vehicle) (JJ Somali) (NN police))))))))))) (VP (VBD appeared) (S (VP (TO to) (VP (VB make) (NP (DT a) (JJ deadly) (NN error)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBD returned) (NP (NP (DT a) (VBN suspected) (NN suicide) (NN car) (NN bomber)) (SBAR (S (NP (PRP they)) (VP (VBD had) (VP (VBN arrested) (PP (TO to) (NP (NP (PRP$ his) (NN vehicle)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP he)) (ADVP (RB then)) (VP (VBD detonated) (NP (NP (DT a) (NN blast)) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (NP (CD four) (NNS people))))))))))))))))))))))))))) (, ,) (NP (NNS officials) (CC and) (NNS witnesses)) (VP (VBP have) (VP (VBN said))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 55|4 nsubj 1|3 case 2|1 nmod:in 3|55 ccomp 4|6 det 5|8 nsubj 6|19 nsubj 6|21 nsubj:xsubj 6|6 ref 7|6 acl:relcl 8|8 dobj 9|12 mark 10|12 auxpass 11|8 advcl:after 12|12 advmod 13|18 case 14|18 nmod:poss 15|18 compound 16|18 amod 17|12 nmod:to 18|4 ccomp 19|21 mark 20|19 xcomp 21|24 det 22|24 amod 23|21 dobj 24|27 advmod 25|27 nsubj 26|21 advcl 27|32 det 28|32 amod 29|32 compound 30|32 compound 31|27 dobj 32|35 nsubj 33|35 aux 34|32 acl:relcl 35|38 case 36|38 nmod:poss 37|35 nmod:to 38|47 nsubj 38|38 punct 39|43 advmod 40|43 nsubj 41|43 advmod 42|38 acl:relcl 43|45 det 44|43 dobj 45|47 nsubj 45|38 ref 46|45 ref 46|45 acl:relcl 47|49 nummod 48|47 dobj 49|55 punct 50|55 nsubj 51|51 cc 52|51 conj:and 53|55 nsubj 53|55 aux 54|55 punct 56|
+<word> Ali Muse , the head of the city 's ambulance service , said the blast killed three civilians , while shopkeeper Abdiqadir Abdulahi said he saw one dead policeman as well . 
+<lemma> Ali Muse , the head of the city 's ambulance service , say the blast kill three civilian , while shopkeeper Abdiqadir Abdulahi say he see one dead policeman as well . 
+<POS> NNP NNP , DT NN IN DT NN POS NN NN , VBD DT NN VBD CD NNS , IN NN NNP NNP VBD PRP VBD CD JJ NN RB RB . 
+<NER> PERSON PERSON O O O O O O O O O O O O O O NUMBER O O O O PERSON PERSON O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Ali) (NNP Muse)) (, ,) (NP (NP (DT the) (NN head)) (PP (IN of) (NP (NP (DT the) (NN city) (POS 's)) (NN ambulance) (NN service)))) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (NN blast)) (VP (VBD killed) (NP (CD three) (NNS civilians)) (, ,) (SBAR (IN while) (S (NP (NN shopkeeper) (NNP Abdiqadir) (NNP Abdulahi)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD saw) (NP (CD one) (JJ dead) (NN policeman)) (ADVP (RB as) (RB well)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 compound 1|13 nsubj 2|2 punct 3|5 det 4|2 appos 5|11 case 6|8 det 7|11 nmod:poss 8|8 case 9|11 compound 10|5 nmod:of 11|2 punct 12|15 det 14|16 nsubj 15|13 ccomp 16|18 nummod 17|16 dobj 18|16 punct 19|24 mark 20|23 compound 21|23 compound 22|24 nsubj 23|16 advcl:while 24|26 nsubj 25|24 ccomp 26|29 nummod 27|29 amod 28|26 dobj 29|26 advmod 30|30 mwe 31|13 punct 32|
+<word> Al-Shabab militants have stepped up a campaign of roadside bombs and suicide car bomb attacks in Mogadishu in recent weeks . 
+<lemma> Al-Shabab militant have step up a campaign of roadside bomb and suicide car bomb attack in Mogadishu in recent week . 
+<POS> NNP NNS VBP VBN RP DT NN IN NN NNS CC NN NN NN NNS IN NNP IN JJ NNS . 
+<NER> ORGANIZATION O O O O O O O O O O O O O O O LOCATION O DURATION DURATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Al-Shabab) (NNS militants)) (VP (VBP have) (VP (VBN stepped) (PRT (RP up)) (NP (NP (DT a) (NN campaign)) (PP (IN of) (NP (NN roadside) (NNS bombs) (CC and) (NN suicide) (NN car) (NN bomb) (NNS attacks)))) (PP (IN in) (NP (NP (NNP Mogadishu)) (PP (IN in) (NP (JJ recent) (NNS weeks))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|4 aux 3|4 compound:prt 5|7 det 6|4 dobj 7|10 case 8|10 compound 9|7 nmod:of 10|10 cc 11|15 compound 12|15 compound 13|15 compound 14|7 nmod:of 15|10 conj:and 15|17 case 16|4 nmod:in 17|20 case 18|20 amod 19|17 nmod:in 20|4 punct 21|
+<word> The militants were almost entirely pushed out of the Somali capital earlier this year in an offensive by African Union forces . 
+<lemma> the militant be almost entirely push out of the somali capital earlier this year in a offensive by African Union force . 
+<POS> DT NNS VBD RB RB VBN IN IN DT JJ NN RBR DT NN IN DT NN IN NNP NNP NNS . 
+<NER> O O O O O O O O O MISC O DATE DATE DATE O O O O LOCATION LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS militants)) (VP (VBD were) (ADVP (RB almost) (RB entirely)) (VP (VBN pushed) (PRT (IN out)) (PP (IN of) (NP (DT the) (JJ Somali) (NN capital))) (NP-TMP (RBR earlier) (DT this) (NN year)) (PP (IN in) (NP (NP (DT an) (NN offensive)) (PP (IN by) (NP (NNP African) (NNP Union) (NNS forces))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubjpass 2|6 auxpass 3|5 advmod 4|6 advmod 5|6 compound:prt 7|11 case 8|11 det 9|11 amod 10|6 nmod:of 11|14 advmod 12|14 det 13|6 nmod:tmod 14|17 case 15|17 det 16|6 nmod:in 17|21 case 18|21 compound 19|21 compound 20|17 nmod:by 21|6 punct 22|
+<word> The latest blast , which happened on Tuesday near the former Egyptian embassy , sent a plume of smoke over the city and the remains of the car burned long after the explosion . 
+<lemma> the latest blast , which happen on Tuesday near the former egyptian embassy , send a plume of smoke over the city and the remains of the car burn long after the explosion . 
+<POS> DT JJS NN , WDT VBD IN NNP IN DT JJ JJ NN , VBD DT NN IN NN IN DT NN CC DT NNS IN DT NN VBD RB IN DT NN . 
+<NER> O O O O O O O DATE O O O MISC O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJS latest) (NN blast)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD happened) (PP (IN on) (NP (NNP Tuesday))) (PP (IN near) (NP (DT the) (JJ former) (JJ Egyptian) (NN embassy)))))) (, ,)) (VP (VBD sent) (SBAR (S (NP (NP (DT a) (NN plume)) (PP (IN of) (NP (NP (NP (NN smoke)) (PP (IN over) (NP (DT the) (NN city)))) (CC and) (NP (NP (DT the) (NNS remains)) (PP (IN of) (NP (DT the) (NN car))))))) (VP (VBD burned) (ADVP (RB long)) (PP (IN after) (NP (DT the) (NN explosion))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|3 det 1|3 amod 2|6 nsubj 3|15 nsubj 3|3 punct 4|3 ref 5|3 acl:relcl 6|8 case 7|6 nmod:on 8|13 case 9|13 det 10|13 amod 11|13 amod 12|6 nmod:near 13|3 punct 14|17 det 16|29 nsubj 17|19 case 18|17 nmod:of 19|22 case 20|22 det 21|19 nmod:over 22|19 cc 23|25 det 24|17 nmod:of 25|19 conj:and 25|28 case 26|28 det 27|25 nmod:of 28|15 ccomp 29|29 advmod 30|33 case 31|33 det 32|29 nmod:after 33|15 punct 34|
+<word> A policeman , Abdi Hassan , said the would-be bomber was intercepted hours before the blast and arrested . 
+<lemma> a policeman , Abdi Hassan , say the would-be bomber be intercept hour before the blast and arrest . 
+<POS> DT NN , NNP NNP , VBD DT JJ NN VBD VBN NNS IN DT NN CC VBN . 
+<NER> O O O PERSON PERSON O O O O O O O DURATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN policeman)) (, ,) (NP (NNP Abdi) (NNP Hassan)) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (JJ would-be) (NN bomber)) (VP (VBD was) (VP (VP (VBN intercepted) (NP (NNS hours)) (PP (IN before) (NP (DT the) (NN blast)))) (CC and) (VP (VBN arrested))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubj 2|2 punct 3|5 compound 4|2 appos 5|2 punct 6|10 det 8|10 amod 9|12 nsubjpass 10|18 nsubjpass 10|12 auxpass 11|7 ccomp 12|12 dobj 13|16 case 14|16 det 15|12 nmod:before 16|12 cc 17|7 ccomp 18|12 conj:and 18|7 punct 19|
+<word> But Hassan said police returned the attacker to his bomb-laden vehicle under orders to disarm the explosives . 
+<lemma> but Hassan say police return the attacker to he bomb-laden vehicle under order to disarm the explosive . 
+<POS> CC NNP VBD NNS VBD DT NN TO PRP$ JJ NN IN NNS TO VB DT NNS . 
+<NER> O PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (NNP Hassan)) (VP (VBD said) (SBAR (S (NP (NNS police)) (VP (VBD returned) (NP (DT the) (NN attacker)) (PP (TO to) (NP (PRP$ his) (JJ bomb-laden) (NN vehicle))) (PP (IN under) (NP (NNS orders) (S (VP (TO to) (VP (VB disarm) (NP (DT the) (NNS explosives))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 cc 1|3 nsubj 2|5 nsubj 4|3 ccomp 5|7 det 6|5 dobj 7|11 case 8|11 nmod:poss 9|11 amod 10|5 nmod:to 11|13 case 12|5 nmod:under 13|15 mark 14|13 acl:to 15|17 det 16|15 dobj 17|3 punct 18|
+<word> Instead , he was able to trigger the bomb . 
+<lemma> instead , he be able to trigger the bomb . 
+<POS> RB , PRP VBD JJ TO VB DT NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Instead)) (, ,) (NP (PRP he)) (VP (VBD was) (ADJP (JJ able) (S (VP (TO to) (VP (VB trigger) (NP (DT the) (NN bomb))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 advmod 1|5 punct 2|5 nsubj 3|7 nsubj:xsubj 3|5 cop 4|7 mark 6|5 xcomp 7|9 det 8|7 dobj 9|5 punct 10|
+<coreference> [['1,1,4,1', '1,26,27,26', '1,33,34,33', '7,4,5,4'], ['1,5,19,6', '1,37,38,37', '1,41,42,41'], ['1,44,50,45', '2,14,16,15', '6,15,17,16'], ['2,7,10,8', '5,21,23,22'], ['2,21,24,23', '2,25,26,25'], ['3,1,3,2', '4,1,3,2'], ['6,4,6,5', '6,1,3,2', '7,2,3,2', '8,3,4,3'], ['7,6,8,7', '7,9,10,9']]
+</DOC>

@@ -1,0 +1,81 @@
+<DOC> article-20401.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> A 6-foot-long inactive training missile accidentally fell from a military helicopter into field near a Texas military post , causing the brief evacuation of nearby homes but not harming anyone , officials said . 
+<lemma> a 6-foot-long inactive training missile accidentally fall from a military helicopter into field near a Texas military post , cause the brief evacuation of nearby home but not harm anyone , official say . 
+<POS> DT JJ JJ NN NN RB VBD IN DT JJ NN IN NN IN DT NNP JJ NN , VBG DT JJ NN IN JJ NNS CC RB VBG NN , NNS VBD . 
+<NER> O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT A) (JJ 6-foot-long) (JJ inactive) (NN training) (NN missile)) (ADVP (RB accidentally)) (VP (VBD fell) (PP (IN from) (NP (DT a) (JJ military) (NN helicopter))) (PP (IN into) (NP (NP (NN field)) (PP (IN near) (NP (DT a) (NNP Texas) (JJ military) (NN post))))) (, ,) (S (VP (VP (VBG causing) (NP (NP (DT the) (JJ brief) (NN evacuation)) (PP (IN of) (NP (JJ nearby) (NNS homes))))) (CONJP (CC but) (RB not)) (VP (VBG harming) (NP (NN anyone))))))) (, ,) (NP (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 33|5 det 1|5 amod 2|5 amod 3|5 compound 4|7 nsubj 5|7 advmod 6|33 ccomp 7|11 case 8|11 det 9|11 amod 10|7 nmod:from 11|13 case 12|7 nmod:into 13|18 case 14|18 det 15|18 compound 16|18 amod 17|13 nmod:near 18|7 punct 19|7 ccomp 20|23 det 21|23 amod 22|20 dobj 23|26 case 24|26 amod 25|23 nmod:of 26|28 cc 27|20 cc 28|7 ccomp 29|20 conj:negcc 29|29 dobj 30|33 punct 31|33 nsubj 32|33 punct 34|
+<word> About 100 homes in a neighborhood near Fort Hood were evacuated Tuesday night after a witness reported seeing something fall from the sky around 8 p.m. , Killeen police spokeswoman Carroll Smith said . 
+<lemma> about 100 home in a neighborhood near Fort Hood be evacuate Tuesday night after a witness report see something fall from the sky around 8 p.m. , Killeen police spokeswoman Carroll Smith say . 
+<POS> IN CD NNS IN DT NN IN NNP NNP VBD VBN NNP NN IN DT NN VBD VBG NN NN IN DT NN IN CD RB , NNP NN NN NNP NNP VBD . 
+<NER> O NUMBER O O O O O LOCATION LOCATION O O DATE TIME O O O O O O DATE O O O O TIME TIME O PERSON O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN About) (NP (NP (CD 100) (NNS homes)) (PP (IN in) (NP (NP (DT a) (NN neighborhood)) (PP (IN near) (NP (NP (NNP Fort) (NNP Hood)) (SBAR (S (VP (VBD were) (VP (VBN evacuated) (NP-TMP (NNP Tuesday) (NN night)) (SBAR (IN after) (S (NP (DT a) (NN witness)) (VP (VBD reported) (S (VP (VBG seeing) (NP (NN something) (NN fall)) (PP (IN from) (NP (NP (DT the) (NN sky)) (PP (IN around) (NP (CD 8) (RB p.m.)))))))))))))))))))) (, ,) (NP (NNP Killeen) (NN police) (NN spokeswoman) (NNP Carroll) (NNP Smith)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 33|3 case 1|3 nummod 2|33 nmod:about 3|6 case 4|6 det 5|3 nmod:in 6|9 case 7|9 compound 8|6 nmod:near 9|11 auxpass 10|9 acl:relcl 11|13 compound 12|11 nmod:tmod 13|17 mark 14|16 det 15|17 nsubj 16|11 advcl:after 17|17 xcomp 18|20 compound 19|18 nmod:tmod 20|23 case 21|23 det 22|18 nmod:from 23|25 case 24|23 nmod:around 25|25 advmod 26|33 punct 27|32 compound 28|32 compound 29|32 compound 30|32 compound 31|33 nsubj 32|33 punct 34|
+<word> Residents were allowed back into their homes within an hour of the incident . 
+<lemma> resident be allow back into they home within a hour of the incident . 
+<POS> NNS VBD VBN RB IN PRP$ NNS IN DT NN IN DT NN . 
+<NER> O O O O O O O O DURATION DURATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Residents)) (VP (VBD were) (VP (VBN allowed) (ADVP (RB back)) (PP (IN into) (NP (PRP$ their) (NNS homes))) (PP (IN within) (NP (NP (DT an) (NN hour)) (PP (IN of) (NP (DT the) (NN incident))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|3 advmod 4|7 case 5|7 nmod:poss 6|3 nmod:into 7|10 case 8|10 det 9|3 nmod:within 10|13 case 11|13 det 12|10 nmod:of 13|3 punct 14|
+<word> Ordnance technicians from the Army post examined the missile and determined it did n't have a warhead or propulsion system , Fort Hood officials said . 
+<lemma> Ordnance technician from the Army post examine the missile and determine it do not have a warhead or propulsion system , Fort Hood official say . 
+<POS> NNP NNS IN DT NNP NN VBD DT NN CC VBD PRP VBD RB VB DT NN CC NN NN , NNP NNP NNS VBD . 
+<NER> O O O O ORGANIZATION O O O O O O O O O O O O O O O O LOCATION LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNP Ordnance) (NNS technicians)) (PP (IN from) (NP (DT the) (NNP Army) (NN post)))) (VP (VP (VBD examined) (NP (DT the) (NN missile))) (CC and) (VP (VBD determined) (SBAR (S (NP (PRP it)) (VP (VBD did) (RB n't) (VP (VB have) (NP (DT a) (NN warhead) (CC or) (NN propulsion) (NN system))))))))) (, ,) (NP (NNP Fort) (NNP Hood) (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 25|2 compound 1|7 nsubj 2|11 nsubj 2|6 case 3|6 det 4|6 compound 5|2 nmod:from 6|25 ccomp 7|9 det 8|7 dobj 9|7 cc 10|7 conj:and 11|25 ccomp 11|15 nsubj 12|15 aux 13|15 neg 14|11 ccomp 15|20 det 16|20 compound 17|17 cc 18|17 conj:or 19|20 compound 19|15 dobj 20|25 punct 21|24 compound 22|24 compound 23|25 nsubj 24|25 punct 26|
+<word> The training missile , which had implanted itself into the ground , was removed before midnight and left a hole in the ground several feet deep . 
+<lemma> the training missile , which have implant itself into the ground , be remove before midnight and leave a hole in the ground several foot deep . 
+<POS> DT NN NN , WDT VBD VBN PRP IN DT NN , VBD VBN IN NN CC VBD DT NN IN DT NN JJ NNS RB . 
+<NER> O O O O O O O O O O O O O O O TIME O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN training) (NN missile)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD had) (VP (VBN implanted) (NP (PRP itself)) (PP (IN into) (NP (DT the) (NN ground))))))) (, ,)) (VP (VP (VBD was) (VP (VBN removed) (PP (IN before) (NP (NN midnight))))) (CC and) (VP (VBD left) (NP (DT a) (NN hole)) (PP (IN in) (NP (DT the) (NN ground)))) (NP (JJ several) (NNS feet)) (ADVP (RB deep))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|3 det 1|3 compound 2|7 nsubj 3|14 nsubjpass 3|18 nsubjpass 3|3 punct 4|3 ref 5|7 aux 6|3 acl:relcl 7|7 dobj 8|11 case 9|11 det 10|7 nmod:into 11|3 punct 12|14 auxpass 13|16 case 15|14 nmod:before 16|14 cc 17|14 conj:and 18|20 det 19|18 dobj 20|23 case 21|23 det 22|18 nmod:in 23|25 amod 24|14 dobj 25|14 advmod 26|14 punct 27|
+<word> `` Safety is always our No. 1 concern , and we regret the inconvenience to the families affected in the area , '' Col. Howard Arey , a Fort Hood aviation officer , said in a statement Wednesday . 
+<lemma> `` safety be always we no. 1 concern , and we regret the inconvenience to the family affect in the area , '' Col. Howard Arey , a Fort Hood aviation officer , say in a statement Wednesday . 
+<POS> `` NN VBZ RB PRP$ NN CD NN , CC PRP VBP DT NN TO DT NNS VBN IN DT NN , '' NNP NNP NNP , DT NNP NNP NN NN , VBD IN DT NN NNP . 
+<NER> O O O O O O NUMBER O O O O O O O O O O O O O O O O O PERSON PERSON O O LOCATION LOCATION O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (NN Safety)) (VP (VBZ is) (ADVP (RB always)) (NP (PRP$ our) (ADJP (NN No.) (CD 1)) (NN concern)))) (, ,) (CC and) (S (NP (PRP we)) (VP (VBP regret) (NP (DT the) (NN inconvenience)) (PP (TO to) (NP (NP (DT the) (NNS families)) (VP (VBN affected) (PP (IN in) (NP (DT the) (NN area))))))))) (, ,) ('' '') (NP (NP (NNP Col.) (NNP Howard) (NNP Arey)) (, ,) (NP (DT a) (NNP Fort) (NNP Hood) (NN aviation) (NN officer)) (, ,)) (VP (VBD said) (PP (IN in) (NP (DT a) (NN statement))) (NP-TMP (NNP Wednesday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 34|34 punct 1|8 nsubj 2|8 cop 3|8 advmod 4|8 nmod:poss 5|8 amod 6|6 compound 7|34 ccomp 8|8 punct 9|8 cc 10|12 nsubj 11|8 conj:and 12|34 ccomp 12|14 det 13|12 dobj 14|17 case 15|17 det 16|12 nmod:to 17|17 acl 18|21 case 19|21 det 20|18 nmod:in 21|34 punct 22|34 punct 23|26 compound 24|26 compound 25|34 nsubj 26|26 punct 27|32 det 28|32 compound 29|32 compound 30|32 compound 31|26 appos 32|26 punct 33|37 case 35|37 det 36|34 nmod:in 37|34 nmod:tmod 38|34 punct 39|
+<word> `` We want to reassure the public that our military aircraft never fly off the installation with live munitions . '' 
+<lemma> `` we want to reassure the public that we military aircraft never fly off the installation with live munitions . '' 
+<POS> `` PRP VBP TO VB DT NN WDT PRP$ JJ NN RB VBP RP DT NN IN JJ NNS . '' 
+<NER> O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP We)) (VP (VBP want) (S (VP (TO to) (VP (VB reassure) (NP (NP (DT the) (NN public)) (SBAR (WHNP (WDT that)) (S (NP (PRP$ our) (JJ military) (NN aircraft)) (ADVP (RB never)) (VP (VBP fly) (PRT (RP off)) (NP (NP (DT the) (NN installation)) (PP (IN with) (NP (JJ live) (NNS munitions)))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|5 nsubj:xsubj 2|5 mark 4|3 xcomp 5|7 det 6|5 dobj 7|13 dobj 7|7 ref 8|11 nmod:poss 9|11 amod 10|13 nsubj 11|13 neg 12|7 acl:relcl 13|13 compound:prt 14|16 det 15|13 dobj 16|19 case 17|19 amod 18|16 nmod:with 19|3 punct 20|3 punct 21|
+<word> Arey said the post is investigating and reviewing its safety procedures , but `` we believe at this time that it is not a systemic issue . '' 
+<lemma> Arey say the post be investigate and review its safety procedure , but `` we believe at this time that it be not a systemic issue . '' 
+<POS> NNP VBD DT NN VBZ VBG CC VBG PRP$ NN NNS , CC `` PRP VBP IN DT NN IN PRP VBZ RB DT JJ NN . '' 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Arey)) (VP (VBD said) (SBAR (S (NP (DT the) (NN post)) (VP (VBZ is) (VP (VBG investigating) (CC and) (VBG reviewing) (NP (PRP$ its) (NN safety) (NNS procedures)))))))) (, ,) (CC but) (S (`` ``) (NP (PRP we)) (VP (VBP believe) (PP (IN at) (NP (DT this) (NN time))) (SBAR (IN that) (S (NP (PRP it)) (VP (VBZ is) (RB not) (NP (DT a) (JJ systemic) (NN issue))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|6 nsubj 4|8 nsubj 4|6 aux 5|2 ccomp 6|6 cc 7|2 ccomp 8|6 conj:and 8|11 nmod:poss 9|11 compound 10|6 dobj 11|2 punct 12|2 cc 13|16 punct 14|16 nsubj 15|2 conj:but 16|19 case 17|19 det 18|16 nmod:at 19|26 mark 20|26 nsubj 21|26 cop 22|26 neg 23|26 det 24|26 amod 25|16 ccomp 26|2 punct 27|2 punct 28|
+<word> Copyright 2012 The Associated Press . 
+<lemma> copyright 2012 the Associated Press . 
+<POS> NN CD DT NNP NNP . 
+<NER> O DATE O ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NN Copyright) (CD 2012)) (NP (DT The) (NNP Associated) (NNP Press)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|1 nummod 2|5 det 3|5 compound 4|1 dep 5|1 punct 6|
+<word> All rights reserved . 
+<lemma> all rights reserve . 
+<POS> DT NNS VBN . 
+<NER> O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT All) (NNS rights)) (VP (VBN reserved)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|3 punct 4|
+<word> This material may not be published , broadcast , rewritten or redistributed . 
+<lemma> this material may not be publish , broadcast , rewrite or redistribute . 
+<POS> DT NN MD RB VB VBN , NN , VBN CC VBN . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT This) (NN material)) (VP (MD may) (RB not) (VP (VB be) (VP (VBN published) (, ,) (NP (NP (NN broadcast)) (, ,) (VP (VBN rewritten) (CC or) (VBN redistributed)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubjpass 2|6 aux 3|6 neg 4|6 auxpass 5|6 punct 7|6 dobj 8|8 punct 9|8 acl 10|10 cc 11|8 acl 12|10 conj:or 12|6 punct 13|
+<coreference> [['1,1,6,5', '4,8,10,9', '5,1,4,3', '5,8,9,8'], ['2,2,27,3', '3,6,8,7'], ['2,8,27,9', '4,22,24,23', '6,29,31,30'], ['3,1,2,1', '3,6,7,6'], ['4,1,7,2', '6,5,6,5', '6,11,12,11', '7,2,3,2', '7,9,10,9', '8,15,16,15'], ['4,4,7,6', '4,12,13,12', '8,3,5,4', '8,9,10,9', '8,21,22,21', '8,24,27,26'], ['5,10,12,11', '5,22,24,23'], ['6,25,27,26', '6,28,33,32', '8,1,2,1']]
+</DOC>

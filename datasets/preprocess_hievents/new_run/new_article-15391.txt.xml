@@ -1,0 +1,109 @@
+<DOC> article-15391.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 |
+<word> Twenty-nine people , including a woman pregnant with twins , were killed when the Real IRA bomb ripped through the Co Tyrone market town on 15 August , 1998 . 
+<lemma> twenty-nine people , include a woman pregnant with twin , be kill when the real IRA bomb rip through the Co Tyrone market town on 15 August , 1998 . 
+<POS> CD NNS , VBG DT NN JJ IN NNS , VBD VBN WRB DT JJ NNP NN VBD IN DT NNP NNP NN NN IN CD NNP , CD . 
+<NER> NUMBER O O O O O O O O O O O O O O ORGANIZATION O O O O LOCATION LOCATION O O O DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Twenty-nine) (NNS people)) (, ,) (PP (VBG including) (NP (NP (DT a) (NN woman)) (ADJP (JJ pregnant) (PP (IN with) (NP (NNS twins)))))) (, ,)) (VP (VBD were) (VP (VBN killed) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (JJ Real) (NNP IRA) (NN bomb)) (VP (VBD ripped) (PP (IN through) (NP (DT the) (NNP Co) (NNP Tyrone) (NN market) (NN town))) (PP (IN on) (NP (NP (CD 15) (NNP August)) (, ,) (NP (CD 1998))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|2 nummod 1|12 nsubjpass 2|2 punct 3|6 case 4|6 det 5|2 nmod:including 6|6 amod 7|9 case 8|7 nmod:with 9|2 punct 10|12 auxpass 11|18 advmod 13|17 det 14|17 amod 15|17 compound 16|18 nsubj 17|12 advcl 18|24 case 19|24 det 20|24 compound 21|24 compound 22|24 compound 23|18 nmod:through 24|27 case 25|27 nummod 26|18 nmod:on 27|27 punct 28|27 amod 29|12 punct 30|
+<word> The family campaigners have previously demanded a cross-border inquiry into whether the authorities in Northern Ireland and in the Republic of Ireland could have done more to prevent the bombing . 
+<lemma> the family campaigner have previously demand a cross-border inquiry into whether the authority in northern Ireland and in the republic of Ireland could have do more to prevent the bombing . 
+<POS> DT NN NNS VBP RB VBN DT JJ NN IN IN DT NNS IN JJ NNP CC IN DT NN IN NNP MD VB VBN RBR TO VB DT NN . 
+<NER> O O O O DATE O O O O O O O O O LOCATION LOCATION O O O LOCATION LOCATION LOCATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN family) (NNS campaigners)) (VP (VBP have) (ADVP (RB previously)) (VP (VBN demanded) (NP (DT a) (JJ cross-border) (NN inquiry)) (PP (IN into) (SBAR (IN whether) (S (NP (NP (DT the) (NNS authorities)) (PP (PP (IN in) (NP (JJ Northern) (NNP Ireland))) (CC and) (PP (IN in) (NP (NP (DT the) (NN Republic)) (PP (IN of) (NP (NNP Ireland))))))) (VP (MD could) (VP (VB have) (VP (VBN done) (ADVP (RBR more)) (S (VP (TO to) (VP (VB prevent) (NP (DT the) (NN bombing))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 compound 2|6 nsubj 3|6 aux 4|6 advmod 5|9 det 7|9 amod 8|6 dobj 9|25 mark 10|25 mark 11|13 det 12|25 nsubj 13|28 nsubj:xsubj 13|13 conj:and 13|25 nsubj 13|28 nsubj:xsubj 13|16 case 14|16 amod 15|13 nmod:in 16|13 cc 17|20 case 18|20 det 19|13 nmod:in 20|22 case 21|20 nmod:of 22|25 aux 23|25 aux 24|6 advcl:whether 25|25 advmod 26|28 mark 27|25 xcomp 28|30 det 29|28 dobj 30|6 punct 31|
+<word> Relatives who commissioned the report met Northern Ireland Secretary Owen Paterson in Belfast on Thursday ahead of presenting the final version to the UK Government next month . 
+<lemma> relative who commission the report meet northern Ireland Secretary Owen Paterson in Belfast on Thursday ahead of present the final version to the UK Government next month . 
+<POS> NNS WP VBD DT NN VBD JJ NNP NNP NNP NNP IN NNP IN NNP RB IN VBG DT JJ NN TO DT NNP NNP JJ NN . 
+<NER> O O O O O O LOCATION LOCATION O PERSON PERSON O LOCATION O DATE O O O O O O O O LOCATION O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Relatives)) (SBAR (WHNP (WP who)) (S (VP (VBD commissioned) (NP (DT the) (NN report)))))) (VP (VBD met) (NP (JJ Northern) (NNP Ireland) (NNP Secretary) (NNP Owen) (NNP Paterson)) (PP (IN in) (NP (NNP Belfast))) (PP (IN on) (NP (NNP Thursday))) (PP (RB ahead) (IN of) (S (VP (VBG presenting) (NP (DT the) (JJ final) (NN version)) (PP (TO to) (NP (DT the) (NNP UK) (NNP Government))) (NP-TMP (JJ next) (NN month)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 nsubj 1|6 nsubj 1|1 ref 2|1 acl:relcl 3|5 det 4|3 dobj 5|11 amod 7|11 compound 8|11 compound 9|11 compound 10|6 dobj 11|13 case 12|6 nmod:in 13|15 case 14|6 nmod:on 15|18 advmod 16|18 mark 17|6 advcl:of 18|21 det 19|21 amod 20|18 dobj 21|25 case 22|25 det 23|25 compound 24|18 nmod:to 25|27 amod 26|18 nmod:tmod 27|6 punct 28|
+<word> Michael Gallagher , whose 21-year-old son Aiden was murdered in the attack , said the meeting was `` hot and heavy '' . 
+<lemma> Michael Gallagher , whose 21-year-old son Aiden be murder in the attack , say the meeting be `` hot and heavy '' . 
+<POS> NNP NNP , WP$ JJ NN NNP VBD VBN IN DT NN , VBD DT NN VBD `` JJ CC JJ '' . 
+<NER> PERSON PERSON O O DURATION O PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Michael) (NNP Gallagher)) (, ,) (SBAR (WHNP (WP$ whose) (JJ 21-year-old) (NN son)) (S (NP (NNP Aiden)) (VP (VBD was) (VP (VBN murdered) (PP (IN in) (NP (DT the) (NN attack))))))) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (NN meeting)) (VP (VBD was) (`` ``) (ADJP (JJ hot) (CC and) (JJ heavy)) ('' ''))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 compound 1|6 nmod:poss 2|14 nsubj 2|2 punct 3|2 ref 4|6 amod 5|9 dobj 6|9 nsubjpass 7|9 auxpass 8|2 acl:relcl 9|12 case 10|12 det 11|9 nmod:in 12|2 punct 13|16 det 15|19 nsubj 16|21 nsubj 16|19 cop 17|19 punct 18|14 ccomp 19|19 cc 20|14 ccomp 21|19 conj:and 21|19 punct 22|14 punct 23|
+<word> `` We told him we have evidence that there was a live police operation going on on August 15 that could have intercepted the bombers , '' he said . 
+<lemma> `` we tell he we have evidence that there be a live police operation go on on August 15 that could have intercept the bomber , '' he say . 
+<POS> `` PRP VBD PRP PRP VBP NN IN EX VBD DT JJ NN NN VBG IN IN NNP CD WDT MD VB VBN DT NNS , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O DATE DATE O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBD told) (NP (PRP him)) (SBAR (S (NP (PRP we)) (VP (VBP have) (NP (NP (NN evidence)) (SBAR (IN that) (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ live) (NN police) (NN operation)) (VP (VBG going) (PP (IN on) (IN on) (NP (NP (NNP August) (CD 15)) (SBAR (WHNP (WDT that)) (S (VP (MD could) (VP (VB have) (VP (VBN intercepted) (NP (DT the) (NNS bombers)))))))))))))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 29|29 punct 1|3 nsubj 2|29 ccomp 3|3 dobj 4|6 nsubj 5|3 ccomp 6|6 dobj 7|10 mark 8|10 expl 9|7 dep 10|14 det 11|14 amod 12|14 compound 13|10 nsubj 14|14 acl 15|18 case 16|18 case 17|15 nmod:on 18|23 nsubj 18|18 nummod 19|18 ref 20|23 aux 21|23 aux 22|18 acl:relcl 23|25 det 24|23 dobj 25|29 punct 26|29 punct 27|29 nsubj 28|29 punct 30|
+<word> `` This is new evidence that has n't been made public before . '' 
+<lemma> `` this be new evidence that have not be make public before . '' 
+<POS> `` DT VBZ JJ NN IN VBZ RB VBN VBN JJ RB . '' 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (DT This)) (VP (VBZ is) (NP (NP (JJ new) (NN evidence)) (SBAR (WHNP (IN that)) (S (VP (VBZ has) (RB n't) (VP (VBN been) (VP (VBN made) (ADJP (JJ public)) (ADVP (RB before))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 cop 3|5 amod 4|10 nsubjpass 5|5 ref 6|10 aux 7|10 neg 8|10 auxpass 9|5 acl:relcl 10|10 xcomp 11|10 advmod 12|5 punct 13|5 punct 14|
+<word> He added : `` We also have evidence that public officials lied to the general public about the Omagh bombing . 
+<lemma> he add : `` we also have evidence that public official lie to the general public about the Omagh bombing . 
+<POS> PRP VBD : `` PRP RB VBP NN IN JJ NNS VBD TO DT JJ NN IN DT NNP NN . 
+<NER> O O O O O O O O O O O O O O O O O O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD added) (: :) (`` ``) (S (NP (PRP We)) (ADVP (RB also)) (VP (VBP have) (NP (NP (NN evidence)) (SBAR (IN that) (S (NP (JJ public) (NNS officials)) (VP (VBD lied) (PP (TO to) (NP (DT the) (JJ general) (NN public))) (PP (IN about) (NP (DT the) (NNP Omagh) (NN bombing)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 punct 3|2 punct 4|7 nsubj 5|7 advmod 6|2 ccomp 7|7 dobj 8|12 mark 9|11 amod 10|12 nsubj 11|8 dep 12|16 case 13|16 det 14|16 amod 15|12 nmod:to 16|20 case 17|20 det 18|20 compound 19|12 nmod:about 20|2 punct 21|
+<word> `` We will be producing all of that evidence to him on June 18 . '' 
+<lemma> `` we will be produce all of that evidence to he on June 18 . '' 
+<POS> `` PRP MD VB VBG DT IN DT NN TO PRP IN NNP CD . '' 
+<NER> O O O O O O O O O O O O DATE DATE O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP We)) (VP (MD will) (VP (VB be) (VP (VBG producing) (NP (NP (DT all)) (PP (IN of) (NP (NP (DT that) (NN evidence)) (PP (TO to) (NP (PRP him)))))) (PP (IN on) (NP (NNP June) (CD 18)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 aux 3|5 aux 4|9 det:qmod 6|6 mwe 7|9 det 8|5 dobj 9|11 case 10|9 nmod:to 11|13 case 12|5 nmod:on 13|13 nummod 14|5 punct 15|5 punct 16|
+<word> Mr Gallagher said he would not be outlining full details of the evidence unearthed until the report had been passed to the Westminster Government . 
+<lemma> Mr Gallagher say he would not be outline full detail of the evidence unearth until the report have be pass to the Westminster Government . 
+<POS> NNP NNP VBD PRP MD RB VB VBG JJ NNS IN DT NN VBD IN DT NN VBD VBN VBN TO DT NNP NNP . 
+<NER> O PERSON O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Gallagher)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (MD would) (RB not) (VP (VB be) (VP (VBG outlining) (SBAR (S (NP (NP (JJ full) (NNS details)) (PP (IN of) (NP (DT the) (NN evidence)))) (VP (VBD unearthed) (SBAR (IN until) (S (NP (DT the) (NN report)) (VP (VBD had) (VP (VBN been) (VP (VBN passed) (PP (TO to) (NP (DT the) (NNP Westminster) (NNP Government))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|8 nsubj 4|8 aux 5|8 neg 6|8 aux 7|3 ccomp 8|10 amod 9|14 nsubj 10|13 case 11|13 det 12|10 nmod:of 13|8 ccomp 14|20 mark 15|17 det 16|20 nsubjpass 17|20 aux 18|20 auxpass 19|14 advcl:until 20|24 case 21|24 det 22|24 compound 23|20 nmod:to 24|3 punct 25|
+<word> The Omagh Support and Self Help Group commissioned the report from a group of London-based consultants who have interviewed key figures associated with the case . 
+<lemma> the Omagh support and self help Group commission the report from a group of london-based consultant who have interview key figure associate with the case . 
+<POS> DT NNP NN CC NN VBP NNP VBD DT NN IN DT NN IN JJ NNS WP VBP VBN JJ NNS VBN IN DT NN . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNP Omagh) (NN Support)) (CC and) (NP (NN Self))) (VP (VBP Help) (SBAR (S (NP (NNP Group)) (VP (VBD commissioned) (NP (DT the) (NN report)) (PP (IN from) (NP (NP (DT a) (NN group)) (PP (IN of) (NP (JJ London-based) (NNS consultants))) (SBAR (WHNP (WP who)) (S (VP (VBP have) (VP (VBN interviewed) (NP (NP (JJ key) (NNS figures)) (VP (VBN associated) (PP (IN with) (NP (DT the) (NN case))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 compound 2|6 nsubj 3|3 cc 4|3 conj:and 5|6 nsubj 5|8 nsubj 7|6 ccomp 8|10 det 9|8 dobj 10|13 case 11|13 det 12|8 nmod:from 13|19 nsubj 13|16 case 14|16 amod 15|13 nmod:of 16|13 ref 17|19 aux 18|13 acl:relcl 19|21 amod 20|19 dobj 21|21 acl 22|25 case 23|25 det 24|22 nmod:with 25|6 punct 26|
+<word> The consultants have also examined material already compiled on the bombing . 
+<lemma> the consultant have also examine material already compile on the bombing . 
+<POS> DT NNS VBP RB VBN NN RB VBN IN DT NN . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS consultants)) (VP (VBP have) (ADVP (RB also)) (VP (VBN examined) (NP (NP (NN material)) (VP (ADVP (RB already)) (VBN compiled) (PP (IN on) (NP (DT the) (NN bombing))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|5 aux 3|5 advmod 4|5 dobj 6|8 advmod 7|6 acl 8|11 case 9|11 det 10|8 nmod:on 11|5 punct 12|
+<word> The documentation includes police reports from both sides of the Irish border , a probe carried out by the Police Ombudsman in Northern Ireland , plus a government-sponsored review of how intelligence on the attack was handled . 
+<lemma> the documentation include police report from both side of the irish border , a probe carry out by the Police Ombudsman in Northern Ireland , plus a government-sponsored review of how intelligence on the attack be handle . 
+<POS> DT NN VBZ NNS NNS IN DT NNS IN DT JJ NN , DT NN VBD RP IN DT NNP NNP IN NNP NNP , CC DT JJ NN IN WRB NN IN DT NN VBD VBN . 
+<NER> O O O O O O O O O O MISC O O O O O O O O O O O LOCATION LOCATION O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NN documentation)) (VP (VBZ includes) (NP (NNS police) (NNS reports)) (PP (IN from) (NP (NP (DT both) (NNS sides)) (PP (IN of) (NP (DT the) (JJ Irish) (NN border))))))) (, ,) (NP (DT a) (NN probe)) (VP (VBD carried) (PRT (RP out)) (PP (IN by) (NP (NP (NP (DT the) (NNP Police) (NNP Ombudsman)) (PP (IN in) (NP (NNP Northern) (NNP Ireland)))) (, ,) (CC plus) (NP (NP (DT a) (JJ government-sponsored) (NN review)) (PP (IN of) (SBAR (WHADVP (WRB how)) (S (NP (NP (NN intelligence)) (PP (IN on) (NP (DT the) (NN attack)))) (VP (VBD was) (VP (VBN handled)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|2 det 1|3 nsubj 2|16 ccomp 3|5 compound 4|3 dobj 5|8 case 6|8 det 7|3 nmod:from 8|12 case 9|12 det 10|12 amod 11|8 nmod:of 12|16 punct 13|15 det 14|16 nsubj 15|16 compound:prt 17|21 case 18|21 det 19|21 compound 20|16 nmod:by 21|24 case 22|24 compound 23|21 nmod:in 24|21 punct 25|21 cc 26|29 det 27|29 amod 28|16 nmod:by 29|21 conj:plus 29|37 mark 30|37 advmod 31|37 nsubjpass 32|35 case 33|35 det 34|32 nmod:on 35|37 auxpass 36|29 acl:of 37|16 punct 38|
+<word> The relatives also secured disclosure of other documents linked to the case . 
+<lemma> the relative also secure disclosure of other document link to the case . 
+<POS> DT NNS RB VBN NN IN JJ NNS VBN TO DT NN . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS relatives)) (ADVP (RB also)) (VP (VBN secured) (NP (NP (NN disclosure)) (PP (IN of) (NP (NP (JJ other) (NNS documents)) (VP (VBN linked) (PP (TO to) (NP (DT the) (NN case)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|4 dobj 5|8 case 6|8 amod 7|5 nmod:of 8|8 acl 9|12 case 10|12 det 11|9 nmod:to 12|4 punct 13|
+<word> Four men have been held responsible by a civil court for the bombing . 
+<lemma> four man have be hold responsible by a civil court for the bombing . 
+<POS> CD NNS VBP VBN VBN JJ IN DT JJ NN IN DT NN . 
+<NER> NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (CD Four) (NNS men)) (VP (VBP have) (VP (VBN been) (VP (VBN held) (ADJP (JJ responsible)) (PP (IN by) (NP (NP (DT a) (JJ civil) (NN court)) (PP (IN for) (NP (DT the) (NN bombing)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 nummod 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|5 xcomp 6|10 case 7|10 det 8|10 amod 9|5 nmod:agent 10|13 case 11|13 det 12|10 nmod:for 13|5 punct 14|
+<word> A man accused of murder was cleared by a court in 2007 . 
+<lemma> a man accuse of murder be clear by a court in 2007 . 
+<POS> DT NN VBN IN NN VBD VBN IN DT NN IN CD . 
+<NER> O O O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN man)) (VP (VBN accused) (PP (IN of) (NP (NN murder))))) (VP (VBD was) (VP (VBN cleared) (PP (IN by) (NP (NP (DT a) (NN court)) (PP (IN in) (NP (CD 2007))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubjpass 2|2 acl 3|5 case 4|3 nmod:of 5|7 auxpass 6|10 case 8|10 det 9|7 nmod:agent 10|12 case 11|10 nmod:in 12|7 punct 13|
+<coreference> [['2,15,17,16', '3,7,9,8', '12,23,25,24'], ['2,29,31,30', '11,10,12,11', '14,12,14,13'], ['13,1,3,2', '3,1,6,1', '5,2,3,2', '5,5,6,5'], ['3,4,6,5', '9,16,18,17', '10,9,11,10'], ['4,1,3,2', '5,4,5,4', '7,1,2,1'], ['4,1,13,2', '5,28,29,28', '8,11,12,11'], ['4,11,13,12', '12,34,36,35'], ['6,2,3,2', '7,5,6,5', '8,2,3,2'], ['9,12,14,13', '7,8,21,8'], ['9,1,3,2', '9,4,5,4'], ['10,1,4,3', '10,1,6,3', '10,2,8,3'], ['10,24,26,25', '13,11,13,12']]
+</DOC>

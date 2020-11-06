@@ -1,0 +1,186 @@
+<DOC> article-3595.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 |
+<word> Two Italian marines accused of killing two Indian fishermen will be tried according to Indian law , deputy foreign minister Preneet Kaur has said . 
+<lemma> two italian marine accuse of kill two indian fisherman will be try accord to indian law , deputy foreign minister Preneet Kaur have say . 
+<POS> CD JJ NNS VBN IN VBG CD JJ NNS MD VB VBN VBG TO JJ NN , NN JJ NN NNP NNP VBZ VBN . 
+<NER> NUMBER MISC O O O O NUMBER MISC O O O O O O MISC O O O O O PERSON PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Two) (JJ Italian) (NNS marines)) (VP (VBN accused) (PP (IN of) (S (VP (VBG killing) (NP (CD two) (JJ Indian) (NNS fishermen))))))) (VP (MD will) (VP (VB be) (VP (VBN tried) (PP (VBG according) (PP (TO to) (NP (NP (JJ Indian) (NN law)) (, ,) (NP (NP (NN deputy) (JJ foreign) (NN minister)) (SBAR (S (NP (NNP Preneet) (NNP Kaur)) (VP (VBZ has) (VP (VBN said)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|3 nummod 1|3 amod 2|12 nsubjpass 3|3 acl 4|6 mark 5|4 advcl:of 6|9 nummod 7|9 amod 8|6 dobj 9|12 aux 10|12 auxpass 11|16 case 13|13 mwe 14|16 amod 15|12 nmod:according_to 16|16 punct 17|20 compound 18|20 amod 19|16 appos 20|22 compound 21|24 nsubj 22|24 aux 23|20 acl:relcl 24|12 punct 25|
+<word> She spoke after talks with her Italian counterpart Steffan de Mistura . 
+<lemma> she speak after talk with she italian counterpart Steffan de Mistura . 
+<POS> PRP VBD IN NNS IN PRP$ JJ NN NNP IN NNP . 
+<NER> O O O O O O MISC O PERSON PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP She)) (VP (VBD spoke) (PP (IN after) (NP (NNS talks))) (PP (IN with) (NP (PRP$ her) (JJ Italian) (NN counterpart) (NNP Steffan) (IN de) (NNP Mistura)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 case 3|2 nmod:after 4|11 case 5|11 nmod:poss 6|11 amod 7|11 compound 8|11 compound 9|11 amod 10|2 nmod:with 11|2 punct 12|
+<word> The two marines were on board an Italian oil tanker off southern India . 
+<lemma> the two marine be on board a italian oil tanker off southern India . 
+<POS> DT CD NNS VBD IN NN DT JJ NN NN IN JJ NNP . 
+<NER> O NUMBER O O O O O MISC O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (CD two) (NNS marines)) (VP (VBD were) (PP (IN on) (NP (NN board))) (NP (DT an) (JJ Italian) (NN oil) (NN tanker)) (PP (IN off) (NP (JJ southern) (NNP India)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 det 1|3 nummod 2|10 nsubj 3|10 cop 4|6 case 5|10 nmod:on 6|10 det 7|10 amod 8|10 compound 9|13 case 11|13 amod 12|10 nmod:off 13|10 punct 14|
+<word> Italy says as the incident took place in international waters the men should be tried in Italy . 
+<lemma> Italy say as the incident take place in international water the man should be try in Italy . 
+<POS> NNP VBZ IN DT NN VBD NN IN JJ NNS DT NNS MD VB VBN IN NNP . 
+<NER> LOCATION O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Italy)) (VP (VBZ says) (SBAR (IN as) (S (NP (DT the) (NN incident)) (VP (VBD took) (NP (NN place)) (PP (IN in) (NP (JJ international) (NNS waters)))))))) (NP (DT the) (NNS men)) (VP (MD should) (VP (VB be) (VP (VBN tried) (PP (IN in) (NP (NNP Italy)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|2 nsubj 1|15 dep 2|6 mark 3|5 det 4|6 nsubj 5|2 advcl:as 6|6 dobj 7|10 case 8|10 amod 9|6 nmod:in 10|12 det 11|15 nsubjpass 12|15 aux 13|15 auxpass 14|17 case 16|15 nmod:in 17|15 punct 18|
+<word> Officials say the fishing boat was behaving aggressively and was mistaken for a pirate vessel . 
+<lemma> official say the fishing boat be behave aggressively and be mistake for a pirate vessel . 
+<POS> NNS VBP DT NN NN VBD VBG RB CC VBD VBN IN DT JJ NN . 
+<NER> O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Officials)) (VP (VBP say) (SBAR (S (NP (DT the) (NN fishing) (NN boat)) (VP (VP (VBD was) (VP (VBG behaving) (ADVP (RB aggressively)))) (CC and) (VP (VBD was) (VP (VBN mistaken) (PP (IN for) (NP (DT a) (JJ pirate) (NN vessel))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 det 3|5 compound 4|7 nsubj 5|11 nsubjpass 5|7 aux 6|2 ccomp 7|7 advmod 8|7 cc 9|11 auxpass 10|2 ccomp 11|7 conj:and 11|15 case 12|15 det 13|15 amod 14|11 nmod:for 15|2 punct 16|
+<word> Italian officials have asked the High Court in the state of Kerala to throw out the murder charges against the two marines . 
+<lemma> italian official have ask the High Court in the state of Kerala to throw out the murder charge against the two marine . 
+<POS> JJ NNS VBP VBN DT NNP NNP IN DT NN IN NNP TO VB RP DT NN NNS IN DT CD NNS . 
+<NER> MISC O O O O ORGANIZATION ORGANIZATION O O O O LOCATION O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Italian) (NNS officials)) (VP (VBP have) (VP (VBN asked) (NP (DT the) (NNP High) (NNP Court)) (PP (IN in) (NP (NP (DT the) (NN state)) (PP (IN of) (NP (NNP Kerala))))) (S (VP (TO to) (VP (VB throw) (PRT (RP out)) (NP (NP (DT the) (NN murder) (NNS charges)) (PP (IN against) (NP (DT the) (CD two) (NNS marines))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|4 aux 3|7 det 5|7 compound 6|4 dobj 7|14 nsubj:xsubj 7|10 case 8|10 det 9|4 nmod:in 10|12 case 11|10 nmod:of 12|14 mark 13|4 xcomp 14|14 compound:prt 15|18 det 16|18 compound 17|14 dobj 18|22 case 19|22 det 20|22 nummod 21|18 nmod:against 22|4 punct 23|
+<word> The marines were detained on Sunday and remanded in custody for two weeks as the murder investigation against them continues . 
+<lemma> the marine be detain on Sunday and remand in custody for two week as the murder investigation against they continue . 
+<POS> DT NNS VBD VBN IN NNP CC VBN IN NN IN CD NNS IN DT NN NN IN PRP VBZ . 
+<NER> O O O O O DATE O O O O O DURATION DURATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS marines)) (VP (VBD were) (VP (VP (VBN detained) (PP (IN on) (NP (NNP Sunday)))) (CC and) (VP (VBN remanded) (PP (IN in) (NP (NP (NN custody)) (PP (IN for) (NP (CD two) (NNS weeks))))) (SBAR (IN as) (S (NP (NP (DT the) (NN murder) (NN investigation)) (PP (IN against) (NP (PRP them)))) (VP (VBZ continues))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|8 nsubjpass 2|4 auxpass 3|6 case 5|4 nmod:on 6|4 cc 7|4 conj:and 8|10 case 9|8 nmod:in 10|13 case 11|13 nummod 12|10 nmod:for 13|20 mark 14|17 det 15|17 compound 16|20 nsubj 17|19 case 18|17 nmod:against 19|8 advcl:as 20|4 punct 21|
+<word> `` As far as the law point is concerned , '' Ms Kaur said , `` they have their interpretations and we have our interpretations . 
+<lemma> `` as far as the law point be concern , '' Ms Kaur say , `` they have they interpretation and we have we interpretation . 
+<POS> `` IN RB IN DT NN NN VBZ VBN , '' NNP NNP VBD , `` PRP VBP PRP$ NNS CC PRP VBP PRP$ NNS . 
+<NER> O O O O O O O O O O O O PERSON O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (SBAR (IN As) (S (ADVP (RB far) (PP (IN as) (NP (DT the) (NN law) (NN point)))) (VP (VBZ is) (ADJP (VBN concerned))))) (PRN (, ,) ('' '') (S (NP (NNP Ms) (NNP Kaur)) (VP (VBD said))) (, ,) (`` ``)) (S (NP (PRP they)) (VP (VBP have) (NP (PRP$ their) (NNS interpretations)))) (CC and) (S (NP (PRP we)) (VP (VBP have) (NP (PRP$ our) (NNS interpretations)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 punct 1|9 mark 2|9 advmod 3|7 case 4|7 det 5|7 compound 6|3 nmod:as 7|9 auxpass 8|18 advcl:as 9|14 punct 10|14 punct 11|13 compound 12|14 nsubj 13|18 dep 14|14 punct 15|14 punct 16|18 nsubj 17|20 nmod:poss 19|18 dobj 20|18 cc 21|23 nsubj 22|18 conj:and 23|25 nmod:poss 24|23 dobj 25|18 punct 26|
+<word> `` As of today , the two people -LSB- Italian marines -RSB- are on Indian soil and tomorrow the Indian court is going to decide what steps are to be taken further , '' she said . 
+<lemma> `` as of today , the two people -lsb- italian marine -rsb- be on indian soil and tomorrow the indian court be go to decide what step be to be take further , '' she say . 
+<POS> `` IN IN NN , DT CD NNS -LRB- JJ NNS -RRB- VBP IN JJ NN CC NN DT JJ NN VBZ VBG TO VB WP NNS VBP TO VB VBN RB , '' PRP VBD . 
+<NER> O O O DATE O O NUMBER O O MISC O O O O MISC O O DATE O MISC O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (SBAR (IN As) (S (PP (IN of) (NP (NN today))) (, ,) (NP (NP (DT the) (CD two) (NNS people)) (-LRB- -LSB-) (NP (JJ Italian) (NNS marines)) (-RRB- -RSB-)) (VP (VBP are) (PP (IN on) (NP (JJ Indian) (NN soil) (CC and) (NN tomorrow)))))) (NP (DT the) (JJ Indian) (NN court)) (VP (VBZ is) (VP (VBG going) (S (VP (TO to) (VP (VB decide) (SBAR (WHNP (WP what)) (S (NP (NNS steps)) (VP (VBP are) (S (VP (TO to) (VP (VB be) (VP (VBN taken) (ADVP (RB further))))))))))))))) (, ,) ('' '') (NP (PRP she)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 36|36 punct 1|16 mark 2|4 case 3|16 nmod:of 4|16 punct 5|8 det 6|8 nummod 7|16 nsubj 8|8 punct 9|11 amod 10|8 dep 11|8 punct 12|16 cop 13|16 case 14|16 amod 15|23 advcl:as 16|16 cc 17|16 conj:and 18|23 advcl:as 18|21 det 19|21 amod 20|23 nsubj 21|25 nsubj:xsubj 21|23 aux 22|36 ccomp 23|25 mark 24|23 xcomp 25|28 dobj 26|31 nsubjpass:xsubj 26|28 nsubj 27|25 ccomp 28|31 mark 29|31 auxpass 30|28 xcomp 31|31 advmod 32|36 punct 33|36 punct 34|36 nsubj 35|36 punct 37|
+<word> `` So far as we are concerned in India , we certainly will go by our law . '' 
+<lemma> `` so far as we be concern in India , we certainly will go by we law . '' 
+<POS> `` RB RB IN PRP VBP VBN IN NNP , PRP RB MD VB IN PRP$ NN . '' 
+<NER> O O O O O O O O LOCATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (ADVP (RB So) (RB far) (SBAR (IN as) (S (NP (PRP we)) (VP (VBP are) (VP (VBN concerned) (PP (IN in) (NP (NNP India)))))))) (, ,) (NP (PRP we)) (ADVP (RB certainly)) (VP (MD will) (VP (VB go) (PP (IN by) (NP (PRP$ our) (NN law))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|14 punct 1|3 advmod 2|14 advmod 3|7 mark 4|7 nsubjpass 5|7 auxpass 6|3 ccomp 7|9 case 8|7 nmod:in 9|14 punct 10|14 nsubj 11|14 advmod 12|14 aux 13|17 case 15|17 nmod:poss 16|14 nmod:by 17|14 punct 18|14 punct 19|
+<word> Mr Mistura expressed his regret over the two Indian fishermen 's deaths , but said there were legal points that needed to be clarified , including the exact position of the ship when the two men died . 
+<lemma> Mr Mistura express he regret over the two indian fisherman 's death , but say there be legal point that need to be clarify , include the exact position of the ship when the two man die . 
+<POS> NNP NNP VBD PRP$ NN IN DT CD JJ NNS POS NNS , CC VBD EX VBD JJ NNS WDT VBD TO VB VBN , VBG DT JJ NN IN DT NN WRB DT CD NNS VBD . 
+<NER> O PERSON O O O O O NUMBER MISC O O O O O O O O O O O O O O O O O O O O O O O O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Mistura)) (VP (VP (VBD expressed) (NP (NP (NP (PRP$ his) (NN regret)) (PP (IN over) (NP (DT the) (CD two) (JJ Indian) (NNS fishermen))) (POS 's)) (NNS deaths))) (, ,) (CC but) (VP (VBD said) (SBAR (S (NP (EX there)) (VP (VBD were) (NP (NP (JJ legal) (NNS points)) (SBAR (WHNP (WDT that)) (S (VP (VBD needed) (S (VP (TO to) (VP (VB be) (VP (VBN clarified))))) (, ,) (PP (VBG including) (NP (NP (DT the) (JJ exact) (NN position)) (PP (IN of) (NP (NP (DT the) (NN ship)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (CD two) (NNS men)) (VP (VBD died))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|15 nsubj 2|5 nmod:poss 4|12 nmod:poss 5|10 case 6|10 det 7|10 nummod 8|10 amod 9|5 nmod:over 10|5 case 11|3 dobj 12|3 punct 13|3 cc 14|3 conj:but 15|17 expl 16|15 ccomp 17|19 amod 18|17 nsubj 19|21 nsubj 19|24 nsubjpass:xsubj 19|19 ref 20|19 acl:relcl 21|24 mark 22|24 auxpass 23|21 xcomp 24|21 punct 25|29 case 26|29 det 27|29 amod 28|21 nmod:including 29|32 case 30|32 det 31|29 nmod:of 32|37 advmod 33|36 det 34|36 nummod 35|37 nsubj 36|32 acl:relcl 37|3 punct 38|
+<word> `` We do acknowledge that two Indian citizens died ... and we are terribly sad . 
+<lemma> `` we do acknowledge that two indian citizen die ... and we be terribly sad . 
+<POS> `` PRP VBP VB IN CD JJ NNS VBD : CC PRP VBP RB JJ . 
+<NER> O O O O O NUMBER MISC O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP do) (VP (VB acknowledge) (SBAR (IN that) (S (NP (CD two) (JJ Indian) (NNS citizens)) (VP (VBD died))))))) (: ...) (CC and) (S (NP (PRP we)) (VP (VBP are) (ADJP (RB terribly) (JJ sad)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 punct 1|4 nsubj 2|4 aux 3|9 mark 5|8 nummod 6|8 amod 7|9 nsubj 8|4 ccomp 9|4 punct 10|4 cc 11|15 nsubj 12|15 cop 13|15 advmod 14|4 conj:and 15|4 punct 16|
+<word> The second one is that is that the incident took place in international waters and at the same time the investigations will assert the exact position , '' he said . 
+<lemma> the second one be that be that the incident take place in international water and at the same time the investigation will assert the exact position , '' he say . 
+<POS> DT JJ CD VBZ DT VBZ IN DT NN VBD NN IN JJ NNS CC IN DT JJ NN DT NNS MD VB DT JJ NN , '' PRP VBD . 
+<NER> O ORDINAL NUMBER O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (JJ second) (CD one)) (VP (VBZ is) (SBAR (WHNP (DT that)) (S (VP (VBZ is) (SBAR (IN that) (S (S (NP (DT the) (NN incident)) (VP (VBD took) (NP (NN place)) (PP (IN in) (NP (JJ international) (NNS waters))))) (CC and) (S (PP (IN at) (NP (DT the) (JJ same) (NN time))) (NP (DT the) (NNS investigations)) (VP (MD will) (VP (VB assert) (NP (DT the) (JJ exact) (NN position)))))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 30|3 det 1|3 amod 2|4 nsubj 3|30 ccomp 4|6 nsubj 5|4 ccomp 6|10 mark 7|9 det 8|10 nsubj 9|6 ccomp 10|10 dobj 11|14 case 12|14 amod 13|10 nmod:in 14|10 cc 15|19 case 16|19 det 17|19 amod 18|23 nmod:at 19|21 det 20|23 nsubj 21|23 aux 22|6 ccomp 23|10 conj:and 23|26 det 24|26 amod 25|23 dobj 26|30 punct 27|30 punct 28|30 nsubj 29|30 punct 31|
+<word> `` We all want the truth , '' he added . 
+<lemma> `` we all want the truth , '' he add . 
+<POS> `` PRP DT VBP DT NN , '' PRP VBD . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (ADVP (DT all)) (VP (VBP want) (NP (DT the) (NN truth)))) (, ,) ('' '') (NP (PRP he)) (VP (VBD added)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 punct 1|4 nsubj 2|4 advmod 3|10 ccomp 4|6 det 5|4 dobj 6|10 punct 7|10 punct 8|10 nsubj 9|10 punct 11|
+<word> Italy 's defence ministry has said the fishing boat was behaving aggressively and ignored warning shots fired from the Italian oil tanker . 
+<lemma> Italy 's defence ministry have say the fishing boat be behave aggressively and ignore warning shot fire from the italian oil tanker . 
+<POS> NNP POS NN NN VBZ VBD DT NN NN VBD VBG RB CC VBN NN NNS VBD IN DT JJ NN NN . 
+<NER> LOCATION O O O O O O O O O O O O O O O O O O MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Italy) (POS 's)) (NN defence) (NN ministry)) (VP (VBZ has) (VP (VBD said) (SBAR (S (NP (DT the) (NN fishing) (NN boat)) (VP (VBD was) (VP (VP (VBG behaving) (ADVP (RB aggressively))) (CC and) (VP (VBN ignored) (SBAR (S (NP (NN warning) (NNS shots)) (VP (VBD fired) (PP (IN from) (NP (DT the) (JJ Italian) (NN oil) (NN tanker))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 nmod:poss 1|1 case 2|4 compound 3|6 nsubj 4|6 aux 5|9 det 7|9 compound 8|11 nsubjpass 9|14 nsubjpass 9|11 auxpass 10|6 ccomp 11|11 advmod 12|11 cc 13|6 ccomp 14|11 conj:and 14|16 compound 15|17 nsubj 16|14 ccomp 17|22 case 18|22 det 19|22 amod 20|22 compound 21|17 nmod:from 22|6 punct 23|
+<word> They said they opened fire after mistaking the fishermen for pirates . 
+<lemma> they say they open fire after mistake the fisherman for pirate . 
+<POS> PRP VBD PRP VBD NN IN VBG DT NNS IN NNS . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD opened) (NP (NN fire)) (PP (IN after) (S (VP (VBG mistaking) (NP (DT the) (NNS fishermen)) (PP (IN for) (NP (NNS pirates)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj 3|2 ccomp 4|4 dobj 5|7 mark 6|4 advcl:after 7|9 det 8|7 dobj 9|11 case 10|7 nmod:for 11|2 punct 12|
+<word> India said the fishermen were unarmed . 
+<lemma> India say the fisherman be unarmed . 
+<POS> NNP VBD DT NNS VBD JJ . 
+<NER> LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP India)) (VP (VBD said) (SBAR (S (NP (DT the) (NNS fishermen)) (VP (VBD were) (ADJP (JJ unarmed)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|6 nsubj 4|6 cop 5|2 ccomp 6|2 punct 7|
+<word> The incident took place off the coast of Kerala last Wednesday . 
+<lemma> the incident take place off the coast of Kerala last Wednesday . 
+<POS> DT NN VBD NN IN DT NN IN NNP JJ NNP . 
+<NER> O O O O O O O O LOCATION DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN incident)) (VP (VBD took) (NP (NN place)) (PP (IN off) (NP (NP (DT the) (NN coast)) (PP (IN of) (NP (NNP Kerala))))) (NP-TMP (JJ last) (NNP Wednesday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|3 dobj 4|7 case 5|7 det 6|3 nmod:off 7|9 case 8|7 nmod:of 9|11 amod 10|3 nmod:tmod 11|3 punct 12|
+<word> It sparked a major diplomatic row between the two countries . 
+<lemma> it spark a major diplomatic row between the two country . 
+<POS> PRP VBD DT JJ JJ NN IN DT CD NNS . 
+<NER> O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD sparked) (NP (NP (DT a) (JJ major) (JJ diplomatic) (NN row)) (PP (IN between) (NP (DT the) (CD two) (NNS countries))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 det 3|6 amod 4|6 amod 5|2 dobj 6|10 case 7|10 det 8|10 nummod 9|6 nmod:between 10|2 punct 11|
+<word> The Italian foreign ministry has said Foreign Minister Giulio Terzi will also visit Delhi next week to discuss the issue . 
+<lemma> the italian foreign ministry have say Foreign Minister Giulio Terzi will also visit Delhi next week to discuss the issue . 
+<POS> DT JJ JJ NN VBZ VBN NNP NNP NNP NNP MD RB VB NNP JJ NN TO VB DT NN . 
+<NER> O MISC O O O O O O PERSON PERSON O O O LOCATION DATE DATE O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Italian) (JJ foreign) (NN ministry)) (VP (VBZ has) (VP (VBN said) (SBAR (S (NP (NNP Foreign) (NNP Minister) (NNP Giulio) (NNP Terzi)) (VP (MD will) (ADVP (RB also)) (VP (VB visit) (NP (NNP Delhi)) (NP-TMP (JJ next) (NN week)) (S (VP (TO to) (VP (VB discuss) (NP (DT the) (NN issue))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 amod 2|4 amod 3|6 nsubj 4|6 aux 5|10 compound 7|10 compound 8|10 compound 9|13 nsubj 10|13 aux 11|13 advmod 12|6 ccomp 13|13 dobj 14|16 amod 15|13 nmod:tmod 16|18 mark 17|13 advcl:to 18|20 det 19|18 dobj 20|6 punct 21|
+<word> A delegation of experts from Italy 's foreign , defence and justice ministries has already visited Delhi to discuss the case with Indian officials , but the two sides have so far been unable to resolve their differences . 
+<lemma> a delegation of expert from Italy 's foreign , defence and justice ministry have already visit Delhi to discuss the case with indian official , but the two side have so far be unable to resolve they difference . 
+<POS> DT NN IN NNS IN NNP POS JJ , NN CC NN NNS VBZ RB VBN NNP TO VB DT NN IN JJ NNS , CC DT CD NNS VBP RB RB VBN JJ TO VB PRP$ NNS . 
+<NER> O O O O O LOCATION O O O O O O O O O O LOCATION O O O O O MISC O O O O NUMBER O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT A) (NN delegation)) (PP (IN of) (NP (NP (NNS experts)) (PP (IN from) (NP (NP (NNP Italy) (POS 's)) (JJ foreign) (, ,) (NN defence) (CC and) (NN justice) (NNS ministries)))))) (VP (VBZ has) (ADVP (RB already)) (VP (VBN visited) (S (NP (NNP Delhi)) (VP (TO to) (VP (VB discuss) (NP (DT the) (NN case)) (PP (IN with) (NP (JJ Indian) (NNS officials))))))))) (, ,) (CC but) (S (NP (DT the) (CD two) (NNS sides)) (VP (VBP have) (ADVP (RB so) (RB far)) (VP (VBN been) (ADJP (JJ unable) (S (VP (TO to) (VP (VB resolve) (NP (PRP$ their) (NNS differences))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|2 det 1|16 nsubj 2|4 case 3|2 nmod:of 4|13 case 5|13 nmod:poss 6|6 case 7|13 compound 8|8 punct 9|8 conj:and 10|13 compound 10|8 cc 11|8 conj:and 12|13 compound 12|4 nmod:from 13|16 aux 14|16 advmod 15|16 dobj 17|19 nsubj:xsubj 17|19 mark 18|16 xcomp 19|21 det 20|19 dobj 21|24 case 22|24 amod 23|19 nmod:with 24|16 punct 25|16 cc 26|29 det 27|29 nummod 28|34 nsubj 29|36 nsubj:xsubj 29|34 aux 30|32 advmod 31|34 advmod 32|34 cop 33|16 conj:but 34|36 mark 35|34 xcomp 36|38 nmod:poss 37|36 dobj 38|16 punct 39|
+<word> The Italian foreign ministry also said that Indian police had taken `` coercive '' and `` unilateral '' action on Sunday when they escorted the two marines off the oil tanker where they were deployed as security guards and arrested them , news agency AFP reported . 
+<lemma> the italian foreign ministry also say that indian police have take `` coercive '' and `` unilateral '' action on Sunday when they escort the two marine off the oil tanker where they be deploy as security guard and arrest they , news agency AFP report . 
+<POS> DT JJ JJ NN RB VBD IN JJ NNS VBD VBN `` JJ '' CC `` JJ '' NN IN NNP WRB PRP VBD DT CD NNS IN DT NN NN WRB PRP VBD VBN IN NN NNS CC VBD PRP , NN NN NNP VBD . 
+<NER> O MISC O O O O O MISC O O O O O O O O O O O O DATE O O O O NUMBER O O O O O O O O O O O O O O O O O O ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (JJ Italian) (JJ foreign) (NN ministry)) (ADVP (RB also)) (VP (VBD said) (SBAR (IN that) (S (NP (JJ Indian) (NNS police)) (VP (VBD had) (VP (VBN taken) (NP (ADJP (`` ``) (JJ coercive) ('' '') (CC and) (`` ``) (JJ unilateral) ('' '')) (NN action)) (PP (IN on) (NP (NP (NNP Sunday)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VP (VBD escorted) (NP (DT the) (CD two) (NNS marines)) (PP (IN off) (NP (DT the) (NN oil) (NN tanker))) (SBAR (WHADVP (WRB where)) (S (NP (PRP they)) (VP (VBD were) (VP (VBN deployed) (PP (IN as) (NP (NN security) (NNS guards)))))))) (CC and) (VP (VBD arrested) (NP (PRP them)))))))))))))) (, ,) (NP (NN news) (NN agency) (NNP AFP)) (VP (VBD reported)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 46|4 det 1|4 amod 2|4 amod 3|6 nsubj 4|6 advmod 5|46 ccomp 6|11 mark 7|9 amod 8|11 nsubj 9|11 aux 10|6 ccomp 11|17 punct 12|17 conj:and 13|19 amod 13|17 punct 14|17 cc 15|17 punct 16|19 amod 17|17 punct 18|11 dobj 19|21 case 20|11 nmod:on 21|24 advmod 22|24 nsubj 23|40 nsubj 23|21 acl:relcl 24|27 det 25|27 nummod 26|24 dobj 27|31 case 28|31 det 29|31 compound 30|24 nmod:off 31|35 advmod 32|35 nsubjpass 33|35 auxpass 34|24 advcl 35|38 case 36|38 compound 37|35 nmod:as 38|24 cc 39|21 acl:relcl 40|24 conj:and 40|40 dobj 41|46 punct 42|45 compound 43|45 compound 44|46 nsubj 45|46 punct 47|
+<word> Italy insists that its personnel can not be charged under Indian law . 
+<lemma> Italy insist that its personnel can not be charge under indian law . 
+<POS> NNP VBZ IN PRP$ NNS MD RB VB VBN IN JJ NN . 
+<NER> LOCATION O O O O O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Italy)) (VP (VBZ insists) (SBAR (IN that) (S (NP (PRP$ its) (NNS personnel)) (VP (MD can) (RB not) (VP (VB be) (VP (VBN charged) (PP (IN under) (NP (JJ Indian) (NN law))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|9 mark 3|5 nmod:poss 4|9 nsubjpass 5|9 aux 6|9 neg 7|9 auxpass 8|2 ccomp 9|12 case 10|12 amod 11|9 nmod:under 12|2 punct 13|
+<word> It says the marines have immunity as the tanker was flying an Italian flag and was in international waters when the incident happened . 
+<lemma> it say the marine have immunity as the tanker be fly a italian flag and be in international water when the incident happen . 
+<POS> PRP VBZ DT NNS VBP NN IN DT NN VBD VBG DT JJ NN CC VBD IN JJ NNS WRB DT NN VBD . 
+<NER> O O O O O O O O O O O O MISC O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBZ says) (SBAR (S (NP (DT the) (NNS marines)) (VP (VBP have) (NP (NP (NN immunity)) (SBAR (IN as) (S (NP (DT the) (NN tanker)) (VP (VP (VBD was) (VP (VBG flying) (NP (DT an) (JJ Italian) (NN flag)))) (CC and) (VP (VBD was) (PP (IN in) (NP (JJ international) (NNS waters)))))))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN incident)) (VP (VBD happened)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|5 nsubj 4|2 ccomp 5|5 dobj 6|11 mark 7|9 det 8|11 nsubj 9|11 aux 10|6 dep 11|14 det 12|14 amod 13|11 dobj 14|11 cc 15|19 cop 16|19 case 17|19 amod 18|6 dep 19|11 conj:and 19|23 advmod 20|22 det 21|23 nsubj 22|5 advcl 23|2 punct 24|
+<word> The marines have been identified as Massimiliano Latorre and Salvatore Girone . 
+<lemma> the marine have be identify as Massimiliano Latorre and Salvatore Girone . 
+<POS> DT NNS VBP VBN VBN IN NNP NNP CC NNP NNP . 
+<NER> O O O O O O PERSON PERSON O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS marines)) (VP (VBP have) (VP (VBN been) (VP (VBN identified) (PP (IN as) (NP (NP (NNP Massimiliano) (NNP Latorre)) (CC and) (NP (NNP Salvatore) (NNP Girone))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|8 case 6|8 compound 7|5 nmod:as 8|8 cc 9|11 compound 10|5 nmod:as 11|8 conj:and 11|5 punct 12|
+<word> The Enrica Lexie was on its way from Singapore to Egypt , with a crew of 34 , including 19 Indians . 
+<lemma> the Enrica Lexie be on its way from Singapore to Egypt , with a crew of 34 , include 19 Indians . 
+<POS> DT NNP NNP VBD IN PRP$ NN IN NNP TO NNP , IN DT NN IN CD , VBG CD NNPS . 
+<NER> O PERSON PERSON O O O O O LOCATION O LOCATION O O O O O NUMBER O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Enrica) (NNP Lexie)) (VP (VBD was) (PP (IN on) (NP (NP (PRP$ its) (NN way)) (PP (IN from) (NP (NP (NNP Singapore)) (PP (TO to) (NP (NNP Egypt))))))) (, ,) (PP (IN with) (NP (NP (DT a) (NN crew)) (PP (IN of) (NP (CD 34))))) (, ,) (PP (VBG including) (NP (CD 19) (NNPS Indians)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 det 1|3 compound 2|7 nsubj 3|7 cop 4|7 case 5|7 nmod:poss 6|9 case 8|7 nmod:from 9|11 case 10|9 nmod:to 11|7 punct 12|15 case 13|15 det 14|7 nmod:with 15|17 case 16|15 nmod:of 17|7 punct 18|21 case 19|21 nummod 20|7 nmod:including 21|7 punct 22|
+<coreference> [['1,1,2,1', '1,7,8,7', '3,2,3,2', '6,21,22,21', '9,7,8,7', '11,8,9,8', '11,35,36,35', '12,6,7,6', '19,9,10,9', '21,28,29,28', '22,26,27,26'], ['1,21,23,22', '2,1,2,1', '2,6,7,6'], ['1,1,10,3', '3,1,4,3', '6,20,23,22', '7,1,3,2', '7,19,20,19', '8,17,18,17', '8,19,20,19', '9,10,12,11', '22,25,28,27', '24,3,5,4', '25,1,3,2'], ['11,7,11,10', '1,7,10,9', '12,2,3,2', '12,12,13,12', '14,2,3,2', '16,1,2,1', '16,3,4,3', '16,8,10,9', '17,3,5,4'], ['3,7,11,10', '15,19,23,22', '22,29,32,31', '24,8,10,9'], ['3,12,14,13', '10,9,10,9', '17,1,2,1'], ['4,1,2,1', '4,17,18,17', '15,1,3,1', '21,6,8,6', '23,1,2,1', '23,4,5,4', '24,1,2,1', '26,6,7,6'], ['4,4,6,5', '13,8,10,9', '18,1,3,2', '19,1,2,1', '24,21,23,22'], ['4,9,11,10', '13,13,15,14', '24,18,20,19'], ['5,3,6,5', '15,7,10,9'], ['6,12,13,12', '18,9,10,9'], ['6,1,3,2', '8,22,23,22', '8,24,25,24', '10,5,6,5', '10,11,12,11', '10,16,17,16'], ['7,6,7,6', '22,21,42,21'], ['8,12,14,13', '9,35,36,35'], ['8,19,21,20', '8,24,26,25'], ['11,1,3,2', '11,4,5,4', '13,29,30,29', '14,9,10,9'], ['11,27,38,29', '13,24,27,26'], ['20,14,15,14', '21,17,18,17'], ['20,1,5,4', '22,1,5,4'], ['21,4,14,4', '21,37,38,37'], ['22,8,10,9', '22,23,24,23', '22,33,34,33', '22,41,42,41']]
+</DOC>

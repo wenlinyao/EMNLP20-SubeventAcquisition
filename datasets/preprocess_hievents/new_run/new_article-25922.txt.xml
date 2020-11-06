@@ -1,0 +1,60 @@
+<DOC> article-25922.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 |
+<word> At least eight persons were killed and 30 others injured early Tuesday when a passenger train crashed into a goods train in the northeast Indian state of Andhra Pradesh , said police . 
+<lemma> at least eight person be kill and 30 other injured early Tuesday when a passenger train crash into a goods train in the northeast indian state of Andhra Pradesh , say police . 
+<POS> IN JJS CD NNS VBD VBN CC CD NNS JJ JJ NNP WRB DT NN NN VBD IN DT NNS NN IN DT JJ JJ NN IN NNP NNP , VBD NN . 
+<NER> O O NUMBER O O O O NUMBER O O DATE DATE O O O O O O O O O O O O MISC O O LOCATION LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN At) (JJS least) (CD eight)) (NNS persons)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (NP (CD 30) (NNS others) (JJ injured)) (NP-TMP (JJ early) (NNP Tuesday)) (SBAR (WHADVP (WRB when)) (S (NP (DT a) (NN passenger) (NN train)) (VP (VBD crashed) (PP (IN into) (NP (DT a) (NNS goods) (NN train))) (PP (IN in) (NP (NP (DT the) (JJ northeast) (JJ Indian) (NN state)) (PP (IN of) (NP (NNP Andhra) (NNP Pradesh))))))))) (, ,) (VP (VBD said) (NP (NN police)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 case 1|3 nmod:npmod 2|4 nummod 3|6 nsubjpass 4|6 auxpass 5|6 cc 7|9 nummod 8|31 nsubj 9|9 amod 10|12 amod 11|9 nmod:tmod 12|17 advmod 13|16 det 14|16 compound 15|17 nsubj 16|9 acl:relcl 17|21 case 18|21 det 19|21 compound 20|17 nmod:into 21|26 case 22|26 det 23|26 amod 24|26 amod 25|17 nmod:in 26|29 case 27|29 compound 28|26 nmod:of 29|31 punct 30|6 conj:and 31|31 dobj 32|6 punct 33|
+<word> The Bangalore-bound Hampi Express overshot a signal and collided with a stationary goods train at Andhra Pradesh 's Penneconda station at 03:15 a.m. local time . 
+<lemma> the bangalore-bound Hampi Express overshoot a signal and collide with a stationary goods train at Andhra Pradesh 's Penneconda station at 03:15 a.m. local time . 
+<POS> DT JJ NNP NNP VBD DT NN CC VBN IN DT JJ NNS NN IN NNP NNP POS NNP NN IN CD RB JJ NN . 
+<NER> O O ORGANIZATION ORGANIZATION O O O O O O O O O O O LOCATION LOCATION O LOCATION O O TIME TIME TIME TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Bangalore-bound) (NNP Hampi) (NNP Express)) (VP (VP (VBD overshot) (NP (DT a) (NN signal))) (CC and) (VP (VBN collided) (PP (IN with) (NP (NP (DT a) (JJ stationary) (NNS goods) (NN train)) (PP (IN at) (NP (NP (NNP Andhra) (NNP Pradesh) (POS 's)) (NNP Penneconda) (NN station))))) (PP (IN at) (NP (CD 03:15))) (NP-TMP (RB a.m.) (JJ local) (NN time)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 amod 2|4 compound 3|5 nsubj 4|9 nsubj 4|7 det 6|5 dobj 7|5 cc 8|5 conj:and 9|14 case 10|14 det 11|14 amod 12|14 compound 13|9 nmod:with 14|20 case 15|17 compound 16|20 nmod:poss 17|17 case 18|20 compound 19|14 nmod:at 20|22 case 21|9 nmod:at 22|25 advmod 23|25 amod 24|9 nmod:tmod 25|5 punct 26|
+<word> While eight persons have died in the accident and 30 others injured , many others were trapped in at least two bogies which overturned and rescue workers were trying to move them out of the wreckage , according to police . 
+<lemma> while eight person have die in the accident and 30 other injure , many other be trap in at least two bogie which overturn and rescue worker be try to move they out of the wreckage , accord to police . 
+<POS> IN CD NNS VBP VBN IN DT NN CC CD NNS VBN , JJ NNS VBD VBN IN IN JJS CD NNS WDT VBD CC NN NNS VBD VBG TO VB PRP IN IN DT NN , VBG TO NNS . 
+<NER> O NUMBER O O O O O O O NUMBER O O O O O O O O O O NUMBER O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (SBAR (IN While) (S (NP (CD eight) (NNS persons)) (VP (VBP have) (VP (VBN died) (PP (IN in) (NP (NP (DT the) (NN accident)) (CC and) (NP (NP (CD 30) (NNS others)) (VP (VBN injured))))))))) (, ,) (NP (JJ many) (NNS others)) (VP (VBD were) (VP (VBN trapped) (PP (IN in) (NP (NP (QP (IN at) (JJS least) (CD two)) (NNS bogies)) (SBAR (WHNP (WDT which)) (S (VP (VBD overturned))))))))) (CC and) (S (NP (NN rescue) (NNS workers)) (VP (VBD were) (VP (VBG trying) (S (VP (TO to) (VP (VB move) (NP (PRP them)) (ADVP (IN out) (PP (IN of) (NP (DT the) (NN wreckage)))) (, ,) (PP (VBG according) (PP (TO to) (NP (NNS police)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|5 mark 1|3 nummod 2|5 nsubj 3|5 aux 4|17 advcl:while 5|8 case 6|8 det 7|5 nmod:in 8|8 cc 9|11 nummod 10|5 nmod:in 11|8 conj:and 11|11 acl 12|17 punct 13|15 amod 14|17 nsubjpass 15|17 auxpass 16|22 case 18|20 case 19|21 nmod:npmod 20|22 nummod 21|17 nmod:in 22|24 nsubj 22|22 ref 23|22 acl:relcl 24|17 cc 25|27 compound 26|29 nsubj 27|31 nsubj:xsubj 27|29 aux 28|17 conj:and 29|31 mark 30|29 xcomp 31|31 dobj 32|36 case 33|33 mwe 34|36 det 35|31 nmod:out_of 36|31 punct 37|40 case 38|38 mwe 39|31 nmod:according_to 40|17 punct 41|
+<word> Local TV footage showed at least one bogie was completely destroyed while some injured were being moved out of the train on stretchers . 
+<lemma> local tv footage show at least one bogie be completely destroy while some injure be be move out of the train on stretcher . 
+<POS> JJ NN NN VBD IN JJS CD NN VBD RB VBN IN DT VBN VBD VBG VBN IN IN DT NN IN NNS . 
+<NER> O O O O O O NUMBER O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Local) (NN TV) (NN footage)) (VP (VBD showed) (SBAR (S (NP (QP (IN at) (JJS least) (CD one)) (NN bogie)) (VP (VBD was) (ADVP (RB completely)) (VP (VBN destroyed) (SBAR (IN while) (S (NP (NP (DT some)) (VP (VBN injured))) (VP (VBD were) (VP (VBG being) (VP (VBN moved) (PRT (IN out)) (PP (IN of) (NP (NP (DT the) (NN train)) (PP (IN on) (NP (NNS stretchers))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 amod 1|3 compound 2|4 nsubj 3|6 case 5|7 nmod:npmod 6|8 nummod 7|11 nsubjpass 8|11 auxpass 9|11 advmod 10|4 ccomp 11|17 mark 12|17 nsubjpass 13|13 acl 14|17 aux 15|17 auxpass 16|11 advcl:while 17|17 compound:prt 18|21 case 19|21 det 20|17 nmod:of 21|23 case 22|21 nmod:on 23|4 punct 24|
+<word> Three bogies , one SLR and two ordinary second class coaches , were derailed due to the impact of the collision . 
+<lemma> three bogie , one slr and two ordinary second class coach , be derail due to the impact of the collision . 
+<POS> CD NNS , CD NN CC CD JJ JJ NN NNS , VBD VBN JJ TO DT NN IN DT NN . 
+<NER> NUMBER O O NUMBER O O NUMBER O ORDINAL O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Three) (NNS bogies)) (, ,) (NP (NP (CD one) (NN SLR)) (CC and) (NP (CD two) (JJ ordinary) (JJ second) (NN class) (NNS coaches))) (, ,)) (VP (VBD were) (VP (VBN derailed) (PP (JJ due) (TO to) (NP (NP (DT the) (NN impact)) (PP (IN of) (NP (DT the) (NN collision))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 nummod 1|14 nsubjpass 2|2 punct 3|5 nummod 4|2 appos 5|5 cc 6|11 nummod 7|11 amod 8|11 amod 9|11 compound 10|2 appos 11|5 conj:and 11|2 punct 12|14 auxpass 13|18 case 15|15 mwe 16|18 det 17|14 nmod:due_to 18|21 case 19|21 det 20|18 nmod:of 21|14 punct 22|
+<word> One of the coaches also caught fire , said the Press Trust of India . 
+<lemma> one of the coach also catch fire , say the Press Trust of India . 
+<POS> CD IN DT NNS RB VBD NN , VBD DT NNP NNP IN NNP . 
+<NER> NUMBER O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (NP (CD One)) (PP (IN of) (NP (DT the) (NNS coaches)))) (ADVP (RB also)) (VP (VBD caught) (NP (NN fire)))) (, ,) (VP (VBD said)) (NP (NP (DT the) (NNP Press) (NNP Trust)) (PP (IN of) (NP (NNP India)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|4 det:qmod 1|1 mwe 2|4 det 3|6 nsubj 4|6 advmod 5|9 ccomp 6|6 dobj 7|9 punct 8|12 det 10|12 compound 11|9 nsubj 12|14 case 13|12 nmod:of 14|9 punct 15|
+<word> Indian Railway Minister Mukul Roy rushed to the site of the accident and ordered an inquiry into it . 
+<lemma> indian Railway Minister Mukul Roy rush to the site of the accident and order a inquiry into it . 
+<POS> JJ NNP NNP NNP NNP VBD TO DT NN IN DT NN CC VBD DT NN IN PRP . 
+<NER> MISC O O PERSON PERSON O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Indian) (NNP Railway) (NNP Minister) (NNP Mukul) (NNP Roy)) (VP (VP (VBD rushed) (PP (TO to) (NP (NP (DT the) (NN site)) (PP (IN of) (NP (DT the) (NN accident)))))) (CC and) (VP (VBD ordered) (NP (DT an) (NN inquiry)) (PP (IN into) (NP (PRP it))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 amod 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|14 nsubj 5|9 case 7|9 det 8|6 nmod:to 9|12 case 10|12 det 11|9 nmod:of 12|6 cc 13|6 conj:and 14|16 det 15|14 dobj 16|18 case 17|14 nmod:into 18|6 punct 19|
+<word> Train collision takes place from time to time in India . 
+<lemma> train collision take place from time to time in India . 
+<POS> NN NN VBZ NN IN NN TO NN IN NNP . 
+<NER> O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Train) (NN collision)) (VP (VBZ takes) (NP (NP (NN place)) (PP (IN from) (NP (NN time)))) (PP (TO to) (NP (NP (NN time)) (PP (IN in) (NP (NNP India)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|3 dobj 4|6 case 5|4 nmod:from 6|8 case 7|3 nmod:to 8|10 case 9|8 nmod:in 10|3 punct 11|
+<coreference> [['1,3,4,3', '3,2,3,2'], ['1,8,9,8', '3,10,11,10'], ['1,28,30,29', '2,16,19,17'], ['1,1,5,4', '3,2,4,3'], ['1,8,30,9', '3,10,13,11'], ['2,23,26,25', '8,6,7,6'], ['3,21,22,21', '5,7,8,7'], ['3,7,9,8', '7,11,13,12'], ['3,26,28,27', '3,32,33,32'], ['6,14,15,14', '8,10,11,10'], ['7,8,13,9', '7,18,19,18']]
+</DOC>

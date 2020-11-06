@@ -1,0 +1,81 @@
+<DOC> article-13092.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> South Korea has asked China whether it is the source of a sophisticated missile carrier displayed by North Korea during a military parade last weekend , a Seoul official said Friday . 
+<lemma> South Korea have ask China whether it be the source of a sophisticated missile carrier display by North Korea during a military parade last weekend , a Seoul official say Friday . 
+<POS> NNP NNP VBZ VBN NNP IN PRP VBZ DT NN IN DT JJ NN NN VBN IN NNP NNP IN DT JJ NN JJ NN , DT NNP NN VBD NNP . 
+<NER> LOCATION LOCATION O O LOCATION O O O O O O O O O O O O LOCATION LOCATION O O O O DATE DATE O O LOCATION O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP South) (NNP Korea)) (VP (VBZ has) (VP (VBN asked) (NP (NNP China)) (SBAR (IN whether) (S (NP (PRP it)) (VP (VBZ is) (NP (NP (DT the) (NN source)) (PP (IN of) (NP (NP (DT a) (JJ sophisticated) (NN missile) (NN carrier)) (VP (VBN displayed) (PP (IN by) (NP (NP (NNP North) (NNP Korea)) (PP (IN during) (NP (DT a) (JJ military) (NN parade))))) (NP-TMP (JJ last) (NN weekend)))))))))))) (, ,) (NP (DT a) (NNP Seoul) (NN official)) (VP (VBD said) (NP-TMP (NNP Friday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 30|2 compound 1|4 nsubj 2|4 aux 3|30 ccomp 4|4 dobj 5|10 mark 6|10 nsubj 7|10 cop 8|10 det 9|4 ccomp 10|15 case 11|15 det 12|15 amod 13|15 compound 14|10 nmod:of 15|15 acl 16|19 case 17|19 compound 18|16 nmod:by 19|23 case 20|23 det 21|23 amod 22|19 nmod:during 23|25 amod 24|16 nmod:tmod 25|30 punct 26|29 det 27|29 compound 28|30 nsubj 29|30 nmod:tmod 31|30 punct 32|
+<word> Military experts have pointed to China as the probable supplier of the 16-wheel truck , but China has denied it . 
+<lemma> military expert have point to China as the probable supplier of the 16-wheel truck , but China have deny it . 
+<POS> JJ NNS VBP VBN TO NNP IN DT JJ NN IN DT JJ NN , CC NNP VBZ VBN PRP . 
+<NER> O O O O O LOCATION O O O O O O O O O O LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (JJ Military) (NNS experts)) (VP (VBP have) (VP (VBN pointed) (PP (TO to) (NP (NNP China))) (PP (IN as) (NP (NP (DT the) (JJ probable) (NN supplier)) (PP (IN of) (NP (DT the) (JJ 16-wheel) (NN truck)))))))) (, ,) (CC but) (S (NP (NNP China)) (VP (VBZ has) (VP (VBN denied) (NP (PRP it))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|4 aux 3|6 case 5|4 nmod:to 6|10 case 7|10 det 8|10 amod 9|4 nmod:as 10|14 case 11|14 det 12|14 amod 13|10 nmod:of 14|4 punct 15|4 cc 16|19 nsubj 17|19 aux 18|4 conj:but 19|19 dobj 20|4 punct 21|
+<word> U.N. Security Council resolutions ban countries from supplying arms-related materials to North Korea . 
+<lemma> U.N. Security Council resolution ban country from supply arms-related material to North Korea . 
+<POS> NNP NNP NNP NNS VBP NNS IN VBG JJ NNS TO NNP NNP . 
+<NER> ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP U.N.) (NNP Security) (NNP Council) (NNS resolutions)) (VP (VBP ban) (NP (NNS countries)) (PP (IN from) (S (VP (VBG supplying) (NP (JJ arms-related) (NNS materials)) (PP (TO to) (NP (NNP North) (NNP Korea))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|5 dobj 6|8 mark 7|5 advcl:from 8|10 amod 9|8 dobj 10|13 case 11|13 compound 12|8 nmod:to 13|5 punct 14|
+<word> North Korea used the vehicle to unveil a new long-range missile during Sunday 's celebrations marking the centennial of the birth of its late founder , Kim Il Sung . 
+<lemma> North Korea use the vehicle to unveil a new long-range missile during Sunday 's celebration mark the centennial of the birth of its late founder , Kim Il Sung . 
+<POS> NNP NNP VBD DT NN TO VB DT JJ JJ NN IN NNP POS NNS VBG DT NN IN DT NN IN PRP$ JJ NN , NNP NNP NNP . 
+<NER> LOCATION LOCATION O O O O O O O O O O DATE O O O O SET O O O O O O O O PERSON PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP North) (NNP Korea)) (VP (VBD used) (NP (DT the) (NN vehicle) (S (VP (TO to) (VP (VB unveil) (NP (DT a) (JJ new) (JJ long-range) (NN missile)) (PP (IN during) (S (NP (NP (NNP Sunday) (POS 's)) (NNS celebrations)) (VP (VBG marking) (NP (NP (DT the) (NN centennial)) (PP (IN of) (NP (NP (DT the) (NN birth)) (PP (IN of) (NP (NP (PRP$ its) (JJ late) (NN founder)) (, ,) (NP (NNP Kim) (NNP Il) (NNP Sung))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 det 4|3 dobj 5|7 mark 6|5 acl:to 7|11 det 8|11 amod 9|11 amod 10|7 dobj 11|16 mark 12|15 nmod:poss 13|13 case 14|16 nsubj 15|7 advcl:during 16|18 det 17|16 dobj 18|21 case 19|21 det 20|18 nmod:of 21|25 case 22|25 nmod:poss 23|25 amod 24|21 nmod:of 25|25 punct 26|29 compound 27|29 compound 28|25 appos 29|3 punct 30|
+<word> Two days earlier , North Korea launched a long-range rocket but said it failed to put a satellite in orbit . 
+<lemma> two day earlier , North Korea launch a long-range rocket but say it fail to put a satellite in orbit . 
+<POS> CD NNS RBR , NNP NNP VBD DT JJ NN CC VBD PRP VBD TO VB DT NN IN NN . 
+<NER> DATE DATE DATE O LOCATION LOCATION O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (NP (CD Two) (NNS days)) (RBR earlier)) (, ,) (NP (NNP North) (NNP Korea)) (VP (VP (VBD launched) (NP (DT a) (JJ long-range) (NN rocket))) (CC but) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD failed) (S (VP (TO to) (VP (VB put) (NP (NP (DT a) (NN satellite)) (PP (IN in) (NP (NN orbit)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 nummod 1|3 nmod:npmod 2|7 advmod 3|7 punct 4|6 compound 5|7 nsubj 6|12 nsubj 6|10 det 8|10 amod 9|7 dobj 10|7 cc 11|7 conj:but 12|14 nsubj 13|16 nsubj:xsubj 13|12 ccomp 14|16 mark 15|14 xcomp 16|18 det 17|16 dobj 18|20 case 19|18 nmod:in 20|7 punct 21|
+<word> Seoul was checking whether China , North Korea 's only major ally , was the missile carrier provider , a South Korean Foreign Ministry official said , speaking on condition of anonymity , citing the diplomatic sensitivity of the issue . 
+<lemma> Seoul be check whether China , North Korea 's only major ally , be the missile carrier provider , a south korean Foreign Ministry official say , speak on condition of anonymity , cite the diplomatic sensitivity of the issue . 
+<POS> NNP VBD VBG IN NNP , NNP NNP POS JJ JJ NN , VBD DT NN NN NN , DT JJ JJ NNP NNP NN VBD , VBG IN NN IN NN , VBG DT JJ NN IN DT NN . 
+<NER> LOCATION O O O LOCATION O LOCATION LOCATION O O O O O O O O O O O O MISC MISC ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Seoul)) (VP (VBD was) (VP (VP (VBG checking) (SBAR (IN whether) (S (NP (NP (NNP China)) (, ,) (NP (NP (NNP North) (NNP Korea) (POS 's)) (JJ only) (JJ major) (NN ally)) (, ,)) (VP (VBD was) (NP (NP (DT the) (NN missile)) (SBAR (S (NP (NP (NN carrier) (NN provider)) (, ,) (NP (DT a) (ADJP (JJ South) (JJ Korean)) (NNP Foreign) (NNP Ministry) (NN official))) (VP (VBD said))))))))) (, ,) (VP (VBG speaking) (PP (IN on) (NP (NP (NN condition)) (PP (IN of) (NP (NN anonymity)))))) (, ,) (VP (VBG citing) (NP (NP (DT the) (JJ diplomatic) (NN sensitivity)) (PP (IN of) (NP (DT the) (NN issue))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|16 mark 4|16 nsubj 5|5 punct 6|8 compound 7|12 nmod:poss 8|8 case 9|12 amod 10|12 amod 11|5 appos 12|5 punct 13|16 cop 14|16 det 15|3 ccomp 16|18 compound 17|26 nsubj 18|18 punct 19|25 det 20|22 amod 21|25 amod 22|25 compound 23|25 compound 24|18 appos 25|16 acl:relcl 26|3 punct 27|3 dep 28|30 case 29|28 nmod:on 30|32 case 31|30 nmod:of 32|3 punct 33|3 dep 34|37 det 35|37 amod 36|34 dobj 37|40 case 38|40 det 39|37 nmod:of 40|3 punct 41|
+<word> On Thursday , China denied any wrongdoing in connection with the vehicle 's appearance at the North Korean parade . 
+<lemma> on Thursday , China deny any wrongdoing in connection with the vehicle 's appearance at the north korean parade . 
+<POS> IN NNP , NNP VBD DT NN IN NN IN DT NN POS NN IN DT JJ JJ NN . 
+<NER> O DATE O LOCATION O O O O O O O O O O O O MISC MISC O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN On) (NP (NNP Thursday))) (, ,) (NP (NNP China)) (VP (VBD denied) (NP (DT any) (NN wrongdoing)) (PP (IN in) (NP (NN connection))) (PP (IN with) (NP (NP (NP (DT the) (NN vehicle) (POS 's)) (NN appearance)) (PP (IN at) (NP (DT the) (ADJP (JJ North) (JJ Korean)) (NN parade)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 case 1|5 nmod:on 2|5 punct 3|5 nsubj 4|7 det 6|5 dobj 7|9 case 8|5 nmod:in 9|14 case 10|12 det 11|14 nmod:poss 12|12 case 13|5 nmod:with 14|19 case 15|19 det 16|18 amod 17|19 amod 18|14 nmod:at 19|5 punct 20|
+<word> Foreign Ministry spokesman Liu Weimin told a regular news conference that China is against the spread of weapons of mass destruction and carriers for such weapons . 
+<lemma> Foreign Ministry spokesman Liu Weimin tell a regular news conference that China be against the spread of weapon of mass destruction and carrier for such weapon . 
+<POS> NNP NNP NN NNP NNP VBD DT JJ NN NN WDT NNP VBZ IN DT NN IN NNS IN NN NN CC NNS IN JJ NNS . 
+<NER> ORGANIZATION ORGANIZATION O PERSON PERSON O O O O O O LOCATION O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Foreign) (NNP Ministry) (NN spokesman) (NNP Liu) (NNP Weimin)) (VP (VBD told) (NP (NP (DT a) (JJ regular) (NN news) (NN conference)) (SBAR (WHNP (WDT that)) (S (NP (NNP China)) (VP (VBZ is) (PP (IN against) (NP (NP (DT the) (NN spread)) (PP (IN of) (NP (NP (NP (NNS weapons)) (PP (IN of) (NP (NN mass) (NN destruction)))) (CC and) (NP (NP (NNS carriers)) (PP (IN for) (NP (JJ such) (NNS weapons))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 compound 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|10 det 7|10 amod 8|10 compound 9|6 dobj 10|16 dobj 10|10 ref 11|16 nsubj 12|16 cop 13|16 case 14|16 det 15|10 acl:relcl 16|18 case 17|16 nmod:of 18|21 case 19|21 compound 20|18 nmod:of 21|18 cc 22|16 nmod:of 23|18 conj:and 23|26 case 24|26 amod 25|23 nmod:for 26|6 punct 27|
+<word> U.S. State Department spokesman Mark Toner said in a briefing that China has repeatedly said it 's complying fully with U.N. Security Council resolutions sanctioning North Korea . 
+<lemma> U.S. State Department spokesman Mark Toner say in a briefing that China have repeatedly say it be comply fully with U.N. Security Council resolution sanction North Korea . 
+<POS> NNP NNP NNP NN NNP NNP VBD IN DT NN IN NNP VBZ RB VBN PRP VBZ VBG RB IN NNP NNP NNP NNS VBG NNP NNP . 
+<NER> ORGANIZATION ORGANIZATION ORGANIZATION O PERSON PERSON O O O O O LOCATION O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP U.S.) (NNP State) (NNP Department) (NN spokesman) (NNP Mark) (NNP Toner)) (VP (VBD said) (PP (IN in) (NP (DT a) (NN briefing))) (SBAR (IN that) (S (NP (NNP China)) (VP (VBZ has) (ADVP (RB repeatedly)) (VP (VBN said) (SBAR (S (NP (PRP it)) (VP (VBZ 's) (VP (VBG complying) (ADVP (RB fully)) (PP (IN with) (S (NP (NNP U.N.) (NNP Security) (NNP Council) (NNS resolutions)) (VP (VBG sanctioning) (NP (NNP North) (NNP Korea)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|6 compound 1|6 compound 2|6 compound 3|6 compound 4|6 compound 5|7 nsubj 6|10 case 8|10 det 9|7 nmod:in 10|15 mark 11|15 nsubj 12|15 aux 13|15 advmod 14|7 ccomp 15|18 nsubj 16|18 aux 17|15 ccomp 18|18 advmod 19|25 mark 20|24 compound 21|24 compound 22|24 compound 23|25 nsubj 24|18 advcl:with 25|27 compound 26|25 dobj 27|7 punct 28|
+<word> But Toner said he was n't aware whether China had given assurances on the missile carrier . 
+<lemma> but Toner say he be not aware whether China have give assurance on the missile carrier . 
+<POS> CC NNP VBD PRP VBD RB JJ IN NNP VBD VBN NNS IN DT NN NN . 
+<NER> O PERSON O O O O O O LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (NNP Toner)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD was) (RB n't) (ADJP (JJ aware)) (SBAR (IN whether) (S (NP (NNP China)) (VP (VBD had) (VP (VBN given) (NP (NNS assurances)) (PP (IN on) (NP (DT the) (NN missile) (NN carrier))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 cc 1|3 nsubj 2|7 nsubj 4|7 cop 5|7 neg 6|3 ccomp 7|11 mark 8|11 nsubj 9|11 aux 10|7 ccomp 11|11 dobj 12|16 case 13|16 det 14|16 compound 15|11 nmod:on 16|3 punct 17|
+<word> The carrier , also believed capable of launching missiles , was the biggest yet displayed by North Korea and gives the country the ability to transport long-range missiles around its territory , making them harder to locate and destroy . 
+<lemma> the carrier , also believe capable of launch missile , be the biggest yet display by North Korea and give the country the ability to transport long-range missile around its territory , make they harder to locate and destroy . 
+<POS> DT NN , RB VBD JJ IN VBG NNS , VBD DT JJS RB VBN IN NNP NNP CC VBZ DT NN DT NN TO VB JJ NNS IN PRP$ NN , VBG PRP JJR TO VB CC VB . 
+<NER> O O O O O O O O O O O O O O O O LOCATION LOCATION O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN carrier)) (, ,) (ADVP (RB also)) (VP (VP (VBD believed) (ADJP (JJ capable) (PP (IN of) (S (VP (VBG launching) (NP (NNS missiles))))))) (, ,) (VP (VBD was) (NP (NP (DT the) (JJS biggest)) (VP (ADVP (RB yet)) (VBN displayed) (PP (IN by) (NP (NNP North) (NNP Korea)))))) (CC and) (VP (VBZ gives) (NP (DT the) (NN country)) (NP (DT the) (NN ability) (S (VP (TO to) (VP (VB transport) (NP (JJ long-range) (NNS missiles)) (PP (IN around) (NP (PRP$ its) (NN territory))) (, ,) (S (VP (VBG making) (S (NP (PRP them)) (ADJP (JJR harder) (S (VP (TO to) (VP (VB locate) (CC and) (VB destroy)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|13 nsubj 2|20 nsubj 2|5 punct 3|5 advmod 4|5 xcomp 6|8 mark 7|6 advcl:of 8|8 dobj 9|5 punct 10|13 cop 11|13 det 12|5 conj:and 13|15 advmod 14|13 acl 15|18 case 16|18 compound 17|15 nmod:by 18|5 cc 19|5 conj:and 20|22 det 21|20 iobj 22|24 det 23|20 dobj 24|26 mark 25|24 acl:to 26|28 amod 27|26 dobj 28|31 case 29|31 nmod:poss 30|26 nmod:around 31|26 punct 32|26 advcl 33|35 nsubj 34|37 nsubj:xsubj 34|39 nsubj:xsubj 34|33 xcomp 35|37 mark 36|35 xcomp 37|37 cc 38|35 xcomp 39|37 conj:and 39|5 punct 40|
+<coreference> [['1,1,3,2', '1,7,8,7', '1,9,26,10'], ['1,5,6,5', '2,6,7,6', '2,17,18,17', '2,20,21,20', '6,5,13,5', '6,5,6,5', '6,7,13,12', '6,15,27,16', '7,4,5,4', '8,12,13,12', '9,12,13,12', '9,16,17,16', '10,9,10,9'], ['1,28,29,28', '6,1,2,1'], ['1,12,26,15', '10,14,17,16', '11,1,3,2', '11,30,31,30'], ['1,18,24,19', '3,12,14,13', '4,1,3,2', '5,5,7,6', '6,7,10,8', '9,26,28,27', '11,17,19,18'], ['3,1,4,3', '9,21,24,23'], ['3,1,5,4', '9,21,25,24'], ['4,4,30,5', '7,11,14,12'], ['4,13,15,13', '4,23,24,23'], ['4,27,30,29', '4,23,26,25'], ['5,1,3,2', '5,13,14,13'], ['6,23,25,24', '8,1,3,2'], ['8,23,27,23', '11,34,35,34'], ['9,1,7,6', '10,2,3,2', '10,4,5,4']]
+</DOC>

@@ -1,0 +1,81 @@
+<DOC> article-24804.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> At least two people were killed in Beirut in heavy clashes early on Monday between rival Sunni Muslim gunmen , the latest violence fuelled by tensions over the uprising in neighboring Syria . 
+<lemma> at least two people be kill in Beirut in heavy clash early on Monday between rival Sunni muslim gunman , the latest violence fuel by tension over the uprising in neighbor Syria . 
+<POS> IN JJS CD NNS VBD VBN IN NNP IN JJ NNS RB IN NNP IN JJ NNP JJ NNS , DT JJS NN VBN IN NNS IN DT NN IN VBG NNP . 
+<NER> O O NUMBER O O O O LOCATION O O O DATE DATE DATE O O MISC MISC O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (QP (IN At) (JJS least) (CD two)) (NNS people)) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (NNP Beirut))) (PP (IN in) (NP (NP (JJ heavy) (NNS clashes)) (ADVP (RB early) (PP (IN on) (NP-TMP (NNP Monday)))) (PP (IN between) (NP (JJ rival) (NNP Sunni) (JJ Muslim) (NNS gunmen))) (, ,) (NP (NP (DT the) (JJS latest) (NN violence)) (VP (VBN fuelled) (PP (IN by) (NP (NP (NNS tensions)) (PP (IN over) (NP (NP (DT the) (NN uprising)) (PP (IN in) (NP (VBG neighboring) (NNP Syria))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 case 1|3 nmod:npmod 2|4 nummod 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:in 8|11 case 9|11 amod 10|6 nmod:in 11|11 advmod 12|14 case 13|12 nmod:on 14|19 case 15|19 amod 16|19 compound 17|19 amod 18|11 nmod:between 19|11 punct 20|23 det 21|23 amod 22|11 appos 23|23 acl 24|26 case 25|24 nmod:by 26|29 case 27|29 det 28|26 nmod:over 29|32 case 30|32 amod 31|29 nmod:in 32|6 punct 33|
+<word> Gunmen firing rocket-propelled grenades and machineguns clashed in the Lebanese capital 's Tariq al-Jadideh district in some of the fiercest battles since sectarian fighting four years ago brought Lebanon back to the brink of civil war . 
+<lemma> gunman firing rocket-propelled grenade and machinegun clash in the lebanese capital 's Tariq al-Jadideh district in some of the fiercest battle since sectarian fight four year ago bring Lebanon back to the brink of civil war . 
+<POS> NNS NN JJ NNS CC NNS VBD IN DT JJ NN POS NNP NNP NN IN DT IN DT JJS NNS IN JJ VBG CD NNS IN VBN NNP RB TO DT NN IN JJ NN . 
+<NER> O O O O O O O O O MISC O O LOCATION LOCATION O O O O O O O O O O DATE DATE DATE O LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Gunmen)) (NP (NN firing) (JJ rocket-propelled) (NNS grenades) (CC and) (NNS machineguns))) (VP (VBD clashed) (PP (IN in) (NP (NP (DT the) (JJ Lebanese) (NN capital) (POS 's)) (NNP Tariq) (NNP al-Jadideh) (NN district))) (PP (IN in) (NP (NP (DT some)) (PP (IN of) (NP (DT the) (JJS fiercest) (NNS battles))))) (PP (IN since) (NP (NP (JJ sectarian) (VBG fighting)) (VP (ADVP (NP (CD four) (NNS years)) (IN ago)) (VBN brought) (PP (ADVP (NP (NNP Lebanon)) (RB back)) (TO to) (NP (NP (DT the) (NN brink)) (PP (IN of) (NP (JJ civil) (NN war))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 nsubj 1|4 compound 2|4 amod 3|1 dep 4|4 cc 5|1 dep 6|4 conj:and 6|15 case 8|11 det 9|11 amod 10|15 nmod:poss 11|11 case 12|15 compound 13|15 compound 14|7 nmod:in 15|17 case 16|21 det:qmod 17|17 mwe 18|21 det 19|21 amod 20|7 nmod 21|23 case 22|7 nmod:since 23|23 amod 24|26 nummod 25|28 advmod 26|26 case 27|23 acl 28|30 dep 29|33 advmod 30|33 case 31|33 det 32|28 nmod:to 33|36 case 34|36 amod 35|33 nmod:of 36|7 punct 37|
+<word> The violence followed the killing of two members of a political alliance opposed to Syrian President Bashar al-Assad on Sunday in the north of Lebanon . 
+<lemma> the violence follow the killing of two member of a political alliance oppose to syrian President Bashar al-Assad on Sunday in the north of Lebanon . 
+<POS> DT NN VBD DT NN IN CD NNS IN DT JJ NN VBN TO JJ NNP NNP NNP IN NNP IN DT NN IN NNP . 
+<NER> O O O O O O NUMBER O O O O O O O MISC O PERSON PERSON O DATE O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN violence)) (VP (VBD followed) (NP (NP (DT the) (NN killing)) (PP (IN of) (NP (NP (CD two) (NNS members)) (PP (IN of) (NP (NP (DT a) (JJ political) (NN alliance)) (VP (VBN opposed) (PP (TO to) (NP (NP (JJ Syrian) (NNP President) (NNP Bashar) (NNP al-Assad)) (PP (IN on) (NP (NNP Sunday))))) (PP (IN in) (NP (NP (DT the) (NN north)) (PP (IN of) (NP (NNP Lebanon)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 det 4|3 dobj 5|8 case 6|8 nummod 7|5 nmod:of 8|12 case 9|12 det 10|12 amod 11|8 nmod:of 12|12 acl 13|18 case 14|18 amod 15|18 compound 16|18 compound 17|13 nmod:to 18|20 case 19|18 nmod:on 20|23 case 21|23 det 22|13 nmod:in 23|25 case 24|23 nmod:of 25|3 punct 26|
+<word> Residents in the northern region of Akkar blocked roads and burned tyres to protest against the killing and demonstrations spread south to the main coastal highway and to Beirut , where several roads were cut off . 
+<lemma> resident in the northern region of Akkar block road and burn tyre to protest against the killing and demonstration spread south to the main coastal highway and to Beirut , where several road be cut off . 
+<POS> NNS IN DT JJ NN IN NNP VBD NNS CC VBN NNS TO VB IN DT NN CC NNS VBN RB TO DT JJ JJ NN CC TO NNP , WRB JJ NNS VBD VBN RP . 
+<NER> O O O O O O LOCATION O O O O O O O O O O O O O O O O O O O O O LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Residents)) (PP (IN in) (NP (NP (DT the) (JJ northern) (NN region)) (PP (IN of) (NP (NNP Akkar)))))) (VP (VP (VBD blocked) (NP (NNS roads))) (CC and) (VP (VBN burned) (NP (NNS tyres)) (S (VP (TO to) (VP (VB protest) (PP (PP (IN against) (NP (NP (DT the) (NN killing) (CC and) (NNS demonstrations)) (VP (VBN spread) (ADVP (RB south) (PP (TO to) (NP (DT the) (JJ main) (JJ coastal) (NN highway))))))) (CC and) (PP (TO to) (NP (NP (NNP Beirut)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (JJ several) (NNS roads)) (VP (VBD were) (VP (VBN cut) (PRT (RP off)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 nsubj 1|11 nsubj 1|5 case 2|5 det 3|5 amod 4|1 nmod:in 5|7 case 6|5 nmod:of 7|8 dobj 9|8 cc 10|8 conj:and 11|11 dobj 12|14 mark 13|11 advcl:to 14|11 advcl:to 14|14 conj:and 14|11 advcl:to 14|14 conj:and 14|17 case 15|17 det 16|14 nmod:against 17|14 cc 18|17 conj 19|17 acl 20|20 advmod 21|26 case 22|26 det 23|26 amod 24|26 amod 25|21 nmod:to 26|14 cc 27|29 case 28|14 nmod:to 29|29 punct 30|35 advmod 31|33 amod 32|35 nsubjpass 33|35 auxpass 34|29 acl:relcl 35|35 compound:prt 36|8 punct 37|
+<word> A Reuters cameraman in Tariq al-Jadideh said shooting could be heard from 10 pm -LRB- 1900 GMT -RRB- until nearly 5 am -LRB- 0200 GMT -RRB- on Monday . 
+<lemma> a Reuters cameraman in Tariq al-Jadideh say shooting could be hear from 10 pm -lrb- 1900 GMT -rrb- until nearly 5 be -lrb- 0200 GMT -rrb- on Monday . 
+<POS> DT NNP NN IN NNP NNP VBD NN MD VB VBN IN CD NN -LRB- CD NNP -RRB- IN RB CD VBP -LRB- CD NNP -RRB- IN NNP . 
+<NER> O ORGANIZATION O O PERSON PERSON O O O O O O TIME TIME O DATE MISC O O TIME TIME TIME O DATE MISC O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NNP Reuters) (NN cameraman)) (PP (IN in) (NP (NNP Tariq) (NNP al-Jadideh)))) (VP (VBD said) (SBAR (S (NP (NN shooting)) (VP (MD could) (VP (VB be) (VP (VBN heard) (PP (IN from) (NP (NP (NP (NP (CD 10) (NN pm)) (PRN (-LRB- -LRB-) (NP (NP (CD 1900)) (NP (NNP GMT))) (-RRB- -RRB-)) (SBAR (IN until) (S (NP (QP (RB nearly) (CD 5))) (VP (VBP am))))) (-LRB- -LRB-) (NP (CD 0200) (NNP GMT)) (-RRB- -RRB-)) (PP (IN on) (NP (NNP Monday))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 det 1|3 compound 2|7 nsubj 3|6 case 4|6 compound 5|3 nmod:in 6|11 nsubjpass 8|11 aux 9|11 auxpass 10|7 ccomp 11|14 case 12|14 nummod 13|11 nmod:from 14|16 punct 15|14 dep 16|16 appos 17|16 punct 18|22 mark 19|21 advmod 20|22 nsubj 21|14 acl:until 22|14 punct 23|25 nummod 24|14 dep 25|14 punct 26|28 case 27|14 nmod:on 28|7 punct 29|
+<word> Security sources said the fighting pitted gunmen from the Future Movement , loyal to anti-Syrian former Prime Minister Saad al-Hariri , against the pro-Syrian Arab Movement Party headed by Shaker Barjawi . 
+<lemma> security source say the fight pit gunman from the Future Movement , loyal to anti-syrian former Prime Minister Saad al-Hariri , against the pro-syrian Arab Movement Party head by Shaker Barjawi . 
+<POS> NN NNS VBD DT VBG VBN NNS IN DT NNP NNP , JJ TO JJ JJ NNP NNP NNP NNP , IN DT JJ NNP NNP NNP VBN IN NNP NNP . 
+<NER> O O O O O O O O DATE ORGANIZATION ORGANIZATION O O O MISC O O O PERSON PERSON O O O MISC ORGANIZATION ORGANIZATION ORGANIZATION O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Security) (NNS sources)) (VP (VBD said) (NP (NP (DT the) (VBG fighting)) (VP (VBN pitted) (S (NP (NP (NNS gunmen)) (PP (IN from) (NP (DT the) (NNP Future) (NNP Movement))))) (, ,) (S (ADJP (JJ loyal) (PP (TO to) (NP (JJ anti-Syrian) (JJ former) (NNP Prime) (NNP Minister) (NNP Saad) (NNP al-Hariri))))) (, ,) (PP (IN against) (NP (NP (DT the) (JJ pro-Syrian) (NNP Arab) (NNP Movement) (NNP Party)) (VP (VBN headed) (PP (IN by) (NP (NNP Shaker) (NNP Barjawi))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|3 dobj 4|4 amod 5|4 acl 6|6 xcomp 7|11 case 8|11 det 9|11 compound 10|7 nmod:from 11|6 punct 12|6 xcomp 13|20 case 14|20 amod 15|20 amod 16|20 compound 17|20 compound 18|20 compound 19|13 nmod:to 20|6 punct 21|27 case 22|27 det 23|27 amod 24|27 compound 25|27 compound 26|6 nmod:against 27|27 acl 28|31 case 29|31 compound 30|28 nmod:by 31|3 punct 32|
+<word> The state news agency said two people were killed and 18 wounded . 
+<lemma> the state news agency say two people be kill and 18 wound . 
+<POS> DT NN NN NN VBD CD NNS VBD VBN CC CD VBN . 
+<NER> O O O O O NUMBER O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN state) (NN news) (NN agency)) (VP (VBD said) (NP (NP (NP (CD two) (NNS people)) (SBAR (S (VP (VBD were) (VP (VBN killed)))))) (CC and) (NP (NP (CD 18)) (VP (VBN wounded))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 compound 2|4 compound 3|5 nsubj 4|7 nummod 6|5 dobj 7|9 auxpass 8|7 acl:relcl 9|7 cc 10|5 dobj 11|7 conj:and 11|11 acl 12|5 punct 13|
+<word> The security sources put the death toll at three - two of Barjawi 's supporters and one from the Future Movement - with nine people wounded . 
+<lemma> the security source put the death toll at three - two of Barjawi 's supporter and one from the Future Movement - with nine people wound . 
+<POS> DT NN NNS VBD DT NN NN IN CD : CD IN NNP POS NNS CC CD IN DT NNP NNP : IN CD NNS VBN . 
+<NER> O O O O O O O O NUMBER O NUMBER O PERSON O O O NUMBER O DATE DATE O O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN security) (NNS sources)) (VP (VBD put) (NP (DT the) (NN death) (NN toll)) (PP (IN at) (NP (NP (NP (CD three) (: -) (CD two)) (PP (IN of) (NP (NP (NNP Barjawi) (POS 's)) (NNS supporters)))) (CC and) (NP (NP (CD one)) (PP (PP (IN from) (NP (DT the) (NNP Future) (NNP Movement))) (: -) (PP (IN with) (NP (NP (CD nine) (NNS people)) (VP (VBN wounded))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|7 det 5|7 compound 6|4 dobj 7|11 case 8|11 nummod 9|11 punct 10|4 nmod:at 11|15 case 12|15 nmod:poss 13|13 case 14|11 nmod:of 15|11 cc 16|4 nmod:at 17|11 conj:and 17|21 case 18|21 det 19|21 compound 20|17 nmod:from 21|21 punct 22|25 case 23|25 nummod 24|21 nmod:with 25|25 acl 26|4 punct 27|
+<word> Many of Lebanon 's Sunni Muslims sympathize with Syria 's Sunni-led uprising against Assad , whose father sent forces into Lebanon during its 1975-1990 civil war . 
+<lemma> many of Lebanon 's Sunni Muslims sympathize with Syria 's sunni-led uprising against Assad , whose father send force into Lebanon during its 1975-1990 civil war . 
+<POS> JJ IN NNP POS NNP NNPS VBP IN NNP POS JJ NN IN NNP , WP$ NN VBD NNS IN NNP IN PRP$ CD JJ NN . 
+<NER> O O LOCATION O MISC MISC O O LOCATION O MISC O O PERSON O O O O O O LOCATION O O DATE O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Many)) (PP (IN of) (NP (NP (NNP Lebanon) (POS 's)) (NNP Sunni) (NNPS Muslims)))) (VP (VBP sympathize) (PP (IN with) (NP (NP (NP (NNP Syria) (POS 's)) (JJ Sunni-led) (NN uprising)) (PP (IN against) (NP (NNP Assad))) (, ,) (SBAR (WHNP (WP$ whose) (NN father)) (S (VP (VBD sent) (NP (NNS forces)) (PP (IN into) (NP (NNP Lebanon))) (PP (IN during) (NP (PRP$ its) (CD 1975-1990) (JJ civil) (NN war))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|6 det:qmod 1|1 mwe 2|6 nmod:poss 3|3 case 4|6 compound 5|7 nsubj 6|12 case 8|12 nmod:poss 9|9 case 10|12 amod 11|7 nmod:with 12|17 nmod:poss 12|14 case 13|12 nmod:against 14|12 punct 15|12 ref 16|18 nsubj 17|12 acl:relcl 18|18 dobj 19|21 case 20|18 nmod:into 21|26 case 22|26 nmod:poss 23|26 nummod 24|26 amod 25|18 nmod:during 26|7 punct 27|
+<word> The Syrian army finally pulled out in 2005 under international pressure . 
+<lemma> the syrian army finally pull out in 2005 under international pressure . 
+<POS> DT JJ NN RB VBD RP IN CD IN JJ NN . 
+<NER> O MISC O O O O O DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Syrian) (NN army)) (ADVP (RB finally)) (VP (VBD pulled) (PRT (RP out)) (PP (IN in) (NP (CD 2005))) (PP (IN under) (NP (JJ international) (NN pressure)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 advmod 4|5 compound:prt 6|8 case 7|5 nmod:in 8|11 case 9|11 amod 10|5 nmod:under 11|5 punct 12|
+<word> Prime Minister Najib Mikati said on Sunday : `` The government is determined to continue to shoulder its national responsibilities amid this critical period in Lebanon and the region , and it will take all measures necessary to preserve civil peace . '' 
+<lemma> Prime Minister Najib Mikati say on Sunday : `` the government be determine to continue to shoulder its national responsibility amid this critical period in Lebanon and the region , and it will take all measure necessary to preserve civil peace . '' 
+<POS> NNP NNP NNP NNP VBD IN NNP : `` DT NN VBZ VBN TO VB TO VB PRP$ JJ NNS IN DT JJ NN IN NNP CC DT NN , CC PRP MD VB DT NNS JJ TO VB JJ NN . '' 
+<NER> O O PERSON PERSON O O DATE O O O O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (FRAG (NP (NNP Prime) (NNP Minister) (NNP Najib) (NNP Mikati)) (SBAR (S (VP (VBD said) (PP (IN on) (NP (NNP Sunday)))))) (: :) (`` ``) (S (S (NP (DT The) (NN government)) (VP (VBZ is) (VP (VBN determined) (S (VP (TO to) (VP (VB continue) (S (VP (TO to) (VP (VB shoulder) (NP (PRP$ its) (JJ national) (NNS responsibilities)) (PP (IN amid) (NP (NP (DT this) (JJ critical) (NN period)) (PP (IN in) (NP (NP (NNP Lebanon)) (CC and) (NP (DT the) (NN region))))))))))))))) (, ,) (CC and) (S (NP (PRP it)) (VP (MD will) (VP (VB take) (S (NP (DT all) (NNS measures)) (ADJP (JJ necessary) (S (VP (TO to) (VP (VB preserve) (NP (JJ civil) (NN peace))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 compound 1|4 compound 2|4 compound 3|4 dep 5|7 case 6|5 nmod:on 7|4 punct 8|4 punct 9|11 det 10|13 nsubjpass 11|15 nsubj:xsubj 11|13 auxpass 12|4 dep 13|15 mark 14|13 xcomp 15|17 mark 16|15 xcomp 17|20 nmod:poss 18|20 amod 19|17 dobj 20|24 case 21|24 det 22|24 amod 23|17 nmod:amid 24|26 case 25|24 nmod:in 26|26 cc 27|29 det 28|24 nmod:in 29|26 conj:and 29|13 punct 30|13 cc 31|34 nsubj 32|34 aux 33|4 dep 34|13 conj:and 34|36 det 35|37 nsubj 36|39 nsubj:xsubj 36|34 xcomp 37|39 mark 38|37 xcomp 39|41 amod 40|39 dobj 41|4 punct 42|4 punct 43|
+<coreference> [['1,3,4,3', '3,7,8,7', '7,6,7,6'], ['1,8,9,8', '4,29,37,29', '4,29,30,29'], ['1,17,19,17', '9,11,12,11'], ['1,14,15,14', '5,28,29,28'], ['1,21,33,23', '3,1,3,2'], ['1,31,33,32', '9,9,11,9'], ['2,13,15,14', '5,5,7,6'], ['2,29,30,29', '3,25,26,25', '9,3,5,3', '9,21,22,21', '9,23,24,23', '11,26,27,26'], ['3,20,21,20', '11,7,8,7'], ['4,3,8,5', '11,28,30,29'], ['8,1,4,3', '6,1,3,2'], ['6,9,12,11', '8,19,22,21'], ['11,10,12,11', '11,18,19,18', '11,32,33,32']]
+</DOC>

@@ -1,0 +1,116 @@
+<DOC> article-15032.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 |
+<word> The first passengers rescued from a helicopter that ditched in the North Sea have arrived at hospital . 
+<lemma> the first passenger rescue from a helicopter that ditch in the North Sea have arrive at hospital . 
+<POS> DT JJ NNS VBD IN DT NN WDT VBD IN DT NNP NNP VBP VBN IN NN . 
+<NER> O ORDINAL O O O O O O O O O LOCATION LOCATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ first) (NNS passengers)) (VP (VBD rescued) (PP (IN from) (NP (NP (DT a) (NN helicopter)) (SBAR (WHNP (WDT that)) (S (VP (VBD ditched) (SBAR (IN in) (S (NP (DT the) (NNP North) (NNP Sea)) (VP (VBP have) (VP (VBN arrived) (PP (IN at) (NP (NN hospital))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|7 case 5|7 det 6|4 nmod:from 7|9 nsubj 7|7 ref 8|7 acl:relcl 9|15 mark 10|13 det 11|13 compound 12|15 nsubj 13|15 aux 14|9 advcl:in 15|17 case 16|15 nmod:at 17|4 punct 18|
+<word> Fourteen people - 12 passengers and two crew - were on board the aircraft when it came down 40km off the coast of Aberdeen shortly after noon . 
+<lemma> fourteen people - 12 passenger and two crew - be on board the aircraft when it come down 40km off the coast of Aberdeen shortly after noon . 
+<POS> CD NNS : CD NNS CC CD NN : VBD IN NN DT NN WRB PRP VBD RP CD IN DT NN IN NNP RB IN NN . 
+<NER> NUMBER O O DATE O O NUMBER O O O O O O O O O O O NUMBER O O O O LOCATION O O TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Fourteen) (NNS people)) (: -) (NP (NP (CD 12) (NNS passengers)) (CC and) (NP (CD two) (NN crew))) (: -)) (VP (VBD were) (PP (IN on) (NP (NN board))) (NP (NP (DT the) (NN aircraft)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBD came) (PRT (RP down)) (NP (CD 40km)) (PP (IN off) (NP (NP (DT the) (NN coast)) (PP (IN of) (NP (NNP Aberdeen))))) (ADVP (RB shortly)) (PP (IN after) (NP (NN noon)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 nummod 1|14 nsubj 2|2 punct 3|5 nummod 4|2 dep 5|5 cc 6|8 nummod 7|2 dep 8|5 conj:and 8|2 punct 9|14 cop 10|12 case 11|14 nmod:on 12|14 det 13|17 advmod 15|17 nsubj 16|14 acl:relcl 17|17 compound:prt 18|17 dobj 19|22 case 20|22 det 21|17 nmod:off 22|24 case 23|22 nmod:of 24|17 advmod 25|27 case 26|17 nmod:after 27|14 punct 28|
+<word> The EC225 helicopter , operated by Bond Offshore , had been on its way from Aberdeen to the offshore Maersk Resilient rig and the Ensco 102 rig . 
+<lemma> the ec225 helicopter , operate by bond Offshore , have be on its way from Aberdeen to the offshore Maersk Resilient rig and the Ensco 102 rig . 
+<POS> DT NN NN , VBN IN NN NNP , VBD VBN IN PRP$ NN IN NNP TO DT JJ NNP NNP NN CC DT NNP CD NN . 
+<NER> O O O O O O O O O O O O O O O ORGANIZATION O O O O O O O O ORGANIZATION NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN EC225) (NN helicopter)) (, ,) (VP (VBN operated) (PP (IN by) (NP (NN Bond) (NNP Offshore)))) (, ,)) (VP (VBD had) (VP (VBN been) (PP (IN on) (NP (NP (PRP$ its) (NN way)) (PP (IN from) (NP (NNP Aberdeen))))) (PP (TO to) (NP (NP (DT the) (JJ offshore) (NNP Maersk) (NNP Resilient) (NN rig)) (CC and) (NP (DT the) (NNP Ensco) (CD 102) (NN rig)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|3 det 1|3 compound 2|14 nsubj 3|3 punct 4|3 acl 5|8 case 6|8 compound 7|5 nmod:by 8|3 punct 9|14 aux 10|14 cop 11|14 case 12|14 nmod:poss 13|16 case 15|14 nmod:from 16|22 case 17|22 det 18|22 amod 19|22 compound 20|22 compound 21|14 nmod:to 22|22 cc 23|27 det 24|27 compound 25|27 nummod 26|14 nmod:to 27|22 conj:and 27|14 punct 28|
+<word> Rig operator Conoco Phillips said the passengers were contractors on their way to support the drilling rigs . 
+<lemma> rig operator Conoco Phillips say the passenger be contractor on they way to support the drilling rig . 
+<POS> NN NN NNP NNP VBD DT NNS VBD NNS IN PRP$ NN TO VB DT NN NNS . 
+<NER> O O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Rig) (NN operator) (NNP Conoco) (NNP Phillips)) (VP (VBD said) (SBAR (S (NP (DT the) (NNS passengers)) (VP (VBD were) (NP (NP (NNS contractors)) (PP (IN on) (NP (PRP$ their) (NN way) (S (VP (TO to) (VP (VB support) (NP (DT the) (NN drilling) (NNS rigs)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|7 det 6|9 nsubj 7|9 cop 8|5 ccomp 9|12 case 10|12 nmod:poss 11|9 nmod:on 12|14 mark 13|12 acl:to 14|17 det 15|17 compound 16|14 dobj 17|5 punct 18|
+<word> Two of those on board worked for Halliburton and the others were from Ensco , Brundt and Stag , Conoco Phillips said . 
+<lemma> two of those on board work for Halliburton and the other be from Ensco , Brundt and Stag , Conoco Phillips say . 
+<POS> CD IN DT IN NN VBD IN NNP CC DT NNS VBD IN NNP , NNP CC NNP , NNP NNP VBD . 
+<NER> NUMBER O O O O O O ORGANIZATION O O O O O ORGANIZATION O PERSON O ORGANIZATION O ORGANIZATION ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (NP (CD Two)) (PP (IN of) (NP (NP (DT those)) (PP (IN on) (NP (NN board)))))) (VP (VBD worked) (PP (IN for) (NP (NNP Halliburton))))) (CC and) (S (NP (DT the) (NNS others)) (VP (VBD were) (PP (IN from) (NP (NNP Ensco) (, ,) (NNP Brundt) (CC and) (NNP Stag)))))) (, ,) (NP (NNP Conoco) (NNP Phillips)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|6 nsubj 1|3 case 2|1 nmod:of 3|5 case 4|3 nmod:on 5|22 ccomp 6|8 case 7|6 nmod:for 8|6 cc 9|11 det 10|14 nsubj 11|14 cop 12|14 case 13|6 conj:and 14|22 ccomp 14|14 punct 15|6 conj:and 16|14 conj:and 16|14 cc 17|6 conj:and 18|14 conj:and 18|22 punct 19|21 compound 20|22 nsubj 21|22 punct 23|
+<word> The companies could not be immediately contacted for comment . 
+<lemma> the company could not be immediately contact for comment . 
+<POS> DT NNS MD RB VB RB VBN IN NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS companies)) (VP (MD could) (RB not) (VP (VB be) (VP (ADVP (RB immediately)) (VBN contacted) (PP (IN for) (NP (NN comment)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubjpass 2|7 aux 3|7 neg 4|7 auxpass 5|7 advmod 6|9 case 8|7 nmod:for 9|7 punct 10|
+<word> A Bond spokesman said : `` A low pressure oil warning light came on and the helicopter made a controlled descent and landed in the North Sea . 
+<lemma> a Bond spokesman say : `` a low pressure oil warning light come on and the helicopter make a controlled descent and land in the North Sea . 
+<POS> DT NNP NN VBD : `` DT JJ NN NN NN NN VBD IN CC DT NN VBD DT JJ NN CC VBD IN DT NNP NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP Bond) (NN spokesman)) (VP (VBD said) (: :) (`` ``) (S (S (NP (DT A) (JJ low) (NN pressure) (NN oil) (NN warning) (NN light)) (VP (VBD came) (PP (IN on)))) (CC and) (S (NP (DT the) (NN helicopter)) (VP (VP (VBD made) (NP (DT a) (JJ controlled) (NN descent))) (CC and) (VP (VBD landed) (PP (IN in) (NP (DT the) (NNP North) (NNP Sea)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|4 punct 5|4 punct 6|12 det 7|12 amod 8|12 compound 9|12 compound 10|12 compound 11|13 nsubj 12|4 xcomp 13|13 nmod 14|13 cc 15|17 det 16|18 nsubj 17|23 nsubj 17|4 xcomp 18|13 conj:and 18|21 det 19|21 amod 20|18 dobj 21|18 cc 22|13 conj:and 23|18 conj:and 23|27 case 24|27 det 25|27 compound 26|23 nmod:in 27|4 punct 28|
+<word> It did n't crash . '' 
+<lemma> it do not crash . '' 
+<POS> PRP VBD RB NN . '' 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD did) (RB n't) (NP (NN crash))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 neg 3|2 dobj 4|2 punct 5|2 punct 6|
+<word> The alarm was raised and a major rescue began . 
+<lemma> the alarm be raise and a major rescue begin . 
+<POS> DT NN VBD VBN CC DT JJ NN VBD . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NN alarm)) (VP (VBD was) (VP (VBN raised)))) (CC and) (S (NP (DT a) (JJ major) (NN rescue)) (VP (VBD began))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|4 auxpass 3|4 cc 5|8 det 6|8 amod 7|9 nsubj 8|4 conj:and 9|4 punct 10|
+<word> Everyone on board was recovered from the sea and put in life rafts . 
+<lemma> everyone on board be recover from the sea and put in life raft . 
+<POS> NN IN NN VBD VBN IN DT NN CC VB IN NN NNS . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NN Everyone)) (PP (IN on) (NP (NN board)))) (VP (VBD was) (VP (VP (VBN recovered) (PP (IN from) (NP (DT the) (NN sea)))) (CC and) (VP (VB put) (PP (IN in) (NP (NN life) (NNS rafts)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubjpass 1|10 nsubj 1|3 case 2|1 nmod:on 3|5 auxpass 4|8 case 6|8 det 7|5 nmod:from 8|5 cc 9|5 conj:and 10|13 case 11|13 compound 12|10 nmod:in 13|5 punct 14|
+<word> They were then being flown back to Aberdeen for medical checks , although it is understood nobody was injured . 
+<lemma> they be then be fly back to Aberdeen for medical check , although it be understand nobody be injure . 
+<POS> PRP VBD RB VBG VBN RB TO NNP IN JJ NNS , IN PRP VBZ VBN NN VBD VBN . 
+<NER> O O O O O O O ORGANIZATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBD were) (ADVP (RB then)) (VP (VBG being) (VP (VBN flown) (ADVP (RB back) (PP (TO to) (NP (NNP Aberdeen)))) (PP (IN for) (NP (JJ medical) (NNS checks))) (, ,) (SBAR (IN although) (S (NP (PRP it)) (VP (VBZ is) (VP (VBN understood) (SBAR (S (NP (NN nobody)) (VP (VBD was) (VP (VBN injured)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubjpass 1|5 aux 2|5 advmod 3|5 auxpass 4|5 advmod 6|8 case 7|6 nmod:to 8|11 case 9|11 amod 10|5 nmod:for 11|5 punct 12|16 mark 13|16 nsubjpass 14|16 auxpass 15|5 advcl:although 16|19 nsubjpass 17|19 auxpass 18|16 ccomp 19|5 punct 20|
+<word> The coastguard said three search and rescue helicopters , including one from the coastguard and one from the RAF , were at the scene , along with two lifeboats . 
+<lemma> the coastguard say three search and rescue helicopter , include one from the coastguard and one from the raf , be at the scene , along with two lifeboat . 
+<POS> DT NN VBD CD NN CC NN NNS , VBG CD IN DT NN CC CD IN DT NN , VBD IN DT NN , IN IN CD NNS . 
+<NER> O O O NUMBER O O O O O O NUMBER O O O O NUMBER O O ORGANIZATION O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN coastguard)) (VP (VBD said) (SBAR (S (NP (NP (CD three) (NN search) (CC and) (NN rescue) (NNS helicopters)) (, ,) (PP (VBG including) (NP (NP (NP (CD one)) (PP (IN from) (NP (DT the) (NN coastguard)))) (CC and) (NP (NP (CD one)) (PP (IN from) (NP (DT the) (NN RAF)))))) (, ,)) (VP (VBD were) (PP (IN at) (NP (DT the) (NN scene))) (, ,) (ADVP (IN along) (PP (IN with) (NP (CD two) (NNS lifeboats)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nummod 4|24 nsubj 5|5 cc 6|8 compound 7|5 conj:and 8|24 nsubj 8|5 punct 9|11 case 10|5 nmod:including 11|14 case 12|14 det 13|11 nmod:from 14|11 cc 15|5 nmod:including 16|11 conj:and 16|19 case 17|19 det 18|16 nmod:from 19|5 punct 20|24 cop 21|24 case 22|24 det 23|3 ccomp 24|24 punct 25|24 advmod 26|29 case 27|29 nummod 28|26 nmod:with 29|3 punct 30|
+<word> The ditching was the latest in a series of incidents involving helicopters in the North Sea . 
+<lemma> the ditch be the latest in a series of incident involve helicopter in the North Sea . 
+<POS> DT VBG VBD DT JJS IN DT NN IN NNS VBG NNS IN DT NNP NNP . 
+<NER> O O O O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (VBG ditching)) (VP (VBD was) (NP (NP (DT the) (JJS latest)) (PP (IN in) (NP (NP (DT a) (NN series)) (PP (IN of) (NP (NP (NNS incidents)) (PP (VBG involving) (NP (NP (NNS helicopters)) (PP (IN in) (NP (DT the) (NNP North) (NNP Sea))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|1 amod 2|5 cop 3|5 det 4|8 case 6|10 det:qmod 7|7 mwe 8|7 mwe 9|5 nmod 10|12 case 11|10 nmod:involving 12|16 case 13|16 det 14|16 compound 15|12 nmod:in 16|5 punct 17|
+<word> Sixteen people died when a Super Puma plunged into the sea when its gearbox failed while flying to Aberdeen on April 1st , 2009 . 
+<lemma> sixteen people die when a Super Puma plunge into the sea when its gearbox fail while fly to Aberdeen on April 1st , 2009 . 
+<POS> CD NNS VBD WRB DT NNP NNP VBD IN DT NN WRB PRP$ NN VBD IN VBG TO NNP IN NNP CD , CD . 
+<NER> NUMBER O O O O O ORGANIZATION O O O O O O O O O O O ORGANIZATION O DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (CD Sixteen) (NNS people)) (VP (VBD died) (SBAR (WHADVP (WRB when)) (S (NP (DT a) (NNP Super) (NNP Puma)) (VP (VBD plunged) (PP (IN into) (NP (DT the) (NN sea))) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ its) (NN gearbox)) (VP (VBD failed) (SBAR (IN while) (S (VP (VBG flying) (PP (TO to) (NP (NNP Aberdeen))) (PP (IN on) (NP (NNP April) (CD 1st) (, ,) (CD 2009))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 nummod 1|3 nsubj 2|8 advmod 4|7 det 5|7 compound 6|8 nsubj 7|3 advcl 8|11 case 9|11 det 10|8 nmod:into 11|15 advmod 12|14 nmod:poss 13|15 nsubj 14|8 advcl 15|17 mark 16|15 advcl:while 17|19 case 18|17 nmod:to 19|21 case 20|17 nmod:on 21|21 nummod 22|21 punct 23|21 nummod 24|3 punct 25|
+<word> The 14 passengers and two crew were returning from BP 's Miller platform when it went down 18km north-east of Peterhead . 
+<lemma> the 14 passenger and two crew be return from BP 's Miller platform when it go down 18km north-east of Peterhead . 
+<POS> DT CD NNS CC CD NN VBD VBG IN NNP POS NNP NN WRB PRP VBD RB CD NN IN NNP . 
+<NER> O NUMBER O O NUMBER O O O O ORGANIZATION O PERSON O O O O O NUMBER O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (CD 14) (NNS passengers)) (CC and) (NP (CD two) (NN crew))) (VP (VBD were) (VP (VBG returning) (PP (IN from) (NP (NP (NNP BP) (POS 's)) (NNP Miller) (NN platform))) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBD went) (ADVP (RB down) (NP (CD 18km) (NN north-east))) (PP (IN of) (NP (NNP Peterhead)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 det 1|3 nummod 2|8 nsubj 3|3 cc 4|6 nummod 5|3 conj:and 6|8 nsubj 6|8 aux 7|13 case 9|13 nmod:poss 10|10 case 11|13 compound 12|8 nmod:from 13|16 advmod 14|16 nsubj 15|8 advcl 16|16 advmod 17|19 nummod 18|17 nmod:npmod 19|21 case 20|16 nmod:of 21|8 punct 22|
+<word> In February 2009 , 18 people survived after a helicopter ditched in the North Sea . 
+<lemma> in February 2009 , 18 people survive after a helicopter ditch in the North Sea . 
+<POS> IN NNP CD , CD NNS VBD IN DT NN VBN IN DT NNP NNP . 
+<NER> O DATE DATE O NUMBER O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NNP February) (CD 2009))) (, ,) (NP (CD 18) (NNS people)) (VP (VBD survived) (PP (IN after) (NP (NP (DT a) (NN helicopter)) (VP (VBN ditched) (PP (IN in) (NP (DT the) (NNP North) (NNP Sea))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|7 nmod:in 2|2 nummod 3|7 punct 4|6 nummod 5|7 nsubj 6|10 case 8|10 det 9|7 nmod:after 10|10 acl 11|15 case 12|15 det 13|15 compound 14|11 nmod:in 15|7 punct 16|
+<coreference> [['1,11,14,13', '7,25,28,27', '10,7,9,8', '13,14,17,16', '14,10,12,11', '16,13,16,15'], ['2,1,2,1', '2,16,17,16'], ['2,7,8,7', '12,28,29,28', '15,5,6,5'], ['2,24,25,24', '3,16,17,16', '11,8,9,8', '14,19,20,19'], ['2,4,6,5', '4,6,8,7', '4,9,18,9', '4,11,12,11'], ['2,7,9,8', '15,5,7,6'], ['3,25,26,25', '5,14,19,14', '5,14,15,14'], ['3,1,4,3', '3,13,14,13', '7,16,18,17'], ['4,1,5,4', '5,20,22,21'], ['7,7,13,12', '8,1,2,1'], ['12,1,3,2', '12,13,15,14'], ['13,4,17,5', '13,1,3,1'], ['14,5,8,7', '14,13,14,13'], ['15,2,3,2', '15,15,16,15']]
+</DOC>

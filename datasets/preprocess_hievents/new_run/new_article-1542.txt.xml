@@ -1,0 +1,46 @@
+<DOC> article-1542.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> A teenager has admitted murdering twelve year old Michaela Davis in West Dublin last year . 
+<lemma> a teenager have admit murder twelve year old Michaela Davis in West Dublin last year . 
+<POS> DT NN VBZ VBN VBG CD NN JJ NNP NNP IN NNP NNP JJ NN . 
+<NER> O O O O O DURATION DURATION DURATION PERSON PERSON O LOCATION LOCATION DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NN teenager)) (VP (VBZ has) (VP (VBN admitted) (S (VP (VBG murdering) (NP-TMP (CD twelve) (NN year)) (S (NP (JJ old) (NNP Michaela) (NNP Davis))) (PP (IN in) (NP (NNP West) (NNP Dublin))) (NP-TMP (JJ last) (NN year)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|4 xcomp 5|7 nummod 6|5 nmod:tmod 7|10 amod 8|10 compound 9|5 xcomp 10|13 case 11|13 compound 12|5 nmod:in 13|15 amod 14|5 nmod:tmod 15|4 punct 16|
+<word> Jonathan Byrne also pleaded guilty to rape . 
+<lemma> Jonathan Byrne also plead guilty to rape . 
+<POS> NNP NNP RB VBD JJ TO NN . 
+<NER> PERSON PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Jonathan) (NNP Byrne)) (ADVP (RB also)) (VP (VBD pleaded) (ADJP (JJ guilty) (PP (TO to) (NP (NN rape))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|4 advmod 3|4 xcomp 5|7 case 6|5 nmod:to 7|4 punct 8|
+<word> The body of Michaela Davis was found on the bank of the Royal Canal near Clonsilla in August 2010 . 
+<lemma> the body of Michaela Davis be find on the bank of the Royal Canal near Clonsilla in August 2010 . 
+<POS> DT NN IN NNP NNP VBD VBN IN DT NN IN DT NNP NNP IN NNP IN NNP CD . 
+<NER> O O O PERSON PERSON O O O O O O O LOCATION LOCATION O LOCATION O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN body)) (PP (IN of) (NP (NNP Michaela) (NNP Davis)))) (VP (VBD was) (VP (VBN found) (PP (IN on) (NP (NP (DT the) (NN bank)) (PP (IN of) (NP (NP (DT the) (NNP Royal) (NNP Canal)) (PP (IN near) (NP (NNP Clonsilla))))))) (PP (IN in) (NP (NNP August) (CD 2010))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubjpass 2|5 case 3|5 compound 4|2 nmod:of 5|7 auxpass 6|10 case 8|10 det 9|7 nmod:on 10|14 case 11|14 det 12|14 compound 13|10 nmod:of 14|16 case 15|14 nmod:near 16|18 case 17|7 nmod:in 18|18 nummod 19|7 punct 20|
+<word> A post mortem found that she had been attacked , sexually abused and strangled . 
+<lemma> a post mortem find that she have be attack , sexually abused and strangle . 
+<POS> DT NN FW VBN IN PRP VBD VBN VBN , RB JJ CC VBN . 
+<NER> O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN post)) (NP (FW mortem))) (VP (VBN found) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD had) (VP (VBN been) (VP (VP (VBN attacked)) (, ,) (VP (ADVP (RB sexually)) (JJ abused)) (CC and) (VP (VBN strangled)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|2 dep 3|9 mark 5|9 nsubjpass 6|12 nsubj 6|14 nsubjpass 6|9 aux 7|9 auxpass 8|4 ccomp 9|9 punct 10|12 advmod 11|4 ccomp 12|9 conj:and 12|9 cc 13|4 ccomp 14|9 conj:and 14|4 punct 15|
+<word> Byrne from Lohunda Downs in Clonsilla was remanded in custody for sentencing in December . 
+<lemma> Byrne from Lohunda Downs in Clonsilla be remand in custody for sentencing in December . 
+<POS> NNP IN NNP NNP IN NNP VBD VBN IN NN IN NN IN NNP . 
+<NER> PERSON O LOCATION LOCATION O LOCATION O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Byrne)) (PP (IN from) (NP (NP (NNP Lohunda) (NNP Downs)) (PP (IN in) (NP (NNP Clonsilla)))))) (VP (VBD was) (VP (VBN remanded) (PP (IN in) (NP (NP (NN custody)) (PP (IN for) (NP (NN sentencing))))) (PP (IN in) (NP (NNP December))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 nsubjpass 1|4 case 2|4 compound 3|1 nmod:from 4|6 case 5|4 nmod:in 6|8 auxpass 7|10 case 9|8 nmod:in 10|12 case 11|10 nmod:for 12|14 case 13|8 nmod:in 14|8 punct 15|
+<word> At sentencing he will receive a mandatory life sentence and victim impact submissions will also be heard 
+<lemma> at sentencing he will receive a mandatory life sentence and victim impact submission will also be hear 
+<POS> IN NN PRP MD VB DT JJ NN NN CC NN NN NNS MD RB VB VBN 
+<NER> O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN At) (NP (NN sentencing))) (NP (PRP he)) (VP (MD will) (VP (VB receive) (NP (NP (DT a) (JJ mandatory) (NN life)) (SBAR (S (NP (NN sentence) (CC and) (NN victim) (NN impact) (NNS submissions)) (VP (MD will) (ADVP (RB also)) (VP (VB be) (VP (VBN heard))))))))))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 case 1|5 nmod:at 2|5 nsubj 3|5 aux 4|8 det 6|8 amod 7|5 dobj 8|13 compound 9|9 cc 10|9 conj:and 11|13 compound 11|13 compound 12|17 nsubjpass 13|17 aux 14|17 advmod 15|17 auxpass 16|8 acl:relcl 17|
+<coreference> [['1,8,11,10', '3,4,6,5'], ['3,16,17,16', '5,6,7,6'], ['4,3,4,3', '4,6,7,6'], ['5,1,7,1', '6,3,4,3']]
+</DOC>

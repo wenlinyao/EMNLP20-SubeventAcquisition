@@ -1,0 +1,81 @@
+<DOC> article-2312.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> Australia appealed for leniency after its citizen was sentenced Wednesday to 500 lashes and a year in prison by a Saudi Arabian court . 
+<lemma> Australia appeal for leniency after its citizen be sentence Wednesday to 500 lash and a year in prison by a saudi arabian court . 
+<POS> NNP VBD IN NN IN PRP$ NN VBD VBN NNP TO CD NNS CC DT NN IN NN IN DT JJ JJ NN . 
+<NER> LOCATION O O O O O O O O DATE O NUMBER O O DURATION DURATION O O O O MISC MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Australia)) (VP (VBD appealed) (PP (IN for) (NP (NN leniency))) (SBAR (IN after) (S (NP (PRP$ its) (NN citizen)) (VP (VBD was) (VP (VBN sentenced) (NP-TMP (NNP Wednesday)) (PP (TO to) (NP (NP (CD 500) (NNS lashes)) (CC and) (NP (DT a) (NN year)))) (PP (IN in) (NP (NN prison))) (PP (IN by) (NP (DT a) (JJ Saudi) (JJ Arabian) (NN court)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 case 3|2 nmod:for 4|9 mark 5|7 nmod:poss 6|9 nsubjpass 7|9 auxpass 8|2 advcl:after 9|9 nmod:tmod 10|13 case 11|13 nummod 12|9 nmod:to 13|13 cc 14|16 det 15|9 nmod:to 16|13 conj:and 16|18 case 17|9 nmod:in 18|23 case 19|23 det 20|23 amod 21|23 amod 22|9 nmod:agent 23|2 punct 24|
+<word> Mansor Almaribe , 45 , was found guilty of blasphemy after he was arrested last month in Medina while on a pilgrimage , Australian officials said . 
+<lemma> Mansor Almaribe , 45 , be find guilty of blasphemy after he be arrest last month in Medina while on a pilgrimage , australian official say . 
+<POS> NNP NNP , CD , VBD VBN JJ IN NN IN PRP VBD VBN JJ NN IN NNP IN IN DT NN , JJ NNS VBD . 
+<NER> PERSON PERSON O NUMBER O O O O O O O O O O DATE DATE O LOCATION O O O O O MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Mansor) (NNP Almaribe)) (, ,) (NP (CD 45)) (, ,)) (VP (VBD was) (VP (VBN found) (ADJP (JJ guilty) (PP (IN of) (NP (NN blasphemy)))) (SBAR (IN after) (S (NP (PRP he)) (VP (VBD was) (VP (VBN arrested) (NP-TMP (JJ last) (NN month)) (PP (IN in) (NP (NNP Medina))) (SBAR (IN while) (S (PP (IN on) (NP (DT a) (NN pilgrimage))) (, ,) (NP (JJ Australian) (NNS officials)) (VP (VBD said)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 compound 1|7 nsubjpass 2|2 punct 3|2 amod 4|2 punct 5|7 auxpass 6|7 xcomp 8|10 case 9|8 nmod:of 10|14 mark 11|14 nsubjpass 12|14 auxpass 13|7 advcl:after 14|16 amod 15|14 nmod:tmod 16|18 case 17|14 nmod:in 18|26 mark 19|22 case 20|22 det 21|26 nmod:on 22|26 punct 23|25 amod 24|26 nsubj 25|14 advcl:while 26|7 punct 27|
+<word> It 's unclear what Almaribe , a Shia Muslim from Victoria state , said or did to get arrested . 
+<lemma> it be unclear what Almaribe , a shia muslim from Victoria state , say or do to get arrest . 
+<POS> PRP VBZ JJ WP NNP , DT JJ JJ IN NNP NN , VBD CC VBD TO VB VBN . 
+<NER> O O O O PERSON O O MISC MISC O LOCATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBZ 's) (ADJP (JJ unclear)) (SBAR (WHNP (WP what)) (S (NP (NP (NNP Almaribe)) (, ,) (NP (DT a) (JJ Shia) (ADJP (JJ Muslim) (PP (IN from) (NP (NNP Victoria)))) (NN state)) (, ,)) (VP (VP (VBD said)) (CC or) (VP (VBD did) (S (VP (TO to) (VP (VB get) (VP (VBN arrested)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|14 dobj 4|14 nsubj 5|16 nsubj 5|19 nsubjpass:xsubj 5|5 punct 6|12 det 7|12 amod 8|12 amod 9|11 case 10|9 nmod:from 11|5 appos 12|5 punct 13|3 ccomp 14|14 cc 15|3 ccomp 16|14 conj:or 16|19 mark 17|19 auxpass 18|16 xcomp 19|3 punct 20|
+<word> `` The ambassador has urgently contacted Saudi authorities and will make strong representations , including to key figures in the Saudi government , seeking leniency , '' said Kate Sieper , a foreign affairs spokeswoman . 
+<lemma> `` the ambassador have urgently contact saudi authority and will make strong representation , include to key figure in the saudi government , seek leniency , '' say Kate Sieper , a foreign affair spokeswoman . 
+<POS> `` DT NN VBZ RB VBN JJ NNS CC MD VB JJ NNS , VBG TO JJ NNS IN DT JJ NN , VBG NN , '' VBD NNP NNP , DT JJ NNS NN . 
+<NER> O O O O O O MISC O O O O O O O O O O O O O MISC O O O O O O O PERSON PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (`` ``) (S (NP (DT The) (NN ambassador)) (VP (VP (VBZ has) (ADVP (RB urgently)) (VP (VBN contacted) (NP (JJ Saudi) (NNS authorities)))) (CC and) (VP (MD will) (VP (VB make) (NP (JJ strong) (NNS representations)) (, ,) (PP (VBG including) (PP (TO to) (NP (NP (JJ key) (NNS figures)) (PP (IN in) (NP (DT the) (JJ Saudi) (NN government)))))) (, ,) (S (VP (VBG seeking) (NP (NN leniency)))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Kate) (NNP Sieper)) (, ,) (NP (DT a) (JJ foreign) (NNS affairs) (NN spokeswoman))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 28|28 punct 1|3 det 2|6 nsubj 3|11 nsubj 3|6 aux 4|6 advmod 5|28 ccomp 6|8 amod 7|6 dobj 8|6 cc 9|11 aux 10|6 conj:and 11|28 ccomp 11|13 amod 12|11 dobj 13|11 punct 14|18 case 15|18 case 16|18 amod 17|11 advcl:to 18|22 case 19|22 det 20|22 amod 21|18 nmod:in 22|11 punct 23|11 advcl 24|24 dobj 25|28 punct 26|28 punct 27|30 compound 29|28 nsubj 30|30 punct 31|35 det 32|35 amod 33|35 compound 34|30 appos 35|28 punct 36|
+<word> Family members said they are worried about his health . 
+<lemma> Family member say they be worry about he health . 
+<POS> NNP NNS VBD PRP VBP VBN IN PRP$ NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Family) (NNS members)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBP are) (VP (VBN worried) (PP (IN about) (NP (PRP$ his) (NN health)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|6 nsubjpass 4|6 auxpass 5|3 ccomp 6|9 case 7|9 nmod:poss 8|6 nmod:about 9|3 punct 10|
+<word> `` He is sick , and he has back injuries and he has diabetes , '' his son , Issam Almaribe , told CNN affiliate 9 News Australia . 
+<lemma> `` he be sick , and he have back injury and he have diabetes , '' he son , Issam Almaribe , tell CNN affiliate 9 News Australia . 
+<POS> `` PRP VBZ JJ , CC PRP VBZ RB NNS CC PRP VBZ NN , '' PRP$ NN , NNP NNP , VBD NNP NN CD NNP NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O PERSON PERSON O O ORGANIZATION O NUMBER O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (PRP He)) (VP (VBZ is) (ADJP (JJ sick)))) (, ,) (CC and) (S (NP (PRP he)) (VP (VBZ has) (NP (RB back) (NNS injuries)))) (CC and) (S (NP (PRP he)) (VP (VBZ has) (NP (NN diabetes))))) (, ,) ('' '') (NP (NP (PRP$ his) (NN son)) (, ,) (NP (NNP Issam) (NNP Almaribe)) (, ,)) (VP (VBD told) (S (NP (NNP CNN) (NN affiliate) (CD 9)) (NP (NNP News) (NNP Australia)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 23|23 punct 1|4 nsubj 2|4 cop 3|23 ccomp 4|4 punct 5|4 cc 6|8 nsubj 7|4 conj:and 8|23 ccomp 8|10 advmod 9|8 dobj 10|4 cc 11|13 nsubj 12|4 conj:and 13|23 ccomp 13|13 dobj 14|23 punct 15|23 punct 16|18 nmod:poss 17|23 nsubj 18|18 punct 19|21 compound 20|18 appos 21|18 punct 22|25 compound 24|28 nsubj 25|25 nummod 26|28 compound 27|23 xcomp 28|23 punct 29|
+<word> Consular officials have contacted Almaribe several times by phone since his arrest in mid-November , and were in the courtroom during the reading of the verdict . 
+<lemma> consular official have contact almaribe several time by phone since he arrest in mid-November , and be in the courtroom during the reading of the verdict . 
+<POS> JJ NNS VBP VBN NN JJ NNS IN NN IN PRP$ NN IN NNP , CC VBD IN DT NN IN DT NN IN DT NN . 
+<NER> O O O O PERSON O O O O O O O O DATE O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Consular) (NNS officials)) (VP (VP (VBP have) (VP (VBN contacted) (NP (NN Almaribe) (JJ several) (NNS times)) (PP (IN by) (NP (NN phone))) (PP (IN since) (NP (NP (PRP$ his) (NN arrest)) (PP (IN in) (NP (NNP mid-November))))))) (, ,) (CC and) (VP (VBD were) (PP (IN in) (NP (NP (DT the) (NN courtroom)) (PP (IN during) (NP (NP (DT the) (NN reading)) (PP (IN of) (NP (DT the) (NN verdict))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|4 aux 3|7 compound 5|7 amod 6|4 dobj 7|9 case 8|4 nmod:by 9|12 case 10|12 nmod:poss 11|4 nmod:since 12|14 case 13|12 nmod:in 14|4 punct 15|4 cc 16|20 cop 17|20 case 18|20 det 19|4 conj:and 20|23 case 21|23 det 22|20 nmod:during 23|26 case 24|26 det 25|23 nmod:of 26|4 punct 27|
+<word> Australian officials said they were informed he was convicted of blasphemy and `` making comments insulting to prophet Mohammed 's relatives . '' 
+<lemma> australian official say they be inform he be convict of blasphemy and `` make comment insulting to prophet Mohammed 's relative . '' 
+<POS> JJ NNS VBD PRP VBD VBN PRP VBD VBN IN NN CC `` VBG NNS JJ TO NN NNP POS NNS . '' 
+<NER> MISC O O O O O O O O O O O O O O O O O PERSON O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Australian) (NNS officials)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD were) (VP (VBN informed) (SBAR (S (NP (PRP he)) (VP (VBD was) (VP (VBN convicted) (UCP (PP (IN of) (NP (NN blasphemy))) (CC and) (S (VP (`` ``) (VBG making) (S (NP (NNS comments)) (ADJP (JJ insulting))) (PP (TO to) (NP (NP (NN prophet) (NNP Mohammed) (POS 's)) (NNS relatives))))))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 amod 1|3 nsubj 2|6 nsubjpass 4|6 auxpass 5|3 ccomp 6|9 nsubjpass 7|9 auxpass 8|6 ccomp 9|11 case 10|9 dep 11|11 cc 12|14 punct 13|9 dep 14|11 conj:and 14|16 nsubj 15|14 xcomp 16|21 case 17|19 compound 18|21 nmod:poss 19|19 case 20|14 nmod:to 21|3 punct 22|3 punct 23|
+<word> His sentence was originally two years imprisonment along with the 500 lashes , but the court reduced the sentence by a year , consular officials said . 
+<lemma> he sentence be originally two year imprisonment along with the 500 lash , but the court reduce the sentence by a year , consular official say . 
+<POS> PRP$ NN VBD RB CD NNS NN IN IN DT CD NNS , CC DT NN VBD DT NN IN DT NN , JJ NNS VBD . 
+<NER> O O O O DURATION DURATION O O O O NUMBER O O O O O O O O O DURATION DURATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (PRP$ His) (NN sentence)) (VP (VBD was) (ADVP (RB originally)) (ADJP (NP (CD two) (NNS years)) (NN imprisonment)) (PP (IN along) (PP (IN with) (NP (DT the) (CD 500) (NNS lashes)))))) (, ,) (CC but) (S (NP (DT the) (NN court)) (VP (VBD reduced) (NP (DT the) (NN sentence)) (PP (IN by) (NP (DT a) (NN year)))))) (, ,) (NP (JJ consular) (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 26|2 nmod:poss 1|7 nsubj 2|7 cop 3|7 advmod 4|6 nummod 5|7 nmod:tmod 6|26 ccomp 7|12 case 8|8 mwe 9|12 det 10|12 nummod 11|7 nmod:along_with 12|7 punct 13|7 cc 14|16 det 15|17 nsubj 16|7 conj:but 17|26 ccomp 17|19 det 18|17 dobj 19|22 case 20|22 det 21|17 nmod:by 22|26 punct 23|25 amod 24|26 nsubj 25|26 punct 27|
+<word> It was unclear when the lashing punishment will be carried out . 
+<lemma> it be unclear when the lash punishment will be carry out . 
+<POS> PRP VBD JJ WRB DT VBG NN MD VB VBN RP . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD was) (ADJP (JJ unclear)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (VBG lashing) (NN punishment)) (VP (MD will) (VP (VB be) (VP (VBN carried) (PRT (RP out)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|10 advmod 4|7 det 5|7 amod 6|10 nsubjpass 7|10 aux 8|10 auxpass 9|3 advcl 10|10 compound:prt 11|3 punct 12|
+<word> Blasphemy is punishable by up to a death sentence under the strict Muslim law in Saudi Arabia . 
+<lemma> Blasphemy be punishable by up to a death sentence under the strict muslim law in Saudi Arabia . 
+<POS> NNP VBZ JJ IN RB TO DT NN NN IN DT JJ JJ NN IN NNP NNP . 
+<NER> O O O O O O O O O O O O MISC O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Blasphemy)) (VP (VBZ is) (ADJP (JJ punishable) (PP (IN by) (ADVP (RB up) (PP (TO to) (NP (DT a) (NN death) (NN sentence)))))) (PP (IN under) (NP (NP (DT the) (JJ strict) (JJ Muslim) (NN law)) (PP (IN in) (NP (NNP Saudi) (NNP Arabia)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|5 case 4|3 advcl:by 5|9 case 6|9 det 7|9 compound 8|5 nmod:to 9|14 case 10|14 det 11|14 amod 12|14 amod 13|3 nmod:under 14|17 case 15|17 compound 16|14 nmod:in 17|3 punct 18|
+<coreference> [['6,27,29,28', '1,1,2,1', '1,6,7,6'], ['1,12,13,12', '9,11,12,11'], ['9,10,13,12', '1,12,14,13'], ['1,15,17,16', '9,21,23,22'], ['1,20,24,23', '9,15,17,16'], ['2,1,3,2', '2,12,13,12', '3,5,13,5', '3,5,6,5', '6,17,19,18', '6,20,22,21'], ['2,4,5,4', '3,1,2,1'], ['2,24,26,25', '8,1,3,2', '8,4,5,4'], ['3,8,10,9', '11,13,14,13'], ['4,29,31,30', '4,32,36,35'], ['4,2,4,3', '5,8,9,8', '6,2,3,2', '6,7,8,7', '6,12,13,12', '6,17,18,17', '7,11,12,11', '8,7,8,7', '9,1,2,1'], ['5,1,3,2', '5,4,5,4'], ['7,1,3,2', '9,24,26,25'], ['9,1,3,2', '9,18,20,19']]
+</DOC>

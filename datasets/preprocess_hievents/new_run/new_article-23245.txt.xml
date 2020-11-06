@@ -1,0 +1,88 @@
+<DOC> article-23245.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 |
+<word> A rider has been killed at Northern Ireland 's top motorcycle race , the North West 200 . 
+<lemma> a rider have be kill at northern Ireland 's top motorcycle race , the North West 200 . 
+<POS> DT NN VBZ VBN VBN IN JJ NNP POS JJ NN NN , DT NNP NNP CD . 
+<NER> O O O O O O LOCATION LOCATION O O O O O O LOCATION LOCATION NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NN rider)) (VP (VBZ has) (VP (VBN been) (VP (VBN killed) (PP (IN at) (NP (NP (NP (JJ Northern) (NNP Ireland) (POS 's)) (JJ top) (NN motorcycle) (NN race)) (, ,) (NP (DT the) (ADJP (NNP North) (NNP West)) (CD 200))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|12 case 6|8 amod 7|12 nmod:poss 8|8 case 9|12 amod 10|12 compound 11|5 nmod:at 12|12 punct 13|17 det 14|16 amod 15|17 amod 16|12 appos 17|5 punct 18|
+<word> He was named as Mark Buckley , a 35-year-old competitor from Lough Lowland in Scotland . 
+<lemma> he be name as Mark Buckley , a 35-year-old competitor from Lough Lowland in Scotland . 
+<POS> PRP VBD VBN IN NNP NNP , DT JJ NN IN NNP NNP IN NNP . 
+<NER> O O O O PERSON PERSON O O DURATION O O LOCATION LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN named) (PP (IN as) (NP (NP (NNP Mark) (NNP Buckley)) (, ,) (NP (DT a) (JJ 35-year-old) (NN competitor)))) (PP (IN from) (NP (NP (NNP Lough) (NNP Lowland)) (PP (IN in) (NP (NNP Scotland))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|6 case 4|6 compound 5|3 nmod:as 6|6 punct 7|10 det 8|10 amod 9|6 appos 10|13 case 11|13 compound 12|3 nmod:from 13|15 case 14|13 nmod:in 15|3 punct 16|
+<word> The married man died from his injuries in hospital after an incident near York Corner , outside Portstewart , Co Derry , said organisers . 
+<lemma> the married man die from he injury in hospital after a incident near York corner , outside Portstewart , Co Derry , say organiser . 
+<POS> DT JJ NN VBD IN PRP$ NNS IN NN IN DT NN IN NNP NN , IN NNP , NNP NNP , VBD NNS . 
+<NER> O O O O O O O O O O O O O LOCATION LOCATION O O LOCATION O LOCATION LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ married) (NN man)) (VP (VBD died) (PP (IN from) (NP (NP (PRP$ his) (NNS injuries)) (PP (IN in) (NP (NN hospital))))) (SBAR (IN after) (S (NP (NP (DT an) (NN incident)) (PP (IN near) (NP (NNP York) (NN Corner))) (, ,) (PP (IN outside) (NP (NNP Portstewart) (, ,) (NNP Co) (NNP Derry))) (, ,)) (VP (VBD said) (NP (NNS organisers)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|7 case 5|7 nmod:poss 6|4 nmod:from 7|9 case 8|7 nmod:in 9|23 mark 10|12 det 11|23 nsubj 12|15 case 13|15 compound 14|12 nmod:near 15|12 punct 16|21 case 17|21 compound 18|21 punct 19|21 appos 20|12 nmod:outside 21|12 punct 22|4 advcl:after 23|23 dobj 24|4 punct 25|
+<word> The motorcyclist had been taking part in the third race , the Superstock race , on Saturday afternoon . 
+<lemma> the motorcyclist have be take part in the third race , the Superstock race , on Saturday afternoon . 
+<POS> DT NN VBD VBN VBG NN IN DT JJ NN , DT NNP NN , IN NNP NN . 
+<NER> O O O O O O O O ORDINAL O O O MISC O O O DATE TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN motorcyclist)) (VP (VBD had) (VP (VBN been) (VP (VBG taking) (NP (NN part)) (PP (IN in) (NP (NP (NP (DT the) (JJ third) (NN race)) (, ,) (NP (DT the) (NNP Superstock) (NN race)) (, ,)) (PP (IN on) (NP (NNP Saturday))))) (NP-TMP (NN afternoon))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|5 aux 3|5 aux 4|5 dobj 6|10 case 7|10 det 8|10 amod 9|5 nmod:in 10|10 punct 11|14 det 12|14 compound 13|10 appos 14|10 punct 15|17 case 16|10 nmod:on 17|5 nmod:tmod 18|5 punct 19|
+<word> It was the last day of the international race series . 
+<lemma> it be the last day of the international race series . 
+<POS> PRP VBD DT JJ NN IN DT JJ NN NN . 
+<NER> O O DATE DATE DATE O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD was) (NP (NP (DT the) (JJ last) (NN day)) (PP (IN of) (NP (DT the) (JJ international) (NN race) (NN series))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|5 cop 2|5 det 3|5 amod 4|10 case 6|10 det 7|10 amod 8|10 compound 9|5 nmod:of 10|5 punct 11|
+<word> Organisers have not fully established the cause of the crash yet , and are investigating the circumstances along with the Motorcycle Union of Ireland -LRB- MCUI -RRB- . 
+<lemma> organiser have not fully establish the cause of the crash yet , and be investigate the circumstance along with the Motorcycle Union of Ireland -lrb- MCUI -rrb- . 
+<POS> NNS VBP RB RB VBN DT NN IN DT NN RB , CC VBP VBG DT NNS IN IN DT NNP NNP IN NNP -LRB- NNP -RRB- . 
+<NER> O O O O O O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Organisers)) (VP (VP (VBP have) (RB not) (ADVP (RB fully)) (VP (VBN established) (NP (NP (DT the) (NN cause)) (PP (IN of) (NP (DT the) (NN crash)))) (ADVP (RB yet)))) (, ,) (CC and) (VP (VBP are) (VP (VBG investigating) (NP (DT the) (NNS circumstances)) (PP (IN along) (IN with) (NP (NP (DT the) (NNP Motorcycle) (NNP Union)) (PP (IN of) (NP (NP (NNP Ireland)) (PRN (-LRB- -LRB-) (NP (NNP MCUI)) (-RRB- -RRB-))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|15 nsubj 1|5 aux 2|5 neg 3|5 advmod 4|7 det 6|5 dobj 7|10 case 8|10 det 9|7 nmod:of 10|5 advmod 11|5 punct 12|5 cc 13|15 aux 14|5 conj:and 15|17 det 16|15 dobj 17|22 case 18|18 mwe 19|22 det 20|22 compound 21|15 nmod:along_with 22|24 case 23|22 nmod:of 24|26 punct 25|24 appos 26|26 punct 27|5 punct 28|
+<word> Mervyn Whyte , North West 200 event director , said everybody was devastated by Mr Buckley 's death . 
+<lemma> Mervyn Whyte , North West 200 event director , say everybody be devastate by Mr Buckley 's death . 
+<POS> NNP NNP , NNP NNP CD NN NN , VBD NN VBD VBN IN NNP NNP POS NN . 
+<NER> PERSON PERSON O PERSON PERSON NUMBER O O O O O O O O O PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Mervyn) (NNP Whyte)) (, ,) (NP (NP (NNP North) (NNP West)) (NP (CD 200) (NN event) (NN director))) (, ,)) (VP (VBD said) (SBAR (S (NP (NN everybody)) (VP (VBD was) (VP (VBN devastated) (PP (IN by) (NP (NP (NNP Mr) (NNP Buckley) (POS 's)) (NN death)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 compound 1|10 nsubj 2|2 punct 3|5 compound 4|2 appos 5|8 nummod 6|8 compound 7|5 dep 8|2 punct 9|13 nsubjpass 11|13 auxpass 12|10 ccomp 13|18 case 14|16 compound 15|18 nmod:poss 16|16 case 17|13 nmod:agent 18|10 punct 19|
+<word> `` Our thoughts and prayers are with his wife Jayne and we extend our deepest sympathies to the entire family circle , '' he said . 
+<lemma> `` we thought and prayer be with he wife Jayne and we extend we deepest sympathy to the entire family circle , '' he say . 
+<POS> `` PRP$ NNS CC NNS VBP IN PRP$ NN NNP CC PRP VBP PRP$ JJS NNS TO DT JJ NN NN , '' PRP VBD . 
+<NER> O O O O O O O O O PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (PRP$ Our) (NNS thoughts) (CC and) (NNS prayers)) (VP (VBP are) (PP (IN with) (NP (NP (PRP$ his) (NN wife)) (NP (NNP Jayne)))))) (CC and) (S (NP (PRP we)) (VP (VBP extend) (NP (PRP$ our) (JJS deepest) (NNS sympathies)) (PP (TO to) (NP (DT the) (JJ entire) (NN family) (NN circle)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 25|25 punct 1|3 nmod:poss 2|9 nsubj 3|3 cc 4|3 conj:and 5|9 nsubj 5|9 cop 6|9 case 7|9 nmod:poss 8|25 ccomp 9|9 appos 10|9 cc 11|13 nsubj 12|9 conj:and 13|25 ccomp 13|16 nmod:poss 14|16 amod 15|13 dobj 16|21 case 17|21 det 18|21 amod 19|21 compound 20|13 nmod:to 21|25 punct 22|25 punct 23|25 nsubj 24|25 punct 26|
+<word> `` There were no other riders involved in the incident . '' 
+<lemma> `` there be no other rider involve in the incident . '' 
+<POS> `` EX VBD DT JJ NNS VBN IN DT NN . '' 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (EX There)) (VP (VBD were) (NP (NP (DT no) (JJ other) (NNS riders)) (VP (VBN involved) (PP (IN in) (NP (DT the) (NN incident)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 expl 2|6 neg 4|6 amod 5|3 nsubj 6|6 acl 7|10 case 8|10 det 9|7 nmod:in 10|3 punct 11|3 punct 12|
+<word> The annual event is reputed to be one of the fastest motorcycle road races in the world . 
+<lemma> the annual event be repute to be one of the fastest motorcycle road race in the world . 
+<POS> DT JJ NN VBZ VBN TO VB CD IN DT JJS NN NN NNS IN DT NN . 
+<NER> O SET O O O O O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ annual) (NN event)) (VP (VBZ is) (VP (VBN reputed) (S (VP (TO to) (VP (VB be) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (JJS fastest) (NN motorcycle) (NN road) (NNS races)) (PP (IN in) (NP (DT the) (NN world))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubjpass 3|8 nsubj:xsubj 3|5 auxpass 4|8 mark 6|8 cop 7|14 det:qmod 8|8 mwe 9|14 det 10|14 amod 11|14 compound 12|14 compound 13|5 xcomp 14|17 case 15|17 det 16|14 nmod:in 17|5 punct 18|
+<word> A number of competitors have been killed during its more than 80-year history . 
+<lemma> a number of competitor have be kill during its more than 80-year history . 
+<POS> DT NN IN NNS VBP VBN VBN IN PRP$ JJR IN JJ NN . 
+<NER> O O O O O O O O O DURATION DURATION DURATION O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN number)) (PP (IN of) (NP (NNS competitors)))) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN during) (NP (PRP$ its) (ADJP (JJR more) (IN than) (JJ 80-year)) (NN history)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|4 det:qmod 1|1 mwe 2|1 mwe 3|7 nsubjpass 4|7 aux 5|7 auxpass 6|13 case 8|13 nmod:poss 9|12 dep 10|12 dep 11|13 amod 12|7 nmod:during 13|7 punct 14|
+<word> Mr Buckley was a regular competitor at the North West 200 and was expecting to compete at the TT races in the Isle of man in June . 
+<lemma> Mr Buckley be a regular competitor at the North West 200 and be expect to compete at the tt race in the Isle of man in June . 
+<POS> NNP NNP VBD DT JJ NN IN DT NNP NNP CD CC VBD VBG TO VB IN DT NN NNS IN DT NNP IN NN IN NNP . 
+<NER> O PERSON O O O O O O LOCATION LOCATION NUMBER O O O O O O O O O O O MISC O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Buckley)) (VP (VP (VBD was) (NP (DT a) (JJ regular) (NN competitor)) (PP (IN at) (NP (DT the) (NNP North) (NNP West) (CD 200)))) (CC and) (VP (VBD was) (VP (VBG expecting) (S (VP (TO to) (VP (VB compete) (PP (IN at) (NP (NP (DT the) (NN TT) (NNS races)) (PP (IN in) (NP (NP (DT the) (NNP Isle)) (PP (IN of) (NP (NN man))))))) (PP (IN in) (NP (NNP June))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 compound 1|6 nsubj 2|14 nsubj 2|16 nsubj:xsubj 2|6 cop 3|6 det 4|6 amod 5|10 case 7|10 det 8|10 compound 9|6 nmod:at 10|10 nummod 11|6 cc 12|14 aux 13|6 conj:and 14|16 mark 15|14 xcomp 16|20 case 17|20 det 18|20 compound 19|16 nmod:at 20|23 case 21|23 det 22|20 nmod:in 23|25 case 24|23 nmod:of 25|27 case 26|16 nmod:in 27|6 punct 28|
+<coreference> [['1,17,18,17', '7,6,7,6', '12,11,12,11'], ['1,1,3,2', '2,1,2,1'], ['12,8,12,10', '1,14,18,15'], ['2,5,7,6', '2,8,11,10'], ['3,1,4,3', '3,6,7,6'], ['3,11,22,12', '9,9,11,10'], ['3,24,25,24', '6,1,2,1', '8,2,3,2', '8,12,13,12', '8,14,15,14'], ['5,3,11,5', '4,8,11,10', '4,12,15,14', '5,1,2,1'], ['7,1,3,2', '8,8,9,8'], ['7,1,9,2', '8,24,25,24'], ['7,15,18,16', '12,1,3,2'], ['11,1,5,2', '11,9,10,9']]
+</DOC>

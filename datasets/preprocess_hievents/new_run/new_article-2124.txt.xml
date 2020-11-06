@@ -1,0 +1,137 @@
+<DOC> article-2124.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 |
+<word> The Rev. Billy Graham was released from hospital Tuesday after spending six days recovering from pneumonia , his second bout with the lung infection in the past seven months . 
+<lemma> the Rev. Billy Graham be release from hospital Tuesday after spend six day recover from pneumonia , he second bout with the lung infection in the past seven month . 
+<POS> DT NNP NNP NNP VBD VBN IN NN NNP IN VBG CD NNS VBG IN NN , PRP$ JJ NN IN DT NN NN IN DT JJ CD NNS . 
+<NER> O O PERSON PERSON O O O O DATE O O DURATION DURATION O O O O O ORDINAL O O O O O O DURATION DURATION DURATION DURATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Rev.) (NNP Billy) (NNP Graham)) (VP (VBD was) (VP (VBN released) (PP (IN from) (NP (NN hospital))) (NP-TMP (NNP Tuesday)) (PP (IN after) (S (VP (VBG spending) (NP (NP (CD six) (NNS days)) (VP (VBG recovering) (PP (IN from) (NP (NP (NN pneumonia)) (, ,) (NP (PRP$ his) (JJ second) (NN bout)))) (PP (IN with) (NP (NP (DT the) (NN lung) (NN infection)) (PP (IN in) (NP (DT the) (JJ past) (CD seven) (NNS months)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 compound 2|4 compound 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:from 8|6 nmod:tmod 9|11 mark 10|6 advcl:after 11|13 nummod 12|11 dobj 13|13 acl 14|16 case 15|14 nmod:from 16|16 punct 17|20 nmod:poss 18|20 amod 19|16 appos 20|24 case 21|24 det 22|24 compound 23|14 nmod:with 24|29 case 25|29 det 26|29 amod 27|29 nummod 28|24 nmod:in 29|6 punct 30|
+<word> Doctors decided to let the 93-year-old evangelist go home after he responded well to antibiotics and physical therapy to increase his strength , said Nancy Lindell , a spokeswoman for Mission Hospital in Asheville , North Carolina . 
+<lemma> doctor decide to let the 93-year-old evangelist go home after he respond well to antibiotic and physical therapy to increase he strength , say Nancy Lindell , a spokeswoman for Mission Hospital in Asheville , North Carolina . 
+<POS> NNS VBD TO VB DT JJ NN VB RB IN PRP VBD RB TO NNS CC JJ NN TO VB PRP$ NN , VBD NNP NNP , DT NN IN NNP NNP IN NNP , NNP NNP . 
+<NER> O O O O O DURATION O O O O O O O O O O O O O O O O O O PERSON PERSON O O O O ORGANIZATION ORGANIZATION O LOCATION O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (NNS Doctors)) (VP (VBD decided) (S (VP (TO to) (VP (VB let) (S (NP (DT the) (JJ 93-year-old) (NN evangelist)) (VP (VB go) (ADVP (RB home)) (SBAR (IN after) (S (NP (PRP he)) (VP (VBD responded) (ADVP (RB well)) (PP (TO to) (NP (NP (NNS antibiotics)) (CC and) (NP (JJ physical) (NN therapy)))) (S (VP (TO to) (VP (VB increase) (NP (PRP$ his) (NN strength))))))))))))))) (, ,) (VP (VBD said)) (NP (NP (NNP Nancy) (NNP Lindell)) (, ,) (NP (NP (DT a) (NN spokeswoman)) (PP (IN for) (NP (NP (NNP Mission) (NNP Hospital)) (PP (IN in) (NP (NNP Asheville) (, ,) (NNP North) (NNP Carolina))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 24|2 nsubj 1|4 nsubj:xsubj 1|24 ccomp 2|4 mark 3|2 xcomp 4|7 det 5|7 amod 6|8 nsubj 7|4 ccomp 8|8 advmod 9|12 mark 10|12 nsubj 11|20 nsubj:xsubj 11|8 advcl:after 12|12 advmod 13|15 case 14|12 nmod:to 15|15 cc 16|18 amod 17|12 nmod:to 18|15 conj:and 18|20 mark 19|12 xcomp 20|22 nmod:poss 21|20 dobj 22|24 punct 23|26 compound 25|24 nsubj 26|26 punct 27|29 det 28|26 appos 29|32 case 30|32 compound 31|29 nmod:for 32|37 case 33|37 compound 34|37 punct 35|37 appos 36|32 nmod:in 37|24 punct 38|
+<word> Graham said he was grateful for the thoughts and prayers from around the world , according to a statement released by the hospital . 
+<lemma> Graham say he be grateful for the thought and prayer from around the world , accord to a statement release by the hospital . 
+<POS> NNP VBD PRP VBD JJ IN DT NNS CC NNS IN IN DT NN , VBG TO DT NN VBN IN DT NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Graham)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD was) (ADJP (JJ grateful) (PP (IN for) (NP (DT the) (NNS thoughts) (CC and) (NNS prayers)))) (PP (IN from) (PP (IN around) (NP (DT the) (NN world)))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (DT a) (NN statement)) (VP (VBN released) (PP (IN by) (NP (DT the) (NN hospital))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 nsubj 3|5 cop 4|2 ccomp 5|8 case 6|8 det 7|5 nmod:for 8|8 cc 9|5 nmod:for 10|8 conj:and 10|14 case 11|14 case 12|14 det 13|5 nmod:around 14|5 punct 15|19 case 16|16 mwe 17|19 det 18|5 nmod:according_to 19|19 acl 20|23 case 21|23 det 22|20 nmod:by 23|2 punct 24|
+<word> `` I also appreciated the wonderful treatment I received here from such caring doctors and nurses , and feel I have made some new friends , '' Graham said . 
+<lemma> `` I also appreciate the wonderful treatment I receive here from such caring doctor and nurse , and feel I have make some new friend , '' Graham say . 
+<POS> `` PRP RB VBD DT JJ NN PRP VBD RB IN JJ NN NNS CC NNS , CC VB PRP VBP VBN DT JJ NNS , '' NNP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (ADVP (RB also)) (VP (VBD appreciated) (NP (NP (DT the) (JJ wonderful) (NN treatment)) (SBAR (S (NP (PRP I)) (VP (VP (VBD received) (ADVP (RB here)) (PP (IN from) (NP (JJ such) (NN caring) (NNS doctors) (CC and) (NNS nurses)))) (, ,) (CC and) (VP (VB feel) (SBAR (S (NP (PRP I)) (VP (VBP have) (VP (VBN made) (NP (DT some) (JJ new) (NNS friends))))))))))))) (, ,) ('' '') (NP (NNP Graham)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 29|29 punct 1|4 nsubj 2|4 advmod 3|29 ccomp 4|7 det 5|7 amod 6|4 dobj 7|9 nsubj 8|19 nsubj 8|7 acl:relcl 9|9 advmod 10|14 case 11|14 amod 12|14 compound 13|9 nmod:from 14|14 cc 15|9 nmod:from 16|14 conj:and 16|9 punct 17|9 cc 18|7 acl:relcl 19|9 conj:and 19|22 nsubj 20|22 aux 21|19 ccomp 22|25 det 23|25 amod 24|22 dobj 25|29 punct 26|29 punct 27|29 nsubj 28|29 punct 30|
+<word> `` But I am especially looking forward to seeing my home decorated for Christmas and spending the holidays with members of my family . '' 
+<lemma> `` but I be especially look forward to see my home decorate for Christmas and spend the holiday with member of my family . '' 
+<POS> `` CC PRP VBP RB VBG RB TO VBG PRP$ NN VBN IN NNP CC VBG DT NNS IN NNS IN PRP$ NN . '' 
+<NER> O O O O O O O O O O O O O DATE O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (CC But) (NP (PRP I)) (VP (VBP am) (ADVP (RB especially)) (VP (VBG looking) (ADVP (RB forward)) (PP (TO to) (S (VP (VP (VBG seeing) (NP (NP (PRP$ my) (NN home)) (VP (VBN decorated) (PP (IN for) (NP (NNP Christmas)))))) (CC and) (VP (VBG spending) (NP (DT the) (NNS holidays)) (PP (IN with) (NP (NP (NNS members)) (PP (IN of) (NP (PRP$ my) (NN family))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 punct 1|6 cc 2|6 nsubj 3|6 aux 4|6 advmod 5|6 advmod 7|9 mark 8|6 advcl:to 9|11 nmod:poss 10|9 dobj 11|11 acl 12|14 case 13|12 nmod:for 14|9 cc 15|6 advcl:to 16|9 conj:and 16|18 det 17|16 dobj 18|20 case 19|16 nmod:with 20|23 case 21|23 nmod:poss 22|20 nmod:of 23|6 punct 24|6 punct 25|
+<word> Graham was admitted Nov. 30 after suffering from congestion , a cough and slight fever . 
+<lemma> Graham be admit Nov. 30 after suffer from congestion , a cough and slight fever . 
+<POS> NNP VBD VBN NNP CD IN VBG IN NN , DT NN CC JJ NN . 
+<NER> PERSON O O DATE DATE O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Graham)) (VP (VBD was) (VP (VBN admitted) (NP-TMP (NNP Nov.) (CD 30)) (PP (IN after) (S (VP (VBG suffering) (PP (IN from) (NP (NP (NN congestion)) (, ,) (NP (DT a) (ADJP (NN cough) (CC and) (JJ slight)) (NN fever))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|3 nmod:tmod 4|4 nummod 5|7 mark 6|3 advcl:after 7|9 case 8|7 nmod:from 9|9 punct 10|15 det 11|15 amod 12|12 cc 13|12 conj:and 14|15 amod 14|9 appos 15|3 punct 16|
+<word> He was diagnosed with pneumonia . 
+<lemma> he be diagnose with pneumonia . 
+<POS> PRP VBD VBN IN NN . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN diagnosed) (PP (IN with) (NP (NN pneumonia))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|5 case 4|3 nmod:with 5|3 punct 6|
+<word> He spent five days at the hospital with the same ailment in May . 
+<lemma> he spend five day at the hospital with the same ailment in May . 
+<POS> PRP VBD CD NNS IN DT NN IN DT JJ NN IN NNP . 
+<NER> O O DURATION DURATION O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD spent) (NP (CD five) (NNS days)) (PP (IN at) (NP (DT the) (NN hospital))) (PP (IN with) (NP (NP (DT the) (JJ same) (NN ailment)) (PP (IN in) (NP (NNP May)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nummod 3|2 nmod:tmod 4|7 case 5|7 det 6|2 nmod:at 7|11 case 8|11 det 9|11 amod 10|2 nmod:with 11|13 case 12|11 nmod:in 13|2 punct 14|
+<word> In October 2008 , Graham was hospitalized after he tripped and fell over one of his dogs . 
+<lemma> in October 2008 , Graham be hospitalize after he trip and fall over one of he dog . 
+<POS> IN NNP CD , NNP VBD VBN IN PRP VBD CC VBD IN CD IN PRP$ NNS . 
+<NER> O DATE DATE O PERSON O O O O O O O O NUMBER O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NNP October) (CD 2008))) (, ,) (NP (NNP Graham)) (VP (VBD was) (VP (VBN hospitalized) (SBAR (IN after) (S (NP (PRP he)) (VP (VBD tripped) (CC and) (VBD fell) (PP (IN over) (NP (NP (CD one)) (PP (IN of) (NP (PRP$ his) (NNS dogs)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|7 nmod:in 2|2 nummod 3|7 punct 4|7 nsubjpass 5|7 auxpass 6|10 mark 8|10 nsubj 9|12 nsubj 9|7 advcl:after 10|10 cc 11|7 advcl:after 12|10 conj:and 12|14 case 13|10 nmod:over 14|17 case 15|17 nmod:poss 16|14 nmod:of 17|7 punct 18|
+<word> Earlier that same year , he had elective surgery on a shunt that controls excess fluid on his brain . 
+<lemma> earlier that same year , he have elective surgery on a shunt that control excess fluid on he brain . 
+<POS> RBR WDT JJ NN , PRP VBD JJ NN IN DT NN WDT VBZ JJ NN IN PRP$ NN . 
+<NER> O O O DURATION O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (ADVP (RBR Earlier)) (NP (WDT that)) (NP-TMP (JJ same) (NN year))) (PRN (, ,) (S (NP (PRP he)) (VP (VBD had) (NP (NP (JJ elective) (NN surgery)) (PP (IN on) (NP (DT a) (NN shunt))))))) (NP (WDT that)) (VP (VBZ controls) (NP (JJ excess) (NN fluid)) (PP (IN on) (NP (PRP$ his) (NN brain)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|4 advmod 1|4 dep 2|4 amod 3|14 dep 4|7 punct 5|7 nsubj 6|14 parataxis 7|9 amod 8|7 dobj 9|12 case 10|12 det 11|9 nmod:on 12|14 nsubj 13|16 amod 15|14 dobj 16|19 case 17|19 nmod:poss 18|14 nmod:on 19|14 punct 20|
+<word> The shunt was first installed in 2000 and drains fluid through a small tube , relieving excess pressure that can cause symptoms similar to Parkinson 's disease . 
+<lemma> the shunt be first install in 2000 and drain fluid through a small tube , relieve excess pressure that can cause symptom similar to Parkinson 's disease . 
+<POS> DT NN VBD JJ VBN IN CD CC VBZ NN IN DT JJ NN , VBG JJ NN WDT MD VB NNS JJ TO NNP POS NN . 
+<NER> O O O ORDINAL O O DATE O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN shunt)) (VP (VP (VBD was) (VP (ADVP (JJ first)) (VBN installed) (PP (IN in) (NP (CD 2000))))) (CC and) (VP (VBZ drains) (NP (NN fluid)) (PP (IN through) (NP (DT a) (JJ small) (NN tube))) (, ,) (S (VP (VBG relieving) (NP (NP (JJ excess) (NN pressure)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB cause) (S (NP (NNS symptoms)) (ADJP (JJ similar) (PP (TO to) (NP (NP (NNP Parkinson) (POS 's)) (NN disease)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubjpass 2|9 nsubj 2|5 auxpass 3|5 advmod 4|7 case 6|5 nmod:in 7|5 cc 8|5 conj:and 9|9 dobj 10|14 case 11|14 det 12|14 amod 13|9 nmod:through 14|9 punct 15|9 advcl 16|18 amod 17|16 dobj 18|21 nsubj 18|18 ref 19|21 aux 20|18 acl:relcl 21|23 nsubj 22|21 xcomp 23|27 case 24|27 nmod:poss 25|25 case 26|23 nmod:to 27|5 punct 28|
+<word> Graham has also suffered from prostate cancer and was hospitalized in 2007 for nearly two weeks after experiencing intestinal bleeding . 
+<lemma> Graham have also suffer from prostate cancer and be hospitalize in 2007 for nearly two week after experience intestinal bleeding . 
+<POS> NNP VBZ RB VBN IN NN NN CC VBD VBN IN CD IN RB CD NNS IN VBG JJ NN . 
+<NER> PERSON O O O O O O O O O O DATE O DURATION DURATION DURATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Graham)) (VP (VP (VBZ has) (ADVP (RB also)) (VP (VBN suffered) (PP (IN from) (NP (NN prostate) (NN cancer))))) (CC and) (VP (VBD was) (VP (VBN hospitalized) (PP (IN in) (NP (NP (CD 2007)) (PP (IN for) (NP (QP (RB nearly) (CD two)) (NNS weeks))))) (PP (IN after) (S (VP (VBG experiencing) (NP (JJ intestinal) (NN bleeding)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|10 nsubjpass 1|4 aux 2|4 advmod 3|7 case 5|7 compound 6|4 nmod:from 7|4 cc 8|10 auxpass 9|4 conj:and 10|12 case 11|10 nmod:in 12|16 case 13|15 advmod 14|16 nummod 15|12 nmod:for 16|18 mark 17|10 advcl:after 18|20 amod 19|18 dobj 20|4 punct 21|
+<word> His wife , Ruth Bell Graham , died in June 2007 . 
+<lemma> he wife , Ruth Bell Graham , die in June 2007 . 
+<POS> PRP$ NN , NNP NNP NNP , VBD IN NNP CD . 
+<NER> O O O PERSON PERSON PERSON O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (PRP$ His) (NN wife)) (, ,) (NP (NNP Ruth) (NNP Bell) (NNP Graham)) (, ,)) (VP (VBD died) (PP (IN in) (NP (NNP June) (CD 2007)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 nmod:poss 1|8 nsubj 2|2 punct 3|6 compound 4|6 compound 5|2 appos 6|2 punct 7|10 case 9|8 nmod:in 10|10 nummod 11|8 punct 12|
+<word> The evangelist has led a worldwide ministry that packed stadiums with believers and has counseled every U.S. president since Harry Truman . 
+<lemma> the evangelist have lead a worldwide ministry that pack stadium with believer and have counsel every U.S. president since Harry Truman . 
+<POS> DT NN VBZ VBN DT JJ NN WDT VBD NNS IN NNS CC VBZ VBN DT NNP NN IN NNP NNP . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN evangelist)) (VP (VBZ has) (VP (VBN led) (NP (NP (DT a) (JJ worldwide) (NN ministry)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBD packed) (NP (NNS stadiums)) (PP (IN with) (NP (NNS believers)))) (CC and) (VP (VBZ has) (VP (VBN counseled) (NP (DT every) (NNP U.S.) (NN president)) (PP (IN since) (NP (NNP Harry) (NNP Truman))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|7 det 5|7 amod 6|4 dobj 7|9 nsubj 7|15 nsubj 7|7 ref 8|7 acl:relcl 9|9 dobj 10|12 case 11|9 nmod:with 12|9 cc 13|15 aux 14|7 acl:relcl 15|9 conj:and 15|18 det 16|18 compound 17|15 dobj 18|21 case 19|21 compound 20|15 nmod:since 21|4 punct 22|
+<word> He published his most recent book , `` Nearing Home , '' last month and plans to continue writing his next book , which he said will summarize his six decades of work . 
+<lemma> he publish he most recent book , `` Nearing Home , '' last month and plan to continue write he next book , which he say will summarize he six decade of work . 
+<POS> PRP VBD PRP$ RBS JJ NN , `` NNP NNP , '' JJ NN CC VBZ TO VB VBG PRP$ JJ NN , WDT PRP VBD MD VB PRP$ CD NNS IN NN . 
+<NER> O O O O O O O O O O O O DATE DATE O O O O O O O O O O O O O O O DURATION DURATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VP (VBD published) (NP (NP (PRP$ his) (ADJP (RBS most) (JJ recent)) (NN book)) (, ,) (`` ``) (NP (NNP Nearing) (NNP Home)) (, ,) ('' '')) (NP-TMP (JJ last) (NN month))) (CC and) (VP (VBZ plans) (S (VP (TO to) (VP (VB continue) (S (VP (VBG writing) (NP (NP (PRP$ his) (JJ next) (NN book)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP he)) (VP (VBD said) (SBAR (S (VP (MD will) (VP (VB summarize) (NP (NP (PRP$ his) (CD six) (NNS decades)) (PP (IN of) (NP (NN work))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|16 nsubj 1|18 nsubj:xsubj 1|6 nmod:poss 3|5 advmod 4|6 amod 5|2 dobj 6|6 punct 7|6 punct 8|10 compound 9|6 dep 10|6 punct 11|6 punct 12|14 amod 13|2 nmod:tmod 14|2 cc 15|2 conj:and 16|18 mark 17|16 xcomp 18|18 xcomp 19|22 nmod:poss 20|22 amod 21|19 dobj 22|26 dobj 22|22 punct 23|22 ref 24|26 nsubj 25|22 acl:relcl 26|28 aux 27|26 ccomp 28|31 nmod:poss 29|31 nummod 30|28 dobj 31|33 case 32|31 nmod:of 33|2 punct 34|
+<word> Graham rarely appears in public now . 
+<lemma> Graham rarely appear in public now . 
+<POS> NNP RB VBZ IN JJ RB . 
+<NER> PERSON O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Graham)) (ADVP (RB rarely)) (VP (VBZ appears) (PP (IN in) (NP (JJ public))) (ADVP (RB now))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|5 case 4|3 nmod:in 5|3 advmod 6|3 punct 7|
+<word> The Billy Graham Evangelistic Association is run by Graham 's son , Franklin . 
+<lemma> the Billy Graham Evangelistic Association be run by Graham 's son , Franklin . 
+<POS> DT NNP NNP NNP NNP VBZ VBN IN NNP POS NN , NNP . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O PERSON O O O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Billy) (NNP Graham) (NNP Evangelistic) (NNP Association)) (VP (VBZ is) (VP (VBN run) (PP (IN by) (NP (NP (NP (NNP Graham) (POS 's)) (NN son)) (, ,) (NP (NNP Franklin)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|5 det 1|5 compound 2|5 compound 3|5 compound 4|7 nsubjpass 5|7 auxpass 6|11 case 8|11 nmod:poss 9|9 case 10|7 nmod:agent 11|11 punct 12|11 appos 13|7 punct 14|
+<word> Doctors used the six-day hospital stay for routine tests on Graham that he had already scheduled . 
+<lemma> doctor use the six-day hospital stay for routine test on Graham that he have already schedule . 
+<POS> NNS VBD DT JJ NN NN IN JJ NNS IN NNP IN PRP VBD RB VBN . 
+<NER> O O O DURATION O O O O O O PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Doctors)) (VP (VBD used) (NP (DT the) (JJ six-day) (NN hospital) (NN stay)) (PP (IN for) (NP (NP (JJ routine) (NNS tests)) (PP (IN on) (NP (NNP Graham))))) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD had) (ADVP (RB already)) (VP (VBN scheduled)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 det 3|6 amod 4|6 compound 5|2 dobj 6|9 case 7|9 amod 8|2 nmod:for 9|11 case 10|9 nmod:on 11|16 mark 12|16 nsubj 13|16 aux 14|16 advmod 15|2 ccomp 16|2 punct 17|
+<word> They sent him home with orders to continue his therapy to increase his strength and mobility . 
+<lemma> they send he home with order to continue he therapy to increase he strength and mobility . 
+<POS> PRP VBD PRP NN IN NNS TO VB PRP$ NN TO VB PRP$ NN CC NN . 
+<NER> O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBD sent) (NP (PRP him)) (NP (NP (NN home)) (PP (IN with) (NP (NNS orders) (S (VP (TO to) (VP (VB continue) (NP (PRP$ his) (NN therapy) (S (VP (TO to) (VP (VB increase) (NP (PRP$ his) (NN strength) (CC and) (NN mobility))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 iobj 3|2 dobj 4|6 case 5|4 nmod:with 6|8 mark 7|6 acl:to 8|10 nmod:poss 9|8 dobj 10|12 mark 11|10 acl:to 12|14 nmod:poss 13|12 dobj 14|14 cc 15|12 dobj 16|14 conj:and 16|2 punct 17|
+<coreference> [['1,1,5,4', '1,18,19,18', '3,1,2,1', '3,3,4,3', '4,2,3,2', '4,8,9,8', '4,20,21,20', '4,28,29,28', '5,3,4,3', '5,10,11,10', '5,22,23,22', '6,1,2,1', '7,1,2,1', '8,1,2,1', '9,5,6,5', '9,9,10,9', '10,6,7,6', '10,18,19,18', '12,1,2,1', '13,1,2,1', '16,1,2,1', '17,9,11,9', '18,11,12,11', '18,13,14,13', '19,3,4,3', '19,9,10,9', '19,13,14,13'], ['2,25,27,26', '2,28,38,29'], ['2,1,2,1', '18,1,2,1', '19,1,2,1'], ['2,5,8,7', '2,11,12,11', '2,21,22,21', '14,1,3,2', '15,1,2,1', '15,3,4,3', '15,20,21,20', '15,25,26,25', '15,29,30,29'], ['2,31,38,32', '3,22,24,23', '8,6,8,7'], ['9,2,4,2', '10,2,3,2'], ['10,11,13,12', '10,13,14,13', '11,1,3,2'], ['15,9,11,10', '15,3,7,6'], ['17,13,14,13', '17,9,12,11']]
+</DOC>

@@ -1,0 +1,109 @@
+<DOC> article-13494.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 |
+<word> Pre-election violence has erupted in the Egyptian capital , Cairo , killing at least 11 people , wounding more than 100 others , and prompting several presidential candidates to suspend their campaigns . 
+<lemma> pre-election violence have erupt in the egyptian capital , Cairo , kill at least 11 people , wound more than 100 other , and prompt several presidential candidate to suspend they campaign . 
+<POS> JJ NN VBZ VBN IN DT JJ NN , NNP , VBG IN JJS CD NNS , VBG JJR IN CD NNS , CC VBG JJ JJ NNS TO VB PRP$ NNS . 
+<NER> O O O O O O MISC O O LOCATION O O O O NUMBER O O O O O NUMBER O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Pre-election) (NN violence)) (VP (VBZ has) (VP (VBN erupted) (PP (IN in) (S (NP (NP (DT the) (JJ Egyptian) (NN capital)) (, ,) (NP (NNP Cairo)) (, ,)) (VP (VP (VBG killing) (NP (QP (IN at) (JJS least) (CD 11)) (NNS people))) (, ,) (VP (VBG wounding) (NP (QP (JJR more) (IN than) (CD 100)) (NNS others))) (, ,) (CC and) (VP (VBG prompting) (NP (JJ several) (JJ presidential) (NNS candidates)) (S (VP (TO to) (VP (VB suspend) (NP (PRP$ their) (NNS campaigns))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|4 aux 3|12 mark 5|8 det 6|8 amod 7|12 nsubj 8|18 nsubj 8|25 nsubj 8|8 punct 9|8 appos 10|8 punct 11|4 advcl:in 12|14 case 13|15 nmod:npmod 14|16 nummod 15|12 dobj 16|12 punct 17|4 advcl:in 18|12 conj:and 18|21 advmod 19|19 mwe 20|22 nummod 21|18 dobj 22|12 punct 23|12 cc 24|4 advcl:in 25|12 conj:and 25|28 amod 26|28 amod 27|25 dobj 28|30 nsubj:xsubj 28|30 mark 29|25 xcomp 30|32 nmod:poss 31|30 dobj 32|4 punct 33|
+<word> Egyptian medical and security sources confirmed the death toll in Wednesday 's fighting , which began at dawn when assailants raided a protest camp occupied by hundreds of activists opposed to the military-backed government . 
+<lemma> egyptian medical and security source confirm the death toll in Wednesday 's fighting , which begin at dawn when assailant raid a protest camp occupy by hundred of activist oppose to the military-backed government . 
+<POS> JJ JJ CC NN NNS VBD DT NN NN IN NNP POS NN , WDT VBD IN NN WRB NNS VBD DT NN NN VBN IN NNS IN NNS VBN TO DT JJ NN . 
+<NER> MISC O O O O O O O O O DATE O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Egyptian) (JJ medical) (CC and) (NN security) (NNS sources)) (VP (VBD confirmed) (NP (DT the) (NN death) (NN toll)) (PP (IN in) (NP (NP (NP (NNP Wednesday) (POS 's)) (NN fighting)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD began) (PP (IN at) (NP (NN dawn))) (SBAR (WHADVP (WRB when)) (S (NP (NNS assailants)) (VP (VBD raided) (S (NP (DT a) (NN protest) (NN camp)) (ADJP (VBN occupied) (PP (IN by) (NP (NP (NNS hundreds)) (PP (IN of) (NP (NP (NNS activists)) (VP (VBN opposed) (PP (TO to) (NP (DT the) (JJ military-backed) (NN government))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 amod 1|6 nsubj 2|2 cc 3|5 compound 4|2 conj:and 5|6 nsubj 5|9 det 7|9 compound 8|6 dobj 9|13 case 10|13 nmod:poss 11|11 case 12|6 nmod:in 13|16 nsubj 13|13 punct 14|13 ref 15|13 acl:relcl 16|18 case 17|16 nmod:at 18|21 advmod 19|21 nsubj 20|16 advcl 21|24 det 22|24 compound 23|25 nsubj 24|21 xcomp 25|27 case 26|29 det:qmod 27|27 mwe 28|25 nmod 29|29 acl 30|34 case 31|34 det 32|34 amod 33|30 nmod:to 34|6 punct 35|
+<word> Protesters ' demands The mostly Islamist protesters had been camping near the Egyptian defense ministry in Cairo 's Abbassiya district since Saturday , demanding an immediate end to military rule in Egypt . 
+<lemma> protester ' demand the mostly islamist protester have be camp near the egyptian defense ministry in Cairo 's Abbassiya district since Saturday , demand a immediate end to military rule in Egypt . 
+<POS> NNS POS NNS DT RB JJ NNS VBD VBN VBG IN DT JJ NN NN IN NNP POS NNP NN IN NNP , VBG DT JJ NN TO JJ NN IN NNP . 
+<NER> O O O O O MISC O O O O O O MISC O O O LOCATION O LOCATION O O DATE O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Protesters) (POS ')) (NP (NP (NNS demands)) (NP (DT The) (RB mostly) (JJ Islamist) (NNS protesters)))) (VP (VBD had) (VP (VBN been) (VP (VBG camping) (PP (IN near) (NP (NP (DT the) (JJ Egyptian) (NN defense) (NN ministry)) (PP (IN in) (NP (NP (NNP Cairo) (POS 's)) (NNP Abbassiya) (NN district))))) (PP (IN since) (NP (NNP Saturday))) (, ,) (S (VP (VBG demanding) (NP (DT an) (JJ immediate) (NN end)) (PP (TO to) (NP (NP (JJ military) (NN rule)) (PP (IN in) (NP (NNP Egypt)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 nsubj 1|1 case 2|1 dep 3|7 det 4|7 advmod 5|7 amod 6|3 dep 7|10 aux 8|10 aux 9|15 case 11|15 det 12|15 amod 13|15 compound 14|10 nmod:near 15|20 case 16|20 nmod:poss 17|17 case 18|20 compound 19|15 nmod:in 20|22 case 21|10 nmod:since 22|10 punct 23|10 advcl 24|27 det 25|27 amod 26|24 dobj 27|30 case 28|30 amod 29|24 nmod:to 30|32 case 31|30 nmod:in 32|10 punct 33|
+<word> The protesters fought back against the assailants , described by some witnesses as pro-government `` thugs . '' 
+<lemma> the protester fight back against the assailant , describe by some witness as pro-government `` thug . '' 
+<POS> DT NNS VBD RB IN DT NNS , VBN IN DT NNS IN JJ `` NNS . '' 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS protesters)) (VP (VBD fought) (ADVP (RB back)) (PP (IN against) (NP (NP (DT the) (NNS assailants)) (, ,) (VP (VBN described) (PP (IN by) (NP (NP (DT some) (NNS witnesses)) (PP (IN as) (NP (JJ pro-government) (`` ``) (NNS thugs))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|3 advmod 4|7 case 5|7 det 6|3 nmod:against 7|7 punct 8|7 acl 9|12 case 10|12 det 11|9 nmod:by 12|16 case 13|16 amod 14|16 punct 15|12 nmod:as 16|3 punct 17|3 punct 18|
+<word> The rival groups attacked each other with firebombs and stones . 
+<lemma> the rival group attack each other with firebomb and stone . 
+<POS> DT JJ NNS VBN DT JJ IN NNS CC NNS . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ rival) (NNS groups)) (VP (VBN attacked) (NP (DT each) (JJ other)) (PP (IN with) (NP (NNS firebombs) (CC and) (NNS stones)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|6 det 5|4 dobj 6|8 case 7|4 nmod:with 8|8 cc 9|4 nmod:with 10|8 conj:and 10|4 punct 11|
+<word> Gunfire also was heard at the scene . 
+<lemma> Gunfire also be hear at the scene . 
+<POS> NNP RB VBD VBN IN DT NN . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Gunfire)) (ADVP (RB also)) (VP (VBD was) (VP (VBN heard) (PP (IN at) (NP (DT the) (NN scene))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubjpass 1|4 advmod 2|4 auxpass 3|7 case 5|7 det 6|4 nmod:at 7|4 punct 8|
+<word> Mohamed Mursi of the Muslim Brotherhood announced a two-day suspension in solidarity with the victims . 
+<lemma> Mohamed Mursi of the muslim Brotherhood announce a two-day suspension in solidarity with the victim . 
+<POS> NNP NNP IN DT JJ NNP VBD DT JJ NN IN NN IN DT NNS . 
+<NER> PERSON PERSON O O ORGANIZATION ORGANIZATION O O DURATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Mohamed) (NNP Mursi)) (PP (IN of) (NP (DT the) (JJ Muslim) (NNP Brotherhood)))) (VP (VBD announced) (NP (DT a) (JJ two-day) (NN suspension)) (PP (IN in) (NP (NN solidarity))) (PP (IN with) (NP (DT the) (NNS victims)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 compound 1|7 nsubj 2|6 case 3|6 det 4|6 amod 5|2 nmod:of 6|10 det 8|10 amod 9|7 dobj 10|12 case 11|7 nmod:in 12|15 case 13|15 det 14|7 nmod:with 15|7 punct 16|
+<word> The Brotherhood also declared a boycott of a meeting with Egypt 's ruling military council planned for later on Wednesday . 
+<lemma> the Brotherhood also declare a boycott of a meeting with Egypt 's ruling military council plan for later on Wednesday . 
+<POS> DT NNP RB VBD DT NN IN DT NN IN NNP POS NN JJ NN VBN IN RB IN NNP . 
+<NER> O ORGANIZATION O O O O O O O O LOCATION O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Brotherhood)) (ADVP (RB also)) (VP (VBD declared) (NP (NP (DT a) (NN boycott)) (PP (IN of) (NP (DT a) (NN meeting)))) (PP (IN with) (NP (NP (NP (NNP Egypt) (POS 's)) (NN ruling) (JJ military) (NN council)) (VP (VBN planned) (PP (IN for) (ADVP (RB later) (PP (IN on) (NP-TMP (NNP Wednesday))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 det 5|4 dobj 6|9 case 7|9 det 8|6 nmod:of 9|15 case 10|15 nmod:poss 11|11 case 12|15 compound 13|15 amod 14|4 nmod:with 15|15 acl 16|18 case 17|16 advcl:for 18|20 case 19|18 nmod:on 20|4 punct 21|
+<word> The other leading Islamist candidate , Abdel Moneim Abol Fotouh , cancelled his next campaign events in protest at how authorities handled the Cairo street battles . 
+<lemma> the other lead islamist candidate , Abdel Moneim Abol Fotouh , cancel he next campaign event in protest at how authority handle the Cairo street battle . 
+<POS> DT JJ VBG JJ NN , NNP NNP NNP NNP , VBD PRP$ JJ NN NNS IN NN IN WRB NNS VBD DT NNP NN NNS . 
+<NER> O O O MISC O O PERSON PERSON PERSON PERSON O O O O O O O O O O O O O LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ other) (VBG leading) (JJ Islamist) (NN candidate)) (, ,) (NP (NNP Abdel) (NNP Moneim) (NNP Abol) (NNP Fotouh)) (, ,)) (VP (VBD cancelled) (NP (PRP$ his) (JJ next) (NN campaign) (NNS events)) (PP (IN in) (NP (NN protest))) (PP (IN at) (SBAR (WHADVP (WRB how)) (S (NP (NNS authorities)) (VP (VBD handled) (NP (DT the) (NNP Cairo) (NN street) (NNS battles))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|5 det 1|5 amod 2|5 amod 3|5 amod 4|12 nsubj 5|5 punct 6|10 compound 7|10 compound 8|10 compound 9|5 appos 10|5 punct 11|16 nmod:poss 13|16 amod 14|16 compound 15|12 dobj 16|18 case 17|12 nmod:in 18|22 mark 19|22 advmod 20|22 nsubj 21|12 advcl:at 22|26 det 23|26 compound 24|26 compound 25|22 dobj 26|12 punct 27|
+<word> Egypt 's presidential election will be the first since a popular uprising ousted longtime autocratic leader Hosni Mubarak in February 2011 . 
+<lemma> Egypt 's presidential election will be the first since a popular uprising oust longtime autocratic leader Hosni Mubarak in February 2011 . 
+<POS> NNP POS JJ NN MD VB DT JJ IN DT JJ NN VBN JJ JJ NN NNP NNP IN NNP CD . 
+<NER> LOCATION O O O O O O ORDINAL O O O O O O O O PERSON PERSON O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Egypt) (POS 's)) (JJ presidential) (NN election)) (VP (MD will) (VP (VB be) (NP (NP (DT the) (JJ first)) (PP (IN since) (NP (NP (DT a) (JJ popular) (NN uprising)) (VP (VBN ousted) (NP (NP (JJ longtime) (JJ autocratic) (NN leader) (NNP Hosni) (NNP Mubarak)) (PP (IN in) (NP (NNP February) (CD 2011)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|4 nmod:poss 1|1 case 2|4 amod 3|8 nsubj 4|8 aux 5|8 cop 6|8 det 7|12 case 9|12 det 10|12 amod 11|8 nmod:since 12|12 acl 13|18 amod 14|18 amod 15|18 compound 16|18 compound 17|13 dobj 18|20 case 19|18 nmod:in 20|20 nummod 21|8 punct 22|
+<word> The military council that took over from Mubarak has promised a democratic transition and a transfer of power to an elected president by July 1 . 
+<lemma> the military council that take over from Mubarak have promise a democratic transition and a transfer of power to a elect president by July 1 . 
+<POS> DT JJ NN WDT VBD RP IN NNP VBZ VBN DT JJ NN CC DT NN IN NN TO DT VBN NN IN NNP CD . 
+<NER> O O O O O O O PERSON O O O O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ military) (NN council)) (SBAR (WHNP (WDT that)) (S (VP (VBD took) (PRT (RP over)) (PP (IN from) (NP (NNP Mubarak))))))) (VP (VBZ has) (VP (VBN promised) (NP (NP (DT a) (JJ democratic) (NN transition)) (CC and) (NP (NP (DT a) (NN transfer)) (PP (IN of) (NP (NN power))))) (PP (TO to) (NP (NP (DT an) (VBN elected) (NN president)) (PP (IN by) (NP (NNP July) (CD 1))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 det 1|3 amod 2|5 nsubj 3|10 nsubj 3|3 ref 4|3 acl:relcl 5|5 compound:prt 6|8 case 7|5 nmod:from 8|10 aux 9|13 det 11|13 amod 12|10 dobj 13|13 cc 14|16 det 15|10 dobj 16|13 conj:and 16|18 case 17|16 nmod:of 18|22 case 19|22 det 20|22 amod 21|10 nmod:to 22|24 case 23|22 nmod:by 24|24 nummod 25|10 punct 26|
+<word> But , Egypt 's generals have faced strong domestic criticism for their handling of that process , which has been plagued by periodic eruptions of deadly violence , often surrounding anti-government protests in major cities . 
+<lemma> but , Egypt 's general have face strong domestic criticism for they handling of that process , which have be plague by periodic eruption of deadly violence , often surround anti-government protest in major city . 
+<POS> CC , NNP POS NNS VBP VBN JJ JJ NN IN PRP$ NN IN DT NN , WDT VBZ VBN VBN IN JJ NNS IN JJ NN , RB VBG JJ NNS IN JJ NNS . 
+<NER> O O LOCATION O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (, ,) (S (NP (NP (NNP Egypt) (POS 's)) (NNS generals)) (VP (VBP have) (VP (VBN faced) (NP (NP (JJ strong) (JJ domestic) (NN criticism)) (PP (IN for) (NP (NP (PRP$ their) (NN handling)) (PP (IN of) (NP (NP (DT that) (NN process)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN plagued) (PP (IN by) (NP (NP (JJ periodic) (NNS eruptions)) (PP (IN of) (NP (JJ deadly) (NN violence))))))))))))))) (, ,) (S (ADVP (RB often)) (VP (VBG surrounding) (NP (JJ anti-government) (NNS protests)) (PP (IN in) (NP (JJ major) (NNS cities)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 cc 1|7 punct 2|5 nmod:poss 3|3 case 4|7 nsubj 5|7 aux 6|10 amod 8|10 amod 9|7 dobj 10|13 case 11|13 nmod:poss 12|10 nmod:for 13|16 case 14|16 det 15|13 nmod:of 16|21 nsubjpass 16|16 punct 17|16 ref 18|21 aux 19|21 auxpass 20|16 acl:relcl 21|24 case 22|24 amod 23|21 nmod:agent 24|27 case 25|27 amod 26|24 nmod:of 27|7 punct 28|30 advmod 29|7 advcl 30|32 amod 31|30 dobj 32|35 case 33|35 amod 34|30 nmod:in 35|7 punct 36|
+<word> Many of the protesters camped outside the Egyptian defense ministry are Islamists who were angered by the ruling military 's decision to bar ultraconservative Islamist cleric Hazem Abu Ismail from standing in the presidential contest . 
+<lemma> many of the protester camp outside the egyptian defense ministry be Islamists who be anger by the ruling military 's decision to bar ultraconservative islamist cleric Hazem Abu Ismail from stand in the presidential contest . 
+<POS> JJ IN DT NNS VBD IN DT JJ NN NN VBP NNPS WP VBD VBN IN DT NN NN POS NN TO NN JJ JJ JJ NNP NNP NNP IN VBG IN DT JJ NN . 
+<NER> O O O O O O O MISC O O O MISC O O O O O O O O O O O O MISC O PERSON PERSON PERSON O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Many)) (PP (IN of) (NP (DT the) (NNS protesters)))) (VP (VBD camped) (PP (IN outside) (NP (NP (DT the) (JJ Egyptian) (NN defense) (NN ministry)) (SBAR (S (VP (VBP are) (NP (NP (NNPS Islamists)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN angered) (PP (IN by) (NP (NP (DT the) (NN ruling) (NN military) (POS 's)) (NN decision) (S (VP (TO to) (VP (NN bar) (NP (ADJP (JJ ultraconservative) (JJ Islamist)) (JJ cleric) (NNP Hazem) (NNP Abu) (NNP Ismail)) (PP (IN from) (S (VP (VBG standing) (PP (IN in) (NP (DT the) (JJ presidential) (NN contest)))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det:qmod 1|1 mwe 2|4 det 3|5 nsubj 4|10 case 6|10 det 7|10 amod 8|10 compound 9|5 nmod:outside 10|15 nsubjpass 10|12 cop 11|10 acl:relcl 12|15 nsubjpass 12|10 ref 13|12 ref 13|15 auxpass 14|12 acl:relcl 15|21 case 16|19 det 17|19 compound 18|21 nmod:poss 19|19 case 20|15 nmod:agent 21|23 mark 22|21 acl:to 23|25 amod 24|29 amod 25|29 amod 26|29 compound 27|29 compound 28|23 dobj 29|31 mark 30|23 advcl:from 31|35 case 32|35 det 33|35 amod 34|31 nmod:in 35|5 punct 36|
+<word> Egypt 's election commission disqualified Abu Ismail because his mother had taken joint U.S. citizenship . 
+<lemma> Egypt 's election commission disqualify Abu Ismail because he mother have take joint U.S. citizenship . 
+<POS> NNP POS NN NN VBD NNP NNP IN PRP$ NN VBD VBN JJ NNP NN . 
+<NER> LOCATION O O O O PERSON PERSON O O O O O O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Egypt) (POS 's)) (NN election) (NN commission)) (VP (VBD disqualified) (NP (NNP Abu) (NNP Ismail)) (SBAR (IN because) (S (NP (PRP$ his) (NN mother)) (VP (VBD had) (VP (VBN taken) (NP (JJ joint) (NNP U.S.) (NN citizenship))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 nmod:poss 1|1 case 2|4 compound 3|5 nsubj 4|7 compound 6|5 dobj 7|12 mark 8|10 nmod:poss 9|12 nsubj 10|12 aux 11|5 advcl:because 12|15 amod 13|15 compound 14|12 dobj 15|5 punct 16|
+<word> Some liberal pro-democracy activists had joined the Islamists at the encampment in calling for Egypt 's ruling generals to step down immediately . 
+<lemma> some liberal pro-democracy activist have join the Islamists at the encampment in call for Egypt 's ruling general to step down immediately . 
+<POS> DT JJ JJ NNS VBD VBN DT NNPS IN DT NN IN VBG IN NNP POS NN NNS TO VB RP RB . 
+<NER> O O O O O O O MISC O O O O O O LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT Some) (JJ liberal) (JJ pro-democracy) (NNS activists)) (VP (VBD had) (VP (VBN joined) (NP (DT the) (NNPS Islamists)) (PP (IN at) (NP (NP (DT the) (NN encampment)) (PP (IN in) (S (VP (VBG calling) (PP (IN for) (NP (NP (NNP Egypt) (POS 's)) (NN ruling) (NNS generals))) (S (VP (TO to) (VP (VB step) (PRT (RP down)) (ADVP (RB immediately)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 amod 2|4 amod 3|6 nsubj 4|6 aux 5|8 det 7|6 dobj 8|11 case 9|11 det 10|6 nmod:at 11|13 mark 12|11 acl:in 13|18 case 14|18 nmod:poss 15|15 case 16|18 compound 17|13 nmod:for 18|20 mark 19|13 xcomp 20|20 compound:prt 21|20 advmod 22|6 punct 23|
+<coreference> [['1,10,11,10', '3,17,19,17', '9,24,25,24'], ['1,13,17,16', '1,31,32,31'], ['2,11,13,11', '8,20,21,20'], ['4,6,8,7', '2,20,21,20'], ['3,6,7,6', '9,4,5,4', '13,25,26,25'], ['3,32,33,32', '8,11,13,11', '10,1,3,1', '12,3,5,3', '14,1,3,1', '15,15,17,15'], ['4,1,3,2', '3,1,8,1', '13,3,5,4'], ['7,4,7,6', '8,1,3,2'], ['9,7,11,10', '9,1,6,5', '9,13,14,13'], ['10,7,22,8', '10,1,5,4'], ['10,14,22,18', '11,8,9,8'], ['12,3,6,5', '12,12,13,12'], ['15,7,9,8', '13,12,36,12'], ['13,24,30,29', '14,6,8,7', '14,9,10,9']]
+</DOC>

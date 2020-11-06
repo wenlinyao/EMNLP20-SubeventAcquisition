@@ -1,0 +1,95 @@
+<DOC> article-25856.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 |
+<word> A strong 5.8-magnitude quake rocked Bulgaria shortly after 3:00 am -LRB- 0000 GMT -RRB- Tuesday , Bulgaria 's Seismological Institute said Tuesday . 
+<lemma> a strong 5.8-magnitude quake rock Bulgaria shortly after 3:00 be -lrb- 0000 GMT -rrb- Tuesday , Bulgaria 's Seismological Institute say Tuesday . 
+<POS> DT JJ JJ NN VBD NNP RB IN CD VBP -LRB- CD NNP -RRB- NNP , NNP POS NNP NNP VBD NNP . 
+<NER> O O O O O LOCATION O O TIME TIME O DATE MISC O DATE O LOCATION O ORGANIZATION ORGANIZATION O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT A) (JJ strong) (JJ 5.8-magnitude) (NN quake)) (VP (VBD rocked) (NP (NNP Bulgaria)) (ADVP (RB shortly)) (PP (IN after) (NP (NP (NP (NP (CD 3:00)) (VP (VBP am))) (-LRB- -LRB-) (NP (CD 0000) (NNP GMT)) (-RRB- -RRB-)) (NP-TMP (NNP Tuesday)))))) (, ,) (NP (NP (NNP Bulgaria) (POS 's)) (NNP Seismological) (NNP Institute)) (VP (VBD said) (NP-TMP (NNP Tuesday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|4 det 1|4 amod 2|4 amod 3|5 nsubj 4|21 ccomp 5|5 dobj 6|5 advmod 7|9 case 8|5 nmod:after 9|9 dep 10|9 punct 11|13 nummod 12|9 dep 13|9 punct 14|9 nmod:tmod 15|21 punct 16|20 nmod:poss 17|17 case 18|20 compound 19|21 nsubj 20|21 nmod:tmod 22|21 punct 23|
+<word> `` The magnitude measured so far was 5.8 on the Richter scale with the epicentre near Sofia , between the towns of Pernik and Radomir , '' a spokeswoman at the institute told AFP . 
+<lemma> `` the magnitude measure so far be 5.8 on the Richter scale with the epicentre near Sofia , between the town of Pernik and Radomir , '' a spokeswoman at the institute tell afp . 
+<POS> `` DT NN VBN RB RB VBD CD IN DT NNP NN IN DT NN IN NNP , IN DT NNS IN NNP CC NNP , '' DT NN IN DT NN VBD NN . 
+<NER> O O O O O O O NUMBER O O O O O O O O LOCATION O O O O O LOCATION O PERSON O O O O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NP (DT The) (NN magnitude)) (VP (VBN measured) (ADVP (RB so) (RB far)))) (VP (VBD was) (NP (NP (CD 5.8)) (PP (IN on) (NP (DT the) (NNP Richter) (NN scale)))) (PP (IN with) (NP (NP (DT the) (NN epicentre)) (PP (IN near) (NP (NNP Sofia))))) (, ,) (PP (IN between) (NP (NP (DT the) (NNS towns)) (PP (IN of) (NP (NNP Pernik) (CC and) (NNP Radomir))))))) (, ,) ('' '') (NP (NP (DT a) (NN spokeswoman)) (PP (IN at) (NP (DT the) (NN institute)))) (VP (VBD told) (NP (NN AFP))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 33|33 punct 1|3 det 2|8 nsubj 3|3 acl 4|6 advmod 5|4 advmod 6|8 cop 7|33 ccomp 8|12 case 9|12 det 10|12 compound 11|8 nmod:on 12|15 case 13|15 det 14|8 nmod:with 15|17 case 16|15 nmod:near 17|8 punct 18|21 case 19|21 det 20|8 nmod:between 21|23 case 22|21 nmod:of 23|23 cc 24|21 nmod:of 25|23 conj:and 25|33 punct 26|33 punct 27|29 det 28|33 nsubj 29|32 case 30|32 det 31|29 nmod:at 32|33 dobj 34|33 punct 35|
+<word> `` We have been registering many aftershocks since then , '' she added . 
+<lemma> `` we have be register many aftershock since then , '' she add . 
+<POS> `` PRP VBP VBN VBG JJ NNS IN RB , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP have) (VP (VBN been) (VP (VBG registering) (NP (JJ many) (NNS aftershocks)) (PP (IN since) (NP (RB then))))))) (, ,) ('' '') (NP (PRP she)) (VP (VBD added)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|13 punct 1|5 nsubj 2|5 aux 3|5 aux 4|13 ccomp 5|7 amod 6|5 dobj 7|9 case 8|5 nmod:since 9|13 punct 10|13 punct 11|13 nsubj 12|13 punct 14|
+<word> There were no immediate reports of casualties or damages but the jolt was felt very strongly on the top floors of buildings in Sofia . 
+<lemma> there be no immediate report of casualty or damages but the jolt be feel very strongly on the top floor of building in Sofia . 
+<POS> EX VBD DT JJ NNS IN NNS CC NNS CC DT NN VBD VBN RB RB IN DT JJ NNS IN NNS IN NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (EX There)) (VP (VBD were) (NP (NP (DT no) (JJ immediate) (NNS reports)) (PP (IN of) (NP (NNS casualties) (CC or) (NNS damages)))))) (CC but) (S (NP (DT the) (NN jolt)) (VP (VBD was) (VP (VBN felt) (ADVP (RB very) (RB strongly)) (PP (IN on) (NP (NP (DT the) (JJ top) (NNS floors)) (PP (IN of) (NP (NP (NNS buildings)) (PP (IN in) (NP (NNP Sofia)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|5 neg 3|5 amod 4|2 nsubj 5|7 case 6|5 nmod:of 7|7 cc 8|5 nmod:of 9|7 conj:or 9|2 cc 10|12 det 11|14 nsubjpass 12|14 auxpass 13|2 conj:but 14|16 advmod 15|14 advmod 16|20 case 17|20 det 18|20 amod 19|14 nmod:on 20|22 case 21|20 nmod:of 22|24 case 23|22 nmod:in 24|2 punct 25|
+<word> Residents of tall apartment buildings in Sofia said objects crashed to the ground during the tremor which lasted several minutes and was immediately followed by at least one aftershock . 
+<lemma> resident of tall apartment building in Sofia say object crash to the ground during the tremor which last several minute and be immediately follow by at least one aftershock . 
+<POS> NNS IN JJ NN NNS IN NNP VBD NNS VBD TO DT NN IN DT NN WDT VBD JJ NNS CC VBD RB VBN IN IN JJS CD NN . 
+<NER> O O O O O O LOCATION O O O O O O O O O O O DURATION DURATION O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Residents)) (PP (IN of) (NP (NP (JJ tall) (NN apartment) (NNS buildings)) (PP (IN in) (NP (NNP Sofia)))))) (VP (VBD said) (SBAR (S (NP (NNS objects)) (VP (VBD crashed) (PP (TO to) (NP (DT the) (NN ground))) (PP (IN during) (NP (NP (DT the) (NN tremor)) (SBAR (WHNP (WDT which)) (S (VP (VP (VBD lasted) (NP-TMP (JJ several) (NNS minutes))) (CC and) (VP (VBD was) (VP (ADVP (RB immediately)) (VBN followed) (PP (IN by) (NP (QP (IN at) (JJS least) (CD one)) (NN aftershock)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 nsubj 1|5 case 2|5 amod 3|5 compound 4|1 nmod:of 5|7 case 6|5 nmod:in 7|10 nsubj 9|8 ccomp 10|13 case 11|13 det 12|10 nmod:to 13|16 case 14|16 det 15|10 nmod:during 16|18 nsubj 16|24 nsubjpass 16|16 ref 17|16 acl:relcl 18|20 amod 19|18 nmod:tmod 20|18 cc 21|24 auxpass 22|24 advmod 23|16 acl:relcl 24|18 conj:and 24|29 case 25|27 case 26|28 nmod:npmod 27|29 nummod 28|24 nmod:agent 29|8 punct 30|
+<word> `` Everything was shaking like crazy . 
+<lemma> `` everything be shake like crazy . 
+<POS> `` NN VBD VBG IN JJ . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (NN Everything)) (VP (VBD was) (VP (VBG shaking) (PP (IN like) (ADJP (JJ crazy))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 punct 1|4 nsubj 2|4 aux 3|6 case 5|4 advcl:like 6|4 punct 7|
+<word> I ran out shouting ... I wo n't go back home today , '' teenager Maria told AFP outside her apartment building in a western Sofia neighbourhood . 
+<lemma> I run out shout ... I will not go back home today , '' teenager Maria tell afp outside she apartment building in a western Sofia neighbourhood . 
+<POS> PRP VBD RP VBG : PRP MD RB VB RB NN NN , '' NN NNP VBD NN IN PRP$ NN NN IN DT JJ NNP NN . 
+<NER> O O O O O O O O O O O DATE O O O PERSON O ORGANIZATION O O O O O O O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (PRP I)) (VP (VBD ran) (PRT (RP out)) (S (VP (VBG shouting))))) (: ...) (S (NP (PRP I)) (VP (MD wo) (RB n't) (VP (VB go) (ADVP (RB back) (NN home)) (NP-TMP (NN today)))))) (, ,) ('' '') (NP (NN teenager) (NNP Maria)) (VP (VBD told) (NP (NN AFP)) (PP (IN outside) (NP (PRP$ her) (NN apartment) (NN building))) (PP (IN in) (NP (DT a) (JJ western) (NNP Sofia) (NN neighbourhood)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|2 nsubj 1|17 ccomp 2|2 compound:prt 3|2 xcomp 4|2 punct 5|9 nsubj 6|9 aux 7|9 neg 8|2 parataxis 9|9 advmod 10|10 dep 11|9 nmod:tmod 12|17 punct 13|17 punct 14|16 compound 15|17 nsubj 16|17 dobj 18|22 case 19|22 nmod:poss 20|22 compound 21|17 nmod:outside 22|27 case 23|27 det 24|27 amod 25|27 compound 26|17 nmod:in 27|17 punct 28|
+<word> People , who were still sitting outside in their pyjamas over an hour after the first jolt , said they felt a new tremor around 4:30 am -LRB- 0130 GMT -RRB- . 
+<lemma> people , who be still sit outside in they pyjamas over a hour after the first jolt , say they feel a new tremor around 4:30 be -lrb- 0130 GMT -rrb- . 
+<POS> NNS , WP VBD RB VBG JJ IN PRP$ NNS IN DT NN IN DT JJ NN , VBD PRP VBD DT JJ NN IN CD VBP -LRB- CD NNP -RRB- . 
+<NER> O O O O O O O O O O O DURATION DURATION O O ORDINAL O O O O O O O O O TIME TIME O DATE MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS People)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD were) (ADVP (RB still)) (VP (VBG sitting) (ADVP (JJ outside) (PP (IN in) (NP (NP (PRP$ their) (NNS pyjamas)) (PP (IN over) (NP (DT an) (NN hour)))))) (PP (IN after) (NP (DT the) (JJ first) (NN jolt))))))) (, ,)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD felt) (NP (NP (DT a) (JJ new) (NN tremor)) (PP (IN around) (NP (NP (CD 4:30)) (VP (VBP am)))) (PRN (-LRB- -LRB-) (NP (NP (CD 0130)) (NP (NNP GMT))) (-RRB- -RRB-))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|6 nsubj 1|19 nsubj 1|1 punct 2|1 ref 3|6 aux 4|6 advmod 5|1 acl:relcl 6|6 advmod 7|10 case 8|10 nmod:poss 9|7 nmod:in 10|13 case 11|13 det 12|10 nmod:over 13|17 case 14|17 det 15|17 amod 16|6 nmod:after 17|1 punct 18|21 nsubj 20|19 ccomp 21|24 det 22|24 amod 23|21 dobj 24|26 case 25|24 nmod:around 26|26 dep 27|29 punct 28|24 dep 29|29 appos 30|29 punct 31|19 punct 32|
+<word> Civil defence chief Nikolay Nikolov said his service received many reports of toppled chimneys and cracked walls and even broken windows in the region of Pernik , some 30 kilometres -LRB- 20 miles -RRB- southwest of Sofia . 
+<lemma> civil defence chief Nikolay Nikolov say he service receive many report of topple chimney and crack wall and even broken window in the region of Pernik , some 30 kilometre -lrb- 20 mile -rrb- southwest of Sofia . 
+<POS> JJ NN NN NNP NNP VBD PRP$ NN VBD JJ NNS IN VBN NNS CC VBD NNS CC RB JJ NNS IN DT NN IN NNP , DT CD NNS -LRB- CD NNS -RRB- NN IN NNP . 
+<NER> O O O PERSON PERSON O O O O O O O O O O O O O O O O O O O O LOCATION O O NUMBER O O NUMBER O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Civil) (NN defence) (NN chief) (NNP Nikolay) (NNP Nikolov)) (VP (VBD said) (SBAR (S (NP (PRP$ his) (NN service)) (VP (VP (VBD received) (NP (NP (JJ many) (NNS reports)) (PP (IN of) (NP (VBN toppled) (NNS chimneys))))) (CC and) (VP (VBD cracked) (NP (NP (NNS walls)) (CC and) (RB even) (NP (NP (JJ broken) (NNS windows)) (PP (IN in) (NP (NP (DT the) (NN region)) (PP (IN of) (NP (NP (NNP Pernik)) (, ,) (NP (DT some) (CD 30) (NNS kilometres)) (PRN (-LRB- -LRB-) (NP (CD 20) (NNS miles)) (-RRB- -RRB-)) (NP (NP (NN southwest)) (PP (IN of) (NP (NNP Sofia))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 amod 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|8 nmod:poss 7|9 nsubj 8|16 nsubj 8|6 ccomp 9|11 amod 10|9 dobj 11|14 case 12|14 amod 13|11 nmod:of 14|9 cc 15|6 ccomp 16|9 conj:and 16|16 dobj 17|17 cc 18|17 advmod 19|21 amod 20|17 dep 21|24 case 22|24 det 23|21 nmod:in 24|26 case 25|24 nmod:of 26|26 punct 27|30 det 28|30 nummod 29|26 appos 30|33 punct 31|33 nummod 32|26 appos 33|33 punct 34|26 dep 35|37 case 36|35 nmod:of 37|6 punct 38|
+<word> There were no reports of interruptions of electricity or communications . 
+<lemma> there be no report of interruption of electricity or communication . 
+<POS> EX VBD DT NNS IN NNS IN NN CC NNS . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (EX There)) (VP (VBD were) (NP (NP (DT no) (NNS reports)) (PP (IN of) (NP (NP (NNS interruptions)) (PP (IN of) (NP (NN electricity) (CC or) (NNS communications))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|4 neg 3|2 nsubj 4|6 case 5|4 nmod:of 6|8 case 7|6 nmod:of 8|8 cc 9|6 nmod:of 10|8 conj:or 10|2 punct 11|
+<word> The quake comes on the heels of Sunday 's 6.0-magnitude earthquake around the northern Italian city of Ferrara that killed six people and reduced homes and historic buildings to rubble . 
+<lemma> the quake come on the heel of Sunday 's 6.0-magnitude earthquake around the northern italian city of Ferrara that kill six people and reduce home and historic building to rubble . 
+<POS> DT NN VBZ IN DT NNS IN NNP POS JJ NN IN DT JJ JJ NN IN NNP WDT VBD CD NNS CC VBD NNS CC JJ NNS TO NN . 
+<NER> O O O O O O O DATE O O O O O O MISC O O LOCATION O O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN quake)) (VP (VBZ comes) (PP (IN on) (NP (NP (DT the) (NNS heels)) (PP (IN of) (NP (NP (NNP Sunday) (POS 's)) (JJ 6.0-magnitude) (NN earthquake))))) (PP (IN around) (NP (NP (DT the) (JJ northern) (JJ Italian) (NN city)) (PP (IN of) (NP (NNP Ferrara))) (SBAR (WHNP (WDT that)) (S (VP (VP (VBD killed) (NP (CD six) (NNS people))) (CC and) (VP (VBD reduced) (NP (NP (NNS homes)) (CC and) (NP (JJ historic) (NNS buildings))) (PP (TO to) (NP (NN rubble)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|6 case 4|6 det 5|3 nmod:on 6|11 case 7|11 nmod:poss 8|8 case 9|11 amod 10|6 nmod:of 11|16 case 12|16 det 13|16 amod 14|16 amod 15|3 nmod:around 16|20 nsubj 16|24 nsubj 16|18 case 17|16 nmod:of 18|16 ref 19|16 acl:relcl 20|22 nummod 21|20 dobj 22|20 cc 23|16 acl:relcl 24|20 conj:and 24|24 dobj 25|25 cc 26|28 amod 27|24 dobj 28|25 conj:and 28|30 case 29|24 nmod:to 30|3 punct 31|
+<word> In August 2009 , a 5.0 magnitude earthquake hit the Black Sea between Bulgaria and Romania to the southeast of the Kaliakra Cape , the Bulgarian seismological institute said at the time . 
+<lemma> in August 2009 , a 5.0 magnitude earthquake hit the Black sea between Bulgaria and Romania to the southeast of the Kaliakra Cape , the bulgarian seismological institute say at the time . 
+<POS> IN NNP CD , DT CD NN NN VBD DT NNP NN IN NNP CC NNP TO DT NN IN DT NNP NNP , DT JJ JJ NN VBD IN DT NN . 
+<NER> O DATE DATE O O NUMBER O O O O LOCATION LOCATION O LOCATION O LOCATION O O O O O LOCATION LOCATION O O MISC O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NNP August) (CD 2009))) (PRN (, ,) (S (NP (DT a) (CD 5.0) (NN magnitude) (NN earthquake)) (VP (VBD hit) (NP (DT the) (NNP Black) (NN Sea)) (PP (IN between) (NP (NNP Bulgaria) (CC and) (NNP Romania))) (PP (TO to) (NP (NP (DT the) (NN southeast)) (PP (IN of) (NP (DT the) (NNP Kaliakra) (NNP Cape))))))) (, ,)) (NP (DT the) (JJ Bulgarian) (JJ seismological) (NN institute)) (VP (VBD said) (PP (IN at) (NP (DT the) (NN time)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 29|2 case 1|29 nmod:in 2|2 nummod 3|9 punct 4|8 det 5|8 nummod 6|8 compound 7|9 nsubj 8|29 parataxis 9|12 det 10|12 compound 11|9 dobj 12|14 case 13|9 nmod:between 14|14 cc 15|9 nmod:between 16|14 conj:and 16|19 case 17|19 det 18|9 nmod:to 19|23 case 20|23 det 21|23 compound 22|19 nmod:of 23|9 punct 24|28 det 25|28 amod 26|28 amod 27|29 nsubj 28|32 case 30|32 det 31|29 nmod:at 32|29 punct 33|
+<word> No serious damage was reported . 
+<lemma> no serious damage be report . 
+<POS> DT JJ NN VBD VBN . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT No) (JJ serious) (NN damage)) (VP (VBD was) (VP (VBN reported))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 neg 1|3 amod 2|5 nsubjpass 3|5 auxpass 4|5 punct 6|
+<coreference> [['1,6,7,6', '1,17,19,17', '12,14,15,14'], ['1,1,5,4', '11,1,3,2'], ['1,12,14,13', '8,30,31,30'], ['1,15,16,15', '1,22,23,22'], ['1,17,21,20', '2,31,33,32'], ['2,17,18,17', '4,24,25,24', '5,7,8,7', '7,26,27,26', '9,37,38,37'], ['2,23,24,23', '9,26,38,26', '9,26,27,26'], ['2,25,26,25', '3,12,13,12'], ['2,8,13,8', '2,2,7,3'], ['7,15,17,16', '7,1,2,1', '7,6,7,6'], ['8,1,2,1', '8,9,10,9', '8,20,21,20'], ['9,1,6,5', '9,7,8,7']]
+</DOC>

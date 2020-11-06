@@ -1,0 +1,1483 @@
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> cost
+<event2_trigger> charge
+<order_flag> e2->e1
+<event1> [cost]
+<event2> [charge]
+<sentence1> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<sentence2> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<masked_sentence1> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery [MASK] the [MASK] was the same .
+<masked_sentence2> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery [MASK] the [MASK] was the same .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS
+<event1_trigger> Phoned
+<event2_trigger> got
+<order_flag> e1->e2
+<event1> [phone] company
+<event2> [get] it
+<sentence1> Phoned online company and got it .
+<sentence2> Phoned online company and got it .
+<masked_sentence1> [MASK] online company and [MASK] it .
+<masked_sentence2> [MASK] online company and [MASK] it .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS
+<event1_trigger> Phoned
+<event2_trigger> Arranged
+<order_flag> e1->e2
+<event1> [phone] ORGANIZATION
+<event2> [arrange] for delivery
+<sentence1> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<sentence2> Arranged for another delivery on Saturday .
+<masked_sentence1> [MASK] Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence2> [MASK] for another delivery on Saturday .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> Arranged
+<event2_trigger> Arrived
+<order_flag> e1->e2
+<event1> [arrange] for delivery
+<event2> [arrive] tmod DATE
+<sentence1> Arranged for another delivery on Saturday .
+<sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence1> [MASK] for another delivery on Saturday .
+<masked_sentence2> [MASK] home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Arrived
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [arrive] tmod DATE
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> order
+<event2_trigger> delivering
+<order_flag> e1->e2
+<event1> not [order] experience
+<event2> [deliver] it
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<masked_sentence1> Do n't [MASK] anything online if Amtrak are [MASK] it - here 's my experience .
+<masked_sentence2> Do n't [MASK] anything online if Amtrak are [MASK] it - here 's my experience .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> PRECONDITION
+<event1_trigger> order
+<event2_trigger> delivering
+<order_flag> e1->e2
+<event1> not [order] experience
+<event2> [deliver] it
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<masked_sentence1> Do n't [MASK] anything online if Amtrak are [MASK] it - here 's my experience .
+<masked_sentence2> Do n't [MASK] anything online if Amtrak are [MASK] it - here 's my experience .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> Ordered
+<event2_trigger> Advised
+<order_flag> e1->e2
+<event1> [order] online
+<event2> [advise]
+<sentence1> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<sentence2> Advised that it would be delivered by Amtrak on Tuesday .
+<masked_sentence1> [MASK] a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<masked_sentence2> [MASK] that it would be delivered by Amtrak on Tuesday .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> Phoned
+<event2_trigger> Phoned
+<order_flag> e1->e2
+<event1> [phone] ORGANIZATION
+<event2> [phone] company
+<sentence1> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<sentence2> Phoned online company and got it .
+<masked_sentence1> [MASK] Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence2> [MASK] online company and got it .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> Phoned
+<event2_trigger> Phoned
+<order_flag> e2->e1
+<event1> [phone] company
+<event2> [phone] ORGANIZATION
+<sentence1> Phoned online company and got it .
+<sentence2> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence1> [MASK] online company and got it .
+<masked_sentence2> [MASK] Amtrak on Wednesday , `` we need a consignment number '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> OVERLAP
+<event1_trigger> need
+<event2_trigger> Phoned
+<order_flag> e2->e1
+<event1> [need] number
+<event2> [phone] ORGANIZATION
+<sentence1> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<sentence2> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence1> [MASK] Amtrak on Wednesday , `` we [MASK] a consignment number '' .
+<masked_sentence2> [MASK] Amtrak on Wednesday , `` we [MASK] a consignment number '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> OVERLAP
+<event1_trigger> allowed
+<event2_trigger> leave
+<order_flag> e1->e2
+<event1> PERSON be [allowed]
+<event2> [leave] it
+<sentence1> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not allowed to leave it with a neighbour '' .
+<sentence2> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not allowed to leave it with a neighbour '' .
+<masked_sentence1> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not [MASK] to [MASK] it with a neighbour '' .
+<masked_sentence2> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not [MASK] to [MASK] it with a neighbour '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> PRECONDITION
+<event1_trigger> allowed
+<event2_trigger> leave
+<order_flag> e1->e2
+<event1> PERSON be [allowed]
+<event2> [leave] it
+<sentence1> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not allowed to leave it with a neighbour '' .
+<sentence2> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not allowed to leave it with a neighbour '' .
+<masked_sentence1> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not [MASK] to [MASK] it with a neighbour '' .
+<masked_sentence2> Phoned Amtrak `` a card was left on Tuesday as you were n't there '' -LRB- no it was n't of course -RRB- , and `` we 're not [MASK] to [MASK] it with a neighbour '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> BEFORE
+<event1_trigger> delivered
+<event2_trigger> Arrived
+<order_flag> e2->e1
+<event1> it be [delivered]
+<event2> [arrive] tmod DATE
+<sentence1> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence1> [MASK] home yesterday - it had been [MASK] next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence2> [MASK] home yesterday - it had been [MASK] next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Ordered
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [order] online
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Advised
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [advise]
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Advised that it would be delivered by Amtrak on Tuesday .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] that it would be delivered by Amtrak on Tuesday .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Phoned
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [phone] ORGANIZATION
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] Amtrak on Wednesday , `` we need a consignment number '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Phoned
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [phone] company
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Phoned online company and got it .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] online company and got it .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> Phoned
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [phone] ORGANIZATION
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Phoned Amtrak on Wednesday , `` we need a consignment number '' .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> [MASK] Amtrak on Wednesday , `` we need a consignment number '' .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> delivered
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> it be [delivered]
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> Arrived home yesterday - it had been [MASK] next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> experience
+<event2_trigger> attempt
+<order_flag> e1->e2
+<event1> [experience] poss my
+<event2> [attempt] poss they
+<sentence1> Do n't order anything online if Amtrak are delivering it - here 's my experience .
+<sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first attempt at delivery ... What a bunch of jokers .
+<masked_sentence1> Do n't order anything online if Amtrak are delivering it - here 's my [MASK] .
+<masked_sentence2> Arrived home yesterday - it had been delivered next door yesterday , with a card saying this was their first [MASK] at delivery ... What a bunch of jokers .
+<END>
+
+
+<START>
+<filename> 04debcc4da342dc971bdef4210fe468a.mpdf
+<relation> OVERLAP
+<event1_trigger> Ordered
+<event2_trigger> have
+<order_flag> e1->e2
+<event1> [order] online
+<event2> not [have] it
+<sentence1> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<sentence2> Ordered a 32 '' TV online , cheaper than Argos - who did n't have it in stock - but with the delivery charge the cost was the same .
+<masked_sentence1> [MASK] a 32 '' TV online , cheaper than Argos - who did n't [MASK] it in stock - but with the delivery charge the cost was the same .
+<masked_sentence2> [MASK] a 32 '' TV online , cheaper than Argos - who did n't [MASK] it in stock - but with the delivery charge the cost was the same .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> BEFORE
+<event1_trigger> protest
+<event2_trigger> known
+<order_flag> e1->e2
+<event1> [protest]
+<event2> it [know]
+<sentence1> At Ipanema beach in January , the organization Meu Rio staged a protest in an attempt to make it known that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<sentence2> At Ipanema beach in January , the organization Meu Rio staged a protest in an attempt to make it known that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<masked_sentence1> At Ipanema beach in January , the organization Meu Rio staged a [MASK] in an attempt to make it [MASK] that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<masked_sentence2> At Ipanema beach in January , the organization Meu Rio staged a [MASK] in an attempt to make it [MASK] that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CAUSES
+<event1_trigger> protest
+<event2_trigger> known
+<order_flag> e1->e2
+<event1> [protest]
+<event2> it [know]
+<sentence1> At Ipanema beach in January , the organization Meu Rio staged a protest in an attempt to make it known that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<sentence2> At Ipanema beach in January , the organization Meu Rio staged a protest in an attempt to make it known that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<masked_sentence1> At Ipanema beach in January , the organization Meu Rio staged a [MASK] in an attempt to make it [MASK] that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<masked_sentence2> At Ipanema beach in January , the organization Meu Rio staged a [MASK] in an attempt to make it [MASK] that thousands of gallons of raw sewage are dumped into the ocean off Rio 's coast each day .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> ENDS-ON
+<event1_trigger> invisible
+<event2_trigger> visible
+<order_flag> e1->e2
+<event1> [invisible]
+<event2> [visible]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence1> `` For three months we held protests every weekend to turn an [MASK] problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence2> `` For three months we held protests every weekend to turn an [MASK] problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> interview
+<event2_trigger> said
+<order_flag> e2->e1
+<event1> [interview]
+<event2> PERSON [say]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , [MASK] in a recent [MASK] .
+<masked_sentence2> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , [MASK] in a recent [MASK] .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> Olympic
+<event2_trigger> events
+<order_flag> e1->e2
+<event1> [Olympic]
+<event2> [event]
+<sentence1> Guanabara Bay , the site of several 2016 Olympic sailing events , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<sentence2> Guanabara Bay , the site of several 2016 Olympic sailing events , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<masked_sentence1> Guanabara Bay , the site of several 2016 [MASK] sailing [MASK] , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<masked_sentence2> Guanabara Bay , the site of several 2016 [MASK] sailing [MASK] , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> BEFORE
+<event1_trigger> test
+<event2_trigger> pass
+<order_flag> e2->e1
+<event1> [test]
+<event2> not [pass] test
+<sentence1> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<sentence2> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<masked_sentence1> Botafogo Beach had so much fecal pollution that it did not [MASK] a single INEA [MASK] in 2013 , according to the BBC .
+<masked_sentence2> Botafogo Beach had so much fecal pollution that it did not [MASK] a single INEA [MASK] in 2013 , according to the BBC .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> PRECONDITION
+<event1_trigger> test
+<event2_trigger> pass
+<order_flag> e2->e1
+<event1> [test]
+<event2> not [pass] test
+<sentence1> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<sentence2> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<masked_sentence1> Botafogo Beach had so much fecal pollution that it did not [MASK] a single INEA [MASK] in 2013 , according to the BBC .
+<masked_sentence2> Botafogo Beach had so much fecal pollution that it did not [MASK] a single INEA [MASK] in 2013 , according to the BBC .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> BEFORE
+<event1_trigger> Beijing
+<event2_trigger> cares
+<order_flag> e1->e2
+<event1> [Beijing]
+<event2> [care] NUMBER
+<sentence1> After Beijing , nobody cares 2 .
+<sentence2> After Beijing , nobody cares 2 .
+<masked_sentence1> After [MASK] , nobody [MASK] 2 .
+<masked_sentence2> After [MASK] , nobody [MASK] 2 .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> problems
+<order_flag> e1->e2
+<event1> [one]
+<event2> [problem]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> And its not just Guanabara -- the ritzy Leblon and Ipanema beach areas are plagued with similar pollution problems .
+<masked_sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible [MASK] , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence2> And its not just Guanabara -- the ritzy Leblon and Ipanema beach areas are plagued with similar pollution [MASK] .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> pollution
+<order_flag> e1->e2
+<event1> [one]
+<event2> [pollution]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<masked_sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible [MASK] , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence2> Botafogo Beach had so much fecal [MASK] that it did not pass a single INEA test in 2013 , according to the BBC .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> BEFORE
+<event1_trigger> protests
+<event2_trigger> visible
+<order_flag> e1->e2
+<event1> [protest]
+<event2> [visible]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence1> `` For three months we held [MASK] every weekend to turn an invisible problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence2> `` For three months we held [MASK] every weekend to turn an invisible problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CAUSES
+<event1_trigger> protests
+<event2_trigger> visible
+<order_flag> e1->e2
+<event1> [protest]
+<event2> [visible]
+<sentence1> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<sentence2> `` For three months we held protests every weekend to turn an invisible problem into a visible one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence1> `` For three months we held [MASK] every weekend to turn an invisible problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<masked_sentence2> `` For three months we held [MASK] every weekend to turn an invisible problem into a [MASK] one , '' Leona Deckelbaum , the campaign coordinator with Meu Rio , said in a recent interview .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> OVERLAP
+<event1_trigger> washes
+<event2_trigger> meaning
+<order_flag> e1->e2
+<event1> [wash] give
+<event2> [meaning]
+<sentence1> Only about 34 percent of Rio 's sewage is treated , and the rest simply washes into the azure waters , giving new meaning to the nautical term poop deck .
+<sentence2> Only about 34 percent of Rio 's sewage is treated , and the rest simply washes into the azure waters , giving new meaning to the nautical term poop deck .
+<masked_sentence1> Only about 34 percent of Rio 's sewage is treated , and the rest simply [MASK] into the azure waters , giving new [MASK] to the nautical term poop deck .
+<masked_sentence2> Only about 34 percent of Rio 's sewage is treated , and the rest simply [MASK] into the azure waters , giving new [MASK] to the nautical term poop deck .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CAUSES
+<event1_trigger> washes
+<event2_trigger> meaning
+<order_flag> e1->e2
+<event1> [wash] give
+<event2> [meaning]
+<sentence1> Only about 34 percent of Rio 's sewage is treated , and the rest simply washes into the azure waters , giving new meaning to the nautical term poop deck .
+<sentence2> Only about 34 percent of Rio 's sewage is treated , and the rest simply washes into the azure waters , giving new meaning to the nautical term poop deck .
+<masked_sentence1> Only about 34 percent of Rio 's sewage is treated , and the rest simply [MASK] into the azure waters , giving new [MASK] to the nautical term poop deck .
+<masked_sentence2> Only about 34 percent of Rio 's sewage is treated , and the rest simply [MASK] into the azure waters , giving new [MASK] to the nautical term poop deck .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> OVERLAP
+<event1_trigger> pollution
+<event2_trigger> pass
+<order_flag> e1->e2
+<event1> [pollution]
+<event2> not [pass] test
+<sentence1> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<sentence2> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<masked_sentence1> Botafogo Beach had so much fecal [MASK] that it did not [MASK] a single INEA test in 2013 , according to the BBC .
+<masked_sentence2> Botafogo Beach had so much fecal [MASK] that it did not [MASK] a single INEA test in 2013 , according to the BBC .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CAUSES
+<event1_trigger> pollution
+<event2_trigger> pass
+<order_flag> e1->e2
+<event1> [pollution]
+<event2> not [pass] test
+<sentence1> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<sentence2> Botafogo Beach had so much fecal pollution that it did not pass a single INEA test in 2013 , according to the BBC .
+<masked_sentence1> Botafogo Beach had so much fecal [MASK] that it did not [MASK] a single INEA test in 2013 , according to the BBC .
+<masked_sentence2> Botafogo Beach had so much fecal [MASK] that it did not [MASK] a single INEA test in 2013 , according to the BBC .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> Olympic
+<event2_trigger> events
+<order_flag> e1->e2
+<event1> [Olympic]
+<event2> [event]
+<sentence1> Guanabara Bay , the site of several 2016 Olympic sailing events , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<sentence2> Not just sailing events ; open-water distance swimming and triathlon events are also affected by this .
+<masked_sentence1> Guanabara Bay , the site of several 2016 [MASK] sailing events , has 78 times Brazil 's legally allowed limit of fecal pollution , and 195 times the U.S. limit .
+<masked_sentence2> Not just sailing events ; open-water distance swimming and triathlon [MASK] are also affected by this .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> OVERLAP
+<event1_trigger> this
+<event2_trigger> affected
+<order_flag> e2->e1
+<event1> [this]
+<event2> event be [affected]
+<sentence1> Not just sailing events ; open-water distance swimming and triathlon events are also affected by this .
+<sentence2> Not just sailing events ; open-water distance swimming and triathlon events are also affected by this .
+<masked_sentence1> Not just sailing events ; open-water distance swimming and triathlon events are also [MASK] by [MASK] .
+<masked_sentence2> Not just sailing events ; open-water distance swimming and triathlon events are also [MASK] by [MASK] .
+<END>
+
+
+<START>
+<filename> 17a2dc40635ec239e9e16d10b6dd45e8.mpdf
+<relation> CAUSES
+<event1_trigger> this
+<event2_trigger> affected
+<order_flag> e2->e1
+<event1> [this]
+<event2> event be [affected]
+<sentence1> Not just sailing events ; open-water distance swimming and triathlon events are also affected by this .
+<sentence2> Not just sailing events ; open-water distance swimming and triathlon events are also affected by this .
+<masked_sentence1> Not just sailing events ; open-water distance swimming and triathlon events are also [MASK] by [MASK] .
+<masked_sentence2> Not just sailing events ; open-water distance swimming and triathlon events are also [MASK] by [MASK] .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> surgeries
+<event2_trigger> repair
+<order_flag> e1->e2
+<event1> [surgery]
+<event2> [repair] Leapt
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate [MASK] to [MASK] damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate [MASK] to [MASK] damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> OVERLAP
+<event1_trigger> damage
+<event2_trigger> repair
+<order_flag> e2->e1
+<event1> [damage]
+<event2> [repair] Leapt
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to [MASK] [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to [MASK] [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> damage
+<event2_trigger> repair
+<order_flag> e2->e1
+<event1> [damage]
+<event2> [repair] Leapt
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to [MASK] [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to [MASK] [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> Leapt
+<event2_trigger> death
+<order_flag> e1->e2
+<event1> [Leapt]
+<event2> [death] poss she
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CAUSES
+<event1_trigger> Leapt
+<event2_trigger> death
+<order_flag> e1->e2
+<event1> [Leapt]
+<event2> [death] poss she
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> charged
+<event2_trigger> acquitted
+<order_flag> e1->e2
+<event1> ex-husband be [charged]
+<event2> girl be [acquitted]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted murder in 2002 but has since been [MASK] Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted murder in 2002 but has since been [MASK] Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> charged
+<event2_trigger> acquitted
+<order_flag> e1->e2
+<event1> ex-husband be [charged]
+<event2> girl be [acquitted]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted murder in 2002 but has since been [MASK] Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted murder in 2002 but has since been [MASK] Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> attempted
+<event2_trigger> charged
+<order_flag> e2->e1
+<event1> [attempt] murder
+<event2> ex-husband be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with [MASK] murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with [MASK] murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> attempted
+<event2_trigger> charged
+<order_flag> e2->e1
+<event1> [attempt] murder
+<event2> ex-husband be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with [MASK] murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with [MASK] murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> arrested
+<event2_trigger> charged
+<order_flag> e1->e2
+<event1> PERSON be [arrested]
+<event2> PERSON be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and [MASK] with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and [MASK] with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> arrested
+<event2_trigger> charged
+<order_flag> e1->e2
+<event1> PERSON be [arrested]
+<event2> PERSON be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and [MASK] with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and [MASK] with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> charged
+<event2_trigger> released
+<order_flag> e1->e2
+<event1> PERSON be [charged]
+<event2> [release]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and [MASK] with attempted murder following the attack , only to be [MASK] on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and [MASK] with attempted murder following the attack , only to be [MASK] on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> accepting
+<event2_trigger> price
+<order_flag> e2->e1
+<event1> [accept] norm
+<event2> [price]
+<sentence1> Poor woman a terrible price to pay for accepting a misongynist cultural norm .
+<sentence2> Poor woman a terrible price to pay for accepting a misongynist cultural norm .
+<masked_sentence1> Poor woman a terrible [MASK] to pay for [MASK] a misongynist cultural norm .
+<masked_sentence2> Poor woman a terrible [MASK] to pay for [MASK] a misongynist cultural norm .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> accepting
+<event2_trigger> price
+<order_flag> e2->e1
+<event1> [accept] norm
+<event2> [price]
+<sentence1> Poor woman a terrible price to pay for accepting a misongynist cultural norm .
+<sentence2> Poor woman a terrible price to pay for accepting a misongynist cultural norm .
+<masked_sentence1> Poor woman a terrible [MASK] to pay for [MASK] a misongynist cultural norm .
+<masked_sentence2> Poor woman a terrible [MASK] to pay for [MASK] a misongynist cultural norm .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> OVERLAP
+<event1_trigger> connections
+<event2_trigger> used
+<order_flag> e2->e1
+<event1> [connection] poss he
+<event2> [use] connection
+<sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<masked_sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family [MASK] to escape conviction .
+<masked_sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family [MASK] to escape conviction .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> connections
+<event2_trigger> used
+<order_flag> e2->e1
+<event1> [connection] poss he
+<event2> [use] connection
+<sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<masked_sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family [MASK] to escape conviction .
+<masked_sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family [MASK] to escape conviction .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> attack
+<event2_trigger> charged
+<order_flag> e2->e1
+<event1> [attack]
+<event2> PERSON be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and [MASK] with attempted murder following the [MASK] , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and [MASK] with attempted murder following the [MASK] , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEGINS-ON
+<event1_trigger> released
+<event2_trigger> bail
+<order_flag> e1->e2
+<event1> [release]
+<event2> [bail]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be [MASK] on [MASK] after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be [MASK] on [MASK] after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> attack
+<event2_trigger> suicide
+<order_flag> e2->e1
+<event1> [attack]
+<event2> [suicide]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> attack
+<event2_trigger> suicide
+<order_flag> e2->e1
+<event1> [attack]
+<event2> [suicide]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> attack
+<event2_trigger> damage
+<order_flag> e1->e2
+<event1> [attack]
+<event2> [damage]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CAUSES
+<event1_trigger> attack
+<event2_trigger> damage
+<order_flag> e1->e2
+<event1> [attack]
+<event2> [damage]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid [MASK] which left her looking ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> damage
+<event2_trigger> looking
+<order_flag> e2->e1
+<event1> [damage]
+<event2> [look] human
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her [MASK] ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her [MASK] ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> suicide
+<event2_trigger> Leapt
+<order_flag> e1->e2
+<event1> [suicide]
+<event2> [Leapt]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage [MASK] to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> suicide
+<event2_trigger> death
+<order_flag> e1->e2
+<event1> [suicide]
+<event2> [death] poss she
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her [MASK] from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> murder
+<event2_trigger> charged
+<order_flag> e2->e1
+<event1> [murder] in DATE
+<event2> ex-husband be [charged]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted [MASK] in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was [MASK] with attempted [MASK] in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> attack
+<event2_trigger> arrested
+<order_flag> e2->e1
+<event1> [attack]
+<event2> PERSON be [arrested]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and charged with attempted murder following the [MASK] , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and charged with attempted murder following the [MASK] , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> attack
+<event2_trigger> arrested
+<order_flag> e2->e1
+<event1> [attack]
+<event2> PERSON be [arrested]
+<sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and charged with attempted murder following the [MASK] , only to be released on bail after five months .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was [MASK] in 2002 and charged with attempted murder following the [MASK] , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> BEFORE
+<event1_trigger> used
+<event2_trigger> escape
+<order_flag> e1->e2
+<event1> [use] connection
+<event2> [escape] conviction
+<sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<masked_sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family connections to [MASK] conviction .
+<masked_sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family connections to [MASK] conviction .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> PRECONDITION
+<event1_trigger> used
+<event2_trigger> escape
+<order_flag> e1->e2
+<event1> [use] connection
+<event2> [escape] conviction
+<sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have used his family connections to escape conviction .
+<masked_sentence1> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family connections to [MASK] conviction .
+<masked_sentence2> Khar , an ex-parliamentarian and son of a wealthy Pakistani governor , was eventually cleared of the attack , though many believe he could have [MASK] his family connections to [MASK] conviction .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> this
+<order_flag> e2->e1
+<event1> [one]
+<event2> [this]
+<sentence1> I do not choose to get past my ethnocentric disgust on this one .
+<sentence2> Expect to see more of this , then .
+<masked_sentence1> I do not choose to get past my ethnocentric disgust on this [MASK] .
+<masked_sentence2> Expect to see more of [MASK] , then .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> let
+<order_flag> e2->e1
+<event1> [one]
+<event2> [let] off he
+<sentence1> I do not choose to get past my ethnocentric disgust on this one .
+<sentence2> They let him off , huh ?
+<masked_sentence1> I do not choose to get past my ethnocentric disgust on this [MASK] .
+<masked_sentence2> They [MASK] him off , huh ?
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> damage
+<order_flag> e2->e1
+<event1> [one]
+<event2> [damage]
+<sentence1> I do not choose to get past my ethnocentric disgust on this one .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> I do not choose to get past my ethnocentric disgust on this [MASK] .
+<masked_sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair [MASK] Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 1d2911e09a6746b942c3e7b3cbdcb0ce.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> one
+<event2_trigger> suicide
+<order_flag> e2->e1
+<event1> [one]
+<event2> [suicide]
+<sentence1> I do not choose to get past my ethnocentric disgust on this one .
+<sentence2> Former Pakistani dancing girl commits suicide 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<masked_sentence1> I do not choose to get past my ethnocentric disgust on this [MASK] .
+<masked_sentence2> Former Pakistani dancing girl commits [MASK] 12 years after horrific acid attack which left her looking ` not human ' She had undergone 39 separate surgeries to repair damage Leapt to her death from sixth floor Rome building earlier this month Her ex-husband was charged with attempted murder in 2002 but has since been acquitted Bilal Khar was arrested in 2002 and charged with attempted murder following the attack , only to be released on bail after five months .
+<END>
+
+
+<START>
+<filename> 2d2a4ddb1c8f4a669541704f9fb78472.mpdf
+<relation> BEFORE
+<event1_trigger> refused
+<event2_trigger> identified
+<order_flag> e1->e2
+<event1> [refuse] identify
+<event2> [identify]
+<sentence1> The source , who refused to be identified , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<sentence2> The source , who refused to be identified , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<masked_sentence1> The source , who [MASK] to be [MASK] , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<masked_sentence2> The source , who [MASK] to be [MASK] , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<END>
+
+
+<START>
+<filename> 2d2a4ddb1c8f4a669541704f9fb78472.mpdf
+<relation> PRECONDITION
+<event1_trigger> refused
+<event2_trigger> identified
+<order_flag> e1->e2
+<event1> [refuse] identify
+<event2> [identify]
+<sentence1> The source , who refused to be identified , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<sentence2> The source , who refused to be identified , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<masked_sentence1> The source , who [MASK] to be [MASK] , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<masked_sentence2> The source , who [MASK] to be [MASK] , told the PIC on Tuesday that Mishaal would not accept nomination for the top post in the movement .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> BEFORE
+<event1_trigger> quoted
+<event2_trigger> found
+<order_flag> e1->e2
+<event1> [quote]
+<event2> PERSON [find]
+<sentence1> But from the AP article quoted , I found that it 's 8 Uighurs and 1 han Chinese .
+<sentence2> But from the AP article quoted , I found that it 's 8 Uighurs and 1 han Chinese .
+<masked_sentence1> But from the AP article [MASK] , I [MASK] that it 's 8 Uighurs and 1 han Chinese .
+<masked_sentence2> But from the AP article [MASK] , I [MASK] that it 's 8 Uighurs and 1 han Chinese .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> PRECONDITION
+<event1_trigger> quoted
+<event2_trigger> found
+<order_flag> e1->e2
+<event1> [quote]
+<event2> PERSON [find]
+<sentence1> But from the AP article quoted , I found that it 's 8 Uighurs and 1 han Chinese .
+<sentence2> But from the AP article quoted , I found that it 's 8 Uighurs and 1 han Chinese .
+<masked_sentence1> But from the AP article [MASK] , I [MASK] that it 's 8 Uighurs and 1 han Chinese .
+<masked_sentence2> But from the AP article [MASK] , I [MASK] that it 's 8 Uighurs and 1 han Chinese .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> BEFORE
+<event1_trigger> murder
+<event2_trigger> executed
+<order_flag> e2->e1
+<event1> [murder]
+<event2> PERSON be [executed]
+<sentence1> They were executed for murder .
+<sentence2> They were executed for murder .
+<masked_sentence1> They were [MASK] for [MASK] .
+<masked_sentence2> They were [MASK] for [MASK] .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> PRECONDITION
+<event1_trigger> murder
+<event2_trigger> executed
+<order_flag> e2->e1
+<event1> [murder]
+<event2> PERSON be [executed]
+<sentence1> They were executed for murder .
+<sentence2> They were executed for murder .
+<masked_sentence1> They were [MASK] for [MASK] .
+<masked_sentence2> They were [MASK] for [MASK] .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> BEFORE
+<event1_trigger> wants
+<event2_trigger> know
+<order_flag> e1->e2
+<event1> [want] PERSON
+<event2> [know]
+<sentence1> That 's what the Wall Street Journal wants you to know .
+<sentence2> That 's what the Wall Street Journal wants you to know .
+<masked_sentence1> That 's what the Wall Street Journal [MASK] you to [MASK] .
+<masked_sentence2> That 's what the Wall Street Journal [MASK] you to [MASK] .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> PRECONDITION
+<event1_trigger> wants
+<event2_trigger> know
+<order_flag> e1->e2
+<event1> [want] PERSON
+<event2> [know]
+<sentence1> That 's what the Wall Street Journal wants you to know .
+<sentence2> That 's what the Wall Street Journal wants you to know .
+<masked_sentence1> That 's what the Wall Street Journal [MASK] you to [MASK] .
+<masked_sentence2> That 's what the Wall Street Journal [MASK] you to [MASK] .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> BEFORE
+<event1_trigger> That
+<event2_trigger> wants
+<order_flag> e1->e2
+<event1> [that]
+<event2> [want] PERSON
+<sentence1> That 's what the Wall Street Journal wants you to know .
+<sentence2> That 's what the Wall Street Journal wants you to know .
+<masked_sentence1> [MASK] 's what the Wall Street Journal [MASK] you to know .
+<masked_sentence2> [MASK] 's what the Wall Street Journal [MASK] you to know .
+<END>
+
+
+<START>
+<filename> 362f9d9707c4da0c8068bc7034aae4b4.mpdf
+<relation> PRECONDITION
+<event1_trigger> That
+<event2_trigger> wants
+<order_flag> e1->e2
+<event1> [that]
+<event2> [want] PERSON
+<sentence1> That 's what the Wall Street Journal wants you to know .
+<sentence2> That 's what the Wall Street Journal wants you to know .
+<masked_sentence1> [MASK] 's what the Wall Street Journal [MASK] you to know .
+<masked_sentence2> [MASK] 's what the Wall Street Journal [MASK] you to know .
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> part
+<event2_trigger> staying
+<order_flag> e1->e2
+<event1> [part] of travels
+<event2> PERSON [stay]
+<sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first part of his travels through Europe .
+<sentence2> He 's staying in a hostel and will be heading southwards on Tuesday -LRB- December 7 -RRB- , heading roughly in the direction of Spain across the Pyrennees .
+<masked_sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first [MASK] of his travels through Europe .
+<masked_sentence2> He 's [MASK] in a hostel and will be heading southwards on Tuesday -LRB- December 7 -RRB- , heading roughly in the direction of Spain across the Pyrennees .
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> travels
+<event2_trigger> part
+<order_flag> e2->e1
+<event1> [travels] poss he
+<event2> [part] of travels
+<sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first part of his travels through Europe .
+<sentence2> I have a favour to ask on behalf of who 's currently in Angouleme on the first part of his travels through Europe .
+<masked_sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first [MASK] of his [MASK] through Europe .
+<masked_sentence2> I have a favour to ask on behalf of who 's currently in Angouleme on the first [MASK] of his [MASK] through Europe .
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> travels
+<event2_trigger> heading
+<order_flag> e1->e2
+<event1> [travels] poss he
+<event2> [head] southward
+<sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first part of his travels through Europe .
+<sentence2> He 's staying in a hostel and will be heading southwards on Tuesday -LRB- December 7 -RRB- , heading roughly in the direction of Spain across the Pyrennees .
+<masked_sentence1> I have a favour to ask on behalf of who 's currently in Angouleme on the first part of his [MASK] through Europe .
+<masked_sentence2> He 's staying in a hostel and will be [MASK] southwards on Tuesday -LRB- December 7 -RRB- , heading roughly in the direction of Spain across the Pyrennees .
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> CONTAINS-SUBEVENT
+<event1_trigger> texted
+<event2_trigger> ask
+<order_flag> e1->e2
+<event1> [text] I
+<event2> [ask]
+<sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence1> He just [MASK] me to [MASK] if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence2> He just [MASK] me to [MASK] if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> OVERLAP
+<event1_trigger> willing
+<event2_trigger> touch
+<order_flag> e1->e2
+<event1> [willing]
+<event2> [touch]
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is [MASK] to help out a fellow hipforumer please get in [MASK] !
+<masked_sentence2> If anyone is [MASK] to help out a fellow hipforumer please get in [MASK] !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> PRECONDITION
+<event1_trigger> willing
+<event2_trigger> touch
+<order_flag> e1->e2
+<event1> [willing]
+<event2> [touch]
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is [MASK] to help out a fellow hipforumer please get in [MASK] !
+<masked_sentence2> If anyone is [MASK] to help out a fellow hipforumer please get in [MASK] !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> OVERLAP
+<event1_trigger> in
+<event2_trigger> lift
+<order_flag> e1->e2
+<event1> [in]
+<event2> [lift]
+<sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence1> He just texted me to ask if any of you French hipforumers are [MASK] the area and would be kind enough to give him a [MASK] southwards ?
+<masked_sentence2> He just texted me to ask if any of you French hipforumers are [MASK] the area and would be kind enough to give him a [MASK] southwards ?
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> PRECONDITION
+<event1_trigger> in
+<event2_trigger> lift
+<order_flag> e1->e2
+<event1> [in]
+<event2> [lift]
+<sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence1> He just texted me to ask if any of you French hipforumers are [MASK] the area and would be kind enough to give him a [MASK] southwards ?
+<masked_sentence2> He just texted me to ask if any of you French hipforumers are [MASK] the area and would be kind enough to give him a [MASK] southwards ?
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> BEFORE
+<event1_trigger> touch
+<event2_trigger> help
+<order_flag> e2->e1
+<event1> [touch]
+<event2> [help] out hipforumer
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is willing to [MASK] out a fellow hipforumer please get in [MASK] !
+<masked_sentence2> If anyone is willing to [MASK] out a fellow hipforumer please get in [MASK] !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> PRECONDITION
+<event1_trigger> touch
+<event2_trigger> help
+<order_flag> e2->e1
+<event1> [touch]
+<event2> [help] out hipforumer
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is willing to [MASK] out a fellow hipforumer please get in [MASK] !
+<masked_sentence2> If anyone is willing to [MASK] out a fellow hipforumer please get in [MASK] !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> OVERLAP
+<event1_trigger> willing
+<event2_trigger> help
+<order_flag> e1->e2
+<event1> [willing]
+<event2> [help] out hipforumer
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is [MASK] to [MASK] out a fellow hipforumer please get in touch !
+<masked_sentence2> If anyone is [MASK] to [MASK] out a fellow hipforumer please get in touch !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> PRECONDITION
+<event1_trigger> willing
+<event2_trigger> help
+<order_flag> e1->e2
+<event1> [willing]
+<event2> [help] out hipforumer
+<sentence1> If anyone is willing to help out a fellow hipforumer please get in touch !
+<sentence2> If anyone is willing to help out a fellow hipforumer please get in touch !
+<masked_sentence1> If anyone is [MASK] to [MASK] out a fellow hipforumer please get in touch !
+<masked_sentence2> If anyone is [MASK] to [MASK] out a fellow hipforumer please get in touch !
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> OVERLAP
+<event1_trigger> kind
+<event2_trigger> lift
+<order_flag> e1->e2
+<event1> [kind]
+<event2> [lift]
+<sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be [MASK] enough to give him a [MASK] southwards ?
+<masked_sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be [MASK] enough to give him a [MASK] southwards ?
+<END>
+
+
+<START>
+<filename> 37b56b6dd846ad0dd6e8cd00ba2efaf4.mpdf
+<relation> PRECONDITION
+<event1_trigger> kind
+<event2_trigger> lift
+<order_flag> e1->e2
+<event1> [kind]
+<event2> [lift]
+<sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be kind enough to give him a lift southwards ?
+<masked_sentence1> He just texted me to ask if any of you French hipforumers are in the area and would be [MASK] enough to give him a [MASK] southwards ?
+<masked_sentence2> He just texted me to ask if any of you French hipforumers are in the area and would be [MASK] enough to give him a [MASK] southwards ?
+<END>

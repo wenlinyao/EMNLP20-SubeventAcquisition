@@ -1,0 +1,102 @@
+<DOC> article-17177.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 |
+<word> Fierce clashes between Syrian regime forces and armed rebels in the central city of Rastan on Monday left at least 23 soldiers dead and dozens wounded , the Syrian Observatory for Human Rights said . 
+<lemma> fierce clash between syrian regime force and armed rebel in the central city of rastan on Monday leave at least 23 soldier dead and dozen wound , the syrian observatory for human rights say . 
+<POS> JJ NNS IN JJ NN NNS CC JJ NNS IN DT JJ NN IN NN IN NNP VBD IN JJS CD NNS JJ CC NNS VBN , DT JJ NN IN JJ NNS VBD . 
+<NER> O O O MISC O O O O O O O O O O LOCATION O DATE O O O NUMBER O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NP (JJ Fierce) (NNS clashes)) (PP (IN between) (NP (JJ Syrian) (NN regime) (NNS forces)))) (CC and) (NP (NP (JJ armed) (NNS rebels)) (PP (IN in) (NP (NP (DT the) (JJ central) (NN city)) (PP (IN of) (NP (NP (NN Rastan)) (PP (IN on) (NP (NNP Monday))))))))) (VP (VBD left) (NP (NP (NP (QP (IN at) (JJS least) (CD 23)) (NNS soldiers)) (ADJP (JJ dead))) (CC and) (NP (NP (NNS dozens)) (VP (VBN wounded)))))) (, ,) (NP (NP (DT the) (JJ Syrian) (NN Observatory)) (PP (IN for) (NP (JJ Human) (NNS Rights)))) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 34|2 amod 1|18 nsubj 2|6 case 3|6 amod 4|6 compound 5|2 nmod:between 6|2 cc 7|9 amod 8|2 conj:and 9|18 nsubj 9|13 case 10|13 det 11|13 amod 12|9 nmod:in 13|15 case 14|13 nmod:of 15|17 case 16|15 nmod:on 17|34 ccomp 18|20 case 19|21 nmod:npmod 20|22 nummod 21|18 dobj 22|22 amod 23|22 cc 24|18 dobj 25|22 conj:and 25|25 acl 26|34 punct 27|30 det 28|30 amod 29|34 nsubj 30|33 case 31|33 amod 32|30 nmod:for 33|34 punct 35|
+<word> The Britain-based monitoring group said initial reports indicated that three troop carriers were destroyed in the clashes that began at dawn on the outskirts of the rebel-held city , located in Homs province . 
+<lemma> the britain-based monitoring group say initial report indicate that three troop carrier be destroy in the clash that begin at dawn on the outskirts of the rebel-held city , located in Homs province . 
+<POS> DT JJ NN NN VBD JJ NNS VBD IN CD NN NNS VBD VBN IN DT NNS WDT VBD IN NN IN DT NNS IN DT JJ NN , JJ IN NNP NN . 
+<NER> O MISC O O O O O O O NUMBER O O O O O O O O O O O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Britain-based) (NN monitoring) (NN group)) (VP (VBD said) (SBAR (S (NP (JJ initial) (NNS reports)) (VP (VBD indicated) (SBAR (IN that) (S (NP (CD three) (NN troop) (NNS carriers)) (VP (VBD were) (VP (VBN destroyed) (PP (IN in) (NP (NP (DT the) (NNS clashes)) (SBAR (WHNP (WDT that)) (S (VP (VBD began) (PP (IN at) (NP (NN dawn))) (PP (IN on) (NP (NP (DT the) (NNS outskirts)) (PP (IN of) (NP (DT the) (JJ rebel-held) (NN city)))))))) (, ,) (VP (ADJP (JJ located)) (PP (IN in) (NP (NNP Homs) (NN province)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 amod 2|4 compound 3|5 nsubj 4|7 amod 6|8 nsubj 7|5 ccomp 8|14 mark 9|12 nummod 10|12 compound 11|14 nsubjpass 12|14 auxpass 13|8 ccomp 14|17 case 15|17 det 16|14 nmod:in 17|19 nsubj 17|17 ref 18|17 acl:relcl 19|21 case 20|19 nmod:at 21|24 case 22|24 det 23|19 nmod:on 24|28 case 25|28 det 26|28 amod 27|24 nmod:of 28|17 punct 29|17 dep 30|33 case 31|33 compound 32|30 nmod:in 33|5 punct 34|
+<word> A lieutenant who had defected was also killed in the clashes . 
+<lemma> a lieutenant who have defect be also kill in the clash . 
+<POS> DT NN WP VBD VBN VBD RB VBN IN DT NNS . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN lieutenant)) (SBAR (WHNP (WP who)) (S (VP (VBD had) (VP (VBN defected)))))) (VP (VBD was) (ADVP (RB also)) (VP (VBN killed) (PP (IN in) (NP (DT the) (NNS clashes))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|5 nsubj 2|8 nsubjpass 2|2 ref 3|5 aux 4|2 acl:relcl 5|8 auxpass 6|8 advmod 7|11 case 9|11 det 10|8 nmod:in 11|8 punct 12|
+<word> Regime forces launched an offensive on Rastan at the weekend but met with sharp resistance from rebels seeking the ouster of the regime of President Bashar al-Assad . 
+<lemma> regime force launch a offensive on rastan at the weekend but meet with sharp resistance from rebel seek the ouster of the regime of President Bashar al-Assad . 
+<POS> NN NNS VBD DT NN IN NN IN DT NN CC VBD IN JJ NN IN NNS VBG DT NN IN DT NN IN NNP NNP NNP . 
+<NER> O O O O O O PERSON O DATE DATE O O O O O O O O O O O O O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Regime) (NNS forces)) (VP (VP (VBD launched) (NP (DT an) (NN offensive)) (PP (IN on) (NP (NN Rastan))) (PP (IN at) (NP (DT the) (NN weekend)))) (CC but) (VP (VBD met) (PP (IN with) (NP (JJ sharp) (NN resistance))) (PP (IN from) (NP (NNS rebels))) (S (VP (VBG seeking) (NP (NP (DT the) (NN ouster)) (PP (IN of) (NP (NP (DT the) (NN regime)) (PP (IN of) (NP (NNP President) (NNP Bashar) (NNP al-Assad)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|12 nsubj 2|5 det 4|3 dobj 5|7 case 6|3 nmod:on 7|10 case 8|10 det 9|3 nmod:at 10|3 cc 11|3 conj:but 12|15 case 13|15 amod 14|12 nmod:with 15|17 case 16|12 nmod:from 17|12 xcomp 18|20 det 19|18 dobj 20|23 case 21|23 det 22|20 nmod:of 23|27 case 24|27 compound 25|27 compound 26|23 nmod:of 27|3 punct 28|
+<word> The Observatory said dozens had been wounded in shelling of the city by Syrian troops . 
+<lemma> the Observatory say dozen have be wound in shell of the city by syrian troops . 
+<POS> DT NNP VBD NNS VBD VBN VBN IN VBG IN DT NN IN JJ NNS . 
+<NER> O ORGANIZATION O O O O O O O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Observatory)) (VP (VBD said) (SBAR (S (NP (NNS dozens)) (VP (VBD had) (VP (VBN been) (VP (VBN wounded) (PP (IN in) (S (VP (VBG shelling) (PP (IN of) (NP (DT the) (NN city))) (PP (IN by) (NP (JJ Syrian) (NNS troops)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|7 nsubjpass 4|7 aux 5|7 auxpass 6|3 ccomp 7|9 mark 8|7 advcl:in 9|12 case 10|12 det 11|9 nmod:of 12|15 case 13|15 amod 14|9 nmod:by 15|3 punct 16|
+<word> The bombardment by regime forces resumed following the deadly clashes , it added . 
+<lemma> the bombardment by regime force resume follow the deadly clash , it add . 
+<POS> DT NN IN NN NNS VBD VBG DT JJ NNS , PRP VBD . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN bombardment)) (PP (IN by) (NP (NN regime) (NNS forces)))) (VP (VBD resumed) (SBAR (S (PP (VBG following) (NP (DT the) (JJ deadly) (NNS clashes))) (, ,) (NP (PRP it)) (VP (VBD added))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|5 case 3|5 compound 4|2 nmod:by 5|10 case 7|10 det 8|10 amod 9|13 nmod:following 10|13 punct 11|13 nsubj 12|6 ccomp 13|6 punct 14|
+<word> In Quraya in the eastern province of Deir Ezzor , a 15-year-old boy was killed by machinegun fire as regime forces raided the town , the Observatory said , bringing the total number of people killed on Monday to 25 . 
+<lemma> in Quraya in the eastern province of Deir Ezzor , a 15-year-old boy be kill by machinegun fire as regime force raid the town , the Observatory say , bring the total number of people kill on Monday to 25 . 
+<POS> IN NNP IN DT JJ NN IN NNP NNP , DT JJ NN VBD VBN IN NN NN IN NN NNS VBD DT NN , DT NNP VBD , VBG DT JJ NN IN NNS VBN IN NNP TO CD . 
+<NER> O LOCATION O O O O O PERSON PERSON O O DURATION O O O O O O O O O O O O O O ORGANIZATION O O O O O O O O O O DATE O NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NP (NNP Quraya)) (PP (IN in) (NP (NP (DT the) (JJ eastern) (NN province)) (PP (IN of) (NP (NNP Deir) (NNP Ezzor))))))) (PRN (, ,) (S (NP (DT a) (JJ 15-year-old) (NN boy)) (VP (VBD was) (VP (VBN killed) (PP (IN by) (NP (NN machinegun) (NN fire))) (SBAR (IN as) (S (NP (NN regime) (NNS forces)) (VP (VBD raided) (NP (DT the) (NN town)))))))) (, ,)) (NP (DT the) (NNP Observatory)) (VP (VBD said) (, ,) (S (VP (VBG bringing) (NP (NP (DT the) (JJ total) (NN number)) (PP (IN of) (NP (NP (NNS people)) (VP (VBN killed) (PP (IN on) (NP (NNP Monday))) (PP (TO to) (NP (CD 25)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 28|2 case 1|28 nmod:in 2|6 case 3|6 det 4|6 amod 5|2 nmod:in 6|9 case 7|9 compound 8|6 nmod:of 9|15 punct 10|13 det 11|13 amod 12|15 nsubjpass 13|15 auxpass 14|28 parataxis 15|18 case 16|18 compound 17|15 nmod:agent 18|22 mark 19|21 compound 20|22 nsubj 21|15 advcl:as 22|24 det 23|22 dobj 24|15 punct 25|27 det 26|28 nsubj 27|28 punct 29|28 xcomp 30|33 det 31|33 amod 32|30 dobj 33|35 case 34|33 nmod:of 35|35 acl 36|38 case 37|36 nmod:on 38|40 case 39|36 nmod:to 40|28 punct 41|
+<word> The watchdog added that 15 residents of the city were arrested . 
+<lemma> the watchdog add that 15 resident of the city be arrest . 
+<POS> DT NN VBD IN CD NNS IN DT NN VBD VBN . 
+<NER> O O O O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN watchdog)) (VP (VBD added) (SBAR (IN that) (S (NP (NP (CD 15) (NNS residents)) (PP (IN of) (NP (DT the) (NN city)))) (VP (VBD were) (VP (VBN arrested)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|11 mark 4|6 nummod 5|11 nsubjpass 6|9 case 7|9 det 8|6 nmod:of 9|11 auxpass 10|3 ccomp 11|3 punct 12|
+<word> And in the capital Damascus , regime forces raided the neighborhood of Qaboon , while snipers were stationed on the roofs of some buildings . 
+<lemma> and in the capital Damascus , regime force raid the neighborhood of Qaboon , while sniper be station on the roof of some building . 
+<POS> CC IN DT NN NNP , NN NNS VBD DT NN IN NNP , IN NNS VBD VBN IN DT NNS IN DT NNS . 
+<NER> O O O O LOCATION O O O O O O O LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC And) (PP (IN in) (NP (DT the) (NN capital) (NNP Damascus))) (, ,) (NP (NN regime) (NNS forces)) (VP (VBD raided) (NP (NP (DT the) (NN neighborhood)) (PP (IN of) (NP (NNP Qaboon)))) (, ,) (SBAR (IN while) (S (NP (NNS snipers)) (VP (VBD were) (VP (VBN stationed) (PP (IN on) (NP (NP (DT the) (NNS roofs)) (PP (IN of) (NP (DT some) (NNS buildings)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|9 cc 1|5 case 2|5 det 3|5 compound 4|9 nmod:in 5|9 punct 6|8 compound 7|9 nsubj 8|11 det 10|9 dobj 11|13 case 12|11 nmod:of 13|9 punct 14|18 mark 15|18 nsubjpass 16|18 auxpass 17|9 advcl:while 18|21 case 19|21 det 20|18 nmod:on 21|24 case 22|24 det 23|21 nmod:of 24|9 punct 25|
+<word> The watchdog said 45 people -- 25 civilians , 15 soldiers and five rebels -- were killed in a surge of violence in various flashpoints on Sunday , despite a ceasefire brokered by UN-Arab League peace envoy Kofi Annan that was supposed to take effect on April 12 . 
+<lemma> the watchdog say 45 people -- 25 civilian , 15 soldier and five rebel -- be kill in a surge of violence in various flashpoint on Sunday , despite a ceasefire broker by UN-Arab League peace envoy Kofi Annan that be suppose to take effect on April 12 . 
+<POS> DT NN VBD CD NNS : CD NNS , CD NNS CC CD NNS : VBD VBN IN DT NN IN NN IN JJ NNS IN NNP , IN DT NN VBN IN NNP NNP NN NN NNP NNP WDT VBD VBN TO VB NN IN NNP CD . 
+<NER> O O O NUMBER O O NUMBER O O NUMBER O O NUMBER O O O O O O O O O O O O O DATE O O O O O O MISC MISC O O PERSON PERSON O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN watchdog)) (VP (VBD said) (SBAR (S (NP (NP (CD 45) (NNS people)) (PRN (: --) (NP (NP (CD 25) (NNS civilians)) (, ,) (NP (CD 15) (NNS soldiers)) (CC and) (NP (CD five) (NNS rebels))) (: --))) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (NP (DT a) (NN surge)) (PP (IN of) (NP (NN violence))))) (PP (IN in) (NP (NP (JJ various) (NNS flashpoints)) (PP (IN on) (NP (NNP Sunday))))) (, ,) (PP (IN despite) (NP (NP (DT a) (NN ceasefire)) (VP (VBN brokered) (PP (IN by) (NP (NP (NNP UN-Arab) (NNP League) (NN peace) (NN envoy) (NNP Kofi) (NNP Annan)) (SBAR (WHNP (WDT that)) (S (VP (VBD was) (VP (VBN supposed) (S (VP (TO to) (VP (VB take) (NP (NN effect)) (PP (IN on) (NP (NNP April) (CD 12)))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nummod 4|17 nsubjpass 5|8 punct 6|8 nummod 7|5 dep 8|8 punct 9|11 nummod 10|5 dep 11|8 conj:and 11|8 cc 12|14 nummod 13|5 dep 14|8 conj:and 14|8 punct 15|17 auxpass 16|3 ccomp 17|20 case 18|20 det 19|17 nmod:in 20|22 case 21|20 nmod:of 22|25 case 23|25 amod 24|17 nmod:in 25|27 case 26|25 nmod:on 27|17 punct 28|31 case 29|31 det 30|17 nmod:despite 31|31 acl 32|39 case 33|39 compound 34|39 compound 35|39 compound 36|39 compound 37|39 compound 38|32 nmod:by 39|42 nsubjpass 39|44 nsubj:xsubj 39|39 ref 40|42 auxpass 41|39 acl:relcl 42|44 mark 43|42 xcomp 44|44 dobj 45|47 case 46|44 nmod:on 47|47 nummod 48|3 punct 49|
+<word> Among the dead were a Shiite imam , Sheikh Abbas al-Laham , who leads the prayers in the Ruqayya mosque in Damascus , a revered place of pilgrimage for many religious Iranians . 
+<lemma> among the dead be a shiite imam , Sheikh Abbas al-Laham , who lead the prayer in the Ruqayya mosque in Damascus , a revered place of pilgrimage for many religious Iranians . 
+<POS> IN DT JJ VBD DT JJ NN , NNP NNP NNP , WP VBZ DT NNS IN DT NNP NN IN NNP , DT JJ NN IN NN IN JJ JJ NNPS . 
+<NER> O O O O O MISC O O PERSON PERSON PERSON O O O O O O O LOCATION O O LOCATION O O O O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (SINV (PP (IN Among) (NP (DT the) (JJ dead))) (VP (VBD were)) (NP (NP (DT a) (JJ Shiite) (NN imam)) (, ,) (NP (NP (NNP Sheikh) (NNP Abbas) (NNP al-Laham)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ leads) (NP (NP (DT the) (NNS prayers)) (PP (IN in) (NP (DT the) (NNP Ruqayya) (NN mosque)))) (PP (IN in) (NP (NP (NNP Damascus)) (, ,) (NP (NP (DT a) (JJ revered) (NN place)) (PP (IN of) (NP (NP (NN pilgrimage)) (PP (IN for) (NP (JJ many) (JJ religious) (NNPS Iranians))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 case 1|3 det 2|4 nmod:among 3|7 det 5|7 amod 6|4 nsubj 7|7 punct 8|11 compound 9|11 compound 10|7 appos 11|14 nsubj 11|11 punct 12|11 ref 13|11 acl:relcl 14|16 det 15|14 dobj 16|20 case 17|20 det 18|20 compound 19|16 nmod:in 20|22 case 21|14 nmod:in 22|22 punct 23|26 det 24|26 amod 25|22 appos 26|28 case 27|26 nmod:of 28|32 case 29|32 amod 30|32 amod 31|28 nmod:for 32|4 punct 33|
+<word> The cleric was assassinated by unidentified gunmen in Damascus , the Observatory said . 
+<lemma> the cleric be assassinate by unidentified gunman in Damascus , the Observatory say . 
+<POS> DT NN VBD VBN IN JJ NNS IN NNP , DT NNP VBD . 
+<NER> O O O O O O O O LOCATION O O ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NN cleric)) (VP (VBD was) (VP (VBN assassinated) (PP (IN by) (NP (NP (JJ unidentified) (NNS gunmen)) (PP (IN in) (NP (NNP Damascus)))))))) (, ,) (NP (DT the) (NNP Observatory)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 det 1|4 nsubjpass 2|4 auxpass 3|13 ccomp 4|7 case 5|7 amod 6|4 nmod:agent 7|9 case 8|7 nmod:in 9|13 punct 10|12 det 11|13 nsubj 12|13 punct 14|
+<word> Iran supports the Damascus regime , which since 15 March 2011 has faced an unprecedented popular revolt . 
+<lemma> Iran support the Damascus regime , which since 15 March 2011 have face a unprecedented popular revolt . 
+<POS> NNP VBZ DT NNP NN , WDT IN CD NNP CD VBZ VBN DT JJ JJ NN . 
+<NER> LOCATION O O LOCATION O O O O DATE DATE DATE O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iran)) (VP (VBZ supports) (NP (NP (DT the) (NNP Damascus) (NN regime)) (, ,) (SBAR (WHNP (WDT which)) (S (PP (IN since) (NP (NP (CD 15)) (NP-TMP (NNP March) (CD 2011)))) (VP (VBZ has) (VP (VBN faced) (NP (DT an) (JJ unprecedented) (JJ popular) (NN revolt)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 det 3|5 compound 4|2 dobj 5|13 nsubj 5|5 punct 6|5 ref 7|9 case 8|13 nmod:since 9|9 nmod:tmod 10|10 nummod 11|13 aux 12|5 acl:relcl 13|17 det 14|17 amod 15|17 amod 16|13 dobj 17|2 punct 18|
+<word> More than 12,000 people , the majority of them civilians , have died since the Syrian uprising began in March 2011 , according to the watchdog , including more than 900 killed since the April 12 truce . 
+<lemma> more than 12,000 people , the majority of they civilian , have die since the syrian uprising begin in March 2011 , accord to the watchdog , include more than 900 kill since the April 12 truce . 
+<POS> JJR IN CD NNS , DT NN IN PRP NNS , VBP VBN IN DT JJ NN VBD IN NNP CD , VBG TO DT NN , VBG JJR IN CD VBN IN DT NNP CD NN . 
+<NER> O O NUMBER O O O O O O O O O O O O MISC O O O DATE DATE O O O O O O O O O NUMBER O O O DATE DATE O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (QP (JJR More) (IN than) (CD 12,000)) (NNS people)) (, ,) (NP (NP (DT the) (NN majority)) (PP (IN of) (NP (PRP them) (NNS civilians)))) (, ,)) (VP (VBP have) (VP (VBN died) (SBAR (IN since) (S (NP (DT the) (JJ Syrian) (NN uprising)) (VP (VBD began) (PP (IN in)) (NP-TMP (NNP March) (CD 2011)) (, ,) (PP (VBG according) (PP (TO to) (NP (DT the) (NN watchdog)))) (, ,) (PP (VBG including) (NP (NP (QP (JJR more) (IN than) (CD 900))) (VP (VBN killed) (PP (IN since) (NP (DT the) (NNP April) (CD 12) (NN truce))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|3 advmod 1|1 mwe 2|4 nummod 3|13 nsubj 4|4 punct 5|7 det 6|4 appos 7|10 case 8|10 dep 9|7 nmod:of 10|4 punct 11|13 aux 12|18 mark 14|17 det 15|17 amod 16|18 nsubj 17|13 advcl:since 18|18 nmod 19|18 nmod:tmod 20|20 nummod 21|18 punct 22|26 case 23|23 mwe 24|26 det 25|18 nmod:according_to 26|18 punct 27|31 case 28|31 advmod 29|29 mwe 30|18 nmod:including 31|31 acl 32|37 case 33|37 det 34|37 compound 35|37 nummod 36|32 nmod:since 37|13 punct 38|
+<coreference> [['1,4,7,6', '4,1,3,2', '6,4,6,5', '7,20,22,21', '9,7,9,8'], ['1,8,18,9', '4,17,18,17'], ['1,17,18,17', '7,38,39,38'], ['1,25,27,25', '5,4,5,4'], ['1,28,34,30', '5,1,3,2', '7,26,28,27', '12,11,13,12'], ['2,16,34,17', '3,10,12,11'], ['2,26,29,28', '5,11,13,12', '8,8,10,9'], ['6,1,6,2', '6,12,13,12'], ['7,40,41,40', '10,7,8,7'], ['8,5,6,5', '10,10,11,10'], ['8,1,3,2', '10,1,3,2', '14,25,27,26'], ['9,5,6,5', '11,22,33,22', '11,22,23,22', '11,24,33,26', '12,9,10,9', '13,1,2,1', '13,4,5,4'], ['10,7,9,8', '14,9,11,10'], ['11,9,33,11', '11,5,8,7', '11,9,12,11'], ['13,10,12,10', '14,20,22,20'], ['14,1,5,4', '14,9,10,9']]
+</DOC>

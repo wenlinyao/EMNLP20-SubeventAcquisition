@@ -1,0 +1,158 @@
+<DOC> article-4104.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 |
+<word> A typhoon-strength storm brought travel chaos to Japan on Tuesday , as violent winds and rain killed one man and left tens of thousands of people stranded . 
+<lemma> a typhoon-strength storm bring travel chaos to Japan on Tuesday , as violent wind and rain kill one man and leave ten of thousand of people strand . 
+<POS> DT JJ NN VBD NN NN TO NNP IN NNP , IN JJ NNS CC NN VBD CD NN CC VBD NNS IN NNS IN NNS VBN . 
+<NER> O O O O O O O LOCATION O DATE O O O O O O O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (JJ typhoon-strength) (NN storm)) (VP (VBD brought) (NP (NN travel) (NN chaos)) (PP (TO to) (NP (NNP Japan))) (PP (IN on) (NP (NNP Tuesday))) (, ,) (SBAR (IN as) (S (NP (NP (JJ violent) (NNS winds)) (CC and) (NP (NN rain))) (VP (VP (VBD killed) (NP (CD one) (NN man))) (CC and) (VP (VBD left) (NP (NP (QP (NNS tens) (IN of) (NNS thousands))) (PP (IN of) (NP (NP (NNS people)) (VP (VBN stranded)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|6 compound 5|4 dobj 6|8 case 7|4 nmod:to 8|10 case 9|4 nmod:on 10|4 punct 11|17 mark 12|14 amod 13|17 nsubj 14|21 nsubj 14|14 cc 15|14 conj:and 16|17 nsubj 16|4 advcl:as 17|19 nummod 18|17 dobj 19|17 cc 20|4 advcl:as 21|17 conj:and 21|24 dep 22|24 advmod 23|26 det:qmod 24|24 mwe 25|21 dobj 26|26 acl 27|4 punct 28|
+<word> Gusts of up to 150 kilometers per hour have been recorded in western Japan , with coastal areas likely seeing even stronger winds , Japan 's weather agency said . 
+<lemma> gust of up to 150 kilometer per hour have be record in western Japan , with coastal area likely see even stronger wind , Japan 's weather agency say . 
+<POS> NNS IN RB TO CD NNS IN NN VBP VBN VBN IN JJ NNP , IN JJ NNS JJ VBG RB JJR NNS , NNP POS NN NN VBD . 
+<NER> O O O O NUMBER O O DURATION O O O O O LOCATION O O O O O O O O O O LOCATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNS Gusts)) (PP (IN of) (NP (NP (QP (RB up) (TO to) (CD 150)) (NNS kilometers)) (PP (IN per) (NP (NN hour)))))) (VP (VBP have) (VP (VBN been) (VP (VBN recorded) (PP (IN in) (NP (JJ western) (NNP Japan))) (, ,) (PP (IN with) (NP (NP (JJ coastal) (NNS areas)) (VP (ADVP (JJ likely)) (VBG seeing) (NP (ADJP (RB even) (JJR stronger)) (NNS winds))))))))) (, ,) (NP (NP (NNP Japan) (POS 's)) (NN weather) (NN agency)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 29|11 nsubjpass 1|6 case 2|5 advmod 3|5 dep 4|6 nummod 5|1 nmod:of 6|8 case 7|6 nmod:per 8|11 aux 9|11 auxpass 10|29 ccomp 11|14 case 12|14 amod 13|11 nmod:in 14|11 punct 15|18 case 16|18 amod 17|11 nmod:with 18|20 advmod 19|18 acl 20|22 advmod 21|23 amod 22|20 dobj 23|29 punct 24|28 nmod:poss 25|25 case 26|28 compound 27|29 nsubj 28|29 punct 30|
+<word> With the agency warning of possible tornadoes in the western half of Japan , airlines grounded over 550 flights and a number of train services were suspended . 
+<lemma> with the agency warning of possible tornado in the western half of Japan , airline ground over 550 flight and a number of train service be suspend . 
+<POS> IN DT NN NN IN JJ NNS IN DT JJ NN IN NNP , NNS VBD IN CD NNS CC DT NN IN NN NNS VBD VBN . 
+<NER> O O O O O O O O O O O O LOCATION O O O O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN With) (NP (NP (DT the) (NN agency) (NN warning)) (PP (IN of) (NP (NP (JJ possible) (NNS tornadoes)) (PP (IN in) (NP (NP (DT the) (JJ western) (NN half)) (PP (IN of) (NP (NNP Japan))))))))) (, ,) (S (NP (NNS airlines)) (VP (VBD grounded) (PP (IN over) (NP (CD 550) (NNS flights))))) (CC and) (S (NP (NP (DT a) (NN number)) (PP (IN of) (NP (NN train) (NNS services)))) (VP (VBD were) (VP (VBN suspended)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|4 case 1|4 det 2|4 compound 3|16 nmod:with 4|7 case 5|7 amod 6|4 nmod:of 7|11 case 8|11 det 9|11 amod 10|7 nmod:in 11|13 case 12|11 nmod:of 13|16 punct 14|16 nsubj 15|19 case 17|19 nummod 18|16 nmod:over 19|16 cc 20|25 det:qmod 21|21 mwe 22|21 mwe 23|25 compound 24|27 nsubjpass 25|27 auxpass 26|16 conj:and 27|16 punct 28|
+<word> An 81-year-old man died in central Toyama Prefecture when the wind blew over a shed , trapping him underneath , police said . 
+<lemma> a 81-year-old man die in central Toyama Prefecture when the wind blow over a shed , trapping he underneath , police say . 
+<POS> DT JJ NN VBD IN JJ NNP NNP WRB DT NN VBD IN DT NN , NN PRP IN , NNS VBD . 
+<NER> O DURATION O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT An) (JJ 81-year-old) (NN man)) (VP (VBD died) (PP (IN in) (NP (JJ central) (NNP Toyama) (NNP Prefecture))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN wind)) (VP (VBD blew) (PP (IN over) (NP (NP (DT a) (NN shed)) (, ,) (NP (NN trapping)))) (NP (PRP him)) (PP (IN underneath))))))) (, ,) (NP (NNS police)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|3 det 1|3 amod 2|4 nsubj 3|22 ccomp 4|8 case 5|8 amod 6|8 compound 7|4 nmod:in 8|12 advmod 9|11 det 10|12 nsubj 11|4 advcl 12|15 case 13|15 det 14|12 nmod:underneath 15|15 punct 16|15 appos 17|12 dobj 18|15 case 19|22 punct 20|22 nsubj 21|22 punct 23|
+<word> Forecasters said an expanding low pressure system in the Sea of Japan -LRB- East Sea -RRB- was forcing a cold front over the country , where it was bringing heavy rains and strong winds . 
+<lemma> forecaster say a expand low pressure system in the sea of Japan -lrb- East Sea -rrb- be force a cold front over the country , where it be bring heavy rain and strong wind . 
+<POS> NNS VBD DT VBG JJ NN NN IN DT NN IN NNP -LRB- NNP NNP -RRB- VBD VBG DT JJ NN IN DT NN , WRB PRP VBD VBG JJ NNS CC JJ NNS . 
+<NER> O O O O O O O O O LOCATION LOCATION LOCATION O LOCATION LOCATION O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Forecasters)) (VP (VBD said) (SBAR (S (NP (NP (DT an) (VBG expanding) (JJ low) (NN pressure) (NN system)) (PP (IN in) (NP (NP (DT the) (NN Sea)) (PP (IN of) (NP (NP (NNP Japan)) (PRN (-LRB- -LRB-) (NP (NNP East) (NNP Sea)) (-RRB- -RRB-))))))) (VP (VBD was) (VP (VBG forcing) (NP (DT a) (JJ cold) (NN front)) (PP (IN over) (NP (NP (DT the) (NN country)) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP it)) (VP (VBD was) (VP (VBG bringing) (NP (NP (JJ heavy) (NNS rains)) (CC and) (NP (JJ strong) (NNS winds)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|7 det 3|7 amod 4|7 amod 5|7 compound 6|18 nsubj 7|10 case 8|10 det 9|7 nmod:in 10|12 case 11|10 nmod:of 12|15 punct 13|15 compound 14|12 appos 15|15 punct 16|18 aux 17|2 ccomp 18|21 det 19|21 amod 20|18 dobj 21|24 case 22|24 det 23|18 nmod:over 24|24 punct 25|29 advmod 26|29 nsubj 27|29 aux 28|24 acl:relcl 29|31 amod 30|29 dobj 31|31 cc 32|34 amod 33|29 dobj 34|31 conj:and 34|2 punct 35|
+<word> `` This is like the core of a typhoon , but it is staying for a long time , whereas a typhoon usually moves rather quickly , '' a spokesman for the Japan Meteorological Agency said . 
+<lemma> `` this be like the core of a typhoon , but it be stay for a long time , whereas a typhoon usually move rather quickly , '' a spokesman for the Japan Meteorological Agency say . 
+<POS> `` DT VBZ IN DT NN IN DT NN , CC PRP VBZ VBG IN DT JJ NN , IN DT NN RB VBZ RB RB , '' DT NN IN DT NNP NNP NNP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (DT This)) (VP (VBZ is) (PP (IN like) (NP (NP (DT the) (NN core)) (PP (IN of) (NP (DT a) (NN typhoon))))))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBZ is) (VP (VBG staying) (PP (IN for) (NP (DT a) (JJ long) (NN time))) (, ,) (SBAR (IN whereas) (S (NP (DT a) (NN typhoon)) (ADVP (RB usually)) (VP (VBZ moves) (ADVP (RB rather) (RB quickly))))))))) (, ,) ('' '') (NP (NP (DT a) (NN spokesman)) (PP (IN for) (NP (DT the) (NNP Japan) (NNP Meteorological) (NNP Agency)))) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 36|36 punct 1|6 nsubj 2|6 cop 3|6 case 4|6 det 5|36 ccomp 6|9 case 7|9 det 8|6 nmod:of 9|6 punct 10|6 cc 11|14 nsubj 12|14 aux 13|6 conj:but 14|36 ccomp 14|18 case 15|18 det 16|18 amod 17|14 nmod:for 18|14 punct 19|24 mark 20|22 det 21|24 nsubj 22|24 advmod 23|14 advcl:whereas 24|26 advmod 25|24 advmod 26|36 punct 27|36 punct 28|30 det 29|36 nsubj 30|35 case 31|35 det 32|35 compound 33|35 compound 34|30 nmod:for 35|36 punct 37|
+<word> `` Winds as strong as this are very rare , '' he said . 
+<lemma> `` wind as strong as this be very rare , '' he say . 
+<POS> `` NNS IN JJ IN DT VBP RB JJ , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NP (NNS Winds)) (PP (IN as) (NP (NP (JJ strong)) (PP (IN as) (NP (DT this)))))) (VP (VBP are) (ADJP (RB very) (JJ rare)))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|13 punct 1|9 nsubj 2|4 case 3|2 nmod:as 4|6 case 5|4 nmod:as 6|9 cop 7|9 advmod 8|13 ccomp 9|13 punct 10|13 punct 11|13 nsubj 12|13 punct 14|
+<word> The meteorological agency said on its website the strong winds would move northwards into Wednesday , producing waves up to 10 meters high . 
+<lemma> the meteorological agency say on its website the strong wind would move northwards into Wednesday , produce wave up to 10 meter high . 
+<POS> DT JJ NN VBD IN PRP$ NN DT JJ NNS MD VB RB IN NNP , VBG NNS IN TO CD NNS JJ . 
+<NER> O O O O O O O O O O O O O O DATE O O O O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ meteorological) (NN agency)) (VP (VBD said) (PP (IN on) (NP (NP (PRP$ its) (NN website)) (SBAR (S (NP (DT the) (JJ strong) (NNS winds)) (VP (MD would) (VP (VB move) (ADVP (RB northwards)) (PP (IN into) (NP (NNP Wednesday))))))))) (, ,) (S (VP (VBG producing) (NP (NNS waves)) (ADVP (IN up) (PP (TO to) (NP (CD 10) (NNS meters)))) (ADVP (JJ high))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|7 case 5|7 nmod:poss 6|4 nmod:on 7|10 det 8|10 amod 9|12 nsubj 10|12 aux 11|7 acl:relcl 12|12 advmod 13|15 case 14|12 nmod:into 15|4 punct 16|4 xcomp 17|17 dobj 18|17 advmod 19|22 case 20|22 nummod 21|19 nmod:to 22|17 advmod 23|4 punct 24|
+<word> `` In particular , ferocious winds are expected at sea -LRB- in the north -RRB- on the Sea of Japan side . 
+<lemma> `` in particular , ferocious wind be expect at sea -lrb- in the north -rrb- on the sea of Japan side . 
+<POS> `` IN JJ , JJ NNS VBP VBN IN NN -LRB- IN DT NN -RRB- IN DT NN IN NNP NN . 
+<NER> O O O O O O O O O O O O O O O O O O O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (PP (IN In) (ADJP (JJ particular))) (, ,) (NP (JJ ferocious) (NNS winds)) (VP (VBP are) (VP (VBN expected) (PP (IN at) (NP (NP (NN sea)) (PRN (-LRB- -LRB-) (PP (IN in) (NP (DT the) (NN north))) (-RRB- -RRB-)))) (PP (IN on) (NP (NP (DT the) (NN Sea)) (PP (IN of) (NP (NNP Japan) (NN side))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 punct 1|3 case 2|8 advcl:in 3|8 punct 4|6 amod 5|8 nsubjpass 6|8 auxpass 7|10 case 9|8 nmod:at 10|14 punct 11|14 case 12|14 det 13|10 nmod:in 14|14 punct 15|18 case 16|18 det 17|8 nmod:on 18|21 case 19|21 compound 20|18 nmod:of 21|8 punct 22|
+<word> Please be extremely wary of violent winds and high waves . '' 
+<lemma> please be extremely wary of violent wind and high wave . '' 
+<POS> VB VB RB JJ IN JJ NNS CC JJ NNS . '' 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (VP (VB Please) (VP (VB be) (ADJP (RB extremely) (JJ wary)) (PP (IN of) (NP (NP (JJ violent) (NNS winds)) (CC and) (NP (JJ high) (NNS waves)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|4 cop 2|4 advmod 3|1 xcomp 4|7 case 5|7 amod 6|4 nmod:of 7|7 cc 8|10 amod 9|4 nmod:of 10|7 conj:and 10|1 punct 11|1 punct 12|
+<word> The agency also warned heavy rain could trigger landslides and flooding . 
+<lemma> the agency also warn heavy rain could trigger landslide and flooding . 
+<POS> DT NN RB VBD JJ NN MD VB NNS CC NN . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN agency)) (ADVP (RB also)) (VP (VBD warned) (SBAR (S (NP (JJ heavy) (NN rain)) (VP (MD could) (VP (VB trigger) (NP (NNS landslides) (CC and) (NN flooding))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 amod 5|8 nsubj 6|8 aux 7|4 ccomp 8|8 dobj 9|9 cc 10|8 dobj 11|9 conj:and 11|4 punct 12|
+<word> Japan Airlines canceled 230 domestic and seven Asia-bound flights , affecting 31,600 passengers . 
+<lemma> Japan Airlines cancel 230 domestic and seven asia-bound flight , affect 31,600 passenger . 
+<POS> NNP NNPS VBD CD JJ CC CD JJ NNS , VBG CD NNS . 
+<NER> ORGANIZATION ORGANIZATION O NUMBER O O NUMBER MISC O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Japan) (NNPS Airlines)) (VP (VBD canceled) (NP (CD 230) (JJ domestic) (CC and) (CD seven) (JJ Asia-bound) (NNS flights)) (, ,) (S (VP (VBG affecting) (NP (CD 31,600) (NNS passengers))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 compound 4|3 dobj 5|5 cc 6|9 nummod 7|9 amod 8|3 dobj 9|5 conj:and 9|3 punct 10|3 advcl 11|13 nummod 12|11 dobj 13|3 punct 14|
+<word> All Nippon Airways grounded 320 domestic flights , affecting 37,700 people . 
+<lemma> all Nippon Airways ground 320 domestic flight , affect 37,700 people . 
+<POS> DT NNP NNPS VBD CD JJ NNS , VBG CD NNS . 
+<NER> O ORGANIZATION ORGANIZATION O NUMBER O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT All) (NNP Nippon) (NNPS Airways)) (VP (VBD grounded) (NP (CD 320) (JJ domestic) (NNS flights)) (, ,) (S (VP (VBG affecting) (NP (CD 37,700) (NNS people))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|7 nummod 5|7 amod 6|4 dobj 7|4 punct 8|4 advcl 9|11 nummod 10|9 dobj 11|4 punct 12|
+<word> East Japan Railways , which operates a vast train network in the eastern and northern regions , including Tokyo , canceled some commuter lines and a number of long-distance services . 
+<lemma> East Japan Railways , which operate a vast train network in the eastern and northern region , include Tokyo , cancel some commuter line and a number of long-distance service . 
+<POS> NNP NNP NNPS , WDT VBZ DT JJ NN NN IN DT JJ CC JJ NNS , VBG NNP , VBD DT NN NNS CC DT NN IN JJ NNS . 
+<NER> ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP East) (NNP Japan) (NNPS Railways)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ operates) (NP (NP (DT a) (JJ vast) (NN train) (NN network)) (PP (IN in) (NP (DT the) (JJ eastern) (CC and) (JJ northern) (NNS regions))) (, ,) (PP (VBG including) (NP (NNP Tokyo))))))) (, ,)) (VP (VBD canceled) (NP (NP (DT some) (NN commuter) (NNS lines)) (CC and) (NP (NP (DT a) (NN number)) (PP (IN of) (NP (JJ long-distance) (NNS services)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|3 compound 1|3 compound 2|6 nsubj 3|21 nsubj 3|3 punct 4|3 ref 5|3 acl:relcl 6|10 det 7|10 amod 8|10 compound 9|6 dobj 10|16 case 11|16 det 12|16 amod 13|13 cc 14|13 conj:and 15|16 amod 15|10 nmod:in 16|10 punct 17|19 case 18|10 nmod:including 19|3 punct 20|24 det 22|24 compound 23|21 dobj 24|24 cc 25|30 det:qmod 26|26 mwe 27|26 mwe 28|30 amod 29|21 dobj 30|24 conj:and 30|21 punct 31|
+<word> The nation 's main bullet train , linking Tokyo and Osaka , was experiencing delays after a brief suspension , but was running as of early evening . 
+<lemma> the nation 's main bullet train , link Tokyo and Osaka , be experience delay after a brief suspension , but be run as of early evening . 
+<POS> DT NN POS JJ NN NN , VBG NNP CC NNP , VBD VBG NNS IN DT JJ NN , CC VBD VBG IN IN JJ NN . 
+<NER> O O O O O O O O LOCATION O LOCATION O O O O O O O O O O O O O O TIME TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (DT The) (NN nation) (POS 's)) (JJ main) (NN bullet) (NN train)) (, ,) (VP (VBG linking) (NP (NNP Tokyo) (CC and) (NNP Osaka))) (, ,)) (VP (VP (VBD was) (VP (VBG experiencing) (NP (NNS delays)) (PP (IN after) (NP (DT a) (JJ brief) (NN suspension))))) (, ,) (CC but) (VP (VBD was) (VP (VBG running) (PP (IN as) (PP (IN of) (NP (JJ early) (NN evening))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 det 1|6 nmod:poss 2|2 case 3|6 amod 4|6 compound 5|14 nsubj 6|23 nsubj 6|6 punct 7|6 acl 8|8 dobj 9|9 cc 10|8 dobj 11|9 conj:and 11|6 punct 12|14 aux 13|14 dobj 15|19 case 16|19 det 17|19 amod 18|14 nmod:after 19|14 punct 20|14 cc 21|23 aux 22|14 conj:but 23|27 case 24|24 mwe 25|27 amod 26|23 nmod:as_of 27|14 punct 28|
+<word> At least 97 people suffered injuries across the country , knocked over by sudden gusts or hit by flying debris , national broadcaster NHK said . 
+<lemma> at least 97 people suffer injury across the country , knock over by sudden gust or hit by fly debris , national broadcaster NHK say . 
+<POS> IN JJS CD NNS VBD NNS IN DT NN , VBD RP IN JJ NNS CC VBN IN VBG NN , JJ NN NNP VBD . 
+<NER> O O NUMBER O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN At) (JJS least) (CD 97)) (NNS people)) (VP (VP (VBD suffered) (NP (NNS injuries)) (PP (IN across) (NP (DT the) (NN country)))) (, ,) (VP (VBD knocked) (PRT (RP over)) (PP (IN by) (NP (JJ sudden) (NNS gusts)))) (CC or) (VP (VBN hit) (PP (IN by) (S (VP (VBG flying) (NP (NN debris)))))))) (, ,) (NP (JJ national) (NN broadcaster) (NNP NHK)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 25|2 case 1|3 nmod:npmod 2|4 nummod 3|5 nsubj 4|11 nsubj 4|17 nsubj 4|25 ccomp 5|5 dobj 6|9 case 7|9 det 8|5 nmod:across 9|5 punct 10|5 conj:or 11|25 ccomp 11|11 compound:prt 12|15 case 13|15 amod 14|11 nmod:by 15|5 cc 16|5 conj:or 17|25 ccomp 17|19 mark 18|17 advcl:by 19|19 dobj 20|25 punct 21|24 amod 22|24 compound 23|25 nsubj 24|25 punct 26|
+<word> A number of trucks were toppled by the winds , creating localised traffic jams in Toyama Prefecture . 
+<lemma> a number of truck be topple by the wind , create localised traffic jam in Toyama Prefecture . 
+<POS> DT NN IN NNS VBD VBN IN DT NNS , VBG JJ NN NNS IN NNP NNP . 
+<NER> O O O O O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN number)) (PP (IN of) (NP (NNS trucks)))) (VP (VBD were) (VP (VBN toppled) (PP (IN by) (NP (DT the) (NNS winds))) (, ,) (S (VP (VBG creating) (NP (JJ localised) (NN traffic) (NNS jams)) (PP (IN in) (NP (NNP Toyama) (NNP Prefecture))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det:qmod 1|1 mwe 2|1 mwe 3|6 nsubjpass 4|6 auxpass 5|9 case 7|9 det 8|6 nmod:agent 9|6 punct 10|6 xcomp 11|14 amod 12|14 compound 13|11 dobj 14|17 case 15|17 compound 16|11 nmod:in 17|6 punct 18|
+<word> NHK also reported a recently-constructed 10,000-ton tanker , which was moored off Ehime prefecture , had run aground . 
+<lemma> NHK also report a recently-constructed 10,000-ton tanker , which be moor off Ehime prefecture , have run aground . 
+<POS> NNP RB VBD DT JJ JJ NN , WDT VBD VBN RP NNP NN , VBD VBN RB . 
+<NER> ORGANIZATION O O O O O O O O O O O MISC O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP NHK)) (ADVP (RB also)) (VP (VBD reported) (SBAR (S (NP (NP (DT a) (JJ recently-constructed) (JJ 10,000-ton) (NN tanker)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (VP (VBN moored) (PRT (RP off)) (NP (NNP Ehime) (NN prefecture)))))) (, ,)) (VP (VBD had) (VP (VBN run) (ADVP (RB aground))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|7 det 4|7 amod 5|7 amod 6|11 nsubjpass 7|17 nsubj 7|7 punct 8|7 ref 9|11 auxpass 10|7 acl:relcl 11|11 compound:prt 12|14 compound 13|11 dobj 14|7 punct 15|17 aux 16|3 ccomp 17|17 advmod 18|3 punct 19|
+<word> Many companies sent employees home early . 
+<lemma> many company send employee home early . 
+<POS> JJ NNS VBN NNS RB RB . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Many) (NNS companies)) (VP (VBN sent) (NP (NP (NNS employees)) (ADVP (RB home))) (ADVP (RB early))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 amod 1|3 nsubj 2|3 dobj 4|4 advmod 5|3 advmod 6|3 punct 7|
+<word> Canon told about 14,000 workers mostly in Tokyo and neighboring Kanagawa Prefecture to leave before the storm worsened . 
+<lemma> Canon tell about 14,000 worker mostly in Tokyo and neighbor Kanagawa Prefecture to leave before the storm worsen . 
+<POS> NNP VBD IN CD NNS RB IN NNP CC VBG NNP NNP TO VB IN DT NN VBD . 
+<NER> ORGANIZATION O O NUMBER O O O LOCATION O O LOCATION LOCATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Canon)) (VP (VBD told) (PP (IN about) (NP (NP (NP (CD 14,000) (NNS workers)) (PP (RB mostly) (IN in) (NP (NNP Tokyo)))) (CC and) (NP (VBG neighboring)))) (NP (NP (NNP Kanagawa) (NNP Prefecture)) (SBAR (S (VP (TO to) (VP (VB leave) (SBAR (IN before) (S (NP (DT the) (NN storm)) (VP (VBD worsened)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 case 3|5 nummod 4|2 nmod:about 5|8 advmod 6|8 case 7|5 nmod:in 8|5 cc 9|2 nmod:about 10|5 conj:and 10|12 compound 11|2 dobj 12|14 mark 13|12 acl:to 14|18 mark 15|17 det 16|18 nsubj 17|14 advcl:before 18|2 punct 19|
+<word> `` Most of them use public transportation to commute . 
+<lemma> `` most of they use public transportation to commute . 
+<POS> `` JJS IN PRP VBP JJ NN TO NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (NP (JJS Most)) (PP (IN of) (NP (PRP them)))) (VP (VBP use) (NP (JJ public) (NN transportation)) (PP (TO to) (NP (NN commute)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|4 case 3|2 nmod:of 4|7 amod 6|5 dobj 7|9 case 8|5 nmod:to 9|5 punct 10|
+<word> The rain is n't so strong yet -LRB- in Tokyo -RRB- but the storm is likely to intensify and could disrupt train and other services , '' said company spokesman Hirotomo Fujimori , adding the early finish was to allow staff to get home . 
+<lemma> the rain be not so strong yet -lrb- in Tokyo -rrb- but the storm be likely to intensify and could disrupt train and other service , '' say company spokesman Hirotomo Fujimori , add the early finish be to allow staff to get home . 
+<POS> DT NN VBZ RB RB JJ RB -LRB- IN NNP -RRB- CC DT NN VBZ JJ TO VB CC MD VB NN CC JJ NNS , '' VBD NN NN NNP NNP , VBG DT JJ NN VBD TO VB NN TO VB NN . 
+<NER> O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O O O O O PERSON PERSON O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (S (S (NP (DT The) (NN rain)) (VP (VBZ is) (RB n't) (ADJP (RB so) (JJ strong)) (ADVP (ADVP (RB yet)) (PRN (-LRB- -LRB-) (PP (IN in) (NP (NNP Tokyo))) (-RRB- -RRB-))))) (CC but) (S (NP (DT the) (NN storm)) (VP (VP (VBZ is) (ADJP (JJ likely) (S (VP (TO to) (VP (VB intensify)))))) (CC and) (VP (MD could) (VP (VB disrupt) (NP (NN train) (CC and) (JJ other) (NNS services))))))) (, ,) ('' '') (VP (VBD said)) (NP (NN company) (NN spokesman) (NNP Hirotomo) (NNP Fujimori)) (, ,) (S (VP (VBG adding) (SBAR (S (NP (DT the) (JJ early) (NN finish)) (VP (VBD was) (S (VP (TO to) (VP (VB allow) (NP (NN staff)) (S (VP (TO to) (VP (VB get) (NP (NN home))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 28|2 det 1|6 nsubj 2|6 cop 3|6 neg 4|6 advmod 5|28 ccomp 6|6 advmod 7|10 punct 8|10 case 9|7 dep 10|10 punct 11|6 cc 12|14 det 13|16 nsubj 14|18 nsubj:xsubj 14|21 nsubj 14|16 cop 15|6 conj:but 16|28 ccomp 16|18 mark 17|16 xcomp 18|16 cc 19|21 aux 20|6 conj:but 21|16 conj:and 21|25 compound 22|22 cc 23|22 conj:and 24|25 compound 24|21 dobj 25|28 punct 26|28 punct 27|32 compound 29|32 compound 30|32 compound 31|28 nsubj 32|28 punct 33|28 advcl 34|37 det 35|37 amod 36|38 nsubj 37|40 nsubj:xsubj 37|34 ccomp 38|40 mark 39|38 xcomp 40|40 dobj 41|43 nsubj:xsubj 41|43 mark 42|40 xcomp 43|43 dobj 44|28 punct 45|
+<coreference> [['1,8,9,8', '2,14,15,14', '2,25,27,25', '9,20,21,20'], ['1,1,4,3', '20,16,18,17', '22,13,15,14'], ['1,13,15,14', '10,6,8,7', '17,8,10,9'], ['4,1,4,3', '4,18,19,18'], ['17,16,18,17', '4,6,9,8'], ['5,3,17,7', '5,27,28,27'], ['5,23,25,24', '16,8,10,9'], ['8,8,11,10', '5,33,35,34', '7,2,7,2'], ['6,2,3,2', '6,12,13,12', '7,6,7,6'], ['6,8,10,9', '6,21,23,22'], ['6,29,36,30', '7,12,13,12'], ['6,32,36,35', '8,1,4,3', '8,6,7,6', '11,1,3,2'], ['14,19,20,19', '15,9,10,9', '20,8,9,8', '22,10,11,10'], ['16,22,25,24', '18,1,2,1'], ['20,4,9,5', '21,4,5,4']]
+</DOC>

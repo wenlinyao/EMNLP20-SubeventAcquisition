@@ -1,0 +1,102 @@
+<DOC> article-10901.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 |
+<word> The vessel Low Speed Chase , a 12 metre racing sailboat with a crew of eight , was one of 49 yachts competing on Saturday in a race around South Farallon Island , part of a rugged , sparsely populated chain offshore from San Francisco . 
+<lemma> the vessel low speed Chase , a 12 metre racing sailboat with a crew of eight , be one of 49 yacht compete on Saturday in a race around South Farallon Island , part of a rugged , sparsely populated chain offshore from San Francisco . 
+<POS> DT NN JJ NN NNP , DT CD NN NN NN IN DT NN IN CD , VBD CD IN CD NNS VBG IN NNP IN DT NN RB NNP NNP NNP , NN IN DT JJ , RB JJ NN RB IN NNP NNP . 
+<NER> O O O O O O O NUMBER O O O O O O O NUMBER O O NUMBER O NUMBER O O O DATE O O O O LOCATION LOCATION LOCATION O O O O O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN vessel) (JJ Low) (NN Speed) (NNP Chase)) (, ,) (S (NP (DT a) (CD 12) (NN metre) (NN racing) (NN sailboat)) (PP (IN with) (NP (NP (DT a) (NN crew)) (PP (IN of) (NP (CD eight)))))) (, ,) (VP (VBD was) (NP (NP (CD one)) (PP (IN of) (NP (NP (CD 49) (NNS yachts)) (VP (VBG competing) (PP (IN on) (NP (NP (NNP Saturday)) (PP (IN in) (NP (NP (DT a) (NN race)) (PP (RB around) (NP (NP (NNP South) (NNP Farallon) (NNP Island)) (, ,) (NP (NP (NN part)) (PP (IN of) (NP (DT a) (ADJP (JJ rugged) (, ,) (RB sparsely) (JJ populated)) (NN chain)))))))))) (ADVP (RB offshore)) (PP (IN from) (NP (NNP San) (NNP Francisco)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|5 det 1|5 compound 2|5 amod 3|5 compound 4|19 nsubj 5|19 punct 6|11 det 7|11 nummod 8|11 compound 9|11 compound 10|19 ccomp 11|14 case 12|14 det 13|11 dep 14|16 case 15|14 nmod:of 16|19 punct 17|19 cop 18|22 case 20|22 nummod 21|19 nmod:of 22|22 acl 23|25 case 24|23 nmod:on 25|28 case 26|28 det 27|25 nmod:in 28|32 advmod 29|32 compound 30|32 compound 31|28 nmod 32|32 punct 33|32 appos 34|41 case 35|41 det 36|40 amod 37|40 punct 38|40 advmod 39|41 amod 40|34 nmod:of 41|23 advmod 42|45 case 43|45 compound 44|23 nmod:from 45|19 punct 46|
+<word> Officials said trouble began as the vessel rounded South Farallon Island on Saturday afternoon . 
+<lemma> official say trouble begin as the vessel round South Farallon Island on Saturday afternoon . 
+<POS> NNS VBD NN VBD IN DT NN VBD NNP NNP NNP IN NNP NN . 
+<NER> O O O O O O O O LOCATION LOCATION LOCATION O DATE TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Officials)) (VP (VBD said) (SBAR (S (NP (NN trouble)) (VP (VBD began) (SBAR (IN as) (S (NP (DT the) (NN vessel)) (VP (VBD rounded) (NP (NP (NNP South) (NNP Farallon) (NNP Island)) (PP (IN on) (NP (NNP Saturday)))) (NP-TMP (NN afternoon))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj 3|2 ccomp 4|8 mark 5|7 det 6|8 nsubj 7|4 advcl:as 8|11 compound 9|11 compound 10|8 dobj 11|13 case 12|11 nmod:on 13|8 nmod:tmod 14|2 punct 15|
+<word> A large wave initially swept four crew members into the ocean and when those remaining aboard tried to turn the craft around , another wave pushed the boat onto rocks , where it foundered . 
+<lemma> a large wave initially sweep four crew member into the ocean and when those remain aboard try to turn the craft around , another wave push the boat onto rock , where it founder . 
+<POS> DT JJ NN RB VBD CD NN NNS IN DT NN CC WRB DT VBG IN VBN TO VB DT NN RB , DT NN VBD DT NN IN NNS , WRB PRP VBD . 
+<NER> O O O O O NUMBER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT A) (JJ large) (NN wave)) (ADVP (RB initially)) (VP (VBD swept) (NP (CD four) (NN crew) (NNS members)) (PP (IN into) (NP (DT the) (NN ocean))))) (CC and) (S (SBAR (WHADVP (WRB when)) (S (NP (NP (DT those)) (VP (VBG remaining) (ADVP (IN aboard)))) (VP (VBN tried) (S (VP (TO to) (VP (VB turn) (NP (DT the) (NN craft)) (ADVP (RB around)))))))) (, ,) (NP (DT another) (NN wave)) (VP (VBD pushed) (NP (DT the) (NN boat)) (PP (IN onto) (NP (NNS rocks))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP it)) (VP (VBD foundered)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 advmod 4|8 nummod 6|8 compound 7|5 dobj 8|11 case 9|11 det 10|5 nmod:into 11|5 cc 12|17 advmod 13|17 nsubj 14|19 nsubj:xsubj 14|14 acl 15|15 advmod 16|26 advcl 17|19 mark 18|17 xcomp 19|21 det 20|19 dobj 21|19 advmod 22|26 punct 23|25 det 24|26 nsubj 25|5 conj:and 26|28 det 27|26 dobj 28|30 case 29|26 nmod:onto 30|26 punct 31|34 advmod 32|34 nsubj 33|26 advcl 34|5 punct 35|
+<word> Local media said the second wave tossed three more people into the water . 
+<lemma> local media say the second wave toss three more people into the water . 
+<POS> JJ NNS VBD DT JJ NN VBD CD JJR NNS IN DT NN . 
+<NER> O O O O ORDINAL O O NUMBER O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Local) (NNS media)) (VP (VBD said) (SBAR (S (NP (DT the) (JJ second) (NN wave)) (VP (VBD tossed) (NP (CD three) (JJR more) (NNS people)) (PP (IN into) (NP (DT the) (NN water))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 amod 1|3 nsubj 2|6 det 4|6 amod 5|7 nsubj 6|3 ccomp 7|10 nummod 8|10 amod 9|7 dobj 10|13 case 11|13 det 12|7 nmod:into 13|3 punct 14|
+<word> Air units from the coast guard and California Air National Guard lifted off after receiving an emergency transmission from a satellite beacon on the Low Speed Chase , as well as a mayday radio call from a nearby yacht , officials said . 
+<lemma> Air unit from the coast guard and California Air National Guard lift off after receive a emergency transmission from a satellite beacon on the low speed Chase , as well as a mayday radio call from a nearby yacht , official say . 
+<POS> NNP NNS IN DT NN NN CC NNP NNP NNP NNP VBD RP IN VBG DT NN NN IN DT NN NN IN DT JJ NN NNP , RB RB IN DT NN NN NN IN DT JJ NN , NNS VBD . 
+<NER> O O O O ORGANIZATION ORGANIZATION O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNP Air) (NNS units)) (PP (IN from) (NP (NP (DT the) (NN coast) (NN guard)) (CC and) (NP (NNP California) (NNP Air) (NNP National) (NNP Guard))))) (VP (VBD lifted) (PRT (RP off)) (PP (IN after) (S (VP (VBG receiving) (NP (DT an) (NN emergency) (NN transmission)) (PP (IN from) (NP (NP (NP (DT a) (NN satellite) (NN beacon)) (PP (IN on) (NP (DT the) (JJ Low) (NN Speed) (NNP Chase)))) (, ,) (CONJP (RB as) (RB well) (IN as)) (NP (NP (DT a) (NN mayday) (NN radio) (NN call)) (PP (IN from) (NP (DT a) (JJ nearby) (NN yacht))))))))))) (, ,) (NP (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 42|2 compound 1|12 nsubj 2|6 case 3|6 det 4|6 compound 5|2 nmod:from 6|6 cc 7|11 compound 8|11 compound 9|11 compound 10|2 nmod:from 11|6 conj:and 11|42 ccomp 12|12 compound:prt 13|15 mark 14|12 advcl:after 15|18 det 16|18 compound 17|15 dobj 18|22 case 19|22 det 20|22 compound 21|15 nmod:from 22|27 case 23|27 det 24|27 amod 25|27 compound 26|22 nmod:on 27|22 punct 28|22 cc 29|29 mwe 30|29 mwe 31|35 det 32|35 compound 33|35 compound 34|15 nmod:from 35|22 conj:and 35|39 case 36|39 det 37|39 amod 38|35 nmod:from 39|42 punct 40|42 nsubj 41|42 punct 43|
+<word> The accident came two weeks after a monster wave smashed into an Australian yacht taking part in a round-the-world race . 
+<lemma> the accident come two week after a monster wave smash into a australian yacht take part in a round-the-world race . 
+<POS> DT NN VBD CD NNS IN DT NN NN VBD IN DT JJ NN VBG NN IN DT JJ NN . 
+<NER> O O O DURATION DURATION O O O O O O O MISC O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN accident)) (VP (VBD came) (NP-TMP (CD two) (NNS weeks)) (SBAR (IN after) (S (NP (DT a) (NN monster) (NN wave)) (VP (VBD smashed) (PP (IN into) (NP (DT an) (JJ Australian) (NN yacht))) (S (VP (VBG taking) (NP (NN part)) (PP (IN in) (NP (DT a) (JJ round-the-world) (NN race))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nummod 4|3 nmod:tmod 5|10 mark 6|9 det 7|9 compound 8|10 nsubj 9|3 advcl:after 10|14 case 11|14 det 12|14 amod 13|10 nmod:into 14|10 xcomp 15|15 dobj 16|20 case 17|20 det 18|20 amod 19|15 nmod:in 20|3 punct 21|
+<word> Four crew members were hurt in that accident , which took place 400 nautical miles off the California coast , and the coast guard had to be called in to help . 
+<lemma> four crew member be hurt in that accident , which take place 400 nautical mile off the California coast , and the coast guard have to be call in to help . 
+<POS> CD NN NNS VBD VBN IN DT NN , WDT VBD NN CD JJ NNS IN DT NNP NN , CC DT NN NN VBD TO VB VBN IN TO VB . 
+<NER> NUMBER O O O O O O O O O O O NUMBER O O O O LOCATION O O O O ORGANIZATION ORGANIZATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (CD Four) (NN crew) (NNS members)) (VP (VBD were) (VP (VBN hurt) (PP (IN in) (NP (NP (DT that) (NN accident)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD took) (NP (NN place)) (NP-TMP (CD 400) (JJ nautical) (NNS miles)) (PP (IN off) (NP (DT the) (NNP California) (NN coast))))))))))) (, ,) (CC and) (S (NP (DT the) (NN coast) (NN guard)) (VP (VBD had) (S (VP (TO to) (VP (VB be) (VP (VBN called) (PP (IN in)))))) (S (VP (TO to) (VP (VB help)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 nummod 1|3 compound 2|5 nsubjpass 3|5 auxpass 4|8 case 6|8 det 7|5 nmod:in 8|11 nsubj 8|8 punct 9|8 ref 10|8 acl:relcl 11|11 dobj 12|15 nummod 13|15 amod 14|11 nmod:tmod 15|19 case 16|19 det 17|19 compound 18|11 nmod:off 19|5 punct 20|5 cc 21|24 det 22|24 compound 23|25 nsubj 24|28 nsubjpass:xsubj 24|31 nsubj:xsubj 24|5 conj:and 25|28 mark 26|28 auxpass 27|25 xcomp 28|28 nmod 29|31 mark 30|25 xcomp 31|5 punct 32|
+<word> No one was killed . 
+<lemma> no one be kill . 
+<POS> DT NN VBD VBN . 
+<NER> O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT No) (NN one)) (VP (VBD was) (VP (VBN killed))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 neg 1|4 nsubjpass 2|4 auxpass 3|4 punct 5|
+<word> Shortly after Saturday 's accident , helicopter crews quickly used litter baskets and motorized winches to rescue three sailors , said Levi Read , a US coast guard spokesman . 
+<lemma> shortly after Saturday 's accident , helicopter crew quickly use litter basket and motorized winch to rescue three sailor , say Levi Read , a US coast guard spokesman . 
+<POS> RB IN NNP POS NN , NN NNS RB VBD NN NNS CC JJ NNS TO VB CD NNS , VBD NNP NNP , DT NNP NN NN NN . 
+<NER> O O DATE O O O O O O O O O O O O O O NUMBER O O O PERSON PERSON O O LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (S (PP (RB Shortly) (PP (IN after) (NP (NP (NNP Saturday) (POS 's)) (NN accident)))) (, ,) (NP (NN helicopter) (NNS crews)) (VP (ADVP (RB quickly)) (VBD used) (NP (NP (NN litter) (NNS baskets)) (CC and) (NP (JJ motorized) (NNS winches))) (S (VP (TO to) (VP (VB rescue) (NP (CD three) (NNS sailors))))))) (, ,) (VP (VBD said)) (NP (NP (NNP Levi) (NNP Read)) (, ,) (NP (DT a) (NNP US) (NN coast) (NN guard) (NN spokesman))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|5 advmod 1|5 case 2|5 nmod:poss 3|3 case 4|10 advcl:after 5|10 punct 6|8 compound 7|10 nsubj 8|10 advmod 9|21 ccomp 10|12 compound 11|10 dobj 12|12 cc 13|15 amod 14|10 dobj 15|12 conj:and 15|17 mark 16|10 advcl:to 17|19 nummod 18|17 dobj 19|21 punct 20|23 compound 22|21 nsubj 23|23 punct 24|29 det 25|29 compound 26|29 compound 27|29 compound 28|23 appos 29|21 punct 30|
+<word> The rescuers also recovered the body of Marc Kasanin -LRB- 46 -RRB- of Belvedere , California , who was identified late on Sunday in a release from the San Francisco Yacht Club , where the Low Speed Chase was based . 
+<lemma> the rescuer also recover the body of Marc Kasanin -lrb- 46 -rrb- of Belvedere , California , who be identify late on Sunday in a release from the San Francisco Yacht Club , where the low speed Chase be base . 
+<POS> DT NNS RB VBD DT NN IN NNP NNP -LRB- CD -RRB- IN NNP , NNP , WP VBD VBN RB IN NNP IN DT NN IN DT NNP NNP NNP NNP , WRB DT JJ NN NNP VBD VBN . 
+<NER> O O O O O O O PERSON PERSON O NUMBER O O LOCATION O LOCATION O O O O DATE DATE DATE O O O O O LOCATION LOCATION LOCATION LOCATION O O O LOCATION LOCATION LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS rescuers)) (ADVP (RB also)) (VP (VBD recovered) (NP (NP (DT the) (NN body)) (PP (IN of) (NP (NP (NP (NNP Marc) (NNP Kasanin)) (PRN (-LRB- -LRB-) (NP (CD 46)) (-RRB- -RRB-))) (PP (IN of) (NP (NNP Belvedere) (, ,) (NNP California))) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN identified) (ADVP (RB late) (PP (IN on) (NP-TMP (NNP Sunday)))) (PP (IN in) (NP (NP (DT a) (NN release)) (PP (IN from) (NP (DT the) (NNP San) (NNP Francisco) (NNP Yacht) (NNP Club))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (JJ Low) (NN Speed) (NNP Chase)) (VP (VBD was) (VP (VBN based))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 det 5|4 dobj 6|9 case 7|9 compound 8|6 nmod:of 9|20 nsubjpass 9|11 punct 10|9 appos 11|11 punct 12|16 case 13|16 compound 14|16 punct 15|9 nmod:of 16|9 punct 17|9 ref 18|20 auxpass 19|9 acl:relcl 20|20 advmod 21|23 case 22|21 nmod:on 23|26 case 24|26 det 25|20 nmod:in 26|32 case 27|32 det 28|32 compound 29|32 compound 30|32 compound 31|26 nmod:from 32|20 punct 33|40 advmod 34|38 det 35|38 amod 36|38 compound 37|40 nsubjpass 38|40 auxpass 39|20 advcl 40|4 punct 41|
+<word> Mr Read had earlier said the prospects for surviving frigid ocean waters or holding onto the rocky shoals and cliffs of the Farallones depended on the missing sailors ' physical fitness , size and clothing . 
+<lemma> Mr Read have earlier say the prospects for survive frigid ocean water or hold onto the rocky shoal and cliff of the Farallones depend on the miss sailor ' physical fitness , size and clothing . 
+<POS> NNP NNP VBD RBR VBD DT NNS IN VBG JJ NN NNS CC VBG IN DT JJ NNS CC NNS IN DT NNPS VBD IN DT VBG NNS POS JJ NN , NN CC NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Mr) (NNP Read)) (VP (VBD had) (VP (ADVP (RBR earlier)) (VBD said) (NP (NP (DT the) (NNS prospects)) (PP (IN for) (S (VP (VP (VBG surviving) (NP (JJ frigid) (NN ocean) (NNS waters))) (CC or) (VP (VBG holding) (PP (IN onto) (NP (DT the) (JJ rocky) (NNS shoals))))))))))) (CC and) (S (NP (NP (NNS cliffs)) (PP (IN of) (NP (DT the) (NNPS Farallones)))) (VP (VBD depended) (PP (IN on) (NP (NP (NP (DT the) (VBG missing) (NNS sailors) (POS ')) (JJ physical) (NN fitness)) (, ,) (NP (NN size) (CC and) (NN clothing)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubj 2|5 aux 3|5 advmod 4|7 det 6|5 dobj 7|9 mark 8|7 acl:for 9|12 amod 10|12 compound 11|9 dobj 12|9 cc 13|7 acl:for 14|9 conj:or 14|18 case 15|18 det 16|18 amod 17|14 nmod:onto 18|5 cc 19|24 nsubj 20|23 case 21|23 det 22|20 nmod:of 23|5 conj:and 24|31 case 25|28 det 26|28 amod 27|31 nmod:poss 28|28 case 29|31 amod 30|24 nmod:on 31|31 punct 32|31 appos 33|33 cc 34|31 appos 35|33 conj:and 35|5 punct 36|
+<word> `` The people who were rescued had on cold-weather gear and inflatable life vests , '' he said . 
+<lemma> `` the people who be rescue have on cold-weather gear and inflatable life vest , '' he say . 
+<POS> `` DT NNS WP VBD VBN VBD IN JJ NN CC JJ NN NNS , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NP (DT The) (NNS people)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN rescued)))))) (VP (VBD had) (PP (IN on) (NP (JJ cold-weather) (NN gear) (CC and) (JJ inflatable) (NN life) (NNS vests))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 punct 1|3 det 2|6 nsubjpass 3|7 nsubj 3|3 ref 4|6 auxpass 5|3 acl:relcl 6|18 ccomp 7|10 case 8|10 amod 9|7 nmod:on 10|10 cc 11|14 amod 12|14 compound 13|7 nmod:on 14|10 conj:and 14|18 punct 15|18 punct 16|18 nsubj 17|18 punct 19|
+<word> Ed Lynch , the yacht club 's director , said the three rescued sailors were `` all pretty shaken up '' and taken to San Francisco General Hospital . 
+<lemma> Ed Lynch , the yacht club 's director , say the three rescue sailor be `` all pretty shake up '' and take to San Francisco General Hospital . 
+<POS> NNP NNP , DT NN NN POS NN , VBD DT CD VBD NNS VBD `` DT RB VBN RP '' CC VBN TO NNP NNP NNP NNP . 
+<NER> PERSON PERSON O O O O O O O O O NUMBER O O O O O O O O O O O O LOCATION LOCATION LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Ed) (NNP Lynch)) (, ,) (NP (NP (DT the) (NN yacht) (NN club) (POS 's)) (NN director)) (, ,)) (VP (VBD said) (SBAR (S (NP (DT the) (CD three)) (VP (VBD rescued) (SBAR (S (NP (NNS sailors)) (VP (VBD were) (VP (`` ``) (VP (ADVP (DT all) (RB pretty)) (VBN shaken) (PRT (RP up)) ('' '')) (CC and) (VP (VBN taken) (PP (TO to) (NP (NNP San) (NNP Francisco) (NNP General) (NNP Hospital)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 compound 1|10 nsubj 2|2 punct 3|6 det 4|6 compound 5|8 nmod:poss 6|6 case 7|2 appos 8|2 punct 9|12 det 11|13 nsubj 12|10 ccomp 13|19 nsubjpass 14|23 nsubjpass 14|19 auxpass 15|19 punct 16|18 dep 17|19 advmod 18|13 ccomp 19|19 compound:prt 20|19 punct 21|19 cc 22|13 ccomp 23|19 conj:and 23|28 case 24|28 compound 25|28 compound 26|28 compound 27|23 nmod:to 28|10 punct 29|
+<word> Two were treated and released on Saturday and one remained hospitalized yesterday with a fractured leg . 
+<lemma> two be treat and release on Saturday and one remain hospitalize yesterday with a fractured leg . 
+<POS> CD VBD VBN CC VBN IN NNP CC CD VBD VBN NN IN DT JJ NN . 
+<NER> NUMBER O O O O O DATE O NUMBER O O DATE O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (CD Two)) (VP (VBD were) (VP (VBN treated) (CC and) (VBN released) (PP (IN on) (NP (NNP Saturday)))))) (CC and) (S (NP (CD one)) (VP (VBD remained) (VP (VBN hospitalized) (NP-TMP (NN yesterday)) (PP (IN with) (NP (DT a) (JJ fractured) (NN leg)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|5 nsubjpass 1|3 auxpass 2|3 cc 4|3 conj:and 5|7 case 6|3 nmod:on 7|3 cc 8|10 nsubj 9|3 conj:and 10|10 xcomp 11|11 nmod:tmod 12|16 case 13|16 det 14|16 amod 15|11 nmod:with 16|3 punct 17|
+<coreference> [['1,30,33,32', '1,34,42,34'], ['10,35,39,38', '1,1,6,5', '5,24,28,27'], ['1,25,42,25', '2,13,14,13', '9,3,5,3', '14,7,8,7'], ['2,1,2,1', '5,41,42,41'], ['3,6,7,6', '7,1,2,1'], ['3,6,9,8', '7,1,4,3'], ['3,14,17,14', '3,33,34,33'], ['13,11,13,12', '4,8,9,8', '9,18,19,18'], ['5,4,7,6', '7,22,25,24'], ['5,32,40,35', '5,20,28,22'], ['6,1,3,2', '7,7,9,8'], ['7,18,19,18', '10,16,17,16'], ['10,29,33,32', '13,4,8,6'], ['10,8,41,9', '12,17,18,17'], ['11,26,30,28', '13,14,15,14'], ['13,1,3,2', '13,4,9,8']]
+</DOC>

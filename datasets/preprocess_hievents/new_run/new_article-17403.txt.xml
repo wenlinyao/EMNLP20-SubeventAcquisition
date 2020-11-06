@@ -1,0 +1,53 @@
+<DOC> article-17403.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 |
+<word> Fierce clashes overnight shook the northern port city and sporadic fighting continued on Monday . 
+<lemma> fierce clash overnight shake the northern port city and sporadic fight continue on Monday . 
+<POS> JJ NNS JJ VBD DT JJ JJ NN CC JJ VBG VBN IN NNP . 
+<NER> O O TIME O O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Fierce) (NNS clashes)) (JJ overnight)) (VP (VBD shook) (NP (NP (DT the) (JJ northern) (JJ port) (NN city)) (CC and) (NP (NP (JJ sporadic) (VBG fighting)) (VP (VBN continued) (PP (IN on) (NP (NNP Monday))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|2 amod 3|8 det 5|8 amod 6|8 amod 7|4 dobj 8|8 cc 9|4 dobj 10|8 conj:and 10|10 amod 11|10 acl 12|14 case 13|12 nmod:on 14|4 punct 15|
+<word> Machineguns and rocket propelled grenades were used . 
+<lemma> machinegun and rocket propel grenade be use . 
+<POS> NNS CC NN VBD NNS VBD VBN . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Machineguns) (CC and) (NN rocket)) (VP (VBD propelled) (SBAR (S (NP (NNS grenades)) (VP (VBD were) (VP (VBN used)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|1 cc 2|1 conj:and 3|4 nsubj 3|7 nsubjpass 5|7 auxpass 6|4 ccomp 7|4 punct 8|
+<word> Tension between the Alawite and Sunni communities in Tripoli has been fuelled by the unrest in neighboring Syria , where Assad is seeking to crush a 14-month-old uprising which began with largely peaceful protests against his rule but has become increasingly militarized . 
+<lemma> tension between the Alawite and Sunni community in Tripoli have be fuel by the unrest in neighbor Syria , where Assad be seek to crush a 14-month-old uprising which begin with largely peaceful protest against he rule but have become increasingly militarized . 
+<POS> NN IN DT NNP CC NNP NNS IN NNP VBZ VBN VBN IN DT NN IN VBG NNP , WRB NNP VBZ VBG TO VB DT JJ NN WDT VBD IN RB JJ NNS IN PRP$ NN CC VBZ VBN RB JJ . 
+<NER> O O O MISC O MISC O O LOCATION O O O O O O O O LOCATION O O PERSON O O O O O DURATION O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NN Tension)) (PP (IN between) (NP (NP (DT the) (NNP Alawite) (CC and) (NNP Sunni) (NNS communities)) (PP (IN in) (NP (NNP Tripoli)))))) (VP (VBZ has) (VP (VBN been) (VP (VBN fuelled) (PP (IN by) (NP (NP (DT the) (NN unrest)) (PP (IN in) (NP (VBG neighboring) (NNP Syria))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NNP Assad)) (VP (VBZ is) (VP (VBG seeking) (S (VP (TO to) (VP (VB crush) (NP (NP (DT a) (JJ 14-month-old) (NN uprising)) (SBAR (WHNP (WDT which)) (S (VP (VP (VBD began) (PP (IN with) (NP (ADJP (RB largely) (JJ peaceful)) (NNS protests))) (PP (IN against) (NP (PRP$ his) (NN rule)))) (CC but) (VP (VBZ has) (VP (VBN become) (S (ADJP (RB increasingly) (JJ militarized))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|12 nsubjpass 1|7 case 2|7 det 3|7 compound 4|4 cc 5|4 conj:and 6|7 compound 6|1 nmod:between 7|9 case 8|7 nmod:in 9|12 aux 10|12 auxpass 11|15 case 13|15 det 14|12 nmod:agent 15|18 case 16|18 amod 17|15 nmod:in 18|12 punct 19|23 advmod 20|23 nsubj 21|25 nsubj:xsubj 21|23 aux 22|12 advcl 23|25 mark 24|23 xcomp 25|28 det 26|28 amod 27|25 dobj 28|30 nsubj 28|40 nsubj 28|28 ref 29|28 acl:relcl 30|34 case 31|33 advmod 32|34 amod 33|30 nmod:with 34|37 case 35|37 nmod:poss 36|30 nmod:against 37|30 cc 38|40 aux 39|28 acl:relcl 40|30 conj:but 40|42 advmod 41|40 xcomp 42|12 punct 43|
+<word> Read the full story . 
+<lemma> read the full story . 
+<POS> VB DT JJ NN . 
+<NER> O O O O O 
+<Timex> None
+<parse>         (ROOT (S (VP (VB Read) (NP (DT the) (JJ full) (NN story))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|4 det 2|4 amod 3|1 dobj 4|1 punct 5|
+<word> A Sunni Muslim gunman carries a machinegun during clashes at the Sunni Muslim Bab al-Tebbaneh neighbourhood in Tripoli , northern Lebanon , on May 14 . 
+<lemma> a Sunni muslim gunman carry a machinegun during clash at the Sunni muslim bab al-tebbaneh neighbourhood in Tripoli , northern Lebanon , on May 14 . 
+<POS> DT NNP JJ NN VBZ DT NN IN NNS IN DT NNP JJ NN JJ NN IN NNP , JJ NNP , IN NNP CD . 
+<NER> O MISC MISC O O O O O O O O O O O O O O LOCATION O O LOCATION O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP Sunni) (JJ Muslim) (NN gunman)) (VP (VBZ carries) (NP (DT a) (NN machinegun)) (PP (IN during) (NP (NP (NNS clashes)) (PP (IN at) (NP (DT the) (NNP Sunni) (JJ Muslim) (NN Bab) (JJ al-Tebbaneh) (NN neighbourhood))))) (PP (IN in) (NP (NNP Tripoli) (, ,) (JJ northern) (NNP Lebanon))) (, ,) (PP (IN on) (NP (NNP May) (CD 14)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 compound 2|4 amod 3|5 nsubj 4|7 det 6|5 dobj 7|9 case 8|5 nmod:during 9|16 case 10|16 det 11|16 compound 12|16 amod 13|16 compound 14|16 amod 15|9 nmod:at 16|21 case 17|21 compound 18|21 punct 19|21 amod 20|5 nmod:in 21|5 punct 22|24 case 23|5 nmod:on 24|24 nummod 25|5 punct 26|
+<word> Two men were killed and at least 20 were wounded in clashes between Alawite supporters of Syrian President Bashar al-Assad and Sunni Muslim fighters in the Lebanese city of Tripoli , medical sources said on Monday . 
+<lemma> two man be kill and at least 20 be wound in clash between alawite supporter of syrian President Bashar al-Assad and Sunni muslim fighter in the lebanese city of Tripoli , medical source say on Monday . 
+<POS> CD NNS VBD VBN CC IN JJS CD VBD VBN IN NNS IN JJ NNS IN JJ NNP NNP NNP CC NNP JJ NNS IN DT JJ NN IN NNP , JJ NNS VBD IN NNP . 
+<NER> NUMBER O O O O O O NUMBER O O O O O MISC O O MISC O PERSON PERSON O MISC MISC O O O MISC O O LOCATION O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (CD Two) (NNS men)) (VP (VBD were) (VP (VBN killed)))) (CC and) (S (NP (QP (IN at) (JJS least) (CD 20))) (VP (VBD were) (VP (VBN wounded) (PP (IN in) (NP (NP (NNS clashes)) (PP (IN between) (NP (NP (JJ Alawite) (NNS supporters)) (PP (IN of) (NP (JJ Syrian) (NNP President) (NNP Bashar) (NNP al-Assad) (CC and) (NNP Sunni) (JJ Muslim) (NNS fighters))))))) (PP (IN in) (NP (NP (DT the) (JJ Lebanese) (NN city)) (PP (IN of) (NP (NNP Tripoli))))))))) (, ,) (NP (JJ medical) (NNS sources)) (VP (VBD said) (PP (IN on) (NP (NNP Monday)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 34|2 nummod 1|4 nsubjpass 2|4 auxpass 3|34 ccomp 4|4 cc 5|7 case 6|8 nmod:npmod 7|10 nsubjpass 8|10 auxpass 9|4 conj:and 10|34 ccomp 10|12 case 11|10 nmod:in 12|15 case 13|15 amod 14|12 nmod:between 15|20 case 16|20 amod 17|20 compound 18|20 compound 19|15 nmod:of 20|20 cc 21|24 compound 22|24 amod 23|15 nmod:of 24|20 conj:and 24|28 case 25|28 det 26|28 amod 27|10 nmod:in 28|30 case 29|28 nmod:of 30|34 punct 31|33 amod 32|34 nsubj 33|36 case 35|34 nmod:on 36|34 punct 37|
+<word> Fierce clashes overnight shook the northern port city and sporadic fighting continued on Monday morning , with fighters firing machineguns and rocket propelled grenades . 
+<lemma> fierce clash overnight shake the northern port city and sporadic fight continue on Monday morning , with fighter firing machinegun and rocket propel grenade . 
+<POS> JJ NNS JJ VBD DT JJ JJ NN CC JJ VBG VBN IN NNP NN , IN NNS NN NNS CC NN VBD NNS . 
+<NER> O O TIME O O O O O O O O O O DATE TIME O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Fierce) (NNS clashes)) (JJ overnight)) (VP (VBD shook) (NP (NP (DT the) (JJ northern) (JJ port) (NN city)) (CC and) (NP (NP (JJ sporadic) (VBG fighting)) (VP (VBN continued) (PP (IN on) (NP (NNP Monday))) (NP-TMP (NN morning))))) (, ,) (PP (IN with) (NP (NP (NNS fighters)) (SBAR (S (NP (NN firing) (NNS machineguns) (CC and) (NN rocket)) (VP (VBD propelled) (NP (NNS grenades)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|2 amod 3|8 det 5|8 amod 6|8 amod 7|4 dobj 8|8 cc 9|4 dobj 10|8 conj:and 10|10 amod 11|10 acl 12|14 case 13|12 nmod:on 14|12 nmod:tmod 15|4 punct 16|18 case 17|4 nmod:with 18|20 compound 19|23 nsubj 20|20 cc 21|20 conj:and 22|23 nsubj 22|18 acl:relcl 23|23 dobj 24|4 punct 25|
+<coreference> [['1,1,4,2', '7,1,4,2'], ['1,5,9,8', '7,5,9,8'], ['1,14,15,14', '6,36,37,36', '7,14,15,14'], ['2,5,6,5', '7,24,25,24'], ['3,4,5,4', '6,14,15,14'], ['3,9,10,9', '5,18,19,18', '6,30,31,30'], ['3,21,22,21', '3,36,37,36'], ['5,2,4,2', '6,22,24,22']]
+</DOC>

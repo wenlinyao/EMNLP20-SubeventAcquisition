@@ -1,0 +1,67 @@
+<DOC> article-15859.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 |
+<word> Spain 's Telefonica said first-quarter net profit halved after the value of its stake in Telecom Italia plunged following a capital increase and it cut prices in its recession-hit home country . 
+<lemma> Spain 's Telefonica say first-quarter net profit halve after the value of its stake in Telecom Italia plunge follow a capital increase and it cut price in its recession-hit home country . 
+<POS> NNP POS NNP VBD JJ JJ NN VBN IN DT NN IN PRP$ NN IN NNP NNP VBD VBG DT NN NN CC PRP VBD NNS IN PRP$ JJ NN NN . 
+<NER> LOCATION O ORGANIZATION O DATE O O O O O O O O O O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Spain) (POS 's)) (NNP Telefonica)) (VP (VBD said) (SBAR (S (S (NP (NP (JJ first-quarter) (JJ net) (NN profit)) (VP (VBN halved) (PP (IN after) (NP (NP (DT the) (NN value)) (PP (IN of) (NP (NP (PRP$ its) (NN stake)) (PP (IN in) (NP (NNP Telecom) (NNP Italia))))))))) (VP (VBD plunged) (PP (VBG following) (NP (DT a) (NN capital) (NN increase))))) (CC and) (S (NP (PRP it)) (VP (VBD cut) (NP (NNS prices)) (PP (IN in) (NP (PRP$ its) (JJ recession-hit) (NN home) (NN country)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 nmod:poss 1|1 case 2|4 nsubj 3|7 amod 5|7 amod 6|18 nsubj 7|7 acl 8|11 case 9|11 det 10|8 nmod:after 11|14 case 12|14 nmod:poss 13|11 nmod:of 14|17 case 15|17 compound 16|14 nmod:in 17|4 dep 18|22 case 19|22 det 20|22 compound 21|18 nmod:following 22|18 cc 23|25 nsubj 24|4 dep 25|18 conj:and 25|25 dobj 26|31 case 27|31 nmod:poss 28|31 amod 29|31 compound 30|25 nmod:in 31|4 punct 32|
+<word> Spain 's economy , which sunk into a recession in the first three months of 2012 , is not expected to grow again until the end of the year at the earliest . 
+<lemma> Spain 's economy , which sink into a recession in the first three month of 2012 , be not expect to grow again until the end of the year at the earliest . 
+<POS> NNP POS NN , WDT VBD IN DT NN IN DT JJ CD NNS IN CD , VBZ RB VBN TO VB RB IN DT NN IN DT NN IN DT JJS . 
+<NER> LOCATION O O O O O O O O O DATE DATE DATE DATE DATE DATE O O O O O O O O DATE DATE DATE DATE DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (NNP Spain) (POS 's)) (NN economy)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD sunk) (PP (IN into) (NP (DT a) (NN recession))) (PP (IN in) (NP (NP (DT the) (JJ first) (CD three) (NNS months)) (PP (IN of) (NP (CD 2012)))))))) (, ,)) (VP (VBZ is) (RB not) (VP (VBN expected) (S (VP (TO to) (VP (VB grow) (ADVP (RB again)) (PP (IN until) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (NP (DT the) (NN year)) (PP (IN at) (NP (DT the) (JJS earliest)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|3 nmod:poss 1|1 case 2|6 nsubj 3|20 nsubjpass 3|22 nsubj:xsubj 3|3 punct 4|3 ref 5|3 acl:relcl 6|9 case 7|9 det 8|6 nmod:into 9|14 case 10|14 det 11|14 amod 12|14 nummod 13|6 nmod:in 14|16 case 15|14 nmod:of 16|3 punct 17|20 auxpass 18|20 neg 19|22 mark 21|20 xcomp 22|22 advmod 23|26 case 24|26 det 25|22 nmod:until 26|29 case 27|29 det 28|26 nmod:of 29|32 case 30|32 det 31|29 nmod:at 32|20 punct 33|
+<word> Net profit at the euro zone 's largest telecoms company , which operates as o2 in Ireland , fell 54 per cent to E748 million , below the bottom end of analyst forecasts that ranged from E764 million to E1 .2 billion . 
+<lemma> net profit at the euro zone 's largest telecom company , which operate as o2 in Ireland , fall 54 per cent to e748 million , below the bottom end of analyst forecast that range from e764 million to e1 .2 billion . 
+<POS> JJ NN IN DT NN NN POS JJS NNS NN , WDT VBZ IN NN IN NNP , VBD CD IN NN TO CD CD , IN DT JJ NN IN NN NNS WDT VBD IN CD CD TO NN NN CD . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O O NUMBER O O O NUMBER NUMBER O O O O O O O O O O O NUMBER NUMBER O O MONEY MONEY O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Net) (NN profit)) (PP (IN at) (NP (NP (DT the) (NN euro) (NN zone) (POS 's)) (JJS largest) (NNS telecoms) (NN company))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ operates) (PP (IN as) (NP (NP (NN o2)) (PP (IN in) (NP (NNP Ireland)))))))) (, ,)) (VP (VBD fell) (NP (NP (CD 54)) (PP (IN per) (NP (NN cent)))) (PP (TO to) (NP (QP (CD E748) (CD million)))) (, ,) (PP (IN below) (NP (NP (DT the) (JJ bottom) (NN end)) (PP (IN of) (NP (NN analyst) (NNS forecasts))) (SBAR (WHNP (WDT that)) (S (VP (VBD ranged) (PP (IN from) (NP (QP (CD E764) (CD million)))) (PP (TO to) (NP (NN E1) (NN .2) (CD billion))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|2 amod 1|13 nsubj 2|19 nsubj 2|10 case 3|6 det 4|6 compound 5|10 nmod:poss 6|6 case 7|10 amod 8|10 compound 9|2 nmod:at 10|2 punct 11|2 ref 12|2 acl:relcl 13|15 case 14|13 nmod:as 15|17 case 16|15 nmod:in 17|2 punct 18|19 dobj 20|22 case 21|20 nmod:per 22|25 case 23|25 compound 24|19 nmod:to 25|19 punct 26|30 case 27|30 det 28|30 amod 29|19 nmod:below 30|35 nsubj 30|33 case 31|33 compound 32|30 nmod:of 33|30 ref 34|30 acl:relcl 35|38 case 36|38 compound 37|35 nmod:from 38|41 case 39|41 compound 40|35 nmod:to 41|41 nummod 42|19 punct 43|
+<word> The bottom line was hit after Telefonica wrote down the value of its 10 per cent indirect stake in Telecom Italia to E337 million . 
+<lemma> the bottom line be hit after Telefonica write down the value of its 10 per cent indirect stake in Telecom Italia to e337 million . 
+<POS> DT JJ NN VBD VBN IN NNP VBD RP DT NN IN PRP$ CD IN NN JJ NN IN NNP NNP TO CD CD . 
+<NER> O O O O O O ORGANIZATION O O O O O O NUMBER O O O O O ORGANIZATION ORGANIZATION O NUMBER NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ bottom) (NN line)) (VP (VBD was) (VP (VBN hit) (SBAR (IN after) (S (NP (NNP Telefonica)) (VP (VBD wrote) (PRT (RP down)) (NP (NP (DT the) (NN value)) (PP (IN of) (NP (PRP$ its) (CD 10))) (PP (IN per) (NP (NP (NN cent) (JJ indirect) (NN stake)) (PP (IN in) (NP (NNP Telecom) (NNP Italia)))))) (PP (TO to) (NP (QP (CD E337) (CD million))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubjpass 3|5 auxpass 4|8 mark 6|8 nsubj 7|5 advcl:after 8|8 compound:prt 9|11 det 10|8 dobj 11|14 case 12|14 nmod:poss 13|11 nmod:of 14|18 case 15|18 compound 16|18 amod 17|11 nmod:per 18|21 case 19|21 compound 20|18 nmod:in 21|24 case 22|24 compound 23|8 nmod:to 24|5 punct 25|
+<word> Telefonica invested E2 .3 billion when it bought the stake in 2008 . 
+<lemma> Telefonica invest e2 .3 billion when it buy the stake in 2008 . 
+<POS> NNP VBD NN NN CD WRB PRP VBD DT NN IN CD . 
+<NER> ORGANIZATION O O NUMBER NUMBER O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Telefonica)) (VP (VBD invested) (NP (NN E2) (NN .3) (CD billion)) (SBAR (WHADVP (WRB when)) (S (NP (PRP it)) (VP (VBD bought) (NP (DT the) (NN stake)) (PP (IN in) (NP (CD 2008))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 compound 3|2 dobj 4|4 nummod 5|8 advmod 6|8 nsubj 7|2 advcl 8|10 det 9|8 dobj 10|12 case 11|8 nmod:in 12|2 punct 13|
+<word> Italy 's biggest telecom player posted a net loss for 2011 after a goodwill writedown on its domestic business due to an economic downturn . 
+<lemma> Italy 's biggest telecom player post a net loss for 2011 after a goodwill writedown on its domestic business due to a economic downturn . 
+<POS> NNP POS JJS NN NN VBD DT JJ NN IN CD IN DT NN NN IN PRP$ JJ NN JJ TO DT JJ NN . 
+<NER> LOCATION O O O O O O O O O DATE O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Italy) (POS 's)) (JJS biggest) (NN telecom) (NN player)) (VP (VBD posted) (NP (DT a) (JJ net) (NN loss)) (PP (IN for) (NP (CD 2011))) (PP (IN after) (NP (NP (DT a) (NN goodwill) (NN writedown)) (PP (IN on) (NP (NP (PRP$ its) (JJ domestic) (NN business)) (ADJP (JJ due) (PP (TO to) (NP (DT an) (JJ economic) (NN downturn))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 nmod:poss 1|1 case 2|5 amod 3|5 compound 4|6 nsubj 5|9 det 7|9 amod 8|6 dobj 9|11 case 10|6 nmod:for 11|15 case 12|15 det 13|15 compound 14|6 nmod:after 15|19 case 16|19 nmod:poss 17|19 amod 18|15 nmod:on 19|19 amod 20|24 case 21|24 det 22|24 amod 23|20 nmod:to 24|6 punct 25|
+<word> Last week Telecom Italia shareholders agreed to refinance its investment vehicle 's debt , meaning Telefonica must contribute E277 million to a capital increase and new bond issue . 
+<lemma> last week Telecom Italia shareholder agree to refinance its investment vehicle 's debt , mean Telefonica must contribute e277 million to a capital increase and new bond issue . 
+<POS> JJ NN NNP NNP NNS VBD TO VB PRP$ NN NN POS NN , VBG NNP MD VB CD CD TO DT NN NN CC JJ NN NN . 
+<NER> DATE DATE ORGANIZATION ORGANIZATION O O O O O O O O O O O ORGANIZATION O O NUMBER NUMBER O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP-TMP (JJ Last) (NN week)) (NP (NNP Telecom) (NNP Italia) (NNS shareholders)) (VP (VBD agreed) (S (VP (TO to) (VP (VB refinance) (NP (NP (PRP$ its) (NN investment) (NN vehicle) (POS 's)) (NN debt))))) (, ,) (S (VP (VBG meaning) (SBAR (S (NP (NNP Telefonica)) (VP (MD must) (VP (VB contribute) (NP (QP (CD E277) (CD million))) (PP (TO to) (NP (NP (DT a) (NN capital) (NN increase)) (CC and) (NP (JJ new) (NN bond) (NN issue))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 amod 1|6 nmod:tmod 2|5 compound 3|5 compound 4|6 nsubj 5|8 nsubj:xsubj 5|8 mark 7|6 xcomp 8|11 nmod:poss 9|11 compound 10|13 nmod:poss 11|11 case 12|8 dobj 13|6 punct 14|6 xcomp 15|18 nsubj 16|18 aux 17|15 ccomp 18|20 compound 19|18 dobj 20|24 case 21|24 det 22|24 compound 23|18 nmod:to 24|24 cc 25|28 amod 26|28 compound 27|18 nmod:to 28|24 conj:and 28|6 punct 29|
+<word> Telefonica 's revenue was virtually flat at E15 .5 billion as fast growth in Latin America , which accounts for almost half of group revenue , compensated for tough competition in the company 's main European markets , where revenues slipped . 
+<lemma> Telefonica 's revenue be virtually flat at e15 .5 billion as fast growth in Latin America , which account for almost half of group revenue , compensate for tough competition in the company 's main european market , where revenue slip . 
+<POS> NNP POS NN VBD RB JJ IN CD CD CD IN JJ NN IN NNP NNP , WDT VBZ IN RB DT IN NN NN , VBN IN JJ NN IN DT NN POS JJ JJ NNS , WRB NNS VBD . 
+<NER> ORGANIZATION O O O O O O NUMBER NUMBER NUMBER O O O O LOCATION LOCATION O O O O O O O O O O O O O O O O O O O MISC O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Telefonica) (POS 's)) (NN revenue)) (VP (VBD was) (ADJP (RB virtually) (JJ flat)) (PP (IN at) (NP (NP (CD E15) (ADJP (QP (CD .5) (CD billion)) (IN as) (JJ fast)) (NN growth)) (PP (IN in) (NP (NP (NNP Latin) (NNP America)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ accounts) (PP (IN for) (NP (NP (QP (RB almost) (DT half))) (PP (IN of) (NP (NN group) (NN revenue))))) (, ,) (VP (VBN compensated) (PP (IN for) (NP (NP (JJ tough) (NN competition)) (PP (IN in) (NP (NP (DT the) (NN company) (POS 's)) (JJ main) (JJ European) (NNS markets))))))))))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (NNS revenues)) (VP (VBD slipped))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 nmod:poss 1|1 case 2|6 nsubj 3|6 cop 4|6 advmod 5|13 case 7|13 nummod 8|10 compound 9|12 dep 10|12 dep 11|13 dep 12|6 nmod:at 13|16 case 14|16 compound 15|13 nmod:in 16|19 nsubj 16|16 punct 17|16 ref 18|16 acl:relcl 19|22 case 20|22 advmod 21|19 nmod:for 22|25 case 23|25 compound 24|22 nmod:of 25|19 punct 26|19 dep 27|30 case 28|30 amod 29|27 nmod:for 30|37 case 31|33 det 32|37 nmod:poss 33|33 case 34|37 amod 35|37 amod 36|30 nmod:in 37|6 punct 38|41 advmod 39|41 nsubj 40|6 advcl 41|6 punct 42|
+<word> Telefonica chairman Cesar Alierta said the results were in line with the company 's targets and reiterated 2012 earnings and debt forecasts . 
+<lemma> Telefonica chairman Cesar Alierta say the result be in line with the company 's target and reiterate 2012 earnings and debt forecast . 
+<POS> NNP NN NNP NNP VBD DT NNS VBD IN NN IN DT NN POS NNS CC VBD CD NNS CC NN NNS . 
+<NER> ORGANIZATION O PERSON PERSON O O O O O O O O O O O O O DATE O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Telefonica) (NN chairman) (NNP Cesar) (NNP Alierta)) (VP (VP (VBD said) (SBAR (S (NP (DT the) (NNS results)) (VP (VBD were) (PP (IN in) (NP (NP (NN line)) (PP (IN with) (NP (NP (DT the) (NN company) (POS 's)) (NNS targets))))))))) (CC and) (VP (VBD reiterated) (NP (NP (CD 2012) (NNS earnings)) (CC and) (NP (NN debt) (NNS forecasts))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|17 nsubj 4|7 det 6|10 nsubj 7|10 cop 8|10 case 9|5 ccomp 10|15 case 11|13 det 12|15 nmod:poss 13|13 case 14|10 nmod:with 15|5 cc 16|5 conj:and 17|19 nummod 18|17 dobj 19|19 cc 20|22 compound 21|17 dobj 22|19 conj:and 22|5 punct 23|
+<coreference> [['1,1,3,1', '2,1,3,1'], ['1,16,18,17', '4,20,22,21', '7,3,5,4'], ['1,1,4,3', '1,13,14,13', '4,7,8,7', '4,13,14,13', '5,1,2,1', '5,7,8,7', '7,16,17,16', '8,1,3,1', '9,1,2,1'], ['1,10,18,11', '1,24,25,24', '1,28,29,28'], ['1,20,23,22', '7,22,25,24'], ['3,4,11,10', '8,32,35,33', '9,12,15,13'], ['4,16,22,18', '5,9,11,10'], ['6,1,3,1', '6,17,18,17'], ['7,1,3,2', '7,9,10,9']]
+</DOC>

@@ -1,0 +1,88 @@
+<DOC> article-3160.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 |
+<word> Former Penn State football coach Jerry Sandusky posted bail Thursday after spending a night in jail following a new round of sex-abuse charges filed against him . 
+<lemma> former Penn State football coach Jerry Sandusky post bail Thursday after spend a night in jail follow a new round of sex-abuse charge file against he . 
+<POS> JJ NNP NNP NN NN NNP NNP VBD NN NNP IN VBG DT NN IN NN VBG DT JJ NN IN NN NNS VBN IN PRP . 
+<NER> O ORGANIZATION ORGANIZATION O O PERSON PERSON O O DATE O O O TIME O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Former) (NNP Penn) (NNP State) (NN football) (NN coach) (NNP Jerry) (NNP Sandusky)) (VP (VBD posted) (NP (NN bail)) (NP-TMP (NNP Thursday)) (PP (IN after) (S (VP (VBG spending) (NP (NP (DT a) (NN night)) (PP (IN in) (NP (NP (NN jail)) (PP (VBG following) (NP (NP (DT a) (JJ new) (NN round)) (PP (IN of) (NP (NP (NN sex-abuse) (NNS charges)) (VP (VBN filed) (PP (IN against) (NP (PRP him))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|7 amod 1|7 compound 2|7 compound 3|7 compound 4|7 compound 5|7 compound 6|8 nsubj 7|8 dobj 9|8 nmod:tmod 10|12 mark 11|8 advcl:after 12|14 det 13|12 dobj 14|16 case 15|14 nmod:in 16|20 case 17|20 det 18|20 amod 19|16 nmod:following 20|23 case 21|23 compound 22|20 nmod:of 23|23 acl 24|26 case 25|24 nmod:against 26|8 punct 27|
+<word> Sandusky secured his release using $ 200,000 in real estate holdings and a $ 50,000 certified check provided by his wife , Dorothy , according to online court records . 
+<lemma> Sandusky secure he release use $ 200,000 in real estate holding and a $ 50,000 certify check provide by he wife , Dorothy , accord to online court record . 
+<POS> NNP VBD PRP$ NN VBG $ CD IN JJ NN NNS CC DT $ CD VBN NN VBN IN PRP$ NN , NNP , VBG TO JJ NN NNS . 
+<NER> LOCATION O O O O MONEY MONEY O O O O O O MONEY MONEY O O O O O O O PERSON O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Sandusky)) (VP (VBD secured) (NP (PRP$ his) (NN release)) (S (VP (VBG using) (NP (NP (NP ($ $) (CD 200,000)) (PP (IN in) (NP (JJ real) (NN estate) (NNS holdings)))) (CC and) (NP (NP (DT a) ($ $) (CD 50,000)) (VP (VBN certified) (NP (NN check)) (PP (VBN provided) (PP (IN by) (NP (NP (PRP$ his) (NN wife)) (, ,) (NP (NNP Dorothy))))) (, ,) (PP (VBG according) (PP (TO to) (NP (JJ online) (NN court) (NNS records)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nmod:poss 3|2 dobj 4|2 xcomp 5|7 dep 6|5 dobj 7|11 case 8|11 amod 9|11 compound 10|7 nmod:in 11|7 cc 12|15 det 13|15 dep 14|5 dobj 15|7 conj:and 15|15 acl 16|16 dobj 17|21 case 18|21 case 19|21 nmod:poss 20|16 advcl:provided 21|21 punct 22|21 appos 23|16 punct 24|29 case 25|25 mwe 26|29 amod 27|29 compound 28|16 nmod:according_to 29|2 punct 30|
+<word> Sandusky remained at the facility as of midmorning and the warden said he was quiet and cooperative during his overnight stay . 
+<lemma> Sandusky remain at the facility as of midmorning and the warden say he be quiet and cooperative during he overnight stay . 
+<POS> NNP VBD IN DT NN IN IN NN CC DT NN VBD PRP VBD JJ CC JJ IN PRP$ JJ NN . 
+<NER> LOCATION O O O O O O O O O O O O O O O O O O TIME O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Sandusky)) (VP (VBD remained) (PP (IN at) (NP (DT the) (NN facility))) (PP (IN as) (PP (IN of) (NP (NN midmorning)))))) (CC and) (S (NP (DT the) (NN warden)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD was) (ADJP (JJ quiet) (CC and) (JJ cooperative)) (PP (IN during) (NP (PRP$ his) (JJ overnight) (NN stay)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 case 3|5 det 4|2 nmod:at 5|8 case 6|6 mwe 7|2 nmod:as_of 8|2 cc 9|11 det 10|12 nsubj 11|2 conj:and 12|15 nsubj 13|17 nsubj 13|15 cop 14|12 ccomp 15|15 cc 16|12 ccomp 17|15 conj:and 17|21 case 18|21 nmod:poss 19|21 amod 20|15 nmod:during 21|2 punct 22|
+<word> Sandusky was arrested Wednesday and charged with 12 new sex abuse counts involving two new alleged victims . 
+<lemma> Sandusky be arrest Wednesday and charge with 12 new sex abuse count involve two new allege victim . 
+<POS> NNP VBD VBN NNP CC VBN IN CD JJ NN NN VBZ VBG CD JJ VBN NNS . 
+<NER> PERSON O O DATE O O O NUMBER O O O O O NUMBER O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Sandusky)) (VP (VBD was) (VP (VP (VBN arrested) (NP-TMP (NNP Wednesday))) (CC and) (VP (VBN charged) (SBAR (IN with) (S (NP (CD 12) (JJ new) (NN sex) (NN abuse)) (VP (VBZ counts) (PP (VBG involving) (NP (CD two) (JJ new) (VBN alleged) (NNS victims))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|6 nsubjpass 1|3 auxpass 2|3 nmod:tmod 4|3 cc 5|3 conj:and 6|12 mark 7|11 nummod 8|11 amod 9|11 compound 10|12 nsubj 11|6 advcl:with 12|17 case 13|17 nummod 14|17 amod 15|17 amod 16|12 nmod:involving 17|3 punct 18|
+<word> He has maintained his innocence . 
+<lemma> he have maintain he innocence . 
+<POS> PRP VBZ VBN PRP$ NN . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBZ has) (VP (VBN maintained) (NP (PRP$ his) (NN innocence)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|5 nmod:poss 4|3 dobj 5|3 punct 6|
+<word> The latest accusers are the ninth and 10th alleged victims described in grand jury reports that claim Sandusky befriended and then molested boys he met through his Second Mile charity for troubled youth . 
+<lemma> the latest accuser be the ninth and 10th alleged victim describe in grand jury report that claim Sandusky befriend and then molest boy he meet through he second Mile charity for troubled youth . 
+<POS> DT JJS NNS VBP DT JJ CC JJ JJ NNS VBN IN JJ NN NNS IN NN NNP VBD CC RB VBD NNS PRP VBD IN PRP$ JJ NNP NN IN JJ NN . 
+<NER> O O O O O ORDINAL ORDINAL ORDINAL O O O O O O O O O LOCATION O O O O O O O O O ORDINAL O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJS latest) (NNS accusers)) (VP (VBP are) (NP (NP (DT the) (JJ ninth)) (CC and) (NP (NP (JJ 10th) (JJ alleged) (NNS victims)) (VP (VBN described) (PP (IN in) (NP (JJ grand) (NN jury) (NNS reports))) (SBAR (IN that) (S (NP (NN claim) (NNP Sandusky)) (VP (VP (VBD befriended)) (CC and) (VP (ADVP (RB then)) (VBD molested) (NP (NP (NNS boys)) (SBAR (S (NP (PRP he)) (VP (VBD met) (PP (IN through) (NP (PRP$ his) (JJ Second) (NNP Mile) (NN charity))) (PP (IN for) (NP (JJ troubled) (NN youth))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 amod 2|6 nsubj 3|6 cop 4|6 det 5|6 cc 7|10 amod 8|10 amod 9|6 conj:and 10|10 acl 11|15 case 12|15 amod 13|15 compound 14|11 nmod:in 15|19 mark 16|18 compound 17|19 nsubj 18|22 nsubj 18|11 ccomp 19|19 cc 20|22 advmod 21|11 ccomp 22|19 conj:and 22|22 dobj 23|25 nsubj 24|23 acl:relcl 25|30 case 26|30 nmod:poss 27|30 amod 28|30 compound 29|25 nmod:through 30|33 case 31|33 amod 32|25 nmod:for 33|6 punct 34|
+<word> A grand jury document released Wednesday echoed an earlier report , saying Sandusky gave the boys gifts while also making sexual advances toward them . 
+<lemma> a grand jury document release Wednesday echo a earlier report , say Sandusky give the boy gift while also make sexual advance toward they . 
+<POS> DT JJ NN NN VBN NNP VBD DT JJR NN , VBG NNP VBD DT NNS NNS IN RB VBG JJ NNS IN PRP . 
+<NER> O O O O O DATE O O O O O O LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (JJ grand) (NN jury) (NN document)) (VP (VBN released) (NP-TMP (NNP Wednesday)))) (VP (VBD echoed) (NP (DT an) (JJR earlier) (NN report)) (, ,) (S (VP (VBG saying) (SBAR (S (NP (NNP Sandusky)) (VP (VBD gave) (NP (DT the) (NNS boys)) (NP (NP (NNS gifts)) (SBAR (IN while) (S (ADVP (RB also)) (VP (VBG making) (NP (JJ sexual) (NNS advances)) (PP (IN toward) (NP (PRP them))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|4 det 1|4 amod 2|4 compound 3|7 nsubj 4|4 acl 5|5 nmod:tmod 6|10 det 8|10 amod 9|7 dobj 10|7 punct 11|7 advcl 12|14 nsubj 13|12 ccomp 14|16 det 15|14 iobj 16|14 dobj 17|20 mark 18|20 advmod 19|17 dep 20|22 amod 21|20 dobj 22|24 case 23|20 nmod:toward 24|7 punct 25|
+<word> One of the new accusers said Sandusky kept him in a basement bedroom during overnight visits to Sandusky 's home , forced him to perform sex acts and assaulted him . 
+<lemma> one of the new accuser say Sandusky keep he in a basement bedroom during overnight visit to Sandusky 's home , force he to perform sex act and assault he . 
+<POS> CD IN DT JJ NNS VBD NNP VBD PRP IN DT NN NN IN JJ NNS TO NNP POS NN , VBD PRP TO VB NN NNS CC VBD PRP . 
+<NER> NUMBER O O O O O LOCATION O O O O O O O TIME O O LOCATION O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD One)) (PP (IN of) (NP (DT the) (JJ new) (NNS accusers)))) (VP (VBD said) (SBAR (S (NP (NNP Sandusky)) (VP (VP (VBD kept) (NP (PRP him)) (PP (IN in) (NP (NP (DT a) (NN basement) (NN bedroom)) (PP (IN during) (NP (JJ overnight) (NNS visits))))) (PP (TO to) (NP (NP (NNP Sandusky) (POS 's)) (NN home)))) (, ,) (VP (VBD forced) (S (NP (PRP him)) (VP (TO to) (VP (VB perform) (NP (NN sex) (NNS acts)))))) (CC and) (VP (VBD assaulted) (NP (PRP him))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 det:qmod 1|1 mwe 2|5 det 3|5 amod 4|6 nsubj 5|8 nsubj 7|22 nsubj 7|29 nsubj 7|6 ccomp 8|8 dobj 9|13 case 10|13 det 11|13 compound 12|8 nmod:in 13|16 case 14|16 amod 15|13 nmod:during 16|20 case 17|20 nmod:poss 18|18 case 19|8 nmod:to 20|8 punct 21|6 ccomp 22|8 conj:and 22|22 dobj 23|25 nsubj:xsubj 23|25 mark 24|22 xcomp 25|27 compound 26|25 dobj 27|8 cc 28|6 ccomp 29|8 conj:and 29|29 dobj 30|6 punct 31|
+<word> `` The victim testified that on at least one occasion he screamed for help , knowing that Sandusky 's wife was upstairs , but no one ever came to help him , '' the grand jury report said . 
+<lemma> `` the victim testify that on at least one occasion he scream for help , know that Sandusky 's wife be upstairs , but no one ever come to help he , '' the grand jury report say . 
+<POS> `` DT NN VBD IN IN IN JJS CD NN PRP VBD IN NN , VBG IN NNP POS NN VBD RB , CC DT NN RB VBD TO VB PRP , '' DT JJ NN NN VBD . 
+<NER> O O O O O O O O NUMBER O O O O O O O O LOCATION O O O O O O O NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (DT The) (NN victim)) (VP (VBD testified) (SBAR (IN that) (S (PP (IN on) (NP (QP (IN at) (JJS least) (CD one)) (NN occasion))) (NP (PRP he)) (VP (VBD screamed) (PP (IN for) (NP (NN help))) (, ,) (S (VP (VBG knowing) (SBAR (IN that) (S (NP (NP (NNP Sandusky) (POS 's)) (NN wife)) (VP (VBD was) (ADVP (RB upstairs)))))))))))) (, ,) (CC but) (S (NP (DT no) (NN one)) (ADVP (RB ever)) (VP (VBD came) (S (VP (TO to) (VP (VB help) (NP (PRP him)))))))) (, ,) ('' '') (NP (DT the) (JJ grand) (NN jury) (NN report)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 38|38 punct 1|3 det 2|4 nsubj 3|38 ccomp 4|12 mark 5|10 case 6|8 case 7|9 nmod:npmod 8|10 nummod 9|12 nmod:on 10|12 nsubj 11|4 ccomp 12|14 case 13|12 nmod:for 14|12 punct 15|12 xcomp 16|21 mark 17|20 nmod:poss 18|18 case 19|21 nsubj 20|16 ccomp 21|21 advmod 22|4 punct 23|4 cc 24|26 neg 25|28 nsubj 26|30 nsubj:xsubj 26|28 advmod 27|4 conj:but 28|38 ccomp 28|30 mark 29|28 xcomp 30|30 dobj 31|38 punct 32|38 punct 33|37 det 34|37 amod 35|37 compound 36|38 nsubj 37|38 punct 39|
+<word> Sandusky was charged last month with abusing eight boys , some on campus , over 15 years , allegations that were not immediately brought to the attention of authorities even though high-level people at Penn State apparently knew about them . 
+<lemma> Sandusky be charge last month with abuse eight boy , some on campus , over 15 year , allegation that be not immediately bring to the attention of authority even though high-level people at Penn State apparently know about they . 
+<POS> NNP VBD VBN JJ NN IN VBG CD NNS , DT IN NN , IN CD NNS , NNS WDT VBD RB RB VBN TO DT NN IN NNS RB IN JJ NNS IN NNP NNP RB VBD IN PRP . 
+<NER> LOCATION O O DATE DATE O O NUMBER O O O O O O O DURATION DURATION O O O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Sandusky)) (VP (VBD was) (VP (VBN charged) (NP-TMP (JJ last) (NN month)) (PP (IN with) (S (VP (VBG abusing) (NP (NP (CD eight) (NNS boys)) (, ,) (NP (NP (DT some)) (PP (IN on) (NP (NN campus)))) (, ,) (PP (IN over) (NP (NP (CD 15) (NNS years)) (, ,) (NP (NP (NNS allegations)) (SBAR (WHNP (WDT that)) (S (VP (VBD were) (RB not) (VP (ADVP (RB immediately)) (VBN brought) (PP (TO to) (NP (NP (DT the) (NN attention)) (PP (IN of) (NP (NNS authorities))))) (SBAR (RB even) (IN though) (S (NP (NP (JJ high-level) (NNS people)) (PP (IN at) (NP (NNP Penn) (NNP State)))) (ADVP (RB apparently)) (VP (VBD knew) (PP (IN about) (NP (PRP them))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|5 amod 4|3 nmod:tmod 5|7 mark 6|3 advcl:with 7|9 nummod 8|7 dobj 9|9 punct 10|9 appos 11|13 case 12|11 nmod:on 13|9 punct 14|17 case 15|17 nummod 16|9 nmod:over 17|17 punct 18|17 appos 19|24 nsubjpass 19|19 ref 20|24 auxpass 21|24 neg 22|24 advmod 23|19 acl:relcl 24|27 case 25|27 det 26|24 nmod:to 27|29 case 28|27 nmod:of 29|38 advmod 30|38 mark 31|33 amod 32|38 nsubj 33|36 case 34|36 compound 35|33 nmod:at 36|38 advmod 37|24 advcl:though 38|40 case 39|38 nmod:about 40|3 punct 41|
+<word> In all , he faces more than 50 charges . 
+<lemma> in all , he face more than 50 charge . 
+<POS> IN DT , PRP VBZ JJR IN CD NNS . 
+<NER> O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (DT all))) (, ,) (NP (PRP he)) (VP (VBZ faces) (NP (QP (JJR more) (IN than) (CD 50)) (NNS charges))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 case 1|5 nmod:in 2|5 punct 3|5 nsubj 4|8 advmod 6|6 mwe 7|9 nummod 8|5 dobj 9|5 punct 10|
+<word> The scandal has resulted in the ousting of school President Graham Spanier and longtime coach Joe Paterno . 
+<lemma> the scandal have result in the ousting of school President Graham Spanier and longtime coach Joe Paterno . 
+<POS> DT NN VBZ VBN IN DT NN IN NN NNP NNP NNP CC JJ NN NNP NNP . 
+<NER> O O O O O O O O O O PERSON PERSON O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN scandal)) (VP (VBZ has) (VP (VBN resulted) (PP (IN in) (NP (NP (DT the) (NN ousting)) (PP (IN of) (NP (NN school) (NNP President) (NNP Graham) (NNP Spanier) (CC and) (JJ longtime) (NN coach) (NNP Joe) (NNP Paterno))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|7 case 5|7 det 6|4 nmod:in 7|12 case 8|12 compound 9|12 compound 10|12 compound 11|7 nmod:of 12|12 cc 13|17 amod 14|17 compound 15|17 compound 16|7 nmod:of 17|12 conj:and 17|4 punct 18|
+<coreference> [['1,2,4,3', '10,35,37,36'], ['1,1,8,7', '1,26,27,26', '2,1,2,1', '2,3,4,3', '2,20,21,20', '3,1,2,1', '4,1,2,1', '5,1,2,1', '5,4,5,4', '6,17,19,18', '6,24,25,24', '6,27,28,27', '7,13,14,13', '8,7,8,7', '8,9,10,9', '8,18,20,18', '8,23,24,23', '8,30,31,30', '9,18,20,18', '10,1,2,1', '11,4,5,4'], ['2,23,24,23', '2,20,22,21'], ['3,10,12,11', '3,13,14,13', '3,19,20,19'], ['4,4,5,4', '7,6,7,6'], ['7,15,17,16', '6,23,34,23', '7,24,25,24'], ['9,2,4,3', '9,11,12,11', '9,31,32,31'], ['10,32,37,33', '10,40,41,40']]
+</DOC>

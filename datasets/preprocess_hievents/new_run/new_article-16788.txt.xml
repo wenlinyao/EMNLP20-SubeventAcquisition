@@ -1,0 +1,88 @@
+<DOC> article-16788.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 |
+<word> No one has been arrested over Sunday 's attack in Kabul and the Taliban have denied any involvement . 
+<lemma> no one have be arrest over Sunday 's attack in Kabul and the Taliban have deny any involvement . 
+<POS> DT NN VBZ VBN VBN IN NNP POS NN IN NNP CC DT NNP VBP VBN DT NN . 
+<NER> O NUMBER O O O O DATE O O O LOCATION O O ORGANIZATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT No) (NN one)) (VP (VBZ has) (VP (VBN been) (VP (VBN arrested) (PP (IN over) (NP (NP (NP (NNP Sunday) (POS 's)) (NN attack)) (PP (IN in) (NP (NNP Kabul))))))))) (CC and) (S (NP (DT the) (NNP Taliban)) (VP (VBP have) (VP (VBN denied) (NP (DT any) (NN involvement))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 neg 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|9 case 6|9 nmod:poss 7|7 case 8|5 nmod:over 9|11 case 10|9 nmod:in 11|5 cc 12|14 det 13|16 nsubj 14|16 aux 15|5 conj:and 16|18 det 17|16 dobj 18|5 punct 19|
+<word> The shooting has been strongly condemned by the government . 
+<lemma> the shooting have be strongly condemn by the government . 
+<POS> DT NN VBZ VBN RB VBN IN DT NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN shooting)) (VP (VBZ has) (VP (VBN been) (VP (ADVP (RB strongly)) (VBN condemned) (PP (IN by) (NP (DT the) (NN government)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubjpass 2|6 aux 3|6 auxpass 4|6 advmod 5|9 case 7|9 det 8|6 nmod:agent 9|6 punct 10|
+<word> Afghan presidential spokesman Aimal Faizi said , `` This is shocking news for the Afghan people , for the government of Afghanistan and for the president . 
+<lemma> Afghan presidential spokesman Aimal Faizi say , `` this be shocking news for the Afghan people , for the government of Afghanistan and for the president . 
+<POS> NNP JJ NN NNP NNP VBD , `` DT VBZ JJ NN IN DT NNP NNS , IN DT NN IN NNP CC IN DT NN . 
+<NER> MISC O O PERSON PERSON O O O O O O O O O MISC O O O O O O LOCATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Afghan) (JJ presidential) (NN spokesman)) (NP (NNP Aimal) (NNP Faizi))) (VP (VBD said) (, ,) (`` ``) (S (NP (DT This)) (VP (VBZ is) (NP (NP (JJ shocking) (NN news)) (PP (PP (IN for) (NP (DT the) (NNP Afghan) (NNS people))) (, ,) (PP (IN for) (NP (NP (DT the) (NN government)) (PP (IN of) (NP (NNP Afghanistan))))) (CC and) (PP (IN for) (NP (DT the) (NN president)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 compound 1|3 amod 2|6 nsubj 3|5 compound 4|3 dep 5|6 punct 7|6 punct 8|12 nsubj 9|12 cop 10|12 amod 11|6 ccomp 12|6 ccomp 12|12 conj:and 12|6 ccomp 12|12 conj:and 12|16 case 13|16 det 14|16 compound 15|12 nmod:for 16|16 punct 17|20 case 18|20 det 19|12 nmod:for 20|22 case 21|20 nmod:of 22|12 cc 23|26 case 24|26 det 25|12 nmod:for 26|6 punct 27|
+<word> The Afghan government strongly condemns this attack . 
+<lemma> the Afghan government strongly condemn this attack . 
+<POS> DT NNP NN RB VBZ DT NN . 
+<NER> O MISC O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Afghan) (NN government)) (ADVP (RB strongly)) (VP (VBZ condemns) (NP (DT this) (NN attack))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 compound 2|5 nsubj 3|5 advmod 4|7 det 6|5 dobj 7|5 punct 8|
+<word> Arsala Rahmani has been killed by enemies of Afghanistan . 
+<lemma> Arsala Rahmani have be kill by enemy of Afghanistan . 
+<POS> NNP NNP VBZ VBN VBN IN NNS IN NNP . 
+<NER> PERSON PERSON O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Arsala) (NNP Rahmani)) (VP (VBZ has) (VP (VBN been) (VP (VBN killed) (PP (IN by) (NP (NP (NNS enemies)) (PP (IN of) (NP (NNP Afghanistan)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|7 case 6|5 nmod:agent 7|9 case 8|7 nmod:of 9|5 punct 10|
+<word> The killers are enemies of peace and stability . '' 
+<lemma> the killer be enemy of peace and stability . '' 
+<POS> DT NNS VBP NNS IN NN CC NN . '' 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS killers)) (VP (VBP are) (NP (NP (NNS enemies)) (PP (IN of) (NP (NN peace) (CC and) (NN stability))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 cop 3|6 case 5|4 nmod:of 6|6 cc 7|4 nmod:of 8|6 conj:and 8|4 punct 9|4 punct 10|
+<word> Both NATO and the US embassy in Kabul have also condemned the assassination . 
+<lemma> both NATO and the US embassy in Kabul have also condemn the assassination . 
+<POS> DT NNP CC DT NNP NN IN NNP VBP RB VBN DT NN . 
+<NER> O ORGANIZATION O O LOCATION O O LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT Both) (NNP NATO)) (CC and) (NP (NP (DT the) (NNP US) (NN embassy)) (PP (IN in) (NP (NNP Kabul))))) (VP (VBP have) (ADVP (RB also)) (VP (VBN condemned) (NP (DT the) (NN assassination)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|2 det 1|11 nsubj 2|2 cc 3|6 det 4|6 compound 5|2 conj:and 6|11 nsubj 6|8 case 7|6 nmod:in 8|11 aux 9|11 advmod 10|13 det 12|11 dobj 13|11 punct 14|
+<word> Rahmani was one of about 70 influential Afghans and former Taliban members appointed to the High Peace Council . 
+<lemma> Rahmani be one of about 70 influential Afghans and former Taliban member appoint to the high Peace Council . 
+<POS> NNP VBD CD IN RB CD JJ NNPS CC JJ NNP NNS VBN TO DT JJ NNP NNP . 
+<NER> PERSON O NUMBER O O NUMBER O MISC O O ORGANIZATION O O O O ORGANIZATION ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Rahmani)) (VP (VBD was) (NP (NP (NP (CD one)) (PP (IN of) (NP (QP (RB about) (CD 70)) (JJ influential) (NNPS Afghans)))) (CC and) (NP (NP (JJ former) (NNP Taliban) (NNS members)) (VP (VBN appointed) (PP (TO to) (NP (DT the) (JJ High) (NNP Peace) (NNP Council))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|8 case 4|6 advmod 5|8 nummod 6|8 amod 7|3 nmod:of 8|3 cc 9|12 amod 10|12 compound 11|3 conj:and 12|12 acl 13|18 case 14|18 det 15|18 amod 16|18 compound 17|13 nmod:to 18|3 punct 19|
+<word> Its aim is to convince insurgent leaders to reconcile with the government . 
+<lemma> its aim be to convince insurgent leader to reconcile with the government . 
+<POS> PRP$ NN VBZ TO VB JJ NNS TO VB IN DT NN . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP$ Its) (NN aim)) (VP (VBZ is) (S (VP (TO to) (VP (VB convince) (NP (JJ insurgent) (NNS leaders)) (S (VP (TO to) (VP (VB reconcile) (PP (IN with) (NP (DT the) (NN government)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 nmod:poss 1|3 nsubj 2|5 nsubj:xsubj 2|5 mark 4|3 xcomp 5|7 amod 6|5 dobj 7|9 mark 8|5 advcl:to 9|12 case 10|12 det 11|9 nmod:with 12|3 punct 13|
+<word> But the Taliban have so far refused direct contact with the council , which they see as being too close to Hamid Karzai 's government . 
+<lemma> but the Taliban have so far refuse direct contact with the council , which they see as be too close to Hamid Karzai 's government . 
+<POS> CC DT NNP VBP RB RB VBD JJ NN IN DT NN , WDT PRP VBP IN VBG RB JJ TO NNP NNP POS NN . 
+<NER> O O ORGANIZATION O O O O O O O O O O O O O O O O O O PERSON PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (DT the) (NNP Taliban)) (VP (VBP have) (ADVP (RB so) (RB far)) (VP (VBD refused) (NP (JJ direct) (NN contact)) (PP (IN with) (NP (NP (DT the) (NN council)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP they)) (VP (VBP see) (PP (IN as) (S (VP (VBG being) (ADJP (RB too) (JJ close) (PP (TO to) (NP (NP (NNP Hamid) (NNP Karzai) (POS 's)) (NN government)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 cc 1|3 det 2|7 nsubj 3|7 aux 4|6 advmod 5|7 advmod 6|9 amod 8|7 dobj 9|12 case 10|12 det 11|7 nmod:with 12|16 dobj 12|12 punct 13|12 ref 14|16 nsubj 15|12 acl:relcl 16|25 mark 17|25 cop 18|25 advmod 19|25 case 20|20 mwe 21|23 compound 22|25 nmod:poss 23|23 case 24|16 advcl:close_to 25|7 punct 26|
+<word> With the war now in its 11th year , the council appears to be making little progress . 
+<lemma> with the war now in its 11th year , the council appear to be make little progress . 
+<POS> IN DT NN RB IN PRP$ JJ NN , DT NN VBZ TO VB VBG JJ NN . 
+<NER> O O O DATE O O DATE DATE O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN With) (NP (NP (DT the) (NN war)) (PP (ADVP (RB now)) (IN in) (NP (PRP$ its) (JJ 11th) (NN year))))) (, ,) (NP (DT the) (NN council)) (VP (VBZ appears) (S (VP (TO to) (VP (VB be) (VP (VBG making) (NP (JJ little) (NN progress))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|3 case 1|3 det 2|12 nmod:with 3|8 advmod 4|8 case 5|8 nmod:poss 6|8 amod 7|3 nmod:in 8|12 punct 9|11 det 10|12 nsubj 11|15 nsubj:xsubj 11|15 mark 13|15 aux 14|12 xcomp 15|17 amod 16|15 dobj 17|12 punct 18|
+<word> The killing strikes yet another blow to efforts to find a political resolution . 
+<lemma> the killing strike yet another blow to effort to find a political resolution . 
+<POS> DT NN VBZ RB DT NN TO NNS TO VB DT JJ NN . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN killing)) (VP (VBZ strikes) (ADVP (RB yet) (NP (DT another) (NN blow)) (PP (TO to) (NP (NNS efforts)))) (S (VP (TO to) (VP (VB find) (NP (DT a) (JJ political) (NN resolution)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|10 nsubj:xsubj 2|3 advmod 4|6 det 5|4 nmod:npmod 6|8 case 7|4 nmod:to 8|10 mark 9|3 xcomp 10|13 det 11|13 amod 12|10 dobj 13|3 punct 14|
+<coreference> [['1,11,12,11', '7,8,9,8'], ['1,7,12,9', '4,6,8,7'], ['1,13,15,14', '8,11,12,11', '10,2,4,3', '11,6,7,6'], ['2,8,10,9', '9,11,13,12'], ['3,22,23,22', '5,9,10,9'], ['5,1,3,2', '8,1,2,1'], ['6,1,3,2', '6,4,9,4'], ['8,3,9,3', '9,1,2,1'], ['9,6,8,7', '10,15,16,15'], ['10,11,13,12', '10,11,26,12', '11,10,12,11']]
+</DOC>

@@ -1,0 +1,130 @@
+<DOC> article-2482.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 |
+<word> Syria 's president has denied he ordered the deadly crackdown on a nearly 9-month-old uprising , claiming he is not in charge of the troops behind the assault . 
+<lemma> Syria 's president have deny he order the deadly crackdown on a nearly 9-month-old uprising , claim he be not in charge of the troops behind the assault . 
+<POS> NNP POS NN VBZ VBN PRP VBD DT JJ NN IN DT RB JJ NN , VBG PRP VBZ RB IN NN IN DT NNS IN DT NN . 
+<NER> LOCATION O O O O O O O O O O O DURATION DURATION O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Syria) (POS 's)) (NN president)) (VP (VBZ has) (VP (VBN denied) (SBAR (S (NP (PRP he)) (VP (VBD ordered) (NP (DT the) (JJ deadly) (NN crackdown)) (PP (IN on) (NP (DT a) (ADJP (RB nearly) (JJ 9-month-old)) (NN uprising))) (, ,) (S (VP (VBG claiming) (SBAR (S (NP (PRP he)) (VP (VBZ is) (RB not) (PP (IN in) (NP (NP (NN charge)) (PP (IN of) (NP (NP (DT the) (NNS troops)) (PP (IN behind) (NP (DT the) (NN assault))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 nmod:poss 1|1 case 2|5 nsubj 3|5 aux 4|7 nsubj 6|5 ccomp 7|10 det 8|10 amod 9|7 dobj 10|15 case 11|15 det 12|14 advmod 13|15 amod 14|7 nmod:on 15|7 punct 16|7 advcl 17|22 nsubj 18|22 cop 19|22 neg 20|22 case 21|17 ccomp 22|25 case 23|25 det 24|22 nmod:of 25|28 case 26|28 det 27|25 nmod:behind 28|5 punct 29|
+<word> Speaking to ABC 's Barbara Walters in a rare interview that aired Wednesday , President Bashar Assad maintained he did not give a command `` to kill or be brutal . '' 
+<lemma> speak to ABC 's Barbara Walters in a rare interview that air Wednesday , President Bashar Assad maintain he do not give a command `` to kill or be brutal . '' 
+<POS> VBG TO NNP POS NNP NNP IN DT JJ NN WDT VBD NNP , NNP NNP NNP VBD PRP VBD RB VB DT NN `` TO VB CC VB JJ . '' 
+<NER> O O ORGANIZATION O PERSON PERSON O O O O O O DATE O O PERSON PERSON O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (VP (VBG Speaking) (PP (TO to) (NP (NP (NNP ABC) (POS 's)) (NNP Barbara) (NNP Walters))) (PP (IN in) (NP (NP (DT a) (JJ rare) (NN interview)) (SBAR (WHNP (WDT that)) (S (VP (VBD aired) (NP-TMP (NNP Wednesday))))))))) (, ,) (NP (NNP President) (NNP Bashar) (NNP Assad)) (VP (VBD maintained) (SBAR (S (NP (PRP he)) (VP (VBD did) (RB not) (VP (VB give) (NP (DT a) (NN command)) (`` ``) (S (VP (TO to) (VP (VP (VB kill)) (CC or) (VP (VB be) (ADJP (JJ brutal))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 advcl 1|6 case 2|6 nmod:poss 3|3 case 4|6 compound 5|1 nmod:to 6|10 case 7|10 det 8|10 amod 9|1 nmod:in 10|12 nsubj 10|10 ref 11|10 acl:relcl 12|12 nmod:tmod 13|18 punct 14|17 compound 15|17 compound 16|18 nsubj 17|22 nsubj 19|22 aux 20|22 neg 21|18 ccomp 22|24 det 23|22 dobj 24|22 punct 25|27 mark 26|22 advcl:to 27|27 cc 28|30 cop 29|22 advcl:to 30|27 conj:or 30|18 punct 31|18 punct 32|
+<word> `` They 're not my forces , '' Assad responded when asked if Syrian troops had cracked down too hard on protesters . 
+<lemma> `` they be not my force , '' Assad respond when ask if syrian troops have crack down too hard on protester . 
+<POS> `` PRP VBP RB PRP$ NNS , '' NNP VBD WRB VBN IN JJ NNS VBD VBN RB RB JJ IN NNS . 
+<NER> O O O O O O O O PERSON O O O O MISC O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP They)) (VP (VBP 're) (RB not) (NP (PRP$ my) (NNS forces)))) (, ,) ('' '') (NP (NNP Assad)) (VP (VBD responded) (SBAR (WHADVP (WRB when)) (S (VP (VBN asked) (SBAR (IN if) (S (NP (JJ Syrian) (NNS troops)) (VP (VBD had) (VP (VBN cracked) (ADVP (RB down) (RB too) (JJ hard)) (PP (IN on) (NP (NNS protesters))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 punct 1|6 nsubj 2|6 cop 3|6 neg 4|6 nmod:poss 5|10 ccomp 6|10 punct 7|10 punct 8|10 nsubj 9|12 advmod 11|10 advcl 12|17 mark 13|15 amod 14|17 nsubj 15|17 aux 16|12 advcl:if 17|20 advmod 18|20 advmod 19|17 advmod 20|22 case 21|17 nmod:on 22|10 punct 23|
+<word> `` They are military forces -LRB- who -RRB- belong to the government . 
+<lemma> `` they be military force -lrb- who -rrb- belong to the government . 
+<POS> `` PRP VBP JJ NNS -LRB- WP -RRB- VBP TO DT NN . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP They)) (VP (VBP are) (NP (NP (JJ military) (NNS forces)) (PRN (-LRB- -LRB-) (X (WP who)) (-RRB- -RRB-)) (SBAR (S (VP (VBP belong) (PP (TO to) (NP (DT the) (NN government)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 cop 3|5 amod 4|7 punct 6|5 dep 7|7 punct 8|5 acl:relcl 9|12 case 10|12 det 11|9 nmod:to 12|5 punct 13|
+<word> I do n't own them . 
+<lemma> I do not own they . 
+<POS> PRP VBP RB VB PRP . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB own) (NP (PRP them)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|4 dobj 5|4 punct 6|
+<word> I 'm president . 
+<lemma> I be president . 
+<POS> PRP VBP NN . 
+<NER> O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP I)) (VP (VBP 'm) (NP (NN president))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|3 punct 4|
+<word> I do n't own the country . '' 
+<lemma> I do not own the country . '' 
+<POS> PRP VBP RB VB DT NN . '' 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB own) (NP (DT the) (NN country)))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|6 det 5|4 dobj 6|4 punct 7|4 punct 8|
+<word> In fact , in his role as president , Assad is the commander of Syria 's armed forces . 
+<lemma> in fact , in he role as president , Assad be the commander of Syria 's armed force . 
+<POS> IN NN , IN PRP$ NN IN NN , NNP VBZ DT NN IN NNP POS JJ NNS . 
+<NER> O O O O O O O O O PERSON O O O O LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NN fact))) (, ,) (PP (IN in) (NP (NP (PRP$ his) (NN role)) (PP (IN as) (NP (NN president))))) (, ,) (NP (NNP Assad)) (VP (VBZ is) (NP (NP (DT the) (NN commander)) (PP (IN of) (NP (NP (NNP Syria) (POS 's)) (JJ armed) (NNS forces))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 case 1|13 nmod:in 2|13 punct 3|6 case 4|6 nmod:poss 5|13 nmod:in 6|8 case 7|6 nmod:as 8|13 punct 9|13 nsubj 10|13 cop 11|13 det 12|18 case 14|18 nmod:poss 15|15 case 16|18 amod 17|13 nmod:of 18|13 punct 19|
+<word> The U.N. estimates more than 4,000 people have been killed in Syria since the uprising began in March . 
+<lemma> the U.N. estimate more than 4,000 people have be kill in Syria since the uprising begin in March . 
+<POS> DT NNP VBZ JJR IN CD NNS VBP VBN VBN IN NNP IN DT NN VBD IN NNP . 
+<NER> O ORGANIZATION O O O NUMBER O O O O O LOCATION O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP U.N.)) (VP (VBZ estimates) (SBAR (S (NP (QP (JJR more) (IN than) (CD 4,000)) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (NNP Syria))) (SBAR (IN since) (S (NP (DT the) (NN uprising)) (VP (VBD began) (PP (IN in) (NP (NNP March)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|6 advmod 4|4 mwe 5|7 nummod 6|10 nsubjpass 7|10 aux 8|10 auxpass 9|3 ccomp 10|12 case 11|10 nmod:in 12|16 mark 13|15 det 14|16 nsubj 15|10 advcl:since 16|18 case 17|16 nmod:in 18|3 punct 19|
+<word> `` Who said the United Nations is a credible institution ? '' 
+<lemma> `` who say the United Nations be a credible institution ? '' 
+<POS> `` WP VBD DT NNP NNPS VBZ DT JJ NN . '' 
+<NER> O O O O ORGANIZATION ORGANIZATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (SBARQ (`` ``) (WHNP (WP Who)) (SQ (VP (VBD said) (SBAR (S (NP (DT the) (NNP United) (NNPS Nations)) (VP (VBZ is) (NP (DT a) (JJ credible) (NN institution))))))) (. ?) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|6 det 4|6 compound 5|10 nsubj 6|10 cop 7|10 det 8|10 amod 9|3 ccomp 10|3 punct 11|3 punct 12|
+<word> Assad said , when Walters asked him about allegations of widespread violence and torture . 
+<lemma> Assad say , when Walters ask he about allegation of widespread violence and torture . 
+<POS> NNP VBD , WRB NNP VBD PRP IN NNS IN JJ NN CC VB . 
+<NER> PERSON O O O PERSON O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Assad)) (VP (VBD said) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (NNP Walters)) (VP (VP (VBD asked) (NP (PRP him)) (PP (IN about) (NP (NP (NNS allegations)) (PP (IN of) (NP (JJ widespread) (NN violence)))))) (CC and) (VP (VB torture)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 punct 3|6 advmod 4|6 nsubj 5|14 nsubj 5|2 advcl 6|6 dobj 7|9 case 8|6 nmod:about 9|12 case 10|12 amod 11|9 nmod:of 12|6 cc 13|2 advcl 14|6 conj:and 14|2 punct 15|
+<word> State Department spokesman Mark Toner said Assad was trying to shirk responsibility . 
+<lemma> State Department spokesman Mark Toner say Assad be try to shirk responsibility . 
+<POS> NNP NNP NN NNP NNP VBD NNP VBD VBG TO VB NN . 
+<NER> ORGANIZATION ORGANIZATION O PERSON PERSON O PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP State) (NNP Department) (NN spokesman) (NNP Mark) (NNP Toner)) (VP (VBD said) (SBAR (S (NP (NNP Assad)) (VP (VBD was) (VP (VBG trying) (S (VP (TO to) (VP (VB shirk) (NP (NN responsibility)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 compound 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|9 nsubj 7|11 nsubj:xsubj 7|9 aux 8|6 ccomp 9|11 mark 10|9 xcomp 11|11 dobj 12|6 punct 13|
+<word> `` I find it ludicrous that he is attempting to hide behind some sort of shell game but also some sort of claim that he does n't exercise authority in his own country , '' Toner said . 
+<lemma> `` I find it ludicrous that he be attempt to hide behind some sort of shell game but also some sort of claim that he do not exercise authority in he own country , '' Toner say . 
+<POS> `` PRP VBP PRP JJ IN PRP VBZ VBG TO VB IN DT NN IN NN NN CC RB DT NN IN NN IN PRP VBZ RB VB NN IN PRP$ JJ NN , '' NNP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP find) (S (NP (PRP it)) (ADJP (JJ ludicrous))) (SBAR (IN that) (S (NP (PRP he)) (VP (VBZ is) (VP (VBG attempting) (S (VP (TO to) (VP (VB hide) (PP (IN behind) (NP (NP (NP (DT some) (NN sort)) (PP (IN of) (NP (NN shell) (NN game)))) (CONJP (CC but) (RB also)) (NP (NP (DT some) (NN sort)) (PP (IN of) (NP (NN claim)))))) (SBAR (IN that) (S (NP (PRP he)) (VP (VBZ does) (RB n't) (VP (VB exercise) (NP (NN authority)) (PP (IN in) (NP (PRP$ his) (JJ own) (NN country)))))))))))))))) (, ,) ('' '') (NP (NNP Toner)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 37|37 punct 1|3 nsubj 2|37 ccomp 3|5 nsubj 4|3 xcomp 5|9 mark 6|9 nsubj 7|11 nsubj:xsubj 7|9 aux 8|3 ccomp 9|11 mark 10|9 xcomp 11|14 case 12|14 det 13|11 nmod:behind 14|17 case 15|17 compound 16|14 nmod:of 17|14 cc 18|21 advmod 19|21 det 20|11 nmod:behind 21|14 conj:and 21|23 case 22|21 nmod:of 23|28 mark 24|28 nsubj 25|28 aux 26|28 neg 27|11 ccomp 28|28 dobj 29|33 case 30|33 nmod:poss 31|33 amod 32|28 nmod:in 33|37 punct 34|37 punct 35|37 nsubj 36|37 punct 38|
+<word> Assad has responded with once-unthinkable promises of reform in one of the most authoritarian states in the Middle East . 
+<lemma> Assad have respond with once-unthinkable promise of reform in one of the most authoritarian state in the Middle East . 
+<POS> NNP VBZ VBN IN JJ NNS IN NN IN CD IN DT RBS JJ NNS IN DT NNP NNP . 
+<NER> PERSON O O O O O O O O NUMBER O O O O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Assad)) (VP (VBZ has) (VP (VBN responded) (PP (IN with) (NP (NP (JJ once-unthinkable) (NNS promises)) (PP (IN of) (NP (NN reform))))) (PP (IN in) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (ADJP (RBS most) (JJ authoritarian)) (NNS states)) (PP (IN in) (NP (DT the) (NNP Middle) (NNP East))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|6 case 4|6 amod 5|3 nmod:with 6|8 case 7|6 nmod:of 8|10 case 9|15 det:qmod 10|10 mwe 11|15 det 12|14 advmod 13|15 amod 14|3 nmod 15|19 case 16|19 det 17|19 compound 18|15 nmod:in 19|3 punct 20|
+<word> But he simultaneously unleashed the military to crush the protests with tanks and snipers . 
+<lemma> but he simultaneously unleash the military to crush the protest with tank and sniper . 
+<POS> CC PRP RB VBD DT JJ TO VB DT NNS IN NNS CC NNS . 
+<NER> O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (PRP he)) (ADVP (RB simultaneously)) (VP (VBD unleashed) (NP (DT the) (JJ military)) (S (VP (TO to) (VP (VB crush) (NP (DT the) (NNS protests)) (PP (IN with) (NP (NNS tanks) (CC and) (NNS snipers))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 cc 1|4 nsubj 2|4 advmod 3|6 det 5|4 dobj 6|8 mark 7|4 advcl:to 8|10 det 9|8 dobj 10|12 case 11|8 nmod:with 12|12 cc 13|8 nmod:with 14|12 conj:and 14|4 punct 15|
+<word> Still , he insisted he still had the support of Syrians . 
+<lemma> still , he insist he still have the support of Syrians . 
+<POS> RB , PRP VBD PRP RB VBD DT NN IN NNPS . 
+<NER> O O O O O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Still)) (, ,) (NP (PRP he)) (VP (VBD insisted) (SBAR (S (NP (PRP he)) (ADVP (RB still)) (VP (VBD had) (NP (NP (DT the) (NN support)) (PP (IN of) (NP (NNPS Syrians)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 advmod 1|4 punct 2|4 nsubj 3|7 nsubj 5|7 advmod 6|4 ccomp 7|9 det 8|7 dobj 9|11 case 10|9 nmod:of 11|4 punct 12|
+<word> `` If you do n't have the support of the people you can not be in this position , '' he said . 
+<lemma> `` if you do not have the support of the people you can not be in this position , '' he say . 
+<POS> `` IN PRP VBP RB VB DT NN IN DT NNS PRP MD RB VB IN DT NN , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (SBAR (IN If) (S (NP (PRP you)) (VP (VBP do) (RB n't) (VP (VB have) (NP (NP (DT the) (NN support)) (PP (IN of) (NP (DT the) (NNS people)))))))) (NP (PRP you)) (VP (MD can) (RB not) (VP (VB be) (PP (IN in) (NP (DT this) (NN position)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|22 punct 1|6 mark 2|6 nsubj 3|6 aux 4|6 neg 5|18 advcl:if 6|8 det 7|6 dobj 8|11 case 9|11 det 10|8 nmod:of 11|18 nsubj 12|18 aux 13|18 neg 14|18 cop 15|18 case 16|18 det 17|22 ccomp 18|22 punct 19|22 punct 20|22 nsubj 21|22 punct 23|
+<word> `` Syria is not easy ... it is a very difficult country to govern if you do n't have the public support . '' 
+<lemma> `` Syria be not easy ... it be a very difficult country to govern if you do not have the public support . '' 
+<POS> `` NNP VBZ RB JJ : PRP VBZ DT RB JJ NN TO VB IN PRP VBP RB VB DT JJ NN . '' 
+<NER> O LOCATION O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NNP Syria)) (VP (VBZ is) (RB not) (ADJP (JJ easy)))) (: ...) (S (NP (PRP it)) (VP (VBZ is) (NP (DT a) (ADJP (RB very) (JJ difficult)) (NN country) (S (VP (TO to) (VP (VB govern) (SBAR (IN if) (S (NP (PRP you)) (VP (VBP do) (RB n't) (VP (VB have) (NP (DT the) (JJ public) (NN support)))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 cop 3|5 neg 4|5 punct 6|12 nsubj 7|12 cop 8|12 det 9|11 advmod 10|12 amod 11|5 parataxis 12|14 mark 13|12 acl:to 14|19 mark 15|19 nsubj 16|19 aux 17|19 neg 18|14 advcl:if 19|22 det 20|22 amod 21|19 dobj 22|5 punct 23|5 punct 24|
+<coreference> [['1,1,3,1', '8,15,17,15', '9,12,13,12', '18,2,3,2'], ['1,1,4,3', '1,6,7,6', '1,18,19,18'], ['1,12,16,15', '9,14,16,15'], ['1,24,29,25', '3,2,3,2', '4,2,3,2', '5,5,6,5'], ['17,3,4,3', '17,12,13,12', '18,16,17,16'], ['2,3,7,6', '2,19,20,19', '11,5,6,5', '11,7,8,7'], ['2,15,18,17', '3,5,6,5', '3,9,10,9', '5,1,2,1', '6,1,2,1', '7,1,2,1', '8,5,6,5', '8,10,11,10', '8,12,19,13', '11,1,2,1', '12,7,8,7', '13,7,8,7', '13,25,26,25', '13,31,32,31', '14,1,2,1', '15,2,3,2', '16,3,4,3', '16,5,6,5', '17,21,22,21'], ['9,4,8,7', '17,10,12,11'], ['10,4,7,6', '10,8,11,10'], ['12,1,3,2', '13,4,5,4'], ['12,1,6,5', '13,2,3,2', '13,36,37,36']]
+</DOC>

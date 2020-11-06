@@ -1,0 +1,60 @@
+<DOC> article-19927.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 |
+<word> At least four people were wounded on Wednesday , May 16 in clashes between the army and residents of two areas of Lebanon 's city of Tripoli supporting opposite sides in the crisis in neighbouring Syria , a security official said , according to AFP . 
+<lemma> at least four people be wound on Wednesday , May 16 in clash between the army and resident of two area of Lebanon 's city of Tripoli support opposite side in the crisis in neighbouring Syria , a security official say , accord to AFP . 
+<POS> IN JJS CD NNS VBD VBN IN NNP , NNP CD IN NNS IN DT NN CC NNS IN CD NNS IN NNP POS NN IN NNP VBG JJ NNS IN DT NN IN JJ NNP , DT NN NN VBD , VBG TO NNP . 
+<NER> O O NUMBER O O O O DATE DATE DATE DATE O O O O O O O O NUMBER O O LOCATION O O O LOCATION O O O O O O O O LOCATION O O O O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN At) (JJS least) (CD four)) (NNS people)) (VP (VBD were) (VP (VBN wounded) (PP (IN on) (NP (NNP Wednesday)))))) (, ,) (S (NP (NP (NNP May) (CD 16)) (PP (IN in) (NP (NP (NP (NNS clashes)) (PP (IN between) (NP (DT the) (NN army)))) (CC and) (NP (NP (NNS residents)) (PP (IN of) (NP (NP (CD two) (NNS areas)) (PP (IN of) (NP (NP (NP (NNP Lebanon) (POS 's)) (NN city)) (PP (IN of) (NP (NNP Tripoli))))))))))) (VP (VBG supporting) (NP (JJ opposite) (NNS sides)) (PP (IN in) (NP (NP (DT the) (NN crisis)) (PP (IN in) (NP (JJ neighbouring) (NNP Syria))))))) (, ,) (S (NP (DT a) (NN security) (NN official)) (VP (VBD said))) (, ,) (PP (VBG according) (PP (TO to) (NP (NNP AFP)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 case 1|3 nmod:npmod 2|4 nummod 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:on 8|6 punct 9|28 nsubj 10|10 nummod 11|13 case 12|10 nmod:in 13|16 case 14|16 det 15|13 nmod:between 16|13 cc 17|10 nmod:in 18|13 conj:and 18|21 case 19|21 nummod 20|18 nmod:of 21|25 case 22|25 nmod:poss 23|23 case 24|21 nmod:of 25|27 case 26|25 nmod:of 27|6 parataxis 28|30 amod 29|28 dobj 30|33 case 31|33 det 32|28 nmod:in 33|36 case 34|36 amod 35|33 nmod:in 36|6 punct 37|40 det 38|40 compound 39|41 nsubj 40|6 parataxis 41|6 punct 42|45 case 43|43 mwe 44|6 nmod:according_to 45|6 punct 46|
+<word> The official , speaking on condition of anonymity , said shooting broke out after soldiers tried to remove barricades in the northern port city 's sensitive and mainly Sunni Muslim neighbourhood of Bab al-Tebbaneh . 
+<lemma> the official , speak on condition of anonymity , say shooting break out after soldier try to remove barricade in the northern port city 's sensitive and mainly Sunni muslim neighbourhood of Bab al-Tebbaneh . 
+<POS> DT NN , VBG IN NN IN NN , VBD NN VBD RP IN NNS VBD TO VB NNS IN DT JJ JJ NN POS JJ CC RB NNP JJ NN IN NNP NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O MISC MISC O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN official)) (, ,) (VP (VBG speaking) (PP (IN on) (NP (NP (NN condition)) (PP (IN of) (NP (NN anonymity)))))) (, ,)) (VP (VBD said) (SBAR (S (NP (NN shooting)) (VP (VBD broke) (PRT (RP out)) (SBAR (IN after) (S (NP (NNS soldiers)) (VP (VBD tried) (S (VP (TO to) (VP (VB remove) (NP (NP (NNS barricades)) (PP (IN in) (NP (NP (DT the) (JJ northern) (JJ port) (NN city) (POS 's)) (ADJP (JJ sensitive) (CC and) (RB mainly)) (NNP Sunni) (JJ Muslim) (NN neighbourhood))) (PP (IN of) (NP (NNP Bab) (NNP al-Tebbaneh)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 det 1|10 nsubj 2|2 punct 3|2 acl 4|6 case 5|4 nmod:on 6|8 case 7|6 nmod:of 8|2 punct 9|12 nsubj 11|10 ccomp 12|12 compound:prt 13|16 mark 14|16 nsubj 15|18 nsubj:xsubj 15|12 advcl:after 16|18 mark 17|16 xcomp 18|18 dobj 19|31 case 20|24 det 21|24 amod 22|24 amod 23|31 nmod:poss 24|24 case 25|31 amod 26|26 cc 27|26 advmod 28|31 compound 29|31 amod 30|19 nmod:in 31|34 case 32|34 compound 33|19 nmod:of 34|10 punct 35|
+<word> Residents opened fire on the soldiers , one of whom was wounded , and the troops responded . 
+<lemma> resident open fire on the soldier , one of whom be wound , and the troops respond . 
+<POS> NNS VBD NN IN DT NNS , CD IN WP VBD VBN , CC DT NNS VBD . 
+<NER> O O O O O O O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Residents)) (VP (VBD opened) (NP (NN fire)) (PP (IN on) (NP (NP (DT the) (NNS soldiers)) (, ,) (SBAR (WHNP (CD one) (WHPP (IN of) (WHNP (WP whom)))) (S (VP (VBD was) (VP (VBN wounded))))))))) (, ,) (CC and) (S (NP (DT the) (NNS troops)) (VP (VBD responded))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|6 case 4|6 det 5|2 nmod:on 6|8 nmod:of 6|6 punct 7|12 nsubjpass 8|10 case 9|6 ref 10|12 auxpass 11|6 acl:relcl 12|2 punct 13|2 cc 14|16 det 15|17 nsubj 16|2 conj:and 17|2 punct 18|
+<word> The clashes then escalated with residents of Jabal Mohsen , which sits opposite Bab al-Tebbaneh , also opening fire . 
+<lemma> the clash then escalate with resident of Jabal Mohsen , which sit opposite Bab al-Tebbaneh , also open fire . 
+<POS> DT NNS RB VBD IN NNS IN NNP NNP , WDT VBZ JJ NNP NNP , RB VBG NN . 
+<NER> O O O O O O O PERSON PERSON O O O O LOCATION LOCATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS clashes)) (ADVP (RB then)) (VP (VBD escalated) (PP (IN with) (NP (NP (NNS residents)) (PP (IN of) (NP (NP (NNP Jabal) (NNP Mohsen)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ sits) (NP (NP (JJ opposite) (NNP Bab) (NNP al-Tebbaneh)) (, ,) (VP (ADVP (RB also)) (VBG opening) (NP (NN fire)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 case 5|4 nmod:with 6|9 case 7|9 compound 8|6 nmod:of 9|12 nsubj 9|9 punct 10|9 ref 11|9 acl:relcl 12|15 amod 13|15 compound 14|12 dobj 15|15 punct 16|18 advmod 17|15 acl 18|18 dobj 19|4 punct 20|
+<word> There were also reports of sniper fire . 
+<lemma> there be also report of sniper fire . 
+<POS> EX VBD RB NNS IN NN NN . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (EX There)) (VP (VBD were) (ADVP (RB also)) (NP (NP (NNS reports)) (PP (IN of) (NP (NN sniper) (NN fire))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|2 advmod 3|2 nsubj 4|7 case 5|7 compound 6|4 nmod:of 7|2 punct 8|
+<word> Jabal Mohsen is populated mainly by Alawites loyal to the embattled regime of Syrian President Bashar al-Assad , while Bab al-Tebbaneh residents support the opposition seeking to oust Assad . 
+<lemma> Jabal Mohsen be populate mainly by Alawites loyal to the embattled regime of syrian President Bashar al-Assad , while Bab al-tebbaneh resident support the opposition seek to oust Assad . 
+<POS> NNP NNP VBZ VBN RB IN NNPS JJ TO DT JJ NN IN JJ NNP NNP NNP , IN NNP JJ NNS VBP DT NN VBG TO VB NNP . 
+<NER> PERSON PERSON O O O O MISC O O O O O O MISC O PERSON PERSON O O O O O O O O O O O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Jabal) (NNP Mohsen)) (VP (VBZ is) (VP (VBN populated) (ADVP (RB mainly)) (PP (IN by) (NP (NP (NNPS Alawites)) (ADJP (JJ loyal) (PP (TO to) (NP (NP (DT the) (JJ embattled) (NN regime)) (PP (IN of) (NP (JJ Syrian) (NNP President) (NNP Bashar) (NNP al-Assad)))))))) (, ,) (SBAR (IN while) (S (NP (NNP Bab) (JJ al-Tebbaneh) (NNS residents)) (VP (VBP support) (NP (NP (DT the) (NN opposition)) (VP (VBG seeking) (S (VP (TO to) (VP (VB oust) (NP (NNP Assad)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubjpass 2|4 auxpass 3|4 advmod 5|7 case 6|4 nmod:agent 7|7 amod 8|12 case 9|12 det 10|12 amod 11|8 nmod:to 12|17 case 13|17 amod 14|17 compound 15|17 compound 16|12 nmod:of 17|4 punct 18|23 mark 19|22 compound 20|22 amod 21|23 nsubj 22|4 advcl:while 23|25 det 24|23 dobj 25|25 acl 26|28 mark 27|26 xcomp 28|28 dobj 29|4 punct 30|
+<word> Clashes between residents of the two neighbourhoods earlier this week left nine people dead and some 50 wounded . 
+<lemma> clash between resident of the two neighbourhood earlier this week leave nine people dead and some 50 wound . 
+<POS> NNS IN NNS IN DT CD NNS RBR DT NN VBD CD NNS JJ CC DT CD VBN . 
+<NER> O O O O O NUMBER O DATE DATE DATE O NUMBER O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Clashes)) (PP (IN between) (NP (NP (NNS residents)) (PP (IN of) (NP (DT the) (CD two) (NNS neighbourhoods)))))) (NP-TMP (RBR earlier) (DT this) (NN week)) (VP (VBD left) (UCP (ADJP (NP (CD nine) (NNS people)) (JJ dead)) (CC and) (NP (DT some) (CD 50))) (S (VP (VBN wounded)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|11 nsubj 1|3 case 2|1 nmod:between 3|7 case 4|7 det 5|7 nummod 6|3 nmod:of 7|10 advmod 8|10 det 9|11 nmod:tmod 10|13 nummod 12|14 nmod:npmod 13|11 xcomp 14|14 cc 15|17 det 16|11 xcomp 17|14 conj:and 17|11 dep 18|11 punct 19|
+<word> Heydar Aliyev would never tolerate such unbridled anti-Armenian sentiment which is now spread in Azerbaijan . 
+<lemma> Heydar Aliyev would never tolerate such unbridled anti-armenian sentiment which be now spread in Azerbaijan . 
+<POS> NNP NNP MD RB VB JJ JJ JJ NN WDT VBZ RB VBN IN NNP . 
+<NER> PERSON PERSON O O O O O MISC O O O DATE O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Heydar) (NNP Aliyev)) (VP (MD would) (ADVP (RB never)) (VP (VB tolerate) (NP (NP (JJ such) (JJ unbridled) (JJ anti-Armenian) (NN sentiment)) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (ADVP (RB now)) (VP (VBN spread) (PP (IN in) (NP (NNP Azerbaijan)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubj 2|5 aux 3|5 neg 4|9 amod 6|9 amod 7|9 amod 8|5 dobj 9|13 nsubjpass 9|9 ref 10|13 auxpass 11|13 advmod 12|9 acl:relcl 13|15 case 14|13 nmod:in 15|5 punct 16|
+<coreference> [['1,20,21,20', '7,6,7,6'], ['4,1,3,2', '1,13,17,13'], ['1,18,28,18', '3,1,2,1'], ['1,38,41,40', '2,1,3,2'], ['3,5,7,6', '2,15,16,15'], ['4,13,16,15', '2,33,35,34', '4,13,20,15', '4,14,16,15'], ['6,20,23,22', '4,6,20,6'], ['4,8,10,9', '4,8,20,9', '6,1,3,2']]
+</DOC>

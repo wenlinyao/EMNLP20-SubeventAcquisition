@@ -1,0 +1,25 @@
+<DOC> article-17093.txt.xml story
+<paragraph> | 0 1 2 |
+<word> Suspected Islamist militants blew up a gas pipeline in eastern Yemen on Monday for the third time in recent months as the government ratcheted up its campaign against al Qaeda linked insurgents in the south . 
+<lemma> suspected islamist militant blow up a gas pipeline in eastern Yemen on Monday for the third time in recent month as the government ratchet up its campaign against al Qaeda link insurgent in the south . 
+<POS> JJ JJ NNS VBD RP DT NN NN IN JJ NNP IN NNP IN DT JJ NN IN JJ NNS IN DT NN VBD RP PRP$ NN IN NNP NNP VBD NNS IN DT NN . 
+<NER> O MISC O O O O O O O O LOCATION O DATE O O ORDINAL O O DURATION DURATION O O O O O O O O ORGANIZATION ORGANIZATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Suspected) (JJ Islamist) (NNS militants)) (VP (VBD blew) (PRT (RP up)) (NP (NP (DT a) (NN gas) (NN pipeline)) (PP (IN in) (NP (JJ eastern) (NNP Yemen)))) (PP (IN on) (NP (NP (NNP Monday)) (PP (IN for) (NP (NP (DT the) (JJ third) (NN time)) (PP (IN in) (NP (JJ recent) (NNS months))))))) (SBAR (IN as) (S (NP (DT the) (NN government)) (VP (VBD ratcheted) (PRT (RP up)) (NP (PRP$ its) (NN campaign)) (PP (IN against) (NP (NP (NNP al) (NNP Qaeda)) (VP (VBD linked) (NP (NNS insurgents)) (PP (IN in) (NP (DT the) (NN south)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 amod 1|3 amod 2|4 nsubj 3|4 compound:prt 5|8 det 6|8 compound 7|4 dobj 8|11 case 9|11 amod 10|8 nmod:in 11|13 case 12|4 nmod:on 13|17 case 14|17 det 15|17 amod 16|13 nmod:for 17|20 case 18|20 amod 19|17 nmod:in 20|24 mark 21|23 det 22|24 nsubj 23|4 advcl:as 24|24 compound:prt 25|27 nmod:poss 26|24 dobj 27|30 case 28|30 compound 29|24 nmod:against 30|30 acl 31|31 dobj 32|35 case 33|35 det 34|31 nmod:in 35|4 punct 36|
+<word> The latest attack will likely delay plans to resume LNG output which had been halted by another attack in April claimed by Islamist militants . 
+<lemma> the latest attack will likely delay plan to resume LNG output which have be halt by another attack in April claim by islamist militant . 
+<POS> DT JJS NN MD RB VB NNS TO VB NNP NN WDT VBD VBN VBN IN DT NN IN NNP VBN IN JJ NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O DATE O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJS latest) (NN attack)) (VP (MD will) (ADVP (RB likely)) (VP (VB delay) (S (NP (NNS plans)) (VP (TO to) (VP (VB resume) (NP (NP (NNP LNG) (NN output)) (SBAR (WHNP (WDT which)) (S (VP (VBD had) (VP (VBN been) (VP (VBN halted) (PP (IN by) (NP (NP (DT another) (NN attack)) (PP (IN in) (NP (NP (NNP April)) (VP (VBN claimed) (PP (IN by) (NP (JJ Islamist) (NNS militants))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 amod 2|6 nsubj 3|6 aux 4|6 advmod 5|6 dobj 7|9 nsubj:xsubj 7|9 mark 8|6 xcomp 9|11 compound 10|9 dobj 11|15 nsubjpass 11|11 ref 12|15 aux 13|15 auxpass 14|11 acl:relcl 15|18 case 16|18 det 17|15 nmod:agent 18|20 case 19|18 nmod:in 20|20 acl 21|24 case 22|24 amod 23|21 nmod:by 24|6 punct 25|
+<word> The &amp;#036; 4.5 billion Yemen LNG project has two production trains with a combined capacity of 6.7 million tonnes per year , supplying mainly to Asia , and then to Europe and Americas . 
+<lemma> the &amp;#036; 4.5 billion Yemen LNG project have two production train with a combine capacity of 6.7 million tonne per year , supply mainly to Asia , and then to Europe and Americas . 
+<POS> DT CD CD CD NNP NNP NN VBZ CD NN NNS IN DT VBN NN IN CD CD NNS IN NN , VBG RB TO NNP , CC RB TO NNP CC NNP . 
+<NER> O NUMBER NUMBER NUMBER LOCATION O O O NUMBER O O O O O O O MONEY MONEY MONEY O DURATION O O O O LOCATION O O O O LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (CD &amp;#036;) (CD 4.5) (CD billion) (NNP Yemen) (NNP LNG) (NN project)) (VP (VBZ has) (NP (NP (CD two) (NN production) (NNS trains)) (PP (IN with) (NP (NP (DT a) (VBN combined) (NN capacity)) (PP (IN of) (NP (NP (QP (CD 6.7) (CD million)) (NNS tonnes)) (PP (IN per) (NP (NN year))))))) (, ,) (VP (VBG supplying) (ADVP (RB mainly)) (PP (PP (TO to) (NP (NNP Asia))) (, ,) (CC and) (RB then) (PP (TO to) (NP (NNP Europe) (CC and) (NNP Americas))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|7 det 1|7 nummod 2|7 nummod 3|7 nummod 4|7 compound 5|7 compound 6|8 nsubj 7|11 nummod 9|11 compound 10|8 dobj 11|15 case 12|15 det 13|15 amod 14|11 nmod:with 15|19 case 16|18 compound 17|19 nummod 18|15 nmod:of 19|21 case 20|19 nmod:per 21|11 punct 22|11 acl 23|11 acl 23|23 conj:and 23|23 advmod 24|26 case 25|23 nmod:to 26|26 punct 27|23 cc 28|31 advmod 29|31 case 30|23 nmod:to 31|31 cc 32|23 nmod:to 33|31 conj:and 33|8 punct 34|
+<coreference> [['1,2,3,2', '2,23,24,23'], ['1,1,4,3', '2,23,25,24'], ['1,10,12,11', '3,5,6,5'], ['1,22,24,23', '1,26,27,26']]
+</DOC>

@@ -1,0 +1,74 @@
+<DOC> article-17961.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 |
+<word> Eleven UN peacekeepers in the eastern Democratic Republic of Congo were wounded , two of them critically , after villagers opened fire on the troops , officials said . 
+<lemma> eleven UN peacekeeper in the eastern democratic republic of Congo be wound , two of they critically , after villager open fire on the troops , official say . 
+<POS> CD NNP NNS IN DT JJ JJ NN IN NNP VBD VBN , CD IN PRP RB , IN NNS VBD NN IN DT NNS , NNS VBD . 
+<NER> NUMBER ORGANIZATION O O O O LOCATION LOCATION LOCATION LOCATION O O O NUMBER O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (CD Eleven) (NNP UN) (NNS peacekeepers)) (PP (IN in) (NP (NP (DT the) (JJ eastern) (JJ Democratic) (NN Republic)) (PP (IN of) (NP (NNP Congo)))))) (VP (VBD were) (VP (VBN wounded) (, ,) (ADVP (NP (NP (CD two)) (PP (IN of) (NP (PRP them)))) (RB critically)) (, ,) (SBAR (IN after) (S (NP (NNS villagers)) (VP (VBD opened) (NP (NN fire)) (PP (IN on) (NP (DT the) (NNS troops))))))))) (, ,) (NP (NNS officials)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 28|3 nummod 1|3 compound 2|12 nsubjpass 3|8 case 4|8 det 5|8 amod 6|8 amod 7|3 nmod:in 8|10 case 9|8 nmod:of 10|12 auxpass 11|28 ccomp 12|12 punct 13|16 det:qmod 14|14 mwe 15|17 nmod:npmod 16|12 advmod 17|12 punct 18|21 mark 19|21 nsubj 20|12 advcl:after 21|21 dobj 22|25 case 23|25 det 24|21 nmod:on 25|28 punct 26|28 nsubj 27|28 punct 29|
+<word> The villagers descended on the UN base in the eastern South Kivu region on Monday after an overnight attack on their village reportedly killed six people , a UN spokesman in Kinshasa , Monodje Mounoubai , told AFP news agency . 
+<lemma> the villager descend on the UN base in the eastern South Kivu region on Monday after a overnight attack on they village reportedly kill six people , a UN spokesman in Kinshasa , Monodje Mounoubai , tell AFP news agency . 
+<POS> DT NNS VBD IN DT NNP NN IN DT JJ NNP NNP NN IN NNP IN DT JJ NN IN PRP$ NN RB VBD CD NNS , DT NNP NN IN NNP , NNP NNP , VBD NNP NN NN . 
+<NER> O O O O O ORGANIZATION O O O O LOCATION LOCATION O O DATE O O TIME O O O O O O NUMBER O O O ORGANIZATION O O LOCATION O PERSON PERSON O O ORGANIZATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS villagers)) (VP (VBD descended) (PP (IN on) (NP (NP (DT the) (NNP UN) (NN base)) (PP (IN in) (NP (NP (DT the) (JJ eastern) (NNP South) (NNP Kivu) (NN region)) (PP (IN on) (NP (NNP Monday))))))) (SBAR (IN after) (S (NP (NP (DT an) (JJ overnight) (NN attack)) (PP (IN on) (NP (PRP$ their) (NN village)))) (ADVP (RB reportedly)) (VP (VBD killed) (SBAR (S (NP (NP (CD six) (NNS people)) (, ,) (NP (NP (DT a) (NNP UN) (NN spokesman)) (PP (IN in) (NP (NNP Kinshasa) (, ,) (NNP Monodje) (NNP Mounoubai)))) (, ,)) (VP (VBD told) (NP (NNP AFP) (NN news) (NN agency))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|7 case 4|7 det 5|7 compound 6|3 nmod:on 7|13 case 8|13 det 9|13 amod 10|13 compound 11|13 compound 12|7 nmod:in 13|15 case 14|13 nmod:on 15|24 mark 16|19 det 17|19 amod 18|24 nsubj 19|22 case 20|22 nmod:poss 21|19 nmod:on 22|24 advmod 23|3 advcl:after 24|26 nummod 25|37 nsubj 26|26 punct 27|30 det 28|30 compound 29|26 appos 30|35 case 31|35 compound 32|35 punct 33|35 appos 34|30 nmod:in 35|26 punct 36|24 ccomp 37|40 compound 38|40 compound 39|37 dobj 40|3 punct 41|
+<word> The residents were protesting that the UN troops `` did nothing to defend '' the village during the attack , which was blamed on Democratic Forces for the Liberation of Rwanda , Mounoubai said . 
+<lemma> the resident be protest that the UN troops `` do nothing to defend '' the village during the attack , which be blame on democratic force for the Liberation of Rwanda , Mounoubai say . 
+<POS> DT NNS VBD VBG IN DT NNP NNS `` VBD NN TO VB '' DT NN IN DT NN , WDT VBD VBN IN JJ NNS IN DT NNP IN NNP , NNP VBD . 
+<NER> O O O O O O ORGANIZATION O O O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNS residents)) (VP (VBD were) (VP (VBG protesting) (SBAR (IN that) (S (NP (DT the) (NNP UN) (NNS troops)) (`` ``) (VP (VBD did) (NP (NN nothing)) (S (VP (TO to) (VP (VB defend) ('' '') (NP (DT the) (NN village)) (PP (IN during) (NP (NP (DT the) (NN attack)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (VP (VBN blamed) (PP (IN on) (NP (JJ Democratic) (NNS Forces))))))))) (PP (IN for) (NP (NP (DT the) (NNP Liberation)) (PP (IN of) (NP (NNP Rwanda)))))))))))))) (, ,) (NP (NNP Mounoubai)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 34|2 det 1|4 nsubj 2|4 aux 3|34 ccomp 4|10 mark 5|8 det 6|8 compound 7|10 nsubj 8|10 punct 9|4 ccomp 10|10 dobj 11|13 mark 12|10 advcl:to 13|13 punct 14|16 det 15|13 dobj 16|19 case 17|19 det 18|13 nmod:during 19|23 nsubjpass 19|19 punct 20|19 ref 21|23 auxpass 22|19 acl:relcl 23|26 case 24|26 amod 25|23 nmod:on 26|29 case 27|29 det 28|13 nmod:for 29|31 case 30|29 nmod:of 31|34 punct 32|34 nsubj 33|34 punct 35|
+<word> `` Shots directed at our troops were fired from this demonstrating crowd and wounded 11 , two critically and two seriously . 
+<lemma> `` shot direct at we troops be fire from this demonstrate crowd and wound 11 , two critically and two seriously . 
+<POS> `` NNS VBN IN PRP$ NNS VBD VBN IN DT VBG NN CC VBD CD , CD RB CC CD RB . 
+<NER> O O O O O O O O O O O O O O NUMBER O NUMBER O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NP (NNS Shots)) (VP (VBN directed) (PP (IN at) (NP (PRP$ our) (NNS troops))))) (VP (VBD were) (VP (VBN fired) (PP (IN from) (S (NP (DT this)) (VP (VBG demonstrating) (NP (NP (NP (NN crowd)) (CC and) (NP (VBD wounded) (CD 11))) (, ,) (ADJP (NP (CD two)) (RB critically))))))))) (CC and) (ADVP (NP (CD two)) (RB seriously)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 punct 1|8 nsubjpass 2|2 acl 3|6 case 4|6 nmod:poss 5|3 nmod:at 6|8 auxpass 7|11 mark 9|11 nsubj 10|8 advcl:from 11|11 dobj 12|12 cc 13|15 amod 14|11 dobj 15|12 conj:and 15|12 punct 16|18 nmod:npmod 17|12 amod 18|8 cc 19|21 nmod:npmod 20|8 advmod 21|8 punct 22|
+<word> Our troops did not return fire because if they had fired there would have been carnage , '' he said . 
+<lemma> we troops do not return fire because if they have fire there would have be carnage , '' he say . 
+<POS> PRP$ NNS VBD RB VB NN IN IN PRP VBD VBN EX MD VB VBN NN , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP$ Our) (NNS troops)) (VP (VBD did) (RB not) (VP (VB return) (NP (NN fire)) (SBAR (IN because) (S (SBAR (IN if) (S (NP (PRP they)) (VP (VBD had) (VP (VBN fired))))) (NP (EX there)) (VP (MD would) (VP (VB have) (VP (VBN been) (NP (NN carnage)))))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|2 nmod:poss 1|5 nsubj 2|5 aux 3|5 neg 4|20 ccomp 5|5 dobj 6|16 mark 7|11 mark 8|11 nsubj 9|11 aux 10|16 advcl:if 11|16 expl 12|16 aux 13|16 aux 14|16 cop 15|5 advcl:because 16|20 punct 17|20 punct 18|20 nsubj 19|20 punct 21|
+<word> `` They controlled themselves . '' 
+<lemma> `` they control themselves . '' 
+<POS> `` PRP VBD PRP . '' 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP They)) (VP (VBD controlled) (NP (PRP themselves))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|3 dobj 4|3 punct 5|3 punct 6|
+<word> The UN base is in the Bunyiakiri district of South Kivu province . 
+<lemma> the UN base be in the Bunyiakiri district of South Kivu province . 
+<POS> DT NNP NN VBZ IN DT NNP NN IN NNP NNP NN . 
+<NER> O ORGANIZATION O O O O LOCATION O O LOCATION LOCATION O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP UN) (NN base)) (VP (VBZ is) (PP (IN in) (NP (NP (DT the) (NNP Bunyiakiri) (NN district)) (PP (IN of) (NP (NNP South) (NNP Kivu) (NN province)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 det 1|3 compound 2|8 nsubj 3|8 cop 4|8 case 5|8 det 6|8 compound 7|12 case 9|12 compound 10|12 compound 11|8 nmod:of 12|8 punct 13|
+<word> Diplomatic sources at the United Nations in New York had said the wounded peacekeepers were Pakistani . 
+<lemma> diplomatic source at the United Nations in New York have say the wounded peacekeeper be Pakistani . 
+<POS> JJ NNS IN DT NNP NNPS IN NNP NNP VBD VBN DT JJ NNS VBD NNP . 
+<NER> O O O O ORGANIZATION ORGANIZATION O LOCATION LOCATION O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Diplomatic) (NNS sources)) (PP (IN at) (NP (NP (DT the) (NNP United) (NNPS Nations)) (PP (IN in) (NP (NNP New) (NNP York)))))) (VP (VBD had) (VP (VBN said) (SBAR (S (NP (DT the) (JJ wounded) (NNS peacekeepers)) (VP (VBD were) (NP (NNP Pakistani))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|2 amod 1|11 nsubj 2|6 case 3|6 det 4|6 compound 5|2 nmod:at 6|9 case 7|9 compound 8|6 nmod:in 9|11 aux 10|14 det 12|14 amod 13|16 nsubj 14|16 cop 15|11 ccomp 16|11 punct 17|
+<word> The UN mission in DR Congo reported that `` elements '' of a Mai-Mai group , the Rai Mutomboki , `` may have been part of the protest and may have fired on the peacekeepers , '' UN spokesman Martin Nesirky said . 
+<lemma> the UN mission in dr Congo report that `` element '' of a Mai-Mai group , the Rai Mutomboki , `` may have be part of the protest and may have fire on the peacekeeper , '' UN spokesman Martin Nesirky say . 
+<POS> DT NNP NN IN NN NNP VBD IN `` NNS '' IN DT NNP NN , DT NNP NNP , `` MD VB VBN NN IN DT NN CC MD VB VBN IN DT NNS , '' NNP NN NNP NNP VBD . 
+<NER> O ORGANIZATION O O LOCATION LOCATION O O O O O O O ORGANIZATION O O O PERSON PERSON O O O O O O O O O O O O O O O O O O ORGANIZATION O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT The) (NNP UN) (NN mission)) (PP (IN in) (NP (NN DR) (NNP Congo)))) (VP (VP (VBD reported) (SBAR (IN that) (S (NP (NP (`` ``) (NP (NNS elements)) ('' '') (PP (IN of) (NP (DT a) (NNP Mai-Mai) (NN group)))) (, ,) (NP (DT the) (NNP Rai) (NNP Mutomboki)) (, ,)) (`` ``) (VP (MD may) (VP (VB have) (VP (VBN been) (NP (NP (NN part)) (PP (IN of) (NP (DT the) (NN protest)))))))))) (CC and) (VP (MD may) (VP (VB have) (VP (VBN fired) (PP (IN on) (NP (DT the) (NNS peacekeepers)))))))) (, ,) ('' '') (NP (NNP UN) (NN spokesman) (NNP Martin) (NNP Nesirky)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 42|3 det 1|3 compound 2|7 nsubj 3|32 nsubj 3|6 case 4|6 compound 5|3 nmod:in 6|42 ccomp 7|25 mark 8|10 punct 9|25 nsubj 10|10 punct 11|15 case 12|15 det 13|15 compound 14|10 nmod:of 15|10 punct 16|19 det 17|19 compound 18|10 appos 19|10 punct 20|25 punct 21|25 aux 22|25 aux 23|25 cop 24|7 ccomp 25|28 case 26|28 det 27|25 nmod:of 28|7 cc 29|32 aux 30|32 aux 31|7 conj:and 32|42 ccomp 32|35 case 33|35 det 34|32 nmod:on 35|42 punct 36|42 punct 37|41 compound 38|41 compound 39|41 compound 40|42 nsubj 41|42 punct 43|
+<word> `` The mission is monitoring the situation and has sent reinforcements to the area , which is now reportedly calm but tense . '' 
+<lemma> `` the mission be monitor the situation and have send reinforcement to the area , which be now reportedly calm but tense . '' 
+<POS> `` DT NN VBZ VBG DT NN CC VBZ VBN NNS TO DT NN , WDT VBZ RB RB JJ CC JJ . '' 
+<NER> O O O O O O O O O O O O O O O O O DATE O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (DT The) (NN mission)) (VP (VP (VBZ is) (VP (VBG monitoring) (NP (DT the) (NN situation)))) (CC and) (VP (VBZ has) (VP (VBN sent) (NP (NNS reinforcements)) (PP (TO to) (NP (NP (DT the) (NN area)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ is) (ADVP (RB now)) (ADVP (RB reportedly)) (ADJP (JJ calm) (CC but) (JJ tense)))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|3 det 2|5 nsubj 3|10 nsubj 3|5 aux 4|7 det 6|5 dobj 7|5 cc 8|10 aux 9|5 conj:and 10|10 dobj 11|14 case 12|14 det 13|10 nmod:to 14|20 nsubj 14|22 nsubj 14|14 punct 15|14 ref 16|20 cop 17|20 advmod 18|20 advmod 19|14 acl:relcl 20|20 cc 21|14 acl:relcl 22|20 conj:but 22|5 punct 23|5 punct 24|
+<coreference> [['1,2,3,2', '2,6,7,6', '2,29,30,29', '3,7,8,7', '7,2,3,2', '9,2,3,2', '9,38,39,38'], ['1,14,17,14', '4,17,18,17', '4,20,21,20'], ['2,1,3,2', '1,20,21,20', '2,21,22,21'], ['2,11,13,12', '7,10,12,11'], ['2,34,36,35', '3,33,34,33', '5,19,20,19'], ['2,5,16,7', '7,1,4,3'], ['2,17,23,19', '3,18,20,19'], ['2,21,23,22', '3,15,17,16'], ['3,1,3,2', '4,5,6,5', '5,1,2,1'], ['3,6,9,8', '4,5,7,6', '5,1,3,2', '5,9,10,9', '6,2,3,2', '6,4,5,4'], ['8,12,15,14', '9,34,36,35']]
+</DOC>

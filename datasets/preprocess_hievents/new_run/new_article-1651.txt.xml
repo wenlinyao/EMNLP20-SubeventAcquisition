@@ -1,0 +1,116 @@
+<DOC> article-1651.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 |
+<word> At least 34 people have been abducted and killed by pro-government militiamen in the city of Homs , activists say . 
+<lemma> at least 34 people have be abducted and kill by pro-government militiaman in the city of Homs , activist say . 
+<POS> IN JJS CD NNS VBP VBN NN CC VBN IN JJ NNS IN DT NN IN NNP , NNS VBP . 
+<NER> O O NUMBER O O O O O O O O O O O O O LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN At) (JJS least) (CD 34)) (NNS people)) (VP (VBP have) (VP (VP (VBN been) (NP (NN abducted))) (CC and) (VP (VBN killed) (PP (IN by) (NP (NP (JJ pro-government) (NNS militiamen)) (PP (IN in) (NP (NP (DT the) (NN city)) (PP (IN of) (NP (NNP Homs))))))))))) (, ,) (NP (NNS activists)) (VP (VBP say)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|2 case 1|3 nmod:npmod 2|4 nummod 3|7 nsubj 4|9 nsubj 4|7 aux 5|7 cop 6|20 ccomp 7|7 cc 8|7 conj:and 9|20 ccomp 9|12 case 10|12 amod 11|9 nmod:by 12|15 case 13|15 det 14|12 nmod:in 15|17 case 16|15 nmod:of 17|20 punct 18|20 nsubj 19|20 punct 21|
+<word> The UK-based Syrian Observatory for Human Rights quoted witnesses as saying the bodies had been found dumped in a square in the restive city on Monday . 
+<lemma> the uk-based syrian observatory for human rights quote witness as say the body have be find dump in a square in the restive city on Monday . 
+<POS> DT JJ JJ NN IN JJ NNS VBN NNS IN VBG DT NNS VBD VBN VBN VBN IN DT NN IN DT JJ NN IN NNP . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ UK-based) (JJ Syrian) (NN Observatory)) (PP (IN for) (NP (NP (JJ Human) (NNS Rights)) (VP (VBN quoted) (NP (NNS witnesses)) (PP (IN as) (S (VP (VBG saying) (NP (DT the) (NNS bodies))))))))) (VP (VBD had) (VP (VBN been) (VP (VBN found) (S (VP (VBN dumped) (PP (IN in) (NP (NP (DT a) (NN square)) (PP (IN in) (NP (NP (DT the) (JJ restive) (NN city)) (PP (IN on) (NP (NNP Monday)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|4 det 1|4 amod 2|4 amod 3|16 nsubjpass 4|7 case 5|7 amod 6|4 nmod:for 7|7 acl 8|8 dobj 9|11 mark 10|8 advcl:as 11|13 det 12|11 dobj 13|16 aux 14|16 auxpass 15|16 dep 17|20 case 18|20 det 19|17 nmod:in 20|24 case 21|24 det 22|24 amod 23|20 nmod:in 24|26 case 25|24 nmod:on 26|16 punct 27|
+<word> The claim has not been independently verified , as most foreign media are banned from entering Syria . 
+<lemma> the claim have not be independently verify , as most foreign media be ban from enter Syria . 
+<POS> DT NN VBZ RB VBN RB VBN , IN JJS JJ NNS VBP VBN IN VBG NNP . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN claim)) (VP (VBZ has) (RB not) (VP (VBN been) (VP (ADVP (RB independently)) (VBN verified) (, ,) (SBAR (IN as) (S (NP (JJS most) (JJ foreign) (NNS media)) (VP (VBP are) (VP (VBN banned) (PP (IN from) (S (VP (VBG entering) (NP (NNP Syria)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubjpass 2|7 aux 3|7 neg 4|7 auxpass 5|7 advmod 6|7 punct 8|14 mark 9|12 amod 10|12 amod 11|14 nsubjpass 12|14 auxpass 13|7 advcl:as 14|16 mark 15|14 advcl:from 16|16 dobj 17|7 punct 18|
+<word> Meanwhile , Damascus says it responded `` positively '' to an Arab League plan aimed at ending months of unrest . 
+<lemma> meanwhile , Damascus say it respond `` positively '' to a Arab League plan aim at end month of unrest . 
+<POS> RB , NNP VBZ PRP VBD `` RB '' TO DT NNP NNP NN VBN IN VBG NNS IN NN . 
+<NER> O O LOCATION O O O O O O O O ORGANIZATION ORGANIZATION O O O O DURATION O O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Meanwhile)) (, ,) (NP (NNP Damascus)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VP (VBD responded) (`` ``) (ADVP (RB positively)) ('' '') (PP (TO to) (NP (DT an) (NNP Arab) (NNP League)))) (VP (NN plan) (S (VP (VBN aimed) (PP (IN at) (S (VP (VBG ending) (NP (NP (NNS months)) (PP (IN of) (NP (NN unrest)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 advmod 1|4 punct 2|4 nsubj 3|6 nsubj 5|4 ccomp 6|6 punct 7|6 advmod 8|6 punct 9|13 case 10|13 det 11|13 compound 12|6 nmod:to 13|6 dep 14|14 dep 15|17 mark 16|15 advcl:at 17|17 dobj 18|20 case 19|18 nmod:of 20|4 punct 21|
+<word> Foreign ministry spokesman Jihad al-Makdisi told reporters a letter by President Bashar al-Assad 's government had been sent to the Cairo-based Arab League , adding that he expected a deal to be signed soon . 
+<lemma> foreign ministry spokesman Jihad al-makdisi tell reporter a letter by President Bashar al-Assad 's government have be send to the cairo-based Arab League , add that he expect a deal to be sign soon . 
+<POS> JJ NN NN NNP JJ VBD NNS DT NN IN NNP NNP NNP POS NN VBD VBN VBN TO DT JJ NNP NNP , VBG IN PRP VBD DT NN TO VB VBN RB . 
+<NER> O O O PERSON PERSON O O O O O O PERSON PERSON O O O O O O O O ORGANIZATION ORGANIZATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Foreign) (NN ministry) (NN spokesman)) (ADJP (NNP Jihad) (JJ al-Makdisi))) (VP (VBD told) (NP (NP (NNS reporters)) (SBAR (S (NP (NP (DT a) (NN letter)) (PP (IN by) (NP (NP (NNP President) (NNP Bashar) (NNP al-Assad) (POS 's)) (NN government)))) (VP (VBD had) (VP (VBN been) (VP (VBN sent) (PP (TO to) (NP (DT the) (JJ Cairo-based) (NNP Arab) (NNP League))))))))) (, ,) (S (VP (VBG adding) (SBAR (IN that) (S (NP (PRP he)) (VP (VBD expected) (NP (DT a) (NN deal) (S (VP (TO to) (VP (VB be) (VP (VBN signed) (ADVP (RB soon))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 amod 1|3 compound 2|6 nsubj 3|5 amod 4|3 amod 5|6 dobj 7|9 det 8|18 nsubjpass 9|15 case 10|13 compound 11|13 compound 12|15 nmod:poss 13|13 case 14|9 nmod:by 15|18 aux 16|18 auxpass 17|7 acl:relcl 18|23 case 19|23 det 20|23 amod 21|23 compound 22|18 nmod:to 23|6 punct 24|6 advcl 25|28 mark 26|28 nsubj 27|25 ccomp 28|30 det 29|28 dobj 30|33 mark 31|33 auxpass 32|30 acl:to 33|33 advmod 34|6 punct 35|
+<word> He spoke after the expiry of the organisation 's latest deadline for Damascus to agree to its peace plan and allow in observers to monitor it or face the imposition of further sanctions approved last week . 
+<lemma> he speak after the expiry of the organisation 's latest deadline for Damascus to agree to its peace plan and allow in observer to monitor it or face the imposition of further sanction approve last week . 
+<POS> PRP VBD IN DT NN IN DT NN POS JJS NN IN NNP TO VB TO PRP$ NN NN CC VB IN NNS TO VB PRP CC VB DT NN IN JJ NNS VBN JJ NN . 
+<NER> O O O O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD spoke) (PP (IN after) (NP (NP (DT the) (NN expiry)) (PP (IN of) (NP (NP (NP (DT the) (NN organisation) (POS 's)) (JJS latest) (NN deadline)) (PP (IN for) (NP (NNP Damascus))))))) (S (VP (TO to) (VP (VP (VB agree) (PP (TO to) (NP (PRP$ its) (NN peace) (NN plan)))) (CC and) (VP (VB allow) (PP (IN in) (NP (NNS observers))) (S (VP (TO to) (VP (VP (VB monitor) (NP (PRP it))) (CC or) (VP (VB face) (NP (NP (DT the) (NN imposition)) (PP (IN of) (NP (NP (JJ further) (NNS sanctions)) (VP (VBN approved) (NP-TMP (JJ last) (NN week))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|15 nsubj:xsubj 1|21 nsubj:xsubj 1|5 case 3|5 det 4|2 nmod:after 5|11 case 6|8 det 7|11 nmod:poss 8|8 case 9|11 amod 10|5 nmod:of 11|13 case 12|11 nmod:for 13|15 mark 14|2 xcomp 15|19 case 16|19 nmod:poss 17|19 compound 18|15 nmod:to 19|15 cc 20|2 xcomp 21|15 conj:and 21|23 case 22|21 nmod:in 23|25 mark 24|21 xcomp 25|25 dobj 26|25 cc 27|21 xcomp 28|25 conj:or 28|30 det 29|28 dobj 30|33 case 31|33 amod 32|30 nmod:of 33|33 acl 34|36 amod 35|34 nmod:tmod 36|2 punct 37|
+<word> The Arab League secretary general , Nabil al-Arabi , confirmed receipt of the letter , but noted that it contained new elements which were now being studied by Arab foreign ministers . 
+<lemma> the Arab League secretary general , Nabil al-Arabi , confirm receipt of the letter , but note that it contain new element which be now be study by Arab foreign minister . 
+<POS> DT NNP NNP NN NN , NNP NNP , VBD NN IN DT NN , CC VBD IN PRP VBD JJ NNS WDT VBD RB VBG VBN IN NNP JJ NNS . 
+<NER> O ORGANIZATION ORGANIZATION O O O PERSON PERSON O O O O O O O O O O O O O O O O DATE O O O MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNP Arab) (NNP League) (NN secretary) (NN general)) (, ,) (NP (NNP Nabil) (NNP al-Arabi)) (, ,)) (VP (VP (VBD confirmed) (NP (NP (NN receipt)) (PP (IN of) (NP (DT the) (NN letter))))) (, ,) (CC but) (VP (VBD noted) (SBAR (IN that) (S (NP (PRP it)) (VP (VBD contained) (NP (NP (JJ new) (NNS elements)) (SBAR (WHNP (WDT which)) (S (VP (VBD were) (ADVP (RB now)) (VP (VBG being) (VP (VBN studied) (PP (IN by) (NP (NNP Arab) (JJ foreign) (NNS ministers)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|5 det 1|5 compound 2|5 compound 3|5 compound 4|10 nsubj 5|17 nsubj 5|5 punct 6|8 compound 7|5 appos 8|5 punct 9|10 dobj 11|14 case 12|14 det 13|11 nmod:of 14|10 punct 15|10 cc 16|10 conj:but 17|20 mark 18|20 nsubj 19|17 ccomp 20|22 amod 21|20 dobj 22|27 nsubjpass 22|22 ref 23|27 aux 24|27 advmod 25|27 auxpass 26|22 acl:relcl 27|31 case 28|31 compound 29|31 amod 30|27 nmod:agent 31|10 punct 32|
+<word> Syria is under pressure to end its crackdown on an uprising the UN says has left more than 4,000 people dead since the unrest began in March . 
+<lemma> Syria be under pressure to end its crackdown on a uprising the UN say have leave more than 4,000 people dead since the unrest begin in March . 
+<POS> NNP VBZ IN NN TO VB PRP$ NN IN DT NN DT NNP VBZ VBZ VBN JJR IN CD NNS JJ IN DT NN VBD IN NNP . 
+<NER> LOCATION O O O O O O O O O O O ORGANIZATION O O O O O NUMBER O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Syria)) (VP (VBZ is) (PP (IN under) (NP (NN pressure))) (S (VP (TO to) (VP (VB end) (NP (PRP$ its) (NN crackdown)) (PP (IN on) (NP (NP (DT an) (NN uprising)) (SBAR (S (NP (DT the) (NNP UN)) (VP (VBZ says) (SBAR (S (VP (VBZ has) (VP (VBN left) (ADJP (NP (QP (JJR more) (IN than) (CD 4,000)) (NNS people)) (JJ dead)) (SBAR (IN since) (S (NP (DT the) (NN unrest)) (VP (VBD began) (PP (IN in) (NP (NNP March))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|6 nsubj:xsubj 1|4 cop 2|4 case 3|6 mark 5|4 xcomp 6|8 nmod:poss 7|6 dobj 8|11 case 9|11 det 10|6 nmod:on 11|13 det 12|14 nsubj 13|11 acl:relcl 14|16 aux 15|14 ccomp 16|19 advmod 17|17 mwe 18|20 nummod 19|21 nmod:npmod 20|16 xcomp 21|25 mark 22|24 det 23|25 nsubj 24|16 advcl:since 25|27 case 26|25 nmod:in 27|4 punct 28|
+<word> Later on Monday , the Syrian Observatory for Human Rights quoted witnesses as saying that the bodies of at least 34 civilians had been seen by an activist in the pro-government district of al-Zahra . 
+<lemma> later on Monday , the syrian observatory for human rights quote witness as say that the body of at least 34 civilian have be see by a activist in the pro-government district of al-Zahra . 
+<POS> RB IN NNP , DT JJ NN IN JJ NNS VBN NNS IN VBG IN DT NNS IN IN JJS CD NNS VBD VBN VBN IN DT NN IN DT JJ NN IN NNP . 
+<NER> O O DATE O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O NUMBER O O O O O O O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Later) (PP (IN on) (NP-TMP (NNP Monday)))) (, ,) (NP (NP (DT the) (JJ Syrian) (NN Observatory)) (PP (IN for) (NP (JJ Human) (NNS Rights)))) (VP (VBN quoted) (NP (NNS witnesses)) (PP (IN as) (S (VP (VBG saying) (SBAR (IN that) (S (NP (NP (DT the) (NNS bodies)) (PP (IN of) (NP (QP (IN at) (JJS least) (CD 34)) (NNS civilians)))) (VP (VBD had) (VP (VBN been) (VP (VBN seen) (PP (IN by) (NP (NP (DT an) (NN activist)) (PP (IN in) (NP (NP (DT the) (JJ pro-government) (NN district)) (PP (IN of) (NP (NNP al-Zahra)))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|11 advmod 1|3 case 2|1 nmod:on 3|11 punct 4|7 det 5|7 amod 6|11 nsubj 7|10 case 8|10 amod 9|7 nmod:for 10|11 dobj 12|14 mark 13|11 advcl:as 14|25 mark 15|17 det 16|25 nsubjpass 17|22 case 18|20 case 19|21 nmod:npmod 20|22 nummod 21|17 nmod:of 22|25 aux 23|25 auxpass 24|14 ccomp 25|28 case 26|28 det 27|25 nmod:agent 28|32 case 29|32 det 30|32 amod 31|28 nmod:in 32|34 case 33|32 nmod:of 34|11 punct 35|
+<word> It said the victims had been seized on Monday by armed regime supporters , known locally as `` shabiha '' , from districts opposed to the government . 
+<lemma> it say the victim have be seize on Monday by armed regime supporter , know locally as `` shabiha '' , from district oppose to the government . 
+<POS> PRP VBD DT NNS VBD VBN VBN IN NNP IN JJ NN NNS , VBN RB IN `` NN '' , IN NNS VBN TO DT NN . 
+<NER> O O O O O O O O DATE O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD said) (SBAR (S (NP (DT the) (NNS victims)) (VP (VBD had) (VP (VBN been) (VP (VBN seized) (PP (IN on) (NP (NNP Monday))) (PP (IN by) (NP (JJ armed) (NN regime) (NNS supporters))) (, ,) (VP (VBN known) (ADVP (RB locally)) (PP (IN as) (`` ``) (NP (NN shabiha)) ('' ''))) (, ,) (PP (IN from) (NP (NP (NNS districts)) (VP (VBN opposed) (PP (TO to) (NP (DT the) (NN government)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|7 nsubjpass 4|7 aux 5|7 auxpass 6|2 ccomp 7|9 case 8|7 nmod:on 9|13 case 10|13 amod 11|13 compound 12|7 nmod:agent 13|7 punct 14|7 dep 15|15 advmod 16|19 case 17|19 punct 18|15 nmod:as 19|19 punct 20|7 punct 21|23 case 22|7 nmod:from 23|23 acl 24|27 case 25|27 det 26|24 nmod:to 27|2 punct 28|
+<word> Government forces have laid siege to Homs for the past two months . 
+<lemma> government force have lay siege to Homs for the past two month . 
+<POS> NN NNS VBP VBN NN TO NNP IN DT JJ CD NNS . 
+<NER> O O O O O O PERSON O DURATION DURATION DURATION DURATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Government) (NNS forces)) (VP (VBP have) (VP (VBN laid) (NP (NN siege)) (PP (TO to) (NP (NP (NNP Homs)) (PP (IN for) (NP (DT the) (JJ past) (CD two) (NNS months))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|4 aux 3|4 dobj 5|7 case 6|4 nmod:to 7|12 case 8|12 det 9|12 amod 10|12 nummod 11|7 nmod:for 12|4 punct 13|
+<word> The Observatory also reported that shabiha had abducted a bus driver and his 13 passengers in Homs province on Monday . 
+<lemma> the Observatory also report that shabiha have abducted a bus driver and he 13 passenger in Homs province on Monday . 
+<POS> DT NNP RB VBD IN NN VBD NN DT NN NN CC PRP$ CD NNS IN NNP NN IN NNP . 
+<NER> O ORGANIZATION O O O O O O O O O O O NUMBER O O LOCATION O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Observatory)) (ADVP (RB also)) (VP (VBD reported) (SBAR (IN that) (S (NP (NN shabiha)) (VP (VBD had) (NP (NP (NP (NN abducted)) (NP (DT a) (NN bus) (NN driver))) (CC and) (NP (NP (PRP$ his) (CD 13) (NNS passengers)) (PP (IN in) (NP (NNP Homs) (NN province))))) (PP (IN on) (NP (NNP Monday))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|7 mark 5|7 nsubj 6|4 ccomp 7|7 dobj 8|11 det 9|11 compound 10|8 dep 11|8 cc 12|15 nmod:poss 13|15 nummod 14|7 dobj 15|8 conj:and 15|18 case 16|18 compound 17|15 nmod:in 18|20 case 19|7 nmod:on 20|4 punct 21|
+<word> The Local Co-ordination Committee , an activist group that documents and organises protests , also said at least 17 people had been killed on Monday , including 14 in Homs . 
+<lemma> the local co-ordination Committee , a activist group that document and organise protest , also say at least 17 people have be kill on Monday , include 14 in Homs . 
+<POS> DT JJ NN NNP , DT NN NN WDT NNS CC VBZ NNS , RB VBD IN JJS CD NNS VBD VBN VBN IN NNP , VBG CD IN NNP . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O NUMBER O O O O O DATE O O NUMBER O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ Local) (NN Co-ordination) (NNP Committee)) (, ,) (NP (NP (DT an) (NN activist) (NN group)) (SBAR (WHNP (WDT that)) (S (UCP (NP (NNS documents)) (CC and) (S (VP (VBZ organises) (NP (NNS protests)))))))) (, ,)) (ADVP (RB also)) (VP (VBD said) (SBAR (S (NP (QP (IN at) (JJS least) (CD 17)) (NNS people)) (VP (VBD had) (VP (VBN been) (VP (VBN killed) (PP (IN on) (NP (NNP Monday))) (, ,) (PP (VBG including) (NP (NP (CD 14)) (PP (IN in) (NP (NNP Homs))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|4 det 1|4 amod 2|4 compound 3|16 nsubj 4|4 punct 5|8 det 6|8 compound 7|4 appos 8|10 dep 8|8 ref 9|8 acl:relcl 10|10 cc 11|8 acl:relcl 12|10 conj:and 12|12 dobj 13|4 punct 14|16 advmod 15|18 case 17|19 nmod:npmod 18|20 nummod 19|23 nsubjpass 20|23 aux 21|23 auxpass 22|16 ccomp 23|25 case 24|23 nmod:on 25|23 punct 26|28 case 27|23 nmod:including 28|30 case 29|28 nmod:in 30|16 punct 31|
+<word> Last week , UN Human Rights Council strongly condemned the `` gross and systematic '' violations by Syrian forces , and said it was appointing a special investigator to report on the ongoing crackdown . 
+<lemma> last week , UN Human Rights Council strongly condemn the `` gross and systematic '' violation by syrian force , and say it be appoint a special investigator to report on the ongoing crackdown . 
+<POS> JJ NN , NNP NNP NNP NNP RB VBD DT `` JJ CC JJ '' NNS IN JJ NNS , CC VBD PRP VBD VBG DT JJ NN TO VB IN DT JJ NN . 
+<NER> DATE DATE O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O MISC O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP-TMP (JJ Last) (NN week)) (, ,) (NP (NNP UN) (NNP Human) (NNP Rights) (NNP Council)) (ADVP (RB strongly)) (VP (VP (VBD condemned) (NP (DT the) (ADJP (`` ``) (JJ gross) (CC and) (JJ systematic) ('' '')) (NNS violations)) (PP (IN by) (NP (JJ Syrian) (NNS forces)))) (, ,) (CC and) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD was) (VP (VBG appointing) (NP (DT a) (JJ special) (NN investigator)) (S (VP (TO to) (VP (VB report) (PP (IN on) (NP (DT the) (JJ ongoing) (NN crackdown)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|2 amod 1|9 nmod:tmod 2|9 punct 3|7 compound 4|7 compound 5|7 compound 6|9 nsubj 7|22 nsubj 7|9 advmod 8|16 det 10|12 punct 11|16 amod 12|12 cc 13|12 conj:and 14|16 amod 14|12 punct 15|9 dobj 16|19 case 17|19 amod 18|9 nmod:by 19|9 punct 20|9 cc 21|9 conj:and 22|25 nsubj 23|25 aux 24|22 ccomp 25|28 det 26|28 amod 27|25 dobj 28|30 mark 29|25 advcl:to 30|34 case 31|34 det 32|34 amod 33|30 nmod:on 34|9 punct 35|
+<word> The Syrian government says it is fighting armed terrorist gangs . 
+<lemma> the syrian government say it be fight armed terrorist gang . 
+<POS> DT JJ NN VBZ PRP VBZ VBG JJ JJ NNS . 
+<NER> O MISC O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Syrian) (NN government)) (VP (VBZ says) (SBAR (S (NP (PRP it)) (VP (VBZ is) (VP (VBG fighting) (NP (JJ armed) (JJ terrorist) (NNS gangs))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|7 nsubj 5|7 aux 6|4 ccomp 7|10 amod 8|10 amod 9|7 dobj 10|4 punct 11|
+<word> The BBC 's Paul Wood , who was smuggled into Syria , reports on the increasing numbers of soldiers defecting to the opposition . 
+<lemma> the BBC 's Paul Wood , who be smuggle into Syria , report on the increase number of soldier defect to the opposition . 
+<POS> DT NNP POS NNP NNP , WP VBD VBN IN NNP , VBZ IN DT VBG NNS IN NNS VBG TO DT NN . 
+<NER> O ORGANIZATION O PERSON PERSON O O O O O LOCATION O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (DT The) (NNP BBC) (POS 's)) (NNP Paul) (NNP Wood)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN smuggled) (PP (IN into) (NP (NNP Syria))))))) (, ,)) (VP (VBZ reports) (PP (IN on) (NP (NP (DT the) (VBG increasing) (NNS numbers)) (PP (IN of) (NP (NP (NNS soldiers)) (VP (VBG defecting) (PP (TO to) (NP (DT the) (NN opposition))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 det 1|5 nmod:poss 2|2 case 3|5 compound 4|9 nsubjpass 5|13 nsubj 5|5 punct 6|5 ref 7|9 auxpass 8|5 acl:relcl 9|11 case 10|9 nmod:into 11|5 punct 12|17 case 14|17 det 15|17 amod 16|13 nmod:on 17|19 case 18|17 nmod:of 19|19 acl 20|23 case 21|23 det 22|20 nmod:to 23|13 punct 24|
+<coreference> [['1,3,4,3', '9,21,22,21'], ['1,17,18,17', '12,17,18,17', '13,30,31,30'], ['2,1,14,4', '9,5,11,7', '12,1,3,2'], ['2,9,10,9', '9,12,13,12'], ['2,26,27,26', '9,3,4,3', '10,1,2,1', '10,9,10,9', '12,20,21,20', '13,25,26,25'], ['3,17,18,17', '8,1,2,1', '8,7,8,7', '16,11,12,11'], ['4,3,4,3', '4,5,6,5', '6,13,14,13'], ['5,20,24,23', '4,11,14,13', '5,22,24,23', '7,2,4,3', '7,19,20,19'], ['5,4,6,5', '5,27,28,27', '6,1,2,1'], ['5,8,16,9', '7,13,15,14'], ['5,11,16,15', '10,26,28,27'], ['6,4,14,5', '6,17,18,17'], ['6,17,20,19', '6,26,27,26'], ['6,35,37,36', '14,1,3,2', '14,23,24,23'], ['12,9,12,11', '12,13,14,13'], ['13,1,5,4', '13,6,14,8'], ['15,1,4,3', '15,5,6,5']]
+</DOC>

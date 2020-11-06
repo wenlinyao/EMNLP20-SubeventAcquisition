@@ -1,0 +1,116 @@
+<DOC> article-2209.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 |
+<word> Dozens of bodies were dumped in the streets of a Syrian city at the heart of the country 's nine-month-old uprising , a grim sign that sectarian bloodshed is escalating . 
+<lemma> dozen of body be dump in the street of a syrian city at the heart of the country 's nine-month-old uprising , a grim sign that sectarian bloodshed be escalate . 
+<POS> NNS IN NNS VBD VBN IN DT NNS IN DT JJ NN IN DT NN IN DT NN POS JJ NN , DT JJ NN IN JJ NN VBZ VBG . 
+<NER> O O O O O O O O O O MISC O O O O O O O O DURATION O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Dozens)) (PP (IN of) (NP (NNS bodies)))) (VP (VBD were) (VP (VBN dumped) (PP (IN in) (NP (NP (DT the) (NNS streets)) (PP (IN of) (NP (DT a) (JJ Syrian) (NN city))))) (PP (IN at) (NP (NP (DT the) (NN heart)) (PP (IN of) (NP (NP (NP (DT the) (NN country) (POS 's)) (JJ nine-month-old) (NN uprising)) (, ,) (NP (DT a) (JJ grim) (NN sign)))))) (SBAR (IN that) (S (NP (JJ sectarian) (NN bloodshed)) (VP (VBZ is) (VP (VBG escalating))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det:qmod 1|1 mwe 2|5 nsubjpass 3|5 auxpass 4|8 case 6|8 det 7|5 nmod:in 8|12 case 9|12 det 10|12 amod 11|8 nmod:of 12|15 case 13|15 det 14|5 nmod:at 15|21 case 16|18 det 17|21 nmod:poss 18|18 case 19|21 amod 20|15 nmod:of 21|21 punct 22|25 det 23|25 amod 24|21 appos 25|30 mark 26|28 amod 27|30 nsubj 28|30 aux 29|5 ccomp 30|5 punct 31|
+<word> The discovery in the streets of Homs came as the United States stepped up pressure on the regime of President Bashar Assad to end its crackdown on the anti-government protests . 
+<lemma> the discovery in the street of Homs come as the United States step up pressure on the regime of President Bashar Assad to end its crackdown on the anti-government protest . 
+<POS> DT NN IN DT NNS IN NNP VBD IN DT NNP NNPS VBD RP NN IN DT NN IN NNP NNP NNP TO VB PRP$ NN IN DT NN NNS . 
+<NER> O O O O O O PERSON O O O LOCATION LOCATION O O O O O O O O PERSON PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN discovery)) (PP (IN in) (NP (NP (DT the) (NNS streets)) (PP (IN of) (NP (NNP Homs)))))) (VP (VBD came) (SBAR (IN as) (S (NP (DT the) (NNP United) (NNPS States)) (VP (VBD stepped) (PRT (RP up)) (NP (NP (NN pressure)) (PP (IN on) (NP (NP (DT the) (NN regime)) (PP (IN of) (NP (NNP President) (NNP Bashar) (NNP Assad)))))) (S (VP (TO to) (VP (VB end) (NP (PRP$ its) (NN crackdown)) (PP (IN on) (NP (DT the) (NN anti-government) (NNS protests)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|8 nsubj 2|5 case 3|5 det 4|2 nmod:in 5|7 case 6|5 nmod:of 7|13 mark 9|12 det 10|12 compound 11|13 nsubj 12|8 advcl:as 13|13 compound:prt 14|13 dobj 15|18 case 16|18 det 17|15 nmod:on 18|22 case 19|22 compound 20|22 compound 21|18 nmod:of 22|24 mark 23|13 advcl:to 24|26 nmod:poss 25|24 dobj 26|30 case 27|30 det 28|30 compound 29|24 nmod:on 30|8 punct 31|
+<word> US Secretary of State Hillary Clinton met in Geneva with Syrian opposition figures and Washington said it was sending its ambassador back to Damascus . 
+<lemma> US Secretary of State Hillary Clinton meet in Geneva with syrian opposition figure and Washington say it be send its ambassador back to Damascus . 
+<POS> NNP NNP IN NNP NNP NNP VBD IN NNP IN JJ NN NNS CC NNP VBD PRP VBD VBG PRP$ NN RB TO NNP . 
+<NER> LOCATION O O ORGANIZATION PERSON PERSON O O LOCATION O MISC O O O LOCATION O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNP US) (NNP Secretary)) (PP (IN of) (NP (NNP State) (NNP Hillary) (NNP Clinton)))) (VP (VBD met) (PP (IN in) (NP (NNP Geneva))) (PP (IN with) (NP (JJ Syrian) (NN opposition) (NNS figures))))) (CC and) (S (NP (NNP Washington)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD was) (VP (VBG sending) (NP (PRP$ its) (NN ambassador)) (ADVP (RB back)) (PP (TO to) (NP (NNP Damascus))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 compound 1|7 nsubj 2|6 case 3|6 compound 4|6 compound 5|2 nmod:of 6|9 case 8|7 nmod:in 9|13 case 10|13 amod 11|13 compound 12|7 nmod:with 13|7 cc 14|16 nsubj 15|7 conj:and 16|19 nsubj 17|19 aux 18|16 ccomp 19|21 nmod:poss 20|19 dobj 21|19 advmod 22|24 case 23|19 nmod:to 24|7 punct 25|
+<word> Up to 50 people were killed in Homs on Monday , but details about what happened in Syria 's third-largest city only came to light today with reports of retaliatory attacks pitting members of the Alawite sect against Sunnis . 
+<lemma> up to 50 people be kill in Homs on Monday , but detail about what happen in Syria 's third-largest city only come to light today with report of retaliatory attack pit member of the Alawite sect against Sunnis . 
+<POS> IN TO CD NNS VBD VBN IN NNP IN NNP , CC NNS IN WP VBD IN NNP POS JJ NN RB VBD TO JJ NN IN NNS IN JJ NNS VBG NNS IN DT NNP NN IN NNPS . 
+<NER> O O NUMBER O O O O LOCATION O DATE O O O O O O O LOCATION O O O O O O O DATE O O O O O O O O O MISC O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN Up) (TO to) (CD 50)) (NNS people)) (VP (VBD were) (VP (VBN killed) (PP (IN in) (NP (NNP Homs))) (PP (IN on) (NP (NNP Monday)))))) (, ,) (CC but) (S (NP (NP (NNS details)) (PP (IN about) (SBAR (WHNP (WP what)) (S (VP (VBD happened) (PP (IN in) (NP (NP (NNP Syria) (POS 's)) (JJ third-largest) (NN city)))))))) (ADVP (RB only)) (VP (VBD came) (PP (TO to) (NP (JJ light) (NN today))) (PP (IN with) (NP (NP (NNS reports)) (PP (IN of) (NP (JJ retaliatory) (NNS attacks))))) (S (VP (VBG pitting) (NP (NP (NNS members)) (PP (IN of) (NP (DT the) (NNP Alawite) (NN sect)))) (PP (IN against) (NP (NNPS Sunnis))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 dep 1|1 mwe 2|4 nummod 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:in 8|10 case 9|6 nmod:on 10|6 punct 11|6 cc 12|23 nsubj 13|16 mark 14|16 nsubj 15|13 acl:about 16|21 case 17|21 nmod:poss 18|18 case 19|21 amod 20|16 nmod:in 21|23 advmod 22|6 conj:but 23|26 case 24|26 amod 25|23 nmod:to 26|28 case 27|23 nmod:with 28|31 case 29|31 amod 30|28 nmod:of 31|23 xcomp 32|32 dobj 33|37 case 34|37 det 35|37 compound 36|33 nmod:of 37|39 case 38|32 nmod:against 39|6 punct 40|
+<word> The sectarian violence is a dire development in Syria , and one that opposition members say plays directly into the regime 's hands . 
+<lemma> the sectarian violence be a dire development in Syria , and one that opposition member say play directly into the regime 's hand . 
+<POS> DT JJ NN VBZ DT JJ NN IN NNP , CC CD WDT NN NNS VBP VBZ RB IN DT NN POS NNS . 
+<NER> O O O O O O O O LOCATION O O NUMBER O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (JJ sectarian) (NN violence)) (VP (VBZ is) (NP (NP (DT a) (JJ dire) (NN development)) (PP (IN in) (NP (NNP Syria)))))) (, ,) (CC and) (S (NP (NP (CD one)) (SBAR (WHNP (WDT that)) (S (NP (NN opposition) (NNS members)) (VP (VBP say))))) (VP (VBZ plays) (ADVP (RB directly)) (PP (IN into) (NP (NP (DT the) (NN regime) (POS 's)) (NNS hands))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 det 1|3 amod 2|7 nsubj 3|7 cop 4|7 det 5|7 amod 6|9 case 8|7 nmod:in 9|7 punct 10|7 cc 11|16 dobj 12|17 nsubj 12|12 ref 13|15 compound 14|16 nsubj 15|12 acl:relcl 16|7 conj:and 17|17 advmod 18|23 case 19|21 det 20|23 nmod:poss 21|21 case 22|17 nmod:into 23|7 punct 24|
+<word> Since the uprising began , Mr Assad portrayed himself as the lone force who can ward off the radicalism and sectarianism that have bedevilled neighbours in Iraq and Lebanon . 
+<lemma> since the uprising begin , Mr Assad portray himself as the lone force who can ward off the radicalism and sectarianism that have bedevil neighbour in Iraq and Lebanon . 
+<POS> IN DT NN VBD , NNP NNP VBD PRP IN DT JJ NN WP MD VB RP DT NN CC NN WDT VBP VBN NNS IN NNP CC NNP . 
+<NER> O O O O O O PERSON O O O O O O O O O O O O O O O O O O O LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (SBAR (IN Since) (S (NP (DT the) (NN uprising)) (VP (VBD began)))) (, ,) (NP (NNP Mr) (NNP Assad)) (VP (VBD portrayed) (NP (PRP himself)) (PP (IN as) (NP (NP (DT the) (JJ lone) (NN force)) (SBAR (WHNP (WP who)) (S (VP (MD can) (VP (VB ward) (PRT (RP off)) (NP (NP (DT the) (NN radicalism) (CC and) (NN sectarianism)) (SBAR (WHNP (WDT that)) (S (VP (VBP have) (VP (VBN bedevilled) (NP (NP (NNS neighbours)) (PP (IN in) (NP (NNP Iraq) (CC and) (NNP Lebanon)))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|4 mark 1|3 det 2|4 nsubj 3|8 advcl:since 4|8 punct 5|7 compound 6|8 nsubj 7|8 dobj 9|13 case 10|13 det 11|13 amod 12|8 nmod:as 13|16 nsubj 13|13 ref 14|16 aux 15|13 acl:relcl 16|16 compound:prt 17|19 det 18|16 dobj 19|24 nsubj 19|19 cc 20|16 dobj 21|19 conj:and 21|24 nsubj 21|19 ref 22|24 aux 23|19 acl:relcl 24|24 dobj 25|27 case 26|25 nmod:in 27|27 cc 28|25 nmod:in 29|27 conj:and 29|8 punct 30|
+<word> Opposition figures have accused Mr Assad 's minority Alawite regime of trying to stir up trouble with the Sunni majority to blunt enthusiasm for the uprising . 
+<lemma> opposition figure have accuse Mr Assad 's minority alawite regime of try to stir up trouble with the Sunni majority to blunt enthusiasm for the uprising . 
+<POS> NN NNS VBP VBN NNP NNP POS NN NN NN IN VBG TO VB RP NN IN DT NNP NN TO VB NN IN DT NN . 
+<NER> O O O O O PERSON O O MISC O O O O O O O O O MISC O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Opposition) (NNS figures)) (VP (VBP have) (VP (VBN accused) (NP (NP (NP (NNP Mr) (NNP Assad) (POS 's)) (NN minority) (NN Alawite) (NN regime)) (PP (IN of) (S (VP (VBG trying) (S (VP (TO to) (VP (VB stir) (PRT (RP up)) (NP (NP (NN trouble)) (PP (IN with) (NP (DT the) (NNP Sunni) (NN majority)))) (S (VP (TO to) (VP (VB blunt) (NP (NN enthusiasm)) (PP (IN for) (NP (DT the) (NN uprising))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|4 aux 3|6 compound 5|10 nmod:poss 6|6 case 7|10 compound 8|10 compound 9|4 dobj 10|12 mark 11|10 acl:of 12|14 mark 13|12 xcomp 14|14 compound:prt 15|14 dobj 16|20 case 17|20 det 18|20 compound 19|16 nmod:with 20|22 mark 21|14 advcl:to 22|22 dobj 23|26 case 24|26 det 25|22 nmod:for 26|4 punct 27|
+<word> `` It was an insane escalation , '' activist Mohamed Saleh said by telephone from Homs . 
+<lemma> `` it be a insane escalation , '' activist Mohamed Saleh say by telephone from Homs . 
+<POS> `` PRP VBD DT JJ NN , '' NN NNP NNP VBD IN NN IN NNP . 
+<NER> O O O O O O O O O PERSON PERSON O O O O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP It)) (VP (VBD was) (NP (DT an) (ADJP (JJ insane)) (NN escalation)))) (, ,) ('' '') (NP (NN activist) (NNP Mohamed) (NNP Saleh)) (VP (VBD said) (PP (IN by) (NP (NN telephone))) (PP (IN from) (NP (NNP Homs)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|12 punct 1|6 nsubj 2|6 cop 3|6 det 4|6 amod 5|12 ccomp 6|12 punct 7|12 punct 8|11 compound 9|11 compound 10|12 nsubj 11|14 case 13|12 nmod:by 14|16 case 15|12 nmod:from 16|12 punct 17|
+<word> `` There were kidnappings and killings in a mad way . 
+<lemma> `` there be kidnapping and killing in a mad way . 
+<POS> `` EX VBD NNS CC NNS IN DT JJ NN . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (EX There)) (VP (VBD were) (NP (NP (NNS kidnappings) (CC and) (NNS killings)) (PP (IN in) (NP (DT a) (JJ mad) (NN way))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 expl 2|3 nsubj 4|4 cc 5|3 nsubj 6|4 conj:and 6|10 case 7|10 det 8|10 amod 9|4 nmod:in 10|3 punct 11|
+<word> People are afraid to go out of their homes . '' 
+<lemma> people be afraid to go out of they home . '' 
+<POS> NNS VBP JJ TO VB IN IN PRP$ NNS . '' 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS People)) (VP (VBP are) (ADJP (JJ afraid) (S (VP (TO to) (VP (VB go) (PRT (IN out)) (PP (IN of) (NP (PRP$ their) (NNS homes)))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|5 nsubj:xsubj 1|3 cop 2|5 mark 4|3 xcomp 5|5 compound:prt 6|9 case 7|9 nmod:poss 8|5 nmod:of 9|3 punct 10|3 punct 11|
+<word> Thirty-four of the dead were shot execution-style , their bodies dumped in a public square , according to Mr Saleh and others who monitor the violence , including the British-based Syrian Observatory for Human Rights . 
+<lemma> thirty-four of the dead be shoot execution-style , they body dump in a public square , accord to Mr Saleh and other who monitor the violence , include the british-based syrian observatory for human rights . 
+<POS> CD IN DT JJ VBD VBN NN , PRP$ NNS VBN IN DT JJ NN , VBG TO NNP NNP CC NNS WP VBP DT NN , VBG DT JJ JJ NN IN JJ NNS . 
+<NER> NUMBER O O O O O O O O O O O O O O O O O O PERSON O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Thirty-four)) (PP (IN of) (NP (DT the) (JJ dead)))) (VP (VBD were) (VP (VBN shot) (NP (NP (NN execution-style)) (, ,) (NP (NP (PRP$ their) (NNS bodies)) (VP (VBN dumped) (PP (IN in) (NP (DT a) (JJ public) (NN square))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NNP Mr) (NNP Saleh)) (CC and) (NP (NP (NNS others)) (SBAR (WHNP (WP who)) (S (VP (VBP monitor) (NP (DT the) (NN violence))))))))) (, ,) (PP (VBG including) (NP (NP (DT the) (JJ British-based) (JJ Syrian) (NN Observatory)) (PP (IN for) (NP (JJ Human) (NNS Rights)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubjpass 1|4 case 2|4 det 3|1 nmod:of 4|6 auxpass 5|6 dobj 7|7 punct 8|10 nmod:poss 9|7 appos 10|10 acl 11|15 case 12|15 det 13|15 amod 14|11 nmod:in 15|11 punct 16|20 case 17|17 mwe 18|20 compound 19|11 nmod:according_to 20|20 cc 21|11 nmod:according_to 22|20 conj:and 22|24 nsubj 22|22 ref 23|22 acl:relcl 24|26 det 25|24 dobj 26|11 punct 27|32 case 28|32 det 29|32 amod 30|32 amod 31|11 nmod:including 32|35 case 33|35 amod 34|32 nmod:for 35|6 punct 36|
+<word> A Homs government official confirmed only that 43 bodies were found on Monday in Homs . 
+<lemma> a Homs government official confirm only that 43 body be find on Monday in Homs . 
+<POS> DT NNP NN NN VBD RB IN CD NNS VBD VBN IN NNP IN NNP . 
+<NER> O PERSON O O O O O NUMBER O O O O DATE O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP Homs) (NN government) (NN official)) (VP (VBD confirmed) (SBAR (RB only) (IN that) (S (NP (CD 43) (NNS bodies)) (VP (VBD were) (VP (VBN found) (PP (IN on) (NP (NNP Monday))) (PP (IN in) (NP (NNP Homs)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 compound 2|4 compound 3|5 nsubj 4|11 advmod 6|11 mark 7|9 nummod 8|11 nsubjpass 9|11 auxpass 10|5 dep 11|13 case 12|11 nmod:on 13|15 case 14|11 nmod:in 15|5 punct 16|
+<word> With 4,000 people dead across Syria in the uprising , the conflict is no longer just a matter of government forces firing on peaceful protesters looking to topple Mr Assad 's autocratic regime . 
+<lemma> with 4,000 people dead across Syria in the uprising , the conflict be no longer just a matter of government force firing on peaceful protester look to topple Mr Assad 's autocratic regime . 
+<POS> IN CD NNS JJ IN NNP IN DT NN , DT NN VBZ RB RB RB DT NN IN NN NNS NN IN JJ NNS VBG TO VB NNP NNP POS JJ NN . 
+<NER> O NUMBER O O O LOCATION O O O O O O O O O O O O O O O O O O O O O O O PERSON O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN With) (NP (NP (CD 4,000) (NNS people)) (ADJP (JJ dead) (PP (IN across) (NP (NP (NNP Syria)) (PP (IN in) (NP (DT the) (NN uprising)))))))) (, ,) (NP (DT the) (NN conflict)) (VP (VBZ is) (ADVP (RB no) (RB longer)) (NP (NP (RB just) (DT a) (NN matter)) (PP (IN of) (NP (NP (NN government) (NNS forces) (NN firing)) (PP (IN on) (NP (NP (JJ peaceful) (NNS protesters)) (VP (VBG looking) (S (VP (TO to) (VP (VB topple) (NP (NP (NNP Mr) (NNP Assad) (POS 's)) (JJ autocratic) (NN regime)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|3 case 1|3 nummod 2|18 nmod:with 3|3 amod 4|6 case 5|4 nmod:across 6|9 case 7|9 det 8|6 nmod:in 9|18 punct 10|12 det 11|18 nsubj 12|18 cop 13|15 neg 14|18 advmod 15|18 advmod 16|18 det 17|22 case 19|22 compound 20|22 compound 21|18 nmod:of 22|25 case 23|25 amod 24|22 nmod:on 25|25 acl 26|28 mark 27|26 xcomp 28|30 compound 29|33 nmod:poss 30|30 case 31|33 amod 32|28 dobj 33|18 punct 34|
+<word> The government also has been facing strong resistance from army defectors who have taken refuge in Homs . 
+<lemma> the government also have be face strong resistance from army defector who have take refuge in Homs . 
+<POS> DT NN RB VBZ VBN VBG JJ NN IN NN NNS WP VBP VBN NN IN NNP . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN government)) (ADVP (RB also)) (VP (VBZ has) (VP (VBN been) (VP (VBG facing) (NP (JJ strong) (NN resistance)) (PP (IN from) (NP (NP (NN army) (NNS defectors)) (SBAR (WHNP (WP who)) (S (VP (VBP have) (VP (VBN taken) (NP (NP (NN refuge)) (PP (IN in) (NP (NNP Homs))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|6 advmod 3|6 aux 4|6 aux 5|8 amod 7|6 dobj 8|11 case 9|11 compound 10|6 nmod:from 11|14 nsubj 11|11 ref 12|14 aux 13|11 acl:relcl 14|14 dobj 15|17 case 16|15 nmod:in 17|6 punct 18|
+<word> But sectarian overtones are building as well , because the uprising has unearthed long-simmering grievances that are now exploding into violence . 
+<lemma> but sectarian overtone be build as well , because the uprising have unearth long-simmering grievance that be now explode into violence . 
+<POS> CC JJ NNS VBP VBG RB RB , IN DT NN VBZ VBN JJ NNS WDT VBP RB VBG IN NN . 
+<NER> O O O O O O O O O O O O O O O O O DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (JJ sectarian) (NNS overtones)) (VP (VBP are) (VP (VBG building) (ADVP (ADVP (RB as) (RB well)) (, ,) (SBAR (IN because) (S (NP (DT the) (NN uprising)) (VP (VBZ has) (VP (VBN unearthed) (NP (NP (JJ long-simmering) (NNS grievances)) (SBAR (WHNP (WDT that)) (S (VP (VBP are) (ADVP (RB now)) (VP (VBG exploding) (PP (IN into) (NP (NN violence))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 cc 1|3 amod 2|5 nsubj 3|5 aux 4|5 advmod 6|6 mwe 7|6 punct 8|13 mark 9|11 det 10|13 nsubj 11|13 aux 12|6 advcl:because 13|15 amod 14|13 dobj 15|19 nsubj 15|15 ref 16|19 aux 17|19 advmod 18|15 acl:relcl 19|21 case 20|19 nmod:into 21|5 punct 22|
+<word> The Arab League has piled on economic sanctions to try to end the violence , adding to measures already taken by the US , European Union , Turkey and others . 
+<lemma> the Arab League have pile on economic sanction to try to end the violence , add to measure already take by the US , European Union , Turkey and other . 
+<POS> DT NNP NNP VBZ VBN IN JJ NNS TO VB TO VB DT NN , VBG TO NNS RB VBN IN DT NNP , NNP NNP , NNP CC NNS . 
+<NER> O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O O LOCATION O ORGANIZATION ORGANIZATION O LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Arab) (NNP League)) (VP (VBZ has) (VP (VBN piled) (PP (IN on) (NP (JJ economic) (NNS sanctions))) (S (VP (TO to) (VP (VB try) (S (VP (TO to) (VP (VB end) (NP (DT the) (NN violence)) (, ,) (S (VP (VBG adding) (PP (TO to) (NP (NP (NNS measures)) (VP (ADVP (RB already)) (VBN taken) (PP (IN by) (NP (NP (DT the) (NNP US)) (, ,) (NP (NNP European) (NNP Union)) (, ,) (NP (NNP Turkey)) (CC and) (NP (NNS others))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 compound 2|5 nsubj 3|10 nsubj:xsubj 3|5 aux 4|8 case 6|8 amod 7|5 nmod:on 8|10 mark 9|5 xcomp 10|12 mark 11|10 xcomp 12|14 det 13|12 dobj 14|12 punct 15|12 advcl 16|18 case 17|16 nmod:to 18|20 advmod 19|18 acl 20|23 case 21|23 det 22|20 nmod:by 23|23 punct 24|26 compound 25|20 nmod:by 26|23 conj:and 26|23 punct 27|20 nmod:by 28|23 conj:and 28|23 cc 29|20 nmod:by 30|23 conj:and 30|5 punct 31|
+<coreference> [['1,17,22,21', '1,23,26,25', '6,2,4,3', '7,25,27,26', '13,8,10,9', '15,10,12,11'], ['2,7,8,7', '4,8,9,8', '8,16,17,16', '12,2,3,2', '12,15,16,15', '14,17,18,17'], ['2,10,13,12', '3,1,2,1', '16,22,24,23', '16,23,24,23'], ['2,15,23,15', '2,25,26,25'], ['2,17,23,18', '5,20,23,21'], ['3,15,16,15', '3,17,18,17', '3,20,21,20'], ['3,11,14,13', '7,1,3,2'], ['4,18,20,18', '5,9,10,9'], ['4,39,40,39', '7,19,20,19'], ['4,1,5,4', '10,1,2,1', '10,8,9,8', '11,9,10,9'], ['4,10,11,10', '12,13,14,13'], ['5,1,4,3', '5,5,10,7', '11,25,27,26', '16,13,15,14'], ['6,6,8,7', '6,9,10,9', '7,5,8,6', '13,29,32,30'], ['7,5,27,10', '8,2,3,2', '8,4,7,6'], ['8,9,12,11', '11,19,21,20', '11,20,21,20'], ['13,16,34,18', '13,11,13,12']]
+</DOC>

@@ -1,0 +1,46 @@
+<DOC> article-13218.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> Support group One in Four says that new allegations surrounding the role of Cardinal Sean Brady in the Brendan Smyth affair require an explanation from the Cardinal . 
+<lemma> support group one in four say that new allegation surround the role of Cardinal Sean Brady in the Brendan Smyth affair require a explanation from the Cardinal . 
+<POS> NN NN CD IN CD VBZ IN JJ NNS VBG DT NN IN NNP NNP NNP IN DT NNP NNP NN VBP DT NN IN DT NNP . 
+<NER> O O NUMBER O NUMBER O O O O O O O O O PERSON PERSON O O PERSON PERSON O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NN Support) (NN group)) (NP-TMP (CD One)) (PP (IN in) (NP (CD Four)))) (VP (VBZ says) (SBAR (IN that) (S (NP (NP (JJ new) (NNS allegations)) (VP (VBG surrounding) (NP (NP (DT the) (NN role)) (PP (IN of) (NP (NP (NNP Cardinal) (NNP Sean) (NNP Brady)) (PP (IN in) (NP (DT the) (NNP Brendan) (NNP Smyth) (NN affair)))))))) (VP (VBP require) (NP (DT an) (NN explanation)) (PP (IN from) (NP (DT the) (NNP Cardinal))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 compound 1|6 nsubj 2|2 nmod:tmod 3|5 case 4|2 nmod:in 5|22 mark 7|9 amod 8|22 nsubj 9|9 acl 10|12 det 11|10 dobj 12|16 case 13|16 compound 14|16 compound 15|12 nmod:of 16|21 case 17|21 det 18|21 compound 19|21 compound 20|16 nmod:in 21|6 ccomp 22|24 det 23|22 dobj 24|27 case 25|27 det 26|22 nmod:from 27|6 punct 28|
+<word> A BBC documentary last night claimed that information was given to an investigating team of clerics - including Cardinal Brady - in 1975 about other children who were being abused at the time but was not passed on . 
+<lemma> a BBC documentary last night claim that information be give to a investigate team of cleric - include Cardinal Brady - in 1975 about other child who be be abuse at the time but be not pass on . 
+<POS> DT NNP NN JJ NN VBD IN NN VBD VBN TO DT VBG NN IN NNS : VBG NNP NNP : IN CD IN JJ NNS WP VBD VBG VBN IN DT NN CC VBD RB VBN IN . 
+<NER> O ORGANIZATION O TIME TIME O O O O O O O O O O O O O PERSON PERSON O O DATE O O O O O O O O O DATE O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP BBC) (NN documentary)) (NP-TMP (JJ last) (NN night)) (VP (VP (VBD claimed) (SBAR (IN that) (S (NP (NN information)) (VP (VBD was) (VP (VBN given) (PP (TO to) (NP (NP (NP (DT an) (VBG investigating) (NN team)) (PP (IN of) (NP (NNS clerics))) (PRN (: -) (PP (VBG including) (NP (NNP Cardinal) (NNP Brady))) (: -))) (PP (IN in) (NP (NP (CD 1975)) (PP (IN about) (NP (JJ other) (NNS children))))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBG being) (VP (VBN abused) (PP (IN at) (NP (DT the) (NN time))))))))))))))) (CC but) (VP (VBD was) (RB not) (VP (VBN passed) (PP (IN on))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 compound 2|6 nsubj 3|37 nsubjpass 3|5 amod 4|6 nmod:tmod 5|10 mark 7|10 nsubjpass 8|10 auxpass 9|6 ccomp 10|14 case 11|14 det 12|14 amod 13|10 nmod:to 14|30 nsubjpass 14|16 case 15|14 nmod:of 16|20 punct 17|20 case 18|20 compound 19|14 nmod:including 20|20 punct 21|23 case 22|14 nmod:in 23|26 case 24|26 amod 25|23 nmod:about 26|14 ref 27|30 aux 28|30 auxpass 29|14 acl:relcl 30|33 case 31|33 det 32|30 nmod:at 33|6 cc 34|37 auxpass 35|37 neg 36|6 conj:but 37|37 nmod 38|6 punct 39|
+<word> In a statement released before the programme aired last night a spokesman for the Cardinal said the then-Father Brady was a notetaker for the inquiry . 
+<lemma> in a statement release before the programme air last night a spokesman for the Cardinal say the then-father Brady be a notetaker for the inquiry . 
+<POS> IN DT NN VBN IN DT NN VBN JJ NN DT NN IN DT NNP VBD DT JJ NNP VBD DT NN IN DT NN . 
+<NER> O O O O O O O O TIME TIME O O O O PERSON O O O PERSON O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (NP (DT a) (NN statement)) (VP (VBN released) (PP (IN before) (NP (NP (DT the) (NN programme)) (VP (VBN aired) (NP-TMP (JJ last) (NN night)))))))) (NP (NP (DT a) (NN spokesman)) (PP (IN for) (NP (DT the) (NNP Cardinal)))) (VP (VBD said) (SBAR (S (NP (DT the) (JJ then-Father) (NNP Brady)) (VP (VBD was) (NP (NP (DT a) (NN notetaker)) (PP (IN for) (NP (DT the) (NN inquiry)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|3 case 1|3 det 2|16 nmod:in 3|3 acl 4|7 case 5|7 det 6|4 nmod:before 7|7 acl 8|10 amod 9|8 nmod:tmod 10|12 det 11|16 nsubj 12|15 case 13|15 det 14|12 nmod:for 15|19 det 17|19 amod 18|22 nsubj 19|22 cop 20|22 det 21|16 ccomp 22|25 case 23|25 det 24|22 nmod:for 25|16 punct 26|
+<word> He added that it was not his responsibility to inform the civil authorities . 
+<lemma> he add that it be not he responsibility to inform the civil authority . 
+<POS> PRP VBD IN PRP VBD RB PRP$ NN TO VB DT JJ NNS . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD added) (SBAR (IN that) (S (NP (PRP it)) (VP (VBD was) (RB not) (NP (PRP$ his) (NN responsibility) (S (VP (TO to) (VP (VB inform) (NP (DT the) (JJ civil) (NNS authorities)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|8 mark 3|8 nsubj 4|8 cop 5|8 neg 6|8 nmod:poss 7|2 ccomp 8|10 mark 9|8 acl:to 10|13 det 11|13 amod 12|10 dobj 13|2 punct 14|
+<word> Darragh McIntyre was the journalist behind the documentary last night . 
+<lemma> Darragh McIntyre be the journalist behind the documentary last night . 
+<POS> NNP NNP VBD DT NN IN DT NN JJ NN . 
+<NER> PERSON PERSON O O O O O O TIME TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Darragh) (NNP McIntyre)) (VP (VBD was) (NP (NP (DT the) (NN journalist)) (PP (IN behind) (NP (DT the) (NN documentary)))) (NP-TMP (JJ last) (NN night))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubj 2|5 cop 3|5 det 4|8 case 6|8 det 7|5 nmod:behind 8|10 amod 9|5 nmod:tmod 10|5 punct 11|
+<word> He told Breakfast here on Newstalk he made contact with the other children who were named in the internal inquiry as victims of Brendan Smyth . 
+<lemma> he tell Breakfast here on Newstalk he make contact with the other child who be name in the internal inquiry as victim of Brendan Smyth . 
+<POS> PRP VBD NNP RB IN NNP PRP VBD NN IN DT JJ NNS WP VBD VBN IN DT JJ NN IN NNS IN NNP NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP He)) (VP (VBD told) (NP (NNP Breakfast)) (ADVP (RB here)) (PP (IN on) (NP (NNP Newstalk))))) (NP (PRP he)) (VP (VBD made) (NP (NN contact)) (PP (IN with) (NP (NP (DT the) (JJ other) (NNS children)) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN named) (PP (IN in) (NP (NP (DT the) (JJ internal) (NN inquiry)) (PP (IN as) (NP (NP (NNS victims)) (PP (IN of) (NP (NNP Brendan) (NNP Smyth)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 nsubj 1|8 dep 2|2 dobj 3|2 advmod 4|6 case 5|2 nmod:on 6|8 nsubj 7|8 dobj 9|13 case 10|13 det 11|13 amod 12|8 nmod:with 13|16 nsubjpass 13|13 ref 14|16 auxpass 15|13 acl:relcl 16|20 case 17|20 det 18|20 amod 19|16 nmod:in 20|22 case 21|20 nmod:as 22|25 case 23|25 compound 24|22 nmod:of 25|8 punct 26|
+<coreference> [['1,19,21,20', '6,24,26,25'], ['1,14,22,16', '2,19,21,20', '3,17,20,19', '3,21,26,22'], ['3,14,16,15', '1,26,28,27'], ['2,1,4,3', '5,7,9,8'], ['2,4,6,5', '3,9,11,10', '5,9,11,10'], ['3,11,16,12', '4,1,2,1', '4,7,8,7'], ['5,1,3,2', '5,4,9,5', '6,1,2,1', '6,7,8,7']]
+</DOC>

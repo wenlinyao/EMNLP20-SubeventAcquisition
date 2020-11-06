@@ -1,0 +1,158 @@
+<DOC> article-14409.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 |
+<word> Syrian security forces stormed student dorms at a northwestern university to break up anti-government protests there , killing at least four students and wounding several others with tear gas and live ammunition , activists and opposition groups said Thursday . 
+<lemma> syrian security force storm student dorm at a northwestern university to break up anti-government protest there , kill at least four student and wound several other with tear gas and live ammunition , activist and opposition group say Thursday . 
+<POS> JJ NN NNS VBD NN NNS IN DT JJ NN TO VB RP JJ NNS RB , VBG IN JJS CD NNS CC VBG JJ NNS IN VB NN CC VB NN , NNS CC NN NNS VBD NNP . 
+<NER> MISC O O O O O O O O O O O O O O O O O O O NUMBER O O O O O O O O O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (JJ Syrian) (NN security) (NNS forces)) (VP (VBD stormed) (NP (NN student) (NNS dorms)) (PP (IN at) (NP (DT a) (JJ northwestern) (NN university))) (S (VP (TO to) (VP (VB break) (PRT (RP up)) (NP (JJ anti-government) (NNS protests)) (ADVP (RB there)) (, ,) (S (VP (VP (VBG killing) (NP (QP (IN at) (JJS least) (CD four)) (NNS students))) (CC and) (VP (VBG wounding) (NP (JJ several) (NNS others)) (PP (IN with) (S (VP (VP (VB tear) (NP (NN gas))) (CC and) (VP (VB live) (NP (NN ammunition)))))))))))))) (, ,) (NP (NNS activists) (CC and) (NN opposition) (NNS groups)) (VP (VBD said) (NP-TMP (NNP Thursday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 38|3 amod 1|3 compound 2|4 nsubj 3|38 ccomp 4|6 compound 5|4 dobj 6|10 case 7|10 det 8|10 amod 9|4 nmod:at 10|12 mark 11|4 advcl:to 12|12 compound:prt 13|15 amod 14|12 dobj 15|12 advmod 16|12 punct 17|12 dep 18|20 case 19|21 nmod:npmod 20|22 nummod 21|18 dobj 22|18 cc 23|12 dep 24|18 conj:and 24|26 amod 25|24 dobj 26|28 mark 27|24 advcl:with 28|28 dobj 29|28 cc 30|24 advcl:with 31|28 conj:and 31|31 dobj 32|38 punct 33|38 nsubj 34|34 cc 35|37 compound 36|34 conj:and 37|38 nsubj 37|38 nmod:tmod 39|38 punct 40|
+<word> Around 1,500 students had been protesting in student quarters next to Aleppo University 's main campus late Wednesday when security forces and pro-regime gunmen swept into their residences , firing tear gas at first , then live ammunition to disperse them . 
+<lemma> around 1,500 student have be protest in student quarter next to Aleppo University 's main campus late Wednesday when security force and pro-regime gunman sweep into they residence , firing tear gas at first , then live ammunition to disperse they . 
+<POS> IN CD NNS VBD VBN VBG IN NN NNS JJ TO NNP NNP POS JJ NN JJ NNP WRB NN NNS CC JJ NNS VBD IN PRP$ NNS , NN VB NN IN RB , RB VB NN TO VB PRP . 
+<NER> O NUMBER O O O O O O O O O ORGANIZATION ORGANIZATION O O O DATE DATE O O O O O O O O O O O O O O O ORDINAL O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN Around) (NP (NP (CD 1,500) (NNS students)) (SBAR (S (VP (VBD had) (VP (VBN been) (VP (VBG protesting) (PP (IN in) (NP (NN student) (NNS quarters))) (ADVP (JJ next) (PP (TO to) (NP (NP (NP (NNP Aleppo) (NNP University) (POS 's)) (JJ main) (NN campus)) (NP-TMP (JJ late) (NNP Wednesday)) (SBAR (WHADVP (WRB when)) (S (NP (NP (NN security) (NNS forces)) (CC and) (NP (JJ pro-regime) (NNS gunmen))) (VP (VBD swept) (PP (IN into) (NP (PRP$ their) (NNS residences)))))))))))))))) (, ,) (NP (NN firing)) (VP (VP (VB tear) (NP (NN gas)) (PP (IN at) (ADVP (RB first)))) (, ,) (RB then) (VP (VB live) (NP (NN ammunition)) (S (VP (TO to) (VP (VB disperse) (NP (PRP them))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 31|3 case 1|3 nummod 2|31 nmod:around 3|6 aux 4|6 aux 5|3 acl:relcl 6|9 case 7|9 compound 8|6 nmod:in 9|16 case 10|10 mwe 11|13 compound 12|16 nmod:poss 13|13 case 14|16 amod 15|6 nmod:next_to 16|18 amod 17|16 nmod:tmod 18|25 advmod 19|21 compound 20|25 nsubj 21|21 cc 22|24 amod 23|21 conj:and 24|25 nsubj 24|16 acl:relcl 25|28 case 26|28 nmod:poss 27|25 nmod:into 28|31 punct 29|31 nsubj 30|31 dobj 32|34 case 33|31 advcl:at 34|31 punct 35|37 advmod 36|31 dep 37|37 dobj 38|40 mark 39|37 advcl:to 40|40 dobj 41|31 punct 42|
+<word> Student activist Thaer al-Ahmed said panic and chaos ensued as students tried to flee . 
+<lemma> student activist Thaer al-Ahmed say panic and chaos ensue as student try to flee . 
+<POS> NN NN NNP NNP VBD NN CC NN VBD IN NNS VBD TO VB . 
+<NER> O O PERSON PERSON O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Student) (NN activist) (NNP Thaer) (NNP al-Ahmed)) (VP (VBD said) (SBAR (S (NP (NN panic) (CC and) (NN chaos)) (VP (VBD ensued) (SBAR (IN as) (S (NP (NNS students)) (VP (VBD tried) (S (VP (TO to) (VP (VB flee))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|9 nsubj 6|6 cc 7|6 conj:and 8|9 nsubj 8|5 ccomp 9|12 mark 10|12 nsubj 11|14 nsubj:xsubj 11|9 advcl:as 12|14 mark 13|12 xcomp 14|5 punct 15|
+<word> `` Some students ran to their rooms to take cover but they were followed to their rooms , beaten up and arrested , '' he said . 
+<lemma> `` some student run to they room to take cover but they be follow to they room , beat up and arrest , '' he say . 
+<POS> `` DT NNS VBD TO PRP$ NNS TO VB NN CC PRP VBD VBN TO PRP$ NNS , VBN RB CC VBN , '' PRP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (DT Some) (NNS students)) (VP (VBD ran) (PP (TO to) (NP (PRP$ their) (NNS rooms))) (S (VP (TO to) (VP (VB take) (NP (NN cover))))))) (CC but) (S (NP (PRP they)) (VP (VBD were) (VP (VP (VBN followed) (PP (TO to) (NP (PRP$ their) (NNS rooms)))) (, ,) (VP (VBN beaten) (ADVP (RB up))) (CC and) (VP (VBN arrested)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 26|26 punct 1|3 det 2|4 nsubj 3|9 nsubj:xsubj 3|26 ccomp 4|7 case 5|7 nmod:poss 6|4 nmod:to 7|9 mark 8|4 xcomp 9|9 dobj 10|4 cc 11|14 nsubjpass 12|19 nsubjpass 12|22 nsubjpass 12|14 auxpass 13|4 conj:but 14|26 ccomp 14|17 case 15|17 nmod:poss 16|14 nmod:to 17|14 punct 18|4 conj:but 19|14 conj:and 19|19 advmod 20|14 cc 21|4 conj:but 22|14 conj:and 22|26 punct 23|26 punct 24|26 nsubj 25|26 punct 27|
+<word> `` Others suffered cuts and broken bones as they tried to flee . '' 
+<lemma> `` other suffer cut and broken bone as they try to flee . '' 
+<POS> `` NNS VBD NNS CC JJ NNS IN PRP VBD TO VB . '' 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (NNS Others)) (VP (VBD suffered) (NP (NP (NNS cuts)) (CC and) (NP (JJ broken) (NNS bones))) (SBAR (IN as) (S (NP (PRP they)) (VP (VBD tried) (S (VP (TO to) (VP (VB flee)))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|3 dobj 4|4 cc 5|7 amod 6|3 dobj 7|4 conj:and 7|10 mark 8|10 nsubj 9|12 nsubj:xsubj 9|3 advcl:as 10|12 mark 11|10 xcomp 12|3 punct 13|3 punct 14|
+<word> Raids and intermittent gunfire continued for about five hours through early Thursday , he said , adding that dozens of people were wounded , some critically , and around 50 students were arrested . 
+<lemma> raid and intermittent gunfire continue for about five hour through early Thursday , he say , add that dozen of people be wound , some critically , and around 50 student be arrest . 
+<POS> NNS CC JJ NN VBD IN RB CD NNS IN JJ NNP , PRP VBD , VBG IN NNS IN NNS VBD VBN , DT RB , CC IN CD NNS VBD VBN . 
+<NER> O O O O O O DURATION DURATION DURATION O DATE DATE O O O O O O O O O O O O O O O O O NUMBER O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNS Raids)) (CC and) (NP (JJ intermittent) (NN gunfire))) (VP (VBD continued) (PP (IN for) (NP (QP (RB about) (CD five)) (NNS hours))) (PP (IN through) (NP-TMP (JJ early) (NNP Thursday))) (PRN (, ,) (S (NP (PRP he)) (VP (VBD said))) (, ,)) (S (VP (VBG adding) (SBAR (IN that) (S (NP (NP (NNS dozens)) (PP (IN of) (NP (NNS people)))) (VP (VBD were) (VP (VBN wounded))))))))) (, ,) (S (NP (DT some)) (ADJP (RB critically))) (, ,) (CC and) (S (NP (QP (IN around) (CD 50)) (NNS students)) (VP (VBD were) (VP (VBN arrested)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|1 cc 2|4 amod 3|1 conj:and 4|5 nsubj 4|9 case 6|8 advmod 7|9 nummod 8|5 nmod:for 9|12 case 10|12 amod 11|5 nmod:through 12|15 punct 13|15 nsubj 14|5 parataxis 15|15 punct 16|5 xcomp 17|23 mark 18|21 det:qmod 19|19 mwe 20|23 nsubjpass 21|23 auxpass 22|17 ccomp 23|5 punct 24|26 dep 25|5 ccomp 26|5 punct 27|5 cc 28|30 advmod 29|31 nummod 30|33 nsubjpass 31|33 auxpass 32|5 conj:and 33|5 punct 34|
+<word> Aleppo , Syria 's largest city and economic hub , has a population that has remained largely loyal to President Bashar Assad and has been largely spared from the violence that has plagued other Syrian cities . 
+<lemma> Aleppo , Syria 's largest city and economic hub , have a population that have remain largely loyal to President Bashar Assad and have be largely spare from the violence that have plague other syrian city . 
+<POS> NNP , NNP POS JJS NN CC JJ NN , VBZ DT NN WDT VBZ VBN RB JJ TO NNP NNP NNP CC VBZ VBN RB VBN IN DT NN WDT VBZ VBN JJ JJ NNS . 
+<NER> LOCATION O LOCATION O O O O O O O O O O O O O O O O O PERSON PERSON O O O O O O O O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Aleppo)) (, ,) (NP (NP (NP (NNP Syria) (POS 's)) (JJS largest) (NN city)) (CC and) (NP (JJ economic) (NN hub))) (, ,)) (VP (VP (VBZ has) (NP (NP (DT a) (NN population)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN remained) (ADJP (RB largely) (JJ loyal)) (PP (TO to) (NP (NNP President) (NNP Bashar) (NNP Assad))))))))) (CC and) (VP (VBZ has) (VP (VBN been) (VP (ADVP (RB largely)) (VBN spared) (PP (IN from) (NP (NP (DT the) (NN violence)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN plagued) (NP (JJ other) (JJ Syrian) (NNS cities)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|11 nsubj 1|27 nsubjpass 1|1 punct 2|6 nmod:poss 3|3 case 4|6 amod 5|1 appos 6|6 cc 7|9 amod 8|1 appos 9|6 conj:and 9|1 punct 10|13 det 12|11 dobj 13|16 nsubj 13|13 ref 14|16 aux 15|13 acl:relcl 16|18 advmod 17|16 xcomp 18|22 case 19|22 compound 20|22 compound 21|16 nmod:to 22|11 cc 23|27 aux 24|27 auxpass 25|27 advmod 26|11 conj:and 27|30 case 28|30 det 29|27 nmod:from 30|33 nsubj 30|30 ref 31|33 aux 32|30 acl:relcl 33|36 amod 34|36 amod 35|33 dobj 36|11 punct 37|
+<word> But university students have been staging almost daily protests calling for the fall of Assad 's regime . 
+<lemma> but university student have be stage almost daily protest call for the fall of Assad 's regime . 
+<POS> CC NN NNS VBP VBN VBG RB JJ NNS VBG IN DT NN IN NNP POS NN . 
+<NER> O O O O O O O SET O O O O DATE O PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (NN university) (NNS students)) (VP (VBP have) (VP (VBN been) (VP (VBG staging) (NP (NP (RB almost) (JJ daily) (NNS protests)) (VP (VBG calling) (PP (IN for) (NP (NP (DT the) (NN fall)) (PP (IN of) (NP (NP (NNP Assad) (POS 's)) (NN regime)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 cc 1|3 compound 2|6 nsubj 3|6 aux 4|6 aux 5|9 advmod 7|9 amod 8|6 dobj 9|9 acl 10|13 case 11|13 det 12|10 nmod:for 13|17 case 14|17 nmod:poss 15|15 case 16|13 nmod:of 17|6 punct 18|
+<word> Al-Thaer , a law student , said the campus and dormitories have been raided before , but Thursday 's raid was the most violent . 
+<lemma> Al-Thaer , a law student , say the campus and dormitory have be raid before , but Thursday 's raid be the most violent . 
+<POS> NNP , DT NN NN , VBD DT NN CC NNS VBP VBN VBN RB , CC NNP POS NN VBD DT RBS JJ . 
+<NER> O O O O O O O O O O O O O O O O O DATE O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNP Al-Thaer)) (, ,) (NP (DT a) (NN law) (NN student)) (, ,)) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NN campus)) (CC and) (NP (NNS dormitories))) (VP (VBP have) (VP (VBN been) (VP (VBN raided) (ADVP (RB before))))))))) (, ,) (CC but) (S (NP (NP (NNP Thursday) (POS 's)) (NN raid)) (VP (VBD was) (NP (DT the) (RBS most) (JJ violent)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 nsubj 1|1 punct 2|5 det 3|5 compound 4|1 appos 5|1 punct 6|9 det 8|14 nsubjpass 9|9 cc 10|9 conj:and 11|14 nsubjpass 11|14 aux 12|14 auxpass 13|7 ccomp 14|14 advmod 15|7 punct 16|7 cc 17|20 nmod:poss 18|18 case 19|24 nsubj 20|24 cop 21|24 det 22|24 advmod 23|7 conj:but 24|7 punct 25|
+<word> The student quarters -- known as the University City -- comprise 20 dormitories next to the university campus . 
+<lemma> the student quarter -- know as the University City -- comprise 20 dormitory next to the university campus . 
+<POS> DT NN NNS : VBN IN DT NNP NNP : VBP CD NNS JJ TO DT NN NN . 
+<NER> O O O O O O O LOCATION LOCATION O O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN student) (NNS quarters)) (PRN (: --) (VP (VBN known) (PP (IN as) (NP (DT the) (NNP University) (NNP City)))) (: --))) (VP (VBP comprise) (NP (CD 20) (NNS dormitories)) (ADVP (JJ next) (PP (TO to) (NP (DT the) (NN university) (NN campus))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|3 det 1|3 compound 2|11 nsubj 3|5 punct 4|3 dep 5|9 case 6|9 det 7|9 compound 8|5 nmod:as 9|5 punct 10|13 nummod 12|11 dobj 13|18 case 14|14 mwe 15|18 det 16|18 compound 17|11 nmod:next_to 18|11 punct 19|
+<word> Students there often shouted out anti-Assad slogans from their rooms at night , al-Thaer said . 
+<lemma> student there often shout out anti-assad slogan from they room at night , al-thaer say . 
+<POS> NNS RB RB VBD RP JJ NNS IN PRP$ NNS IN NN , NN VBD . 
+<NER> O O O O O O O O O O O TIME O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Students)) (ADVP (RB there) (RB often)) (VP (VBD shouted) (PRT (RP out)) (NP (JJ anti-Assad) (NNS slogans)) (PP (IN from) (NP (PRP$ their) (NNS rooms))) (PP (IN at) (NP (NN night))))) (, ,) (NP (NN al-Thaer)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|4 nsubj 1|3 advmod 2|4 advmod 3|15 ccomp 4|4 compound:prt 5|7 amod 6|4 dobj 7|10 case 8|10 nmod:poss 9|4 nmod:from 10|12 case 11|4 nmod:at 12|15 punct 13|15 nsubj 14|15 punct 16|
+<word> An amateur video showed a large number of security forces apparently storming the dorms Wednesday night . 
+<lemma> a amateur video show a large number of security force apparently storm the dorm Wednesday night . 
+<POS> DT JJ NN VBD DT JJ NN IN NN NNS RB VBG DT NNS NNP NN . 
+<NER> O O O O O O O O O O O O O O DATE TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT An) (JJ amateur) (NN video)) (VP (VBD showed) (NP (NP (DT a) (JJ large) (NN number)) (PP (IN of) (NP (NP (NN security) (NNS forces)) (VP (ADVP (RB apparently)) (VBG storming) (NP (DT the) (NNS dorms)) (NP-TMP (NNP Wednesday)))))) (NP-TMP (NN night))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|7 det 5|7 amod 6|4 dobj 7|10 case 8|10 compound 9|7 nmod:of 10|12 advmod 11|10 acl 12|14 det 13|12 dobj 14|12 nmod:tmod 15|4 nmod:tmod 16|4 punct 17|
+<word> Another showed a students protest earlier Wednesday , during which protesters shouted : `` We do n't want you , Bashar ! '' 
+<lemma> another show a student protest earlier Wednesday , during which protester shout : `` we do not want you , Bashar ! '' 
+<POS> DT VBD DT NNS NN RBR NNP , IN WDT NNS VBD : `` PRP VBP RB VB PRP , NNP . '' 
+<NER> O O O O O DATE DATE O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT Another)) (VP (VBD showed) (NP (DT a) (NNS students) (NN protest)) (ADVP (RBR earlier)) (NP-TMP (NNP Wednesday)) (, ,) (PP (IN during) (NP (SBAR (WHNP (WDT which)) (S (NP (NNS protesters)) (VP (VBD shouted) (: :) (`` ``) (S (NP (PRP We)) (VP (VBP do) (RB n't) (VP (VB want) (NP (PRP you)))))))) (, ,) (NP (NNP Bashar))))) (. !) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 det 3|5 compound 4|2 dobj 5|2 advmod 6|2 nmod:tmod 7|2 punct 8|21 case 9|12 dobj 10|12 nsubj 11|21 dep 12|12 punct 13|12 punct 14|18 nsubj 15|18 aux 16|18 neg 17|12 ccomp 18|18 dobj 19|21 punct 20|2 nmod:during 21|2 punct 22|2 punct 23|
+<word> The authenticity of the videos could not be confirmed . 
+<lemma> the authenticity of the video could not be confirm . 
+<POS> DT NN IN DT NNS MD RB VB VBN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN authenticity)) (PP (IN of) (NP (DT the) (NNS videos)))) (VP (MD could) (RB not) (VP (VB be) (VP (VBN confirmed)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|2 det 1|9 nsubjpass 2|5 case 3|5 det 4|2 nmod:of 5|9 aux 6|9 neg 7|9 auxpass 8|9 punct 10|
+<word> The Local Coordination Committees activist group said five students were killed and some 200 arrested in the raids , while the British-based Syrian Observatory for Human Rights put the death toll at four . 
+<lemma> the local coordination committee activist group say five student be kill and some 200 arrest in the raid , while the british-based syrian observatory for Human Rights put the death toll at four . 
+<POS> DT JJ NN NNS JJ NN VBD CD NNS VBD VBN CC DT CD VBN IN DT NNS , IN DT JJ JJ NN IN NNP NNPS VBD DT NN NN IN CD . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION O O O NUMBER O O O O O NUMBER O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Local) (NN Coordination) (NNS Committees) (JJ activist) (NN group)) (VP (VBD said) (NP (NP (NP (CD five) (NNS students)) (SBAR (S (VP (VBD were) (VP (VBN killed)))))) (CC and) (NP (NP (QP (DT some) (CD 200))) (VP (VBN arrested) (PP (IN in) (NP (DT the) (NNS raids))) (, ,) (SBAR (IN while) (S (NP (NP (DT the) (JJ British-based) (JJ Syrian) (NN Observatory)) (PP (IN for) (NP (NNP Human) (NNPS Rights)))) (VP (VBD put) (NP (DT the) (NN death) (NN toll)) (PP (IN at) (NP (CD four)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|6 det 1|6 amod 2|6 compound 3|6 compound 4|6 amod 5|7 nsubj 6|9 nummod 8|7 dobj 9|11 auxpass 10|9 acl:relcl 11|9 cc 12|14 advmod 13|7 dobj 14|9 conj:and 14|14 acl 15|18 case 16|18 det 17|15 nmod:in 18|15 punct 19|28 mark 20|24 det 21|24 amod 22|24 amod 23|28 nsubj 24|27 case 25|27 compound 26|24 nmod:for 27|15 advcl:while 28|31 det 29|31 compound 30|28 dobj 31|33 case 32|28 nmod:at 33|7 punct 34|
+<word> The Syrian government has prevented independent reporting in the country , making it impossible to independently verify casualty figures . 
+<lemma> the syrian government have prevent independent reporting in the country , make it impossible to independently verify casualty figure . 
+<POS> DT JJ NN VBZ VBN JJ NN IN DT NN , VBG PRP JJ TO RB VB NN NNS . 
+<NER> O MISC O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Syrian) (NN government)) (VP (VBZ has) (VP (VBN prevented) (NP (NP (JJ independent) (NN reporting)) (PP (IN in) (NP (DT the) (NN country)))) (, ,) (S (VP (VBG making) (S (NP (PRP it)) (ADJP (JJ impossible) (S (VP (TO to) (VP (ADVP (RB independently)) (VB verify) (NP (NN casualty) (NNS figures))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 aux 4|7 amod 6|5 dobj 7|10 case 8|10 det 9|7 nmod:in 10|5 punct 11|5 advcl 12|14 nsubj 13|17 nsubj:xsubj 13|12 xcomp 14|17 mark 15|17 advmod 16|14 xcomp 17|19 compound 18|17 dobj 19|5 punct 20|
+<word> `` Regime forces demanded through loudspeakers that the dorms be evacuated , then began detaining the students , '' the LCC said in a statement . 
+<lemma> `` regime force demand through loudspeaker that the dorm be evacuate , then begin detain the student , '' the LCC say in a statement . 
+<POS> `` NN NNS VBD IN NNS IN DT NNS VB VBN , RB VBD VBG DT NNS , '' DT NNP VBD IN DT NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (NN Regime) (NNS forces)) (VP (VP (VBD demanded) (PP (IN through) (NP (NNS loudspeakers))) (SBAR (IN that) (S (NP (DT the) (NNS dorms)) (VP (VB be) (VP (VBN evacuated)))))) (, ,) (ADVP (RB then)) (VP (VBD began) (S (VP (VBG detaining) (NP (DT the) (NNS students))))))) (, ,) ('' '') (NP (DT the) (NNP LCC)) (VP (VBD said) (PP (IN in) (NP (DT a) (NN statement)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|22 punct 1|3 compound 2|4 nsubj 3|22 ccomp 4|6 case 5|4 nmod:through 6|11 mark 7|9 det 8|11 nsubjpass 9|11 auxpass 10|4 ccomp 11|4 punct 12|14 advmod 13|4 dep 14|14 xcomp 15|17 det 16|15 dobj 17|22 punct 18|22 punct 19|21 det 20|22 nsubj 21|25 case 23|25 det 24|22 nmod:in 25|22 punct 26|
+<word> Syria 's persistent bloodshed has tarnished efforts by a U.N. team of observers to salvage a truce brokered by U.N. special envoy Kofi Annan that started to unravel almost as soon as it was supposed to begin on April 12 . 
+<lemma> Syria 's persistent bloodshed have tarnish effort by a U.N. team of observer to salvage a truce broker by U.N. special envoy Kofi Annan that start to unravel almost as soon as it be suppose to begin on April 12 . 
+<POS> NNP POS JJ NN VBZ VBN NNS IN DT NNP NN IN NNS TO VB DT NN VBN IN NNP JJ NN NNP NNP WDT VBD TO VB RB RB RB IN PRP VBD VBN TO VB IN NNP CD . 
+<NER> LOCATION O O O O O O O O ORGANIZATION O O O O O O O O O ORGANIZATION O O PERSON PERSON O O O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Syria) (POS 's)) (JJ persistent) (NN bloodshed)) (VP (VBZ has) (VP (VBN tarnished) (NP (NNS efforts)) (PP (IN by) (NP (NP (DT a) (NNP U.N.) (NN team)) (PP (IN of) (NP (NNS observers))))) (S (VP (TO to) (VP (VB salvage) (NP (NP (DT a) (NN truce)) (VP (VBN brokered) (PP (IN by) (NP (NP (NNP U.N.) (JJ special) (NN envoy) (NNP Kofi) (NNP Annan)) (SBAR (WHNP (WDT that)) (S (VP (VBD started) (S (VP (TO to) (VP (VB unravel) (ADVP (ADVP (RB almost) (RB as) (RB soon)) (SBAR (IN as) (S (NP (PRP it)) (VP (VBD was) (VP (VBN supposed) (S (VP (TO to) (VP (VB begin) (PP (IN on) (NP (NNP April) (CD 12)))))))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 nmod:poss 1|1 case 2|4 amod 3|6 nsubj 4|6 aux 5|6 dobj 7|11 case 8|11 det 9|11 compound 10|6 nmod:by 11|13 case 12|11 nmod:of 13|15 mark 14|6 advcl:to 15|17 det 16|15 dobj 17|17 acl 18|24 case 19|24 compound 20|24 amod 21|24 compound 22|24 compound 23|18 nmod:by 24|26 nsubj 24|28 nsubj:xsubj 24|24 ref 25|24 acl:relcl 26|28 mark 27|26 xcomp 28|31 advmod 29|31 advmod 30|28 advmod 31|35 mark 32|35 nsubjpass 33|37 nsubj:xsubj 33|35 auxpass 34|31 advcl:as 35|37 mark 36|35 xcomp 37|39 case 38|37 nmod:on 39|39 nummod 40|6 punct 41|
+<word> The two sides have blamed each other for thwarting the truce , with Assad 's forces trying to repress demonstrators calling for him to step down and an armed rebellion that has sprung up as peaceful protests have proved ineffective against his forces . 
+<lemma> the two side have blame each other for thwart the truce , with Assad 's force try to repress demonstrator call for he to step down and a armed rebellion that have spring up as peaceful protest have prove ineffective against he force . 
+<POS> DT CD NNS VBP VBN DT JJ IN VBG DT NN , IN NNP POS NNS VBG TO VB NNS VBG IN PRP TO VB RB CC DT JJ NN WDT VBZ VBN RP IN JJ NNS VBP VBN JJ IN PRP$ NNS . 
+<NER> O NUMBER O O O O O O O O O O O PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (CD two) (NNS sides)) (VP (VBP have) (VP (VBN blamed) (NP (DT each) (JJ other)) (PP (IN for) (S (VP (VBG thwarting) (NP (DT the) (NN truce))))) (, ,) (PP (IN with) (NP (NP (NP (NNP Assad) (POS 's)) (NNS forces)) (VP (VBG trying) (S (VP (TO to) (VP (VB repress) (NP (NP (NNS demonstrators)) (VP (VBG calling) (PP (IN for) (NP (PRP him))) (S (VP (TO to) (VP (VB step) (ADVP (RB down)))))))))))))))) (CC and) (S (NP (NP (DT an) (JJ armed) (NN rebellion)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN sprung) (PRT (RP up)) (PP (IN as) (NP (JJ peaceful) (NNS protests)))))))) (VP (VBP have) (VP (VBN proved) (ADJP (JJ ineffective)) (PP (IN against) (NP (PRP$ his) (NNS forces)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 nummod 2|5 nsubj 3|5 aux 4|7 det 6|5 dobj 7|9 mark 8|5 advcl:for 9|11 det 10|9 dobj 11|5 punct 12|16 case 13|16 nmod:poss 14|14 case 15|5 nmod:with 16|16 acl 17|19 mark 18|17 xcomp 19|19 dobj 20|20 acl 21|23 case 22|21 nmod:for 23|25 mark 24|21 xcomp 25|25 advmod 26|5 cc 27|30 det 28|30 amod 29|33 nsubj 30|39 nsubj 30|30 ref 31|33 aux 32|30 acl:relcl 33|33 compound:prt 34|37 case 35|37 amod 36|33 nmod:as 37|39 aux 38|5 conj:and 39|39 xcomp 40|43 case 41|43 nmod:poss 42|39 nmod:against 43|5 punct 44|
+<word> The U.N. says 9,000 people have died since the uprising began in March 2011 . 
+<lemma> the U.N. say 9,000 people have die since the uprising begin in March 2011 . 
+<POS> DT NNP VBZ CD NNS VBP VBN IN DT NN VBD IN NNP CD . 
+<NER> O ORGANIZATION O NUMBER O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP U.N.)) (VP (VBZ says) (SBAR (S (NP (CD 9,000) (NNS people)) (VP (VBP have) (VP (VBN died) (SBAR (IN since) (S (NP (DT the) (NN uprising)) (VP (VBD began) (PP (IN in) (NP (NNP March) (CD 2011))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nummod 4|7 nsubj 5|7 aux 6|3 ccomp 7|11 mark 8|10 det 9|11 nsubj 10|7 advcl:since 11|13 case 12|11 nmod:in 13|13 nummod 14|3 punct 15|
+<word> Despite the violence , the international community still sees the peace plan as the last chance to prevent Syria from falling into civil war -- in part because no country wants to intervene militarily . 
+<lemma> despite the violence , the international community still see the peace plan as the last chance to prevent Syria from fall into civil war -- in part because no country want to intervene militarily . 
+<POS> IN DT NN , DT JJ NN RB VBZ DT NN NN IN DT JJ NN TO VB NNP IN VBG IN JJ NN : IN NN IN DT NN VBZ TO VB RB . 
+<NER> O O O O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN Despite) (NP (DT the) (NN violence))) (, ,) (NP (DT the) (JJ international) (NN community)) (ADVP (RB still)) (VP (VBZ sees) (NP (DT the) (NN peace) (NN plan)) (PP (IN as) (NP (DT the) (JJ last) (NN chance))) (S (VP (TO to) (VP (VB prevent) (NP (NNP Syria)) (PP (IN from) (S (VP (VBG falling) (PP (IN into) (NP (JJ civil) (NN war))) (: --) (PP (IN in) (NP (NN part))) (SBAR (IN because) (S (NP (DT no) (NN country)) (VP (VBZ wants) (S (VP (TO to) (VP (VB intervene) (ADVP (RB militarily))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 case 1|3 det 2|9 nmod:despite 3|9 punct 4|7 det 5|7 amod 6|9 nsubj 7|9 advmod 8|12 det 10|12 compound 11|9 dobj 12|16 case 13|16 det 14|16 amod 15|9 nmod:as 16|18 mark 17|9 advcl:to 18|18 dobj 19|21 mark 20|18 advcl:from 21|24 case 22|24 amod 23|21 nmod:into 24|21 punct 25|27 case 26|21 nmod:in 27|31 mark 28|30 neg 29|31 nsubj 30|33 nsubj:xsubj 30|21 advcl:because 31|33 mark 32|31 xcomp 33|33 advmod 34|9 punct 35|
+<word> The head of the U.N. observers , Norwegian Maj. Gen. Robert Mood , visited the central cities of Homs and Hama , where anti-regime sentiment runs high , on Thursday . 
+<lemma> the head of the U.N. observer , norwegian Maj. Gen. Robert Mood , visit the central city of Homs and Hama , where anti-regime sentiment run high , on Thursday . 
+<POS> DT NN IN DT NNP NNS , JJ NNP NNP NNP NNP , VBD DT JJ NNS IN NNP CC NNP , WRB JJ NN VBZ JJ , IN NNP . 
+<NER> O O O O ORGANIZATION O O MISC O O PERSON PERSON O O O O O O LOCATION O LOCATION O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (DT The) (NN head)) (PP (IN of) (NP (DT the) (NNP U.N.) (NNS observers)))) (, ,) (NP (JJ Norwegian) (NNP Maj.) (NNP Gen.) (NNP Robert) (NNP Mood)) (, ,)) (VP (VBD visited) (NP (NP (DT the) (JJ central) (NNS cities)) (PP (IN of) (NP (NNP Homs) (CC and) (NNP Hama)))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (JJ anti-regime) (NN sentiment)) (VP (VBZ runs) (ADJP (JJ high)) (, ,) (PP (IN on) (NP (NNP Thursday))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 det 1|14 nsubj 2|6 case 3|6 det 4|6 compound 5|2 nmod:of 6|2 punct 7|12 amod 8|12 compound 9|12 compound 10|12 compound 11|2 appos 12|2 punct 13|17 det 15|17 amod 16|14 dobj 17|19 case 18|17 nmod:of 19|19 cc 20|17 nmod:of 21|19 conj:and 21|14 punct 22|26 advmod 23|25 amod 24|26 nsubj 25|14 advcl 26|26 xcomp 27|26 punct 28|30 case 29|26 nmod:on 30|14 punct 31|
+<coreference> [['1,21,22,21', '15,33,34,33'], ['1,1,4,3', '2,20,22,21'], ['1,5,7,6', '12,13,15,14', '17,8,10,9'], ['6,11,13,12', '1,39,40,39', '9,18,20,18', '22,30,31,30'], ['2,2,29,3', '2,41,42,41', '3,11,12,11', '8,2,4,3', '11,1,2,1', '11,9,10,9'], ['10,16,19,18', '2,12,29,16', '9,8,10,9'], ['2,17,19,18', '12,15,16,15', '13,7,8,7'], ['2,23,25,24', '2,27,28,27'], ['3,1,5,4', '4,25,26,25', '6,14,15,14', '13,19,20,19'], ['4,2,4,3', '4,6,7,6', '4,12,13,12', '4,16,17,16'], ['4,6,8,7', '4,16,18,17', '11,9,11,10'], ['5,2,3,2', '5,9,10,9'], ['15,17,19,18', '6,1,2,1'], ['7,3,5,3', '18,1,3,1', '21,19,20,19'], ['7,21,23,22', '8,15,17,15', '19,14,16,14', '19,23,24,23', '19,42,43,42'], ['7,29,37,30', '21,2,4,3'], ['9,1,2,1', '9,3,6,5'], ['9,18,21,20', '9,22,25,24'], ['11,12,13,12', '12,16,17,16'], ['13,11,12,11', '13,15,16,15'], ['15,8,12,9', '17,16,18,17'], ['16,1,4,3', '16,13,14,13'], ['16,9,11,10', '21,29,31,30'], ['20,1,3,2', '18,10,11,10', '18,20,21,20', '22,5,6,5'], ['18,16,41,17', '19,10,12,11'], ['19,14,27,16', '19,42,44,43']]
+</DOC>

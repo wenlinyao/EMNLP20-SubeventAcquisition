@@ -1,0 +1,32 @@
+<DOC> article-15897.txt.xml story
+<paragraph> | 0 1 2 3 |
+<word> A US drone attack over the weekend , which killed al-Qaida operative Fahd al-Quso , is thought to have been a direct result of information from the agent , according to the Guardian . 
+<lemma> a US drone attack over the weekend , which kill al-Qaida operative Fahd al-Quso , be think to have be a direct result of information from the agent , accord to the Guardian . 
+<POS> DT NNP NN NN IN DT NN , WDT VBD NNP NN NNP NNP , VBZ VBN TO VB VBN DT JJ NN IN NN IN DT NN , VBG TO DT NNP . 
+<NER> O LOCATION O O O DATE DATE O O O MISC O O O O O O O O O O O O O O O O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NNP US) (NN drone) (NN attack)) (PP (IN over) (NP (DT the) (NN weekend))) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD killed) (NP (NNP al-Qaida) (NN operative) (NNP Fahd) (NNP al-Quso))))) (, ,)) (VP (VBZ is) (VP (VBN thought) (S (VP (TO to) (VP (VB have) (VP (VBN been) (NP (NP (DT a) (JJ direct) (NN result)) (PP (IN of) (NP (NN information)))) (PP (IN from) (NP (DT the) (NN agent))))))) (, ,) (PP (VBG according) (PP (TO to) (NP (DT the) (NNP Guardian)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|4 det 1|4 compound 2|4 compound 3|10 nsubj 4|17 nsubjpass 4|23 nsubj:xsubj 4|7 case 5|7 det 6|4 nmod:over 7|4 punct 8|4 ref 9|4 acl:relcl 10|14 compound 11|14 compound 12|14 compound 13|10 dobj 14|4 punct 15|17 auxpass 16|23 mark 18|23 aux 19|23 cop 20|23 det 21|23 amod 22|17 xcomp 23|25 case 24|23 nmod:of 25|28 case 26|28 det 27|23 nmod:from 28|17 punct 29|33 case 30|30 mwe 31|33 det 32|17 nmod:according_to 33|17 punct 34|
+<word> MI6 and MI5 agents are banned from missions leading to assassinations . 
+<lemma> mi6 and mi5 agent be ban from mission lead to assassination . 
+<POS> NN CC NN NNS VBP VBN IN NNS VBG TO NNS . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN MI6) (CC and) (NN MI5) (NNS agents)) (VP (VBP are) (VP (VBN banned) (PP (IN from) (NP (NP (NNS missions)) (VP (VBG leading) (PP (TO to) (NP (NNS assassinations)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 compound 1|1 cc 2|1 conj:and 3|4 compound 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:from 8|8 acl 9|11 case 10|9 nmod:to 11|6 punct 12|
+<word> Associated Press was made aware of the underwear plot last week but did not publish details until Monday at the request of the White House over operational security . 
+<lemma> Associated Press be make aware of the underwear plot last week but do not publish detail until Monday at the request of the White House over operational security . 
+<POS> NNP NNP VBD VBN JJ IN DT NN NN JJ NN CC VBD RB VB NNS IN NNP IN DT NN IN DT NNP NNP IN JJ NN . 
+<NER> ORGANIZATION ORGANIZATION O O O O O O O DATE DATE O O O O O O DATE O O O O O ORGANIZATION ORGANIZATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Associated) (NNP Press)) (VP (VP (VBD was) (VP (VBN made) (ADJP (JJ aware)) (PP (IN of) (NP (DT the) (NN underwear) (NN plot))) (NP-TMP (JJ last) (NN week)))) (CC but) (VP (VBD did) (RB not) (VP (VB publish) (NP (NNS details)) (PP (IN until) (NP (NNP Monday))) (PP (IN at) (NP (NP (DT the) (NN request)) (PP (IN of) (NP (NP (DT the) (NNP White) (NNP House)) (PP (IN over) (NP (JJ operational) (NN security)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubjpass 2|15 nsubj 2|4 auxpass 3|4 xcomp 5|9 case 6|9 det 7|9 compound 8|4 nmod:of 9|11 amod 10|4 nmod:tmod 11|4 cc 12|15 aux 13|15 neg 14|4 conj:but 15|15 dobj 16|18 case 17|15 nmod:until 18|21 case 19|21 det 20|15 nmod:at 21|25 case 22|25 det 23|25 compound 24|21 nmod:of 25|28 case 26|28 amod 27|25 nmod:over 28|4 punct 29|
+<word> The Foreign Office declined to confirm or deny the involvement of British intelligence . 
+<lemma> the Foreign Office decline to confirm or deny the involvement of british intelligence . 
+<POS> DT NNP NNP VBD TO VB CC VB DT NN IN JJ NN . 
+<NER> O ORGANIZATION ORGANIZATION O O O O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Foreign) (NNP Office)) (VP (VBD declined) (S (VP (TO to) (VP (VB confirm) (CC or) (VB deny) (NP (NP (DT the) (NN involvement)) (PP (IN of) (NP (JJ British) (NN intelligence)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|6 nsubj:xsubj 3|8 nsubj:xsubj 3|6 mark 5|4 xcomp 6|6 cc 7|4 xcomp 8|6 conj:or 8|10 det 9|6 dobj 10|13 case 11|13 amod 12|10 nmod:of 13|4 punct 14|
+<coreference> []
+</DOC>

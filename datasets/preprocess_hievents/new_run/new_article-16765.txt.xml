@@ -1,0 +1,46 @@
+<DOC> article-16765.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> Mexican authorities have found 49 dismembered bodies on a highway near the northern industrial city of Monterrey . 
+<lemma> mexican authority have find 49 dismembered body on a highway near the northern industrial city of Monterrey . 
+<POS> JJ NNS VBP VBN CD JJ NNS IN DT NN IN DT JJ JJ NN IN NNP . 
+<NER> MISC O O O NUMBER O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Mexican) (NNS authorities)) (VP (VBP have) (VP (VBN found) (NP (CD 49) (JJ dismembered) (NNS bodies)) (PP (IN on) (NP (NP (DT a) (NN highway)) (PP (IN near) (NP (NP (DT the) (JJ northern) (JJ industrial) (NN city)) (PP (IN of) (NP (NNP Monterrey))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 amod 1|4 nsubj 2|4 aux 3|7 nummod 5|7 amod 6|4 dobj 7|10 case 8|10 det 9|4 nmod:on 10|15 case 11|15 det 12|15 amod 13|15 amod 14|10 nmod:near 15|17 case 16|15 nmod:of 17|4 punct 18|
+<word> The gruesome find is the latest in a string of suspected drug related killings in the country . 
+<lemma> the gruesome find be the latest in a string of suspect drug related killing in the country . 
+<POS> DT JJ VBP VBZ DT JJS IN DT NN IN VBN NN JJ NNS IN DT NN . 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (DT The) (JJ gruesome)) (VP (VBP find))) (VP (VBZ is) (NP (NP (DT the) (JJS latest)) (PP (IN in) (NP (NP (DT a) (NN string)) (PP (IN of) (NP (VBN suspected) (NN drug))))))) (NP (NP (JJ related) (NNS killings)) (PP (IN in) (NP (DT the) (NN country)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|3 nsubj 2|6 dep 3|6 cop 4|6 det 5|9 case 7|12 det:qmod 8|8 mwe 9|8 mwe 10|12 amod 11|6 nmod 12|14 amod 13|6 nsubj 14|17 case 15|17 det 16|14 nmod:in 17|6 punct 18|
+<word> The body parts were found stuffed into bags in the early hours of Sunday . 
+<lemma> the body part be find stuff into bag in the early hour of Sunday . 
+<POS> DT NN NNS VBD VBN VBN IN NNS IN DT JJ NNS IN NNP . 
+<NER> O O O O O O O O O DATE DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN body) (NNS parts)) (VP (VBD were) (VP (VBN found) (PP (VBN stuffed) (PP (IN into) (NP (NP (NNS bags)) (PP (IN in) (NP (NP (DT the) (JJ early) (NNS hours)) (PP (IN of) (NP (NNP Sunday)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 compound 2|5 nsubjpass 3|5 auxpass 4|8 case 6|8 case 7|5 advcl:into 8|12 case 9|12 det 10|12 amod 11|8 nmod:in 12|14 case 13|12 nmod:of 14|5 punct 15|
+<word> It follows a similar incident last Wednesday , when 18 victims were found decapitated and dismembered near Mexico 's second-largest city , Guadalajara . 
+<lemma> it follow a similar incident last Wednesday , when 18 victim be find decapitate and dismember near Mexico 's second-largest city , Guadalajara . 
+<POS> PRP VBZ DT JJ NN JJ NNP , WRB CD NNS VBD VBN VBN CC VBN IN NNP POS JJ NN , NNP . 
+<NER> O O O O O DATE DATE O O NUMBER O O O O O O O LOCATION O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBZ follows) (NP (DT a) (JJ similar) (NN incident)) (NP-TMP (JJ last) (NNP Wednesday)) (, ,) (SBAR (WHADVP (WRB when)) (S (NP (CD 18) (NNS victims)) (VP (VBD were) (VP (VBN found) (S (VP (VBN decapitated) (CC and) (VBN dismembered) (PP (IN near) (NP (NP (NP (NNP Mexico) (POS 's)) (JJ second-largest) (NN city)) (, ,) (NP (NNP Guadalajara))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 det 3|5 amod 4|2 dobj 5|7 amod 6|2 nmod:tmod 7|2 punct 8|13 advmod 9|11 nummod 10|13 nsubjpass 11|13 auxpass 12|2 advcl 13|13 dep 14|14 cc 15|13 dep 16|14 conj:and 16|21 case 17|21 nmod:poss 18|18 case 19|21 amod 20|14 nmod:near 21|21 punct 22|21 appos 23|2 punct 24|
+<word> Both cities are in the state of Nuevo Leon , which has seen escalating violence between rival drug cartels . 
+<lemma> both city be in the state of Nuevo Leon , which have see escalate violence between rival drug cartel . 
+<POS> DT NNS VBP IN DT NN IN NNP NNP , WDT VBZ VBN VBG NN IN JJ NN NNS . 
+<NER> O O O O O O O LOCATION LOCATION O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT Both) (NNS cities)) (VP (VBP are) (PP (IN in) (NP (NP (DT the) (NN state)) (PP (IN of) (NP (NP (NNP Nuevo) (NNP Leon)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBZ has) (VP (VBN seen) (S (VP (VBG escalating) (NP (NP (NN violence)) (PP (IN between) (NP (JJ rival) (NN drug) (NNS cartels))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|6 cop 3|6 case 4|6 det 5|9 case 7|9 compound 8|6 nmod:of 9|13 nsubj 9|9 punct 10|9 ref 11|13 aux 12|9 acl:relcl 13|13 xcomp 14|14 dobj 15|19 case 16|19 amod 17|19 compound 18|15 nmod:between 19|6 punct 20|
+<word> More than 47,000 people are thought to have been killed in drug-related attacks since President Felipe Calderon launched a crackdown on organized crime in 2006 . 
+<lemma> more than 47,000 people be think to have be kill in drug-related attack since President Felipe Calderon launch a crackdown on organized crime in 2006 . 
+<POS> JJR IN CD NNS VBP VBN TO VB VBN VBN IN JJ NNS IN NNP NNP NNP VBD DT NN IN JJ NN IN CD . 
+<NER> O O NUMBER O O O O O O O O O O O O PERSON PERSON O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (QP (JJR More) (IN than) (CD 47,000)) (NNS people)) (VP (VBP are) (VP (VBN thought) (S (VP (TO to) (VP (VB have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (JJ drug-related) (NNS attacks))) (SBAR (IN since) (S (NP (NNP President) (NNP Felipe) (NNP Calderon)) (VP (VBD launched) (NP (DT a) (NN crackdown)) (PP (IN on) (NP (JJ organized) (NN crime))) (PP (IN in) (NP (CD 2006))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 advmod 1|1 mwe 2|4 nummod 3|6 nsubjpass 4|10 nsubjpass:xsubj 4|6 auxpass 5|10 mark 7|10 aux 8|10 auxpass 9|6 xcomp 10|13 case 11|13 amod 12|10 nmod:in 13|18 mark 14|17 compound 15|17 compound 16|18 nsubj 17|10 advcl:since 18|20 det 19|18 dobj 20|23 case 21|23 amod 22|18 nmod:on 23|25 case 24|18 nmod:in 25|6 punct 26|
+<coreference> []
+</DOC>

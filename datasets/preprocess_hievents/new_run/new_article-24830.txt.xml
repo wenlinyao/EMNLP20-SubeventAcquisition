@@ -1,0 +1,46 @@
+<DOC> article-24830.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> Three climbers returning from the summit of Mount Everest have died and two others are missing , a Nepalese official said . 
+<lemma> three climber return from the summit of Mount Everest have die and two other be miss , a nepalese official say . 
+<POS> CD NNS VBG IN DT NN IN NNP NNP VBP VBN CC CD NNS VBP VBG , DT JJ NN VBD . 
+<NER> NUMBER O O O O O O LOCATION LOCATION O O O NUMBER O O O O O MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (NP (CD Three) (NNS climbers)) (VP (VBG returning) (PP (IN from) (NP (NP (DT the) (NN summit)) (PP (IN of) (NP (NNP Mount) (NNP Everest))))))) (VP (VBP have) (VP (VBN died)))) (CC and) (S (NP (CD two) (NNS others)) (VP (VBP are) (ADJP (VBG missing))))) (, ,) (NP (DT a) (JJ Nepalese) (NN official)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|2 nummod 1|11 nsubj 2|2 acl 3|6 case 4|6 det 5|3 nmod:from 6|9 case 7|9 compound 8|6 nmod:of 9|11 aux 10|21 ccomp 11|11 cc 12|14 nummod 13|16 nsubj 14|16 cop 15|11 conj:and 16|21 ccomp 16|21 punct 17|20 det 18|20 amod 19|21 nsubj 20|21 punct 22|
+<word> Gyanendra Shrestha , of the Mountaineering Department , said a German , a Nepal-born Canadian and a Korean died on Saturday while descending from the 29,035 ft -LRB- 8,850 m -RRB- summit . 
+<lemma> Gyanendra Shrestha , of the Mountaineering Department , say a german , a nepal-born canadian and a korean die on Saturday while descend from the 29,035 ft -lrb- 8,850 m -rrb- summit . 
+<POS> NNP NNP , IN DT NNP NNP , VBD DT JJ , DT JJ JJ CC DT JJ VBD IN NNP IN VBG IN DT CD NN -LRB- CD NN -RRB- NN . 
+<NER> PERSON PERSON O O O O O O O O MISC O O MISC MISC O O MISC O O DATE O O O O NUMBER O O NUMBER O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Gyanendra) (NNP Shrestha)) (, ,) (PP (IN of) (NP (DT the) (NNP Mountaineering) (NNP Department))) (, ,)) (VP (VBD said) (NP (NP (DT a) (JJ German)) (, ,) (NP (DT a) (JJ Nepal-born) (JJ Canadian)) (CC and) (NP (DT a) (ADJP (JJ Korean) (SBAR (S (VP (VBD died) (PP (IN on) (NP (NNP Saturday))) (SBAR (IN while) (S (VP (VBG descending) (PP (IN from) (NP (NP (DT the) (CD 29,035) (NN ft)) (PRN (-LRB- -LRB-) (NP (CD 8,850) (NN m)) (-RRB- -RRB-))))))))))) (NN summit)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|2 compound 1|9 nsubj 2|2 punct 3|7 case 4|7 det 5|7 compound 6|2 nmod:of 7|2 punct 8|11 det 10|9 dobj 11|11 punct 12|15 det 13|15 amod 14|9 dobj 15|11 conj:and 15|11 cc 16|32 det 17|32 amod 18|18 ccomp 19|21 case 20|19 nmod:on 21|23 mark 22|19 advcl:while 23|27 case 24|27 det 25|27 nummod 26|23 nmod:from 27|30 punct 28|30 nummod 29|27 appos 30|30 punct 31|9 dobj 32|11 conj:and 32|9 punct 33|
+<word> Mr Shrestha said the weather was favourable on Friday and Saturday morning but a wind storm swept the mountain later on Saturday . 
+<lemma> Mr Shrestha say the weather be favourable on Friday and Saturday morning but a wind storm sweep the mountain later on Saturday . 
+<POS> NNP NNP VBD DT NN VBD JJ IN NNP CC NNP NN CC DT NN NN VBD DT NN RB IN NNP . 
+<NER> O PERSON O O O O O O DATE O DATE TIME O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Mr) (NNP Shrestha)) (VP (VBD said) (SBAR (S (NP (DT the) (NN weather)) (VP (VBD was) (ADJP (JJ favourable) (PP (IN on) (NP (NNP Friday) (CC and) (NNP Saturday)))) (NP-TMP (NN morning))))))) (CC but) (S (NP (DT a) (NN wind) (NN storm)) (VP (VBD swept) (ADVP (NP (DT the) (NN mountain)) (RB later)) (PP (IN on) (NP (NNP Saturday))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 det 4|7 nsubj 5|7 cop 6|3 ccomp 7|9 case 8|7 nmod:on 9|9 cc 10|7 nmod:on 11|9 conj:and 11|7 nmod:tmod 12|3 cc 13|16 det 14|16 compound 15|17 nsubj 16|3 conj:but 17|19 det 18|20 nmod:npmod 19|17 advmod 20|22 case 21|17 nmod:on 22|3 punct 23|
+<word> Mr Shrestha , stationed at Everest base camp , said he was waiting for details . 
+<lemma> Mr Shrestha , station at Everest base camp , say he be wait for detail . 
+<POS> NNP NNP , VBN IN NNP NN NN , VBD PRP VBD VBG IN NNS . 
+<NER> O PERSON O O O LOCATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Mr) (NNP Shrestha)) (, ,) (VP (VBN stationed) (PP (IN at) (NP (NNP Everest) (NN base) (NN camp)))) (, ,)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD was) (VP (VBG waiting) (PP (IN for) (NP (NNS details)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 compound 1|10 nsubj 2|2 punct 3|2 acl 4|8 case 5|8 compound 6|8 compound 7|4 nmod:at 8|2 punct 9|13 nsubj 11|13 aux 12|10 ccomp 13|15 case 14|13 nmod:for 15|10 punct 16|
+<word> German doctor Eberhard Schaaf , 61 , is believed to have suffered high altitude cerebral oedema . 
+<lemma> german doctor Eberhard Schaaf , 61 , be believe to have suffer high altitude cerebral oedema . 
+<POS> JJ NN NNP NNP , CD , VBZ VBN TO VB VBN JJ NN JJ NN . 
+<NER> MISC O PERSON PERSON O NUMBER O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ German) (NN doctor) (NNP Eberhard) (NNP Schaaf)) (, ,) (NP (CD 61)) (, ,)) (VP (VBZ is) (VP (VBN believed) (S (VP (TO to) (VP (VB have) (VP (VBN suffered) (NP (JJ high) (NN altitude) (JJ cerebral) (NN oedema)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|4 amod 1|4 compound 2|4 compound 3|9 nsubjpass 4|12 nsubj:xsubj 4|4 punct 5|4 amod 6|4 punct 7|9 auxpass 8|12 mark 10|12 aux 11|9 xcomp 12|16 amod 13|16 compound 14|16 amod 15|12 dobj 16|9 punct 17|
+<word> The Nepalese-Canadian climber was Shriya Shah , while the Korean mountaineer 's name has yet to be confirmed . 
+<lemma> the nepalese-canadian climber be Shriya Shah , while the korean mountaineer 's name have yet to be confirm . 
+<POS> DT JJ NN VBD NNP NNP , IN DT JJ NN POS NN VBZ RB TO VB VBN . 
+<NER> O MISC O O PERSON PERSON O O O MISC O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ Nepalese-Canadian) (NN climber)) (VP (VBD was) (NP (NP (NNP Shriya) (NNP Shah)) (, ,) (SBAR (IN while) (S (NP (NP (DT the) (JJ Korean) (NN mountaineer) (POS 's)) (NN name)) (VP (VBZ has) (ADVP (RB yet)) (S (VP (TO to) (VP (VB be) (VP (VBN confirmed)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 amod 2|6 nsubj 3|6 cop 4|6 compound 5|6 punct 7|14 mark 8|11 det 9|11 amod 10|13 nmod:poss 11|11 case 12|14 nsubj 13|18 nsubjpass:xsubj 13|6 acl:relcl 14|14 advmod 15|18 mark 16|18 auxpass 17|14 xcomp 18|6 punct 19|
+<coreference> [['1,8,10,9', '4,6,7,6'], ['2,1,3,2', '3,1,3,2', '4,1,9,2', '4,1,3,2', '4,2,3,2', '4,11,12,11'], ['2,21,22,21', '3,11,12,11', '3,22,23,22']]
+</DOC>

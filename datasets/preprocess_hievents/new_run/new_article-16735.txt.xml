@@ -1,0 +1,102 @@
+<DOC> article-16735.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 |
+<word> An aeroplane belonging to Agni Air crashed in Jomsom , north-west Nepal crashed Monday morning . 
+<lemma> a aeroplane belong to Agni Air crash in Jomsom , north-west Nepal crash Monday morning . 
+<POS> DT NN VBG TO NNP NNP VBD IN NNP , JJ NNP VBD NNP NN . 
+<NER> O O O O PERSON PERSON O O LOCATION O O LOCATION O DATE TIME O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT An) (NN aeroplane)) (VP (VBG belonging) (PP (TO to) (NP (NNP Agni) (NNP Air))))) (VP (VBD crashed) (PP (IN in) (NP (NNP Jomsom))))) (, ,) (NP (JJ north-west) (NNP Nepal)) (VP (VBD crashed) (NP-TMP (NNP Monday)) (NP-TMP (NN morning))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|2 det 1|7 nsubj 2|2 acl 3|6 case 4|6 compound 5|3 nmod:to 6|13 ccomp 7|9 case 8|7 nmod:in 9|13 punct 10|12 amod 11|13 nsubj 12|13 nmod:tmod 14|13 nmod:tmod 15|13 punct 16|
+<word> 11 people have been confirmed dead while 5 people have been rescued alive . 
+<lemma> 11 people have be confirm dead while 5 people have be rescue alive . 
+<POS> CD NNS VBP VBN VBN JJ IN CD NNS VBP VBN VBN JJ . 
+<NER> NUMBER O O O O O O NUMBER O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (CD 11) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN confirmed) (ADJP (JJ dead)) (SBAR (IN while) (S (NP (CD 5) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN rescued) (S (ADJP (JJ alive))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 nummod 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|5 xcomp 6|12 mark 7|9 nummod 8|12 nsubjpass 9|12 aux 10|12 auxpass 11|5 advcl:while 12|12 xcomp 13|5 punct 14|
+<word> There were total 21 people on the plane with 3 crew members . 
+<lemma> there be total 21 people on the plane with 3 crew member . 
+<POS> EX VBD JJ CD NNS IN DT NN IN CD NN NNS . 
+<NER> O O O NUMBER O O O O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (EX There)) (VP (VBD were) (ADJP (JJ total) (NP (CD 21) (NNS people))) (PP (IN on) (NP (NP (DT the) (NN plane)) (PP (IN with) (NP (CD 3) (NN crew) (NNS members)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|2 xcomp 3|5 nummod 4|3 dep 5|8 case 6|8 det 7|2 nmod:on 8|12 case 9|12 nummod 10|12 compound 11|8 nmod:with 12|2 punct 13|
+<word> Among the rescued are the air hostess of the flight , one minor and two foreigners . 
+<lemma> among the rescue be the air hostess of the flight , one minor and two foreigner . 
+<POS> IN DT VBN VBP DT NN NN IN DT NN , CD JJ CC CD NNS . 
+<NER> O O O O O O O O O O O NUMBER O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (SINV (PP (IN Among) (NP (DT the) (VBN rescued))) (VP (VBP are) (NP (NP (DT the) (NN air) (NN hostess)) (PP (IN of) (NP (NP (DT the) (NN flight)) (, ,) (NP (CD one)))))) (NP (NP (JJ minor)) (CC and) (NP (CD two) (NNS foreigners))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|7 nmod:among 2|2 amod 3|7 cop 4|7 det 5|7 compound 6|10 case 8|10 det 9|7 nmod:of 10|10 punct 11|10 amod 12|7 nsubj 13|13 cc 14|16 nummod 15|7 nsubj 16|13 conj:and 16|7 punct 17|
+<word> The plane was flying from Pokhara to Jomsom , Mustang . 
+<lemma> the plane be fly from Pokhara to Jomsom , Mustang . 
+<POS> DT NN VBD VBG IN NNP TO NNP , NNP . 
+<NER> O O O O O LOCATION O LOCATION O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN plane)) (VP (VBD was) (VP (VBG flying) (PP (IN from) (NP (NNP Pokhara))) (PP (TO to) (NP (NNP Jomsom) (, ,) (NNP Mustang))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|6 case 5|4 nmod:from 6|10 case 7|10 compound 8|10 punct 9|4 nmod:to 10|4 punct 11|
+<word> The plane crashed around 10 a.m. local time -LRB- 0415 GMT -RRB- . 
+<lemma> the plane crash around 10 a.m. local time -lrb- 0415 GMT -rrb- . 
+<POS> DT NN VBD IN CD RB JJ NN -LRB- CD NNP -RRB- . 
+<NER> O O O O TIME TIME TIME TIME O DATE MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN plane)) (VP (VBD crashed) (PP (IN around) (NP (NP (CD 10) (RB a.m.) (JJ local) (NN time)) (PRN (-LRB- -LRB-) (NP (NP (CD 0415)) (NP (NNP GMT))) (-RRB- -RRB-))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|8 case 4|8 nummod 5|8 advmod 6|8 amod 7|3 nmod:around 8|10 punct 9|8 dep 10|10 appos 11|10 punct 12|3 punct 13|
+<word> Rescue operations are being carried on . 
+<lemma> rescue operation be be carry on . 
+<POS> NN NNS VBP VBG VBN IN . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Rescue) (NNS operations)) (VP (VBP are) (VP (VBG being) (VP (VBN carried) (PP (IN on))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|5 nmod 6|5 punct 7|
+<word> Most of the passengers are foreigners . 
+<lemma> most of the passenger be foreigner . 
+<POS> JJS IN DT NNS VBP NNS . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJS Most)) (PP (IN of) (NP (DT the) (NNS passengers)))) (VP (VBP are) (NP (NNS foreigners))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubj 1|4 case 2|4 det 3|1 nmod:of 4|6 cop 5|6 punct 7|
+<word> The injured have been flown to hospital for treatment . 
+<lemma> the injure have be fly to hospital for treatment . 
+<POS> DT VBN VBP VBN VBN TO NN IN NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (ADJP (VBN injured))) (VP (VBP have) (VP (VBN been) (VP (VBN flown) (PP (TO to) (NP (NP (NN hospital)) (PP (IN for) (NP (NN treatment)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|7 case 6|5 nmod:to 7|9 case 8|7 nmod:for 9|5 punct 10|
+<word> As per reports , the plane crashed as they failed while turning the plane from a narrow turn . 
+<lemma> as per report , the plane crash as they fail while turn the plane from a narrow turn . 
+<POS> IN IN NNS , DT NN VBD IN PRP VBD IN VBG DT NN IN DT JJ NN . 
+<NER> O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN As) (PP (IN per) (NP (NNS reports)))) (, ,) (NP (DT the) (NN plane)) (VP (VBD crashed) (SBAR (IN as) (S (NP (PRP they)) (VP (VBD failed) (SBAR (IN while) (S (VP (VBG turning) (NP (DT the) (NN plane)) (PP (IN from) (NP (DT a) (JJ narrow) (NN turn)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 case 1|1 mwe 2|7 nmod:as_per 3|7 punct 4|6 det 5|7 nsubj 6|10 mark 8|10 nsubj 9|7 advcl:as 10|12 mark 11|10 advcl:while 12|14 det 13|12 dobj 14|18 case 15|18 det 16|18 amod 17|12 nmod:from 18|7 punct 19|
+<word> The front portion of the plane has totally been damaged . 
+<lemma> the front portion of the plane have totally be damage . 
+<POS> DT JJ NN IN DT NN VBZ RB VBN VBN . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ front) (NN portion)) (PP (IN of) (NP (DT the) (NN plane)))) (VP (VBZ has) (ADVP (RB totally)) (VP (VBN been) (VP (VBN damaged)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 det 1|3 amod 2|10 nsubjpass 3|6 case 4|6 det 5|3 nmod:of 6|10 aux 7|10 advmod 8|10 auxpass 9|10 punct 11|
+<word> Talking to Xinhua , Deputy Inspector General of Police Gynanedra Singh Bhandari said the plane crashed behind the army barrack of the region . 
+<lemma> talk to Xinhua , Deputy Inspector General of Police Gynanedra Singh Bhandari say the plane crash behind the army barrack of the region . 
+<POS> VBG TO NNP , NNP NNP NNP IN NNP NNP NNP NNP VBD DT NN VBD IN DT NN NN IN DT NN . 
+<NER> O O ORGANIZATION O O O O O O PERSON PERSON PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (VP (VBG Talking) (PP (TO to) (NP (NNP Xinhua))))) (, ,) (NP (NP (NNP Deputy) (NNP Inspector) (NNP General)) (PP (IN of) (NP (NNP Police) (NNP Gynanedra) (NNP Singh) (NNP Bhandari)))) (VP (VBD said) (SBAR (S (NP (DT the) (NN plane)) (VP (VBD crashed) (PP (IN behind) (NP (NP (DT the) (NN army) (NN barrack)) (PP (IN of) (NP (DT the) (NN region))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|13 advcl 1|3 case 2|1 nmod:to 3|13 punct 4|7 compound 5|7 compound 6|13 nsubj 7|12 case 8|12 compound 9|12 compound 10|12 compound 11|7 nmod:of 12|15 det 14|16 nsubj 15|13 ccomp 16|20 case 17|20 det 18|20 compound 19|16 nmod:behind 20|23 case 21|23 det 22|20 nmod:of 23|13 punct 24|
+<word> He also said that police and army are conducting rescue operation along with stand by flights to carry the injured . 
+<lemma> he also say that police and army be conduct rescue operation along with stand by flight to carry the injure . 
+<POS> PRP RB VBD IN NN CC NN VBP VBG NN NN IN IN NN IN NNS TO VB DT VBN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (ADVP (RB also)) (VP (VBD said) (SBAR (IN that) (S (NP (NN police) (CC and) (NN army)) (VP (VBP are) (VP (VBG conducting) (NP (NN rescue) (NN operation)) (ADVP (IN along) (PP (IN with) (NP (NN stand)))) (PP (IN by) (NP (NNS flights))) (S (VP (TO to) (VP (VB carry) (NP (NP (DT the)) (VP (VBN injured))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|9 mark 4|9 nsubj 5|5 cc 6|5 conj:and 7|9 nsubj 7|9 aux 8|3 ccomp 9|11 compound 10|9 dobj 11|9 advmod 12|14 case 13|12 nmod:with 14|16 case 15|9 nmod:by 16|18 mark 17|9 advcl:to 18|18 dobj 19|19 acl 20|3 punct 21|
+<word> According to him , the rescue operations were able to be carried soon because the plane crashed near the army barrack . 
+<lemma> accord to he , the rescue operation be able to be carry soon because the plane crash near the army barrack . 
+<POS> VBG TO PRP , DT NN NNS VBD JJ TO VB VBN RB IN DT NN VBD IN DT NN NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (VBG According) (PP (TO to) (NP (PRP him)))) (, ,) (NP (DT the) (NN rescue) (NNS operations)) (VP (VBD were) (ADJP (JJ able) (S (VP (TO to) (VP (VB be) (VP (VBN carried) (ADVP (RB soon)) (SBAR (IN because) (S (NP (DT the) (NN plane)) (VP (VBD crashed) (PP (IN near) (NP (DT the) (NN army) (NN barrack)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 case 1|1 mwe 2|9 nmod:according_to 3|9 punct 4|7 det 5|7 compound 6|9 nsubj 7|12 nsubjpass:xsubj 7|9 cop 8|12 mark 10|12 auxpass 11|9 xcomp 12|12 advmod 13|17 mark 14|16 det 15|17 nsubj 16|12 advcl:because 17|21 case 18|21 det 19|21 compound 20|17 nmod:near 21|9 punct 22|
+<coreference> [['1,9,10,9', '5,8,9,8'], ['3,7,13,8', '5,1,3,2', '6,1,3,2', '10,5,7,6', '10,13,15,14', '11,5,7,6', '12,14,16,15', '14,15,17,16'], ['4,15,17,16', '8,6,7,6'], ['14,5,8,7', '7,1,3,2'], ['9,1,3,2', '10,9,10,9', '13,19,21,19'], ['12,5,13,7', '13,1,2,1', '14,3,4,3'], ['12,18,24,20', '14,19,22,21']]
+</DOC>

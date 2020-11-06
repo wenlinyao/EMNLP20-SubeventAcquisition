@@ -1,0 +1,81 @@
+<DOC> article-15885.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> Adam Lambert and Adam Levine are two of the many celebrities who cheered for President Obama 's gay marriage support . 
+<lemma> Adam Lambert and Adam Levine be two of the many celebrity who cheer for President Obama 's gay marriage support . 
+<POS> NNP NNP CC NNP NNP VBP CD IN DT JJ NNS WP VBD IN NNP NNP POS JJ NN NN . 
+<NER> PERSON PERSON O PERSON PERSON O NUMBER O O O O O O O O PERSON O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Adam) (NNP Lambert) (CC and) (NNP Adam) (NNP Levine)) (VP (VBP are) (NP (NP (CD two)) (PP (IN of) (NP (NP (DT the) (JJ many) (NNS celebrities)) (SBAR (WHNP (WP who)) (S (VP (VBD cheered) (PP (IN for) (NP (NP (NNP President) (NNP Obama) (POS 's)) (JJ gay) (NN marriage) (NN support)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|2 compound 1|7 nsubj 2|2 cc 3|5 compound 4|2 conj:and 5|7 nsubj 5|7 cop 6|11 det:qmod 7|7 mwe 8|11 det 9|11 amod 10|13 nsubj 11|11 ref 12|11 acl:relcl 13|20 case 14|16 compound 15|20 nmod:poss 16|16 case 17|20 amod 18|20 compound 19|13 nmod:for 20|7 punct 21|
+<word> Robin Roberts from ABC News reported last Wednesday that Obama affirmed the legalization of marriage between same sex couples . 
+<lemma> Robin Roberts from ABC News report last Wednesday that Obama affirm the legalization of marriage between same sex couple . 
+<POS> NNP NNP IN NNP NNP VBD JJ NNP IN NNP VBD DT NN IN NN IN JJ NN NNS . 
+<NER> PERSON PERSON O ORGANIZATION ORGANIZATION O DATE DATE O PERSON O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Robin) (NNP Roberts)) (PP (IN from) (NP (NNP ABC) (NNP News)))) (VP (VBD reported) (NP-TMP (JJ last) (NNP Wednesday)) (SBAR (IN that) (S (NP (NNP Obama)) (VP (VBD affirmed) (NP (NP (DT the) (NN legalization)) (PP (IN of) (NP (NP (NN marriage)) (PP (IN between) (NP (JJ same) (NN sex) (NNS couples)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 compound 1|6 nsubj 2|5 case 3|5 compound 4|2 nmod:from 5|8 amod 7|6 nmod:tmod 8|11 mark 9|11 nsubj 10|6 ccomp 11|13 det 12|11 dobj 13|15 case 14|13 nmod:of 15|19 case 16|19 amod 17|19 compound 18|15 nmod:between 19|6 punct 20|
+<word> The statement became hot news over social networking sites in minutes . 
+<lemma> the statement become hot news over social networking site in minute . 
+<POS> DT NN VBD JJ NN IN JJ NN NNS IN NNS . 
+<NER> O O O O O O O O O O DURATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN statement)) (VP (VBD became) (NP (JJ hot) (NN news)) (PP (IN over) (NP (JJ social) (NN networking) (NNS sites))) (PP (IN in) (NP (NNS minutes)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 amod 4|3 xcomp 5|9 case 6|9 amod 7|9 compound 8|3 nmod:over 9|11 case 10|3 nmod:in 11|3 punct 12|
+<word> It was followed with celebrities reacting positively to it with former ` American Idol ' contestant , Adam Lambert , expressing his thoughts over Twitter . 
+<lemma> it be follow with celebrity react positively to it with former ` american idol ' contestant , Adam Lambert , express he thought over Twitter . 
+<POS> PRP VBD VBN IN NNS VBG RB TO PRP IN JJ `` JJ NN '' NN , NNP NNP , VBG PRP$ NNS IN NNP . 
+<NER> O O O O O O O O O O O O MISC O O O O PERSON PERSON O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD was) (VP (VBN followed) (PP (IN with) (NP (NP (NNS celebrities)) (VP (VBG reacting) (ADVP (RB positively)) (PP (TO to) (NP (PRP it)))))) (PP (IN with) (S (NP (NP (JJ former)) (`` `) (NP (JJ American) (NN Idol)) ('' ') (NP (NP (NN contestant)) (, ,) (NP (NNP Adam) (NNP Lambert))) (, ,)) (VP (VBG expressing) (NP (PRP$ his) (NNS thoughts)) (PP (IN over) (NP (NNP Twitter)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|5 case 4|3 nmod:with 5|5 acl 6|6 advmod 7|9 case 8|6 nmod:to 9|21 mark 10|21 nsubj 11|11 punct 12|14 amod 13|11 dep 14|11 punct 15|11 dep 16|16 punct 17|19 compound 18|16 appos 19|11 punct 20|3 advcl:with 21|23 nmod:poss 22|21 dobj 23|25 case 24|21 nmod:over 25|3 punct 26|
+<word> Lambert has a boyfriend but emphasized that he still has no plans of tying the knot . 
+<lemma> Lambert have a boyfriend but emphasize that he still have no plan of tie the knot . 
+<POS> NNP VBZ DT NN CC VBD IN PRP RB VBZ DT NNS IN VBG DT NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Lambert)) (VP (VP (VBZ has) (NP (DT a) (NN boyfriend))) (CC but) (VP (VBD emphasized) (SBAR (IN that) (S (NP (PRP he)) (ADVP (RB still)) (VP (VBZ has) (NP (NP (DT no) (NNS plans)) (PP (IN of) (S (VP (VBG tying) (NP (DT the) (NN knot))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 nsubj 1|4 det 3|2 dobj 4|2 cc 5|2 conj:but 6|10 mark 7|10 nsubj 8|10 advmod 9|6 ccomp 10|12 neg 11|10 dobj 12|14 mark 13|12 acl:of 14|16 det 15|14 dobj 16|2 punct 17|
+<word> The Sue Sylvester of ` Glee , ' Jane Lynch , expressed her joy to the President with a shoutout tweet of `` Obama : Marriage ? 
+<lemma> the Sue Sylvester of ` glee , ' Jane Lynch , express she joy to the President with a shoutout tweet of `` Obama : Marriage ? 
+<POS> DT NNP NNP IN `` NN , '' NNP NNP , VBD PRP$ NN TO DT NNP IN DT NN NN IN `` NNP : NNP . 
+<NER> O PERSON PERSON O O O O O PERSON PERSON O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (DT The) (NNP Sue) (NNP Sylvester)) (PP (IN of) (`` `) (NP (NN Glee)))) (, ,) ('' ') (NP (NNP Jane) (NNP Lynch)) (, ,)) (VP (VBD expressed) (NP (PRP$ her) (NN joy)) (PP (TO to) (NP (DT the) (NNP President))) (PP (IN with) (NP (NP (DT a) (NN shoutout) (NN tweet)) (PP (IN of) (NP (`` ``) (NP (NNP Obama)) (: :) (NP (NNP Marriage))))))) (. ?))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|3 det 1|3 compound 2|12 nsubj 3|6 case 4|6 punct 5|3 nmod:of 6|3 punct 7|3 punct 8|10 compound 9|3 dep 10|3 punct 11|14 nmod:poss 13|12 dobj 14|17 case 15|17 det 16|12 nmod:to 17|21 case 18|21 det 19|21 compound 20|12 nmod:with 21|24 case 22|24 punct 23|21 nmod:of 24|24 punct 25|24 dep 26|12 punct 27|
+<word> Gay is okay ! '' 
+<lemma> gay be okay ! '' 
+<POS> NNS VBZ JJ . '' 
+<NER> O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Gay)) (VP (VBZ is) (ADJP (JJ okay))) (. !) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 cop 2|3 punct 4|3 punct 5|
+<word> It was in 2010 when the comedian married her girlfriend . 
+<lemma> it be in 2010 when the comedian marry she girlfriend . 
+<POS> PRP VBD IN CD WRB DT NN VBD PRP$ NN . 
+<NER> O O O DATE O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD was) (PP (IN in) (NP (CD 2010))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN comedian)) (VP (VBD married) (NP (PRP$ her) (NN girlfriend)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 cop 2|4 case 3|8 advmod 5|7 det 6|8 nsubj 7|4 advcl 8|10 nmod:poss 9|8 dobj 10|4 punct 11|
+<word> Even the straight guys like Adam Levine of Maroon 5 thanked Obama for the exemplary leadership the President has shown . 
+<lemma> even the straight guy like Adam Levine of Maroon 5 thank Obama for the exemplary leadership the President have show . 
+<POS> RB DT JJ NNS IN NNP NNP IN NNP CD VBD NNP IN DT JJ NN DT NNP VBZ VBN . 
+<NER> O O O O O PERSON PERSON O O NUMBER O PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (RB Even) (DT the) (JJ straight) (NNS guys)) (PP (IN like) (NP (NP (NNP Adam) (NNP Levine)) (PP (IN of) (NP (NNP Maroon) (CD 5)))))) (VP (VBD thanked) (NP (NP (NNP Obama)) (PP (IN for) (NP (NP (DT the) (JJ exemplary) (NN leadership)) (SBAR (S (NP (DT the) (NNP President)) (VP (VBZ has) (VP (VBN shown))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|4 advmod 1|4 det 2|4 amod 3|11 nsubj 4|7 case 5|7 compound 6|4 nmod:like 7|9 case 8|7 nmod:of 9|9 nummod 10|11 dobj 12|16 case 13|16 det 14|16 amod 15|12 nmod:for 16|18 det 17|20 nsubj 18|20 aux 19|16 acl:relcl 20|11 punct 21|
+<word> Neil Patrick Harris was never left out and wrote a simple ` Bravo ! ' 
+<lemma> Neil Patrick Harris be never leave out and write a simple ` Bravo ! ' 
+<POS> NNP NNP NNP VBD RB VBN RP CC VBD DT JJ `` NNP . '' 
+<NER> PERSON PERSON PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Neil) (NNP Patrick) (NNP Harris)) (VP (VP (VBD was) (ADVP (RB never)) (VP (VBN left) (PRT (RP out)))) (CC and) (VP (VBD wrote) (NP (DT a) (JJ simple) (`` `) (NX (NNP Bravo))))) (. !) ('' '))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 compound 1|3 compound 2|6 nsubjpass 3|9 nsubjpass 3|6 auxpass 4|6 neg 5|6 compound:prt 7|6 cc 8|6 conj:and 9|13 det 10|13 amod 11|13 punct 12|9 dobj 13|6 punct 14|6 punct 15|
+<word> for the fair US President . 
+<lemma> for the fair US President . 
+<POS> IN DT JJ NNP NNP . 
+<NER> O O O LOCATION O O 
+<Timex> None
+<parse>         (ROOT (FRAG (PP (IN for) (NP (DT the) (JJ fair) (NNP US) (NNP President))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 case 1|5 det 2|5 amod 3|5 compound 4|5 punct 6|
+<coreference> [['1,1,3,2', '4,18,20,19', '5,1,2,1', '5,8,9,8'], ['1,15,18,16', '2,10,11,10'], ['6,26,27,26', '2,15,20,15'], ['3,1,3,2', '4,1,2,1', '4,9,10,9'], ['4,16,20,16', '4,22,23,22'], ['6,1,7,3', '6,13,14,13', '8,9,10,9'], ['6,13,15,14', '8,1,2,1'], ['11,2,6,5', '6,16,18,17', '9,17,19,18']]
+</DOC>

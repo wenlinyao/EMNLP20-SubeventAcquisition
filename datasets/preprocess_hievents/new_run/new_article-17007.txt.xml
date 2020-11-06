@@ -1,0 +1,95 @@
+<DOC> article-17007.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 |
+<word> A teenage boy has died in hospital with his parents by his bedside after a house fire which killed five of his young brothers and sisters . 
+<lemma> a teenage boy have die in hospital with he parent by he bedside after a house fire which kill five of he young brother and sister . 
+<POS> DT JJ NN VBZ VBN IN NN IN PRP$ NNS IN PRP$ NN IN DT NN NN WDT VBD CD IN PRP$ JJ NNS CC NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (JJ teenage) (NN boy)) (VP (VBZ has) (VP (VBN died) (PP (IN in) (NP (NN hospital))) (PP (IN with) (NP (PRP$ his) (NNS parents))) (PP (IN by) (NP (PRP$ his) (NN bedside))) (PP (IN after) (NP (NP (DT a) (NN house) (NN fire)) (SBAR (WHNP (WDT which)) (S (VP (VBD killed) (NP (NP (CD five)) (PP (IN of) (NP (PRP$ his) (JJ young) (NNS brothers) (CC and) (NNS sisters))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 aux 4|7 case 6|5 nmod:in 7|10 case 8|10 nmod:poss 9|5 nmod:with 10|13 case 11|13 nmod:poss 12|5 nmod:by 13|17 case 14|17 det 15|17 compound 16|5 nmod:after 17|19 nsubj 17|17 ref 18|17 acl:relcl 19|19 dobj 20|24 case 21|24 nmod:poss 22|24 amod 23|20 nmod:of 24|24 cc 25|20 nmod:of 26|24 conj:and 26|5 punct 27|
+<word> 13-year-old Duwayne Philpott was in hospital since the blaze which claimed the lives of his sister Jade , 10 , and brothers John , nine , Jack , seven , Jessie , six , and five-year-old Jayden . 
+<lemma> 13-year-old Duwayne Philpott be in hospital since the blaze which claim the life of he sister Jade , 10 , and brother John , nine , Jack , seven , Jessie , six , and five-year-old Jayden . 
+<POS> JJ NNP NNP VBD IN NN IN DT NN WDT VBD DT NNS IN PRP$ NN NNP , CD , CC NNS NNP , CD , NNP , CD , NNP , CD , CC JJ NNP . 
+<NER> DURATION PERSON PERSON O O O O O O O O O O O O O PERSON O NUMBER O O O PERSON O NUMBER O PERSON O NUMBER O PERSON O NUMBER O O DURATION PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ 13-year-old) (NNP Duwayne) (NNP Philpott)) (VP (VBD was) (PP (IN in) (NP (NN hospital))) (PP (IN since) (NP (NP (DT the) (NN blaze)) (SBAR (WHNP (WDT which)) (S (VP (VBD claimed) (NP (NP (DT the) (NNS lives)) (PP (IN of) (NP (NP (PRP$ his) (NN sister) (NNP Jade)) (, ,) (NP (CD 10)) (, ,) (CC and) (NP (NP (NNS brothers)) (NP (NNP John))) (, ,) (NP (CD nine)) (, ,) (NP (NNP Jack)) (, ,) (NP (CD seven)) (, ,) (NP (NNP Jessie)) (, ,) (NP (CD six)) (, ,) (CC and) (NP (JJ five-year-old) (NNP Jayden))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 amod 1|3 compound 2|6 nsubj 3|6 cop 4|6 case 5|9 case 7|9 det 8|6 nmod:since 9|11 nsubj 9|9 ref 10|9 acl:relcl 11|13 det 12|11 dobj 13|17 case 14|17 nmod:poss 15|17 compound 16|13 nmod:of 17|17 punct 18|13 nmod:of 19|17 conj:and 19|17 punct 20|17 cc 21|13 nmod:of 22|17 conj:and 22|22 appos 23|17 punct 24|13 nmod:of 25|17 conj:and 25|17 punct 26|13 nmod:of 27|17 conj:and 27|17 punct 28|13 nmod:of 29|17 conj:and 29|17 punct 30|13 nmod:of 31|17 conj:and 31|17 punct 32|13 nmod:of 33|17 conj:and 33|17 punct 34|17 cc 35|37 amod 36|13 nmod:of 37|17 conj:and 37|6 punct 38|
+<word> The children were asleep in their beds upstairs in the house in Victory Road , Allenton , Derby , when the fire broke out at the semi-detached house in the early hours of Friday . 
+<lemma> the child be asleep in they bed upstairs in the house in Victory Road , Allenton , Derby , when the fire break out at the semi-detached house in the early hour of Friday . 
+<POS> DT NNS VBD RB IN PRP$ NNS RB IN DT NN IN NNP NNP , NNP , NNP , WRB DT NN VBD RP IN DT JJ NN IN DT JJ NNS IN NNP . 
+<NER> O O O O O O O O O O O O LOCATION LOCATION O LOCATION O LOCATION O O O O O O O O O O O DATE DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS children)) (VP (VBD were) (ADJP (RB asleep)) (PP (IN in) (NP (NP (NP (PRP$ their) (NNS beds)) (RB upstairs)) (PP (IN in) (NP (NP (DT the) (NN house)) (PP (IN in) (NP (NNP Victory) (NNP Road) (, ,) (NNP Allenton) (, ,) (NNP Derby) (, ,))))))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN fire)) (VP (VBD broke) (PRT (RP out)) (PP (IN at) (NP (DT the) (JJ semi-detached) (NN house))) (PP (IN in) (NP (NP (DT the) (JJ early) (NNS hours)) (PP (IN of) (NP (NNP Friday))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 cop 3|7 case 5|7 nmod:poss 6|4 nmod:in 7|7 advmod 8|11 case 9|11 det 10|7 nmod:in 11|18 case 12|18 compound 13|18 compound 14|18 punct 15|18 appos 16|18 punct 17|11 nmod:in 18|18 punct 19|23 advmod 20|22 det 21|23 nsubj 22|4 advcl 23|23 compound:prt 24|28 case 25|28 det 26|28 amod 27|23 nmod:at 28|32 case 29|32 det 30|32 amod 31|23 nmod:in 32|34 case 33|32 nmod:of 34|4 punct 35|
+<word> The children 's father , Mick Philpott , made a `` valiant '' attempt to save them , police said . 
+<lemma> the child 's father , Mick Philpott , make a `` valiant '' attempt to save they , police say . 
+<POS> DT NNS POS NN , NNP NNP , VBD DT `` JJ '' NN TO VB PRP , NNS VBD . 
+<NER> O O O O O PERSON PERSON O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NP (DT The) (NNS children) (POS 's)) (NN father)) (, ,) (NP (NNP Mick) (NNP Philpott)) (, ,)) (VP (VBD made) (NP (DT a) (`` ``) (JJ valiant) ('' '') (NN attempt)) (S (VP (TO to) (VP (VB save) (NP (PRP them))))))) (, ,) (NP (NNS police)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|2 det 1|4 nmod:poss 2|2 case 3|9 nsubj 4|4 punct 5|7 compound 6|4 appos 7|4 punct 8|20 ccomp 9|14 det 10|14 punct 11|14 amod 12|14 punct 13|9 dobj 14|16 mark 15|9 advcl:to 16|16 dobj 17|20 punct 18|20 nsubj 19|20 punct 21|
+<word> A 28-year-old woman and 38-year-old man , both from Derby , were arrested by officers investigating the deaths but were yesterday released without charge . 
+<lemma> a 28-year-old woman and 38-year-old man , both from Derby , be arrest by officer investigate the death but be yesterday release without charge . 
+<POS> DT JJ NN CC JJ NN , CC IN NNP , VBD VBN IN NNS VBG DT NNS CC VBD NN VBN IN NN . 
+<NER> O DURATION O O DURATION O O O O LOCATION O O O O O O O O O O DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (JJ 28-year-old) (NN woman)) (CC and) (NP (JJ 38-year-old) (NN man))) (, ,) (ADVP (CC both)) (VP (VP (PP (IN from) (NP (NNP Derby))) (, ,) (VBD were) (VP (VBN arrested) (PP (IN by) (NP (NP (NNS officers)) (VP (VBG investigating) (NP (DT the) (NNS deaths))))))) (CC but) (VP (VBD were) (VP (ADVP (NN yesterday)) (VBN released) (PP (IN without) (NP (NN charge)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|3 det 1|3 amod 2|13 nsubjpass 3|22 nsubjpass 3|3 cc 4|6 amod 5|3 conj:and 6|13 nsubjpass 6|13 punct 7|13 advmod 8|10 case 9|13 nmod:from 10|13 punct 11|13 auxpass 12|15 case 14|13 nmod:agent 15|15 acl 16|18 det 17|16 dobj 18|13 cc 19|22 auxpass 20|22 advmod 21|13 conj:but 22|24 case 23|22 nmod:without 24|13 punct 25|
+<word> Police said they were still treating the fire as suspicious . 
+<lemma> police say they be still treat the fire as suspicious . 
+<POS> NNS VBD PRP VBD RB VBG DT NN IN JJ . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Police)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD were) (ADVP (RB still)) (VP (VBG treating) (NP (DT the) (NN fire)) (PP (IN as) (ADJP (JJ suspicious)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 nsubj 3|6 aux 4|6 advmod 5|2 ccomp 6|8 det 7|6 dobj 8|10 case 9|6 advcl:as 10|2 punct 11|
+<word> Assistant Chief Constable Steve Cotterill added : `` This investigation is still at an early stage and it should be stressed that we have not yet had the opportunity to speak to Mr and Mrs Philpott properly because they 've been caring for their son in Birmingham . 
+<lemma> Assistant Chief Constable Steve Cotterill add : `` this investigation be still at a early stage and it should be stress that we have not yet have the opportunity to speak to Mr and Mrs Philpott properly because they have be care for they son in Birmingham . 
+<POS> NNP NNP NNP NNP NNP VBD : `` DT NN VBZ RB IN DT JJ NN CC PRP MD VB VBN IN PRP VBP RB RB VBD DT NN TO VB TO NNP CC NNP NNP RB IN PRP VBP VBN VBG IN PRP$ NN IN NNP . 
+<NER> O O O PERSON PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O O O PERSON PERSON O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Assistant) (NNP Chief) (NNP Constable) (NNP Steve) (NNP Cotterill)) (VP (VBD added) (: :) (`` ``) (S (S (NP (DT This) (NN investigation)) (VP (VBZ is) (ADVP (RB still)) (PP (IN at) (NP (DT an) (JJ early) (NN stage))))) (CC and) (S (NP (PRP it)) (VP (MD should) (VP (VB be) (VP (VBN stressed) (SBAR (IN that) (S (NP (PRP we)) (VP (VBP have) (ADVP (RB not) (RB yet)) (VP (VBD had) (NP (DT the) (NN opportunity) (S (VP (TO to) (VP (VB speak) (PP (TO to) (NP (NNP Mr) (CC and) (NNP Mrs) (NNP Philpott))) (SBAR (ADVP (RB properly)) (IN because) (S (NP (PRP they)) (VP (VBP 've) (VP (VBN been) (VP (VBG caring) (PP (IN for) (NP (NP (PRP$ their) (NN son)) (PP (IN in) (NP (NNP Birmingham)))))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 compound 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|6 punct 7|6 punct 8|10 det 9|16 nsubj 10|16 cop 11|16 advmod 12|16 case 13|16 det 14|16 amod 15|6 xcomp 16|16 cc 17|21 nsubjpass 18|21 aux 19|21 auxpass 20|6 xcomp 21|16 conj:and 21|27 mark 22|27 nsubj 23|27 aux 24|26 dep 25|27 advmod 26|21 ccomp 27|29 det 28|27 dobj 29|31 mark 30|29 acl:to 31|36 case 32|36 compound 33|33 cc 34|33 conj:and 35|36 compound 35|31 nmod:to 36|42 advmod 37|42 mark 38|42 nsubj 39|42 aux 40|42 aux 41|31 advcl:because 42|45 case 43|45 nmod:poss 44|42 nmod:for 45|47 case 46|45 nmod:in 47|6 punct 48|
+<word> `` I want to thank the local community who have already come forward but I would urge anyone with any information , regardless of how insignificant you think it may be , to contact us . 
+<lemma> `` I want to thank the local community who have already come forward but I would urge anyone with any information , regardless of how insignificant you think it may be , to contact we . 
+<POS> `` PRP VBP TO VB DT JJ NN WP VBP RB VBN RB CC PRP MD VB NN IN DT NN , RB IN WRB JJ PRP VBP PRP MD VB , TO VB PRP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB thank) (NP (NP (DT the) (JJ local) (NN community)) (SBAR (WHNP (WP who)) (S (VP (VBP have) (ADVP (RB already)) (VP (VBN come) (ADVP (RB forward)))))))))))) (CC but) (S (NP (PRP I)) (VP (MD would) (VP (VB urge) (NP (NN anyone)) (PP (IN with) (NP (DT any) (NN information))) (, ,) (ADVP (RB regardless) (PP (IN of) (SBAR (WHADJP (WRB how) (JJ insignificant)) (S (NP (PRP you)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (MD may) (VP (VB be))))) (, ,) (S (VP (TO to) (VP (VB contact) (NP (PRP us))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|5 nsubj:xsubj 2|5 mark 4|3 xcomp 5|8 det 6|8 amod 7|5 dobj 8|12 nsubj 8|8 ref 9|12 aux 10|12 advmod 11|8 acl:relcl 12|12 advmod 13|3 cc 14|17 nsubj 15|17 aux 16|3 conj:but 17|17 dobj 18|21 case 19|21 det 20|17 nmod:with 21|17 punct 22|17 advmod 23|28 mark 24|26 advmod 25|28 dep 26|28 nsubj 27|34 nsubj:xsubj 27|23 advcl:of 28|31 nsubj 29|31 aux 30|28 ccomp 31|28 punct 32|34 mark 33|28 xcomp 34|34 dobj 35|3 punct 36|
+<word> `` We would specifically like to speak to anyone who was in or around Victory Road between 3am and 4am on Friday morning . '' 
+<lemma> `` we would specifically like to speak to anyone who be in or around Victory Road between 3am and 4am on Friday morning . '' 
+<POS> `` PRP MD RB VB TO VB TO NN WP VBD IN CC IN NNP NNP IN CD CC CD IN NNP NN . '' 
+<NER> O O O O O O O O O O O O O O O O O TIME TIME TIME O DATE TIME O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP We)) (VP (MD would) (ADVP (RB specifically)) (VP (VB like) (S (VP (TO to) (VP (VB speak) (PP (TO to) (NP (NP (NN anyone)) (SBAR (WHNP (WP who)) (S (VP (VBD was) (PP (IN in) (CC or) (IN around) (NP (NP (NNP Victory) (NNP Road)) (PP (IN between) (NP (CD 3am) (CC and) (CD 4am))))) (PP (IN on) (NP (NNP Friday))) (NP-TMP (NN morning)))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|7 nsubj:xsubj 2|5 aux 3|5 advmod 4|7 mark 6|5 xcomp 7|9 case 8|7 nmod:to 9|16 nsubj 9|7 nmod:to 9|9 conj:or 9|16 nsubj 9|9 ref 10|9 ref 10|16 cop 11|16 case 12|12 cc 13|12 conj:or 14|16 compound 15|9 acl:relcl 16|9 acl:relcl 16|18 case 17|16 nmod:between 18|18 cc 19|16 nmod:between 20|18 conj:and 20|22 case 21|16 nmod:on 22|16 nmod:tmod 23|5 punct 24|5 punct 25|
+<word> Said to be the father of 17 children , Mr Philpott hit the headlines after demanding a larger house to share with his wife , Mairead , girlfriend , Lisa , and eight offspring . 
+<lemma> Said to be the father of 17 child , Mr Philpott hit the headline after demand a larger house to share with he wife , Mairead , girlfriend , Lisa , and eight offspring . 
+<POS> NNP TO VB DT NN IN CD NNS , NNP NNP VBD DT NNS IN VBG DT JJR NN TO VB IN PRP$ NN , NNP , NN , NNP , CC CD NN . 
+<NER> O O O O O O NUMBER O O O PERSON O O O O O O O O O O O O O O PERSON O O O PERSON O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Said)) (VP (TO to) (VP (VB be) (NP (NP (DT the) (NN father)) (PP (IN of) (NP (CD 17) (NNS children))))))) (, ,) (NP (NNP Mr) (NNP Philpott)) (VP (VBD hit) (NP (DT the) (NNS headlines)) (PP (IN after) (S (VP (VBG demanding) (NP (DT a) (JJR larger) (NN house)) (S (VP (TO to) (VP (VB share) (PP (IN with) (NP (NP (PRP$ his) (NN wife)) (, ,) (NP (NNP Mairead)) (, ,) (NP (NN girlfriend)) (, ,) (NP (NNP Lisa)) (, ,) (CC and) (NP (CD eight) (NN offspring))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|5 nsubj 1|5 mark 2|5 cop 3|5 det 4|12 advcl:to 5|8 case 6|8 nummod 7|5 nmod:of 8|12 punct 9|11 compound 10|12 nsubj 11|14 det 13|12 dobj 14|16 mark 15|12 advcl:after 16|19 det 17|19 amod 18|16 dobj 19|21 nsubj:xsubj 19|21 mark 20|16 xcomp 21|24 case 22|24 nmod:poss 23|21 nmod:with 24|24 punct 25|21 nmod:with 26|24 conj:and 26|24 punct 27|21 nmod:with 28|24 conj:and 28|24 punct 29|21 nmod:with 30|24 conj:and 30|24 punct 31|24 cc 32|34 nummod 33|21 nmod:with 34|24 conj:and 34|12 punct 35|
+<word> He was dubbed `` Shameless Mick '' in 2007 for his benefit claims and refusal to get a job in a TV documentary by former Conservative MP Ann Widdecombe . 
+<lemma> he be dub `` shameless mick '' in 2007 for he benefit claim and refusal to get a job in a tv documentary by former conservative mp Ann Widdecombe . 
+<POS> PRP VBD VBN `` JJ NN '' IN CD IN PRP$ NN NNS CC NN TO VB DT NN IN DT NN NN IN JJ JJ NN NNP NNP . 
+<NER> O O O O O O O O DATE O O O O O O O O O O O O O O O O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD was) (VP (VBN dubbed) (`` ``) (NP (JJ Shameless) (NN Mick)) ('' '') (PP (IN in) (NP (CD 2007))) (PP (IN for) (NP (PRP$ his) (NN benefit) (NNS claims) (CC and) (NN refusal))) (S (VP (TO to) (VP (VB get) (NP (NP (DT a) (NN job)) (PP (IN in) (NP (DT a) (NN TV) (NN documentary)))) (PP (IN by) (NP (JJ former) (JJ Conservative) (NN MP) (NNP Ann) (NNP Widdecombe)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|3 punct 4|6 amod 5|3 dobj 6|3 punct 7|9 case 8|3 nmod:in 9|13 case 10|13 nmod:poss 11|13 compound 12|3 nmod:for 13|13 cc 14|3 nmod:for 15|13 conj:and 15|17 mark 16|3 advcl:to 17|19 det 18|17 dobj 19|23 case 20|23 det 21|23 compound 22|19 nmod:in 23|29 case 24|29 amod 25|29 amod 26|29 compound 27|29 compound 28|17 nmod:by 29|3 punct 30|
+<word> Mr Philpott is reported to have demanded the bigger property because his council house was too cramped to accommodate the family . 
+<lemma> Mr Philpott be report to have demand the bigger property because he council house be too cramped to accommodate the family . 
+<POS> NNP NNP VBZ VBN TO VB VBN DT JJR NN IN PRP$ NN NN VBD RB JJ TO VB DT NN . 
+<NER> O PERSON O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Philpott)) (VP (VBZ is) (VP (VBN reported) (S (VP (TO to) (VP (VB have) (VP (VBN demanded) (NP (DT the) (JJR bigger) (NN property)) (SBAR (IN because) (S (NP (PRP$ his) (NN council) (NN house)) (VP (VBD was) (ADJP (RB too) (JJ cramped) (S (VP (TO to) (VP (VB accommodate) (NP (DT the) (NN family))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubjpass 2|7 nsubj:xsubj 2|4 auxpass 3|7 mark 5|7 aux 6|4 xcomp 7|10 det 8|10 amod 9|7 dobj 10|17 mark 11|14 nmod:poss 12|14 compound 13|17 nsubj 14|19 nsubj:xsubj 14|17 cop 15|17 advmod 16|7 advcl:because 17|19 mark 18|17 xcomp 19|21 det 20|19 dobj 21|4 punct 22|
+<word> He wanted the city council to rehouse them , but the authority said they already had the biggest 
+<lemma> he want the city council to rehouse they , but the authority say they already have the biggest 
+<POS> PRP VBD DT NN NN TO VB PRP , CC DT NN VBD PRP RB VBD DT JJS 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (FRAG (S (S (NP (PRP He)) (VP (VBD wanted) (NP (DT the) (NN city) (NN council)) (S (VP (TO to) (VP (VB rehouse) (NP (PRP them))))))) (, ,) (CC but) (S (NP (DT the) (NN authority)) (VP (VBD said) (SBAR (S (NP (PRP they)) (ADVP (RB already)) (VP (VBD had) (NP (DT the) (JJS biggest)))))))))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 det 3|5 compound 4|2 dobj 5|7 mark 6|2 advcl:to 7|7 dobj 8|2 punct 9|2 cc 10|12 det 11|13 nsubj 12|2 conj:but 13|16 nsubj 14|16 advmod 15|13 ccomp 16|18 det 17|16 dobj 18|
+<coreference> [['1,1,4,3', '1,9,10,9', '1,12,13,12'], ['1,15,27,17', '3,21,23,22', '6,7,9,8'], ['2,1,4,3', '2,15,16,15'], ['3,18,19,18', '5,10,11,10'], ['3,1,3,2', '3,6,7,6', '4,1,4,2', '4,17,18,17'], ['3,34,35,34', '9,22,23,22'], ['4,6,8,7', '4,1,5,4'], ['4,19,20,19', '6,1,2,1', '6,3,4,3', '7,23,24,23', '8,35,36,35'], ['7,1,6,5', '8,2,3,2', '8,15,16,15'], ['10,10,12,11', '7,33,37,36', '7,39,40,39', '7,44,45,44', '12,1,3,2', '12,12,13,12', '13,1,2,1'], ['8,6,14,8', '8,29,30,29'], ['8,27,28,27', '9,2,3,2'], ['10,1,2,1', '10,4,9,5', '10,23,24,23', '11,1,2,1', '11,11,12,11'], ['10,7,9,8', '13,8,9,8', '13,14,15,14']]
+</DOC>

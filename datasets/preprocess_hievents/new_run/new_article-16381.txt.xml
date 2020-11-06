@@ -1,0 +1,88 @@
+<DOC> article-16381.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 |
+<word> JPMorgan had informed the UK 's Financial Services Authority -LRB- FSA -RRB- of the situation , but this was a regulatory requirement and there was no indication at this stage that the regulator would take any action , a source familiar with the situation said . 
+<lemma> jpmorgan have inform the UK 's Financial Services Authority -lrb- FSA -rrb- of the situation , but this be a regulatory requirement and there be no indication at this stage that the regulator would take any action , a source familiar with the situation say . 
+<POS> NN VBD VBN DT NNP POS NNP NNPS NNP -LRB- NNP -RRB- IN DT NN , CC DT VBD DT JJ NN CC EX VBD DT NN IN DT NN IN DT NN MD VB DT NN , DT NN JJ IN DT NN VBD . 
+<NER> ORGANIZATION O O O LOCATION O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (NN JPMorgan)) (VP (VBD had) (VP (VBN informed) (NP (NP (NP (DT the) (NNP UK) (POS 's)) (NNP Financial) (NNPS Services) (NNP Authority)) (PRN (-LRB- -LRB-) (NP (NNP FSA)) (-RRB- -RRB-)) (PP (IN of) (NP (DT the) (NN situation))))))) (, ,) (CC but) (S (NP (DT this)) (VP (VBD was) (NP (DT a) (JJ regulatory) (NN requirement)))) (CC and) (S (NP (EX there)) (VP (VBD was) (NP (NP (DT no) (NN indication)) (PP (IN at) (NP (DT this) (NN stage)))) (SBAR (IN that) (S (NP (DT the) (NN regulator)) (VP (MD would) (VP (VB take) (NP (DT any) (NN action))))))))) (, ,) (NP (NP (DT a) (NN source)) (ADJP (JJ familiar) (PP (IN with) (NP (DT the) (NN situation))))) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 45|3 nsubj 1|3 aux 2|45 ccomp 3|5 det 4|9 nmod:poss 5|5 case 6|9 compound 7|9 compound 8|3 dobj 9|11 punct 10|9 appos 11|11 punct 12|15 case 13|15 det 14|9 nmod:of 15|3 punct 16|3 cc 17|22 nsubj 18|22 cop 19|22 det 20|22 amod 21|3 conj:but 22|45 ccomp 22|3 cc 23|25 expl 24|3 conj:and 25|45 ccomp 25|27 neg 26|25 nsubj 27|30 case 28|30 det 29|27 nmod:at 30|35 mark 31|33 det 32|35 nsubj 33|35 aux 34|25 ccomp 35|37 det 36|35 dobj 37|45 punct 38|40 det 39|45 nsubj 40|40 amod 41|44 case 42|44 det 43|41 nmod:with 44|45 punct 46|
+<word> In a Securities and Exchange Commission filing , JPMorgan reported that since the end of March , its chief investment office has had significant mark-to-market losses in its synthetic credit portfolio . 
+<lemma> in a Securities and Exchange Commission filing , jpmorgan report that since the end of March , its chief investment office have have significant mark-to-market loss in its synthetic credit portfolio . 
+<POS> IN DT NNP CC NNP NNP NN , NN VBD IN IN DT NN IN NNP , PRP$ JJ NN NN VBZ VBN JJ JJ NNS IN PRP$ JJ NN NN . 
+<NER> O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O ORGANIZATION O O O DATE DATE DATE DATE O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (DT a) (NNP Securities) (CC and) (NNP Exchange) (NNP Commission) (NN filing))) (, ,) (NP (NN JPMorgan)) (VP (VBD reported) (SBAR (IN that) (S (PP (IN since) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (NNP March))))) (, ,) (NP (PRP$ its) (JJ chief) (NN investment) (NN office)) (VP (VBZ has) (VP (VBN had) (NP (NP (JJ significant) (JJ mark-to-market) (NNS losses)) (PP (IN in) (NP (PRP$ its) (JJ synthetic) (NN credit) (NN portfolio))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 case 1|3 det 2|10 nmod:in 3|3 cc 4|7 compound 5|7 compound 6|3 conj:and 7|10 nmod:in 7|10 punct 8|10 nsubj 9|23 mark 11|14 case 12|14 det 13|23 nmod:since 14|16 case 15|14 nmod:of 16|23 punct 17|21 nmod:poss 18|21 amod 19|21 compound 20|23 nsubj 21|23 aux 22|10 ccomp 23|26 amod 24|26 amod 25|23 dobj 26|31 case 27|31 nmod:poss 28|31 amod 29|31 compound 30|26 nmod:in 31|10 punct 32|
+<word> While other gains partially offset the trading loss , the bank estimates the business unit will post a loss of $ 800 million in the current quarter , excluding private equity results and litigation expenses . 
+<lemma> while other gain partially offset the trading loss , the bank estimate the business unit will post a loss of $ 800 million in the current quarter , exclude private equity result and litigation expense . 
+<POS> IN JJ NNS RB VBP DT NN NN , DT NN VBZ DT NN NN MD VB DT NN IN $ CD CD IN DT JJ NN , VBG JJ NN NNS CC NN NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O O MONEY MONEY MONEY O DATE DATE DATE O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (SBAR (IN While) (S (NP (JJ other) (NNS gains)) (ADVP (RB partially)) (VP (VBP offset) (NP (DT the) (NN trading) (NN loss))))) (, ,) (NP (DT the) (NN bank)) (VP (VBZ estimates) (SBAR (S (NP (DT the) (NN business) (NN unit)) (VP (MD will) (VP (VB post) (NP (NP (DT a) (NN loss)) (PP (IN of) (NP (NP (QP ($ $) (CD 800) (CD million))) (PP (IN in) (NP (DT the) (JJ current) (NN quarter))) (, ,) (PP (VBG excluding) (NP (NP (JJ private) (NN equity) (NNS results)) (CC and) (NP (NN litigation) (NNS expenses)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|5 mark 1|3 amod 2|5 nsubj 3|5 advmod 4|12 advcl:while 5|8 det 6|8 compound 7|5 dobj 8|12 punct 9|11 det 10|12 nsubj 11|15 det 13|15 compound 14|17 nsubj 15|17 aux 16|12 ccomp 17|19 det 18|17 dobj 19|21 case 20|19 nmod:of 21|23 compound 22|21 nummod 23|27 case 24|27 det 25|27 amod 26|21 nmod:in 27|21 punct 28|32 case 29|32 amod 30|32 compound 31|21 nmod:excluding 32|32 cc 33|35 compound 34|21 nmod:excluding 35|32 conj:and 35|12 punct 36|
+<word> The bank previously forecast the unit would make a profit of about $ 200 million . 
+<lemma> the bank previously forecast the unit would make a profit of about $ 200 million . 
+<POS> DT NN RB VBD DT NN MD VB DT NN IN IN $ CD CD . 
+<NER> O O DATE O O O O O O O O O MONEY MONEY MONEY O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN bank)) (ADVP (RB previously)) (VP (VBD forecast) (SBAR (S (NP (DT the) (NN unit)) (VP (MD would) (VP (VB make) (NP (NP (DT a) (NN profit)) (PP (IN of) (PP (IN about) (NP (QP ($ $) (CD 200) (CD million))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 det 5|8 nsubj 6|8 aux 7|4 ccomp 8|10 det 9|8 dobj 10|13 case 11|13 case 12|10 nmod:about 13|15 compound 14|13 nummod 15|4 punct 16|
+<word> `` It could cost us as much as $ 1 billion or more , '' in addition to the loss estimated so far , Dimon said . 
+<lemma> `` it could cost we as much as $ 1 billion or more , '' in addition to the loss estimate so far , Dimon say . 
+<POS> `` PRP MD VB PRP RB RB IN $ CD CD CC JJR , '' IN NN TO DT NN VBN RB RB , NNP VBD . 
+<NER> O O O O O O O O MONEY MONEY MONEY O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP It)) (VP (MD could) (VP (VB cost) (NP (PRP us)) (ADVP (RB as) (RB much)) (PP (IN as) (NP (QP ($ $) (CD 1) (CD billion) (CC or) (JJR more)))) (, ,) ('' '') (PP (IN in) (NP (NN addition))) (PP (TO to) (NP (NP (DT the) (NN loss)) (VP (VBN estimated) (ADVP (RB so) (RB far)))))))) (, ,) (NP (NNP Dimon)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 26|26 punct 1|4 nsubj 2|4 aux 3|26 ccomp 4|4 dobj 5|7 advmod 6|4 advmod 7|9 case 8|4 nmod:as 9|11 compound 10|9 nummod 11|9 cc 12|4 nmod:as 13|9 conj:or 13|4 punct 14|4 punct 15|17 case 16|4 nmod:in 17|20 case 18|20 det 19|4 nmod:to 20|20 acl 21|23 advmod 22|21 advmod 23|26 punct 24|26 nsubj 25|26 punct 27|
+<word> The dollar loss , though , could be less significant than the hit to Dimon and the reputation of a bank which was strong enough to take over investment bank Bear Stearns and consumer bank Washington Mutual when they collapsed in 2008 . 
+<lemma> the dollar loss , though , could be less significant than the hit to Dimon and the reputation of a bank which be strong enough to take over investment bank Bear Stearns and consumer bank Washington Mutual when they collapse in 2008 . 
+<POS> DT NN NN , RB , MD VB RBR JJ IN DT NN TO NNP CC DT NN IN DT NN WDT VBD JJ RB TO VB RP NN NN NNP NNP CC NN NN NNP NNP WRB PRP VBD IN CD . 
+<NER> O O O O O O O O O O O O O O PERSON O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION O O O ORGANIZATION ORGANIZATION O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN dollar) (NN loss)) (, ,) (ADVP (RB though)) (, ,) (VP (MD could) (VP (VB be) (ADJP (RBR less) (JJ significant) (PP (IN than) (NP (NP (NP (DT the) (NN hit)) (PP (TO to) (NP (NNP Dimon)))) (CC and) (NP (NP (DT the) (NN reputation)) (PP (IN of) (NP (NP (DT a) (NN bank)) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (ADJP (JJ strong) (RB enough) (S (VP (TO to) (VP (VB take) (PRT (RP over)) (NP (NP (NN investment) (NN bank) (NNP Bear) (NNP Stearns) (CC and) (NN consumer) (NN bank) (NNP Washington) (NNP Mutual)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBD collapsed) (PP (IN in) (NP (CD 2008)))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|3 det 1|3 compound 2|10 nsubj 3|10 punct 4|10 advmod 5|10 punct 6|10 aux 7|10 cop 8|10 advmod 9|13 case 11|13 det 12|10 nmod:than 13|15 case 14|13 nmod:to 15|13 cc 16|18 det 17|10 nmod:than 18|13 conj:and 18|21 case 19|21 det 20|18 nmod:of 21|24 nsubj 21|27 nsubj:xsubj 21|21 ref 22|24 cop 23|21 acl:relcl 24|24 advmod 25|27 mark 26|24 xcomp 27|27 compound:prt 28|32 compound 29|32 compound 30|32 compound 31|27 dobj 32|32 cc 33|37 compound 34|37 compound 35|37 compound 36|27 dobj 37|32 conj:and 37|40 advmod 38|40 nsubj 39|32 acl:relcl 40|42 case 41|40 nmod:in 42|10 punct 43|
+<word> JPMorgan had $ 2.32 trillion of assets supported by $ 190 billion of shareholder equity at the end of March -- an equity ratio of almost 13 % . 
+<lemma> jpmorgan have $ 2.32 trillion of asset support by $ 190 billion of shareholder equity at the end of March -- a equity ratio of almost 13 % . 
+<POS> NN VBD $ CD CD IN NNS VBN IN $ CD CD IN NN NN IN DT NN IN NNP : DT NN NN IN RB CD NN . 
+<NER> ORGANIZATION O MONEY MONEY MONEY O O O O MONEY MONEY MONEY O O O O DATE DATE DATE DATE O O O O O O PERCENT PERCENT O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN JPMorgan)) (VP (VBD had) (NP (NP (NP (QP ($ $) (CD 2.32) (CD trillion))) (PP (IN of) (NP (NP (NNS assets)) (VP (VBN supported) (PP (IN by) (NP (NP (QP ($ $) (CD 190) (CD billion))) (PP (IN of) (NP (NN shareholder) (NN equity))))) (PP (IN at) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (NNP March))))))))) (: --) (NP (NP (DT an) (NN equity) (NN ratio)) (PP (IN of) (NP (QP (RB almost) (CD 13)) (NN %)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|5 compound 4|3 nummod 5|7 case 6|3 nmod:of 7|7 acl 8|10 case 9|8 nmod:by 10|12 compound 11|10 nummod 12|15 case 13|15 compound 14|10 nmod:of 15|18 case 16|18 det 17|8 nmod:at 18|20 case 19|18 nmod:of 20|3 punct 21|24 det 22|24 compound 23|3 dep 24|28 case 25|27 advmod 26|28 nummod 27|24 nmod:of 28|2 punct 29|
+<word> That is four times the industry mean and ahead of 10-11 % at Citigroup and Bank of America Corp. . 
+<lemma> that be four time the industry mean and ahead of 10-11 % at Citigroup and Bank of America Corp. . 
+<POS> DT VBZ CD NNS DT NN NN CC RB IN CD NN IN NNP CC NNP IN NNP NNP . 
+<NER> O O NUMBER O O O O O O O PERCENT PERCENT O ORGANIZATION O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT That)) (VP (VBZ is) (NP (NP (QP (CD four) (NNS times)) (DT the) (NN industry) (NN mean)) (CC and) (RB ahead)) (PP (IN of) (NP (NP (CD 10-11) (NN %)) (PP (IN at) (NP (NNP Citigroup) (CC and) (NNP Bank))) (PP (IN of) (NP (NNP America) (NNP Corp.)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 nsubj 1|7 cop 2|4 compound 3|7 nummod 4|7 det 5|7 compound 6|7 cc 8|7 advmod 9|12 case 10|12 nummod 11|7 nmod:of 12|14 case 13|12 nmod:at 14|14 cc 15|12 nmod:at 16|14 conj:and 16|19 case 17|19 compound 18|12 nmod:of 19|7 punct 20|
+<word> JPMorgan has been earning more than $ 4 billion each quarter , on average , for the past two years . 
+<lemma> jpmorgan have be earn more than $ 4 billion each quarter , on average , for the past two year . 
+<POS> NN VBZ VBN VBG JJR IN $ CD CD DT NN , IN NN , IN DT JJ CD NNS . 
+<NER> ORGANIZATION O O O O O MONEY MONEY MONEY SET SET O O O O O DURATION DURATION DURATION DURATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN JPMorgan)) (VP (VBZ has) (VP (VBN been) (VP (VBG earning) (NP (NP (QP (JJR more) (IN than) ($ $) (CD 4) (CD billion)) (DT each) (NN quarter)) (PRN (, ,) (PP (IN on) (NP (NN average))) (, ,))) (PP (IN for) (NP (DT the) (JJ past) (CD two) (NNS years)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 aux 3|7 advmod 5|5 mwe 6|11 nummod 7|9 compound 8|7 nummod 9|11 det 10|4 dobj 11|14 punct 12|14 case 13|11 nmod:on 14|14 punct 15|20 case 16|20 det 17|20 amod 18|20 nummod 19|4 nmod:for 20|4 punct 21|
+<word> `` Jamie has always styled himself as one of the kings of Wall Street , '' said Nancy Bush , a longtime bank analyst and contributing editor at SNL Financial . 
+<lemma> `` Jamie have always style himself as one of the king of Wall Street , '' say Nancy Bush , a longtime bank analyst and contribute editor at SNL Financial . 
+<POS> `` NNP VBZ RB VBN PRP IN CD IN DT NNS IN NNP NNP , '' VBD NNP NNP , DT JJ NN NN CC VBG NN IN NNP NNP . 
+<NER> O PERSON O O O O O NUMBER O O O O O O O O O PERSON PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (`` ``) (S (NP (NNP Jamie)) (VP (VBZ has) (ADVP (RB always)) (VP (VBN styled) (NP (PRP himself)) (PP (IN as) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (NNS kings)) (PP (IN of) (NP (NNP Wall) (NNP Street)))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Nancy) (NNP Bush)) (, ,) (NP (NP (DT a) (JJ longtime) (NN bank) (NN analyst) (CC and) (VBG contributing) (NN editor)) (PP (IN at) (NP (NNP SNL) (NNP Financial))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|17 punct 1|5 nsubj 2|5 aux 3|5 advmod 4|17 ccomp 5|5 dobj 6|8 case 7|11 det:qmod 8|8 mwe 9|11 det 10|5 nmod 11|14 case 12|14 compound 13|11 nmod:of 14|17 punct 15|17 punct 16|19 compound 18|17 nsubj 19|19 punct 20|24 det 21|24 amod 22|24 compound 23|19 appos 24|24 cc 25|27 amod 26|19 appos 27|24 conj:and 27|30 case 28|30 compound 29|24 nmod:at 30|17 punct 31|
+<word> `` I do n't know how this went so bad so quickly with his knowledge and aversion to risk . '' 
+<lemma> `` I do not know how this go so bad so quickly with he knowledge and aversion to risk . '' 
+<POS> `` PRP VBP RB VB WRB DT VBD RB JJ RB RB IN PRP$ NN CC NN TO VB . '' 
+<NER> O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (DT this)) (VP (VBD went) (ADJP (RB so) (JJ bad)) (ADVP (ADVP (RB so) (RB quickly)) (PP (IN with) (NP (PRP$ his) (NN knowledge) (CC and) (NN aversion)))) (S (VP (TO to) (VP (VB risk))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 nsubj 2|5 aux 3|5 neg 4|8 advmod 6|8 nsubj 7|19 nsubj:xsubj 7|5 ccomp 8|10 advmod 9|8 xcomp 10|12 advmod 11|8 advmod 12|15 case 13|15 nmod:poss 14|12 nmod:with 15|15 cc 16|12 nmod:with 17|15 conj:and 17|19 mark 18|8 xcomp 19|5 punct 20|5 punct 21|
+<word> Ekta Kapoor files case against Dirty Picture remake 
+<lemma> Ekta Kapoor file case against Dirty Picture remake 
+<POS> NNP NNP VBZ NN IN NNP NNP NN 
+<NER> PERSON PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Ekta) (NNP Kapoor)) (VP (VBZ files) (NP (NP (NN case)) (PP (IN against) (NP (NNP Dirty) (NNP Picture) (NN remake))))))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|3 dobj 4|8 case 5|8 compound 6|8 compound 7|4 nmod:against 8|
+<coreference> [['1,14,16,15', '1,43,45,44'], ['1,20,23,22', '1,18,19,18'], ['2,13,17,14', '2,18,19,18', '2,28,29,28', '7,17,21,18'], ['2,16,17,16', '7,20,21,20'], ['3,10,12,11', '4,1,3,2', '5,2,3,2'], ['3,13,16,15', '4,5,7,6'], ['5,25,26,25', '6,15,16,15'], ['5,5,6,5', '6,39,40,39'], ['7,7,21,7', '8,1,2,1', '8,3,10,7'], ['10,2,3,2', '10,6,7,6', '11,14,15,14'], ['10,18,31,19', '10,21,31,27', '11,2,3,2']]
+</DOC>

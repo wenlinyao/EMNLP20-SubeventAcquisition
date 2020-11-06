@@ -1,0 +1,67 @@
+<DOC> article-12944.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 |
+<word> The coincident index was up 0.2 percent last month , after an unrevised gain of 0.2 percent in February , suggesting that current conditions continue to improve . 
+<lemma> the coincident index be up 0.2 percent last month , after a unrevised gain of 0.2 percent in February , suggest that current condition continue to improve . 
+<POS> DT JJ NN VBD RB CD NN JJ NN , IN DT JJ NN IN CD NN IN NNP , VBG IN JJ NNS VBP TO VB . 
+<NER> O O O O O PERCENT PERCENT DATE DATE O O O O O O PERCENT PERCENT O DATE O O O DATE O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ coincident) (NN index)) (VP (VBD was) (ADVP (RB up) (NP (CD 0.2) (NN percent))) (NP-TMP (JJ last) (NN month)) (, ,) (PP (IN after) (NP (NP (DT an) (JJ unrevised) (NN gain)) (PP (IN of) (NP (NP (CD 0.2) (NN percent)) (PP (IN in) (NP (NNP February))))))) (, ,) (S (VP (VBG suggesting) (SBAR (IN that) (S (NP (JJ current) (NNS conditions)) (VP (VBP continue) (S (VP (TO to) (VP (VB improve)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|3 det 1|3 amod 2|14 nsubj 3|14 cop 4|14 advmod 5|7 nummod 6|5 nmod:npmod 7|9 amod 8|14 nmod:tmod 9|14 punct 10|14 case 11|14 det 12|14 amod 13|17 case 15|17 nummod 16|14 nmod:of 17|19 case 18|17 nmod:in 19|14 punct 20|14 advcl 21|25 mark 22|24 amod 23|25 nsubj 24|27 nsubj:xsubj 24|21 ccomp 25|27 mark 26|25 xcomp 27|14 punct 28|
+<word> The lagging index increased 0.3 percent , after a revised 0.1 percent advance first reported as 0.2 percent . 
+<lemma> the lagging index increase 0.3 percent , after a revise 0.1 percent advance first report as 0.2 percent . 
+<POS> DT JJ NN VBD CD NN , IN DT VBN CD NN NN RB VBD IN CD NN . 
+<NER> O O O O PERCENT PERCENT O O O O PERCENT PERCENT O ORDINAL O O PERCENT PERCENT O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (ADJP (JJ lagging)) (NN index)) (VP (VBD increased) (NP (CD 0.3) (NN percent)) (, ,) (PP (IN after) (NP (NP (DT a) (VBN revised) (CD 0.1)) (SBAR (S (NP (NN percent) (NN advance)) (ADVP (RB first)) (VP (VBD reported) (PP (IN as) (NP (CD 0.2) (NN percent))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|6 nummod 5|4 dobj 6|4 punct 7|11 case 8|11 det 9|11 amod 10|4 nmod:after 11|13 compound 12|15 nsubj 13|15 advmod 14|11 acl:relcl 15|18 case 16|18 nummod 17|15 nmod:as 18|4 punct 19|
+<word> Earlier Thursday , the U.S. Labor Department reported more Americans than expected filed for unemployment benefit in the week ended April 14 , which also happens to coincide with the April payroll employment survey week , echoing the International Monetary Fund 's view that job creation this year and next will be modest at best . 
+<lemma> earlier Thursday , the U.S. Labor Department report more Americans than expect file for unemployment benefit in the week end April 14 , which also happen to coincide with the April payroll employment survey week , echo the International Monetary Fund 's view that job creation this year and next will be modest at best . 
+<POS> JJR NNP , DT NNP NNP NNP VBD RBR NNPS IN VBN VBN IN NN NN IN DT NN VBN NNP CD , WDT RB VBZ TO VB IN DT NNP NN NN NN NN , VBG DT NNP NNP NNP POS NN IN NN NN DT NN CC JJ MD VB JJ IN JJS . 
+<NER> DATE DATE O O ORGANIZATION ORGANIZATION ORGANIZATION O O MISC O O O O O O O DATE DATE O DATE DATE O O O O O O O O DATE O O O DURATION O O O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O DATE DATE O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (JJR Earlier)) (NP-TMP (NNP Thursday)))) (, ,) (NP (DT the) (NNP U.S.) (NNP Labor) (NNP Department)) (VP (VBD reported) (ADVP (RBR more)) (NP (NNPS Americans)) (PP (IN than) (NP (NP (VBN expected)) (VP (VBN filed) (PP (IN for) (NP (NN unemployment) (NN benefit)))))) (PP (IN in) (NP (NP (DT the) (NN week)) (VP (VBN ended) (NP-TMP (NNP April) (CD 14))) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB also)) (VP (VBZ happens) (S (VP (TO to) (VP (VB coincide) (PP (IN with) (NP (DT the) (NNP April) (NN payroll) (NN employment) (NN survey))) (NP-TMP (NN week)) (, ,) (S (VP (VBG echoing) (NP (NP (DT the) (NNP International) (NNP Monetary) (NNP Fund) (POS 's)) (NN view)) (SBAR (IN that) (S (NP (NP (NP (NN job) (NN creation)) (NP (DT this) (NN year))) (CC and) (NP (JJ next))) (VP (MD will) (VP (VB be) (ADJP (JJ modest) (PP (IN at) (ADJP (JJS best))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 ccomp 1|1 nmod:tmod 2|8 punct 3|7 det 4|7 compound 5|7 compound 6|8 nsubj 7|8 advmod 9|8 dobj 10|12 case 11|8 nmod:than 12|12 acl 13|16 case 14|16 compound 15|13 nmod:for 16|19 case 17|19 det 18|8 nmod:in 19|26 nsubj 19|28 nsubj:xsubj 19|19 acl 20|20 nmod:tmod 21|21 nummod 22|19 punct 23|19 ref 24|26 advmod 25|19 acl:relcl 26|28 mark 27|26 xcomp 28|34 case 29|34 det 30|34 compound 31|34 compound 32|34 compound 33|28 nmod:with 34|28 nmod:tmod 35|28 punct 36|28 advcl 37|41 det 38|41 compound 39|41 compound 40|43 nmod:poss 41|41 case 42|37 dobj 43|53 mark 44|46 compound 45|53 nsubj 46|48 det 47|46 dep 48|46 cc 49|46 conj:and 50|53 nsubj 50|53 aux 51|53 cop 52|37 ccomp 53|55 case 54|53 advcl:at 55|8 punct 56|
+<word> Applications for unemployment insurance payments decreased by 2,000 from the previous week 's upwardly revised figure of 388,000 , to 386,000 , according to data from the Labor Department issued Thursday in Washington . 
+<lemma> application for unemployment insurance payment decrease by 2,000 from the previous week 's upwardly revise figure of 388,000 , to 386,000 , accord to datum from the Labor Department issue Thursday in Washington . 
+<POS> NNS IN NN NN NNS VBN IN CD IN DT JJ NN POS RB VBN NN IN CD , TO CD , VBG TO NNS IN DT NNP NNP VBD NNP IN NNP . 
+<NER> O O O O O O O NUMBER O DATE DATE DATE O O O O O NUMBER O O NUMBER O O O O O O ORGANIZATION ORGANIZATION O DATE O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Applications)) (PP (IN for) (NP (NP (NN unemployment) (NN insurance) (NNS payments)) (VP (VBN decreased) (PP (IN by) (NP (CD 2,000))) (PP (IN from) (NP (NP (NP (DT the) (JJ previous) (NN week) (POS 's)) (ADJP (RB upwardly) (VBN revised)) (NN figure)) (PP (IN of) (NP (CD 388,000))) (, ,) (PP (TO to) (NP (CD 386,000))))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NNS data)) (PP (IN from) (NP (DT the) (NNP Labor) (NNP Department)))))))))) (VP (VBD issued) (NP-TMP (NNP Thursday)) (PP (IN in) (NP (NNP Washington)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 30|30 nsubj 1|5 case 2|5 compound 3|5 compound 4|1 nmod:for 5|5 acl 6|8 case 7|6 nmod:by 8|16 case 9|12 det 10|12 amod 11|16 nmod:poss 12|12 case 13|15 advmod 14|16 amod 15|6 nmod:from 16|18 case 17|16 nmod:of 18|16 punct 19|21 case 20|16 nmod:to 21|6 punct 22|25 case 23|23 mwe 24|6 nmod:according_to 25|29 case 26|29 det 27|29 compound 28|25 nmod:from 29|30 nmod:tmod 31|33 case 32|30 nmod:in 33|30 punct 34|
+<word> However , the level of claims was above market expectations for a 370,000 reading . 
+<lemma> however , the level of claim be above market expectation for a 370,000 reading . 
+<POS> RB , DT NN IN NNS VBD IN NN NNS IN DT CD NN . 
+<NER> O O O O O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB However)) (, ,) (NP (NP (DT the) (NN level)) (PP (IN of) (NP (NNS claims)))) (VP (VBD was) (PP (IN above) (NP (NP (NN market) (NNS expectations)) (PP (IN for) (NP (DT a) (CD 370,000) (NN reading)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 advmod 1|10 punct 2|4 det 3|10 nsubj 4|6 case 5|4 nmod:of 6|10 cop 7|10 case 8|10 compound 9|14 case 11|14 det 12|14 nummod 13|10 nmod:for 14|10 punct 15|
+<word> The four-week moving average , which normally provides a better indication of the underlying trend in labor markets , was 374,750 , an increase of 5,500 from the previous week 's upwardly revised average of 369,250 for first-time benefit applicants . 
+<lemma> the four-week move average , which normally provide a better indication of the underlying trend in labor market , be 374,750 , a increase of 5,500 from the previous week 's upwardly revise average of 369,250 for first-time benefit applicant . 
+<POS> DT JJ VBG NN , WDT RB VBZ DT JJR NN IN DT JJ NN IN NN NNS , VBD CD , DT NN IN CD IN DT JJ NN POS RB VBN NN IN CD IN JJ NN NNS . 
+<NER> O DURATION O O O O O O O O O O O O O O O O O O NUMBER O O O O NUMBER O DATE DATE DATE O O O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ four-week) (VBG moving) (NN average)) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB normally)) (VP (VBZ provides) (NP (NP (DT a) (JJR better) (NN indication)) (PP (IN of) (NP (NP (DT the) (JJ underlying) (NN trend)) (PP (IN in) (NP (NN labor) (NNS markets))))))))) (, ,)) (VP (VBD was) (NP (NP (CD 374,750)) (, ,) (NP (NP (DT an) (NN increase)) (PP (IN of) (NP (CD 5,500))))) (PP (IN from) (NP (NP (NP (DT the) (JJ previous) (NN week) (POS 's)) (ADJP (RB upwardly) (VBN revised)) (NN average)) (PP (IN of) (NP (NP (CD 369,250)) (PP (IN for) (NP (JJ first-time) (NN benefit) (NNS applicants)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 21|4 det 1|4 amod 2|4 amod 3|8 nsubj 4|21 nsubj 4|4 punct 5|4 ref 6|8 advmod 7|4 acl:relcl 8|11 det 9|11 amod 10|8 dobj 11|15 case 12|15 det 13|15 amod 14|11 nmod:of 15|18 case 16|18 compound 17|15 nmod:in 18|4 punct 19|21 cop 20|21 punct 22|24 det 23|21 appos 24|26 case 25|24 nmod:of 26|34 case 27|30 det 28|30 amod 29|34 nmod:poss 30|30 case 31|33 advmod 32|34 amod 33|21 nmod:from 34|36 case 35|34 nmod:of 36|40 case 37|40 amod 38|40 compound 39|36 nmod:for 40|21 punct 41|
+<word> The number of people filing for benefits after an initial week of aid increased by 26,000 , to 3.30 million in the week ended April 7 . 
+<lemma> the number of people file for benefit after a initial week of aid increase by 26,000 , to 3.30 million in the week end April 7 . 
+<POS> DT NN IN NNS VBG IN NNS IN DT JJ NN IN NN VBN IN CD , TO CD CD IN DT NN VBN NNP CD . 
+<NER> O O O O O O O O O O DURATION O O O O NUMBER O O MONEY MONEY O DATE DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (NP (NP (DT The) (NN number)) (PP (IN of) (NP (NP (NNS people)) (VP (VBG filing) (PP (IN for) (NP (NNS benefits)))))) (PP (IN after) (NP (DT an) (JJ initial) (NN week))) (PP (IN of) (NP (NP (NN aid)) (VP (VBN increased) (PP (IN by) (NP (CD 26,000))) (, ,) (PP (TO to) (NP (QP (CD 3.30) (CD million))))))) (PP (IN in) (NP (DT the) (NN week))) (VP (VBN ended) (NP-TMP (NNP April) (CD 7))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 det 1|4 case 3|2 nmod:of 4|4 acl 5|7 case 6|5 nmod:for 7|11 case 8|11 det 9|11 amod 10|2 nmod:after 11|13 case 12|2 nmod:of 13|13 acl 14|16 case 15|14 nmod:by 16|14 punct 17|20 case 18|20 compound 19|14 nmod:to 20|23 case 21|23 det 22|2 nmod:in 23|2 acl 24|24 nmod:tmod 25|25 nummod 26|2 punct 27|
+<word> The continuing claims figure does n't include the number of Americans receiving extended benefits under federal programs . 
+<lemma> the continue claim figure do not include the number of Americans receive extend benefit under federal program . 
+<POS> DT VBG NNS NN VBZ RB VB DT NN IN NNPS VBG VBN NNS IN JJ NNS . 
+<NER> O O O O O O O O O O MISC O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (VBG continuing) (NNS claims)) (VP (NN figure) (VP (VBZ does) (RB n't) (VP (VB include) (NP (NP (DT the) (NN number)) (PP (IN of) (NP (NNPS Americans)))) (S (VP (VBG receiving) (NP (VBN extended) (NNS benefits)) (PP (IN under) (NP (JJ federal) (NNS programs)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 det 1|3 amod 2|7 nsubj 3|7 dep 4|7 aux 5|7 neg 6|9 det 8|7 dobj 9|11 case 10|9 nmod:of 11|7 xcomp 12|14 amod 13|12 dobj 14|17 case 15|17 amod 16|12 nmod:under 17|7 punct 18|
+<word> The four-week moving average for the week ended April 7 fell 21,500 to 3.32 million from the preceding week 's revised average of 3.34 million . 
+<lemma> the four-week move average for the week end April 7 fall 21,500 to 3.32 million from the precede week 's revise average of 3.34 million . 
+<POS> DT JJ VBG NN IN DT NN VBN NNP CD VBD CD TO CD CD IN DT VBG NN POS VBN NN IN CD CD . 
+<NER> O DURATION O O O DATE DATE O DATE DATE O NUMBER O NUMBER NUMBER O O O DURATION O O O O NUMBER NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ four-week) (VBG moving) (NN average)) (PP (IN for) (NP (NP (DT the) (NN week)) (VP (VBN ended) (NP-TMP (NNP April) (CD 7)))))) (VP (VBD fell) (NP (CD 21,500)) (PP (TO to) (NP (QP (CD 3.32) (CD million)))) (PP (IN from) (S (NP (DT the)) (VP (VBG preceding) (NP (NP (NP (NN week) (POS 's)) (VBN revised) (NN average)) (PP (IN of) (NP (CD 3.34) (CD million)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|4 det 1|4 amod 2|4 amod 3|11 nsubj 4|7 case 5|7 det 6|4 nmod:for 7|7 acl 8|8 nmod:tmod 9|9 nummod 10|11 dobj 12|15 case 13|15 compound 14|11 nmod:to 15|18 mark 16|18 nsubj 17|11 advcl:from 18|22 nmod:poss 19|19 case 20|22 amod 21|18 dobj 22|25 case 23|25 nummod 24|22 nmod:of 25|11 punct 26|
+<coreference> [['3,2,3,2', '4,31,32,31'], ['3,4,8,7', '4,27,30,29'], ['3,35,36,35', '9,19,21,19'], ['4,10,14,12', '6,28,32,30'], ['6,21,22,21', '6,1,5,4', '6,21,27,21', '6,23,27,24'], ['7,9,12,11', '7,22,24,23'], ['7,25,27,25', '9,9,11,9']]
+</DOC>

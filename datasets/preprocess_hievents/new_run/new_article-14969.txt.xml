@@ -1,0 +1,53 @@
+<DOC> article-14969.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 |
+<word> The Olympic torch has begun its journey to London after surviving a scare when the sacred flame was extinguished shortly before it was used to light the ` cheese grater ' , The Telegraph reports . 
+<lemma> the Olympic torch have begin its journey to London after survive a scare when the sacred flame be extinguish shortly before it be use to light the ` cheese grater ' , the Telegraph report . 
+<POS> DT NNP NN VBZ VBN PRP$ NN TO NNP IN VBG DT NN WRB DT JJ NN VBD VBN RB IN PRP VBD VBN TO VB DT `` NN NN '' , DT NNP NNS . 
+<NER> O MISC O O O O O O LOCATION O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Olympic) (NN torch)) (VP (VBZ has) (VP (VBN begun) (NP (PRP$ its) (NN journey)) (PP (TO to) (NP (NNP London))) (PP (IN after) (S (VP (VBG surviving) (NP (NP (DT a) (NN scare)) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (JJ sacred) (NN flame)) (VP (VBD was) (VP (VBN extinguished) (ADVP (RB shortly)) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD was) (VP (VBN used) (S (VP (TO to) (VP (VB light) (NP (NP (DT the) (`` `) (NN cheese) (NN grater) ('' ')) (, ,) (NP (DT The) (NNP Telegraph) (NNS reports)))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 compound 2|5 nsubj 3|5 aux 4|7 nmod:poss 6|5 dobj 7|9 case 8|5 nmod:to 9|11 mark 10|5 advcl:after 11|13 det 12|11 dobj 13|19 advmod 14|17 det 15|17 amod 16|19 nsubjpass 17|19 auxpass 18|13 acl:relcl 19|19 advmod 20|24 mark 21|24 nsubjpass 22|26 nsubj:xsubj 22|24 auxpass 23|19 advcl:before 24|26 mark 25|24 xcomp 26|30 det 27|30 punct 28|30 compound 29|26 dobj 30|30 punct 31|30 punct 32|35 det 33|35 compound 34|30 appos 35|5 punct 36|
+<word> A gust of wind put the flame out as it was being carried out in a bowl from the temple of Hera , where it had been lit from the rays of the sun , into the ancient stadium in Olympia . 
+<lemma> a gust of wind put the flame out as it be be carry out in a bowl from the temple of Hera , where it have be light from the ray of the sun , into the ancient stadium in Olympia . 
+<POS> DT NN IN NN VBD DT NN RP IN PRP VBD VBG VBN RP IN DT NN IN DT NN IN NNP , WRB PRP VBD VBN VBN IN DT NNS IN DT NN , IN DT JJ NN IN NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN gust)) (PP (IN of) (NP (NN wind)))) (VP (VBD put) (NP (DT the) (NN flame)) (ADVP (RP out)) (SBAR (IN as) (S (NP (PRP it)) (VP (VBD was) (VP (VBG being) (VP (VBN carried) (PRT (RP out)) (PP (IN in) (NP (DT a) (NN bowl))) (PP (IN from) (NP (NP (DT the) (NN temple)) (PP (IN of) (NP (NNP Hera)))))))))) (, ,) (SBAR (WHADVP (WRB where)) (S (NP (PRP it)) (VP (VBD had) (VP (VBN been) (VP (VBN lit) (PP (IN from) (NP (NP (DT the) (NNS rays)) (PP (IN of) (NP (DT the) (NN sun))))) (, ,) (PP (IN into) (NP (NP (DT the) (JJ ancient) (NN stadium)) (PP (IN in) (NP (NNP Olympia))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|4 case 3|2 nmod:of 4|7 det 6|5 dobj 7|5 advmod 8|13 mark 9|13 nsubjpass 10|13 aux 11|13 auxpass 12|5 advcl:as 13|13 compound:prt 14|17 case 15|17 det 16|13 nmod:in 17|20 case 18|20 det 19|13 nmod:from 20|22 case 21|20 nmod:of 22|5 punct 23|28 advmod 24|28 nsubjpass 25|28 aux 26|28 auxpass 27|5 advcl 28|31 case 29|31 det 30|28 nmod:from 31|34 case 32|34 det 33|31 nmod:of 34|28 punct 35|39 case 36|39 det 37|39 amod 38|28 nmod:into 39|41 case 40|39 nmod:in 41|5 punct 42|
+<word> The Priestess carrying the flame had to leave the arena and re-light the bowl from a lamp that had been lit earlier as insurance against the flame going out . 
+<lemma> the Priestess carry the flame have to leave the arena and re-light the bowl from a lamp that have be light earlier as insurance against the flame go out . 
+<POS> DT NNP VBG DT NN VBD TO VB DT NN CC VB DT NN IN DT NN WDT VBD VBN VBN RBR IN NN IN DT NN VBG RP . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNP Priestess)) (VP (VBG carrying) (NP (DT the) (NN flame)))) (VP (VBD had) (S (VP (TO to) (VP (VP (VB leave) (NP (DT the) (NN arena))) (CC and) (VP (VB re-light) (NP (DT the) (NN bowl)) (PP (IN from) (NP (NP (DT a) (NN lamp)) (SBAR (WHNP (WDT that)) (S (VP (VBD had) (VP (VBN been) (VP (VBN lit) (ADVP (RBR earlier) (PP (IN as) (NP (NN insurance)))) (PP (IN against) (NP (NP (DT the) (NN flame)) (VP (VBG going) (PRT (RP out))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|8 nsubj:xsubj 2|12 nsubj:xsubj 2|2 acl 3|5 det 4|3 dobj 5|8 mark 7|6 xcomp 8|10 det 9|8 dobj 10|8 cc 11|6 xcomp 12|8 conj:and 12|14 det 13|12 dobj 14|17 case 15|17 det 16|12 nmod:from 17|21 nsubjpass 17|17 ref 18|21 aux 19|21 auxpass 20|17 acl:relcl 21|21 advmod 22|24 case 23|22 nmod:as 24|27 case 25|27 det 26|21 nmod:against 27|27 acl 28|28 compound:prt 29|6 punct 30|
+<word> The London torch was then successfully lit and the first leg of the relay was run through the ancient Olympic stadium by Liverpool-born Greek swimming world champion Spyros Gianniotis . 
+<lemma> the London torch be then successfully light and the first leg of the relay be run through the ancient Olympic stadium by liverpool-born greek swimming world champion Spyros Gianniotis . 
+<POS> DT NNP NN VBD RB RB VBN CC DT JJ NN IN DT NN VBD VBN IN DT JJ NNP NN IN JJ JJ NN NN NN NNP NNP . 
+<NER> O LOCATION O O O O O O O ORDINAL O O O O O O O O O MISC O O O MISC O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNP London) (NN torch)) (VP (VBD was) (ADVP (RB then)) (VP (ADVP (RB successfully)) (VBN lit)))) (CC and) (S (NP (NP (DT the) (JJ first) (NN leg)) (PP (IN of) (NP (DT the) (NN relay)))) (VP (VBD was) (VP (VBN run) (PP (IN through) (NP (DT the) (JJ ancient) (NNP Olympic) (NN stadium))) (PP (IN by) (NP (JJ Liverpool-born) (JJ Greek) (NN swimming) (NN world) (NN champion) (NNP Spyros) (NNP Gianniotis)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 det 1|3 compound 2|7 nsubjpass 3|7 auxpass 4|7 advmod 5|7 advmod 6|7 cc 8|11 det 9|11 amod 10|16 nsubjpass 11|14 case 12|14 det 13|11 nmod:of 14|16 auxpass 15|7 conj:and 16|21 case 17|21 det 18|21 amod 19|21 compound 20|16 nmod:through 21|29 case 22|29 amod 23|29 amod 24|29 compound 25|29 compound 26|29 compound 27|29 compound 28|16 nmod:agent 29|7 punct 30|
+<word> He handed the torch to Alex Loukos from Newham , 19 , who was a member of the victorious London bid team in Singapore in 2005 . 
+<lemma> he hand the torch to Alex Loukos from Newham , 19 , who be a member of the victorious London bid team in Singapore in 2005 . 
+<POS> PRP VBD DT NN TO NNP NNP IN NNP , CD , WP VBD DT NN IN DT JJ NNP NN NN IN NNP IN CD . 
+<NER> O O O O O PERSON PERSON O LOCATION O NUMBER O O O O O O O O LOCATION O O O LOCATION O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD handed) (NP (DT the) (NN torch)) (PP (TO to) (NP (NP (NNP Alex) (NNP Loukos)) (PP (IN from) (NP (NNP Newham))))) (, ,) (NP (NP (CD 19)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (NP (NP (DT a) (NN member)) (PP (IN of) (NP (NP (DT the) (JJ victorious) (NNP London) (NN bid) (NN team)) (PP (IN in) (NP (NP (NNP Singapore)) (PP (IN in) (NP (CD 2005))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|2 dobj 4|7 case 5|7 compound 6|2 nmod:to 7|9 case 8|7 nmod:from 9|2 punct 10|2 dobj 11|16 nsubj 11|11 punct 12|11 ref 13|16 cop 14|16 det 15|11 acl:relcl 16|22 case 17|22 det 18|22 amod 19|22 compound 20|22 compound 21|16 nmod:of 22|24 case 23|22 nmod:in 24|26 case 25|24 nmod:in 26|2 punct 27|
+<word> The torch will travel around Greece for a week before arriving in Cornwall on Friday May 18 . 
+<lemma> the torch will travel around Greece for a week before arrive in Cornwall on Friday May 18 . 
+<POS> DT NN MD VB IN NNP IN DT NN IN VBG IN NNP IN NNP NNP CD . 
+<NER> O O O O O LOCATION O DURATION DURATION O O O LOCATION O DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN torch)) (VP (MD will) (VP (VB travel) (PP (IN around) (NP (NP (NNP Greece)) (PP (IN for) (NP (DT a) (NN week))))) (PP (IN before) (S (VP (VBG arriving) (PP (IN in) (NP (NP (NNP Cornwall)) (PP (IN on) (NP (NNP Friday))))) (NP-TMP (NNP May) (CD 18))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|6 case 5|4 nmod:around 6|9 case 7|9 det 8|6 nmod:for 9|11 mark 10|4 advcl:before 11|13 case 12|11 nmod:in 13|15 case 14|13 nmod:on 15|11 nmod:tmod 16|16 nummod 17|4 punct 18|
+<word> Armenia 's Greco-Roman wrestling team headed by Olympic champion Levon Julfalakyan came back home with one gold and two bronze winners . 
+<lemma> Armenia 's Greco-Roman wrestle team head by Olympic champion Levon Julfalakyan come back home with one gold and two bronze winner . 
+<POS> NNP POS NNP VBG NN VBN IN NNP NN NNP NNP VBD RB NN IN CD NN CC CD NN NNS . 
+<NER> LOCATION O MISC O O O O MISC O PERSON PERSON O O O O NUMBER O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (NNP Armenia) (POS 's)) (NNP Greco-Roman)) (VP (VBG wrestling) (NP (NP (NN team)) (VP (VBN headed) (PP (IN by) (NP (NNP Olympic) (NN champion) (NNP Levon) (NNP Julfalakyan))))))) (VP (VBD came) (ADVP (RB back) (NN home)) (PP (IN with) (NP (NP (CD one) (NN gold)) (CC and) (NP (CD two) (NN bronze) (NNS winners))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|3 nmod:poss 1|1 case 2|12 nsubj 3|3 acl 4|4 dobj 5|5 acl 6|11 case 7|11 compound 8|11 compound 9|11 compound 10|6 nmod:by 11|12 advmod 13|13 dep 14|17 case 15|17 nummod 16|12 nmod:with 17|17 cc 18|21 nummod 19|21 compound 20|12 nmod:with 21|17 conj:and 21|12 punct 22|
+<coreference> [['1,2,3,2', '4,20,21,20', '5,1,2,1', '7,8,9,8'], ['1,9,10,9', '4,2,3,2', '5,20,21,20'], ['1,1,4,3', '1,6,7,6'], ['1,15,18,17', '2,6,8,7', '2,10,11,10', '2,25,26,25', '3,4,6,5'], ['2,16,18,17', '3,13,15,14'], ['4,1,4,3', '5,3,5,4', '6,1,3,2']]
+</DOC>

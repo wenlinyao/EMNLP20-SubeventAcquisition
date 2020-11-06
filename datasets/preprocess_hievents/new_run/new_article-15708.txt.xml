@@ -1,0 +1,473 @@
+<DOC> article-15708.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 |
+<word> Andre Iguodala hopped on the scorer 's table and played to the crowd as the catchy 76ers ' anthem blared in the arena . 
+<lemma> Andre Iguodala hop on the scorer 's table and play to the crowd as the catchy 76er ' anthem blare in the arena . 
+<POS> NNP NNP VBD IN DT NN POS NN CC VBD TO DT NN IN DT JJ NNS POS NN VBD IN DT NN . 
+<NER> PERSON PERSON O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Andre) (NNP Iguodala)) (VP (VP (VBD hopped) (PP (IN on) (NP (NP (DT the) (NN scorer) (POS 's)) (NN table)))) (CC and) (VP (VBD played) (PP (TO to) (NP (DT the) (NN crowd))) (SBAR (IN as) (S (NP (NP (DT the) (JJ catchy) (NNS 76ers) (POS ')) (NN anthem)) (VP (VBD blared) (PP (IN in) (NP (DT the) (NN arena)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|10 nsubj 2|8 case 4|6 det 5|8 nmod:poss 6|6 case 7|3 nmod:on 8|3 cc 9|3 conj:and 10|13 case 11|13 det 12|10 nmod:to 13|20 mark 14|17 det 15|17 amod 16|19 nmod:poss 17|17 case 18|20 nsubj 19|10 advcl:as 20|23 case 21|23 det 22|20 nmod:in 23|3 punct 24|
+<word> His teammates joined Iguodala and danced along as confetti fluttered around them . 
+<lemma> he teammate join Iguodala and dance along as confetti flutter around they . 
+<POS> PRP$ NNS VBD NNP CC VBD RP IN NN VBD IN PRP . 
+<NER> O O O PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (PRP$ His) (NNS teammates)) (SBAR (S (VP (VP (VBD joined) (NP (NNP Iguodala))) (CC and) (VP (VBD danced) (PRT (RP along)) (PP (IN as) (NP (NN confetti)))))))) (VP (VBD fluttered) (PP (IN around) (NP (PRP them)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 nmod:poss 1|10 nsubj 2|2 acl:relcl 3|3 dobj 4|3 cc 5|2 acl:relcl 6|3 conj:and 6|6 compound:prt 7|9 case 8|6 nmod:as 9|12 case 11|10 nmod:around 12|10 punct 13|
+<word> `` Number one , Philadelphia . 
+<lemma> `` Number one , Philadelphia . 
+<POS> `` NNP CD , NNP . 
+<NER> O O NUMBER O LOCATION O 
+<Timex> None
+<parse>         (ROOT (NP (NP (`` ``) (NNP Number)) (NP (NP (CD one)) (, ,) (NP (NNP Philadelphia))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 punct 1|2 dep 3|3 punct 4|3 appos 5|2 punct 6|
+<word> Here they come , team of the year . '' 
+<lemma> here they come , team of the year . '' 
+<POS> RB PRP VBP , NN IN DT NN . '' 
+<NER> O O O O O O DATE DATE O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Here)) (NP (PRP they)) (VP (VP (VBP come)) (, ,) (NP (NP (NN team)) (PP (IN of) (NP (DT the) (NN year))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 advmod 1|3 nsubj 2|3 punct 4|3 dobj 5|8 case 6|8 det 7|5 nmod:of 8|3 punct 9|3 punct 10|
+<word> Team of the first round , for sure . 
+<lemma> Team of the first round , for sure . 
+<POS> NNP IN DT JJ NN , IN JJ . 
+<NER> O O O ORDINAL O O O O O 
+<Timex> None
+<parse>         (ROOT (FRAG (NP (NP (NNP Team)) (PP (IN of) (NP (DT the) (JJ first) (NN round)))) (, ,) (PP (IN for) (ADJP (JJ sure))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|5 case 2|5 det 3|5 amod 4|1 nmod:of 5|1 punct 6|8 case 7|1 dep 8|1 punct 9|
+<word> Eight years of going home empty in April is over . 
+<lemma> eight year of go home empty in April be over . 
+<POS> CD NNS IN VBG NN JJ IN NNP VBZ IN . 
+<NER> DURATION DURATION O O O O O DATE O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (CD Eight) (NNS years)) (PP (IN of) (S (VP (VBG going) (NP (NN home) (JJ empty)) (PP (IN in) (NP (NNP April))))))) (VP (VBZ is) (ADJP (IN over))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|2 nummod 1|10 nsubj 2|4 mark 3|2 acl:of 4|4 dobj 5|5 amod 6|8 case 7|4 nmod:in 8|10 cop 9|10 punct 11|
+<word> The Sixers at last had a reason to go wild . 
+<lemma> the sixer at last have a reason to go wild . 
+<POS> DT NNS IN JJ VBD DT NN TO VB JJ . 
+<NER> O ORGANIZATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNS Sixers)) (PP (IN at) (NP (JJ last)))) (VP (VBD had) (NP (DT a) (NN reason) (S (VP (TO to) (VP (VB go) (ADJP (JJ wild))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|4 case 3|2 nmod:at 4|7 det 6|5 dobj 7|9 mark 8|7 acl:to 9|9 xcomp 10|5 punct 11|
+<word> Iguodala made the go-ahead free throws with 2.2 seconds left and Philadelphia rallied for a 79-78 victory over the top-seeded Chicago Bulls in Game 6 on Thursday night , advancing to the second round of the Eastern Conference playoffs for the first time since 2003 . 
+<lemma> Iguodala make the go-ahead free throw with 2.2 seconds leave and Philadelphia rally for a 79-78 victory over the top-seeded Chicago Bulls in Game 6 on Thursday night , advance to the second round of the Eastern Conference playoff for the first time since 2003 . 
+<POS> NNP VBD DT NN JJ VBZ IN CD NNS VBD CC NNP VBD IN DT CD NN IN DT JJ NNP NNPS IN NNP CD IN NNP NN , VBG TO DT JJ NN IN DT NNP NNP NNS IN DT JJ NN IN CD . 
+<NER> PERSON O O O O O O DURATION DURATION O O LOCATION O O O NUMBER O O O O ORGANIZATION ORGANIZATION O O NUMBER O DATE TIME O O O O ORDINAL O O O O O O O O ORDINAL O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iguodala)) (VP (VBD made) (SBAR (S (S (NP (DT the) (NN go-ahead)) (ADVP (JJ free)) (VP (VBZ throws) (PP (IN with) (NP (NP (CD 2.2) (NNS seconds)) (VP (VBD left)))))) (CC and) (S (NP (NNP Philadelphia)) (VP (VBD rallied) (PP (IN for) (NP (NP (DT a) (CD 79-78) (NN victory)) (PP (IN over) (NP (NP (DT the) (JJ top-seeded) (NNP Chicago) (NNPS Bulls)) (PP (IN in) (NP (NNP Game) (CD 6))))))) (PP (IN on) (NP (NNP Thursday))) (NP-TMP (NN night)) (, ,) (S (VP (VBG advancing) (PP (TO to) (NP (NP (DT the) (JJ second) (NN round)) (PP (IN of) (NP (DT the) (NNP Eastern) (NNP Conference) (NNS playoffs))))) (PP (IN for) (NP (NP (DT the) (JJ first) (NN time)) (PP (IN since) (NP (CD 2003)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|6 nsubj 4|6 advmod 5|2 dep 6|9 case 7|9 nummod 8|6 nmod:with 9|9 acl 10|6 cc 11|13 nsubj 12|2 dep 13|6 conj:and 13|17 case 14|17 det 15|17 nummod 16|13 nmod:for 17|22 case 18|22 det 19|22 amod 20|22 compound 21|17 nmod:over 22|24 case 23|22 nmod:in 24|24 nummod 25|27 case 26|13 nmod:on 27|13 nmod:tmod 28|13 punct 29|13 advcl 30|34 case 31|34 det 32|34 amod 33|30 nmod:to 34|39 case 35|39 det 36|39 compound 37|39 compound 38|34 nmod:of 39|43 case 40|43 det 41|43 amod 42|30 nmod:for 43|45 case 44|43 nmod:since 45|2 punct 46|
+<word> The 76ers will face Boston , which beat Atlanta in six games , in the conference semifinals . 
+<lemma> the 76er will face Boston , which beat Atlanta in six game , in the conference semifinal . 
+<POS> DT NNS MD VB NNP , WDT VBD NNP IN CD NNS , IN DT NN NNS . 
+<NER> O O O O LOCATION O O O LOCATION O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS 76ers)) (VP (MD will) (VP (VB face) (NP (NP (NNP Boston)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD beat) (NP (NP (NNP Atlanta)) (PP (IN in) (NP (CD six) (NNS games)))) (, ,) (PP (IN in) (NP (DT the) (NN conference) (NNS semifinals))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|4 dobj 5|8 nsubj 5|5 punct 6|5 ref 7|5 acl:relcl 8|8 dobj 9|12 case 10|12 nummod 11|9 nmod:in 12|8 punct 13|17 case 14|17 det 15|17 compound 16|8 nmod:in 17|4 punct 18|
+<word> `` I do n't know how we won this game , '' coach Doug Collins said . 
+<lemma> `` I do not know how we win this game , '' coach Doug Collins say . 
+<POS> `` PRP VBP RB VB WRB PRP VBD DT NN , '' NN NNP NNP VBD . 
+<NER> O O O O O O O O O O O O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (NP (PRP we)) (VP (VBD won) (NP (DT this) (NN game)))))))) (, ,) ('' '') (NP (NN coach) (NNP Doug) (NNP Collins)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|16 punct 1|5 nsubj 2|5 aux 3|5 neg 4|16 ccomp 5|8 advmod 6|8 nsubj 7|5 ccomp 8|10 det 9|8 dobj 10|16 punct 11|16 punct 12|15 compound 13|15 compound 14|16 nsubj 15|16 punct 17|
+<word> Collins and the Sixers hardly cared the series win comes with an asterisk . 
+<lemma> Collins and the Sixers hardly care the series win come with a asterisk . 
+<POS> NNP CC DT NNPS RB VBD DT NN VB VBZ IN DT NN . 
+<NER> PERSON O O ORGANIZATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Collins)) (CC and) (NP (DT the) (NNPS Sixers))) (ADVP (RB hardly)) (VP (VBD cared) (S (NP (DT the) (NN series)) (VP (VB win) (VP (VBZ comes) (PP (IN with) (NP (DT an) (NN asterisk))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubj 1|1 cc 2|4 det 3|1 conj:and 4|6 nsubj 4|6 advmod 5|8 det 7|9 nsubj 8|6 ccomp 9|9 dep 10|13 case 11|13 det 12|10 nmod:with 13|6 punct 14|
+<word> The Bulls lost reigning MVP Derrick Rose to a torn anterior cruciate ligament in his left knee late in their Game 1 win . 
+<lemma> the Bulls lose reign MVP Derrick Rose to a tear anterior cruciate ligament in he left knee late in they game 1 win . 
+<POS> DT NNPS VBD VBG NNP NNP NNP TO DT VBN JJ JJ NN IN PRP$ JJ NN RB IN PRP$ NN CD VBP . 
+<NER> O ORGANIZATION O O O PERSON PERSON O O O O O O O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Bulls)) (VP (VBD lost) (NP (VBG reigning) (NNP MVP) (NNP Derrick) (NNP Rose)) (PP (TO to) (NP (NP (DT a) (VBN torn) (JJ anterior) (JJ cruciate) (NN ligament)) (PP (IN in) (NP (PRP$ his) (JJ left) (NN knee) (RB late))))) (PP (IN in) (NP (NP (PRP$ their) (NN Game)) (SBAR (S (NP (CD 1)) (VP (VBP win))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|7 amod 4|7 compound 5|7 compound 6|3 dobj 7|13 case 8|13 det 9|13 amod 10|13 amod 11|13 amod 12|3 nmod:to 13|17 case 14|17 nmod:poss 15|17 amod 16|13 nmod:in 17|17 advmod 18|21 case 19|21 nmod:poss 20|3 nmod:in 21|23 nsubj 22|21 acl:relcl 23|3 punct 24|
+<word> Center Joakim Noah missed the last three games with a sprained left ankle . 
+<lemma> Center Joakim Noah miss the last three game with a sprained left ankle . 
+<POS> NNP NNP NNP VBD DT JJ CD NNS IN DT JJ JJ NN . 
+<NER> O PERSON PERSON O O O NUMBER O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Center) (NNP Joakim) (NNP Noah)) (VP (VBD missed) (NP (NP (DT the) (JJ last) (CD three) (NNS games)) (PP (IN with) (NP (DT a) (JJ sprained) (JJ left) (NN ankle))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 compound 1|3 compound 2|4 nsubj 3|8 det 5|8 amod 6|8 nummod 7|4 dobj 8|13 case 9|13 det 10|13 amod 11|13 amod 12|8 nmod:with 13|4 punct 14|
+<word> `` I thought we had more than enough to win with , '' Bulls coach Tom Thibodeau said . 
+<lemma> `` I think we have more than enough to win with , '' Bulls coach Tom Thibodeau say . 
+<POS> `` PRP VBD PRP VBD JJR IN RB TO VB IN , '' NNPS NN NNP NNP VBD . 
+<NER> O O O O O O O O O O O O O ORGANIZATION O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBD thought) (SBAR (S (NP (PRP we)) (VP (VBD had) (NP (JJR more)) (ADVP (IN than) (RB enough)) (S (VP (TO to) (VP (VB win) (PP (IN with)))))))))) (, ,) ('' '') (NP (NNPS Bulls) (NN coach) (NNP Tom) (NNP Thibodeau)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 punct 1|3 nsubj 2|18 ccomp 3|5 nsubj 4|3 ccomp 5|5 dobj 6|8 case 7|5 advmod 8|10 mark 9|5 advcl:to 10|10 nmod 11|18 punct 12|18 punct 13|17 compound 14|17 compound 15|17 compound 16|18 nsubj 17|18 punct 19|
+<word> `` I 'm disappointed in the loss but I 'm not disappointed in our team . '' 
+<lemma> `` I be disappointed in the loss but I be not disappoint in we team . '' 
+<POS> `` PRP VBP JJ IN DT NN CC PRP VBP RB VBN IN PRP$ NN . '' 
+<NER> O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP 'm) (ADJP (JJ disappointed) (PP (IN in) (NP (DT the) (NN loss)))))) (CC but) (S (NP (PRP I)) (VP (VBP 'm) (RB not) (VP (VBN disappointed) (PP (IN in) (NP (PRP$ our) (NN team)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 punct 1|4 nsubj 2|4 cop 3|7 case 5|7 det 6|4 nmod:in 7|4 cc 8|12 nsubjpass 9|12 auxpass 10|12 neg 11|4 conj:but 12|15 case 13|15 nmod:poss 14|12 nmod:in 15|4 punct 16|4 punct 17|
+<word> Without their stars , the Bulls found it tough to gut one out against the Sixers . 
+<lemma> without they star , the Bulls find it tough to gut one out against the Sixers . 
+<POS> IN PRP$ NNS , DT NNPS VBD PRP JJ TO NN CD RP IN DT NNPS . 
+<NER> O O O O O ORGANIZATION O O O O O NUMBER O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN Without) (NP (PRP$ their) (NNS stars))) (, ,) (NP (DT the) (NNPS Bulls)) (VP (VBD found) (S (NP (PRP it)) (ADJP (JJ tough) (PP (TO to) (NP (NN gut) (CD one))))) (PP (RP out) (PP (IN against) (NP (DT the) (NNPS Sixers))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 case 1|3 nmod:poss 2|7 nmod:without 3|7 punct 4|6 det 5|7 nsubj 6|9 nsubj 8|7 xcomp 9|11 case 10|9 nmod:to 11|11 nummod 12|16 dep 13|16 case 14|16 det 15|7 advcl:against 16|7 punct 17|
+<word> Omer Asik missed two free throws for the Bulls with 7 seconds left that would have given them a three-point lead . 
+<lemma> Omer Asik miss two free throw for the Bulls with 7 seconds leave that would have give they a three-point lead . 
+<POS> NNP NNP VBD CD JJ VBZ IN DT NNPS IN CD NNS VBD DT MD VB VBN PRP DT JJ NN . 
+<NER> PERSON PERSON O NUMBER O O O O ORGANIZATION O DURATION DURATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Omer) (NNP Asik)) (VP (VBD missed) (SBAR (S (NP (CD two)) (ADVP (JJ free)) (VP (VBZ throws) (SBAR (IN for) (S (NP (NP (DT the) (NNPS Bulls)) (PP (IN with) (NP (CD 7) (NNS seconds)))) (VP (VBD left) (SBAR (S (NP (DT that)) (VP (MD would) (VP (VB have) (VP (VBN given) (NP (PRP them)) (NP (DT a) (JJ three-point) (NN lead)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|6 nsubj 4|6 advmod 5|3 ccomp 6|13 mark 7|9 det 8|13 nsubj 9|12 case 10|12 nummod 11|9 nmod:with 12|6 advcl:for 13|17 nsubj 14|17 aux 15|17 aux 16|13 ccomp 17|17 iobj 18|21 det 19|21 amod 20|17 dobj 21|3 punct 22|
+<word> Iguodala grabbed the second miss , sprinted the length of the court , and was fouled by Asik on the driving layup . 
+<lemma> Iguodala grab the second miss , sprint the length of the court , and be foul by Asik on the drive layup . 
+<POS> NNP VBD DT JJ VBP , VBD DT NN IN DT NN , CC VBD VBN IN NNP IN DT VBG NN . 
+<NER> PERSON O O ORDINAL O O O O O O O O O O O O O PERSON O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iguodala)) (VP (VBD grabbed) (SBAR (S (NP (DT the) (JJ second)) (VP (VP (VBP miss)) (, ,) (VP (VBD sprinted) (NP (NP (DT the) (NN length)) (PP (IN of) (NP (DT the) (NN court))))) (, ,) (CC and) (VP (VBD was) (VP (VBN fouled) (PP (IN by) (NP (NNP Asik))) (PP (IN on) (NP (DT the) (VBG driving) (NN layup))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|5 nsubj 4|7 nsubj 4|16 nsubjpass 4|2 ccomp 5|5 punct 6|2 ccomp 7|5 conj:and 7|9 det 8|7 dobj 9|12 case 10|12 det 11|9 nmod:of 12|5 punct 13|5 cc 14|16 auxpass 15|2 ccomp 16|5 conj:and 16|18 case 17|16 nmod:agent 18|22 case 19|22 det 20|22 amod 21|16 nmod:on 22|2 punct 23|
+<word> The Sixers put their season in the hands of one of the worst fourth-quarter free-throw shooters in the NBA . 
+<lemma> the Sixers put they season in the hand of one of the worst fourth-quarter free-throw shooter in the NBA . 
+<POS> DT NNPS VBD PRP$ NN IN DT NNS IN CD IN DT JJS JJ NN NNS IN DT NNP . 
+<NER> O ORGANIZATION O O O O O O O NUMBER O O O DATE O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Sixers)) (VP (VBD put) (NP (PRP$ their) (NN season)) (PP (IN in) (NP (NP (DT the) (NNS hands)) (PP (IN of) (NP (NP (CD one)) (PP (IN of) (NP (DT the) (JJS worst) (JJ fourth-quarter) (NN free-throw) (NNS shooters))))))) (PP (IN in) (NP (DT the) (NNP NBA)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nmod:poss 4|3 dobj 5|8 case 6|8 det 7|3 nmod:in 8|10 case 9|16 det:qmod 10|10 mwe 11|16 det 12|16 amod 13|16 amod 14|16 compound 15|8 nmod 16|19 case 17|19 det 18|3 nmod:in 19|3 punct 20|
+<word> Collins was hunched over and his hands clasped with Iguodala at the line . 
+<lemma> Collins be hunch over and he hand clasp with iguodala at the line . 
+<POS> NNP VBD VBN IN CC PRP$ NNS VBN IN NN IN DT NN . 
+<NER> PERSON O O O O O O O O PERSON O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Collins)) (VP (VBD was) (VP (VBN hunched) (PP (IN over))))) (CC and) (S (NP (PRP$ his) (NNS hands)) (VP (VBN clasped) (PP (IN with) (NP (NN Iguodala))) (PP (IN at) (NP (DT the) (NN line))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubjpass 1|3 auxpass 2|3 nmod 4|3 cc 5|7 nmod:poss 6|8 nsubj 7|3 conj:and 8|10 case 9|8 nmod:with 10|13 case 11|13 det 12|8 nmod:at 13|3 punct 14|
+<word> He made both -- and 20,362 fans went absolutely wild . 
+<lemma> he make both -- and 20,362 fan go absolutely wild . 
+<POS> PRP VBD DT : CC CD NNS VBD RB JJ . 
+<NER> O O O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP He)) (VP (VBD made) (NP (DT both)))) (: --) (CC and) (S (NP (CD 20,362) (NNS fans)) (VP (VBD went) (ADJP (RB absolutely) (JJ wild)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|2 punct 4|2 cc 5|7 nummod 6|8 nsubj 7|2 conj:and 8|10 advmod 9|8 xcomp 10|2 punct 11|
+<word> Iguodala made nine of 10 free throws in the fourth quarter in this series after shooting 45 percent -LRB- 23 of 51 -RRB- from the line in the period this season . 
+<lemma> Iguodala make nine of 10 free throw in the fourth quarter in this series after shoot 45 percent -lrb- 23 of 51 -rrb- from the line in the period this season . 
+<POS> NNP VBD CD IN CD JJ VBZ IN DT JJ NN IN DT NN IN VBG CD NN -LRB- CD IN CD -RRB- IN DT NN IN DT NN DT NN . 
+<NER> PERSON O NUMBER O NUMBER O O O DATE DATE DATE O O O O O PERCENT PERCENT O NUMBER O NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iguodala)) (VP (VBD made) (SBAR (S (NP (NP (CD nine)) (PP (IN of) (NP (CD 10)))) (ADVP (JJ free)) (VP (VBZ throws) (PP (IN in) (NP (NP (DT the) (JJ fourth) (NN quarter)) (PP (IN in) (NP (DT this) (NN series))))) (PP (IN after) (S (VP (VBG shooting) (NP (NP (CD 45) (NN percent) (PRN (-LRB- -LRB-) (NP (NP (CD 23)) (PP (IN of) (NP (CD 51)))) (-RRB- -RRB-))) (PP (IN from) (NP (NP (DT the) (NN line)) (PP (IN in) (NP (DT the) (NN period)))))) (NP-TMP (DT this) (NN season))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|7 nsubj 3|5 case 4|3 nmod:of 5|7 advmod 6|2 ccomp 7|11 case 8|11 det 9|11 amod 10|7 nmod:in 11|14 case 12|14 det 13|11 nmod:in 14|16 mark 15|7 advcl:after 16|18 nummod 17|16 dobj 18|20 punct 19|18 dep 20|22 case 21|20 nmod:of 22|20 punct 23|26 case 24|26 det 25|18 nmod:from 26|29 case 27|29 det 28|26 nmod:in 29|31 det 30|16 nmod:tmod 31|2 punct 32|
+<word> Iguodala changed his approach at the line this series . 
+<lemma> iguodala change he approach at the line this series . 
+<POS> RB VBN PRP$ NN IN DT NN DT NN . 
+<NER> PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (ADVP (RB Iguodala)) (VP (VBN changed)) (NP (NP (PRP$ his) (NN approach)) (PP (IN at) (NP (NP (DT the) (NN line)) (NP (DT this) (NN series))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 advmod 1|4 nmod:poss 3|2 nsubj 4|7 case 5|7 det 6|4 nmod:at 7|9 det 8|7 dep 9|2 punct 10|
+<word> He started thinking what it would be like to teach his son how to shoot free throws . 
+<lemma> he start think what it would be like to teach he son how to shoot free throw . 
+<POS> PRP VBD VBG WP PRP MD VB IN TO VB PRP$ NN WRB TO VB JJ VBZ . 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD started) (S (VP (VBG thinking) (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (MD would) (VP (VB be) (SBAR (IN like) (S (S (VP (TO to) (VP (VB teach) (NP (PRP$ his) (NN son)) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB shoot) (ADJP (JJ free))))))))) (VP (VBZ throws))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 xcomp 3|7 dobj 4|7 nsubj 5|7 aux 6|3 ccomp 7|17 mark 8|10 mark 9|17 csubj 10|12 nmod:poss 11|10 dobj 12|15 nsubj:xsubj 12|15 advmod 13|15 mark 14|10 xcomp 15|15 xcomp 16|7 advcl:like 17|2 punct 18|
+<word> Dads do n't miss . 
+<lemma> dad do not miss . 
+<POS> NNS VBP RB VB . 
+<NER> O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Dads)) (VP (VBP do) (RB n't) (VP (VB miss))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|4 punct 5|
+<word> `` I was like , ` Son , this is how you shoot free throws , ' '' Iguodala said . 
+<lemma> `` I be like , ` Son , this be how you shoot free throw , ' '' Iguodala say . 
+<POS> `` PRP VBD IN , `` NNP , DT VBZ WRB PRP VBP JJ VBZ , '' '' NNP VBD . 
+<NER> O O O O O O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBD was) (PP (IN like)))) (, ,) (`` `) (NP (NNP Son)) (, ,) (S (NP (DT this)) (VP (VBZ is) (SBAR (WHADVP (WRB how)) (S (NP (PRP you)) (VP (VBP shoot) (SBAR (S (NP (JJ free)) (VP (VBZ throws))))))))) (, ,) ('' ') ('' '') (NP (NNP Iguodala)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|20 punct 1|4 nsubj 2|4 cop 3|20 ccomp 4|20 punct 5|20 punct 6|20 nsubj 7|20 punct 8|10 nsubj 9|20 parataxis 10|13 advmod 11|13 nsubj 12|10 ccomp 13|15 nsubj 14|13 ccomp 15|20 punct 16|20 punct 17|20 punct 18|20 nsubj 19|20 punct 21|
+<word> The Sixers are the fifth No. 8 seed to win a first-round series against a No. 1 seed . 
+<lemma> the Sixers be the fifth no. 8 seed to win a first-round series against a no. 1 seed . 
+<POS> DT NNP VBP DT JJ NN CD NN TO VB DT JJ NN IN DT NN CD NN . 
+<NER> O O O O ORDINAL O NUMBER O O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Sixers)) (VP (VBP are) (NP (NP (DT the) (JJ fifth) (NN No.)) (SBAR (S (NP (CD 8) (NN seed)) (VP (TO to) (VP (VB win) (NP (NP (DT a) (JJ first-round) (NN series)) (PP (IN against) (NP (DT a) (NN No.) (CD 1) (NN seed)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|6 cop 3|6 det 4|6 amod 5|8 nummod 7|10 nsubj 8|10 mark 9|6 acl:to 10|13 det 11|13 amod 12|10 dobj 13|18 case 14|18 det 15|18 compound 16|18 nummod 17|13 nmod:against 18|6 punct 19|
+<word> Memphis eliminated San Antonio last season , while Golden State -LRB- 2007 -RRB- , New York -LRB- 1999 -RRB- and Denver -LRB- 1994 -RRB- also pulled off the rare feat . 
+<lemma> Memphis eliminate San Antonio last season , while Golden State -lrb- 2007 -rrb- , New York -lrb- 1999 -rrb- and Denver -lrb- 1994 -rrb- also pull off the rare feat . 
+<POS> NNP VBD NNP NNP JJ NN , IN NNP NNP -LRB- CD -RRB- , NNP NNP -LRB- CD -RRB- CC NNP -LRB- CD -RRB- RB VBD RP DT JJ NN . 
+<NER> LOCATION O LOCATION LOCATION O O O O ORGANIZATION ORGANIZATION O DATE O O LOCATION LOCATION O DATE O O LOCATION O DATE O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Memphis)) (VP (VBD eliminated) (NP (NNP San) (NNP Antonio)) (NP-TMP (JJ last) (NN season)) (, ,) (SBAR (IN while) (S (NP (NP (NP (NP (NNP Golden) (NNP State)) (PRN (-LRB- -LRB-) (NP (CD 2007)) (-RRB- -RRB-))) (, ,) (NP (NP (NNP New) (NNP York)) (PRN (-LRB- -LRB-) (NP (CD 1999)) (-RRB- -RRB-))) (CC and) (NP (NNP Denver))) (PRN (-LRB- -LRB-) (NP (CD 1994)) (-RRB- -RRB-))) (ADVP (RB also)) (VP (VBD pulled) (PRT (RP off)) (NP (DT the) (JJ rare) (NN feat)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 compound 3|2 dobj 4|6 amod 5|2 nmod:tmod 6|2 punct 7|26 mark 8|10 compound 9|26 nsubj 10|12 punct 11|10 appos 12|12 punct 13|10 punct 14|16 compound 15|10 conj:and 16|26 nsubj 16|18 punct 17|16 appos 18|18 punct 19|10 cc 20|10 conj:and 21|26 nsubj 21|23 punct 22|10 appos 23|23 punct 24|26 advmod 25|2 advcl:while 26|26 compound:prt 27|30 det 28|30 amod 29|26 dobj 30|2 punct 31|
+<word> In his second season , Collins had already led the Sixers to their first winning season in seven years . 
+<lemma> in he second season , Collins have already lead the Sixers to they first win season in seven year . 
+<POS> IN PRP$ JJ NN , NNP VBD RB VBN DT NNPS TO PRP$ JJ VBG NN IN CD NNS . 
+<NER> O O ORDINAL O O PERSON O O O O ORGANIZATION O O ORDINAL O O O DURATION DURATION O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (PRP$ his) (JJ second) (NN season))) (, ,) (NP (NNP Collins)) (VP (VBD had) (ADVP (RB already)) (VP (VBN led) (NP (DT the) (NNPS Sixers)) (PP (TO to) (NP (NP (PRP$ their) (JJ first) (VBG winning) (NN season)) (PP (IN in) (NP (CD seven) (NNS years))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|4 case 1|4 nmod:poss 2|4 amod 3|9 nmod:in 4|9 punct 5|9 nsubj 6|9 aux 7|9 advmod 8|11 det 10|9 dobj 11|16 case 12|16 nmod:poss 13|16 amod 14|16 amod 15|9 nmod:to 16|19 case 17|19 nummod 18|16 nmod:in 19|9 punct 20|
+<word> Now , it 's on to the second round for the first time since Allen Iverson was an All-Star . 
+<lemma> now , it be on to the second round for the first time since Allen Iverson be a All-Star . 
+<POS> RB , PRP VBZ IN TO DT JJ NN IN DT JJ NN IN NNP NNP VBD DT NNP . 
+<NER> DATE O O O O O O ORDINAL O O O ORDINAL O O PERSON PERSON O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Now)) (, ,) (NP (PRP it)) (VP (VBZ 's) (PP (IN on) (PP (TO to) (NP (NP (DT the) (JJ second) (NN round)) (PP (IN for) (NP (DT the) (JJ first) (NN time)))))) (SBAR (IN since) (S (NP (NNP Allen) (NNP Iverson)) (VP (VBD was) (NP (DT an) (NNP All-Star)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|9 advmod 1|9 punct 2|9 nsubj 3|9 cop 4|9 case 5|9 case 6|9 det 7|9 amod 8|13 case 10|13 det 11|13 amod 12|9 nmod:for 13|19 mark 14|16 compound 15|19 nsubj 16|19 cop 17|19 det 18|9 advcl:since 19|9 punct 20|
+<word> The Sixers were smiling and mobbed each other as they dashed to the locker room to keep the party going . 
+<lemma> the Sixers be smile and mob each other as they dash to the locker room to keep the party go . 
+<POS> DT NNPS VBD VBG CC VBN DT JJ IN PRP VBD TO DT NN NN TO VB DT NN VBG . 
+<NER> O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Sixers)) (VP (VBD were) (VP (VP (VBG smiling)) (CC and) (VP (VBN mobbed) (NP (DT each) (JJ other)) (SBAR (IN as) (S (NP (PRP they)) (VP (VBD dashed) (PP (TO to) (NP (DT the) (NN locker) (NN room))) (S (VP (TO to) (VP (VB keep) (NP (NP (DT the) (NN party)) (VP (VBG going)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|6 nsubjpass 2|4 auxpass 3|4 cc 5|4 conj:and 6|8 det 7|6 dobj 8|11 mark 9|11 nsubj 10|17 nsubj:xsubj 10|6 advcl:as 11|15 case 12|15 det 13|15 compound 14|11 nmod:to 15|17 mark 16|11 xcomp 17|19 det 18|17 dobj 19|19 acl 20|4 punct 21|
+<word> The Sixers were 2.2 seconds from playing Game 7 in Chicago . 
+<lemma> the Sixers be 2.2 seconds from play game 7 in Chicago . 
+<POS> DT NNPS VBD CD NNS IN VBG NN CD IN NNP . 
+<NER> O O O DURATION DURATION O O O NUMBER O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Sixers)) (VP (VBD were) (NP (NP (CD 2.2) (NNS seconds)) (PP (IN from) (S (VP (VBG playing) (NP (NP (NN Game) (CD 7)) (PP (IN in) (NP (NNP Chicago))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 det 1|5 nsubj 2|5 cop 3|5 nummod 4|7 mark 6|5 acl:from 7|7 dobj 8|8 nummod 9|11 case 10|8 nmod:in 11|5 punct 12|
+<word> Now , they will pack their bags for the second round . 
+<lemma> now , they will pack they bag for the second round . 
+<POS> RB , PRP MD VB PRP$ NNS IN DT JJ NN . 
+<NER> DATE O O O O O O O O ORDINAL O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Now)) (, ,) (NP (PRP they)) (VP (MD will) (VP (VB pack) (NP (PRP$ their) (NNS bags)) (PP (IN for) (NP (DT the) (JJ second) (NN round))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 advmod 1|5 punct 2|5 nsubj 3|5 aux 4|7 nmod:poss 6|5 dobj 7|11 case 8|11 det 9|11 amod 10|5 nmod:for 11|5 punct 12|
+<word> They went 2-1 against the Celtics this season . 
+<lemma> they go 2-1 against the Celtics this season . 
+<POS> PRP VBD CD IN DT NNPS DT NN . 
+<NER> O O NUMBER O O ORGANIZATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBD went) (NP (CD 2-1)) (PP (IN against) (NP (DT the) (NNPS Celtics))) (NP-TMP (DT this) (NN season))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|6 case 4|6 det 5|2 nmod:against 6|8 det 7|2 nmod:tmod 8|2 punct 9|
+<word> Collins had a catch in his voice at the postgame podium and was joined by his 4-year-old grandson , Cooper . 
+<lemma> Collins have a catch in he voice at the postgame podium and be join by he 4-year-old grandson , Cooper . 
+<POS> NNP VBD DT NN IN PRP$ NN IN DT JJ NN CC VBD VBN IN PRP$ JJ NN , NNP . 
+<NER> PERSON O O O O O O O O O O O O O O O DURATION O O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Collins)) (VP (VP (VBD had) (NP (NP (DT a) (NN catch)) (PP (IN in) (NP (PRP$ his) (NN voice)))) (PP (IN at) (NP (DT the) (JJ postgame) (NN podium)))) (CC and) (VP (VBD was) (VP (VBN joined) (PP (IN by) (NP (NP (PRP$ his) (JJ 4-year-old) (NN grandson)) (, ,) (NP (NNP Cooper))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|14 nsubjpass 1|4 det 3|2 dobj 4|7 case 5|7 nmod:poss 6|4 nmod:in 7|11 case 8|11 det 9|11 amod 10|2 nmod:at 11|2 cc 12|14 auxpass 13|2 conj:and 14|18 case 15|18 nmod:poss 16|18 amod 17|14 nmod:agent 18|18 punct 19|18 appos 20|2 punct 21|
+<word> Collins rubbed his head and held back tears talking about faith , family and his guys in the locker room . 
+<lemma> Collins rub he head and hold back tear talk about faith , family and he guy in the locker room . 
+<POS> NNP VBD PRP$ NN CC VBD RP NNS VBG IN NN , NN CC PRP$ NNS IN DT NN NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Collins)) (VP (VP (VBD rubbed) (NP (PRP$ his) (NN head))) (CC and) (VP (VBD held) (PRT (RP back)) (NP (NP (NNS tears)) (VP (VBG talking) (PP (IN about) (NP (NP (NN faith)) (, ,) (NP (NN family)) (CC and) (NP (PRP$ his) (NNS guys)))))) (PP (IN in) (NP (DT the) (NN locker) (NN room))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|6 nsubj 1|4 nmod:poss 3|2 dobj 4|2 cc 5|2 conj:and 6|6 compound:prt 7|6 dobj 8|8 acl 9|11 case 10|9 nmod:about 11|11 punct 12|9 nmod:about 13|11 conj:and 13|11 cc 14|16 nmod:poss 15|9 nmod:about 16|11 conj:and 16|20 case 17|20 det 18|20 compound 19|6 nmod:in 20|2 punct 21|
+<word> `` I 'm a Sixer for life , '' he said . 
+<lemma> `` I be a sixer for life , '' he say . 
+<POS> `` PRP VBP DT NN IN NN , '' PRP VBD . 
+<NER> O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP 'm) (NP (NP (DT a) (NN Sixer)) (PP (IN for) (NP (NN life)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|11 punct 1|5 nsubj 2|5 cop 3|5 det 4|11 ccomp 5|7 case 6|5 nmod:for 7|11 punct 8|11 punct 9|11 nsubj 10|11 punct 12|
+<word> Iguodala scored 20 points , and Jrue Holiday and Lou Williams each scored 14 for the Sixers who were outrebounded 56-33 . 
+<lemma> Iguodala score 20 point , and Jrue Holiday and Lou Williams each score 14 for the Sixers who be outrebound 56-33 . 
+<POS> NNP VBD CD NNS , CC NNP NNP CC NNP NNP DT VBD CD IN DT NNPS WP VBD VBN CD . 
+<NER> PERSON O NUMBER O O O O O O PERSON PERSON O O NUMBER O O ORGANIZATION O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Iguodala)) (VP (VBD scored) (NP (CD 20) (NNS points)))) (, ,) (CC and) (S (NP (NP (NNP Jrue) (NNP Holiday)) (CC and) (NP (NP (NNP Lou) (NNP Williams)) (NP (DT each)))) (VP (VBD scored) (NP (NP (CD 14)) (PP (IN for) (NP (DT the) (NNPS Sixers))) (SBAR (WHNP (WP who)) (S (VP (VBD were) (VP (VBN outrebounded) (NP (CD 56-33))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nummod 3|2 dobj 4|2 punct 5|2 cc 6|8 compound 7|13 nsubj 8|8 cc 9|11 compound 10|8 conj:and 11|13 nsubj 11|11 dep 12|2 conj:and 13|13 dobj 14|20 nsubjpass 14|17 case 15|17 det 16|14 nmod:for 17|14 ref 18|20 auxpass 19|14 acl:relcl 20|20 dobj 21|2 punct 22|
+<word> Iguodala snagged the one that mattered . 
+<lemma> Iguodala snag the one that matter . 
+<POS> NNP VBD DT CD WDT VBD . 
+<NER> PERSON O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iguodala)) (VP (VBD snagged) (NP (NP (DT the) (CD one)) (SBAR (WHNP (WDT that)) (S (VP (VBD mattered)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|2 dobj 4|6 nsubj 4|4 ref 5|4 acl:relcl 6|2 punct 7|
+<word> `` We win on a rebound . 
+<lemma> `` we win on a rebound . 
+<POS> `` PRP VBP IN DT NN . 
+<NER> O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP We)) (VP (VBP win) (PP (IN on) (NP (DT a) (NN rebound)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|6 case 4|6 det 5|3 nmod:on 6|3 punct 7|
+<word> Something we do n't get all night , '' a smiling Collins said . 
+<lemma> something we do not get all night , '' a smile Collins say . 
+<POS> NN PRP VBP RB VB DT NN , '' DT VBG NNP VBD . 
+<NER> O O O O O O TIME O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Something)) (NP (PRP we)) (VP (VBP do) (RB n't) (VP (VB get) (NP-TMP (DT all) (NN night)) (, ,) ('' '') (NP (NP (DT a) (VBG smiling)) (SBAR (S (NP (NNP Collins)) (VP (VBD said))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|5 nsubj 2|5 aux 3|5 neg 4|7 det 6|5 nmod:tmod 7|5 punct 8|5 punct 9|5 dobj 10|10 amod 11|13 nsubj 12|10 acl:relcl 13|5 punct 14|
+<word> The Sixers started 20-9 and led the Atlantic Division for the first half of the season until a late fade sent them tumbling toward eighth place . 
+<lemma> the Sixers start 20-9 and lead the Atlantic Division for the first half of the season until a late fade send they tumble toward eighth place . 
+<POS> DT NNP VBD CD CC VBD DT NNP NNP IN DT JJ NN IN DT NN IN DT JJ VB VBD PRP VBG IN JJ NN . 
+<NER> O ORGANIZATION O NUMBER O O O ORGANIZATION ORGANIZATION O O ORDINAL O O O O O O O O O O O O ORDINAL O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Sixers)) (VP (VP (VBD started) (NP (CD 20-9))) (CC and) (VP (VBD led) (NP (DT the) (NNP Atlantic) (NNP Division)) (PP (IN for) (NP (NP (DT the) (JJ first) (NN half)) (PP (IN of) (NP (DT the) (NN season))))) (SBAR (IN until) (S (NP (DT a) (JJ late)) (VP (VB fade) (VP (VBD sent) (S (NP (PRP them)) (VP (VBG tumbling) (PP (IN toward) (NP (JJ eighth) (NN place))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|6 nsubj 2|3 dobj 4|3 cc 5|3 conj:and 6|9 det 7|9 compound 8|6 dobj 9|13 case 10|13 det 11|13 amod 12|6 nmod:for 13|16 case 14|16 det 15|13 nmod:of 16|20 mark 17|19 det 18|20 nsubj 19|6 advcl:until 20|20 dep 21|23 nsubj 22|21 dep 23|26 case 24|26 amod 25|23 nmod:toward 26|3 punct 27|
+<word> None of that matters now . 
+<lemma> none of that matter now . 
+<POS> NN IN DT NNS RB . 
+<NER> O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NN None)) (PP (IN of) (NP (DT that) (NNS matters))) (ADVP (RB now)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|4 case 2|4 det 3|1 nmod:of 4|1 advmod 5|1 punct 6|
+<word> Not even the fact the Bulls were down two stars . 
+<lemma> not even the fact the Bulls be down two star . 
+<POS> RB RB DT NN DT NNPS VBD RB CD NNS . 
+<NER> O O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB Not) (RB even) (NP (DT the) (NN fact))) (NP (DT the) (NNPS Bulls)) (VP (VBD were) (ADVP (RB down) (NP (CD two) (NNS stars)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 dep 1|7 advmod 2|4 det 3|2 nmod:npmod 4|6 det 5|7 nsubj 6|7 advmod 8|10 nummod 9|8 nmod:npmod 10|7 punct 11|
+<word> The 50-win Bulls are heading home early a year after they reached the conference finals . 
+<lemma> the 50-win Bulls be head home early a year after they reach the conference final . 
+<POS> DT JJ NNPS VBP VBG NN RB DT NN IN PRP VBD DT NN NNS . 
+<NER> O O MISC O O O DURATION DURATION DURATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ 50-win) (NNPS Bulls)) (VP (VBP are) (VP (VBG heading) (NP (NN home)) (NP-TMP (RB early) (DT a) (NN year)) (SBAR (IN after) (S (NP (PRP they)) (VP (VBD reached) (NP (DT the) (NN conference) (NNS finals))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 aux 4|5 dobj 6|9 advmod 7|9 det 8|5 nmod:tmod 9|12 mark 10|12 nsubj 11|5 advcl:after 12|15 det 13|15 compound 14|12 dobj 15|5 punct 16|
+<word> `` We were on the ropes and we battled , '' forward Carlos Boozer said . 
+<lemma> `` we be on the rope and we battle , '' forward Carlos Boozer say . 
+<POS> `` PRP VBD IN DT NNS CC PRP VBD , '' RB NNP NNP VBD . 
+<NER> O O O O O O O O O O O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (PRP We)) (VP (VBD were) (PP (IN on) (NP (DT the) (NNS ropes))))) (CC and) (S (NP (PRP we)) (VP (VBD battled)))) (, ,) ('' '') (NP (RB forward) (NNP Carlos) (NNP Boozer)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|15 punct 1|6 nsubj 2|6 cop 3|6 case 4|6 det 5|15 ccomp 6|6 cc 7|9 nsubj 8|6 conj:and 9|15 ccomp 9|15 punct 10|15 punct 11|14 advmod 12|14 compound 13|15 nsubj 14|15 punct 16|
+<word> `` In the end , it came down to the very last second . 
+<lemma> `` in the end , it come down to the very last second . 
+<POS> `` IN DT NN , PRP VBD RB TO DT RB JJ JJ . 
+<NER> O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (PP (IN In) (NP (DT the) (NN end))) (, ,) (NP (PRP it)) (VP (VBD came) (ADVP (RB down)) (PP (TO to) (NP (DT the) (ADJP (RB very) (JJ last)) (JJ second)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 punct 1|4 case 2|4 det 3|7 nmod:in 4|7 punct 5|7 nsubj 6|7 advmod 8|13 case 9|13 det 10|12 advmod 11|13 amod 12|7 nmod:to 13|7 punct 14|
+<word> So , it 's tough . 
+<lemma> so , it be tough . 
+<POS> RB , PRP VBZ JJ . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (ADVP (RB So)) (, ,) (NP (PRP it)) (VP (VBZ 's) (ADJP (JJ tough))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 advmod 1|5 punct 2|5 nsubj 3|5 cop 4|5 punct 6|
+<word> We were right there , given everything , right there . 
+<lemma> we be right there , give everything , right there . 
+<POS> PRP VBD RB RB , VBN NN , RB RB . 
+<NER> O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP We)) (VP (VBD were) (ADVP (RB right)) (NP (NP (RB there)) (, ,) (NP (VBN given) (NN everything)) (, ,)) (ADVP (RB right) (RB there))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 cop 2|4 advmod 3|4 punct 5|7 amod 6|4 appos 7|4 punct 8|10 advmod 9|4 advmod 10|4 punct 11|
+<word> It will be a long summer . '' 
+<lemma> it will be a long summer . '' 
+<POS> PRP MD VB DT JJ NN . '' 
+<NER> O O O O O DATE O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (MD will) (VP (VB be) (NP (DT a) (JJ long) (NN summer)))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubj 1|6 aux 2|6 cop 3|6 det 4|6 amod 5|6 punct 7|6 punct 8|
+<word> Luol Deng had 19 points and 17 rebounds for the Bulls . 
+<lemma> Luol Deng have 19 point and 17 rebound for the Bulls . 
+<POS> NNP NNP VBD CD NNS CC CD NNS IN DT NNPS . 
+<NER> PERSON PERSON O NUMBER O O NUMBER O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Luol) (NNP Deng)) (VP (VBD had) (NP (NP (CD 19) (NNS points)) (CC and) (NP (CD 17) (NNS rebounds))) (PP (IN for) (NP (DT the) (NNPS Bulls)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nummod 4|3 dobj 5|5 cc 6|8 nummod 7|3 dobj 8|5 conj:and 8|11 case 9|11 det 10|3 nmod:for 11|3 punct 12|
+<word> Richard Hamilton scored 19 points and Boozer grabbed 13 rebounds . 
+<lemma> Richard Hamilton score 19 point and Boozer grab 13 rebound . 
+<POS> NNP NNP VBD CD NNS CC NNP VBD CD NNS . 
+<NER> PERSON PERSON O NUMBER O O PERSON O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Richard) (NNP Hamilton)) (VP (VBD scored) (SBAR (S (NP (NP (CD 19) (NNS points)) (CC and) (NP (NNP Boozer))) (VP (VBD grabbed) (NP (CD 13) (NNS rebounds)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nummod 4|8 nsubj 5|5 cc 6|5 conj:and 7|8 nsubj 7|3 ccomp 8|10 nummod 9|8 dobj 10|3 punct 11|
+<word> The Bulls had the lock-down defensive effort to nearly pull off the win . 
+<lemma> the Bulls have the lock-down defensive effort to nearly pull off the win . 
+<POS> DT NNPS VBD DT JJ JJ NN TO RB VB RP DT VB . 
+<NER> O ORGANIZATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Bulls)) (VP (VBD had) (NP (DT the) (JJ lock-down) (JJ defensive) (NN effort) (S (VP (TO to) (VP (ADVP (RB nearly)) (VB pull) (PRT (RP off)) (NP (DT the)) (S (VP (VB win)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|7 det 4|7 amod 5|7 amod 6|3 dobj 7|10 mark 8|10 advmod 9|7 acl:to 10|10 compound:prt 11|10 dobj 12|10 dep 13|3 punct 14|
+<word> The signature series came in the fourth quarter when the Sixers wasted a forced turnover on the other end with a brutal offensive possession . 
+<lemma> the signature series come in the fourth quarter when the Sixers waste a forced turnover on the other end with a brutal offensive possession . 
+<POS> DT NN NN VBD IN DT JJ NN WRB DT NNPS VBD DT JJ NN IN DT JJ NN IN DT JJ JJ NN . 
+<NER> O O O O O DATE DATE DATE O O ORGANIZATION O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN signature) (NN series)) (VP (VBD came) (PP (IN in) (NP (DT the) (JJ fourth) (NN quarter))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NNPS Sixers)) (VP (VBD wasted) (NP (DT a) (JJ forced) (NN turnover)) (PP (IN on) (NP (DT the) (JJ other) (NN end))) (PP (IN with) (NP (DT a) (JJ brutal) (JJ offensive) (NN possession))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|8 case 5|8 det 6|8 amod 7|4 nmod:in 8|12 advmod 9|11 det 10|12 nsubj 11|4 advcl 12|15 det 13|15 amod 14|12 dobj 15|19 case 16|19 det 17|19 amod 18|12 nmod:on 19|24 case 20|24 det 21|24 amod 22|24 amod 23|12 nmod:with 24|4 punct 25|
+<word> Spencer Hawes missed a shot , Thaddeus Young missed two straight in the paint , and Hawes missed again against hands-up defense that sent the bench into a frenzy . 
+<lemma> Spencer Hawes miss a shot , Thaddeus Young miss two straight in the paint , and Hawes miss again against hands-up defense that send the bench into a frenzy . 
+<POS> NNP NNP VBD DT NN , NNP NNP VBD CD JJ IN DT NN , CC NNP VBD RB IN JJ NN WDT VBD DT NN IN DT NN . 
+<NER> PERSON PERSON O O O O PERSON PERSON O NUMBER O O O O O O PERSON O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Spencer) (NNP Hawes)) (VP (VBD missed) (NP (DT a) (NN shot)))) (PRN (, ,) (S (NP (NNP Thaddeus) (NNP Young)) (VP (VBD missed) (ADJP (NP (CD two)) (JJ straight)) (PP (IN in) (NP (DT the) (NN paint))))) (, ,)) (CC and) (S (NP (NNP Hawes)) (VP (VBD missed) (ADVP (RB again)) (PP (IN against) (NP (NP (JJ hands-up) (NN defense)) (SBAR (WHNP (WDT that)) (S (VP (VBD sent) (NP (DT the) (NN bench)) (PP (IN into) (NP (DT a) (NN frenzy)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 det 4|3 dobj 5|9 punct 6|8 compound 7|9 nsubj 8|3 dep 9|11 nmod:npmod 10|9 xcomp 11|14 case 12|14 det 13|9 nmod:in 14|9 punct 15|3 cc 16|18 nsubj 17|3 conj:and 18|18 advmod 19|22 case 20|22 amod 21|18 nmod:against 22|24 nsubj 22|22 ref 23|22 acl:relcl 24|26 det 25|24 dobj 26|29 case 27|29 det 28|24 nmod:into 29|3 punct 30|
+<word> Noah was the first one up pumping his fist and screaming encouragement for the fantastic defensive effort . 
+<lemma> Noah be the first one up pump he fist and scream encouragement for the fantastic defensive effort . 
+<POS> NNP VBD DT JJ CD IN VBG PRP$ NN CC VBG NN IN DT JJ JJ NN . 
+<NER> PERSON O O ORDINAL NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Noah)) (VP (VBD was) (NP (DT the) (JJ first) (CD one)) (PP (IN up) (S (VP (VP (VBG pumping) (NP (PRP$ his) (NN fist))) (CC and) (VP (VBG screaming) (NP (NP (NN encouragement)) (PP (IN for) (NP (DT the) (ADJP (JJ fantastic) (JJ defensive)) (NN effort))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|5 cop 2|5 det 3|5 amod 4|7 mark 6|5 advcl:up 7|9 nmod:poss 8|7 dobj 9|7 cc 10|5 advcl:up 11|7 conj:and 11|11 dobj 12|17 case 13|17 det 14|16 amod 15|17 amod 16|12 nmod:for 17|5 punct 18|
+<word> Hawes fired an airball next time down and there was a collective groan from the crowd . 
+<lemma> hawe fire a airball next time down and there be a collective groan from the crowd . 
+<POS> NNS VBD DT NN JJ NN IN CC EX VBD DT JJ NN IN DT NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Hawes)) (VP (VBD fired) (NP (DT an) (NN airball)) (ADVP (JJ next) (NN time) (IN down)))) (CC and) (S (NP (EX there)) (VP (VBD was) (NP (NP (DT a) (JJ collective) (NN groan)) (PP (IN from) (NP (DT the) (NN crowd)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|2 dobj 4|2 advmod 5|5 dep 6|5 case 7|2 cc 8|10 expl 9|2 conj:and 10|13 det 11|13 amod 12|10 nsubj 13|16 case 14|16 det 15|13 nmod:from 16|2 punct 17|
+<word> Iguodala made up for a string of Sixers misses with a tying 3 that made it 70-all . 
+<lemma> Iguodala make up for a string of Sixers miss with a tie 3 that make it 70-all . 
+<POS> NNP VBD RP IN DT NN IN NNP VBZ IN DT VBG CD WDT VBD PRP JJ . 
+<NER> PERSON O O O O O O ORGANIZATION O O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Iguodala)) (VP (VBD made) (PRT (RP up)) (SBAR (IN for) (S (NP (NP (DT a) (NN string)) (PP (IN of) (NP (NNP Sixers)))) (VP (VBZ misses) (PP (IN with) (S (NP (DT a)) (VP (VBG tying) (NP (NP (CD 3)) (SBAR (WHNP (WDT that)) (S (VP (VBD made) (S (NP (PRP it)) (ADJP (JJ 70-all)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 compound:prt 3|9 mark 4|8 det:qmod 5|5 mwe 6|5 mwe 7|9 nsubj 8|2 advcl:for 9|12 mark 10|12 nsubj 11|9 advcl:with 12|12 dobj 13|15 nsubj 13|13 ref 14|13 acl:relcl 15|17 nsubj 16|15 xcomp 17|2 punct 18|
+<word> The Sixers tried to get a laugh by showing the Bulls bench on `` Kiss Cam . '' 
+<lemma> the Sixers try to get a laugh by show the Bulls bench on `` kiss Cam . '' 
+<POS> DT NNPS VBD TO VB DT NN IN VBG DT NNPS NN IN `` VB NNP . '' 
+<NER> O ORGANIZATION O O O O O O O O ORGANIZATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNPS Sixers)) (VP (VBD tried) (S (VP (TO to) (VP (VB get) (NP (DT a) (NN laugh)) (PP (IN by) (S (VP (VBG showing) (NP (DT the) (NNPS Bulls) (NN bench)) (PP (IN on) (`` ``) (S (VP (VB Kiss) (NP (NNP Cam)))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 nsubj:xsubj 2|5 mark 4|3 xcomp 5|7 det 6|5 dobj 7|9 mark 8|5 advcl:by 9|12 det 10|12 compound 11|9 dobj 12|15 case 13|15 punct 14|9 advcl:on 15|15 dobj 16|3 punct 17|3 punct 18|
+<word> Noah popped his warmup jacket toward the camera and the crowd booed the oversized `` Chicago '' on the big screen . 
+<lemma> Noah pop he warmup jacket toward the camera and the crowd boo the oversized `` Chicago '' on the big screen . 
+<POS> NNP VBD PRP$ NN NN IN DT NN CC DT NN VBD DT JJ `` NNP '' IN DT JJ NN . 
+<NER> PERSON O O O O O O O O O O O O O O LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Noah)) (VP (VBD popped) (NP (PRP$ his) (NN warmup) (NN jacket)) (PP (IN toward) (NP (DT the) (NN camera))))) (CC and) (S (NP (DT the) (NN crowd)) (VP (VBD booed) (NP (DT the) (JJ oversized) (`` ``) (NNP Chicago) ('' '')) (PP (IN on) (NP (DT the) (JJ big) (NN screen))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 nmod:poss 3|5 compound 4|2 dobj 5|8 case 6|8 det 7|2 nmod:toward 8|2 cc 9|11 det 10|12 nsubj 11|2 conj:and 12|16 det 13|16 amod 14|16 punct 15|12 dobj 16|16 punct 17|21 case 18|21 det 19|21 amod 20|12 nmod:on 21|2 punct 22|
+<word> Noah was one of the top offensive rebounders in the league and the Bulls figured on missing his presence in the middle . 
+<lemma> Noah be one of the top offensive rebounder in the league and the Bulls figure on miss he presence in the middle . 
+<POS> NNP VBD CD IN DT JJ NN NNS IN DT NN CC DT NNPS VBD IN VBG PRP$ NN IN DT NN . 
+<NER> PERSON O NUMBER O O O O O O O O O O ORGANIZATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Noah)) (VP (VBD was) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (JJ top) (NN offensive) (NNS rebounders)) (PP (IN in) (NP (DT the) (NN league)))))))) (CC and) (S (NP (DT the) (NNPS Bulls)) (VP (VBD figured) (PP (IN on) (S (VP (VBG missing) (NP (PRP$ his) (NN presence)) (PP (IN in) (NP (DT the) (NN middle)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 nsubj 1|3 cop 2|8 det:qmod 3|3 mwe 4|8 det 5|8 amod 6|8 compound 7|11 case 9|11 det 10|8 nmod:in 11|3 cc 12|14 det 13|15 nsubj 14|3 conj:and 15|8 det:qmod 15|17 mark 16|15 advcl:on 17|19 nmod:poss 18|17 dobj 19|22 case 20|22 det 21|17 nmod:in 22|3 punct 23|
+<word> Led by Deng and Boozer , the Bulls instead went out and controlled the boards , holding a 49-29 edge early in the fourth . 
+<lemma> lead by Deng and Boozer , the Bulls instead go out and control the board , hold a 49-29 edge early in the fourth . 
+<POS> VBN IN NNP CC NNP , DT NNPS RB VBD RB CC VBD DT NNS , VBG DT CD NN RB IN DT JJ . 
+<NER> O O PERSON O PERSON O O ORGANIZATION O O O O O O O O O O NUMBER O O O O ORDINAL O 
+<Timex> None
+<parse>         (ROOT (S (S (VP (VBN Led) (PP (IN by) (NP (NNP Deng) (CC and) (NNP Boozer))))) (, ,) (NP (DT the) (NNPS Bulls)) (VP (VP (ADVP (RB instead)) (VBD went) (PRT (RB out))) (CC and) (VP (VBD controlled) (NP (DT the) (NNS boards))) (, ,) (S (VP (VBG holding) (NP (DT a) (CD 49-29) (NN edge)) (ADVP (RB early)) (PP (IN in) (NP (DT the) (JJ fourth)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 advcl 1|3 case 2|1 nmod:by 3|3 cc 4|1 nmod:by 5|3 conj:and 5|10 punct 6|8 det 7|10 nsubj 8|13 nsubj 8|10 advmod 9|10 compound:prt 11|10 cc 12|10 conj:and 13|15 det 14|13 dobj 15|10 punct 16|10 advcl 17|20 det 18|20 nummod 19|17 dobj 20|17 advmod 21|24 case 22|24 det 23|17 nmod:in 24|10 punct 25|
+<word> `` We have to use this as motivation to move forward , '' Thibodeau said . 
+<lemma> `` we have to use this as motivation to move forward , '' Thibodeau say . 
+<POS> `` PRP VBP TO VB DT IN NN TO VB RB , '' NNP VBD . 
+<NER> O O O O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP have) (S (VP (TO to) (VP (VB use) (NP (NP (DT this)) (PP (IN as) (NP (NN motivation))))))) (S (VP (TO to) (VP (VB move) (ADVP (RB forward))))))) (, ,) ('' '') (NP (NNP Thibodeau)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|15 punct 1|3 nsubj 2|5 nsubj:xsubj 2|10 nsubj:xsubj 2|15 ccomp 3|5 mark 4|3 xcomp 5|5 dobj 6|8 case 7|6 nmod:as 8|10 mark 9|3 xcomp 10|10 advmod 11|15 punct 12|15 punct 13|15 nsubj 14|15 punct 16|
+<word> Notes : The Sixers scored a measly 26 first-half points in their Game 5 loss . 
+<lemma> note : the Sixers score a measly 26 first-half point in they game 5 loss . 
+<POS> NNS : DT NNPS VBD DT JJ CD JJ NNS IN PRP$ NN CD NN . 
+<NER> O O O ORGANIZATION O O O NUMBER O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NNS Notes)) (: :) (S (NP (DT The) (NNPS Sixers)) (VP (VBD scored) (NP (NP (DT a) (JJ measly) (CD 26) (JJ first-half) (NNS points)) (PP (IN in) (NP (PRP$ their) (NN Game) (CD 5) (NN loss)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|1 punct 2|4 det 3|5 nsubj 4|1 appos 5|10 det 6|10 amod 7|10 nummod 8|10 amod 9|5 dobj 10|15 case 11|15 nmod:poss 12|15 compound 13|15 nummod 14|10 nmod:in 15|1 punct 16|
+<word> They led Game 6 48-40 at halftime . 
+<lemma> they lead Game 6 48-40 at halftime . 
+<POS> PRP VBD NNP CD CD IN NN . 
+<NER> O O O NUMBER NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBD led) (NP (NNP Game)) (PP (NP (CD 6) (CD 48-40)) (IN at) (NP (NN halftime)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|5 nummod 4|2 nmod:at 5|5 case 6|5 dep 7|2 punct 8|
+<word> The Sixers started 12 of 20 from the field and finished the half at 50 percent . 
+<lemma> the Sixers start 12 of 20 from the field and finish the half at 50 percent . 
+<POS> DT NNP VBD CD IN CD IN DT NN CC VBD DT NN IN CD NN . 
+<NER> O ORGANIZATION O NUMBER O NUMBER O O O O O O O O PERCENT PERCENT O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Sixers)) (VP (VP (VBD started) (NP (NP (CD 12)) (PP (IN of) (NP (CD 20)))) (PP (IN from) (NP (DT the) (NN field)))) (CC and) (VP (VBD finished) (NP (DT the) (NN half)) (PP (IN at) (NP (CD 50) (NN percent))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|11 nsubj 2|3 dobj 4|6 case 5|4 nmod:of 6|9 case 7|9 det 8|3 nmod:from 9|3 cc 10|3 conj:and 11|13 det 12|11 dobj 13|16 case 14|16 nummod 15|11 nmod:at 16|3 punct 17|
+<word> They shot a season-low 32 percent in Game 5 and failed to shoot better than 40 percent in three other games . 
+<lemma> they shoot a season-low 32 percent in Game 5 and fail to shoot better than 40 percent in three other game . 
+<POS> PRP VBD DT JJ CD NN IN NNP CD CC VBD TO VB JJR IN CD NN IN CD JJ NNS . 
+<NER> O O O O PERCENT PERCENT O O NUMBER O O O O O O PERCENT PERCENT O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VP (VBD shot) (NP (DT a) (JJ season-low) (CD 32) (NN percent)) (PP (IN in) (NP (NNP Game) (CD 5)))) (CC and) (VP (VBD failed) (S (VP (TO to) (VP (VB shoot) (NP (NP (QP (JJR better) (IN than) (CD 40)) (NN percent)) (PP (IN in) (NP (CD three) (JJ other) (NNS games))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|11 nsubj 1|13 nsubj:xsubj 1|6 det 3|6 amod 4|6 nummod 5|2 dobj 6|8 case 7|2 nmod:in 8|8 nummod 9|2 cc 10|2 conj:and 11|13 mark 12|11 xcomp 13|16 advmod 14|16 advmod 15|17 nummod 16|13 dobj 17|21 case 18|21 nummod 19|21 amod 20|17 nmod:in 21|2 punct 22|
+<coreference> [['1,1,3,2', '2,1,2,1', '2,4,5,4', '8,1,2,1', '18,1,2,1', '22,1,2,1', '23,1,2,1', '23,3,4,3', '24,1,2,1', '24,11,12,11', '26,2,3,2', '26,19,20,19', '29,2,3,2', '38,1,2,1', '39,1,2,1', '58,1,2,1'], ['1,12,14,13', '57,15,17,16', '60,10,12,11'], ['1,15,19,17', '9,1,3,2', '10,7,8,7'], ['2,1,10,2', '2,12,13,12', '4,2,3,2'], ['3,5,6,5', '8,12,13,12'], ['45,7,10,9', '4,7,9,8'], ['5,4,5,4', '8,42,43,42', '29,14,15,14', '30,12,13,12', '42,12,13,12', '56,4,5,4'], ['5,1,6,1', '15,14,16,15'], ['7,1,5,2', '11,3,5,4', '16,15,17,16', '19,1,3,2', '27,1,3,2', '29,10,12,11', '31,1,3,2', '32,1,3,2', '38,16,18,17', '42,1,3,2', '54,10,12,11', '58,8,9,8', '59,1,3,2', '64,3,5,4', '66,1,3,2'], ['18,3,5,4', '8,33,34,33', '29,3,4,3', '30,8,9,8', '33,10,11,10'], ['8,19,26,22', '12,1,3,2', '14,14,15,14', '16,5,7,6', '44,5,7,6', '51,10,12,11', '53,1,3,2', '59,11,12,11', '61,13,15,14', '62,7,9,8'], ['8,24,26,24', '10,9,11,10'], ['8,41,46,43', '30,11,14,13'], ['10,13,16,15', '10,2,3,2', '11,1,2,1', '20,1,2,1', '20,6,7,6', '21,1,2,1', '29,6,7,6', '35,1,2,1', '35,6,7,6', '35,16,17,16', '36,1,2,1', '36,3,4,3', '36,15,16,15', '37,2,3,2', '37,4,8,5', '37,10,11,10', '41,12,13,12'], ['11,1,5,1', '12,20,21,20', '14,4,5,4', '15,14,15,14', '16,2,3,2', '17,18,19,18', '19,4,5,4'], ['11,7,9,8', '22,13,15,14', '23,8,10,9'], ['12,22,23,22', '27,17,18,17'], ['12,4,8,7', '12,15,16,15'], ['13,7,8,7', '67,19,20,19'], ['13,1,4,3', '56,1,2,1', '56,8,9,8', '60,1,2,1', '60,3,4,3', '61,1,2,1', '61,18,19,18'], ['14,14,18,17', '14,2,3,2', '15,2,3,2', '15,9,10,9', '26,12,13,12', '63,14,15,14'], ['15,6,8,7', '16,8,9,8'], ['17,1,3,2', '18,18,19,18'], ['17,4,5,4', '17,14,15,14', '44,9,10,9', '55,10,11,10'], ['19,4,6,5', '22,30,32,31', '34,7,9,8'], ['19,7,17,8', '20,6,8,7'], ['22,9,15,11', '54,6,9,8'], ['23,3,10,4', '24,5,6,5'], ['26,7,8,7', '24,11,13,12'], ['26,9,10,9', '29,13,14,13', '31,10,11,10', '33,3,4,3', '33,6,7,6', '34,1,2,1'], ['29,2,5,4', '30,3,4,3'], ['30,15,17,16', '30,18,20,19'], ['30,7,14,9', '33,9,12,11'], ['31,13,16,15', '36,18,21,20'], ['65,3,4,3', '32,8,12,8'], ['35,20,21,20', '35,16,19,18'], ['38,3,4,3', '66,6,7,6'], ['38,12,13,12', '40,2,3,2', '41,2,3,2', '42,22,23,22', '45,11,12,11', '46,2,3,2', '46,8,9,8'], ['42,11,17,13', '66,12,14,13'], ['46,12,15,14', '52,7,8,7', '62,5,6,5'], ['47,3,5,4', '47,6,7,6', '48,3,4,3'], ['49,4,8,4', '49,1,2,1'], ['50,4,7,6', '49,6,8,7', '50,1,2,1'], ['51,1,3,2', '62,3,4,3'], ['51,4,5,4', '52,4,5,4'], ['51,4,6,5', '52,4,6,5'], ['55,1,3,2', '55,17,18,17', '57,1,2,1'], ['58,5,9,6', '58,11,12,11', '58,16,17,16'], ['62,3,6,3', '63,2,3,2', '64,12,13,12', '65,1,2,1', '67,1,2,1'], ['64,14,15,14', '67,9,10,9']]
+</DOC>

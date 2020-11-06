@@ -1,0 +1,60 @@
+<DOC> article-3903.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 |
+<word> The United States has offered a $ 10 million bounty for the founder of the Pakistani militant group blamed for the 2008 attacks in the Indian city of Mumbai that killed 166 people , a move that could complicate U.S.-Pakistan relations at a tense time , The Associated Press reported . 
+<lemma> the United States have offer a $ 10 million bounty for the founder of the pakistani militant group blame for the 2008 attack in the indian city of Mumbai that kill 166 people , a move that could complicate U.S.-Pakistan relation at a tense time , the Associated Press report . 
+<POS> DT NNP NNPS VBZ VBN DT $ CD CD NN IN DT NN IN DT JJ JJ NN VBN IN DT CD NNS IN DT JJ NN IN NNP WDT VBD CD NNS , DT NN WDT MD VB NNP NNS IN DT JJ NN , DT NNP NNP VBD . 
+<NER> O LOCATION LOCATION O O O MONEY MONEY MONEY O O O O O O MISC O O O O O DATE O O O MISC O O LOCATION O O NUMBER O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNP United) (NNPS States)) (VP (VBZ has) (VP (VBN offered) (NP (NP (DT a) (ADJP (QP ($ $) (CD 10) (CD million))) (NN bounty)) (PP (IN for) (NP (DT the) (NN founder)))) (PP (IN of) (NP (NP (DT the) (JJ Pakistani) (JJ militant) (NN group)) (VP (VBN blamed) (PP (IN for) (NP (DT the) (CD 2008) (NNS attacks))) (PP (IN in) (NP (NP (DT the) (JJ Indian) (NN city)) (PP (IN of) (NP (NNP Mumbai))) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (NP (CD 166) (NNS people)))))))))) (, ,) (NP (NP (DT a) (NN move)) (SBAR (WHNP (WDT that)) (S (VP (MD could) (VP (VB complicate) (NP (NNP U.S.-Pakistan) (NNS relations)) (PP (IN at) (NP (DT a) (JJ tense) (NN time))))))))))) (, ,) (NP (DT The) (NNP Associated) (NNP Press)) (VP (VBD reported)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 50|3 det 1|3 compound 2|5 nsubj 3|5 aux 4|50 ccomp 5|10 det 6|10 amod 7|9 compound 8|7 nummod 9|5 dobj 10|13 case 11|13 det 12|10 nmod:for 13|18 case 14|18 det 15|18 amod 16|18 amod 17|5 nmod:of 18|18 acl 19|23 case 20|23 det 21|23 nummod 22|19 nmod:for 23|27 case 24|27 det 25|27 amod 26|19 nmod:in 27|31 nsubj 27|29 case 28|27 nmod:of 29|27 ref 30|27 acl:relcl 31|33 nummod 32|31 dobj 33|5 punct 34|36 det 35|5 dobj 36|39 nsubj 36|36 ref 37|39 aux 38|36 acl:relcl 39|41 compound 40|39 dobj 41|45 case 42|45 det 43|45 amod 44|39 nmod:at 45|50 punct 46|49 det 47|49 compound 48|50 nsubj 49|50 punct 51|
+<word> Hafiz Saeed founded Lashkar-e-Taiba in the 1980s , allegedly with Pakistani support to pressure archenemy India over the disputed territory of Kashmir . 
+<lemma> Hafiz Saeed found Lashkar-e-Taiba in the 1980s , allegedly with pakistani support to pressure archenemy India over the dispute territory of Kashmir . 
+<POS> NNP NNP VBD NNP IN DT CD , RB IN JJ NN TO NN NN NNP IN DT VBN NN IN NNP . 
+<NER> PERSON PERSON O O O DATE DATE O O O MISC O O O O LOCATION O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Hafiz) (NNP Saeed)) (VP (VBD founded) (NP (NP (NNP Lashkar-e-Taiba)) (PP (IN in) (NP (DT the) (CD 1980s)))) (, ,) (PP (ADVP (RB allegedly)) (IN with) (NP (NP (JJ Pakistani) (NN support)) (PP (TO to) (NP (NP (NN pressure) (NN archenemy) (NNP India)) (PP (IN over) (NP (NP (DT the) (VBN disputed) (NN territory)) (PP (IN of) (NP (NNP Kashmir)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|3 dobj 4|7 case 5|7 det 6|4 nmod:in 7|3 punct 8|12 advmod 9|12 case 10|12 amod 11|3 nmod:with 12|16 case 13|16 compound 14|16 compound 15|12 nmod:to 16|20 case 17|20 det 18|20 amod 19|16 nmod:over 20|22 case 21|20 nmod:of 22|3 punct 23|
+<word> Pakistan banned the group in 2002 under pressure from the U.S. but has done little to crack down on its activities . 
+<lemma> Pakistan ban the group in 2002 under pressure from the U.S. but have do little to crack down on its activity . 
+<POS> NNP VBD DT NN IN CD IN NN IN DT NNP CC VBZ VBN JJ TO VB RP IN PRP$ NNS . 
+<NER> LOCATION O O O O DATE O O O O LOCATION O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Pakistan)) (VP (VP (VBD banned) (NP (NP (DT the) (NN group)) (PP (IN in) (NP (CD 2002)))) (PP (IN under) (NP (NN pressure))) (PP (IN from) (NP (DT the) (NNP U.S.)))) (CC but) (VP (VBZ has) (VP (VBN done) (ADJP (JJ little) (S (VP (TO to) (VP (VB crack) (PRT (RP down)) (PP (IN on) (NP (PRP$ its) (NNS activities)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|14 nsubj 1|4 det 3|2 dobj 4|6 case 5|4 nmod:in 6|8 case 7|2 nmod:under 8|11 case 9|11 det 10|2 nmod:from 11|2 cc 12|14 aux 13|2 conj:but 14|14 xcomp 15|17 mark 16|15 xcomp 17|17 compound:prt 18|21 case 19|21 nmod:poss 20|17 nmod:on 21|2 punct 22|
+<word> Saeed operates openly in the country , giving public speeches and appearing on TV talk shows . 
+<lemma> Saeed operate openly in the country , give public speech and appear on tv talk show . 
+<POS> NNP VBZ RB IN DT NN , VBG JJ NNS CC VBG IN NN NN NNS . 
+<NER> PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Saeed)) (VP (VBZ operates) (ADVP (RB openly)) (PP (IN in) (NP (DT the) (NN country))) (, ,) (S (VP (VP (VBG giving) (NP (JJ public) (NNS speeches))) (CC and) (VP (VBG appearing) (PP (IN on) (NP (NN TV) (NN talk) (NNS shows))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 advmod 3|6 case 4|6 det 5|2 nmod:in 6|2 punct 7|2 ccomp 8|10 amod 9|8 dobj 10|8 cc 11|2 ccomp 12|8 conj:and 12|16 case 13|16 compound 14|16 compound 15|12 nmod:on 16|2 punct 17|
+<word> The U.S. also offered up to $ 2 million for Lashkar-e-Taiba 's deputy leader , Hafiz Abdul Rahman Makki . 
+<lemma> the U.S. also offer up to $ 2 million for Lashkar-e-Taiba 's deputy leader , Hafiz Abdul Rahman Makki . 
+<POS> DT NNP RB VBD RP TO $ CD CD IN NNP POS NN NN , NNP NNP NNP NNP . 
+<NER> O LOCATION O O O O MONEY MONEY MONEY O LOCATION O O O O PERSON PERSON PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP U.S.)) (ADVP (RB also)) (VP (VBD offered) (PRT (RP up)) (PP (TO to) (NP (QP ($ $) (CD 2) (CD million)))) (PP (IN for) (NP (NP (NP (NNP Lashkar-e-Taiba) (POS 's)) (NN deputy) (NN leader)) (, ,) (NP (NNP Hafiz) (NNP Abdul) (NNP Rahman) (NNP Makki))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|4 compound:prt 5|7 case 6|4 nmod:to 7|9 compound 8|7 nummod 9|14 case 10|14 nmod:poss 11|11 case 12|14 compound 13|4 nmod:for 14|14 punct 15|19 compound 16|19 compound 17|19 compound 18|14 appos 19|4 punct 20|
+<word> The bounties were posted on the U.S. State Department Rewards for Justice website late Monday , the U.S. Embassy in Islamabad said Tuesday , April 3 . 
+<lemma> the bounty be post on the U.S. State Department reward for Justice website late Monday , the U.S. Embassy in Islamabad say Tuesday , April 3 . 
+<POS> DT NNS VBD VBN IN DT NNP NNP NNP NNS IN NNP NN RB NNP , DT NNP NNP IN NNP VBD NNP , NNP CD . 
+<NER> O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O DATE DATE O O ORGANIZATION ORGANIZATION O LOCATION O DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNS bounties)) (VP (VBD were) (VP (VBN posted) (PP (IN on) (NP (NP (DT the) (NNP U.S.) (NNP State) (NNP Department) (NNS Rewards)) (PP (IN for) (NP (NNP Justice) (NN website))) (NP-TMP (RB late) (NNP Monday))))))) (, ,) (NP (NP (DT the) (NNP U.S.) (NNP Embassy)) (PP (IN in) (NP (NNP Islamabad)))) (VP (VBD said) (NP (NP (NNP Tuesday)) (, ,) (NP (NNP April) (CD 3)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 22|2 det 1|4 nsubjpass 2|4 auxpass 3|22 ccomp 4|10 case 5|10 det 6|10 compound 7|10 compound 8|10 compound 9|4 nmod:on 10|13 case 11|13 compound 12|10 nmod:for 13|15 advmod 14|10 nmod:tmod 15|22 punct 16|19 det 17|19 compound 18|22 nsubj 19|21 case 20|19 nmod:in 21|22 dobj 23|23 punct 24|23 appos 25|25 nummod 26|22 punct 27|
+<word> The reward for Saeed is one of the highest offered by the program and is equal to the amount for Taliban chief Mullah Omar . 
+<lemma> the reward for Saeed be one of the highest offer by the program and be equal to the amount for Taliban chief Mullah Omar . 
+<POS> DT NN IN NNP VBZ CD IN DT JJS VBN IN DT NN CC VBZ JJ TO DT NN IN NNP NN NNP NNP . 
+<NER> O O O PERSON O NUMBER O O O O O O O O O O O O O O ORGANIZATION O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN reward)) (PP (IN for) (NP (NNP Saeed)))) (VP (VBZ is) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (JJS highest)) (VP (VP (VBN offered) (PP (IN by) (NP (DT the) (NN program)))) (CC and) (VP (VBZ is) (ADJP (JJ equal) (PP (TO to) (NP (NP (DT the) (NN amount)) (PP (IN for) (NP (NNP Taliban) (NN chief) (NNP Mullah) (NNP Omar)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 det 1|6 nsubj 2|4 case 3|2 nmod:for 4|6 cop 5|9 case 7|9 det 8|6 nmod:of 9|9 dep 10|13 case 11|13 det 12|10 nmod:by 13|10 cc 14|16 cop 15|9 dep 16|10 conj:and 16|19 case 17|19 det 18|16 nmod:to 19|24 case 20|24 compound 21|24 compound 22|24 compound 23|19 nmod:for 24|6 punct 25|
+<word> Only Ayman al-Zawahri , who succeeded Osama bin Laden as al-Qaida chief , fetches a higher , $ 25 million bounty . 
+<lemma> only Ayman al-Zawahri , who succeed Osama bin Laden as al-Qaida chief , fetch a higher , $ 25 million bounty . 
+<POS> RB NNP NNP , WP VBD NNP NNP NNP IN NNP NN , VBZ DT JJR , $ CD CD NN . 
+<NER> O PERSON PERSON O O O PERSON PERSON PERSON O MISC O O O O O O MONEY MONEY MONEY O O 
+<Timex> None
+<parse>         (ROOT (S (RB Only) (NP (NP (NNP Ayman) (NNP al-Zawahri)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD succeeded) (NP (NP (NNP Osama) (NNP bin) (NNP Laden)) (PP (IN as) (NP (NNP al-Qaida) (NN chief))))))) (, ,)) (VP (VBZ fetches) (NP (DT a) (JJR higher) (, ,) (ADJP ($ $) (CD 25) (CD million)) (NN bounty))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|14 advmod 1|3 compound 2|6 nsubj 3|14 nsubj 3|3 punct 4|3 ref 5|3 acl:relcl 6|9 compound 7|9 compound 8|6 dobj 9|12 case 10|12 compound 11|9 nmod:as 12|3 punct 13|21 det 15|21 amod 16|21 punct 17|21 amod 18|18 compound 19|18 compound 20|14 dobj 21|14 punct 22|
+<coreference> [['2,1,3,2', '4,1,2,1', '7,4,5,4'], ['5,11,13,11', '2,4,8,4'], ['3,1,2,1', '3,20,21,20'], ['3,10,12,11', '5,1,3,2'], ['5,16,20,19', '5,11,15,14']]
+</DOC>

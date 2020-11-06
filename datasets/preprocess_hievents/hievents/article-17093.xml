@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArticleInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Text>Suspected Islamist militants blew up a gas pipeline in eastern Yemen on Monday for the third time in recent months as the government ratcheted up its campaign against al Qaeda linked insurgents in the south.
+ The latest attack will likely delay plans to resume LNG output which had been halted by another attack in April claimed by Islamist militants. The &amp;#036;4.5 billion Yemen LNG project has two production trains with a combined capacity of 6.7 million tonnes per year, supplying mainly to Asia, and then to Europe and Americas.</Text>
+  <Events>
+    <EventMentionInfo>
+      <ID>1</ID>
+      <AnchorText>blew</AnchorText>
+      <Type>Occurrence</Type>
+      <Position>29</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>2</ID>
+      <AnchorText>ratcheted</AnchorText>
+      <Type>I_Action</Type>
+      <Position>133</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>3</ID>
+      <AnchorText>campaign</AnchorText>
+      <Type>Occurrence</Type>
+      <Position>150</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>4</ID>
+      <AnchorText>attack</AnchorText>
+      <Type>Occurrence</Type>
+      <Position>220</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>5</ID>
+      <AnchorText>halted</AnchorText>
+      <Type>Occurrence</Type>
+      <Position>287</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>6</ID>
+      <AnchorText>attack</AnchorText>
+      <Type>Occurrence</Type>
+      <Position>305</Position>
+    </EventMentionInfo>
+    <EventMentionInfo>
+      <ID>7</ID>
+      <AnchorText>claimed</AnchorText>
+      <Type>I_Action</Type>
+      <Position>321</Position>
+    </EventMentionInfo>
+  </Events>
+  <Relations>
+    <HierarchyRelationInfo>
+      <SuperEventID>4</SuperEventID>
+      <SubEventID>1</SubEventID>
+      <Type>Coref</Type>
+      <Uncertain>false</Uncertain>
+    </HierarchyRelationInfo>
+    <HierarchyRelationInfo>
+      <SuperEventID>6</SuperEventID>
+      <SubEventID>5</SubEventID>
+      <Type>SuperSub</Type>
+      <Uncertain>false</Uncertain>
+    </HierarchyRelationInfo>
+  </Relations>
+</ArticleInfo>

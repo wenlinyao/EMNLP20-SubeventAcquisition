@@ -1,0 +1,109 @@
+<DOC> article-15808.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 |
+<word> Local television showed what appeared to be the plane 's tail with the Sukhoi Superjet-100 's blue and white logo , part of a wing and bits of twisted metal scattered along Mount Salak 's slopes . 
+<lemma> local television show what appear to be the plane 's tail with the Sukhoi superjet-100 's blue and white logo , part of a wing and bit of twisted metal scatter along Mount Salak 's slope . 
+<POS> JJ NN VBD WP VBD TO VB DT NN POS NN IN DT NNP NN POS JJ CC JJ NN , NN IN DT NN CC NNS IN JJ NN VBN IN NNP NNP POS NNS . 
+<NER> O O O O O O O O O O O O O MISC MISC O O O O O O O O O O O O O O O O O LOCATION LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Local) (NN television)) (VP (VBD showed) (SBAR (WHNP (WP what)) (S (VP (VBD appeared) (S (VP (TO to) (VP (VB be) (NP (NP (NP (DT the) (NN plane) (POS 's)) (NN tail)) (PP (IN with) (NP (NP (NP (DT the) (NNP Sukhoi) (NN Superjet-100) (POS 's)) (ADJP (JJ blue) (CC and) (JJ white)) (NN logo)) (, ,) (NP (NP (NN part)) (PP (IN of) (NP (NP (DT a) (NN wing) (CC and) (NNS bits)) (PP (IN of) (NP (NP (JJ twisted) (NN metal)) (VP (VBN scattered) (PP (IN along) (NP (NP (NNP Mount) (NNP Salak) (POS 's)) (NNS slopes))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 amod 1|3 nsubj 2|5 nsubj 4|11 nsubj:xsubj 4|3 ccomp 5|11 mark 6|11 cop 7|9 det 8|11 nmod:poss 9|9 case 10|5 xcomp 11|20 case 12|15 det 13|15 compound 14|20 nmod:poss 15|15 case 16|20 amod 17|17 cc 18|17 conj:and 19|20 amod 19|11 nmod:with 20|20 punct 21|20 appos 22|25 case 23|25 det 24|22 nmod:of 25|25 cc 26|22 nmod:of 27|25 conj:and 27|30 case 28|30 amod 29|25 nmod:of 30|30 acl 31|36 case 32|34 compound 33|36 nmod:poss 34|34 case 35|31 nmod:along 36|3 punct 37|
+<word> Thick fog kept helicopters away from the crash site , officials said , delaying potential answers to what caused the crash . 
+<lemma> thick fog keep helicopter away from the crash site , official say , delay potential answer to what cause the crash . 
+<POS> JJ NN VBD NNS RB IN DT NN NN , NNS VBD , VBG JJ NNS TO WP VBD DT NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (JJ Thick) (NN fog)) (VP (VBD kept) (NP (NNS helicopters)) (ADVP (RB away)) (PP (IN from) (NP (DT the) (NN crash) (NN site))))) (, ,) (NP (NNS officials)) (VP (VBD said) (, ,) (S (VP (VBG delaying) (NP (JJ potential) (NNS answers)) (PP (TO to) (SBAR (WHNP (WP what)) (S (VP (VBD caused) (NP (DT the) (NN crash))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|2 amod 1|3 nsubj 2|12 ccomp 3|3 dobj 4|3 advmod 5|9 case 6|9 det 7|9 compound 8|3 nmod:from 9|12 punct 10|12 nsubj 11|12 punct 13|12 xcomp 14|16 amod 15|14 dobj 16|19 mark 17|19 nsubj 18|14 advcl:to 19|21 det 20|19 dobj 21|12 punct 22|
+<word> Russian and French investigators arrived to join the probe as the difficulties of reaching bodies or the plane 's black box became clear . 
+<lemma> russian and french investigator arrive to join the probe as the difficulty of reach body or the plane 's black box become clear . 
+<POS> JJ CC JJ NNS VBD TO VB DT NN IN DT NNS IN VBG NNS CC DT NN POS JJ NN VBD JJ . 
+<NER> MISC O MISC O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Russian) (CC and) (JJ French) (NNS investigators)) (VP (VBD arrived) (S (VP (TO to) (VP (VB join) (NP (DT the) (NN probe)) (PP (IN as) (NP (NP (DT the) (NNS difficulties)) (PP (IN of) (S (VP (VBG reaching) (SBAR (S (NP (NP (NNS bodies)) (CC or) (NP (NP (DT the) (NN plane) (POS 's)) (JJ black) (NN box))) (VP (VBD became) (ADJP (JJ clear)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 amod 1|1 cc 2|1 conj:and 3|4 amod 3|5 nsubj 4|7 nsubj:xsubj 4|7 mark 6|5 xcomp 7|9 det 8|7 dobj 9|12 case 10|12 det 11|7 nmod:as 12|14 mark 13|12 acl:of 14|22 nsubj 15|15 cc 16|18 det 17|21 nmod:poss 18|18 case 19|21 amod 20|15 conj:or 21|22 nsubj 21|14 ccomp 22|22 xcomp 23|5 punct 24|
+<word> `` Our six helicopters have been trying to get close to the crash site since this morning , '' said Sunarbowo Sandi , operational chief at Indonesia 's search and rescue agency . 
+<lemma> `` we six helicopter have be try to get close to the crash site since this morning , '' say Sunarbowo Sandi , operational chief at Indonesia 's search and rescue agency . 
+<POS> `` PRP$ CD NNS VBP VBN VBG TO VB RB TO DT NN NN IN DT NN , '' VBD NNP NNP , JJ NN IN NNP POS NN CC NN NN . 
+<NER> O O NUMBER O O O O O O O O O O O O TIME TIME O O O PERSON PERSON O O O O LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (`` ``) (S (NP (PRP$ Our) (CD six) (NNS helicopters)) (VP (VBP have) (VP (VBN been) (VP (VBG trying) (S (VP (TO to) (VP (VB get) (ADVP (RB close) (PP (TO to) (NP (DT the) (NN crash) (NN site)))) (PP (IN since) (NP (DT this) (NN morning)))))))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Sunarbowo) (NNP Sandi)) (, ,) (NP (NP (JJ operational) (NN chief)) (PP (IN at) (NP (NP (NNP Indonesia) (POS 's)) (NN search) (CC and) (NN rescue) (NN agency))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|20 punct 1|4 nmod:poss 2|4 nummod 3|7 nsubj 4|9 nsubj:xsubj 4|7 aux 5|7 aux 6|20 ccomp 7|9 mark 8|7 xcomp 9|14 case 10|10 mwe 11|14 det 12|14 compound 13|9 nmod:close_to 14|17 case 15|17 det 16|9 nmod:since 17|20 punct 18|20 punct 19|22 compound 21|20 nsubj 22|22 punct 23|25 amod 24|22 appos 25|29 case 26|29 nmod:poss 27|27 case 28|25 nmod:at 29|29 cc 30|32 compound 31|25 nmod:at 32|29 conj:and 32|20 punct 33|
+<word> `` With poor visibility of less than five metres , it 's difficult for us to evacuate the victims . '' 
+<lemma> `` with poor visibility of less than five metre , it be difficult for we to evacuate the victim . '' 
+<POS> `` IN JJ NN IN JJR IN CD NNS , PRP VBZ JJ IN PRP TO VB DT NNS . '' 
+<NER> O O O O O O O NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (PP (IN With) (NP (NP (JJ poor) (NN visibility)) (PP (IN of) (NP (QP (JJR less) (IN than) (CD five)) (NNS metres))))) (, ,) (NP (PRP it)) (VP (VBZ 's) (ADJP (JJ difficult) (PP (IN for) (NP (PRP us)))) (S (VP (TO to) (VP (VB evacuate) (NP (DT the) (NNS victims)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 13|13 punct 1|4 case 2|4 amod 3|13 nmod:with 4|9 case 5|8 advmod 6|6 mwe 7|9 nummod 8|4 nmod:of 9|13 punct 10|13 nsubj 11|17 nsubj:xsubj 11|13 cop 12|15 case 14|13 nmod:for 15|17 mark 16|13 xcomp 17|19 det 18|17 dobj 19|13 punct 20|13 punct 21|
+<word> Mr Sandi said he hoped a ground team of 85 rescue workers using ropes to climb the mountain might reach the wreckage . 
+<lemma> Mr Sandi say he hope a ground team of 85 rescue worker use rope to climb the mountain might reach the wreckage . 
+<POS> NNP NNP VBD PRP VBD DT NN NN IN CD NN NNS VBG NNS TO VB DT NN MD VB DT NN . 
+<NER> O PERSON O O O O O O O NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Sandi)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBD hoped) (SBAR (S (NP (NP (DT a) (NN ground) (NN team)) (PP (IN of) (NP (NP (CD 85) (NN rescue) (NNS workers)) (VP (VBG using) (NP (NNS ropes)) (S (VP (TO to) (VP (VB climb) (NP (DT the) (NN mountain))))))))) (VP (MD might) (VP (VB reach) (NP (DT the) (NN wreckage)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nsubj 4|3 ccomp 5|8 det 6|8 compound 7|20 nsubj 8|12 case 9|12 nummod 10|12 compound 11|8 nmod:of 12|12 acl 13|13 dobj 14|16 mark 15|13 advcl:to 16|18 det 17|16 dobj 18|20 aux 19|5 ccomp 20|22 det 21|20 dobj 22|3 punct 23|
+<word> The jet slammed into the volcano on Wednesday at nearly 480mph , raining debris down the slope . 
+<lemma> the jet slam into the volcano on Wednesday at nearly 480mph , rain debris down the slope . 
+<POS> DT NN VBD IN DT NN IN NNP IN RB JJ , VBG NN IN DT NN . 
+<NER> O O O O O O O DATE O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN jet)) (VP (VBD slammed) (PP (IN into) (NP (NP (DT the) (NN volcano)) (PP (IN on) (NP (NNP Wednesday))))) (PP (IN at) (NP (NP (RB nearly) (JJ 480mph)) (, ,) (NP (NP (VBG raining) (NN debris)) (ADVP (IN down) (NP (DT the) (NN slope))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|6 case 4|6 det 5|3 nmod:into 6|8 case 7|6 nmod:on 8|11 case 9|11 advmod 10|3 nmod:at 11|11 punct 12|14 amod 13|11 appos 14|17 case 15|17 det 16|14 advmod 17|3 punct 18|
+<word> He said communications with the ground team were difficult and it was still unclear what the climbers would find , given the possibility that much of the wreckage and possibly bodies had tumbled down the near-vertical slope . 
+<lemma> he say communication with the ground team be difficult and it be still unclear what the climber would find , give the possibility that much of the wreckage and possibly body have tumble down the near-vertical slope . 
+<POS> PRP VBD NNS IN DT NN NN VBD JJ CC PRP VBD RB JJ WP DT NNS MD VB , VBN DT NN IN JJ IN DT NN CC RB NNS VBD VBN IN DT JJ NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD said) (SBAR (S (S (NP (NP (NNS communications)) (PP (IN with) (NP (DT the) (NN ground) (NN team)))) (VP (VBD were) (ADJP (JJ difficult)))) (CC and) (S (NP (PRP it)) (VP (VBD was) (ADVP (RB still)) (ADJP (JJ unclear) (SBAR (WHNP (WP what)) (S (NP (DT the) (NNS climbers)) (VP (MD would) (VP (VB find)))))) (, ,) (PP (VBN given) (NP (NP (DT the) (NN possibility)) (SBAR (IN that) (S (NP (JJ much) (UCP (PP (IN of) (NP (DT the) (NN wreckage))) (CC and) (ADVP (RB possibly))) (NNS bodies)) (VP (VBD had) (VP (VBN tumbled) (PP (IN down) (NP (DT the) (JJ near-vertical) (NN slope)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|9 nsubj 3|7 case 4|7 det 5|7 compound 6|3 nmod:with 7|9 cop 8|2 dep 9|9 cc 10|14 nsubj 11|14 cop 12|14 advmod 13|2 dep 14|9 conj:and 14|19 dobj 15|17 det 16|19 nsubj 17|19 aux 18|14 ccomp 19|14 punct 20|23 case 21|23 det 22|14 nmod:given 23|33 mark 24|31 amod 25|28 case 26|28 det 27|31 nmod:of 28|28 cc 29|28 conj:and 30|31 nmod:of 30|33 nsubj 31|33 aux 32|23 dep 33|37 case 34|37 det 35|37 amod 36|33 nmod:down 37|2 punct 38|
+<word> Local television station TVOne reported that some rescuers have arrived on the scene and discovered some remnants of the plane but had so far found no survivors . 
+<lemma> local television station tvone report that some rescuer have arrive on the scene and discover some remnant of the plane but have so far find no survivor . 
+<POS> JJ NN NN NN VBD IN DT NNS VBP VBN IN DT NN CC VBD DT NNS IN DT NN CC VBD RB RB VBN DT NNS . 
+<NER> O O O ORGANIZATION O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Local) (NN television) (NN station) (NN TVOne)) (VP (VP (VBD reported) (SBAR (IN that) (S (NP (DT some) (NNS rescuers)) (VP (VP (VBP have) (VP (VBN arrived) (PP (IN on) (NP (DT the) (NN scene))))) (CC and) (VP (VBD discovered) (NP (NP (DT some) (NNS remnants)) (PP (IN of) (NP (DT the) (NN plane))))))))) (CC but) (VP (VBD had) (VP (ADVP (RB so) (RB far)) (VBN found) (NP (DT no) (NNS survivors))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 amod 1|4 compound 2|4 compound 3|5 nsubj 4|25 nsubj 4|10 mark 6|8 det 7|10 nsubj 8|15 nsubj 8|10 aux 9|5 ccomp 10|13 case 11|13 det 12|10 nmod:on 13|10 cc 14|5 ccomp 15|10 conj:and 15|17 det 16|15 dobj 17|20 case 18|20 det 19|17 nmod:of 20|5 cc 21|25 aux 22|24 advmod 23|25 advmod 24|5 conj:but 25|27 neg 26|25 dobj 27|5 punct 28|
+<word> All 45 aboard are feared dead . 
+<lemma> all 45 aboard be fear dead . 
+<POS> DT CD IN VBP VBN JJ . 
+<NER> O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT All)) (ADVP (NP (CD 45)) (IN aboard))) (VP (VBP are) (VP (VBN feared) (S (ADJP (JJ dead))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubjpass 1|1 advmod 2|2 case 3|5 auxpass 4|5 xcomp 6|5 punct 7|
+<word> The Sukhoi Superjet-100 is Russia 's first new model of passenger jet since the fall of the Soviet Union two decades ago and was supposed to kick-start the nation 's efforts to modernise its fleet and resurrect its neglected aerospace industry . 
+<lemma> the Sukhoi superjet-100 be Russia 's first new model of passenger jet since the fall of the Soviet Union two decade ago and be suppose to kick-start the nation 's effort to modernise its fleet and resurrect its neglect aerospace industry . 
+<POS> DT NNP NN VBZ NNP POS JJ JJ NN IN NN NN IN DT NN IN DT NNP NNP CD NNS RB CC VBD VBN TO VB DT NN POS NNS TO VB PRP$ NN CC VB PRP$ VBN NN NN . 
+<NER> O MISC MISC O LOCATION O ORDINAL O O O O O O O DATE O O LOCATION LOCATION DATE DATE DATE O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Sukhoi) (NN Superjet-100)) (VP (VP (VBZ is) (NP (NP (NP (NNP Russia) (POS 's)) (JJ first) (JJ new) (NN model)) (PP (IN of) (NP (NP (NN passenger) (NN jet)) (PP (IN since) (NP (NP (DT the) (NN fall)) (PP (IN of) (NP (DT the) (NNP Soviet) (NNP Union))) (ADVP (NP (CD two) (NNS decades)) (RB ago)))))))) (CC and) (VP (VBD was) (VP (VBN supposed) (S (VP (TO to) (VP (VB kick-start) (NP (NP (DT the) (NN nation) (POS 's)) (NNS efforts) (S (VP (TO to) (VP (VP (VB modernise) (NP (PRP$ its) (NN fleet))) (CC and) (VP (VB resurrect) (NP (PRP$ its) (VBN neglected) (NN aerospace) (NN industry))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 det 1|3 compound 2|9 nsubj 3|25 nsubjpass 3|27 nsubj:xsubj 3|9 cop 4|9 nmod:poss 5|5 case 6|9 amod 7|9 amod 8|12 case 10|12 compound 11|9 nmod:of 12|15 case 13|15 det 14|12 nmod:since 15|19 case 16|19 det 17|19 compound 18|15 nmod:of 19|21 nummod 20|22 nmod:npmod 21|15 advmod 22|9 cc 23|25 auxpass 24|9 conj:and 25|27 mark 26|25 xcomp 27|29 det 28|31 nmod:poss 29|29 case 30|27 dobj 31|33 mark 32|31 acl:to 33|35 nmod:poss 34|33 dobj 35|33 cc 36|31 acl:to 37|33 conj:and 37|41 nmod:poss 38|41 amod 39|41 compound 40|37 dobj 41|9 punct 42|
+<word> The ill-fated Superjet was carrying representatives from local airlines and journalists on what was supposed to be a 50-minute demonstration flight . 
+<lemma> the ill-fated Superjet be carry representative from local airline and journalist on what be suppose to be a 50-minute demonstration flight . 
+<POS> DT JJ NNP VBD VBG NNS IN JJ NNS CC NNS IN WP VBD VBN TO VB DT JJ NN NN . 
+<NER> O O MISC O O O O O O O O O O O O O O O DURATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ ill-fated) (NNP Superjet)) (VP (VBD was) (VP (VBG carrying) (NP (NP (NNS representatives)) (PP (IN from) (NP (JJ local) (NNS airlines) (CC and) (NNS journalists)))) (PP (IN on) (SBAR (WHNP (WP what)) (S (VP (VBD was) (VP (VBN supposed) (S (VP (TO to) (VP (VB be) (NP (DT a) (JJ 50-minute) (NN demonstration) (NN flight)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 amod 2|5 nsubj 3|5 aux 4|5 dobj 6|9 case 7|9 amod 8|6 nmod:from 9|9 cc 10|6 nmod:from 11|9 conj:and 11|15 mark 12|15 nsubjpass 13|21 nsubj:xsubj 13|15 auxpass 14|5 advcl:on 15|21 mark 16|21 cop 17|21 det 18|21 amod 19|21 compound 20|15 xcomp 21|5 punct 22|
+<word> Just 21 minutes after take-off from a Jakarta airfield , the Russian pilot and co-pilot asked for permission to drop from 10,000 ft to 6,000 ft. They gave no explanation , disappearing from the radar immediately afterwards . 
+<lemma> just 21 minute after take-off from a Jakarta airfield , the russian pilot and co-pilot ask for permission to drop from 10,000 ft to 6,000 ft. they give no explanation , disappear from the radar immediately afterwards . 
+<POS> RB CD NNS IN NN IN DT NNP NN , DT JJ NN CC NNS VBD IN NN TO VB IN CD NN TO CD NN PRP VBD DT NN , VBG IN DT NN RB RB . 
+<NER> O DURATION DURATION O O O O LOCATION O O O MISC O O O O O O O O O NUMBER O O NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (NP (RB Just) (CD 21) (NNS minutes)) (IN after) (NP (NP (NN take-off)) (PP (IN from) (NP (DT a) (NNP Jakarta) (NN airfield))))) (, ,) (NP (NP (DT the) (JJ Russian) (NN pilot)) (CC and) (NP (NNS co-pilot))) (VP (VBD asked) (PP (IN for) (NP (NN permission))) (S (VP (TO to) (VP (VB drop) (PP (IN from) (NP (CD 10,000) (NN ft))) (PP (TO to) (NP (NP (CD 6,000) (NN ft.)) (SBAR (S (NP (PRP They)) (VP (VBD gave) (NP (DT no) (NN explanation)) (, ,) (S (VP (VBG disappearing) (PP (IN from) (NP (NP (DT the) (NN radar)) (ADVP (RB immediately))) (ADVP (RB afterwards)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 16|3 advmod 1|3 nummod 2|16 nmod:after 3|3 case 4|3 dep 5|9 case 6|9 det 7|9 compound 8|5 nmod:from 9|16 punct 10|13 det 11|13 amod 12|16 nsubj 13|20 nsubj:xsubj 13|13 cc 14|13 conj:and 15|16 nsubj 15|20 nsubj:xsubj 15|18 case 17|16 nmod:for 18|20 mark 19|16 xcomp 20|23 case 21|23 nummod 22|20 nmod:from 23|26 case 24|26 nummod 25|20 nmod:to 26|28 nsubj 27|26 acl:relcl 28|30 neg 29|28 dobj 30|28 punct 31|28 advcl 32|35 case 33|35 det 34|32 nmod:from 35|35 advmod 36|35 advmod 37|16 punct 38|
+<word> It was not clear why the crew asked to shift course , especially since they were so close to the 7,000 ft volcano , or whether they got approval , officials have said . 
+<lemma> it be not clear why the crew ask to shift course , especially since they be so close to the 7,000 ft volcano , or whether they get approval , official have say . 
+<POS> PRP VBD RB JJ WRB DT NN VBD TO VB NN , RB IN PRP VBD RB JJ TO DT CD NN NN , CC IN PRP VBD NN , NNS VBP VBN . 
+<NER> O O O O O O O O O O O O O O O O O O O O NUMBER O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP It)) (VP (VBD was) (RB not) (ADJP (JJ clear)) (SBAR (SBAR (WHADVP (WRB why)) (S (NP (DT the) (NN crew)) (VP (VBD asked) (S (VP (TO to) (VP (VB shift) (NP (NN course))))) (, ,) (SBAR (RB especially) (IN since) (S (NP (PRP they)) (VP (VBD were) (ADJP (RB so) (JJ close) (PP (TO to) (NP (DT the) (CD 7,000) (NN ft) (NN volcano)))))))))) (, ,) (CC or) (SBAR (IN whether) (S (NP (PRP they)) (VP (VBD got) (NP (NN approval)))))))) (, ,) (NP (NNS officials)) (VP (VBP have) (VP (VBN said))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 33|4 nsubj 1|4 cop 2|4 neg 3|33 ccomp 4|8 advmod 5|7 det 6|8 nsubj 7|10 nsubj:xsubj 7|4 advcl 8|10 mark 9|8 xcomp 10|10 dobj 11|8 punct 12|23 advmod 13|23 mark 14|23 nsubj 15|23 cop 16|23 advmod 17|23 case 18|18 mwe 19|23 det 20|23 nummod 21|23 compound 22|8 advcl:close_to 23|8 punct 24|8 cc 25|28 mark 26|28 nsubj 27|4 advcl 28|8 conj:or 28|28 dobj 29|33 punct 30|33 nsubj 31|33 aux 32|33 punct 34|
+<word> Communication tapes will be reviewed as part of the investigation , but it is unlikely they will be released to the public soon . 
+<lemma> communication tape will be review as part of the investigation , but it be unlikely they will be release to the public soon . 
+<POS> NN NNS MD VB VBN IN NN IN DT NN , CC PRP VBZ JJ PRP MD VB VBN TO DT JJ RB . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NN Communication) (NNS tapes)) (VP (MD will) (VP (VB be) (VP (VBN reviewed) (PP (IN as) (NP (NP (NN part)) (PP (IN of) (NP (DT the) (NN investigation))))))))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBZ is) (ADJP (JJ unlikely) (SBAR (S (NP (PRP they)) (VP (MD will) (VP (VB be) (VP (VBN released) (PP (TO to) (NP (DT the) (JJ public))) (ADVP (RB soon)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubjpass 2|5 aux 3|5 auxpass 4|7 case 6|5 nmod:as 7|10 case 8|10 det 9|7 nmod:of 10|5 punct 11|5 cc 12|15 nsubj 13|15 cop 14|5 conj:but 15|19 nsubjpass 16|19 aux 17|19 auxpass 18|15 ccomp 19|22 case 20|22 det 21|19 nmod:to 22|19 advmod 23|5 punct 24|
+<coreference> [['1,8,11,9', '3,17,20,18', '9,19,21,20'], ['1,13,17,15', '11,1,4,3'], ['2,7,10,9', '4,12,15,14'], ['2,11,12,11', '14,31,32,31'], ['3,1,5,4', '4,2,3,2', '5,15,16,15'], ['5,8,9,8', '5,11,12,11'], ['6,1,3,2', '6,4,5,4'], ['6,6,19,8', '8,5,8,7'], ['6,21,23,22', '8,27,29,28'], ['7,10,18,11', '8,1,2,1'], ['7,10,12,11', '7,13,18,14'], ['11,28,31,29', '11,34,35,34'], ['11,34,36,35', '11,38,39,38'], ['13,11,16,13', '13,27,28,27', '14,15,16,15', '14,27,28,27', '15,16,17,16']]
+</DOC>

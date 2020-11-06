@@ -1,0 +1,74 @@
+<DOC> article-13267.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 |
+<word> Fabrice Muamba will attend the Barclays Premier League match between Bolton and Tottenham at the Reebok Stadium . 
+<lemma> Fabrice Muamba will attend the Barclays Premier League match between Bolton and Tottenham at the Reebok Stadium . 
+<POS> NNP NNP MD VB DT NNP NNP NNP NN IN NNP CC NNP IN DT NNP NNP . 
+<NER> PERSON PERSON O O O ORGANIZATION ORGANIZATION ORGANIZATION O O PERSON O ORGANIZATION O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Fabrice) (NNP Muamba)) (VP (MD will) (VP (VB attend) (NP (NP (DT the) (NNP Barclays) (NNP Premier) (NNP League) (NN match)) (PP (IN between) (NP (NNP Bolton) (CC and) (NNP Tottenham)))) (PP (IN at) (NP (DT the) (NNP Reebok) (NNP Stadium))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 compound 1|4 nsubj 2|4 aux 3|9 det 5|9 compound 6|9 compound 7|9 compound 8|4 dobj 9|11 case 10|9 nmod:between 11|11 cc 12|9 nmod:between 13|11 conj:and 13|17 case 14|17 det 15|17 compound 16|4 nmod:at 17|4 punct 18|
+<word> It will mark the first time the Wanderers midfielder has attended a game since he suffered a cardiac arrest in an FA Cup tie between Bolton and Spurs at White Hart Lane on March 17 . 
+<lemma> it will mark the first time the Wanderers midfielder have attend a game since he suffer a cardiac arrest in a FA Cup tie between Bolton and Spurs at White Hart Lane on March 17 . 
+<POS> PRP MD VB DT JJ NN DT NNPS NN VBZ VBN DT NN IN PRP VBD DT JJ NN IN DT NNP NNP NN IN NNP CC NNP IN NNP NNP NNP IN NNP CD . 
+<NER> O O O O ORDINAL O O O O O O O O O O O O O O O O MISC MISC O O PERSON O ORGANIZATION O LOCATION LOCATION LOCATION O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (MD will) (VP (VB mark) (NP (NP (DT the) (JJ first) (NN time)) (SBAR (S (NP (DT the) (NNPS Wanderers) (NN midfielder)) (VP (VBZ has) (VP (VBN attended) (NP (DT a) (NN game)) (SBAR (IN since) (S (NP (PRP he)) (VP (VBD suffered) (NP (DT a) (JJ cardiac) (NN arrest)) (PP (IN in) (NP (NP (DT an) (NNP FA) (NNP Cup) (NN tie)) (PP (IN between) (NP (NNP Bolton) (CC and) (NNP Spurs))))) (PP (IN at) (NP (NP (NNP White) (NNP Hart) (NNP Lane)) (PP (IN on) (NP (NNP March) (CD 17))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|6 det 4|6 amod 5|3 dobj 6|9 det 7|9 compound 8|11 nsubj 9|11 aux 10|6 acl:relcl 11|13 det 12|11 dobj 13|16 mark 14|16 nsubj 15|11 advcl:since 16|19 det 17|19 amod 18|16 dobj 19|24 case 20|24 det 21|24 compound 22|24 compound 23|16 nmod:in 24|26 case 25|24 nmod:between 26|26 cc 27|24 nmod:between 28|26 conj:and 28|32 case 29|32 compound 30|32 compound 31|16 nmod:at 32|34 case 33|32 nmod:on 34|34 nummod 35|3 punct 36|
+<word> Bolton manager Owen Coyle said : `` We are absolutely delighted that we will be able to welcome Fabrice and his family back to the Reebok , and we are all looking forward to seeing him . '' 
+<lemma> Bolton manager Owen Coyle say : `` we be absolutely delighted that we will be able to welcome Fabrice and he family back to the Reebok , and we be all look forward to see he . '' 
+<POS> NNP NN NNP NNP VBD : `` PRP VBP RB JJ IN PRP MD VB JJ TO VB NNP CC PRP$ NN RB TO DT NNP , CC PRP VBP DT VBG RB TO VBG PRP . '' 
+<NER> PERSON O PERSON PERSON O O O O O O O O O O O O O O PERSON O O O O O O ORGANIZATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Bolton) (NN manager) (NNP Owen) (NNP Coyle)) (VP (VBD said) (: :) (`` ``) (S (NP (PRP We)) (VP (VBP are) (ADJP (RB absolutely) (JJ delighted) (SBAR (IN that) (S (NP (PRP we)) (VP (MD will) (VP (VB be) (ADJP (JJ able) (S (VP (TO to) (VP (VB welcome) (NP (NP (NNP Fabrice)) (CC and) (NP (PRP$ his) (NN family))) (ADVP (RB back) (PP (TO to) (NP (DT the) (NNP Reebok))))))))))))))))) (, ,) (CC and) (S (NP (PRP we)) (VP (VBP are) (ADVP (DT all)) (VP (VBG looking) (ADVP (RB forward)) (PP (TO to) (S (VP (VBG seeing) (NP (PRP him)))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|5 punct 6|5 punct 7|11 nsubj 8|11 cop 9|11 advmod 10|5 ccomp 11|16 mark 12|16 nsubj 13|18 nsubj:xsubj 13|16 aux 14|16 cop 15|11 ccomp 16|18 mark 17|16 xcomp 18|18 dobj 19|19 cc 20|22 nmod:poss 21|18 dobj 22|19 conj:and 22|18 advmod 23|26 case 24|26 det 25|23 nmod:to 26|5 punct 27|5 cc 28|32 nsubj 29|32 aux 30|32 advmod 31|5 conj:and 32|32 advmod 33|35 mark 34|32 advcl:to 35|35 dobj 36|5 punct 37|5 punct 38|
+<word> He added : `` It 's fitting that the match is between these two clubs and that Fabrice is able to come along . 
+<lemma> he add : `` it be fitting that the match be between these two club and that Fabrice be able to come along . 
+<POS> PRP VBD : `` PRP VBZ JJ IN DT NN VBZ IN DT CD NNS CC IN NNP VBZ JJ TO VB RB . 
+<NER> O O O O O O O O O O O O O NUMBER O O O PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD added) (: :) (`` ``) (S (NP (PRP It)) (VP (VBZ 's) (ADJP (JJ fitting)) (SBAR (SBAR (IN that) (S (NP (DT the) (NN match)) (VP (VBZ is) (PP (IN between) (NP (DT these) (CD two) (NNS clubs)))))) (CC and) (SBAR (IN that) (S (NP (NNP Fabrice)) (VP (VBZ is) (ADJP (JJ able) (S (VP (TO to) (VP (VB come) (ADVP (RB along))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 punct 3|2 punct 4|7 nsubj 5|7 cop 6|2 ccomp 7|15 mark 8|10 det 9|15 nsubj 10|15 cop 11|15 case 12|15 det 13|15 nummod 14|7 ccomp 15|15 cc 16|20 mark 17|20 nsubj 18|22 nsubj:xsubj 18|20 cop 19|7 ccomp 20|15 conj:and 20|22 mark 21|20 xcomp 22|22 advmod 23|2 punct 24|
+<word> `` I know Fabrice is very keen to show his appreciation to both sets of fans for their support . '' 
+<lemma> `` I know Fabrice be very keen to show he appreciation to both set of fan for they support . '' 
+<POS> `` PRP VBP NNP VBZ RB JJ TO VB PRP$ NN TO DT NNS IN NNS IN PRP$ NN . '' 
+<NER> O O O PERSON O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP I)) (VP (VBP know) (SBAR (S (NP (NNP Fabrice)) (VP (VBZ is) (ADJP (RB very) (JJ keen)) (S (VP (TO to) (VP (VB show) (NP (PRP$ his) (NN appreciation)) (PP (TO to) (NP (NP (DT both) (NNS sets)) (PP (IN of) (NP (NP (NNS fans)) (PP (IN for) (NP (PRP$ their) (NN support)))))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|7 nsubj 4|9 nsubj:xsubj 4|7 cop 5|7 advmod 6|3 ccomp 7|9 mark 8|7 xcomp 9|11 nmod:poss 10|9 dobj 11|14 case 12|14 det 13|9 nmod:to 14|16 case 15|14 nmod:of 16|19 case 17|19 nmod:poss 18|16 nmod:for 19|3 punct 20|3 punct 21|
+<word> The 24-year-old , whose heart stopped beating for 78 minutes following his collapse , spent a month at the London Chest Hospital before being discharged on April 16 . 
+<lemma> the 24-year-old , whose heart stop beat for 78 minute follow he collapse , spend a month at the London chest hospital before be discharge on April 16 . 
+<POS> DT JJ , WP$ NN VBD VBG IN CD NNS VBG PRP$ NN , VBD DT NN IN DT NNP NN NN IN VBG VBN IN NNP CD . 
+<NER> O DURATION O O O O O O DURATION DURATION O O O O O DURATION DURATION O O LOCATION LOCATION LOCATION O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ 24-year-old)) (, ,) (SBAR (WHNP (WP$ whose) (NN heart)) (S (VP (VBD stopped) (S (VP (VBG beating) (PP (IN for) (NP (NP (CD 78) (NNS minutes)) (PP (VBG following) (NP (PRP$ his) (NN collapse)))))))))) (, ,)) (VP (VBD spent) (NP (DT a) (NN month)) (PP (IN at) (NP (DT the) (NNP London) (NN Chest) (NN Hospital))) (PP (IN before) (S (VP (VBG being) (VP (VBN discharged) (PP (IN on) (NP (NNP April) (CD 16)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|2 det 1|5 nmod:poss 2|15 nsubj 2|2 punct 3|2 ref 4|6 nsubj 5|2 acl:relcl 6|6 xcomp 7|10 case 8|10 nummod 9|7 nmod:for 10|13 case 11|13 nmod:poss 12|10 nmod:following 13|2 punct 14|17 det 16|15 nmod:tmod 17|22 case 18|22 det 19|22 compound 20|22 compound 21|15 nmod:at 22|25 mark 23|25 auxpass 24|15 advcl:before 25|27 case 26|25 nmod:on 27|27 nummod 28|15 punct 29|
+<word> The speed of Muamba 's recovery amazed medical professionals . 
+<lemma> the speed of Muamba 's recovery amaze medical professional . 
+<POS> DT NN IN NNP POS NN VBD JJ NNS . 
+<NER> O O O PERSON O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN speed)) (PP (IN of) (NP (NP (NNP Muamba) (POS 's)) (NN recovery)))) (VP (VBD amazed) (NP (JJ medical) (NNS professionals))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|7 nsubj 2|6 case 3|6 nmod:poss 4|4 case 5|2 nmod:of 6|9 amod 8|7 dobj 9|7 punct 10|
+<word> He started talking two days after his collapse and began walking just over a fortnight later , although it is not yet known if he will play professional football again . 
+<lemma> he start talk two day after he collapse and begin walk just over a fortnight later , although it be not yet know if he will play professional football again . 
+<POS> PRP VBD VBG CD NNS IN PRP$ NN CC VBD VBG RB IN DT NN RB , IN PRP VBZ RB RB VBN IN PRP MD VB JJ NN RB . 
+<NER> O O O DURATION DURATION O O O O O O O O DATE DATE DATE O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VP (VBD started) (S (VP (VBG talking) (NP (CD two) (NNS days)) (PP (IN after) (NP (PRP$ his) (NN collapse)))))) (CC and) (VP (VBD began) (S (VP (VBG walking) (ADVP (RB just)) (PP (IN over) (NP (DT a) (NN fortnight))))) (ADVP (RB later)) (, ,) (SBAR (IN although) (S (NP (PRP it)) (VP (VBZ is) (RB not) (VP (ADVP (RB yet)) (VBN known) (SBAR (IN if) (S (NP (PRP he)) (VP (MD will) (VP (VB play) (NP (JJ professional) (NN football)) (ADVP (RB again)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|10 nsubj 1|2 xcomp 3|5 nummod 4|3 nmod:tmod 5|8 case 6|8 nmod:poss 7|3 nmod:after 8|2 cc 9|2 conj:and 10|10 xcomp 11|11 advmod 12|15 case 13|15 det 14|11 nmod:over 15|10 advmod 16|10 punct 17|23 mark 18|23 nsubjpass 19|23 auxpass 20|23 neg 21|23 advmod 22|10 advcl:although 23|27 mark 24|27 nsubj 25|27 aux 26|23 advcl:if 27|29 amod 28|27 dobj 29|27 advmod 30|2 punct 31|
+<word> Since his discharge the midfielder has continued his rehabilitation at home and on Saturday the former England Under-21 midfielder took to his Twitter account for the first time since the incident . 
+<lemma> since he discharge the midfielder have continue he rehabilitation at home and on Saturday the former England under-21 midfielder take to he Twitter account for the first time since the incident . 
+<POS> IN PRP$ NN DT NN VBZ VBN PRP$ NN IN NN CC IN NNP DT JJ NNP NN NN VBD TO PRP$ NNP NN IN DT JJ NN IN DT NN . 
+<NER> O O O O O O O O O O O O O DATE O O LOCATION O O O O O ORGANIZATION O O O ORDINAL O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (PP (IN Since) (NP (PRP$ his) (NN discharge))) (NP (DT the) (NN midfielder)) (VP (VBZ has) (VP (VBN continued) (NP (PRP$ his) (NN rehabilitation)) (PP (IN at) (NP (NN home)))))) (CC and) (S (PP (IN on) (NP (NNP Saturday))) (NP (DT the) (JJ former) (NNP England) (NN Under-21) (NN midfielder)) (VP (VBD took) (PP (TO to) (NP (PRP$ his) (NNP Twitter) (NN account))) (PP (IN for) (NP (NP (DT the) (JJ first) (NN time)) (PP (IN since) (NP (DT the) (NN incident))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|3 case 1|3 nmod:poss 2|7 nmod:since 3|5 det 4|7 nsubj 5|7 aux 6|9 nmod:poss 8|7 dobj 9|11 case 10|7 nmod:at 11|7 cc 12|14 case 13|20 nmod:on 14|19 det 15|19 amod 16|19 compound 17|19 compound 18|20 nsubj 19|7 conj:and 20|24 case 21|24 nmod:poss 22|24 compound 23|20 nmod:to 24|28 case 25|28 det 26|28 amod 27|20 nmod:for 28|31 case 29|31 det 30|28 nmod:since 31|7 punct 32|
+<word> In his message he thanked people for their `` prayers , love and support '' and wished his team-mates well ahead of their match at Sunderland , which they drew 2-2 . 
+<lemma> in he message he thank people for they `` prayer , love and support '' and wish he team-mate well ahead of they match at Sunderland , which they draw 2-2 . 
+<POS> IN PRP$ NN PRP VBD NNS IN PRP$ `` NNS , NN CC NN '' CC VBD PRP$ NNS RB RB IN PRP$ NN IN NNP , WDT PRP VBD CD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O O NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (PRP$ his) (NN message))) (NP (PRP he)) (VP (VP (VBD thanked) (NP (NNS people)) (PP (IN for) (NP (PRP$ their) (`` ``) (NNS prayers) (, ,) (NN love) (CC and) (NN support)))) ('' '') (CC and) (VP (VBD wished) (NP (PRP$ his) (NNS team-mates)) (ADVP (ADVP (RB well) (RB ahead)) (PP (IN of) (NP (PRP$ their) (NN match)))) (PP (IN at) (NP (NP (NNP Sunderland)) (, ,) (SBAR (WHNP (WDT which)) (S (NP (PRP they)) (VP (VBD drew) (NP (CD 2-2))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 case 1|3 nmod:poss 2|5 nmod:in 3|5 nsubj 4|17 nsubj 4|5 dobj 6|10 case 7|10 nmod:poss 8|10 punct 9|5 nmod:for 10|10 punct 11|5 nmod:for 12|10 conj:and 12|10 cc 13|5 nmod:for 14|10 conj:and 14|5 punct 15|5 cc 16|5 conj:and 17|19 nmod:poss 18|17 dobj 19|21 advmod 20|17 advmod 21|24 case 22|24 nmod:poss 23|21 nmod:of 24|26 case 25|17 nmod:at 26|30 dobj 26|26 punct 27|26 ref 28|30 nsubj 29|26 acl:relcl 30|30 dobj 31|5 punct 32|
+<coreference> [['1,1,3,2', '3,19,20,19', '3,21,22,21', '4,18,19,18', '5,4,5,4', '5,10,11,10', '7,4,6,4', '8,1,2,1', '8,7,8,7', '8,25,26,25', '9,2,3,2', '9,8,9,8', '10,2,3,2', '10,4,5,4', '10,18,19,18'], ['1,11,12,11', '2,26,27,26', '3,1,2,1', '3,36,37,36'], ['1,5,14,9', '2,1,2,1', '4,9,11,10', '10,23,25,24'], ['2,5,6,5', '9,27,28,27'], ['2,7,10,9', '2,15,16,15', '9,4,6,5'], ['2,26,29,26', '3,8,9,8', '3,13,14,13', '3,29,30,29'], ['3,26,27,26', '4,5,6,5'], ['3,1,5,4', '4,1,2,1', '5,2,3,2'], ['3,19,23,19', '5,18,19,18'], ['6,1,3,2', '6,12,13,12'], ['6,12,14,13', '8,7,9,8'], ['9,15,20,19', '9,22,23,22'], ['10,6,7,6', '10,8,9,8', '10,23,24,23', '10,29,30,29']]
+</DOC>

@@ -1,0 +1,95 @@
+<DOC> article-15590.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 |
+<word> FBI agents and Mississippi state troopers prepare to search for kidnapping-slaying suspect Adam Mayes on Wednesday in Guntown , Miss. . 
+<lemma> FBI agent and Mississippi state trooper prepare to search for kidnapping-slaying suspect Adam Mayes on Wednesday in Guntown , Miss. . 
+<POS> NNP NNS CC NNP NN NNS VBP TO VB IN JJ JJ NNP NNP IN NNP IN NNP , NNP . 
+<NER> ORGANIZATION O O LOCATION O O O O O O O O PERSON PERSON O DATE O LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP FBI) (NNS agents)) (CC and) (NP (NNP Mississippi) (NN state) (NNS troopers))) (VP (VBP prepare) (S (VP (TO to) (VP (VB search) (PP (IN for) (NP (ADJP (JJ kidnapping-slaying) (JJ suspect)) (NNP Adam) (NNP Mayes))) (PP (IN on) (NP (NP (NNP Wednesday)) (PP (IN in) (NP (NNP Guntown) (, ,) (NNP Miss.))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 compound 1|7 nsubj 2|9 nsubj:xsubj 2|2 cc 3|6 compound 4|6 compound 5|2 conj:and 6|7 nsubj 6|9 nsubj:xsubj 6|9 mark 8|7 xcomp 9|14 case 10|12 amod 11|14 amod 12|14 compound 13|9 nmod:for 14|16 case 15|9 nmod:on 16|20 case 17|20 compound 18|20 punct 19|16 nmod:in 20|7 punct 21|
+<word> Adam Mayes , 35 , died Thursday evening after authorities acted on a tip and found him in the area near New Albany , Miss. . 
+<lemma> Adam Mayes , 35 , die Thursday evening after authority act on a tip and find he in the area near New Albany , Miss. . 
+<POS> NNP NNP , CD , VBD NNP NN IN NNS VBD IN DT NN CC VBD PRP IN DT NN IN NNP NNP , NNP . 
+<NER> PERSON PERSON O NUMBER O O DATE TIME O O O O O O O O O O O O O LOCATION LOCATION O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Adam) (NNP Mayes)) (, ,) (NP (CD 35)) (, ,)) (VP (VBD died) (NP-TMP (NNP Thursday) (NN evening)) (SBAR (IN after) (S (NP (NNS authorities)) (VP (VP (VBD acted) (PP (IN on) (NP (DT a) (NN tip)))) (CC and) (VP (VBD found) (NP (PRP him)) (PP (IN in) (NP (NP (DT the) (NN area)) (PP (IN near) (NP (NP (NNP New) (NNP Albany)) (, ,) (NP (NNP Miss.))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 compound 1|6 nsubj 2|2 punct 3|2 amod 4|2 punct 5|8 compound 7|6 nmod:tmod 8|11 mark 9|11 nsubj 10|16 nsubj 10|6 advcl:after 11|14 case 12|14 det 13|11 nmod:on 14|11 cc 15|6 advcl:after 16|11 conj:and 16|16 dobj 17|20 case 18|20 det 19|16 nmod:in 20|23 case 21|23 compound 22|20 nmod:near 23|23 punct 24|23 appos 25|6 punct 26|
+<word> When they went to arrest him , he shot himself in the head , said Guntown Police Chief Michael Hall . 
+<lemma> when they go to arrest he , he shoot himself in the head , say Guntown Police Chief Michael Hall . 
+<POS> WRB PRP VBD TO VB PRP , PRP VBD PRP IN DT NN , VBD NNP NNP NNP NNP NNP . 
+<NER> O O O O O O O O O O O O O O O ORGANIZATION ORGANIZATION O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (SINV (S (SBAR (WHADVP (WRB When)) (S (NP (PRP they)) (VP (VBD went) (S (VP (TO to) (VP (VB arrest) (NP (PRP him)))))))) (, ,) (NP (PRP he)) (VP (VBD shot) (NP (PRP himself)) (PP (IN in) (NP (DT the) (NN head))))) (, ,) (VP (VBD said)) (NP (NNP Guntown) (NNP Police) (NNP Chief) (NNP Michael) (NNP Hall)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|3 advmod 1|3 nsubj 2|5 nsubj:xsubj 2|9 advcl 3|5 mark 4|3 xcomp 5|5 dobj 6|9 punct 7|9 nsubj 8|15 ccomp 9|9 dobj 10|13 case 11|13 det 12|9 nmod:in 13|15 punct 14|20 compound 16|20 compound 17|20 compound 18|20 compound 19|15 nsubj 20|15 punct 21|
+<word> The girls , Alexandra Bain , 12 , and Kyliyah Bain , 8 , were being taken to a hospital for observation , Hall said . 
+<lemma> the girl , Alexandra Bain , 12 , and Kyliyah Bain , 8 , be be take to a hospital for observation , Hall say . 
+<POS> DT NNS , NNP NNP , CD , CC NNP NNP , CD , VBD VBG VBN TO DT NN IN NN , NNP VBD . 
+<NER> O O O PERSON PERSON O NUMBER O O LOCATION LOCATION O NUMBER O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT The) (NNS girls)) (, ,) (NP (NNP Alexandra) (NNP Bain)) (, ,) (NP (NP (CD 12)) (, ,) (CC and) (NP (NNP Kyliyah) (NNP Bain))) (, ,) (NP (CD 8)) (, ,)) (VP (VBD were) (VP (VBG being) (VP (VBN taken) (PP (TO to) (NP (NP (DT a) (NN hospital)) (PP (IN for) (NP (NN observation))))))))) (, ,) (NP (NNP Hall)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 25|2 det 1|17 nsubjpass 2|2 punct 3|5 compound 4|2 appos 5|2 punct 6|2 appos 7|7 punct 8|7 cc 9|11 compound 10|2 appos 11|7 conj:and 11|2 punct 12|2 amod 13|2 punct 14|17 aux 15|17 auxpass 16|25 ccomp 17|20 case 18|20 det 19|17 nmod:to 20|22 case 21|20 nmod:for 22|25 punct 23|25 nsubj 24|25 punct 26|
+<word> It was not immediately clear if they were with Mayes when he was killed . 
+<lemma> it be not immediately clear if they be with Mayes when he be kill . 
+<POS> PRP VBD RB RB JJ IN PRP VBD IN NNP WRB PRP VBD VBN . 
+<NER> O O O O O O O O O PERSON O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD was) (RB not) (ADJP (RB immediately) (JJ clear)) (SBAR (IN if) (S (NP (PRP they)) (VP (VBD were) (PP (IN with) (NP (NNP Mayes))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD was) (VP (VBN killed))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|5 cop 2|5 neg 3|5 advmod 4|10 mark 6|10 nsubj 7|10 cop 8|10 case 9|5 advcl:with 10|14 advmod 11|14 nsubjpass 12|14 auxpass 13|10 advcl 14|5 punct 15|
+<word> Mayes had been charged with first-degree murder in the April 27 deaths of Jo Ann Bain , 31 , and her daughter , Adrienne , 14 . 
+<lemma> Mayes have be charge with first-degree murder in the April 27 death of Jo Ann Bain , 31 , and she daughter , Adrienne , 14 . 
+<POS> NNP VBD VBN VBN IN JJ NN IN DT NNP CD NNS IN NNP NNP NNP , CD , CC PRP$ NN , NNP , CD . 
+<NER> PERSON O O O O O O O O DATE DATE O O PERSON PERSON PERSON O NUMBER O O O O O PERSON O NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mayes)) (VP (VBD had) (VP (VBN been) (VP (VBN charged) (PP (IN with) (NP (NP (JJ first-degree) (NN murder)) (PP (IN in) (NP (NP (DT the) (NNP April) (CD 27) (NNS deaths)) (PP (IN of) (NP (NP (NNP Jo) (NNP Ann) (NNP Bain)) (, ,) (NP (CD 31)) (, ,) (CC and) (NP (NP (PRP$ her) (NN daughter)) (, ,) (NP (NNP Adrienne)) (, ,) (NP (CD 14)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubjpass 1|4 aux 2|4 auxpass 3|7 case 5|7 amod 6|4 nmod:with 7|12 case 8|12 det 9|12 compound 10|12 nummod 11|7 nmod:in 12|16 case 13|16 compound 14|16 compound 15|12 nmod:of 16|16 punct 17|12 nmod:of 18|16 conj:and 18|16 punct 19|16 cc 20|22 nmod:poss 21|12 nmod:of 22|16 conj:and 22|22 punct 23|22 appos 24|22 punct 25|22 amod 26|4 punct 27|
+<word> Their bodies were found buried outside the Mayes ' home a week after they were reported missing by Jo Ann Bain 's husband . 
+<lemma> they body be find bury outside the Mayes ' home a week after they be report miss by Jo Ann Bain 's husband . 
+<POS> PRP$ NNS VBD VBN VBN IN DT NNP POS NN DT NN IN PRP VBD VBN VBG IN NNP NNP NNP POS NN . 
+<NER> O O O O O O O PERSON O O DURATION DURATION O O O O O O PERSON PERSON PERSON O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP$ Their) (NNS bodies)) (VP (VBD were) (VP (VBN found) (VP (VBN buried) (PP (IN outside) (NP (NP (DT the) (NNP Mayes) (POS ')) (NN home))) (NP-TMP (DT a) (NN week)) (SBAR (IN after) (S (NP (PRP they)) (VP (VBD were) (VP (VBN reported) (S (VP (VBG missing) (PP (IN by) (NP (NP (NNP Jo) (NNP Ann) (NNP Bain) (POS 's)) (NN husband)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 nmod:poss 1|4 nsubjpass 2|4 auxpass 3|4 dep 5|10 case 6|8 det 7|10 nmod:poss 8|8 case 9|5 nmod:outside 10|12 det 11|5 nmod:tmod 12|16 mark 13|16 nsubjpass 14|16 auxpass 15|5 advcl:after 16|16 xcomp 17|23 case 18|21 compound 19|21 compound 20|23 nmod:poss 21|21 case 22|17 nmod:by 23|4 punct 24|
+<word> Mayes ' wife , Teresa , also is charged with first-degree murder in the deaths . 
+<lemma> Mayes ' wife , Teresa , also be charge with first-degree murder in the death . 
+<POS> NNP POS NN , NNP , RB VBZ VBN IN JJ NN IN DT NNS . 
+<NER> PERSON O O O PERSON O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (NNP Mayes) (POS ')) (NN wife)) (, ,) (NP (NNP Teresa)) (, ,)) (ADVP (RB also)) (VP (VBZ is) (VP (VBN charged) (PP (IN with) (NP (NP (JJ first-degree) (NN murder)) (PP (IN in) (NP (DT the) (NNS deaths))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 nmod:poss 1|1 case 2|9 nsubjpass 3|3 punct 4|3 appos 5|3 punct 6|9 advmod 7|9 auxpass 8|12 case 10|12 amod 11|9 nmod:with 12|15 case 13|15 det 14|12 nmod:in 15|9 punct 16|
+<word> She told investigators he killed Jo Ann and Adrienne Bain at their Whiteville , Tenn. , home so he could abduct the two young sisters , according to court documents . 
+<lemma> she tell investigator he kill Jo Ann and Adrienne Bain at they Whiteville , Tenn. , home so he could abduct the two young sister , accord to court document . 
+<POS> PRP VBD NNS PRP VBD NNP NNP CC NNP NNP IN PRP$ NNP , NNP , NN IN PRP MD VB DT CD JJ NNS , VBG TO NN NNS . 
+<NER> O O O O O PERSON PERSON O PERSON PERSON O O LOCATION O LOCATION O O O O O O O NUMBER O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP She)) (VP (VBD told) (NP (NP (NNS investigators)) (SBAR (S (NP (PRP he)) (VP (VBD killed) (NP (NP (NNP Jo) (NNP Ann)) (CC and) (NP (NNP Adrienne) (NNP Bain))) (PP (IN at) (NP (PRP$ their) (NAC (NP (NNP Whiteville)) (, ,) (NP (NNP Tenn.)) (, ,)) (NN home))) (SBAR (IN so) (S (NP (PRP he)) (VP (MD could) (VP (VB abduct) (NP (DT the) (CD two) (JJ young) (NNS sisters)))))) (, ,) (PP (VBG according) (PP (TO to) (NP (NN court) (NNS documents))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 dobj 3|5 nsubj 4|3 acl:relcl 5|7 compound 6|5 dobj 7|7 cc 8|10 compound 9|5 dobj 10|7 conj:and 10|17 case 11|17 nmod:poss 12|17 dep 13|13 punct 14|13 dep 15|13 punct 16|5 nmod:at 17|21 mark 18|21 nsubj 19|21 aux 20|5 advcl:so 21|25 det 22|25 nummod 23|25 amod 24|21 dobj 25|5 punct 26|30 case 27|27 mwe 28|30 compound 29|5 nmod:according_to 30|2 punct 31|
+<word> Teresa Mayes told investigators that after she saw her husband kill the two in the garage at the Bain home , she drove him , the younger girls and the bodies to Mississippi , according to affidavits filed in court . 
+<lemma> Teresa Mayes tell investigator that after she see she husband kill the two in the garage at the Bain home , she drive he , the younger girl and the body to Mississippi , accord to affidavit file in court . 
+<POS> NNP NNP VBD NNS WDT IN PRP VBD PRP$ NN VB DT CD IN DT NN IN DT NNP NN , PRP VBD PRP , DT JJR NNS CC DT NNS TO NNP , VBG TO NNS VBN IN NN . 
+<NER> PERSON PERSON O O O O O O O O O O NUMBER O O O O O LOCATION O O O O O O O O O O O O O LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Teresa) (NNP Mayes)) (VP (VBD told) (NP (NP (NNS investigators)) (SBAR (WHNP (WDT that)) (S (SBAR (IN after) (S (NP (PRP she)) (VP (VBD saw) (S (NP (PRP$ her) (NN husband)) (VP (VB kill) (NP (NP (DT the) (CD two)) (PP (IN in) (NP (NP (DT the) (NN garage)) (PP (IN at) (NP (DT the) (NNP Bain) (NN home))))))))))) (, ,) (NP (PRP she)) (VP (VBD drove) (NP (NP (PRP him)) (, ,) (NP (DT the) (JJR younger) (NNS girls)) (CC and) (NP (DT the) (NNS bodies))) (PP (TO to) (NP (NNP Mississippi))) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (NNS affidavits)) (VP (VBN filed) (PP (IN in) (NP (NN court)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|3 dobj 4|23 dobj 4|4 ref 5|8 mark 6|8 nsubj 7|23 advcl:after 8|10 nmod:poss 9|11 nsubj 10|8 ccomp 11|13 det 12|11 dobj 13|16 case 14|16 det 15|13 nmod:in 16|20 case 17|20 det 18|20 compound 19|16 nmod:at 20|23 punct 21|23 nsubj 22|4 acl:relcl 23|23 dobj 24|24 punct 25|28 det 26|28 amod 27|23 dobj 28|24 conj:and 28|24 cc 29|31 det 30|23 dobj 31|24 conj:and 31|33 case 32|23 nmod:to 33|23 punct 34|37 case 35|35 mwe 36|23 nmod:according_to 37|37 acl 38|40 case 39|38 nmod:in 40|3 punct 41|
+<word> She faces six felony counts in the case : two first-degree murder charges and four especially aggravated kidnapping charges . 
+<lemma> she face six felony count in the case : two first-degree murder charge and four especially aggravate kidnapping charge . 
+<POS> PRP VBZ CD NN NNS IN DT NN : CD JJ NN NNS CC CD RB VBN NN NNS . 
+<NER> O O NUMBER O O O O O O NUMBER O O O O NUMBER O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP She)) (VP (VBZ faces) (NP (NP (CD six) (NN felony) (NNS counts)) (PP (IN in) (NP (DT the) (NN case)))))) (: :) (S (NP (NP (CD two) (JJ first-degree) (NN murder) (NNS charges)) (CC and) (NP (CD four))) (VP (ADVP (RB especially)) (VBN aggravated) (NP (NN kidnapping) (NNS charges)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|5 nummod 3|5 compound 4|2 dobj 5|8 case 6|8 det 7|5 nmod:in 8|2 punct 9|13 nummod 10|13 amod 11|13 compound 12|17 nsubj 13|13 cc 14|13 conj:and 15|17 nsubj 15|17 advmod 16|2 parataxis 17|19 compound 18|17 dobj 19|2 punct 20|
+<word> Authorities refused to comment on the motive for the April 27 slayings and abductions . 
+<lemma> Authorities refuse to comment on the motive for the April 27 slaying and abduction . 
+<POS> NNP VBD TO VB IN DT NN IN DT NNP CD NNS CC NNS . 
+<NER> O O O O O O O O O DATE DATE O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Authorities)) (VP (VBD refused) (S (VP (TO to) (VP (VB comment) (PP (IN on) (NP (NP (DT the) (NN motive)) (PP (IN for) (NP (DT the) (NNP April) (CD 27) (NNS slayings) (CC and) (NNS abductions))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj:xsubj 1|4 mark 3|2 xcomp 4|7 case 5|7 det 6|4 nmod:on 7|12 case 8|12 det 9|12 compound 10|12 nummod 11|7 nmod:for 12|12 cc 13|7 nmod:for 14|12 conj:and 14|2 punct 15|
+<word> Mayes ' mother-in-law , Josie Tate , told the Associated Press that Mayes thought the missing sisters might actually be his daughters and it caused problems in his marriage to her daughter , Teresa , who is jailed in the case . 
+<lemma> Mayes ' mother-in-law , Josie Tate , tell the Associated Press that Mayes think the miss sister might actually be he daughter and it cause problem in he marriage to she daughter , Teresa , who be jail in the case . 
+<POS> NNP POS NN , NNP NNP , VBD DT NNP NNP IN NNP VBD DT VBG NNS MD RB VB PRP$ NNS CC PRP VBD NNS IN PRP$ NN TO PRP$ NN , NNP , WP VBZ VBN IN DT NN . 
+<NER> PERSON O O O PERSON PERSON O O O ORGANIZATION ORGANIZATION O PERSON O O O O O O O O O O O O O O O O O O O O PERSON O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (NNP Mayes) (POS ')) (NN mother-in-law)) (, ,) (NP (NNP Josie) (NNP Tate)) (, ,)) (VP (VBD told) (NP (DT the) (NNP Associated) (NNP Press)) (SBAR (IN that) (S (NP (NNP Mayes)) (VP (VBD thought) (SBAR (S (S (NP (DT the) (VBG missing) (NNS sisters)) (VP (MD might) (ADVP (RB actually)) (VP (VB be) (NP (PRP$ his) (NNS daughters))))) (CC and) (S (NP (PRP it)) (VP (VBD caused) (NP (NNS problems)) (PP (IN in) (NP (PRP$ his) (NN marriage))) (PP (TO to) (NP (NP (PRP$ her) (NN daughter)) (, ,) (NP (NNP Teresa)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBN jailed) (PP (IN in) (NP (DT the) (NN case))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 nmod:poss 1|1 case 2|8 nsubj 3|3 punct 4|6 compound 5|3 appos 6|3 punct 7|11 det 9|11 compound 10|8 dobj 11|14 mark 12|14 nsubj 13|8 ccomp 14|17 det 15|17 amod 16|22 nsubj 17|22 aux 18|22 advmod 19|22 cop 20|22 nmod:poss 21|14 dep 22|22 cc 23|25 nsubj 24|14 dep 25|22 conj:and 25|25 dobj 26|29 case 27|29 nmod:poss 28|25 nmod:in 29|32 case 30|32 nmod:poss 31|25 nmod:to 32|38 nsubjpass 32|32 punct 33|32 appos 34|32 punct 35|32 ref 36|38 auxpass 37|32 acl:relcl 38|41 case 39|41 det 40|38 nmod:in 41|8 punct 42|
+<coreference> [['1,4,5,4', '2,25,26,25', '10,33,34,33'], ['1,1,3,2', '3,2,3,2'], ['1,11,15,14', '2,1,3,2', '3,6,7,6', '3,8,9,8', '3,10,11,10', '5,10,11,10', '5,12,13,12', '6,1,2,1', '7,7,10,8', '8,1,3,1', '9,4,5,4', '9,19,20,19', '13,1,3,1', '13,13,14,13', '13,21,22,21', '13,28,29,28'], ['12,1,2,1', '2,10,11,10', '2,17,18,17'], ['3,16,21,20', '4,24,25,24'], ['6,14,17,16', '4,4,6,5', '6,14,27,16', '6,21,22,21', '7,19,23,21', '9,6,11,7', '9,6,8,7', '9,9,11,10', '10,19,20,19'], ['4,1,3,2', '5,7,8,7', '7,1,2,1', '7,14,15,14', '9,12,13,12'], ['6,9,27,12', '8,14,16,15'], ['6,21,23,22', '6,21,27,22', '13,31,42,32', '13,31,33,32'], ['7,1,3,2', '10,30,32,31'], ['7,19,24,23', '10,9,11,10', '10,24,25,24'], ['10,1,3,2', '8,1,6,3', '8,1,4,3', '8,5,6,5', '9,1,2,1', '10,7,8,7', '10,9,10,9', '10,22,23,22', '11,1,2,1', '13,34,35,34'], ['9,23,24,23', '11,10,11,10'], ['11,7,9,8', '13,40,42,41'], ['13,5,7,6', '13,1,4,3', '13,31,32,31'], ['13,9,12,11', '13,24,25,24'], ['13,15,18,17', '13,21,23,22']]
+</DOC>

@@ -1,0 +1,67 @@
+<DOC> article-15679.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 |
+<word> The U.S. Federal Trade Commission has reached out to Google Inc and Twitter in an investigation into Facebook Inc 's $ 1 billion acquisition of photo-sharing service Instagram , a source familiar with the probe told Reuters . 
+<lemma> the U.S. Federal Trade Commission have reach out to Google Inc and Twitter in a investigation into Facebook Inc 's $ 1 billion acquisition of photo-sharing service Instagram , a source familiar with the probe tell Reuters . 
+<POS> DT NNP NNP NNP NNP VBZ VBN RP TO NNP NNP CC NNP IN DT NN IN NNP NNP POS $ CD CD NN IN JJ NN NNP , DT NN JJ IN DT NN VBD NNP . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O ORGANIZATION ORGANIZATION O ORGANIZATION O O O O ORGANIZATION ORGANIZATION O MONEY MONEY MONEY O O O O ORGANIZATION O O O O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNP U.S.) (NNP Federal) (NNP Trade) (NNP Commission)) (VP (VBZ has) (VP (VBN reached) (PRT (RP out)) (PP (TO to) (NP (NNP Google) (NNP Inc) (CC and) (NNP Twitter))) (PP (IN in) (NP (DT an) (NN investigation))) (PP (IN into) (NP (NP (NP (NNP Facebook) (NNP Inc) (POS 's)) (ADJP (QP ($ $) (CD 1) (CD billion))) (NN acquisition)) (PP (IN of) (NP (JJ photo-sharing) (NN service) (NNP Instagram)))))))) (, ,) (NP (NP (DT a) (NN source)) (ADJP (JJ familiar) (PP (IN with) (NP (DT the) (NN probe))))) (VP (VBD told) (NP (NNP Reuters))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 36|5 det 1|5 compound 2|5 compound 3|5 compound 4|7 nsubj 5|7 aux 6|36 ccomp 7|7 compound:prt 8|11 case 9|11 compound 10|7 nmod:to 11|11 cc 12|7 nmod:to 13|11 conj:and 13|16 case 14|16 det 15|7 nmod:in 16|24 case 17|19 compound 18|24 nmod:poss 19|19 case 20|24 amod 21|23 compound 22|21 nummod 23|7 nmod:into 24|28 case 25|28 amod 26|28 compound 27|24 nmod:of 28|36 punct 29|31 det 30|36 nsubj 31|31 amod 32|35 case 33|35 det 34|32 nmod:with 35|36 dobj 37|36 punct 38|
+<word> It was not immediately clear what specific information the FTC was looking for , the source said . 
+<lemma> it be not immediately clear what specific information the FTC be look for , the source say . 
+<POS> PRP VBD RB RB JJ WP JJ NN DT NNP VBD VBG IN , DT NN VBD . 
+<NER> O O O O O O O O O ORGANIZATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP It)) (VP (VBD was) (RB not) (ADJP (RB immediately) (JJ clear)) (SBAR (WHNP (WP what)) (S (NP (NP (JJ specific) (NN information)) (NP (DT the) (NNP FTC))) (VP (VBD was) (VP (VBG looking) (PP (IN for)))))))) (, ,) (NP (DT the) (NN source)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|5 nsubj 1|5 cop 2|5 neg 3|5 advmod 4|17 ccomp 5|12 nmod:for 6|8 amod 7|12 nsubj 8|10 det 9|8 dep 10|12 aux 11|5 ccomp 12|6 case 13|17 punct 14|16 det 15|17 nsubj 16|17 punct 18|
+<word> The Commission automatically initiates a review of any acquisition of significant size . 
+<lemma> the Commission automatically initiate a review of any acquisition of significant size . 
+<POS> DT NNP RB VBZ DT NN IN DT NN IN JJ NN . 
+<NER> O ORGANIZATION O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Commission)) (ADVP (RB automatically)) (VP (VBZ initiates) (NP (NP (DT a) (NN review)) (PP (IN of) (NP (NP (DT any) (NN acquisition)) (PP (IN of) (NP (JJ significant) (NN size))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 advmod 3|6 det 5|4 dobj 6|9 case 7|9 det 8|6 nmod:of 9|12 case 10|12 amod 11|9 nmod:of 12|4 punct 13|
+<word> The acquisition of the top photo-sharing service on the Internet is a crucial part of Facebook 's strategy to bolster its mobile offerings , at a time when consumers are increasingly accessing the Internet through smarpthones . 
+<lemma> the acquisition of the top photo-sharing service on the internet be a crucial part of Facebook 's strategy to bolster its mobile offering , at a time when consumer be increasingly access the internet through smarpthone . 
+<POS> DT NN IN DT JJ JJ NN IN DT NN VBZ DT JJ NN IN NNP POS NN TO VB PRP$ JJ NNS , IN DT NN WRB NNS VBP RB VBG DT NN IN NNS . 
+<NER> O O O O O O O O O MISC O O O O O ORGANIZATION O O O O O O O O O O O O O O O O O MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN acquisition)) (PP (IN of) (NP (NP (DT the) (JJ top) (JJ photo-sharing) (NN service)) (PP (IN on) (NP (DT the) (NN Internet)))))) (VP (VBZ is) (NP (NP (DT a) (JJ crucial) (NN part)) (PP (IN of) (NP (NP (NNP Facebook) (POS 's)) (NN strategy) (S (VP (TO to) (VP (VB bolster) (NP (PRP$ its) (JJ mobile) (NNS offerings)) (, ,) (PP (IN at) (NP (NP (DT a) (NN time)) (SBAR (WHADVP (WRB when)) (S (NP (NNS consumers)) (VP (VBP are) (ADVP (RB increasingly)) (VP (VBG accessing) (NP (DT the) (NN Internet)) (PP (IN through) (NP (NNS smarpthones)))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|2 det 1|14 nsubj 2|7 case 3|7 det 4|7 amod 5|7 amod 6|2 nmod:of 7|10 case 8|10 det 9|7 nmod:on 10|14 cop 11|14 det 12|14 amod 13|18 case 15|18 nmod:poss 16|16 case 17|14 nmod:of 18|20 mark 19|18 acl:to 20|23 nmod:poss 21|23 amod 22|20 dobj 23|20 punct 24|27 case 25|27 det 26|20 nmod:at 27|32 advmod 28|32 nsubj 29|32 aux 30|32 advmod 31|27 acl:relcl 32|34 det 33|32 dobj 34|36 case 35|32 nmod:through 36|14 punct 37|
+<word> Facebook had said it hopes to complete the deal -- the largest in Facebook 's history -- in the second quarter , but some observers think that may be an ambitious target , given the size of the deal and Facebook 's status as the world 's No. 1 Internet social network with roughly 900 million users . 
+<lemma> Facebook have say it hope to complete the deal -- the largest in Facebook 's history -- in the second quarter , but some observer think that may be a ambitious target , give the size of the deal and Facebook 's status as the world 's no. 1 internet social network with roughly 900 million user . 
+<POS> NNP VBD VBN PRP VBZ TO VB DT NN : DT JJS IN NNP POS NN : IN DT JJ NN , CC DT NNS VBP IN MD VB DT JJ NN , VBN DT NN IN DT NN CC NNP POS NN IN DT NN POS NN CD NN JJ NN IN RB CD CD NNS . 
+<NER> ORGANIZATION O O O O O O O O O O O O ORGANIZATION O O O O DATE DATE DATE O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O O O O O NUMBER MISC O O O O NUMBER NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Facebook)) (VP (VBD had) (VP (VBN said) (SBAR (S (NP (PRP it)) (VP (VBZ hopes) (S (VP (TO to) (VP (VB complete) (NP (NP (NP (DT the) (NN deal)) (PRN (: --) (NP (NP (DT the) (JJS largest)) (PP (IN in) (NP (NP (NNP Facebook) (POS 's)) (NN history)))) (: --))) (PP (IN in) (NP (DT the) (JJ second) (NN quarter))))))))))))) (, ,) (CC but) (S (NP (DT some) (NNS observers)) (VP (VBP think) (SBAR (IN that) (S (VP (MD may) (VP (VB be) (NP (NP (DT an) (JJ ambitious) (NN target)) (, ,) (VP (VBN given) (NP (NP (NP (DT the) (NN size)) (PP (IN of) (NP (DT the) (NN deal)))) (CC and) (NP (NP (NP (NNP Facebook) (POS 's)) (NN status)) (PP (IN as) (NP (NP (DT the) (NN world) (POS 's)) (NN No.) (CD 1) (NN Internet))))) (NP (NP (JJ social) (NN network)) (PP (IN with) (NP (QP (RB roughly) (CD 900) (CD million)) (NNS users)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|5 nsubj 4|7 nsubj:xsubj 4|3 ccomp 5|7 mark 6|5 xcomp 7|9 det 8|7 dobj 9|12 punct 10|12 det 11|9 dep 12|16 case 13|16 nmod:poss 14|14 case 15|12 nmod:in 16|12 punct 17|21 case 18|21 det 19|21 amod 20|9 nmod:in 21|3 punct 22|3 cc 23|25 det 24|26 nsubj 25|3 conj:but 26|32 mark 27|32 aux 28|32 cop 29|32 det 30|32 amod 31|26 ccomp 32|32 punct 33|32 acl 34|36 det 35|34 iobj 36|39 case 37|39 det 38|36 nmod:of 39|36 cc 40|43 nmod:poss 41|41 case 42|34 iobj 43|36 conj:and 43|50 case 44|46 det 45|50 nmod:poss 46|46 case 47|50 compound 48|50 nummod 49|43 nmod:as 50|52 amod 51|34 dobj 52|57 case 53|56 advmod 54|56 compound 55|57 nummod 56|52 nmod:with 57|3 punct 58|
+<word> The FTC 's review of the deal comes as Facebook is preparing to raise as much as $ 12 billion in a record-breaking initial public offering that could occur as soon as next week . 
+<lemma> the FTC 's review of the deal come as Facebook be prepare to raise as much as $ 12 billion in a record-breaking initial public offering that could occur as soon as next week . 
+<POS> DT NNP POS NN IN DT NN VBZ IN NNP VBZ VBG TO VB RB JJ IN $ CD CD IN DT JJ JJ JJ NN WDT MD VB RB RB IN JJ NN . 
+<NER> O ORGANIZATION O O O O O O O ORGANIZATION O O O O O O O MONEY MONEY MONEY O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (DT The) (NNP FTC) (POS 's)) (NN review)) (PP (IN of) (NP (DT the) (NN deal)))) (VP (VBZ comes) (SBAR (IN as) (S (NP (NNP Facebook)) (VP (VBZ is) (VP (VBG preparing) (S (VP (TO to) (VP (VB raise) (NP (QP (RB as) (JJ much) (IN as) ($ $) (CD 12) (CD billion))) (PP (IN in) (NP (NP (DT a) (JJ record-breaking) (JJ initial) (JJ public) (NN offering)) (SBAR (WHNP (WDT that)) (S (VP (MD could) (VP (VB occur) (ADVP (ADVP (RB as) (RB soon)) (PP (IN as) (NP-TMP (JJ next) (NN week)))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|4 nmod:poss 2|2 case 3|8 nsubj 4|7 case 5|7 det 6|4 nmod:of 7|12 mark 9|12 nsubj 10|14 nsubj:xsubj 10|12 aux 11|8 advcl:as 12|14 mark 13|12 xcomp 14|18 advmod 15|18 advmod 16|18 advmod 17|14 dobj 18|20 compound 19|18 nummod 20|26 case 21|26 det 22|26 amod 23|26 amod 24|26 amod 25|14 nmod:in 26|29 nsubj 26|26 ref 27|29 aux 28|26 acl:relcl 29|31 advmod 30|29 advmod 31|34 case 32|34 amod 33|31 nmod:as 34|8 punct 35|
+<word> Some investors have cited Facebook 's limited advertising revenue from the mobile versions of its service as a potential concern with regards to the company 's long-term growth potential . 
+<lemma> some investor have cite Facebook 's limited advertising revenue from the mobile version of its service as a potential concern with regard to the company 's long-term growth potential . 
+<POS> DT NNS VBP VBN NNP POS JJ NN NN IN DT JJ NNS IN PRP$ NN IN DT JJ NN IN VBZ TO DT NN POS JJ NN NN . 
+<NER> O O O O ORGANIZATION O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT Some) (NNS investors)) (VP (VBP have) (VP (VBN cited) (NP (NP (NP (NNP Facebook) (POS 's)) (JJ limited) (NN advertising) (NN revenue)) (PP (IN from) (NP (NP (DT the) (JJ mobile) (NNS versions)) (PP (IN of) (NP (PRP$ its) (NN service)))))) (PP (IN as) (NP (DT a) (JJ potential) (NN concern))) (SBAR (IN with) (S (VP (VBZ regards) (PP (TO to) (NP (NP (DT the) (NN company) (POS 's)) (JJ long-term) (NN growth) (NN potential)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|9 nmod:poss 5|5 case 6|9 amod 7|9 compound 8|4 dobj 9|13 case 10|13 det 11|13 amod 12|9 nmod:from 13|16 case 14|16 nmod:poss 15|13 nmod:of 16|20 case 17|20 det 18|20 amod 19|4 nmod:as 20|22 mark 21|4 advcl:with 22|29 case 23|25 det 24|29 nmod:poss 25|25 case 26|29 amod 27|29 compound 28|22 nmod:to 29|4 punct 30|
+<word> Facebook and Twitter declined to comment . 
+<lemma> Facebook and Twitter decline to comment . 
+<POS> NNP CC NNP VBD TO VB . 
+<NER> ORGANIZATION O ORGANIZATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Facebook) (CC and) (NNP Twitter)) (VP (VBD declined) (S (VP (TO to) (VP (VB comment))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|6 nsubj:xsubj 1|1 cc 2|1 conj:and 3|4 nsubj 3|6 nsubj:xsubj 3|6 mark 5|4 xcomp 6|4 punct 7|
+<word> Google was not immediately available for comment . 
+<lemma> Google be not immediately available for comment . 
+<POS> NNP VBD RB RB JJ IN NN . 
+<NER> ORGANIZATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Google)) (VP (VBD was) (RB not) (ADJP (RB immediately) (JJ available) (PP (IN for) (NP (NN comment))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|5 cop 2|5 neg 3|5 advmod 4|7 case 6|5 nmod:for 7|5 punct 8|
+<coreference> [['1,10,12,10', '9,1,2,1'], ['1,13,14,13', '8,3,4,3'], ['1,18,21,18', '4,16,18,16', '5,1,2,1', '5,4,5,4', '5,14,16,14', '5,41,43,41', '6,10,11,10', '7,5,7,5', '7,15,16,15', '8,1,2,1'], ['1,1,6,5', '3,1,3,2'], ['1,30,36,31', '2,15,17,16'], ['2,9,11,10', '6,1,4,2'], ['4,12,37,14', '4,1,11,2', '4,21,22,21'], ['4,4,11,7', '7,15,17,16'], ['4,9,11,10', '4,33,35,34'], ['5,8,22,9', '5,38,40,39', '6,6,8,7']]
+</DOC>

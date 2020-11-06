@@ -1,0 +1,102 @@
+<DOC> article-11554.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 |
+<word> A strong magnitude-6 .7 earthquake shook central Chile late Monday , prompting authorities to order the evacuation of a stretch of coastline and causing hundreds of people in the capital to flee buildings in panic . 
+<lemma> a strong magnitude-6 .7 earthquake shake central Chile late Monday , prompt authority to order the evacuation of a stretch of coastline and cause hundred of people in the capital to flee building in panic . 
+<POS> DT JJ NN CD NN VBD JJ NNP RB NNP , VBG NNS TO VB DT NN IN DT NN IN NN CC VBG NNS IN NNS IN DT NN TO VB NNS IN NN . 
+<NER> O O O NUMBER O O O LOCATION DATE DATE O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (JJ strong) (NN magnitude-6) (CD .7) (NN earthquake)) (VP (VBD shook) (NP (JJ central) (NNP Chile)) (NP-TMP (RB late) (NNP Monday)) (, ,) (S (VP (VP (VBG prompting) (NP (NNS authorities)) (S (VP (TO to) (VP (VB order) (NP (NP (DT the) (NN evacuation)) (PP (IN of) (NP (NP (DT a) (NN stretch)) (PP (IN of) (NP (NN coastline)))))))))) (CC and) (VP (VBG causing) (NP (NP (NNS hundreds)) (PP (IN of) (NP (NNS people)))) (PP (IN in) (NP (DT the) (NN capital))) (S (VP (TO to) (VP (VB flee) (NP (NNS buildings)) (PP (IN in) (NP (NN panic)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 det 1|5 amod 2|5 compound 3|5 nummod 4|6 nsubj 5|8 amod 7|6 dobj 8|10 advmod 9|6 nmod:tmod 10|6 punct 11|6 dep 12|12 dobj 13|15 nsubj:xsubj 13|15 mark 14|12 xcomp 15|17 det 16|15 dobj 17|20 case 18|20 det 19|17 nmod:of 20|22 case 21|20 nmod:of 22|12 cc 23|6 dep 24|12 conj:and 24|27 det:qmod 25|25 mwe 26|24 dobj 27|30 case 28|30 det 29|24 nmod:in 30|32 mark 31|24 advcl:to 32|32 dobj 33|35 case 34|32 nmod:in 35|6 punct 36|
+<word> There were no reports of major damage , but authorities in the port city of Valparaiso said a 72-year-old man died of a heart attack during the quake . 
+<lemma> there be no report of major damage , but authority in the port city of Valparaiso say a 72-year-old man die of a heart attack during the quake . 
+<POS> EX VBD DT NNS IN JJ NN , CC NNS IN DT JJ NN IN NNP VBD DT JJ NN VBD IN DT NN NN IN DT NN . 
+<NER> O O O O O O O O O O O O O O O LOCATION O O DURATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (EX There)) (VP (VBD were) (NP (NP (DT no) (NNS reports)) (PP (IN of) (NP (JJ major) (NN damage)))))) (, ,) (CC but) (S (NP (NP (NNS authorities)) (PP (IN in) (NP (NP (DT the) (JJ port) (NN city)) (PP (IN of) (NP (NNP Valparaiso)))))) (VP (VBD said) (SBAR (S (NP (DT a) (JJ 72-year-old) (NN man)) (VP (VBD died) (PP (IN of) (NP (DT a) (NN heart) (NN attack))) (PP (IN during) (NP (DT the) (NN quake)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|4 neg 3|2 nsubj 4|7 case 5|7 amod 6|4 nmod:of 7|2 punct 8|2 cc 9|17 nsubj 10|14 case 11|14 det 12|14 amod 13|10 nmod:in 14|16 case 15|14 nmod:of 16|2 conj:but 17|20 det 18|20 amod 19|21 nsubj 20|17 ccomp 21|25 case 22|25 det 23|25 compound 24|21 nmod:of 25|28 case 26|28 det 27|21 nmod:during 28|2 punct 29|
+<word> The earthquake was felt for almost a minute in Valparaiso and the capital , Santiago . 
+<lemma> the earthquake be feel for almost a minute in Valparaiso and the capital , Santiago . 
+<POS> DT NN VBD VBN IN RB DT NN IN NNP CC DT NN , NNP . 
+<NER> O O O O O O DURATION DURATION O LOCATION O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN earthquake)) (VP (VBD was) (VP (VBN felt) (PP (IN for) (NP (NP (NP (RB almost) (DT a) (NN minute)) (PP (IN in) (NP (NNP Valparaiso)))) (CC and) (NP (NP (DT the) (NN capital)) (, ,) (NP (NNP Santiago))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|4 auxpass 3|8 case 5|8 advmod 6|8 det 7|4 nmod:for 8|10 case 9|8 nmod:in 10|8 cc 11|13 det 12|4 nmod:for 13|8 conj:and 13|13 punct 14|13 appos 15|4 punct 16|
+<word> The US Geological Survey initially put the quake 's magnitude at 6.5 but later raised it to 6.7 . 
+<lemma> the US Geological Survey initially put the quake 's magnitude at 6.5 but later raise it to 6.7 . 
+<POS> DT NNP NNP NNP RB VBD DT NN POS NN IN CD CC RB VBD PRP TO CD . 
+<NER> O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O NUMBER O O O O O NUMBER O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP US) (NNP Geological) (NNP Survey)) (ADVP (RB initially)) (VP (VP (VBD put) (NP (NP (DT the) (NN quake) (POS 's)) (NN magnitude)) (PP (IN at) (NP (CD 6.5)))) (CC but) (VP (ADVP (RB later)) (VBD raised) (NP (PRP it)) (PP (TO to) (NP (CD 6.7))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 compound 2|4 compound 3|6 nsubj 4|15 nsubj 4|6 advmod 5|8 det 7|10 nmod:poss 8|8 case 9|6 dobj 10|12 case 11|6 nmod:at 12|6 cc 13|15 advmod 14|6 conj:but 15|15 dobj 16|18 case 17|15 nmod:to 18|6 punct 19|
+<word> Its epicenter was 26 miles northeast of Valparaiso , and it had a depth of 23 miles . 
+<lemma> its epicenter be 26 mile northeast of Valparaiso , and it have a depth of 23 mile . 
+<POS> PRP$ NN VBD CD NNS RB IN NNP , CC PRP VBD DT NN IN CD NNS . 
+<NER> O O O NUMBER O O O LOCATION O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP$ Its) (NN epicenter)) (VP (VBD was) (ADVP (NP (CD 26) (NNS miles)) (RB northeast)) (PP (IN of) (NP (NNP Valparaiso))))) (, ,) (CC and) (S (NP (PRP it)) (VP (VBD had) (NP (NP (DT a) (NN depth)) (PP (IN of) (NP (CD 23) (NNS miles)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 nmod:poss 1|8 nsubj 2|8 cop 3|5 nummod 4|6 nmod:npmod 5|8 advmod 6|8 case 7|8 punct 9|8 cc 10|12 nsubj 11|8 conj:and 12|14 det 13|12 dobj 14|17 case 15|17 nummod 16|14 nmod:of 17|8 punct 18|
+<word> It struck just minutes before midnight local time Monday . 
+<lemma> it strike just minute before midnight local time Monday . 
+<POS> PRP VBD RB NNS IN NN JJ NN NNP . 
+<NER> O O O DURATION O TIME TIME TIME DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP It)) (VP (VBD struck) (ADVP (RB just) (NP (NNS minutes)) (PP (IN before) (NP (NN midnight)) (NP-TMP (JJ local) (NN time)))) (NP-TMP (NNP Monday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|2 advmod 3|3 nmod:npmod 4|6 case 5|3 nmod:before 6|8 amod 7|6 nmod:tmod 8|2 nmod:tmod 9|2 punct 10|
+<word> The Chilean navy 's hydrographic and oceanographic service discounted the possibility of a tsunami , but authorities maintained an order for people to move to higher ground along a roughly 500-mile stretch of coastline running from the city of Constitucion to Tongoy , north of the capital . 
+<lemma> the chilean navy 's hydrographic and oceanographic service discount the possibility of a tsunami , but authority maintain a order for people to move to higher ground along a roughly 500-mile stretch of coastline run from the city of Constitucion to Tongoy , north of the capital . 
+<POS> DT JJ NN POS JJ CC JJ NN VBD DT NN IN DT NN , CC NNS VBD DT NN IN NNS TO VB TO JJR NN IN DT RB JJ NN IN NN VBG IN DT NN IN NNP TO NNP , NN IN DT NN . 
+<NER> O MISC O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O LOCATION O LOCATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT The) (JJ Chilean) (NN navy) (POS 's)) (ADJP (JJ hydrographic) (CC and) (JJ oceanographic)) (NN service)) (VP (VBD discounted) (NP (NP (DT the) (NN possibility)) (PP (IN of) (NP (DT a) (NN tsunami)))))) (, ,) (CC but) (S (NP (NNS authorities)) (VP (VBD maintained) (NP (DT an) (NN order)) (PP (IN for) (NP (NNS people))) (S (VP (TO to) (VP (VB move) (PP (TO to) (NP (NP (JJR higher) (NN ground)) (PP (IN along) (NP (NP (DT a) (ADJP (RB roughly) (JJ 500-mile)) (NN stretch)) (PP (IN of) (NP (NP (NN coastline)) (VP (VBG running) (PP (IN from) (NP (NP (DT the) (NN city)) (PP (IN of) (NP (NNP Constitucion))))) (PP (TO to) (NP (NNP Tongoy))) (, ,) (NP (NP (NN north)) (PP (IN of) (NP (DT the) (NN capital)))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 det 1|3 amod 2|8 nmod:poss 3|3 case 4|8 amod 5|5 cc 6|5 conj:and 7|8 amod 7|9 nsubj 8|11 det 10|9 dobj 11|14 case 12|14 det 13|11 nmod:of 14|9 punct 15|9 cc 16|18 nsubj 17|9 conj:but 18|20 det 19|18 dobj 20|22 case 21|18 nmod:for 22|24 mark 23|18 advcl:to 24|27 case 25|27 amod 26|24 nmod:to 27|32 case 28|32 det 29|31 advmod 30|32 amod 31|27 nmod:along 32|34 case 33|32 nmod:of 34|34 acl 35|38 case 36|38 det 37|35 nmod:from 38|40 case 39|38 nmod:of 40|42 case 41|35 nmod:to 42|35 punct 43|35 dobj 44|47 case 45|47 det 46|44 nmod:of 47|9 punct 48|
+<word> Thousands of people were later allowed to return home , said Deputy Interior Secretary Rodrigo Ubilla . 
+<lemma> thousand of people be later allow to return home , say Deputy Interior Secretary Rodrigo Ubilla . 
+<POS> NNS IN NNS VBD RB VBN TO VB NN , VBD NNP NNP NNP NNP NNP . 
+<NER> O O O O O O O O O O O O ORGANIZATION O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (NP (NNS Thousands)) (PP (IN of) (NP (NNS people)))) (VP (VBD were) (ADVP (RB later)) (VP (VBN allowed) (S (VP (TO to) (VP (VB return) (NP (NN home)))))))) (, ,) (VP (VBD said)) (NP (NNP Deputy) (NNP Interior) (NNP Secretary) (NNP Rodrigo) (NNP Ubilla)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|3 det:qmod 1|8 nsubj:xsubj 1|1 mwe 2|6 nsubjpass 3|8 nsubj:xsubj 3|6 auxpass 4|6 advmod 5|11 ccomp 6|8 mark 7|6 xcomp 8|8 dobj 9|11 punct 10|16 compound 12|16 compound 13|16 compound 14|16 compound 15|11 nsubj 16|11 punct 17|
+<word> The quake knocked out power and telephone service in various parts of Santiago , but the National Emergency Office of the Interior Ministry said that it had received no reports of major damage or injuries so far . 
+<lemma> the quake knock out power and telephone service in various part of Santiago , but the National Emergency Office of the Interior Ministry say that it have receive no report of major damage or injury so far . 
+<POS> DT NN VBD RP NN CC NN NN IN JJ NNS IN NNP , CC DT NNP NNP NNP IN DT NNP NNP VBD IN PRP VBD VBN DT NNS IN JJ NN CC NNS RB RB . 
+<NER> O O O O O O O O O O O O LOCATION O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NN quake)) (VP (VBD knocked) (PRT (RP out)) (NP (NN power) (CC and) (NN telephone) (NN service)) (PP (IN in) (NP (NP (JJ various) (NNS parts)) (PP (IN of) (NP (NNP Santiago))))))) (, ,) (CC but) (S (NP (NP (DT the) (NNP National) (NNP Emergency) (NNP Office)) (PP (IN of) (NP (DT the) (NNP Interior) (NNP Ministry)))) (VP (VBD said) (SBAR (IN that) (S (NP (PRP it)) (VP (VBD had) (VP (VBN received) (NP (NP (DT no) (NNS reports)) (PP (IN of) (NP (JJ major) (NN damage) (CC or) (NNS injuries)))) (ADVP (RB so) (RB far)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|3 compound:prt 4|8 compound 5|5 cc 6|5 conj:and 7|8 compound 7|3 dobj 8|11 case 9|11 amod 10|3 nmod:in 11|13 case 12|11 nmod:of 13|3 punct 14|3 cc 15|19 det 16|19 compound 17|19 compound 18|24 nsubj 19|23 case 20|23 det 21|23 compound 22|19 nmod:of 23|3 conj:but 24|28 mark 25|28 nsubj 26|28 aux 27|24 ccomp 28|30 neg 29|28 dobj 30|33 case 31|33 amod 32|30 nmod:of 33|33 cc 34|30 nmod:of 35|33 conj:or 35|37 advmod 36|28 advmod 37|3 punct 38|
+<word> There were reports of rockslides on a highway outside of Santiago , and residents of Valparaiso said the facades of some old buildings had fallen . 
+<lemma> there be report of rockslide on a highway outside of Santiago , and resident of Valparaiso say the facade of some old building have fall . 
+<POS> EX VBD NNS IN NNS IN DT NN IN IN NNP , CC NNS IN NNP VBD DT NNS IN DT JJ NNS VBD VBN . 
+<NER> O O O O O O O O O O LOCATION O O O O ORGANIZATION O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (EX There)) (VP (VBD were) (NP (NP (NNS reports)) (PP (IN of) (NP (NP (NNS rockslides)) (PP (IN on) (NP (DT a) (NN highway) (IN outside))))) (PP (IN of) (NP (NNP Santiago)))))) (, ,) (CC and) (S (NP (NP (NNS residents)) (PP (IN of) (NP (NNP Valparaiso)))) (VP (VBD said) (SBAR (S (NP (NP (DT the) (NNS facades)) (PP (IN of) (NP (DT some) (JJ old) (NNS buildings)))) (VP (VBD had) (VP (VBN fallen))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 expl 1|2 nsubj 3|5 case 4|3 nmod:of 5|8 case 6|8 det 7|5 nmod:on 8|8 amod 9|11 case 10|3 nmod:of 11|2 punct 12|2 cc 13|17 nsubj 14|16 case 15|14 nmod:of 16|2 conj:and 17|19 det 18|25 nsubj 19|23 case 20|23 det 21|23 amod 22|19 nmod:of 23|25 aux 24|17 ccomp 25|2 punct 26|
+<word> Public Works Minister Laurence Golbourne said that that Chile 's airports and roadways appeared undamaged . 
+<lemma> Public Works Minister Laurence Golbourne say that that Chile 's airport and roadway appear undamaged . 
+<POS> NNP NNP NNP NNP NNP VBD IN IN NNP POS NNS CC NNS VBD JJ . 
+<NER> ORGANIZATION ORGANIZATION O PERSON PERSON O O O LOCATION O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Public) (NNP Works) (NNP Minister) (NNP Laurence) (NNP Golbourne)) (VP (VBD said) (SBAR (IN that) (IN that) (S (NP (NP (NNP Chile) (POS 's)) (NNS airports) (CC and) (NNS roadways)) (VP (VBD appeared) (ADJP (JJ undamaged)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|5 compound 1|5 compound 2|5 compound 3|5 compound 4|6 nsubj 5|14 mark 7|14 mark 8|11 nmod:poss 9|9 case 10|14 nsubj 11|11 cc 12|11 conj:and 13|14 nsubj 13|6 ccomp 14|14 xcomp 15|6 punct 16|
+<word> Chile is highly earthquake-prone . 
+<lemma> Chile be highly earthquake-prone . 
+<POS> NNP VBZ RB JJ . 
+<NER> LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Chile)) (VP (VBZ is) (ADJP (RB highly) (JJ earthquake-prone))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 cop 2|4 advmod 3|4 punct 5|
+<word> A magnitude-7 .1 earthquake struck central Chile on March 25 , the strongest and longest that many people said they had felt since a huge quake devastated that region two years ago . 
+<lemma> a magnitude-7 .1 earthquake strike central Chile on March 25 , the strongest and longest that many people say they have feel since a huge quake devastate that region two year ago . 
+<POS> DT JJ NN NN VBD JJ NNP IN NNP CD , DT JJS CC JJS IN JJ NNS VBD PRP VBD VBN IN DT JJ NN VBD IN NN CD NNS RB . 
+<NER> O O NUMBER O O O LOCATION O DATE DATE O O O O O O O O O O O O O O O O O O O DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (JJ magnitude-7) (NN .1) (NN earthquake)) (VP (VBD struck) (NP (JJ central) (NNP Chile)) (PP (IN on) (NP (NP (NNP March) (CD 25)) (, ,) (NP (DT the) (JJS strongest) (CC and) (JJS longest)))) (SBAR (IN that) (S (NP (JJ many) (NNS people)) (VP (VBD said) (SBAR (S (NP (PRP they)) (VP (VBD had) (VP (VBN felt) (PP (IN since) (NP (NP (DT a) (JJ huge) (NN quake)) (VP (VBD devastated) (SBAR (IN that) (FRAG (NP (NP (NN region)) (ADVP (NP (CD two) (NNS years)) (RB ago)))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 amod 2|4 compound 3|5 nsubj 4|7 amod 6|5 dobj 7|9 case 8|5 nmod:on 9|9 nummod 10|9 punct 11|13 dep 12|9 appos 13|13 cc 14|9 appos 15|13 conj:and 15|19 mark 16|18 amod 17|19 nsubj 18|5 ccomp 19|22 nsubj 20|22 aux 21|19 ccomp 22|26 case 23|26 det 24|26 amod 25|22 nmod:since 26|26 acl 27|29 mark 28|27 dep 29|31 nummod 30|32 nmod:npmod 31|29 advmod 32|5 punct 33|
+<word> In 2010 , the 8.8-magnitude quake caused a tsunami that obliterated much of the coastal downtown of the central Chilean city 
+<lemma> in 2010 , the 8.8-magnitude quake cause a tsunami that obliterate much of the coastal downtown of the central chilean city 
+<POS> IN CD , DT JJ NN VBD DT NN WDT VBD RB IN DT JJ NN IN DT JJ JJ NN 
+<NER> O DATE O O O O O O O O O O O O O O O O O MISC O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (CD 2010))) (, ,) (NP (DT the) (JJ 8.8-magnitude) (NN quake)) (VP (VBD caused) (NP (NP (DT a) (NN tsunami)) (SBAR (WHNP (WDT that)) (S (VP (VBD obliterated) (NP (NP (RB much)) (PP (IN of) (NP (NP (DT the) (JJ coastal) (NN downtown)) (PP (IN of) (NP (DT the) (JJ central) (JJ Chilean) (NN city))))))))))))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|7 nmod:in 2|7 punct 3|6 det 4|6 amod 5|7 nsubj 6|9 det 8|7 dobj 9|11 nsubj 9|9 ref 10|9 acl:relcl 11|11 dobj 12|16 case 13|16 det 14|16 amod 15|12 nmod:of 16|21 case 17|21 det 18|21 amod 19|21 amod 20|16 nmod:of 21|
+<coreference> [['1,1,6,5', '3,1,3,2'], ['1,7,9,8', '11,9,11,9', '12,1,2,1', '13,6,8,7'], ['1,9,11,10', '6,9,10,9'], ['1,13,14,13', '7,17,18,17'], ['1,29,31,30', '3,12,16,13', '3,12,14,13', '7,46,48,47'], ['2,16,17,16', '3,10,11,10', '5,8,9,8', '10,16,17,16'], ['2,27,29,28', '4,7,10,8', '9,1,3,2'], ['3,15,16,15', '9,13,14,13', '10,11,12,11'], ['4,1,5,4', '4,16,17,16', '5,1,2,1'], ['5,1,3,2', '5,11,12,11', '6,1,2,1'], ['9,16,24,19', '9,26,27,26'], ['13,17,19,18', '13,20,21,20']]
+</DOC>

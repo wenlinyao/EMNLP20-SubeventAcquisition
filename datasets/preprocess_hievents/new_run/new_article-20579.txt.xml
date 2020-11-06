@@ -1,0 +1,39 @@
+<DOC> article-20579.txt.xml story
+<paragraph> | 0 1 2 3 4 |
+<word> A Russian-made Soyuz craft carrying three astronauts has docked with the International Space Station , putting the crew in place for the imminent arrival of the first ever privately owned cargo ship to the orbiting lab . 
+<lemma> a russian-made Soyuz craft carry three astronaut have dock with the International Space Station , put the crew in place for the imminent arrival of the first ever privately own cargo ship to the orbit lab . 
+<POS> DT JJ NNP NN VBG CD NNS VBZ VBN IN DT NNP NNP NNP , VBG DT NN IN NN IN DT JJ NN IN DT JJ RB RB VBN NN NN TO DT VBG NN . 
+<NER> O MISC MISC O O NUMBER O O O O O LOCATION LOCATION LOCATION O O O O O O O O O O O O ORDINAL O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (JJ Russian-made) (NNP Soyuz) (NN craft)) (VP (VBG carrying) (NP (CD three) (NNS astronauts)))) (VP (VBZ has) (VP (VBN docked) (PP (IN with) (NP (DT the) (NNP International) (NNP Space) (NNP Station))) (, ,) (S (VP (VBG putting) (NP (NP (DT the) (NN crew)) (PP (IN in) (NP (NN place)))) (PP (IN for) (NP (NP (DT the) (JJ imminent) (NN arrival)) (PP (IN of) (NP (NP (DT the) (JJ first)) (VP (ADVP (RB ever)) (ADVP (RB privately)) (VBN owned) (NP (NN cargo) (NN ship)) (PP (TO to) (NP (DT the) (VBG orbiting) (NN lab)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|4 det 1|4 amod 2|4 compound 3|9 nsubj 4|4 acl 5|7 nummod 6|5 dobj 7|9 aux 8|14 case 10|14 det 11|14 compound 12|14 compound 13|9 nmod:with 14|9 punct 15|9 xcomp 16|18 det 17|16 dobj 18|20 case 19|18 nmod:in 20|24 case 21|24 det 22|24 amod 23|16 nmod:for 24|27 case 25|27 det 26|24 nmod:of 27|30 advmod 28|30 advmod 29|27 acl 30|32 compound 31|30 dobj 32|36 case 33|36 det 34|36 amod 35|30 nmod:to 36|9 punct 37|
+<word> The Soyuz eased into position over the Mongolian-Kazakh border after a two-day trip that began with the launch from the Russian-leased Baikonur cosmodrome in southern Kazakhstan . 
+<lemma> the Soyuz ease into position over the Mongolian-Kazakh border after a two-day trip that begin with the launch from the russian-leased Baikonur cosmodrome in southern Kazakhstan . 
+<POS> DT NNP VBD IN NN IN DT NNP NN IN DT JJ NN WDT VBD IN DT NN IN DT JJ NNP NN IN JJ NNP . 
+<NER> O MISC O O O O O MISC O O O DURATION O O O O O O O O MISC MISC O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Soyuz)) (VP (VBD eased) (PP (IN into) (NP (NN position))) (PP (IN over) (NP (DT the) (NNP Mongolian-Kazakh) (NN border))) (PP (IN after) (NP (NP (DT a) (JJ two-day) (NN trip)) (SBAR (WHNP (WDT that)) (S (VP (VBD began) (PP (IN with) (NP (DT the) (NN launch))) (PP (IN from) (NP (NP (DT the) (JJ Russian-leased) (NNP Baikonur) (NN cosmodrome)) (PP (IN in) (NP (JJ southern) (NNP Kazakhstan))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 case 4|3 nmod:into 5|9 case 6|9 det 7|9 compound 8|3 nmod:over 9|13 case 10|13 det 11|13 amod 12|3 nmod:after 13|15 nsubj 13|13 ref 14|13 acl:relcl 15|18 case 16|18 det 17|15 nmod:with 18|23 case 19|23 det 20|23 amod 21|23 compound 22|15 nmod:from 23|26 case 24|26 amod 25|23 nmod:in 26|3 punct 27|
+<word> Nasa astronaut Joseph Acaba and Russian cosmonauts Gennady Padalka and Sergei Revin are set for a four-and-half-month stay in space . 
+<lemma> Nasa astronaut Joseph Acaba and Russian cosmonaut Gennady Padalka and Sergei Revin be set for a four-and-half-month stay in space . 
+<POS> NNP NN NNP NNP CC NNP NNS NNP NNP CC NNP NNP VBP VBN IN DT JJ NN IN NN . 
+<NER> ORGANIZATION O PERSON PERSON O MISC O PERSON PERSON O PERSON PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Nasa) (NN astronaut) (NNP Joseph) (NNP Acaba)) (CC and) (NP (NNP Russian) (NNS cosmonauts) (NNP Gennady) (NNP Padalka) (CC and) (NNP Sergei) (NNP Revin))) (VP (VBP are) (VP (VBN set) (PP (IN for) (NP (NP (DT a) (JJ four-and-half-month) (NN stay)) (PP (IN in) (NP (NN space))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|4 compound 1|4 compound 2|4 compound 3|14 nsubjpass 4|4 cc 5|9 compound 6|9 compound 7|9 compound 8|4 conj:and 9|14 nsubjpass 9|9 cc 10|12 compound 11|4 conj:and 12|9 conj:and 12|14 auxpass 13|18 case 15|18 det 16|18 amod 17|14 nmod:for 18|20 case 19|18 nmod:in 20|14 punct 21|
+<word> Their arrival comes just two days ahead of the planned launch of the privately owned SpaceX 's Dragon Capsule from Cape Canaveral . 
+<lemma> they arrival come just two day ahead of the plan launch of the privately own SpaceX 's Dragon Capsule from Cape Canaveral . 
+<POS> PRP$ NN VBZ RB CD NNS RB IN DT VBN NN IN DT RB VBN NNP POS NNP NNP IN NNP NNP . 
+<NER> O O O O DURATION DURATION O O O O O O O O O ORGANIZATION O O O O LOCATION LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP$ Their) (NN arrival)) (VP (VBZ comes) (PP (ADVP (NP (RB just) (CD two) (NNS days)) (RB ahead)) (IN of) (NP (NP (DT the) (VBN planned) (NN launch)) (PP (IN of) (NP (DT the) (ADJP (RB privately) (VBN owned)))))) (NP (NP (NP (NNP SpaceX) (POS 's)) (NNP Dragon) (NNP Capsule)) (PP (IN from) (NP (NNP Cape) (NNP Canaveral))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 nmod:poss 1|3 nsubj 2|6 advmod 4|6 nummod 5|7 nmod:npmod 6|11 advmod 7|11 case 8|11 det 9|11 amod 10|3 nmod:of 11|15 case 12|15 det 13|15 advmod 14|11 nmod:of 15|19 nmod:poss 16|16 case 17|19 compound 18|3 dobj 19|22 case 20|22 compound 21|19 nmod:from 22|3 punct 23|
+<word> The space station is currently occupied by Russian cosmonaut Oleg Kononenko , Nasa astronaut Don Pettit and Holland 's Andre Kuipers . 
+<lemma> the space station be currently occupy by russian cosmonaut Oleg Kononenko , Nasa astronaut Don Pettit and Holland 's Andre Kuipers . 
+<POS> DT NN NN VBZ RB VBN IN JJ NN NNP NNP , NNP NN NNP NNP CC NNP POS NNP NNP . 
+<NER> O O O O DATE O O MISC O PERSON PERSON O ORGANIZATION O PERSON PERSON O LOCATION O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN space) (NN station)) (VP (VBZ is) (ADVP (RB currently)) (ADJP (VBN occupied) (PP (IN by) (NP (NP (JJ Russian) (NN cosmonaut) (NNP Oleg) (NNP Kononenko)) (, ,) (NP (NNP Nasa) (NN astronaut) (NNP Don) (NNP Pettit)) (CC and) (NP (NP (NNP Holland) (POS 's)) (NNP Andre) (NNP Kuipers)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 compound 2|6 nsubjpass 3|6 auxpass 4|6 advmod 5|11 case 7|11 amod 8|11 compound 9|11 compound 10|6 nmod:agent 11|11 punct 12|16 compound 13|16 compound 14|16 compound 15|6 nmod:agent 16|11 conj:and 16|11 cc 17|21 nmod:poss 18|18 case 19|21 compound 20|6 nmod:agent 21|11 conj:and 21|6 punct 22|
+<coreference> [['1,2,4,3', '2,1,3,2'], ['1,12,15,14', '5,1,4,3'], ['1,22,37,24', '4,1,3,2'], ['3,1,2,1', '5,13,14,13'], ['3,1,13,4', '4,1,2,1']]
+</DOC>

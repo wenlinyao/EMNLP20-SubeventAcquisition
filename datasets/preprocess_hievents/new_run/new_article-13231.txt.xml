@@ -1,0 +1,123 @@
+<DOC> article-13231.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 |
+<word> Rhys Owen Jones , 21 , and Keri Mules , 20 , appeared before magistrates in Brisbane today and pleaded guilty to trespassing , stealing and keeping a protected animal , Australia 's Department of Justice said . 
+<lemma> Rhys Owen Jones , 21 , and Keri Mules , 20 , appear before magistrate in Brisbane today and plead guilty to trespassing , steal and keep a protected animal , Australia 's Department of Justice say . 
+<POS> NNP NNP NNP , CD , CC NNP NNP , CD , VBD IN NNS IN NNP NN CC VBD JJ TO NN , VBG CC VBG DT JJ NN , NNP POS NNP IN NNP VBD . 
+<NER> PERSON PERSON PERSON O NUMBER O O PERSON PERSON O NUMBER O O O O O LOCATION DATE O O O O O O O O O O O O O LOCATION O ORGANIZATION ORGANIZATION ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NP (NNP Rhys) (NNP Owen) (NNP Jones)) (, ,) (NP (CD 21)) (, ,) (CC and) (NP (NNP Keri) (NNP Mules))) (, ,) (NP (CD 20)) (, ,)) (VP (VP (VBD appeared) (PP (IN before) (NP (NP (NNS magistrates)) (PP (IN in) (NP (NNP Brisbane))))) (NP-TMP (NN today))) (CC and) (VP (VBD pleaded) (ADJP (JJ guilty) (PP (TO to) (NP (NN trespassing)))) (, ,) (S (VP (VBG stealing) (CC and) (VBG keeping) (NP (DT a) (JJ protected) (NN animal))))))) (, ,) (NP (NP (NP (NNP Australia) (POS 's)) (NNP Department)) (PP (IN of) (NP (NNP Justice)))) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 37|3 compound 1|3 compound 2|13 nsubj 3|20 nsubj 3|3 punct 4|3 conj:and 5|13 nsubj 5|3 punct 6|3 cc 7|9 compound 8|3 conj:and 9|13 nsubj 9|3 punct 10|3 amod 11|3 punct 12|37 ccomp 13|15 case 14|13 nmod:before 15|17 case 16|15 nmod:in 17|13 nmod:tmod 18|13 cc 19|13 conj:and 20|37 ccomp 20|20 xcomp 21|23 case 22|21 nmod:to 23|20 punct 24|20 xcomp 25|25 cc 26|20 xcomp 27|25 conj:and 27|30 det 28|30 amod 29|25 dobj 30|37 punct 31|34 nmod:poss 32|32 case 33|37 nsubj 34|36 case 35|34 nmod:of 36|37 punct 38|
+<word> The two friends from south Wales were arrested after breaking into Sea World on Queensland 's Gold Coast during an alcohol-fuelled escapade on April 14 . 
+<lemma> the two friend from south Wales be arrest after break into Sea World on Queensland 's Gold Coast during a alcohol-fuelled escapade on April 14 . 
+<POS> DT CD NNS IN JJ NNP VBD VBN IN VBG IN NNP NNP IN NNP POS NNP NNP IN DT JJ NN IN NNP CD . 
+<NER> O NUMBER O O LOCATION LOCATION O O O O O O O O LOCATION O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (CD two) (NNS friends)) (PP (IN from) (NP (JJ south) (NNP Wales)))) (VP (VBD were) (VP (VBN arrested) (PP (IN after) (S (VP (VBG breaking) (PP (IN into) (NP (NP (NNP Sea) (NNP World)) (PP (IN on) (NP (NP (NNP Queensland) (POS 's)) (NNP Gold) (NNP Coast))))) (PP (IN during) (NP (NP (DT an) (JJ alcohol-fuelled) (NN escapade)) (PP (IN on) (NP (NNP April) (CD 14)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 det 1|3 nummod 2|8 nsubjpass 3|6 case 4|6 amod 5|3 nmod:from 6|8 auxpass 7|10 mark 9|8 advcl:after 10|13 case 11|13 compound 12|10 nmod:into 13|18 case 14|18 nmod:poss 15|15 case 16|18 compound 17|13 nmod:on 18|22 case 19|22 det 20|22 amod 21|10 nmod:during 22|24 case 23|22 nmod:on 24|24 nummod 25|8 punct 26|
+<word> They also swam with dolphins and let off a fire extinguisher in a shark enclosure , according to AAP news agency . 
+<lemma> they also swim with dolphin and let off a fire extinguisher in a shark enclosure , accord to AAP news agency . 
+<POS> PRP RB VBD IN NNS CC VB RP DT NN NN IN DT NN NN , VBG TO NNP NN NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (ADVP (RB also)) (VP (VP (VBD swam) (PP (IN with) (NP (NNS dolphins)))) (CC and) (VP (VB let) (PRT (RP off)) (NP (DT a) (NN fire) (NN extinguisher)) (PP (IN in) (NP (DT a) (NN shark) (NN enclosure))) (, ,) (PP (VBG according) (PP (TO to) (NP (NNP AAP) (NN news) (NN agency)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|7 nsubj 1|3 advmod 2|5 case 4|3 nmod:with 5|3 cc 6|3 conj:and 7|7 compound:prt 8|11 det 9|11 compound 10|7 dobj 11|15 case 12|15 det 13|15 compound 14|7 nmod:in 15|7 punct 16|21 case 17|17 mwe 18|21 compound 19|21 compound 20|7 nmod:according_to 21|3 punct 22|
+<word> Jones , reported to be a former British Royal Marine and Mules , reported to be a bricklayer , were in Australia on a working holiday visa when the incident took place . 
+<lemma> Jones , report to be a former british Royal Marine and Mules , report to be a bricklayer , be in Australia on a work holiday visa when the incident take place . 
+<POS> NNP , VBD TO VB DT JJ JJ NNP NNP CC NNP , VBD TO VB DT NN , VBD IN NNP IN DT VBG NN NN WRB DT NN VBD NN . 
+<NER> PERSON O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O O O LOCATION O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Jones)) (, ,) (VP (VBD reported) (S (VP (TO to) (VP (VB be) (NP (NP (DT a) (JJ former) (JJ British) (NNP Royal) (NNP Marine)) (CC and) (NP (NNP Mules))))))) (, ,)) (VP (VBD reported) (S (VP (TO to) (VP (VB be) (NP (NP (DT a) (NN bricklayer)) (, ,) (SBAR (S (VP (VBD were) (PP (IN in) (NP (NNP Australia)))))) (PP (IN on) (NP (DT a) (VBG working) (NN holiday) (NN visa))))))) (SBAR (WHADVP (WRB when)) (S (NP (DT the) (NN incident)) (VP (VBD took) (NP (NN place)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|14 nsubj 1|18 nsubj:xsubj 1|1 punct 2|1 acl 3|10 mark 4|10 cop 5|10 det 6|10 amod 7|10 amod 8|10 compound 9|3 xcomp 10|10 cc 11|3 xcomp 12|10 conj:and 12|1 punct 13|18 mark 15|18 cop 16|18 det 17|14 xcomp 18|18 punct 19|22 cop 20|22 case 21|18 acl:relcl 22|27 case 23|27 det 24|27 amod 25|27 compound 26|18 nmod:on 27|31 advmod 28|30 det 29|31 nsubj 30|14 advcl 31|31 dobj 32|14 punct 33|
+<word> They snuck into the animal park along with Australian James Vasilj , 18 , after drinking 1.5 litres of vodka between them at a beach party , AAP said . 
+<lemma> they snuck into the animal park along with australian James Vasilj , 18 , after drink 1.5 litre of vodka between they at a beach party , AAP say . 
+<POS> PRP VBP IN DT NN NN IN IN JJ NNP NNP , CD , IN VBG CD NNS IN NN IN PRP IN DT NN NN , NNP VBD . 
+<NER> O O O O O O O O MISC PERSON PERSON O NUMBER O O O NUMBER O O O O O O O O O O ORGANIZATION O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP They)) (VP (VBP snuck) (PP (IN into) (NP (DT the) (NN animal) (NN park))) (ADVP (IN along) (PP (IN with) (NP (NP (JJ Australian) (NNP James) (NNP Vasilj)) (, ,) (NP (CD 18))))) (, ,) (PP (IN after) (S (VP (VBG drinking) (NP (NP (CD 1.5) (NNS litres)) (PP (IN of) (NP (NP (NN vodka)) (PP (IN between) (NP (PRP them)))))) (PP (IN at) (NP (DT a) (NN beach) (NN party)))))))) (, ,) (NP (NNP AAP)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 29|2 nsubj 1|29 ccomp 2|6 case 3|6 det 4|6 compound 5|2 nmod:into 6|2 advmod 7|11 case 8|11 amod 9|11 compound 10|7 nmod:with 11|11 punct 12|11 amod 13|2 punct 14|16 mark 15|2 advcl:after 16|18 nummod 17|16 dobj 18|20 case 19|18 nmod:of 20|22 case 21|20 nmod:between 22|26 case 23|26 det 24|26 compound 25|16 nmod:at 26|29 punct 27|29 nsubj 28|29 punct 30|
+<word> The two Welshmen then snatched a fairy penguin called Dirk from an aquarium before waking up with the flightless bird in their apartment the following day . 
+<lemma> the two Welshmen then snatch a fairy penguin call Dirk from a aquarium before wake up with the flightless bird in they apartment the follow day . 
+<POS> DT CD NNP RB VBD DT NN NN VBN NNP IN DT NN IN VBG RP IN DT JJ NN IN PRP$ NN DT VBG NN . 
+<NER> O NUMBER MISC O O O O O O O O O O O O O O O O O O O O DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (CD two) (NNP Welshmen)) (ADVP (RB then))) (VP (VBD snatched) (NP (NP (DT a) (NN fairy) (NN penguin)) (VP (VBN called) (NP (NP (NNP Dirk)) (PP (IN from) (NP (DT an) (NN aquarium)))) (PP (IN before) (S (VP (VBG waking) (PP (RP up) (PP (IN with) (NP (NP (DT the) (JJ flightless) (NN bird)) (PP (IN in) (NP (PRP$ their) (NN apartment)))))) (NP (DT the) (VBG following) (NN day)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 nummod 2|5 nsubj 3|3 advmod 4|8 det 6|8 compound 7|5 dobj 8|8 acl 9|9 dobj 10|13 case 11|13 det 12|10 nmod:from 13|15 mark 14|9 advcl:before 15|20 dep 16|20 case 17|20 det 18|20 amod 19|15 advcl:with 20|23 case 21|23 nmod:poss 22|20 nmod:in 23|26 det 24|26 amod 25|15 nmod:tmod 26|5 punct 27|
+<word> The friends ' lawyer Bill Potts told Southport Magistrates ' court they meant no harm to the animal and tried to care for it by feeding it and putting it in the shower when they woke up with hangovers . 
+<lemma> the friend ' lawyer Bill Potts tell Southport Magistrates ' court they mean no harm to the animal and try to care for it by feed it and put it in the shower when they wake up with hangover . 
+<POS> DT NNS POS NN NNP NNP VBD NNP NNPS POS NN PRP VBD DT NN TO DT NN CC VBD TO VB IN PRP IN VBG PRP CC VBG PRP IN DT NN WRB PRP VBD RP IN NNS . 
+<NER> O O O O PERSON PERSON O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NNS friends) (POS ')) (NN lawyer) (NNP Bill) (NNP Potts)) (VP (VBD told) (NP (NP (NP (NNP Southport) (NNPS Magistrates) (POS ')) (NN court)) (SBAR (S (NP (PRP they)) (VP (VP (VBD meant) (NP (DT no) (NN harm)) (PP (TO to) (NP (DT the) (NN animal)))) (CC and) (VP (VBD tried) (S (VP (TO to) (VP (VB care) (PP (IN for) (NP (PRP it))) (PP (IN by) (S (VP (VP (VBG feeding) (NP (PRP it))) (CC and) (VP (VBG putting) (NP (PRP it)) (PP (IN in) (NP (NP (DT the) (NN shower)) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBD woke) (PRT (RP up)) (PP (IN with) (NP (NNS hangovers))))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 det 1|6 nmod:poss 2|2 case 3|6 compound 4|6 compound 5|7 nsubj 6|9 compound 8|11 nmod:poss 9|9 case 10|7 dobj 11|13 nsubj 12|20 nsubj 12|22 nsubj:xsubj 12|11 acl:relcl 13|15 neg 14|13 dobj 15|18 case 16|18 det 17|13 nmod:to 18|13 cc 19|11 acl:relcl 20|13 conj:and 20|22 mark 21|20 xcomp 22|24 case 23|22 nmod:for 24|26 mark 25|22 advcl:by 26|26 dobj 27|26 cc 28|22 advcl:by 29|26 conj:and 29|29 dobj 30|33 case 31|33 det 32|29 nmod:in 33|36 advmod 34|36 nsubj 35|33 acl:relcl 36|36 compound:prt 37|39 case 38|36 nmod:with 39|7 punct 40|
+<word> Jones and Mules took photo and video footage of the animal before releasing it into a canal , but were arrested after a friend saw updates they had posted about their antics on Facebook and reported them to police . 
+<lemma> Jones and Mules take photo and video footage of the animal before release it into a canal , but be arrest after a friend see update they have post about they antic on Facebook and report they to police . 
+<POS> NNP CC NNPS VBD NN CC NN NN IN DT NN IN VBG PRP IN DT NN , CC VBD VBN IN DT NN VBD NNS PRP VBD VBN IN PRP$ NNS IN NNP CC VBD PRP TO NNS . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Jones)) (CC and) (NP (NNPS Mules))) (VP (VP (VBD took) (NP (NP (NN photo) (CC and) (NN video) (NN footage)) (PP (IN of) (NP (DT the) (NN animal)))) (PP (IN before) (S (VP (VBG releasing) (NP (PRP it)) (PP (IN into) (NP (DT a) (NN canal))))))) (, ,) (CC but) (VP (VBD were) (VP (VBN arrested) (SBAR (IN after) (S (NP (DT a) (NN friend)) (VP (VP (VBD saw) (NP (NNS updates)) (SBAR (S (NP (PRP they)) (VP (VBD had) (VP (VBN posted) (PP (IN about) (NP (PRP$ their) (NNS antics))) (PP (IN on) (NP (NNP Facebook)))))))) (CC and) (VP (VBD reported) (NP (PRP them)) (PP (TO to) (NP (NNS police)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|21 nsubjpass 1|1 cc 2|1 conj:and 3|4 nsubj 3|8 compound 5|5 cc 6|5 conj:and 7|8 compound 7|4 dobj 8|11 case 9|11 det 10|8 nmod:of 11|13 mark 12|4 advcl:before 13|13 dobj 14|17 case 15|17 det 16|13 nmod:into 17|4 punct 18|4 cc 19|21 auxpass 20|4 conj:but 21|25 mark 22|24 det 23|25 nsubj 24|36 nsubj 24|21 advcl:after 25|25 dobj 26|29 nsubj 27|29 aux 28|25 dep 29|32 case 30|32 nmod:poss 31|29 nmod:about 32|34 case 33|29 nmod:on 34|25 cc 35|21 advcl:after 36|25 conj:and 36|36 dobj 37|39 case 38|36 nmod:to 39|4 punct 40|
+<word> The seven-year-old bird was later spotted by a member of the public , rescued unharmed and returned to Sea World before it was reunited with girlfriend Peaches . 
+<lemma> the seven-year-old bird be later spot by a member of the public , rescue unharmed and return to Sea World before it be reunite with girlfriend peach . 
+<POS> DT JJ NN VBD RB VBN IN DT NN IN DT NN , VBD JJ CC VBD TO NNP NNP IN PRP VBD VBN IN NN NNS . 
+<NER> O DURATION O O O O O O O O O O O O O O O O LOCATION LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (JJ seven-year-old) (NN bird)) (VP (VP (VBD was) (VP (ADVP (RB later)) (VBN spotted) (PP (IN by) (NP (NP (DT a) (NN member)) (PP (IN of) (NP (DT the) (NN public))))))) (, ,) (VP (VBD rescued) (S (ADJP (JJ unharmed)))) (CC and) (VP (VBD returned) (PP (TO to) (NP (NNP Sea) (NNP World))) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD was) (VP (VBN reunited) (PP (IN with) (NP (NN girlfriend) (NNS Peaches))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 det 1|3 amod 2|6 nsubjpass 3|14 nsubjpass 3|17 nsubjpass 3|6 auxpass 4|6 advmod 5|9 case 7|9 det 8|6 nmod:agent 9|12 case 10|12 det 11|9 nmod:of 12|6 punct 13|6 conj:and 14|14 xcomp 15|6 cc 16|6 conj:and 17|20 case 18|20 compound 19|17 nmod:to 20|24 mark 21|24 nsubjpass 22|24 auxpass 23|17 advcl:before 24|27 case 25|27 compound 26|24 nmod:with 27|6 punct 28|
+<word> Mr Potts told magistrate Brian Kucks that the tourists ' actions were immature and stupid , but there was no malice involved , according to reports . 
+<lemma> Mr Potts tell magistrate Brian Kucks that the tourist ' action be immature and stupid , but there be no malice involve , accord to report . 
+<POS> NNP NNP VBD NN NNP NNP IN DT NNS POS NNS VBD JJ CC JJ , CC EX VBD DT NN VBN , VBG TO NNS . 
+<NER> O PERSON O O PERSON PERSON O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Mr) (NNP Potts)) (VP (VBD told) (NP (NN magistrate) (NNP Brian) (NNP Kucks)) (SBAR (IN that) (S (NP (NP (DT the) (NNS tourists) (POS ')) (NNS actions)) (VP (VBD were) (ADJP (JJ immature) (CC and) (JJ stupid))))))) (, ,) (CC but) (S (NP (EX there)) (VP (VBD was) (NP (NP (DT no) (NN malice)) (VP (VBN involved) (, ,) (PP (VBG according) (PP (TO to) (NP (NNS reports)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|6 compound 4|6 compound 5|3 dobj 6|13 mark 7|9 det 8|11 nmod:poss 9|9 case 10|13 nsubj 11|15 nsubj 11|13 cop 12|3 ccomp 13|13 cc 14|3 ccomp 15|13 conj:and 15|3 punct 16|3 cc 17|19 expl 18|3 conj:but 19|21 neg 20|19 nsubj 21|21 acl 22|22 punct 23|26 case 24|24 mwe 25|22 nmod:according_to 26|3 punct 27|
+<word> The court also heard how the Britons had written a letter of apology to Sea World and the Australian public and deeply regretted their actions . 
+<lemma> the court also hear how the Britons have write a letter of apology to Sea World and the australian public and deeply regret they action . 
+<POS> DT NN RB VBD WRB DT NNPS VBD VBN DT NN IN NN TO NNP NNP CC DT JJ NN CC RB VBD PRP$ NNS . 
+<NER> O O O O O O MISC O O O O O O O O O O O MISC O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN court)) (ADVP (RB also)) (VP (VP (VBD heard) (SBAR (WHADVP (WRB how)) (S (NP (DT the) (NNPS Britons)) (VP (VBD had) (VP (VBN written) (NP (NP (DT a) (NN letter)) (PP (IN of) (NP (NN apology)))) (PP (TO to) (NP (NP (NNP Sea) (NNP World)) (CC and) (NP (DT the) (JJ Australian) (NN public))))))))) (CC and) (VP (ADVP (RB deeply)) (VBD regretted) (NP (PRP$ their) (NNS actions)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|23 nsubj 2|4 advmod 3|9 advmod 5|7 det 6|9 nsubj 7|9 aux 8|4 ccomp 9|11 det 10|9 dobj 11|13 case 12|11 nmod:of 13|16 case 14|16 compound 15|9 nmod:to 16|16 cc 17|20 det 18|20 amod 19|9 nmod:to 20|16 conj:and 20|4 cc 21|23 advmod 22|4 conj:and 23|25 nmod:poss 24|23 dobj 25|4 punct 26|
+<word> Mr Kucks accepted an appeal not to record convictions against the pair and fined them 1000 Australian dollars each . 
+<lemma> Mr Kucks accept a appeal not to record conviction against the pair and fine they 1000 australian dollar each . 
+<POS> NNP NNP VBD DT NN RB TO VB NNS IN DT NN CC VBN PRP CD JJ NNS DT . 
+<NER> O PERSON O O O O O O O O O O O O O NUMBER MISC O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Mr) (NNP Kucks)) (VP (VP (VBD accepted) (NP (DT an) (NN appeal)) (S (RB not) (VP (TO to) (VP (VB record) (NP (NNS convictions)) (PP (IN against) (NP (DT the) (NN pair))))))) (CC and) (VP (VBN fined) (NP (PRP them)) (NP-TMP (NP (CD 1000) (JJ Australian) (NNS dollars)) (NP (DT each))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|14 nsubj 2|5 det 4|3 dobj 5|8 neg 6|8 mark 7|3 advcl:to 8|8 dobj 9|12 case 10|12 det 11|8 nmod:against 12|3 cc 13|3 conj:and 14|14 dobj 15|18 nummod 16|18 amod 17|14 nmod:tmod 18|18 dep 19|3 punct 20|
+<word> AAP quoted him saying : `` You could have found yourselves in a morgue if you 'd gone into the wrong enclosure . 
+<lemma> aap quote he say : `` you could have find yourselve in a morgue if you would go into the wrong enclosure . 
+<POS> NN VBD PRP VBG : `` PRP MD VB VBN NNS IN DT NN IN PRP MD VBN IN DT JJ NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN AAP)) (VP (VBD quoted) (S (NP (PRP him)) (VP (VBG saying) (: :) (`` ``) (S (NP (PRP You)) (VP (MD could) (VP (VB have) (VP (VBN found) (NP (NP (NNS yourselves)) (PP (IN in) (NP (DT a) (NN morgue)))) (SBAR (IN if) (S (NP (PRP you)) (VP (MD 'd) (VP (VBN gone) (PP (IN into) (NP (DT the) (JJ wrong) (NN enclosure)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj 3|2 dep 4|4 punct 5|4 punct 6|10 nsubj 7|10 aux 8|10 aux 9|4 ccomp 10|10 dobj 11|14 case 12|14 det 13|11 nmod:in 14|18 mark 15|18 nsubj 16|18 aux 17|10 advcl:if 18|22 case 19|22 det 20|22 amod 21|18 nmod:into 22|2 punct 23|
+<word> Perhaps next time you are at a party you will consider drinking a little less vodka . '' 
+<lemma> perhaps next time you be at a party you will consider drink a little less vodka . '' 
+<POS> RB JJ NN PRP VBP IN DT NN PRP MD VB VBG DT JJ JJR NN . '' 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP-TMP (RB Perhaps) (JJ next) (NN time)) (NP (PRP you)) (VP (VBP are) (PP (IN at) (NP (NP (DT a) (NN party)) (SBAR (S (NP (PRP you)) (VP (MD will) (VP (VB consider) (S (VP (VBG drinking) (NP (ADJP (NP (DT a) (JJ little)) (JJR less)) (NN vodka))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 advmod 1|3 amod 2|8 nmod:tmod 3|8 nsubj 4|8 cop 5|8 case 6|8 det 7|11 nsubj 9|11 aux 10|8 acl:relcl 11|11 xcomp 12|14 det 13|15 nmod:npmod 14|16 amod 15|12 dobj 16|8 punct 17|8 punct 18|
+<word> Following the hearing Mr Potts told reporters : `` The boys understand they did something stupid . 
+<lemma> follow the hearing Mr Potts tell reporter : `` the boy understand they do something stupid . 
+<POS> VBG DT NN NNP NNP VBD NNS : `` DT NNS VBP PRP VBD NN JJ . 
+<NER> O O O PERSON PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (VBG Following) (NP (DT the) (NN hearing))) (NP (NNP Mr) (NNP Potts)) (VP (VBD told) (NP (NNS reporters)) (: :) (`` ``) (S (NP (DT The) (NNS boys)) (VP (VBP understand) (SBAR (S (NP (PRP they)) (VP (VBD did) (S (NP (NN something)) (ADJP (JJ stupid))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 case 1|3 det 2|6 nmod:following 3|5 compound 4|6 nsubj 5|6 dobj 7|6 punct 8|6 punct 9|11 det 10|12 nsubj 11|6 dep 12|14 nsubj 13|12 ccomp 14|16 nsubj 15|14 xcomp 16|6 punct 17|
+<word> They are just pleased that in the end no penguin was harmed . '' 
+<lemma> they be just please that in the end no penguin be harm . '' 
+<POS> PRP VBP RB VBN IN IN DT NN DT NN VBD VBN . '' 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP They)) (VP (VBP are) (ADVP (RB just)) (VP (VBN pleased) (SBAR (IN that) (S (PP (IN in) (NP (DT the) (NN end))) (NP (DT no) (NN penguin)) (VP (VBD was) (VP (VBN harmed))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubjpass 1|4 auxpass 2|4 advmod 3|12 mark 5|8 case 6|8 det 7|12 nmod:in 8|10 neg 9|12 nsubjpass 10|12 auxpass 11|4 ccomp 12|4 punct 13|4 punct 14|
+<word> Vasilj , who is facing a single charge of trespassing , had his case adjourned to June 27 . 
+<lemma> Vasilj , who be face a single charge of trespassing , have he case adjourn to June 27 . 
+<POS> NNP , WP VBZ VBG DT JJ NN IN NN , VBD PRP$ NN VBD TO NNP CD . 
+<NER> PERSON O O O O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Vasilj)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG facing) (NP (NP (DT a) (JJ single) (NN charge)) (PP (IN of) (NP (NN trespassing)))))))) (, ,)) (VP (VBD had) (NP (NP (PRP$ his) (NN case)) (SBAR (S (VP (VBD adjourned) (PP (TO to) (NP (NNP June) (CD 27)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 12|5 nsubj 1|12 nsubj 1|1 punct 2|1 ref 3|5 aux 4|1 acl:relcl 5|8 det 6|8 amod 7|5 dobj 8|10 case 9|8 nmod:of 10|1 punct 11|14 nmod:poss 13|12 dobj 14|14 acl:relcl 15|17 case 16|15 nmod:to 17|17 nummod 18|12 punct 19|
+<coreference> [['1,1,4,3', '4,1,13,1', '4,1,2,1', '5,1,2,1', '5,22,23,22', '6,22,23,22', '8,1,4,1', '8,1,2,1', '8,27,28,27', '8,31,32,31', '8,37,38,37'], ['1,8,10,9', '4,12,13,12', '8,3,4,3'], ['1,32,34,32', '4,22,23,22'], ['1,28,31,30', '7,17,19,18', '8,10,12,11', '8,14,15,14'], ['2,2,3,2', '6,2,3,2'], ['2,1,7,3', '3,1,2,1'], ['9,19,21,20', '2,12,19,13', '11,15,17,16'], ['5,10,12,11', '17,1,11,1', '17,1,2,1', '17,13,14,13'], ['6,6,27,8', '16,9,11,10'], ['7,1,4,2', '7,12,13,12', '7,35,36,35'], ['7,8,40,11', '11,1,3,2'], ['7,14,16,15', '7,24,25,24', '7,27,28,27', '7,30,31,30'], ['9,1,4,3', '9,22,23,22'], ['10,1,3,2', '15,4,6,5'], ['10,8,12,11', '11,24,26,25'], ['10,8,11,9', '11,24,25,24', '12,15,16,15'], ['12,1,3,2', '13,3,4,3'], ['13,7,8,7', '13,16,17,16', '14,4,5,4', '14,9,10,9'], ['15,7,8,7', '16,1,2,1'], ['15,10,12,11', '15,13,14,13']]
+</DOC>

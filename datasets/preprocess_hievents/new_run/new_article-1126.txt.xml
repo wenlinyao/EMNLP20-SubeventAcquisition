@@ -1,0 +1,53 @@
+<DOC> article-1126.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 |
+<word> A bus carrying Turkish pilgrims has come under attack in northern Syria , Turkish media and officials say . 
+<lemma> a bus carry turkish pilgrim have come under attack in northern Syria , turkish media and official say . 
+<POS> DT NN VBG JJ NNS VBZ VBN IN NN IN JJ NNP , JJ NNS CC NNS VBP . 
+<NER> O O O MISC O O O O O O O LOCATION O MISC O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (DT A) (NN bus)) (VP (VBG carrying) (NP (JJ Turkish) (NNS pilgrims)))) (VP (VBZ has) (VP (VBN come) (PP (IN under) (NP (NP (NN attack)) (PP (IN in) (NP (JJ northern) (NNP Syria)))))))) (, ,) (NP (JJ Turkish) (NNS media) (CC and) (NNS officials)) (VP (VBP say)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|2 det 1|7 nsubj 2|2 acl 3|5 amod 4|3 dobj 5|7 aux 6|18 ccomp 7|9 case 8|7 nmod:under 9|12 case 10|12 amod 11|9 nmod:in 12|18 punct 13|15 amod 14|18 nsubj 15|15 cc 16|15 conj:and 17|18 nsubj 17|18 punct 19|
+<word> At least two people , one of them the bus driver , were injured in the attack near the flashpoint city of Homs , reports say . 
+<lemma> at least two people , one of they the bus driver , be injure in the attack near the flashpoint city of Homs , report say . 
+<POS> IN JJS CD NNS , CD IN PRP DT NN NN , VBD VBN IN DT NN IN DT NN NN IN NNP , NNS VBP . 
+<NER> O O NUMBER O O NUMBER O O O O O O O O O O O O O O O O LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (ADVP (IN At) (JJS least)) (NP (NP (CD two) (NNS people)) (, ,) (NP (NP (NP (CD one)) (PP (IN of) (NP (PRP them)))) (NP (DT the) (NN bus) (NN driver))) (, ,)) (VP (VBD were) (VP (VBN injured) (PP (IN in) (NP (NP (DT the) (NN attack)) (PP (IN near) (NP (NP (DT the) (NN flashpoint) (NN city)) (PP (IN of) (NP (NNP Homs)))))))))) (, ,) (NP (NNS reports)) (VP (VBP say)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 26|14 advmod 1|1 mwe 2|4 nummod 3|14 nsubjpass 4|4 punct 5|8 det:qmod 6|6 mwe 7|4 appos 8|11 det 9|11 compound 10|6 dep 11|4 punct 12|14 auxpass 13|26 ccomp 14|17 case 15|17 det 16|14 nmod:in 17|21 case 18|21 det 19|21 compound 20|17 nmod:near 21|23 case 22|21 nmod:of 23|26 punct 24|26 nsubj 25|26 punct 27|
+<word> The passengers were returning from the Hajj - the annual Muslim pilgrimage to Mecca , Saudi Arabia - reports say . 
+<lemma> the passenger be return from the Hajj - the annual muslim pilgrimage to Mecca , Saudi Arabia - report say . 
+<POS> DT NNS VBD VBG IN DT NNP : DT JJ JJ NN TO NNP , NNP NNP : NNS VBP . 
+<NER> O O O O O O O O O SET MISC O O LOCATION O LOCATION LOCATION O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNS passengers)) (VP (VBD were) (VP (VBG returning) (PP (IN from) (NP (NP (DT the) (NNP Hajj)) (: -) (NP (NP (DT the) (JJ annual) (JJ Muslim) (NN pilgrimage)) (PP (TO to) (NP (NNP Mecca) (, ,) (NNP Saudi) (NNP Arabia))))))))) (: -) (S (NP (NNS reports)) (VP (VBP say))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|7 case 5|7 det 6|4 nmod:from 7|7 punct 8|12 det 9|12 amod 10|12 amod 11|7 dep 12|17 case 13|17 compound 14|17 punct 15|17 appos 16|12 nmod:to 17|4 punct 18|20 nsubj 19|4 parataxis 20|4 punct 21|
+<word> Private news agency Dogan showed images of the bus with one of its side windows broken inside Turkey . 
+<lemma> private news agency Dogan show image of the bus with one of its side window break inside Turkey . 
+<POS> JJ NN NN NNP VBD NNS IN DT NN IN CD IN PRP$ NN NNS VBN RB NNP . 
+<NER> O O O PERSON O O O O O O NUMBER O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Private) (NN news) (NN agency) (NNP Dogan)) (VP (VBD showed) (NP (NP (NNS images)) (PP (IN of) (NP (DT the) (NN bus)))) (PP (IN with) (NP (NP (CD one)) (PP (IN of) (NP (PRP$ its) (NN side) (NNS windows))) (VP (VBN broken) (ADVP (RB inside) (NP (NNP Turkey))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 amod 1|4 compound 2|4 compound 3|5 nsubj 4|5 dobj 6|9 case 7|9 det 8|6 nmod:of 9|11 case 10|5 nmod:with 11|15 case 12|15 nmod:poss 13|15 compound 14|11 nmod:of 15|11 acl 16|16 advmod 17|17 nmod:npmod 18|5 punct 19|
+<word> `` We confirm that an attack took place in Syria , '' a foreign ministry official told AFP news agency , without giving any further information , but reiterated Turkey 's warning to its citizens not to visit Syria . 
+<lemma> `` we confirm that a attack take place in Syria , '' a foreign ministry official tell AFP news agency , without give any further information , but reiterate Turkey 's warn to its citizen not to visit Syria . 
+<POS> `` PRP VBP IN DT NN VBD NN IN NNP , '' DT JJ NN NN VBD NNP NN NN , IN VBG DT JJ NN , CC VBD NNP POS VBG TO PRP$ NNS RB TO VB NNP . 
+<NER> O O O O O O O O O LOCATION O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O O LOCATION O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP confirm) (SBAR (IN that) (S (NP (DT an) (NN attack)) (VP (VBD took) (NP (NN place)) (PP (IN in) (NP (NNP Syria)))))))) (, ,) ('' '') (NP (DT a) (JJ foreign) (NN ministry) (NN official)) (VP (VP (VBD told) (NP (NNP AFP) (NN news) (NN agency)) (, ,) (PP (IN without) (S (VP (VBG giving) (NP (DT any) (JJ further) (NN information)))))) (, ,) (CC but) (VP (VBD reiterated) (S (NP (NNP Turkey) (POS 's)) (VP (VBG warning) (PP (TO to) (NP (PRP$ its) (NNS citizens))) (ADVP (RB not) (S (VP (TO to) (VP (VB visit) (NP (NNP Syria)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 17|17 punct 1|3 nsubj 2|17 ccomp 3|7 mark 4|6 det 5|7 nsubj 6|3 ccomp 7|7 dobj 8|10 case 9|7 nmod:in 10|17 punct 11|17 punct 12|16 det 13|16 amod 14|16 compound 15|17 nsubj 16|29 nsubj 16|20 compound 18|20 compound 19|17 dobj 20|17 punct 21|23 mark 22|17 advcl:without 23|26 det 24|26 amod 25|23 dobj 26|17 punct 27|17 cc 28|17 conj:but 29|32 nsubj 30|30 case 31|29 dep 32|35 case 33|35 nmod:poss 34|32 nmod:to 35|32 neg 36|38 mark 37|36 dep 38|38 dobj 39|17 punct 40|
+<word> Tensions have been running high between Syria and Turkey as Ankara has become increasingly vocal in its criticism of President Bashar al-Assad 's crackdown on anti-government protests in his country . 
+<lemma> tension have be run high between Syria and Turkey as Ankara have become increasingly vocal in its criticism of President Bashar al-Assad 's crackdown on anti-government protest in he country . 
+<POS> NNS VBP VBN VBG JJ IN NNP CC NNP IN NNP VBZ VBN RB JJ IN PRP$ NN IN NNP NNP NNP POS NN IN JJ NNS IN PRP$ NN . 
+<NER> O O O O O O LOCATION O LOCATION O LOCATION O O O O O O O O O PERSON PERSON O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Tensions)) (VP (VBP have) (VP (VBN been) (VP (VBG running) (ADJP (JJ high) (PP (IN between) (NP (NNP Syria) (CC and) (NNP Turkey)))) (SBAR (IN as) (S (NP (NNP Ankara)) (VP (VBZ has) (VP (VBN become) (ADJP (RB increasingly) (JJ vocal) (PP (IN in) (NP (NP (PRP$ its) (NN criticism)) (PP (IN of) (NP (NP (NNP President) (NNP Bashar) (NNP al-Assad) (POS 's)) (NN crackdown)))))) (PP (IN on) (NP (NP (JJ anti-government) (NNS protests)) (PP (IN in) (NP (PRP$ his) (NN country)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 aux 3|4 xcomp 5|7 case 6|5 nmod:between 7|7 cc 8|5 nmod:between 9|7 conj:and 9|13 mark 10|13 nsubj 11|13 aux 12|4 advcl:as 13|15 advmod 14|13 xcomp 15|18 case 16|18 nmod:poss 17|15 nmod:in 18|24 case 19|22 compound 20|22 compound 21|24 nmod:poss 22|22 case 23|18 nmod:of 24|27 case 25|27 amod 26|13 nmod:on 27|30 case 28|30 nmod:poss 29|27 nmod:in 30|4 punct 31|
+<word> Clashes again erupt in Cairo as Egypt 's health ministry confirms at least 20 people have died and 1,750 have been wounded in a weekend of violence . 
+<lemma> clash again erupt in Cairo as Egypt 's health ministry confirm at least 20 people have die and 1,750 have be wound in a weekend of violence . 
+<POS> NNS RB VB IN NNP IN NNP POS NN NN VBZ IN JJS CD NNS VBP VBN CC CD VBP VBN VBN IN DT NN IN NN . 
+<NER> O O O O LOCATION O LOCATION O O O O O O NUMBER O O O O NUMBER O O O O O DATE O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Clashes)) (ADVP (RB again)) (VP (VB erupt) (PP (IN in) (NP (NNP Cairo))) (SBAR (IN as) (S (NP (NP (NNP Egypt) (POS 's)) (NN health) (NN ministry)) (VP (VBZ confirms) (SBAR (S (NP (QP (IN at) (JJS least) (CD 20)) (NNS people)) (VP (VBP have) (VP (VBN died)))))))))) (CC and) (S (NP (CD 1,750)) (VP (VBP have) (VP (VBN been) (VP (VBN wounded) (PP (IN in) (NP (NP (DT a) (NN weekend)) (PP (IN of) (NP (NN violence))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|5 case 4|3 nmod:in 5|11 mark 6|10 nmod:poss 7|7 case 8|10 compound 9|11 nsubj 10|3 advcl:as 11|13 case 12|14 nmod:npmod 13|15 nummod 14|17 nsubj 15|17 aux 16|11 ccomp 17|3 cc 18|22 nsubjpass 19|22 aux 20|22 auxpass 21|3 conj:and 22|25 case 23|25 det 24|22 nmod:in 25|27 case 26|25 nmod:of 27|3 punct 28|
+<coreference> [['1,12,13,12', '5,10,11,10', '5,39,40,39', '6,7,8,7'], ['1,1,6,2', '4,8,10,9'], ['2,25,26,25', '3,19,20,19'], ['3,1,3,2', '5,2,3,2'], ['4,18,19,18', '5,30,32,30', '5,34,35,34', '6,9,10,9'], ['6,11,12,11', '6,17,18,17'], ['6,20,24,22', '6,29,30,29']]
+</DOC>

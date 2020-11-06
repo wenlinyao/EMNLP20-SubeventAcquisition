@@ -1,0 +1,81 @@
+<DOC> article-3290.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> More than 20 NATO supply trucks have been destroyed in an attack in southern Pakistan . 
+<lemma> more than 20 NATO supply truck have be destroy in a attack in southern Pakistan . 
+<POS> JJR IN CD NNP NN NNS VBP VBN VBN IN DT NN IN JJ NNP . 
+<NER> O O NUMBER ORGANIZATION O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (QP (JJR More) (IN than) (CD 20)) (NNP NATO) (NN supply) (NNS trucks)) (VP (VBP have) (VP (VBN been) (VP (VBN destroyed) (PP (IN in) (NP (NP (DT an) (NN attack)) (PP (IN in) (NP (JJ southern) (NNP Pakistan)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|3 advmod 1|1 mwe 2|6 nummod 3|6 compound 4|6 compound 5|9 nsubjpass 6|9 aux 7|9 auxpass 8|12 case 10|12 det 11|9 nmod:in 12|15 case 13|15 amod 14|12 nmod:in 15|9 punct 16|
+<word> Insurgents armed with rockets and automatic weapons opened fire on a transport terminal in the south western city of Quetta . 
+<lemma> insurgent arm with rocket and automatic weapon open fire on a transport terminal in the south western city of Quetta . 
+<POS> NNS VBN IN NNS CC JJ NNS VBD NN IN DT NN NN IN DT JJ JJ NN IN NNP . 
+<NER> O O O O O O O O O O O O O O O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Insurgents)) (VP (VBN armed) (PP (IN with) (NP (NP (NNS rockets)) (CC and) (NP (JJ automatic) (NNS weapons)))))) (VP (VBD opened) (NP (NN fire)) (PP (IN on) (NP (DT a) (NN transport) (NN terminal))) (PP (IN in) (NP (NP (DT the) (JJ south) (JJ western) (NN city)) (PP (IN of) (NP (NNP Quetta)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|8 nsubj 1|1 acl 2|4 case 3|2 nmod:with 4|4 cc 5|7 amod 6|2 nmod:with 7|4 conj:and 7|8 dobj 9|13 case 10|13 det 11|13 compound 12|8 nmod:on 13|18 case 14|18 det 15|18 amod 16|18 amod 17|8 nmod:in 18|20 case 19|18 nmod:of 20|8 punct 21|
+<word> Several oil tankers exploded before fire spread to other trucks parked nearby . 
+<lemma> several oil tanker explode before fire spread to other truck park nearby . 
+<POS> JJ NN NNS VBD IN NN NN TO JJ NNS VBD RB . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Several) (NN oil) (NNS tankers)) (VP (VBD exploded) (SBAR (IN before) (S (NP (NP (NN fire) (NN spread)) (PP (TO to) (NP (JJ other) (NNS trucks)))) (VP (VBD parked) (ADVP (RB nearby)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 amod 1|3 compound 2|4 nsubj 3|11 mark 5|7 compound 6|11 nsubj 7|10 case 8|10 amod 9|7 nmod:to 10|4 advcl:before 11|11 advmod 12|4 punct 13|
+<word> Firefighters and ambulance crews were called to the scene . 
+<lemma> firefighter and ambulance crew be call to the scene . 
+<POS> NNS CC NN NNS VBD VBN TO DT NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Firefighters) (CC and) (NN ambulance) (NNS crews)) (VP (VBD were) (VP (VBN called) (PP (TO to) (NP (DT the) (NN scene))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubjpass 1|1 cc 2|4 compound 3|1 conj:and 4|6 nsubjpass 4|6 auxpass 5|9 case 7|9 det 8|6 nmod:to 9|6 punct 10|
+<word> Paramilitary soldiers cordoned off the site as firefighters battled the massive blaze , with flames shooting high into the night sky and thick black smoke billowing from the burning trucks . 
+<lemma> paramilitary soldier cordon off the site as firefighter battle the massive blaze , with flame shoot high into the night sky and thick black smoke billow from the burning truck . 
+<POS> JJ NNS VBD RP DT NN IN NNS VBD DT JJ NN , IN NNS VBG RB IN DT NN NN CC JJ JJ NN VBG IN DT NN NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O TIME O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Paramilitary) (NNS soldiers)) (VP (VBD cordoned) (PRT (RP off)) (NP (DT the) (NN site)) (SBAR (IN as) (S (NP (NNS firefighters)) (VP (VBD battled) (NP (DT the) (JJ massive) (NN blaze)) (, ,) (PP (IN with) (NP (NP (NNS flames)) (VP (VBG shooting) (ADVP (RB high) (PP (IN into) (NP (NP (DT the) (NN night) (NN sky)) (CC and) (NP (JJ thick) (JJ black) (NN smoke))))) (S (VP (VBG billowing) (PP (IN from) (NP (DT the) (NN burning) (NNS trucks)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 amod 1|3 nsubj 2|3 compound:prt 4|6 det 5|3 dobj 6|9 mark 7|9 nsubj 8|3 advcl:as 9|12 det 10|12 amod 11|9 dobj 12|9 punct 13|15 case 14|9 nmod:with 15|15 acl 16|16 advmod 17|21 case 18|21 det 19|21 compound 20|17 nmod:into 21|21 cc 22|25 amod 23|25 amod 24|17 nmod:into 25|21 conj:and 25|16 advcl 26|30 case 27|30 det 28|30 compound 29|26 nmod:from 30|3 punct 31|
+<word> Senior police official Malik Arshad said gunmen fired bullets and a rocket at the oil tankers . 
+<lemma> senior police official Malik Arshad say gunman fire bullet and a rocket at the oil tanker . 
+<POS> JJ NNS JJ NNP NNP VBD NNS VBD NNS CC DT NN IN DT NN NNS . 
+<NER> O O O PERSON PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Senior) (NNS police)) (NP (JJ official) (NNP Malik) (NNP Arshad))) (VP (VBD said) (SBAR (S (NP (NNS gunmen)) (VP (VBD fired) (NP (NP (NNS bullets)) (CC and) (NP (DT a) (NN rocket))) (PP (IN at) (NP (DT the) (NN oil) (NNS tankers))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|2 amod 1|6 nsubj 2|5 amod 3|5 compound 4|2 dep 5|8 nsubj 7|6 ccomp 8|8 dobj 9|9 cc 10|12 det 11|8 dobj 12|9 conj:and 12|16 case 13|16 det 14|16 compound 15|8 nmod:at 16|6 punct 17|
+<word> `` Flames were rising from more than 20 vehicles . 
+<lemma> `` flame be rise from more than 20 vehicle . 
+<POS> `` NNS VBD VBG IN JJR IN CD NNS . 
+<NER> O O O O O O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (NNS Flames)) (VP (VBD were) (VP (VBG rising) (PP (IN from) (NP (QP (JJR more) (IN than) (CD 20)) (NNS vehicles))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 punct 1|4 nsubj 2|4 aux 3|9 case 5|8 advmod 6|6 mwe 7|9 nummod 8|4 nmod:from 9|4 punct 10|
+<word> We do not know about any casualties yet because the blaze is still so huge , '' he said , adding that 10 vehicles were safely evacuated from the terminal . 
+<lemma> we do not know about any casualty yet because the blaze be still so huge , '' he say , add that 10 vehicle be safely evacuate from the terminal . 
+<POS> PRP VBP RB VB IN DT NNS RB IN DT NN VBZ RB RB JJ , '' PRP VBD , VBG IN CD NNS VBD RB VBN IN DT JJ . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O NUMBER O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP We)) (VP (VBP do) (RB not) (VP (VB know) (PP (IN about) (NP (DT any) (NNS casualties))) (SBAR (ADVP (RB yet)) (IN because) (S (NP (DT the) (NN blaze)) (VP (VBZ is) (ADVP (RB still)) (ADJP (RB so) (JJ huge)))))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD said) (, ,) (S (VP (VBG adding) (SBAR (IN that) (S (NP (CD 10) (NNS vehicles)) (VP (VBD were) (ADVP (RB safely)) (VP (VBN evacuated) (PP (IN from) (NP (DT the) (ADJP (JJ terminal))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|4 nsubj 1|4 aux 2|4 neg 3|19 ccomp 4|7 case 5|7 det 6|4 nmod:about 7|15 advmod 8|15 mark 9|11 det 10|15 nsubj 11|15 cop 12|15 advmod 13|15 advmod 14|4 advcl:because 15|19 punct 16|19 punct 17|19 nsubj 18|19 punct 20|19 xcomp 21|27 mark 22|24 nummod 23|27 nsubjpass 24|27 auxpass 25|27 advmod 26|21 ccomp 27|30 case 28|30 det 29|27 nmod:from 30|19 punct 31|
+<word> `` First the fire started in two oil tankers and the fuel started leaking which spread the fire to other vehicles . '' 
+<lemma> `` first the fire start in two oil tanker and the fuel start leak which spread the fire to other vehicle . '' 
+<POS> `` RB DT NN VBD IN CD NN NNS CC DT NN VBD VBG WDT VBD DT NN TO JJ NNS . '' 
+<NER> O ORDINAL O O O O NUMBER O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (ADVP (RB First)) (NP (DT the) (NN fire)) (VP (VBD started) (PP (IN in) (NP (CD two) (NN oil) (NNS tankers))))) (CC and) (S (NP (DT the) (NN fuel)) (VP (VBD started) (S (VP (VBG leaking) (SBAR (WHNP (WDT which)) (S (VP (VBD spread) (NP (DT the) (NN fire)) (PP (TO to) (NP (JJ other) (NNS vehicles)))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 punct 1|5 advmod 2|4 det 3|5 nsubj 4|9 case 6|9 nummod 7|9 compound 8|5 nmod:in 9|5 cc 10|12 det 11|13 nsubj 12|5 conj:and 13|13 xcomp 14|16 nsubj 15|14 ccomp 16|18 det 17|16 dobj 18|21 case 19|21 amod 20|16 nmod:to 21|5 punct 22|5 punct 23|
+<word> The NATO supply trucks were queued at one of three temporary terminals in the region because of a blockade imposed by Pakistani officials . 
+<lemma> the NATO supply truck be queue at one of three temporary terminal in the region because of a blockade impose by pakistani official . 
+<POS> DT NNP NN NNS VBD VBN IN CD IN CD JJ NNS IN DT NN IN IN DT NN VBN IN JJ NNS . 
+<NER> O ORGANIZATION O O O O O NUMBER O NUMBER O O O O O O O O O O O MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP NATO) (NN supply) (NNS trucks)) (VP (VBD were) (VP (VBN queued) (PP (IN at) (NP (NP (CD one)) (PP (IN of) (NP (NP (CD three) (JJ temporary) (NNS terminals)) (PP (IN in) (NP (DT the) (NN region))))))) (PP (IN because) (IN of) (NP (NP (DT a) (NN blockade)) (VP (VBN imposed) (PP (IN by) (NP (JJ Pakistani) (NNS officials)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|4 det 1|4 compound 2|4 compound 3|6 nsubjpass 4|6 auxpass 5|8 case 7|6 nmod:at 8|12 case 9|12 nummod 10|12 amod 11|8 nmod:of 12|15 case 13|15 det 14|12 nmod:in 15|19 case 16|16 mwe 17|19 det 18|6 nmod:because_of 19|19 acl 20|23 case 21|23 amod 22|20 nmod:by 23|6 punct 24|
+<word> Border crossing points to Afghanistan were closed last month in protest against a NATO raid that killed 24 Pakistani soldiers . 
+<lemma> border cross point to Afghanistan be close last month in protest against a NATO raid that kill 24 pakistani soldier . 
+<POS> NN VBG NNS TO NNP VBD VBN JJ NN IN NN IN DT NNP NN WDT VBD CD JJ NNS . 
+<NER> O O O O LOCATION O O DATE DATE O O O O ORGANIZATION O O O NUMBER MISC O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NN Border)) (VP (VBG crossing) (NP (NNS points)) (PP (TO to) (NP (NNP Afghanistan))))) (VP (VBD were) (VP (VBN closed) (NP-TMP (JJ last) (NN month)) (PP (IN in) (NP (NN protest))) (PP (IN against) (NP (NP (DT a) (NNP NATO) (NN raid)) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (NP (CD 24) (JJ Pakistani) (NNS soldiers))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|7 nsubjpass 1|1 acl 2|2 dobj 3|5 case 4|2 nmod:to 5|7 auxpass 6|9 amod 8|7 nmod:tmod 9|11 case 10|7 nmod:in 11|15 case 12|15 det 13|15 compound 14|7 nmod:against 15|17 nsubj 15|15 ref 16|15 acl:relcl 17|20 nummod 18|20 amod 19|17 dobj 20|7 punct 21|
+<coreference> [['1,3,4,3', '7,8,9,8'], ['1,4,5,4', '10,2,3,2', '11,14,15,14'], ['1,1,7,6', '10,1,5,4'], ['2,11,14,13', '8,29,31,30'], ['3,1,4,3', '6,14,17,16'], ['5,10,13,12', '8,10,12,11'], ['5,15,31,15', '7,2,3,2'], ['6,1,6,2', '8,1,2,1'], ['6,3,6,5', '8,18,19,18'], ['9,3,5,4', '9,17,19,18']]
+</DOC>

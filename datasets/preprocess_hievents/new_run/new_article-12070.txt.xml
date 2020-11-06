@@ -1,0 +1,81 @@
+<DOC> article-12070.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 |
+<word> U.S. Secret Service agents and military personnel took as many as 21 women back to their hotel in Colombia in an incident last week involving alleged misconduct with prostitutes , a Republican senator said yesterday . 
+<lemma> U.S. Secret Service agent and military personnel take as many as 21 woman back to they hotel in Colombia in a incident last week involve alleged misconduct with prostitute , a republican senator say yesterday . 
+<POS> NNP NNP NNP NNS CC JJ NNS VBD RB JJ IN CD NNS RB TO PRP$ NN IN NNP IN DT NN JJ NN VBG JJ NN IN NNS , DT JJ NN VBD NN . 
+<NER> ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O O O NUMBER O O O O O O LOCATION O O O DATE DATE O O O O O O O MISC O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNP U.S.) (NNP Secret) (NNP Service) (NNS agents)) (CC and) (NP (JJ military) (NNS personnel))) (VP (VBD took) (ADVP (ADVP (NP (QP (RB as) (JJ many) (IN as) (CD 21)) (NNS women)) (RB back) (PP (TO to) (NP (PRP$ their) (NN hotel)))) (PP (IN in) (NP (NP (NNP Colombia)) (PP (IN in) (NP (DT an) (NN incident)))))) (NP-TMP (JJ last) (NN week)) (S (VP (VBG involving) (NP (JJ alleged) (NN misconduct)) (PP (IN with) (NP (NNS prostitutes))))))) (, ,) (NP (DT a) (JJ Republican) (NN senator)) (VP (VBD said) (NP-TMP (NN yesterday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 34|4 compound 1|4 compound 2|4 compound 3|8 nsubj 4|4 cc 5|7 amod 6|4 conj:and 7|8 nsubj 7|34 ccomp 8|12 advmod 9|12 advmod 10|12 advmod 11|13 nummod 12|14 nmod:npmod 13|8 advmod 14|17 case 15|17 nmod:poss 16|14 nmod:to 17|19 case 18|14 nmod:in 19|22 case 20|22 det 21|19 nmod:in 22|24 amod 23|8 nmod:tmod 24|8 xcomp 25|27 amod 26|25 dobj 27|29 case 28|25 nmod:with 29|34 punct 30|33 det 31|33 amod 32|34 nsubj 33|34 nmod:tmod 35|34 punct 36|
+<word> `` There are 11 agents involved . 
+<lemma> `` there be 11 agent involve . 
+<POS> `` EX VBP CD NNS VBN . 
+<NER> O O O NUMBER O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (EX There)) (VP (VBP are) (NP (NP (CD 11) (NNS agents)) (VP (VBN involved)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 expl 2|5 nummod 4|3 nsubj 5|5 acl 6|3 punct 7|
+<word> Twenty or 21 women foreign nationals were brought to the hotel , but allegedly Marines were involved with the rest , '' Senator Susan Collins of Maine - who was briefed by the director of the Secret Service , Mark Sullivan - said in an email to Reuters . 
+<lemma> twenty or 21 woman foreign national be bring to the hotel , but allegedly Marines be involve with the rest , '' Senator Susan Collins of Maine - who be brief by the director of the Secret Service , Mark Sullivan - say in a email to Reuters . 
+<POS> CD CC CD NNS JJ NNS VBD VBN TO DT NN , CC RB NNPS VBD VBN IN DT NN , '' NNP NNP NNP IN NNP : WP VBD VBN IN DT NN IN DT NNP NNP , NNP NNP : VBD IN DT NN TO NNP . 
+<NER> NUMBER O NUMBER O O O O O O O O O O O O O O O O O O O O PERSON PERSON O LOCATION O O O O O O O O O ORGANIZATION ORGANIZATION O PERSON PERSON O O O O O O ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (S (S (S (NP (NP (CD Twenty)) (CC or) (NP (ADJP (NP (CD 21) (NNS women)) (JJ foreign)) (NNS nationals))) (VP (VBD were) (VP (VBN brought) (PP (TO to) (NP (DT the) (NN hotel)))))) (, ,) (CC but) (S (ADVP (RB allegedly)) (NP (NNPS Marines)) (VP (VBD were) (VP (VBN involved) (PP (IN with) (NP (DT the) (NN rest))))))) (, ,) ('' '') (NP (NP (NP (NNP Senator) (NNP Susan) (NNP Collins)) (PP (IN of) (NP (NNP Maine)))) (: -) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN briefed) (PP (IN by) (NP (NP (DT the) (NN director)) (PP (IN of) (NP (NP (DT the) (NNP Secret) (NNP Service)) (, ,) (NP (NNP Mark) (NNP Sullivan)))))))))) (: -)) (VP (VBD said) (PP (IN in) (NP (DT an) (NN email))) (PP (TO to) (NP (NNP Reuters)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 43|8 nsubjpass 1|1 cc 2|4 nummod 3|5 nmod:npmod 4|6 amod 5|1 conj:or 6|8 nsubjpass 6|8 auxpass 7|43 ccomp 8|11 case 9|11 det 10|8 nmod:to 11|8 punct 12|8 cc 13|17 advmod 14|17 nsubjpass 15|17 auxpass 16|8 conj:but 17|43 ccomp 17|20 case 18|20 det 19|17 nmod:with 20|43 punct 21|43 punct 22|25 compound 23|25 compound 24|31 nsubjpass 25|43 nsubj 25|27 case 26|25 nmod:of 27|25 punct 28|25 ref 29|31 auxpass 30|25 acl:relcl 31|34 case 32|34 det 33|31 nmod:agent 34|38 case 35|38 det 36|38 compound 37|34 nmod:of 38|38 punct 39|41 compound 40|38 appos 41|25 punct 42|46 case 44|46 det 45|43 nmod:in 46|48 case 47|43 nmod:to 48|43 punct 49|
+<word> `` Director Sullivan is rightly appalled by the agents actions and is pursuing a vigorous internal investigation , '' said Collins , the senior Republican on the Senate Homeland Security Committee . 
+<lemma> `` Director Sullivan be rightly appal by the agent action and be pursue a vigorous internal investigation , '' say Collins , the senior republican on the Senate Homeland Security Committee . 
+<POS> `` NNP NNP VBZ RB VBN IN DT NNS NNS CC VBZ VBG DT JJ JJ NN , '' VBD NNP , DT JJ JJ IN DT NNP NNP NNP NNP . 
+<NER> O O PERSON O O O O O O O O O O O O O O O O O PERSON O O O MISC O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O 
+<Timex> None
+<parse>         (ROOT (SINV (`` ``) (S (NP (NNP Director) (NNP Sullivan)) (VP (VP (VBZ is) (ADVP (RB rightly)) (VP (VBN appalled) (PP (IN by) (NP (DT the) (NNS agents) (NNS actions))))) (CC and) (VP (VBZ is) (VP (VBG pursuing) (NP (DT a) (JJ vigorous) (JJ internal) (NN investigation)))))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Collins)) (, ,) (NP (NP (DT the) (JJ senior) (JJ Republican)) (PP (IN on) (NP (DT the) (NNP Senate) (NNP Homeland) (NNP Security) (NNP Committee))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 20|20 punct 1|3 compound 2|6 nsubjpass 3|13 nsubjpass 3|6 auxpass 4|6 advmod 5|20 ccomp 6|10 case 7|10 det 8|10 compound 9|6 nmod:agent 10|6 cc 11|13 aux 12|6 conj:and 13|20 ccomp 13|17 det 14|17 amod 15|17 amod 16|13 dobj 17|20 punct 18|20 punct 19|20 nsubj 21|21 punct 22|25 det 23|25 amod 24|21 appos 25|31 case 26|31 det 27|31 compound 28|31 compound 29|31 compound 30|25 nmod:on 31|20 punct 32|
+<word> `` He ordered all the agents to return to Washington immediately , and all have been interviewed . '' 
+<lemma> `` he order all the agent to return to Washington immediately , and all have be interview . '' 
+<POS> `` PRP VBD PDT DT NNS TO VB TO NNP RB , CC DT VBP VBN VBN . '' 
+<NER> O O O O O O O O O LOCATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP He)) (VP (VBD ordered) (NP (PDT all) (DT the) (NNS agents)) (S (VP (TO to) (VP (VB return) (PP (TO to) (NP (NNP Washington))) (ADVP (RB immediately))))))) (, ,) (CC and) (S (NP (DT all)) (VP (VBP have) (VP (VBN been) (VP (VBN interviewed))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|6 det:predet 4|6 det 5|3 dobj 6|8 nsubj:xsubj 6|8 mark 7|3 xcomp 8|10 case 9|8 nmod:to 10|8 advmod 11|3 punct 12|3 cc 13|17 nsubjpass 14|17 aux 15|17 auxpass 16|3 conj:and 17|3 punct 18|3 punct 19|
+<word> More details about the incident that marred President Barack Obama 's weekend trip to the Summit of the Americas in Categena , Colombia emerged yesterday . 
+<lemma> more detail about the incident that mar President Barack Obama 's weekend trip to the Summit of the Americas in Categena , Colombia emerge yesterday . 
+<POS> JJR NNS IN DT NN WDT VBD NNP NNP NNP POS NN NN TO DT NNP IN DT NNPS IN NNP , NNP VBD NN . 
+<NER> O O O O O O O O PERSON PERSON O DATE O O O O O O LOCATION O LOCATION O LOCATION O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJR More) (NNS details)) (PP (IN about) (NP (NP (DT the) (NN incident)) (SBAR (WHNP (WDT that)) (S (VP (VBD marred) (NP (NP (NNP President) (NNP Barack) (NNP Obama) (POS 's)) (NN weekend) (NN trip)) (PP (TO to) (NP (NP (DT the) (NNP Summit)) (PP (IN of) (NP (DT the) (NNPS Americas))))) (PP (IN in) (NP (NNP Categena) (, ,) (NNP Colombia))))))))) (VP (VBD emerged) (NP-TMP (NN yesterday))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 24|2 amod 1|24 nsubj 2|5 case 3|5 det 4|2 nmod:about 5|7 nsubj 5|5 ref 6|5 acl:relcl 7|10 compound 8|10 compound 9|13 nmod:poss 10|10 case 11|13 compound 12|7 dobj 13|16 case 14|16 det 15|7 nmod:to 16|19 case 17|19 det 18|16 nmod:of 19|23 case 20|23 compound 21|23 punct 22|7 nmod:in 23|24 nmod:tmod 25|24 punct 26|
+<word> A Marine Corps spokesman said two Marine dog handlers assigned to support the Secret Service are being investigated to determine whether they were involved in soliciting prostitutes . 
+<lemma> a Marine Corps spokesman say two Marine dog handler assign to support the Secret Service be be investigate to determine whether they be involve in solicit prostitute . 
+<POS> DT NNP NNP NN VBD CD NNP NN NNS VBN TO VB DT NNP NNP VBP VBG VBN TO VB IN PRP VBD VBN IN VBG NNS . 
+<NER> O ORGANIZATION ORGANIZATION O O NUMBER O O O O O O O ORGANIZATION ORGANIZATION O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP Marine) (NNP Corps) (NN spokesman)) (VP (VBD said) (SBAR (S (NP (NP (CD two) (NNP Marine) (NN dog) (NNS handlers)) (VP (VBN assigned) (S (VP (TO to) (VP (VB support) (NP (DT the) (NNP Secret) (NNP Service))))))) (VP (VBP are) (VP (VBG being) (VP (VBN investigated) (S (VP (TO to) (VP (VB determine) (SBAR (IN whether) (S (NP (PRP they)) (VP (VBD were) (VP (VBN involved) (PP (IN in) (S (VP (VBG soliciting) (NP (NNS prostitutes)))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 det 1|4 compound 2|4 compound 3|5 nsubj 4|9 nummod 6|9 compound 7|9 compound 8|18 nsubjpass 9|20 nsubj:xsubj 9|9 acl 10|12 mark 11|10 xcomp 12|15 det 13|15 compound 14|12 dobj 15|18 aux 16|18 auxpass 17|5 ccomp 18|20 mark 19|18 xcomp 20|24 mark 21|24 nsubjpass 22|24 auxpass 23|20 ccomp 24|26 mark 25|24 advcl:in 26|26 dobj 27|5 punct 28|
+<word> The spokesman , Captain Kevin Schultz , said the Marines were on the advance team and were not in direct contact with Obama . 
+<lemma> the spokesman , Captain Kevin Schultz , say the Marines be on the advance team and be not in direct contact with Obama . 
+<POS> DT NN , NNP NNP NNP , VBD DT NNPS VBD IN DT NN NN CC VBD RB IN JJ NN IN NNP . 
+<NER> O O O O PERSON PERSON O O O ORGANIZATION O O O O O O O O O O O O PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (NN spokesman)) (, ,) (NP (NNP Captain) (NNP Kevin) (NNP Schultz)) (, ,)) (VP (VP (VBD said) (SBAR (S (NP (DT the) (NNPS Marines)) (VP (VBD were) (PP (IN on) (NP (DT the) (NN advance) (NN team))))))) (CC and) (VP (VBD were) (ADVP (RB not) (PP (IN in) (NP (JJ direct) (NN contact)))) (PP (IN with) (NP (NNP Obama))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|8 nsubj 2|2 punct 3|6 compound 4|6 compound 5|2 appos 6|2 punct 7|10 det 9|15 nsubj 10|15 cop 11|15 case 12|15 det 13|15 compound 14|8 ccomp 15|8 cc 16|23 cop 17|23 neg 18|21 case 19|21 amod 20|18 nmod:in 21|23 case 22|8 conj:and 23|8 punct 24|
+<word> The Secret Service has revoked the top security clearances of its 11 agents and placed them on administrative leave due to the incident . 
+<lemma> the Secret Service have revoke the top security clearance of its 11 agent and place they on administrative leave due to the incident . 
+<POS> DT NNP NNP VBZ VBN DT JJ NN NNS IN PRP$ CD NNS CC VBD PRP IN JJ NN JJ TO DT NN . 
+<NER> O ORGANIZATION ORGANIZATION O O O O O O O O NUMBER O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNP Secret) (NNP Service)) (VP (VP (VBZ has) (VP (VBN revoked) (NP (NP (DT the) (JJ top) (NN security) (NNS clearances)) (PP (IN of) (NP (PRP$ its) (CD 11) (NNS agents)))))) (CC and) (VP (VBD placed) (NP (PRP them)) (PP (IN on) (NP (NP (JJ administrative) (NN leave)) (ADJP (JJ due) (PP (TO to) (NP (DT the) (NN incident)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|3 det 1|3 compound 2|5 nsubj 3|15 nsubj 3|5 aux 4|9 det 6|9 amod 7|9 compound 8|5 dobj 9|13 case 10|13 nmod:poss 11|13 nummod 12|9 nmod:of 13|5 cc 14|5 conj:and 15|15 dobj 16|19 case 17|19 amod 18|15 nmod:on 19|19 amod 20|23 case 21|23 det 22|20 nmod:to 23|5 punct 24|
+<word> The agents brought the prostitutes to their beachfront hotel in Cartagena , before Obama arrived for the summit , according to a local police source . 
+<lemma> the agent bring the prostitute to they beachfront hotel in Cartagena , before Obama arrive for the summit , accord to a local police source . 
+<POS> DT NNS VBD DT NNS TO PRP$ JJ NN IN NNP , IN NNP VBD IN DT NN , VBG TO DT JJ NN NN . 
+<NER> O O O O O O O O O O LOCATION O O PERSON O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS agents)) (VP (VBD brought) (NP (DT the) (NNS prostitutes)) (PP (TO to) (NP (PRP$ their) (JJ beachfront) (NN hotel))) (PP (IN in) (NP (NNP Cartagena))) (, ,) (SBAR (IN before) (S (NP (NNP Obama)) (VP (VBD arrived) (PP (IN for) (NP (DT the) (NN summit))) (, ,) (PP (VBG according) (PP (TO to) (NP (DT a) (JJ local) (NN police) (NN source)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 det 1|3 nsubj 2|5 det 4|3 dobj 5|9 case 6|9 nmod:poss 7|9 amod 8|3 nmod:to 9|11 case 10|3 nmod:in 11|3 punct 12|15 mark 13|15 nsubj 14|3 advcl:before 15|18 case 16|18 det 17|15 nmod:for 18|15 punct 19|25 case 20|20 mwe 21|25 det 22|25 amod 23|25 compound 24|15 nmod:according_to 25|3 punct 26|
+<word> A U.S. official told Reuters that more than 10 military service members also may have been involved . 
+<lemma> a U.S. official tell Reuters that more than 10 military service member also may have be involve . 
+<POS> DT NNP NN VBD NNP IN JJR IN CD JJ NN NNS RB MD VB VBN VBN . 
+<NER> O LOCATION O O ORGANIZATION O O O NUMBER O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT A) (NNP U.S.) (NN official)) (VP (VBD told) (NP (NNP Reuters)) (SBAR (IN that) (S (NP (QP (JJR more) (IN than) (CD 10)) (JJ military) (NN service) (NNS members)) (ADVP (RB also)) (VP (MD may) (VP (VB have) (VP (VBN been) (VP (VBN involved)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 compound 2|4 nsubj 3|4 dobj 5|17 mark 6|9 advmod 7|7 mwe 8|12 nummod 9|12 amod 10|12 compound 11|17 nsubjpass 12|17 advmod 13|17 aux 14|17 aux 15|17 auxpass 16|4 ccomp 17|4 punct 18|
+<coreference> [['1,1,4,3', '3,36,42,38', '3,36,39,38', '3,37,39,38', '7,13,16,15', '9,1,4,3', '9,11,12,11'], ['1,12,13,12', '3,3,4,3'], ['1,1,5,4', '1,16,17,16'], ['1,9,14,13', '3,3,5,4'], ['1,16,18,17', '3,10,12,11'], ['10,4,6,5', '1,29,30,29', '7,27,28,27'], ['1,35,36,35', '6,25,26,25'], ['2,4,5,4', '9,12,13,12'], ['9,11,14,13', '2,4,7,5', '9,16,17,16', '10,1,3,2', '10,7,8,7'], ['3,48,49,48', '11,5,6,5'], ['8,9,11,10', '3,15,16,15'], ['3,23,43,25', '4,21,32,21', '4,21,22,21'], ['4,2,4,3', '5,2,3,2'], ['6,4,24,5', '9,22,24,23'], ['6,8,12,10', '8,23,24,23', '10,14,15,14'], ['6,15,20,16', '10,17,19,18'], ['7,6,16,9', '7,22,23,22'], ['8,4,7,6', '8,1,3,2', '8,5,7,6']]
+</DOC>

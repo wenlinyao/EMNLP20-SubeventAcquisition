@@ -1,0 +1,158 @@
+<DOC> article-1896.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 |
+<word> Electoral officials in Congo struggled to finish counting votes from last week 's presidential election on Tuesday , sending helicopters to remote polling stations to try to meet a midnight deadline as street tensions rose . 
+<lemma> Electoral official in Congo struggle to finish count vote from last week 's presidential election on Tuesday , send helicopter to remote polling station to try to meet a midnight deadline as street tension rise . 
+<POS> NNP NNS IN NNP VBD TO VB VBG NNS IN JJ NN POS JJ NN IN NNP , VBG NNS TO JJ NN NNS TO VB TO VB DT NN NN IN NN NNS VBD . 
+<NER> O O O LOCATION O O O O O O DATE DATE O O O O DATE O O O O O O O O O O O O TIME O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Electoral) (NNS officials)) (PP (IN in) (NP (NNP Congo)))) (VP (VBD struggled) (S (VP (TO to) (VP (VB finish) (NP (VBG counting) (NNS votes)) (PP (IN from) (NP (NP (NP (JJ last) (NN week) (POS 's)) (JJ presidential) (NN election)) (PP (IN on) (NP (NNP Tuesday)))))))) (, ,) (S (VP (VBG sending) (NP (NNS helicopters)) (PP (TO to) (NP (JJ remote) (NN polling) (NNS stations))) (S (VP (TO to) (VP (VB try) (S (VP (TO to) (VP (VB meet) (NP (DT a) (NN midnight) (NN deadline)) (SBAR (IN as) (S (NP (NN street) (NNS tensions)) (VP (VBD rose))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 compound 1|5 nsubj 2|7 nsubj:xsubj 2|4 case 3|2 nmod:in 4|7 mark 6|5 xcomp 7|9 amod 8|7 dobj 9|15 case 10|12 amod 11|15 nmod:poss 12|12 case 13|15 amod 14|7 nmod:from 15|17 case 16|15 nmod:on 17|5 punct 18|5 xcomp 19|19 dobj 20|24 case 21|24 amod 22|24 compound 23|19 nmod:to 24|26 mark 25|19 advcl:to 26|28 mark 27|26 xcomp 28|31 det 29|31 compound 30|28 dobj 31|35 mark 32|34 compound 33|35 nsubj 34|28 advcl:as 35|5 punct 36|
+<word> A delay in issuing full preliminary results from the vote in the vast central African state could further complicate an election already marred by deadly violence , logistical problems and allegations of fraud . 
+<lemma> a delay in issue full preliminary result from the vote in the vast central african state could further complicate a election already mar by deadly violence , logistical problem and allegation of fraud . 
+<POS> DT NN IN VBG JJ JJ NNS IN DT NN IN DT JJ JJ JJ NN MD RBR VB DT NN RB VBN IN JJ NN , JJ NNS CC NNS IN NN . 
+<NER> O O O O O O O O O O O O O O MISC O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN delay)) (PP (IN in) (S (VP (VBG issuing) (NP (JJ full) (JJ preliminary) (NNS results)) (PP (IN from) (NP (NP (DT the) (NN vote)) (PP (IN in) (NP (DT the) (JJ vast) (JJ central) (JJ African) (NN state))))))))) (VP (MD could) (ADVP (RBR further)) (VP (VB complicate) (NP (NP (DT an) (NN election)) (VP (ADVP (RB already)) (VBN marred) (PP (IN by) (NP (NP (JJ deadly) (NN violence)) (, ,) (NP (JJ logistical) (NNS problems)) (CC and) (NP (NP (NNS allegations)) (PP (IN of) (NP (NN fraud)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|2 det 1|19 nsubj 2|4 mark 3|2 acl:in 4|7 amod 5|7 amod 6|4 dobj 7|10 case 8|10 det 9|4 nmod:from 10|16 case 11|16 det 12|16 amod 13|16 amod 14|16 amod 15|10 nmod:in 16|19 aux 17|19 advmod 18|21 det 20|19 dobj 21|23 advmod 22|21 acl 23|26 case 24|26 amod 25|23 nmod:by 26|26 punct 27|29 amod 28|23 nmod:by 29|26 conj:and 29|26 cc 30|23 nmod:by 31|26 conj:and 31|33 case 32|31 nmod:of 33|19 punct 34|
+<word> `` We want to keep to the date of December 6 , but we 've had some logistical problems , these have hampered us , '' electoral body spokesman Mathieu Mpita said by telephone . 
+<lemma> `` we want to keep to the date of December 6 , but we have have some logistical problem , these have hamper we , '' electoral body spokesman Mathieu Mpita say by telephone . 
+<POS> `` PRP VBP TO VB TO DT NN IN NNP CD , CC PRP VBP VBD DT JJ NNS , DT VBP VBN PRP , '' JJ NN NN NNP NNP VBD IN NN . 
+<NER> O O O O O O O O O DATE DATE O O O O O O O O O O O O O O O O O O PERSON PERSON O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (S (NP (PRP We)) (VP (VBP want) (S (VP (TO to) (VP (VB keep) (PP (TO to) (NP (NP (DT the) (NN date)) (PP (IN of) (NP (NNP December) (CD 6)))))))))) (, ,) (CC but) (S (NP (PRP we)) (VP (VBP 've) (VP (VBD had) (NP (DT some) (JJ logistical) (NNS problems))))) (, ,) (S (NP (DT these)) (VP (VBP have) (VP (VBN hampered) (NP (PRP us)))))) (, ,) ('' '') (NP (JJ electoral) (NN body) (NN spokesman) (NNP Mathieu) (NNP Mpita)) (VP (VBD said) (PP (IN by) (NP (NN telephone)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 32|32 punct 1|3 nsubj 2|5 nsubj:xsubj 2|32 ccomp 3|5 mark 4|3 xcomp 5|8 case 6|8 det 7|5 nmod:to 8|10 case 9|8 nmod:of 10|10 nummod 11|3 punct 12|3 cc 13|16 nsubj 14|16 aux 15|3 conj:but 16|32 ccomp 16|19 det 17|19 amod 18|16 dobj 19|3 punct 20|23 nsubj 21|23 aux 22|3 conj:but 23|32 ccomp 23|23 dobj 24|32 punct 25|32 punct 26|31 amod 27|31 compound 28|31 compound 29|31 compound 30|32 nsubj 31|34 case 33|32 nmod:by 34|32 punct 35|
+<word> `` If we do n't have the maximum initial tallies , we will release partial results . '' 
+<lemma> `` if we do not have the maximum initial tally , we will release partial result . '' 
+<POS> `` IN PRP VBP RB VB DT NN JJ NNS , PRP MD VB JJ NNS . '' 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (SBAR (IN If) (S (NP (PRP we)) (VP (VBP do) (RB n't) (VP (VB have) (NP (NP (DT the) (NN maximum)) (NP (JJ initial) (NNS tallies))))))) (, ,) (NP (PRP we)) (VP (MD will) (VP (VB release) (NP (JJ partial) (NNS results)))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 14|14 punct 1|6 mark 2|6 nsubj 3|6 aux 4|6 neg 5|14 advcl:if 6|8 det 7|6 dobj 8|10 amod 9|8 dep 10|14 punct 11|14 nsubj 12|14 aux 13|16 amod 15|14 dobj 16|14 punct 17|14 punct 18|
+<word> The electoral commission set the deadline for a full preliminary count for Dec. 6 , the fifth anniversary of President Joseph Kabila 's inauguration , and the day the opposition says marks the end of his constitutional term . 
+<lemma> the electoral commission set the deadline for a full preliminary count for Dec. 6 , the fifth anniversary of President Joseph Kabila 's inauguration , and the day the opposition say mark the end of he constitutional term . 
+<POS> DT JJ NN VBD DT NN IN DT JJ JJ NN IN NNP CD , DT JJ NN IN NNP NNP NNP POS NN , CC DT NN DT NN VBZ NNS DT NN IN PRP$ JJ NN . 
+<NER> O O O O O O O O O O O O DATE DATE O O ORDINAL O O O PERSON PERSON O O O O DATE DATE O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (JJ electoral) (NN commission)) (VP (VBD set) (NP (DT the) (NN deadline)) (PP (IN for) (NP (DT a) (JJ full) (JJ preliminary) (NN count))) (PP (IN for) (NP (NP (NNP Dec.) (CD 6)) (, ,) (NP (NP (DT the) (JJ fifth) (NN anniversary)) (PP (IN of) (NP (NP (NNP President) (NNP Joseph) (NNP Kabila) (POS 's)) (NN inauguration)))))))) (, ,) (CC and) (S (NP-TMP (DT the) (NN day)) (NP (DT the) (NN opposition)) (VP (VBZ says) (S (NP (NNS marks)) (NP (NP (DT the) (NN end)) (PP (IN of) (NP (PRP$ his) (JJ constitutional) (NN term))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det 1|3 amod 2|4 nsubj 3|6 det 5|4 dobj 6|11 case 7|11 det 8|11 amod 9|11 amod 10|4 nmod:for 11|13 case 12|4 nmod:for 13|13 nummod 14|13 punct 15|18 det 16|18 amod 17|13 appos 18|24 case 19|22 compound 20|22 compound 21|24 nmod:poss 22|22 case 23|18 nmod:of 24|4 punct 25|4 cc 26|28 det 27|31 nmod:tmod 28|30 det 29|31 nsubj 30|4 conj:and 31|34 nsubj 32|34 det 33|31 xcomp 34|38 case 35|38 nmod:poss 36|38 amod 37|34 nmod:of 38|4 punct 39|
+<word> U.N.-led diplomatic efforts are under way to allow a delay to the results if needed , according to sources . 
+<lemma> u.n.-led diplomatic effort be under way to allow a delay to the result if need , accord to source . 
+<POS> JJ JJ NNS VBP IN NN TO VB DT NN TO DT NNS IN VBN , VBG TO NNS . 
+<NER> O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ U.N.-led) (JJ diplomatic) (NNS efforts)) (VP (VBP are) (PP (IN under) (NP (NN way))) (S (VP (TO to) (VP (VB allow) (NP (DT a) (NN delay)) (PP (TO to) (NP (DT the) (NNS results))) (SBAR (IN if) (S (VP (VBN needed))))))) (, ,) (PP (VBG according) (PP (TO to) (NP (NNS sources))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 amod 1|3 amod 2|6 nsubj 3|8 nsubj:xsubj 3|6 cop 4|6 case 5|8 mark 7|6 xcomp 8|10 det 9|8 dobj 10|13 case 11|13 det 12|8 nmod:to 13|15 mark 14|8 advcl:if 15|6 punct 16|19 case 17|17 mwe 18|6 nmod:according_to 19|6 punct 20|
+<word> Partial preliminary results issued so far , representing nearly 70 % of the ballots cast , give Kabila a 10-point lead over his chief rival , Etienne Tshisekedi . 
+<lemma> partial preliminary result issue so far , represent nearly 70 % of the ballot cast , give Kabila a 10-point lead over he chief rival , Etienne Tshisekedi . 
+<POS> JJ JJ NNS VBN RB RB , VBG RB CD NN IN DT NNS VBD , VB NNP DT JJ NN IN PRP$ NN NN , NNP NNP . 
+<NER> O O O O O O O O O PERCENT PERCENT O O O O O O PERSON O O O O O O O O PERSON PERSON O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (JJ Partial) (JJ preliminary) (NNS results)) (VP (VBN issued) (ADVP (RB so) (RB far)) (, ,) (S (VP (VBG representing) (NP (NP (QP (RB nearly) (CD 70)) (NN %)) (PP (IN of) (NP (DT the) (NNS ballots)))))))) (VP (VBD cast) (, ,) (S (VP (VB give) (NP (NNP Kabila)) (NP (NP (DT a) (JJ 10-point) (NN lead)) (PP (IN over) (NP (NP (PRP$ his) (NN chief) (NN rival)) (, ,) (NP (NNP Etienne) (NNP Tshisekedi)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 15|3 amod 1|3 amod 2|15 nsubj 3|3 acl 4|6 advmod 5|4 advmod 6|4 punct 7|4 xcomp 8|10 advmod 9|11 nummod 10|8 dobj 11|14 case 12|14 det 13|11 nmod:of 14|15 punct 16|15 ccomp 17|17 iobj 18|21 det 19|21 amod 20|17 dobj 21|25 case 22|25 nmod:poss 23|25 compound 24|21 nmod:over 25|25 punct 26|28 compound 27|25 appos 28|15 punct 29|
+<word> The opposition has said it will reject the outcome . 
+<lemma> the opposition have say it will reject the outcome . 
+<POS> DT NN VBZ VBD PRP MD VB DT NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NN opposition)) (VP (VBZ has) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (MD will) (VP (VB reject) (NP (DT the) (NN outcome)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|7 nsubj 5|7 aux 6|4 ccomp 7|9 det 8|7 dobj 9|4 punct 10|
+<word> At least 18 people have been killed in election-related violence so far , according to US-based Human Rights Watch , and a senior member of Kabila 's camp said the government would have to call in the army if protests become `` too chaotic '' . 
+<lemma> at least 18 people have be kill in election-related violence so far , accord to us-based human rights watch , and a senior member of Kabila 's camp say the government would have to call in the army if protest become `` too chaotic '' . 
+<POS> IN JJS CD NNS VBP VBN VBN IN JJ NN RB RB , VBG TO JJ JJ NNS VBP , CC DT JJ NN IN NNP POS NN VBD DT NN MD VB TO VB IN DT NN IN NNS VBP `` RB JJ '' . 
+<NER> O O NUMBER O O O O O O O O O O O O ORGANIZATION ORGANIZATION ORGANIZATION ORGANIZATION O O O O O O PERSON O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (QP (IN At) (JJS least) (CD 18)) (NNS people)) (VP (VBP have) (VP (VBN been) (VP (VBN killed) (PP (IN in) (NP (JJ election-related) (NN violence))) (ADVP (RB so) (RB far)) (, ,) (PP (VBG according) (PP (TO to) (NP (NP (JJ US-based) (JJ Human) (NNS Rights)) (SBAR (S (VP (VBP Watch))))))))))) (, ,) (CC and) (S (NP (NP (DT a) (JJ senior) (NN member)) (PP (IN of) (NP (NP (NNP Kabila) (POS 's)) (NN camp)))) (VP (VBD said) (SBAR (S (NP (DT the) (NN government)) (VP (MD would) (VP (VB have) (S (VP (TO to) (VP (VB call) (PP (IN in) (NP (DT the) (NN army))) (SBAR (IN if) (S (NP (NNS protests)) (VP (VBP become) (`` ``) (NP (RB too) (JJ chaotic)) ('' ''))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|2 case 1|3 nmod:npmod 2|4 nummod 3|7 nsubjpass 4|7 aux 5|7 auxpass 6|10 case 8|10 amod 9|7 nmod:in 10|12 advmod 11|7 advmod 12|7 punct 13|18 case 14|14 mwe 15|18 amod 16|18 amod 17|7 nmod:according_to 18|18 acl:relcl 19|7 punct 20|7 cc 21|24 det 22|24 amod 23|29 nsubj 24|28 case 25|28 nmod:poss 26|26 case 27|24 nmod:of 28|7 conj:and 29|31 det 30|33 nsubj 31|35 nsubj:xsubj 31|33 aux 32|29 ccomp 33|35 mark 34|33 xcomp 35|38 case 36|38 det 37|35 nmod:in 38|41 mark 39|41 nsubj 40|35 advcl:if 41|41 punct 42|44 advmod 43|41 xcomp 44|41 punct 45|7 punct 46|
+<word> Banks closing There was a heavy security presence on the streets of the capital on Tuesday , and some residents piled into boats to cross the Congo River into neighbouring Congo Republic , fearing renewed violence after the results . 
+<lemma> bank close there be a heavy security presence on the street of the capital on Tuesday , and some resident pile into boat to cross the Congo River into neighbour Congo Republic , fear renew violence after the result . 
+<POS> NNS VBG EX VBD DT JJ NN NN IN DT NNS IN DT NN IN NNP , CC DT NNS VBD IN NNS TO VB DT NNP NNP IN VBG NNP NNP , VBG VBN NN IN DT NNS . 
+<NER> O O O O O O O O O O O O O O O DATE O O O O O O O O O O LOCATION LOCATION O O LOCATION LOCATION O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Banks)) (VP (VBG closing) (SBAR (S (NP (EX There)) (VP (VBD was) (NP (NP (DT a) (JJ heavy) (NN security) (NN presence)) (PP (IN on) (NP (NP (DT the) (NNS streets)) (PP (IN of) (NP (NP (DT the) (NN capital)) (PP (IN on) (NP (NNP Tuesday))))))))))))) (, ,) (CC and) (S (NP (DT some) (NNS residents)) (VP (VBD piled) (PP (IN into) (NP (NNS boats))) (S (VP (TO to) (VP (VB cross) (NP (DT the) (NNP Congo) (NNP River)) (PP (IN into) (S (VP (VP (VBG neighbouring) (NP (NNP Congo) (NNP Republic))) (, ,) (VP (VBG fearing) (NP (VBN renewed) (NN violence)) (PP (IN after) (NP (DT the) (NNS results)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 expl 3|2 ccomp 4|8 det 5|8 amod 6|8 compound 7|4 nsubj 8|11 case 9|11 det 10|8 nmod:on 11|14 case 12|14 det 13|11 nmod:of 14|16 case 15|14 nmod:on 16|2 punct 17|2 cc 18|20 det 19|21 nsubj 20|25 nsubj:xsubj 20|2 conj:and 21|23 case 22|21 nmod:into 23|25 mark 24|21 xcomp 25|28 det 26|28 compound 27|25 dobj 28|30 mark 29|25 advcl:into 30|32 compound 31|30 dobj 32|30 punct 33|30 dep 34|36 amod 35|34 dobj 36|39 case 37|39 det 38|34 nmod:after 39|2 punct 40|
+<word> Banks across the city were shutting early and the city 's normally chaotic central market was quiet . 
+<lemma> bank across the city be shut early and the city 's normally chaotic central market be quiet . 
+<POS> NNS IN DT NN VBD VBG JJ CC DT NN POS RB JJ JJ NN VBD JJ . 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NP (NNS Banks)) (PP (IN across) (NP (DT the) (NN city)))) (VP (VBD were) (VP (VBG shutting) (ADVP (JJ early))))) (CC and) (S (NP (NP (DT the) (NN city) (POS 's)) (ADJP (ADVP (RB normally)) (JJ chaotic)) (JJ central) (NN market)) (VP (VBD was) (ADJP (JJ quiet)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|6 nsubj 1|4 case 2|4 det 3|1 nmod:across 4|6 aux 5|6 advmod 7|6 cc 8|10 det 9|15 nmod:poss 10|10 case 11|13 advmod 12|15 amod 13|15 amod 14|17 nsubj 15|17 cop 16|6 conj:and 17|6 punct 18|
+<word> `` I have my normal clients , but they are n't here . 
+<lemma> `` I have my normal client , but they be not here . 
+<POS> `` PRP VBP PRP$ JJ NNS , CC PRP VBP RB RB . 
+<NER> O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP have) (NP (PRP$ my) (JJ normal) (NNS clients)))) (, ,) (CC but) (S (NP (PRP they)) (VP (VBP are) (RB n't) (ADVP (RB here)))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|6 nmod:poss 4|6 amod 5|3 dobj 6|3 punct 7|3 cc 8|10 nsubj 9|3 conj:but 10|10 neg 11|10 advmod 12|3 punct 13|
+<word> I do n't know if they are scared , '' said Rose Nsele , sitting next to a pile of manioc leaves she had been unable to sell . 
+<lemma> I do not know if they be scared , '' say Rose Nsele , sit next to a pile of manioc leave she have be unable to sell . 
+<POS> PRP VBP RB VB IN PRP VBP JJ , '' VBD NNP NNP , VBG JJ TO DT NN IN NN VBZ PRP VBD VBN JJ TO VB . 
+<NER> O O O O O O O O O O O PERSON PERSON O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (SINV (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB know) (SBAR (IN if) (S (NP (PRP they)) (VP (VBP are) (ADJP (JJ scared)))))))) (, ,) ('' '') (VP (VBD said)) (NP (NNP Rose) (NNP Nsele)) (, ,) (S (VP (VBG sitting) (SBAR (S (NP (NP (JJ next)) (PP (TO to) (NP (NP (DT a) (NN pile)) (PP (IN of) (NP (NN manioc)))))) (VP (VBZ leaves) (SBAR (S (NP (PRP she)) (VP (VBD had) (VP (VBN been) (ADJP (JJ unable) (S (VP (TO to) (VP (VB sell)))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 11|4 nsubj 1|4 aux 2|4 neg 3|11 ccomp 4|8 mark 5|8 nsubj 6|8 cop 7|4 advcl:if 8|11 punct 9|11 punct 10|13 compound 12|11 nsubj 13|11 punct 14|11 advcl 15|19 case 16|16 mwe 17|19 det 18|22 nmod:next_to 19|21 case 20|19 nmod:of 21|15 ccomp 22|26 nsubj 23|28 nsubj:xsubj 23|26 aux 24|26 cop 25|22 ccomp 26|28 mark 27|26 xcomp 28|11 punct 29|
+<word> The first locally organised and funded election since the official end of years of war in 2003 that killed 5,4 million people was meant to offer hope of greater stability . 
+<lemma> the first locally organise and fund election since the official end of year of war in 2003 that kill 5,4 million people be mean to offer hope of greater stability . 
+<POS> DT JJ RB VBN CC VBN NN IN DT JJ NN IN NNS IN NN IN CD WDT VBD CD CD NNS VBD VBN TO VB NN IN JJR NN . 
+<NER> O ORDINAL O O O O O O O O DURATION DURATION DURATION O O O DATE O O NUMBER NUMBER O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT The) (JJ first)) (VP (ADVP (RB locally)) (VBN organised) (CC and) (VBN funded) (NP (NN election)) (PP (IN since) (NP (NP (DT the) (JJ official) (NN end)) (PP (IN of) (NP (NP (NNS years)) (PP (IN of) (NP (NP (NN war)) (PP (IN in) (NP (CD 2003))))))) (SBAR (WHNP (WDT that)) (S (VP (VBD killed) (NP (QP (CD 5,4) (CD million)) (NNS people))))))))) (VP (VBD was) (VP (VBN meant) (S (VP (TO to) (VP (VB offer) (NP (NP (NN hope)) (PP (IN of) (NP (JJR greater) (NN stability))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 24|2 det 1|24 nsubjpass 2|26 nsubj:xsubj 2|4 advmod 3|2 acl 4|4 cc 5|2 acl 6|4 conj:and 6|4 dobj 7|11 case 8|11 det 9|11 amod 10|4 nmod:since 11|19 nsubj 11|13 case 12|11 nmod:of 13|15 case 14|13 nmod:of 15|17 case 16|15 nmod:in 17|11 ref 18|11 acl:relcl 19|21 compound 20|22 nummod 21|19 dobj 22|24 auxpass 23|26 mark 25|24 xcomp 26|26 dobj 27|30 case 28|30 amod 29|27 nmod:of 30|24 punct 31|
+<word> But fears are mounting that a rejection of the results will unleash bloodshed . 
+<lemma> but fear be mount that a rejection of the result will unleash bloodshed . 
+<POS> CC NNS VBP VBG IN DT NN IN DT NNS MD VB NN . 
+<NER> O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (NP (NNS fears)) (VP (VBP are) (VP (VBG mounting) (SBAR (IN that) (S (NP (NP (DT a) (NN rejection)) (PP (IN of) (NP (DT the) (NNS results)))) (VP (MD will) (VP (VB unleash) (NP (NN bloodshed)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 cc 1|4 nsubj 2|4 aux 3|12 mark 5|7 det 6|12 nsubj 7|10 case 8|10 det 9|7 nmod:of 10|12 aux 11|4 ccomp 12|12 dobj 13|4 punct 14|
+<word> Veteran opposition leader Tshisekedi enjoys broad support in Kinshasa , a city of 10 million people . 
+<lemma> veteran opposition leader Tshisekedi enjoy broad support in Kinshasa , a city of 10 million people . 
+<POS> NN NN NN NNP VBZ JJ NN IN NNP , DT NN IN CD CD NNS . 
+<NER> O O O PERSON O O O O LOCATION O O O O NUMBER NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NN Veteran) (NN opposition) (NN leader) (NNP Tshisekedi)) (VP (VBZ enjoys) (NP (JJ broad) (NN support)) (PP (IN in) (NP (NP (NNP Kinshasa)) (, ,) (NP (NP (DT a) (NN city)) (PP (IN of) (NP (QP (CD 10) (CD million)) (NNS people))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 compound 1|4 compound 2|4 compound 3|5 nsubj 4|7 amod 6|5 dobj 7|9 case 8|5 nmod:in 9|9 punct 10|12 det 11|9 appos 12|16 case 13|15 compound 14|16 nummod 15|12 nmod:of 16|5 punct 17|
+<word> Congo 's election commission defied all odds to hold the presidential and parliamentary vote last week . 
+<lemma> Congo 's election commission defy all odds to hold the presidential and parliamentary vote last week . 
+<POS> NNP POS NN NN VBD DT NNS TO VB DT JJ CC JJ NN JJ NN . 
+<NER> LOCATION O O O O O O O O O O O O O DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Congo) (POS 's)) (NN election) (NN commission)) (VP (VBD defied) (NP (DT all) (NNS odds)) (S (VP (TO to) (VP (VB hold) (NP (DT the) (JJ presidential) (CC and) (JJ parliamentary) (NN vote)) (NP-TMP (JJ last) (NN week)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|4 nmod:poss 1|1 case 2|4 compound 3|5 nsubj 4|7 det 6|5 dobj 7|9 mark 8|5 advcl:to 9|14 det 10|14 amod 11|11 cc 12|11 conj:and 13|14 amod 13|9 dobj 14|16 amod 15|9 nmod:tmod 16|5 punct 17|
+<word> Often chaotic and at times violent , voting had to be stretched over three days due to delays in places . 
+<lemma> often chaotic and at time violent , voting have to be stretch over three day due to delay in place . 
+<POS> RB JJ CC IN NNS JJ , NN VBD TO VB VBN IN CD NNS JJ TO NNS IN NNS . 
+<NER> O O O O O O O O O O O O O DURATION DURATION O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (PP (PP (ADVP (RB Often)) (ADJP (JJ chaotic))) (CC and) (PP (IN at) (NP (NP (NNS times)) (ADJP (JJ violent))))) (, ,) (NP (NN voting)) (VP (VBD had) (S (VP (TO to) (VP (VB be) (VP (VBN stretched) (PP (IN over) (NP (NP (CD three) (NNS days)) (ADJP (JJ due) (PP (TO to) (NP (NP (NNS delays)) (PP (IN in) (NP (NNS places))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|9 nmod 1|1 dep 2|1 cc 3|5 case 4|1 conj:and 5|9 nmod 5|5 amod 6|9 punct 7|9 nsubj 8|12 nsubjpass:xsubj 8|12 mark 10|12 auxpass 11|9 xcomp 12|15 case 13|15 nummod 14|12 nmod:over 15|15 amod 16|18 case 17|16 nmod:to 18|20 case 19|18 nmod:in 20|9 punct 21|
+<word> International observers say the various steps of the counting process after the initial tally at polling stations had been poorly organised , with ballots and results sheets often lost or destroyed in the process . 
+<lemma> International observer say the various step of the counting process after the initial tally at polling station have be poorly organise , with ballot and result sheet often lose or destroy in the process . 
+<POS> NNP NNS VBP DT JJ NNS IN DT NN NN IN DT JJ NN IN NN NNS VBD VBN RB VBN , IN NNS CC VBZ NNS RB VBD CC VBD IN DT NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP International) (NNS observers)) (VP (VBP say) (NP (NP (DT the) (JJ various) (NNS steps)) (PP (IN of) (NP (DT the) (NN counting) (NN process)))) (SBAR (IN after) (S (NP (NP (DT the) (JJ initial) (NN tally)) (PP (IN at) (NP (NN polling) (NNS stations)))) (VP (VP (VBD had) (VP (VBN been) (VP (ADVP (RB poorly)) (VBN organised) (, ,) (PP (IN with) (NP (NNS ballots)))))) (CC and) (VP (VBZ results) (SBAR (S (NP (NNS sheets)) (ADVP (RB often)) (VP (VBD lost) (CC or) (VBD destroyed) (PP (IN in) (NP (DT the) (NN process))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|6 det 4|6 amod 5|3 dobj 6|10 case 7|10 det 8|10 compound 9|6 nmod:of 10|21 mark 11|14 det 12|14 amod 13|21 nsubjpass 14|26 nsubj 14|17 case 15|17 compound 16|14 nmod:at 17|21 aux 18|21 auxpass 19|21 advmod 20|3 advcl:after 21|21 punct 22|24 case 23|21 nmod:with 24|21 cc 25|3 advcl:after 26|21 conj:and 26|29 nsubj 27|31 nsubj 27|29 advmod 28|26 ccomp 29|29 cc 30|26 ccomp 31|29 conj:or 31|34 case 32|34 det 33|29 nmod:in 34|3 punct 35|
+<word> Joseph Kabila succeeded his father , Laurent Kabila , who was shot dead by a bodyguard in 2001 . 
+<lemma> Joseph Kabila succeed he father , Laurent Kabila , who be shoot dead by a bodyguard in 2001 . 
+<POS> NNP NNP VBD PRP$ NN , NNP NNP , WP VBD VBN JJ IN DT NN IN CD . 
+<NER> PERSON PERSON O O O O PERSON PERSON O O O O O O O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Joseph) (NNP Kabila)) (VP (VBD succeeded) (NP (NP (PRP$ his) (NN father)) (, ,) (NP (NNP Laurent) (NNP Kabila)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD was) (VP (VBN shot) (ADJP (JJ dead)) (PP (IN by) (NP (NP (DT a) (NN bodyguard)) (PP (IN in) (NP (CD 2001))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nmod:poss 4|3 dobj 5|12 nsubjpass 5|5 punct 6|8 compound 7|5 appos 8|5 punct 9|5 ref 10|12 auxpass 11|5 acl:relcl 12|12 xcomp 13|16 case 14|16 det 15|12 nmod:agent 16|18 case 17|16 nmod:in 18|3 punct 19|
+<word> He won U.N.-sponsored elections in 2006 , promising he would bring an end to a decade of war and chaos . 
+<lemma> he win u.n.-sponsored election in 2006 , promise he would bring a end to a decade of war and chaos . 
+<POS> PRP VBD JJ NNS IN CD , VBG PRP MD VB DT NN TO DT NN IN NN CC NN . 
+<NER> O O MISC O O DATE O O O O O O O O DURATION DURATION O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (VBD won) (NP (JJ U.N.-sponsored) (NNS elections)) (PP (IN in) (NP (CD 2006))) (, ,) (S (VP (VBG promising) (SBAR (S (NP (PRP he)) (VP (MD would) (VP (VB bring) (NP (DT an) (NN end)) (PP (TO to) (NP (NP (DT a) (NN decade)) (PP (IN of) (NP (NN war) (CC and) (NN chaos)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 amod 3|2 dobj 4|6 case 5|2 nmod:in 6|2 punct 7|2 advcl 8|11 nsubj 9|11 aux 10|8 ccomp 11|13 det 12|11 dobj 13|16 case 14|16 det 15|11 nmod:to 16|18 case 17|16 nmod:of 18|18 cc 19|16 nmod:of 20|18 conj:and 20|2 punct 21|
+<word> But his government has struggled against local and foreign rebel groups in the east and Congo remains among the most risky countries in which to do business . 
+<lemma> but he government have struggle against local and foreign rebel group in the east and Congo remain among the most risky country in which to do business . 
+<POS> CC PRP$ NN VBZ VBN IN JJ CC JJ NN NNS IN DT JJ CC NNP VBZ IN DT RBS JJ NNS IN WDT TO VB NN . 
+<NER> O O O O O O O O O O O O O O O LOCATION O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (CC But) (S (NP (PRP$ his) (NN government)) (VP (VBZ has) (VP (VBN struggled) (PP (IN against) (NP (UCP (JJ local) (CC and) (JJ foreign)) (NN rebel) (NNS groups))) (PP (IN in) (NP (DT the) (JJ east)))))) (CC and) (S (NP (NNP Congo)) (VP (VBZ remains) (PP (IN among) (NP (NP (DT the) (ADJP (RBS most) (JJ risky)) (NNS countries)) (PP (IN in) (SBAR (WHNP (WDT which)) (S (VP (TO to) (VP (VB do) (NP (NN business))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 cc 1|3 nmod:poss 2|5 nsubj 3|5 aux 4|11 case 6|11 amod 7|7 cc 8|7 conj:and 9|11 amod 9|11 compound 10|5 nmod:against 11|14 case 12|14 det 13|5 nmod:in 14|5 cc 15|17 nsubj 16|5 conj:but 17|22 case 18|22 det 19|21 advmod 20|22 amod 21|17 nmod:among 22|26 mark 23|26 nsubj 24|26 mark 25|22 acl:to 26|26 dobj 27|5 punct 28|
+<coreference> [['10,26,29,28', '1,4,5,4', '10,31,33,32', '17,1,3,1', '22,16,17,16'], ['1,1,5,2', '3,2,3,2', '3,14,15,14', '3,24,25,24', '4,3,4,3', '4,12,13,12'], ['1,11,14,12', '17,15,17,16'], ['1,17,18,17', '10,16,17,16'], ['1,22,25,24', '19,16,18,17'], ['1,29,32,31', '5,5,7,6'], ['4,15,17,16', '6,12,14,13', '10,38,40,39', '15,9,11,10'], ['5,13,15,13', '5,16,25,18'], ['5,20,24,22', '5,36,37,36', '7,18,19,18', '7,23,24,23', '9,26,28,26', '20,1,3,2', '20,4,6,5', '20,4,5,4', '20,7,9,8', '21,1,2,1', '21,9,10,9', '22,2,3,2'], ['5,29,31,30', '8,1,3,2', '8,5,6,5'], ['7,13,15,14', '19,24,25,24'], ['16,1,5,4', '7,23,26,25', '7,27,29,28'], ['9,30,32,31', '22,2,4,3'], ['11,3,5,4', '11,9,12,10'], ['13,12,14,13', '12,2,3,2', '12,4,5,4', '13,1,2,1'], ['12,4,7,6', '12,9,10,9', '13,6,7,6'], ['16,9,10,9', '16,11,17,12'], ['19,8,11,10', '19,33,35,34']]
+</DOC>

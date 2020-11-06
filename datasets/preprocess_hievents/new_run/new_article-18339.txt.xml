@@ -1,0 +1,46 @@
+<DOC> article-18339.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> Police in Derry have seized a stash of cannabis resin with an estimated street value of &amp;#163; 800,000 -LRB- E1 million -RRB- . 
+<lemma> police in Derry have seize a stash of cannabis resin with a estimated street value of &amp;#163; 800,000 -lrb- e1 million -rrb- . 
+<POS> NNS IN NNP VBP VBN DT NN IN NN NN IN DT JJ NN NN IN CD CD -LRB- NN CD -RRB- . 
+<NER> O O LOCATION O O O O O O O O O O O O O MONEY MONEY O O NUMBER O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Police)) (PP (IN in) (NP (NNP Derry)))) (VP (VBP have) (VP (VBN seized) (NP (NP (DT a) (NN stash)) (PP (IN of) (NP (NN cannabis) (NN resin)))) (PP (IN with) (NP (NP (DT an) (JJ estimated) (NN street) (NN value)) (PP (IN of) (NP (NP (QP (CD &amp;#163;) (CD 800,000))) (PRN (-LRB- -LRB-) (NP (NN E1) (CD million)) (-RRB- -RRB-)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|3 case 2|1 nmod:in 3|5 aux 4|7 det 6|5 dobj 7|10 case 8|10 compound 9|7 nmod:of 10|15 case 11|15 det 12|15 amod 13|15 compound 14|5 nmod:with 15|18 case 16|18 compound 17|15 nmod:of 18|20 punct 19|18 appos 20|20 nummod 21|20 punct 22|5 punct 23|
+<word> The drugs were found concealed in kitchen units in a van stopped by officers on the Glengalliagh Road shortly after 7pm last night . 
+<lemma> the drug be find conceal in kitchen unit in a van stop by officer on the Glengalliagh Road shortly after 7pm last night . 
+<POS> DT NNS VBD VBN VBN IN NN NNS IN DT NN VBN IN NNS IN DT NNP NNP RB IN CD JJ NN . 
+<NER> O O O O O O O O O O O O O O O O LOCATION LOCATION O O TIME TIME TIME O 
+<Timex> None
+<parse>         (ROOT (S (NP (DT The) (NNS drugs)) (VP (VBD were) (VP (VBN found) (S (VP (VBN concealed) (PP (IN in) (NP (NN kitchen) (NNS units))) (PP (IN in) (NP (NP (DT a) (NN van)) (VP (VBN stopped) (PP (IN by) (NP (NP (NNS officers)) (PP (IN on) (NP (DT the) (NNP Glengalliagh) (NNP Road))))) (ADVP (RB shortly)) (PP (IN after) (NP (CD 7pm))) (NP-TMP (JJ last) (NN night))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|4 auxpass 3|4 dep 5|8 case 6|8 compound 7|5 nmod:in 8|11 case 9|11 det 10|5 nmod:in 11|11 acl 12|14 case 13|12 nmod:by 14|18 case 15|18 det 16|18 compound 17|14 nmod:on 18|12 advmod 19|21 case 20|12 nmod:after 21|23 amod 22|12 nmod:tmod 23|4 punct 24|
+<word> A man -LRB- 33 -RRB- has been arrested and is being questioned at Strabane police station . 
+<lemma> a man -lrb- 33 -rrb- have be arrest and be be question at Strabane police station . 
+<POS> DT NN -LRB- CD -RRB- VBZ VBN VBN CC VBZ VBG VBN IN NNP NN NN . 
+<NER> O O O NUMBER O O O O O O O O O LOCATION O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (DT A) (NN man)) (PRN (-LRB- -LRB-) (NP (CD 33)) (-RRB- -RRB-))) (VP (VP (VBZ has) (VP (VBN been) (VP (VBN arrested)))) (CC and) (VP (VBZ is) (VP (VBG being) (VP (VBN questioned) (PP (IN at) (NP (NNP Strabane) (NN police) (NN station))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|2 det 1|8 nsubjpass 2|12 nsubjpass 2|4 punct 3|2 appos 4|4 punct 5|8 aux 6|8 auxpass 7|8 cc 9|12 aux 10|12 auxpass 11|8 conj:and 12|16 case 13|16 compound 14|16 compound 15|12 nmod:at 16|8 punct 17|
+<word> `` We have seized a substantial quantity of cannabis - drugs which will no longer pose a threat to our community and , in particular , to our young people , `` a PSNI spokesman said . 
+<lemma> `` we have seize a substantial quantity of cannabis - drug which will no longer pose a threat to we community and , in particular , to we young people , `` a PSNI spokesman say . 
+<POS> `` PRP VBP VBN DT JJ NN IN NN : NNS WDT MD RB RB VB DT NN TO PRP$ NN CC , IN JJ , TO PRP$ JJ NNS , `` DT NNP NN VBD . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O ORGANIZATION O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP We)) (VP (VBP have) (VP (VBN seized) (NP (NP (NP (DT a) (JJ substantial) (NN quantity)) (PP (IN of) (NP (NN cannabis)))) (: -) (NP (NP (NNS drugs)) (SBAR (WHNP (WDT which)) (S (VP (MD will) (ADVP (RB no) (RB longer)) (VP (VB pose) (NP (DT a) (NN threat)) (PP (PP (TO to) (NP (PRP$ our) (NN community))) (CC and) (PRN (, ,) (PP (IN in) (ADJP (JJ particular))) (, ,)) (PP (TO to) (NP (PRP$ our) (JJ young) (NNS people))))))))))))) (, ,) (`` ``) (NP (DT a) (NNP PSNI) (NN spokesman)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 36|36 punct 1|4 nsubj 2|4 aux 3|36 ccomp 4|7 det 5|7 amod 6|4 dobj 7|9 case 8|7 nmod:of 9|7 punct 10|7 dep 11|16 nsubj 11|16 nsubj 11|11 ref 12|16 aux 13|15 neg 14|16 advmod 15|11 acl:relcl 16|11 acl:relcl 16|16 conj:and 16|18 det 17|16 dobj 18|21 case 19|21 nmod:poss 20|16 nmod:to 21|16 cc 22|25 punct 23|25 case 24|21 dep 25|25 punct 26|30 case 27|30 nmod:poss 28|30 amod 29|16 nmod:to 30|36 punct 31|36 punct 32|35 det 33|35 compound 34|36 nsubj 35|36 punct 37|
+<word> `` Police are committed to reducing the harm posed to people by the scourge of drugs . 
+<lemma> `` police be commit to reduce the harm pose to people by the scourge of drug . 
+<POS> `` NNS VBP VBN TO VBG DT NN VBD TO NNS IN DT NN IN NNS . 
+<NER> O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (NNS Police)) (VP (VBP are) (ADJP (VBN committed) (PP (TO to) (S (VP (VBG reducing) (SBAR (S (NP (DT the) (NN harm)) (VP (VBD posed) (PP (TO to) (NP (NNS people))) (PP (IN by) (NP (NP (DT the) (NN scourge)) (PP (IN of) (NP (NNS drugs))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 punct 1|4 nsubjpass 2|4 auxpass 3|6 mark 5|4 advcl:to 6|8 det 7|9 nsubj 8|6 ccomp 9|11 case 10|9 nmod:to 11|14 case 12|14 det 13|9 nmod:by 14|16 case 15|14 nmod:of 16|4 punct 17|
+<word> We will continue to do this by working with groups and individuals through the criminal justice system to ensure drugs are taken off our streets and those involved in this evil and dangerous trade are brought before the courts . '' 
+<lemma> we will continue to do this by work with group and individual through the criminal justice system to ensure drug be take off we street and those involve in this evil and dangerous trade be bring before the court . '' 
+<POS> PRP MD VB TO VB DT IN VBG IN NNS CC NNS IN DT JJ NN NN TO VB NNS VBP VBN RP PRP$ NNS CC DT VBN IN DT NN CC JJ NN VBP VBN IN DT NNS . '' 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP We)) (VP (MD will) (VP (VB continue) (S (VP (TO to) (VP (VB do) (NP (DT this)) (PP (IN by) (S (VP (VBG working) (PP (IN with) (NP (NP (NNS groups) (CC and) (NNS individuals)) (PP (IN through) (NP (DT the) (JJ criminal) (NN justice) (NN system))))) (S (VP (TO to) (VP (VB ensure) (SBAR (S (NP (NNS drugs)) (VP (VBP are) (VP (VBN taken) (PRT (RP off)) (NP (PRP$ our) (NNS streets)))))))))))))))))) (CC and) (S (NP (NP (DT those)) (VP (VBN involved) (PP (IN in) (NP (NP (DT this) (NN evil)) (CC and) (NP (JJ dangerous) (NN trade)))))) (VP (VBP are) (VP (VBN brought) (PP (IN before) (NP (DT the) (NNS courts)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|5 nsubj:xsubj 1|3 aux 2|5 mark 4|3 xcomp 5|5 dobj 6|8 mark 7|5 advcl:by 8|10 case 9|8 nmod:with 10|10 cc 11|8 nmod:with 12|10 conj:and 12|17 case 13|17 det 14|17 amod 15|17 compound 16|10 nmod:through 17|19 mark 18|8 xcomp 19|22 nsubjpass 20|22 auxpass 21|19 ccomp 22|22 compound:prt 23|25 nmod:poss 24|22 dobj 25|3 cc 26|36 nsubjpass 27|27 acl 28|31 case 29|31 det 30|28 nmod:in 31|31 cc 32|34 amod 33|28 nmod:in 34|31 conj:and 34|36 auxpass 35|3 conj:and 36|39 case 37|39 det 38|36 nmod:before 39|3 punct 40|3 punct 41|
+<coreference> [['1,1,4,1', '5,2,3,2'], ['2,14,19,14', '4,2,3,2', '4,20,21,20', '4,28,29,28', '6,1,2,1', '6,24,25,24'], ['4,11,31,11', '5,16,17,16', '6,20,21,20'], ['4,28,31,30', '5,11,12,11']]
+</DOC>

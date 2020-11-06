@@ -1,0 +1,179 @@
+<DOC> article-12028.txt.xml story
+<paragraph> | 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 |
+<word> A mother was shot to death and her newborn son snatched from her outside a suburban Texas pediatric center , but the 3-day-old boy was found safe about six hours later . 
+<lemma> a mother be shoot to death and she newborn son snatch from she outside a suburban Texas pediatric center , but the 3-day-old boy be find safe about six hour later . 
+<POS> DT NN VBD VBN TO NN CC PRP$ JJ NN VBN IN PRP$ IN DT JJ NNP JJ NN , CC DT JJ NN VBD VBN JJ IN CD NNS RB . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O O O O O DURATION O O O O DATE DATE DATE DATE O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT A) (NN mother)) (VP (VBD was) (VP (VBN shot) (PP (TO to) (NP (NP (NN death)) (CC and) (NP (NP (PRP$ her) (JJ newborn) (NN son)) (VP (VBN snatched) (PP (IN from) (NP (PRP$ her))) (PP (IN outside) (NP (DT a) (JJ suburban) (NNP Texas) (JJ pediatric) (NN center)))))))))) (, ,) (CC but) (S (NP (DT the) (JJ 3-day-old) (NN boy)) (VP (VBD was) (VP (VBN found) (S (ADJP (JJ safe) (PP (IN about) (ADVP (NP (CD six) (NNS hours)) (RB later)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubjpass 2|4 auxpass 3|6 case 5|4 nmod:to 6|6 cc 7|10 nmod:poss 8|10 amod 9|4 nmod:to 10|6 conj:and 10|10 acl 11|13 case 12|11 nmod:from 13|19 case 14|19 det 15|19 amod 16|19 compound 17|19 amod 18|11 nmod:outside 19|4 punct 20|4 cc 21|24 det 22|24 amod 23|26 nsubjpass 24|26 auxpass 25|4 conj:but 26|26 xcomp 27|31 case 28|30 nummod 29|31 nmod:npmod 30|27 advcl:about 31|4 punct 32|
+<word> Kala Marie Golden 's mother said her daughter `` died trying to save her baby . '' 
+<lemma> Kala Marie Golden 's mother say she daughter `` die try to save she baby . '' 
+<POS> NNP NNP NNP POS NN VBD PRP$ NN `` VBD VBG TO VB PRP$ NN . '' 
+<NER> PERSON PERSON PERSON O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNP Kala) (NNP Marie) (NNP Golden) (POS 's)) (NN mother)) (VP (VBD said) (SBAR (S (NP (PRP$ her) (NN daughter)) (`` ``) (VP (VBD died) (S (VP (VBG trying) (S (VP (TO to) (VP (VB save) (NP (PRP$ her) (NN baby))))))))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 6|3 compound 1|3 compound 2|5 nmod:poss 3|3 case 4|6 nsubj 5|8 nmod:poss 7|10 nsubj 8|10 punct 9|6 ccomp 10|10 xcomp 11|13 mark 12|11 xcomp 13|15 nmod:poss 14|13 dobj 15|6 punct 16|6 punct 17|
+<word> Golden was leaving a checkup with her son , Keegan , at the Northwoods Pediatric Center in Spring , a suburb north of Houston . 
+<lemma> Golden be leave a checkup with she son , Keegan , at the Northwoods Pediatric Center in Spring , a suburb north of Houston . 
+<POS> NNP VBD VBG DT NN IN PRP$ NN , NNP , IN DT NNPS NNP NNP IN NNP , DT NN NN IN NNP . 
+<NER> O O O O O O O O O PERSON O O O ORGANIZATION ORGANIZATION ORGANIZATION O DATE O O O O O LOCATION O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Golden)) (VP (VBD was) (VP (VBG leaving) (NP (NP (DT a) (NN checkup)) (PP (IN with) (NP (NP (PRP$ her) (NN son)) (, ,) (NP (NNP Keegan)) (, ,)))) (PP (IN at) (NP (NP (DT the) (NNPS Northwoods) (NNP Pediatric) (NNP Center)) (PP (IN in) (NP (NNP Spring))))) (, ,) (NP (NP (DT a) (NN suburb) (NN north)) (PP (IN of) (NP (NNP Houston)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|5 det 4|3 dobj 5|8 case 6|8 nmod:poss 7|5 nmod:with 8|8 punct 9|8 appos 10|8 punct 11|16 case 12|16 det 13|16 compound 14|16 compound 15|3 nmod:at 16|18 case 17|16 nmod:in 18|3 punct 19|22 det 20|22 compound 21|3 dobj 22|24 case 23|22 nmod:of 24|3 punct 25|
+<word> In the parking lot , she got into a verbal altercation with a woman in a Lexus parked next to her pickup truck , Montgomery County sheriff 's Lt. Dan Norris said . 
+<lemma> in the parking lot , she get into a verbal altercation with a woman in a Lexus park next to she pickup truck , Montgomery County sheriff 's Lt. Dan Norris say . 
+<POS> IN DT NN NN , PRP VBD IN DT JJ NN IN DT NN IN DT NNP VBD JJ TO PRP$ NN NN , NNP NNP NN POS NNP NNP NNP VBD . 
+<NER> O O O O O O O O O O O O O O O O MISC O O O O O O O LOCATION LOCATION O O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (PP (IN In) (NP (DT the) (NN parking) (NN lot))) (, ,) (NP (PRP she)) (VP (VBD got) (PP (IN into) (NP (DT a) (JJ verbal) (NN altercation))) (SBAR (IN with) (S (NP (NP (DT a) (NN woman)) (PP (IN in) (NP (DT a) (NNP Lexus)))) (VP (VBD parked) (SBAR (S (ADVP (JJ next) (PP (TO to) (NP (PRP$ her) (NN pickup) (NN truck)))) (, ,) (NP (NP (NNP Montgomery) (NNP County) (NN sheriff) (POS 's)) (NNP Lt.) (NNP Dan) (NNP Norris)) (VP (VBD said)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 7|4 case 1|4 det 2|4 compound 3|7 nmod:in 4|7 punct 5|7 nsubj 6|11 case 8|11 det 9|11 amod 10|7 nmod:into 11|18 mark 12|14 det 13|18 nsubj 14|17 case 15|17 det 16|14 nmod:in 17|7 advcl:with 18|23 case 19|19 mwe 20|23 nmod:poss 21|23 compound 22|32 nmod:next_to 23|32 punct 24|27 compound 25|27 compound 26|31 nmod:poss 27|27 case 28|31 compound 29|31 compound 30|32 nsubj 31|18 ccomp 32|7 punct 33|
+<word> Witnesses said the woman repeatedly shot Golden , took the infant and sped away , hitting the dying mother as she screamed , `` My baby ! '' 
+<lemma> witness say the woman repeatedly shoot Golden , take the infant and speed away , hit the die mother as she scream , `` my baby ! '' 
+<POS> NNS VBD DT NN RB VBN NNP , VBD DT NN CC VBD RB , VBG DT VBG NN IN PRP VBD , `` PRP$ NN . '' 
+<NER> O O O O O O PERSON O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNS Witnesses)) (VP (VP (VBD said) (NP (NP (DT the) (NN woman)) (VP (ADVP (RB repeatedly)) (VBN shot) (NP (NNP Golden))))) (, ,) (VP (VBD took) (NP (DT the) (NN infant))) (CC and) (VP (VBD sped) (ADVP (RB away)) (, ,) (S (VP (VBG hitting) (NP (DT the) (VBG dying) (NN mother)))) (SBAR (IN as) (S (NP (PRP she)) (VP (VBD screamed) (, ,) (S (`` ``) (NP (PRP$ My) (NN baby)))))))) (. !) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|9 nsubj 1|13 nsubj 1|4 det 3|2 dobj 4|6 advmod 5|4 acl 6|6 dobj 7|2 punct 8|2 conj:and 9|11 det 10|9 dobj 11|2 cc 12|2 conj:and 13|13 advmod 14|13 punct 15|13 xcomp 16|19 det 17|19 amod 18|16 dobj 19|22 mark 20|22 nsubj 21|13 advcl:as 22|22 punct 23|26 punct 24|26 nmod:poss 25|22 xcomp 26|2 punct 27|2 punct 28|
+<word> and tried to reach into the Lexus , Norris said . 
+<lemma> and try to reach into the Lexus , Norris say . 
+<POS> CC VBD TO VB IN DT NNP , NNP VBD . 
+<NER> O O O O O O MISC O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (CC and) (S (VP (VBD tried) (S (VP (TO to) (VP (VB reach) (PP (IN into) (NP (DT the) (NNP Lexus)))))))) (, ,) (NP (NNP Norris)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 10|10 cc 1|10 dep 2|4 mark 3|2 xcomp 4|7 case 5|7 det 6|4 nmod:into 7|10 punct 8|10 nsubj 9|10 punct 11|
+<word> Witnesses also reported hearing as many as seven gunshots and said a man also wa in the sky blue or light green Lexus , which was blood-stained on the driver 's side , Norris said . 
+<lemma> witness also report hearing as many as seven gunshot and say a man also wa in the sky blue or light green Lexus , which be blood-stained on the driver 's side , Norris say . 
+<POS> NNS RB VBD NN IN JJ IN CD NNS CC VBD DT NN RB NN IN DT NN JJ CC JJ JJ NNP , WDT VBD JJ IN DT NN POS NN , NNP VBD . 
+<NER> O O O O O O O NUMBER O O O O O O O O O O O O O O MISC O O O O O O O O O O PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Witnesses)) (ADVP (RB also)) (VP (VP (VBD reported) (NP (NN hearing)) (PP (IN as) (NP (QP (JJ many) (IN as) (CD seven)) (NNS gunshots)))) (CC and) (VP (VBD said) (NP (DT a) (NN man)) (X (ADVP (RB also)) (NP (NN wa))) (PP (IN in) (NP (NP (ADJP (NP (NP (DT the) (NN sky)) (ADJP (JJ blue) (CC or) (JJ light))) (JJ green)) (NNP Lexus)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (ADJP (JJ blood-stained) (PP (IN on) (NP (NP (DT the) (NN driver) (POS 's)) (NN side)))))))))))) (, ,) (NP (NNP Norris)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 35|3 nsubj 1|11 nsubj 1|3 advmod 2|35 ccomp 3|3 dobj 4|9 case 5|8 advmod 6|8 advmod 7|9 nummod 8|3 nmod:as 9|3 cc 10|3 conj:and 11|35 ccomp 11|13 det 12|11 dobj 13|15 dep 14|11 dep 15|23 case 16|18 det 17|22 nmod:npmod 18|18 amod 19|19 cc 20|18 amod 21|19 conj:or 21|23 amod 22|11 nmod:in 23|27 nsubj 23|23 punct 24|23 ref 25|27 cop 26|23 acl:relcl 27|32 case 28|30 det 29|32 nmod:poss 30|30 case 31|27 nmod:on 32|35 punct 33|35 nsubj 34|35 punct 36|
+<word> The boy was found safe around 8 p.m. Tuesday , after his mother , District Attorney Brett Ligon said . 
+<lemma> the boy be find safe around 8 p.m. Tuesday , after he mother , District Attorney Brett Ligon say . 
+<POS> DT NN VBD VBN JJ IN CD NN NNP , IN PRP$ NN , NNP NNP NNP NNP VBD . 
+<NER> O O O O O O TIME TIME DATE O O O O O O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NN boy)) (VP (VBD was) (VP (VBN found) (ADJP (JJ safe) (PP (IN around) (NP (CD 8) (NN p.m.)))) (NP-TMP (NNP Tuesday)) (, ,) (PP (IN after) (NP (PRP$ his) (NN mother)))))) (, ,) (NP (NNP District) (NNP Attorney) (NNP Brett) (NNP Ligon)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 19|2 det 1|4 nsubjpass 2|4 auxpass 3|19 ccomp 4|4 xcomp 5|8 case 6|8 nummod 7|5 nmod:around 8|4 nmod:tmod 9|4 punct 10|13 case 11|13 nmod:poss 12|4 nmod:after 13|19 punct 14|18 compound 15|18 compound 16|18 compound 17|19 nsubj 18|19 punct 20|
+<word> Ligon said the child was `` healthy '' and that a person of interest had been detained , although no charges had bee filed . 
+<lemma> Ligon say the child be `` healthy '' and that a person of interest have be detain , although no charge have bee file . 
+<POS> NNP VBD DT NN VBD `` JJ '' CC IN DT NN IN NN VBD VBN VBN , IN DT NNS VBD NN VBN . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Ligon)) (VP (VBD said) (SBAR (SBAR (S (NP (DT the) (NN child)) (VP (VBD was) (`` ``) (ADJP (JJ healthy)) ('' '')))) (CC and) (SBAR (IN that) (S (NP (NP (DT a) (NN person)) (PP (IN of) (NP (NN interest)))) (VP (VBD had) (VP (VBN been) (VP (VBN detained) (, ,) (SBAR (IN although) (S (NP (DT no) (NNS charges)) (VP (VBD had) (NP (NP (NN bee)) (VP (VBN filed))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 det 3|7 nsubj 4|7 cop 5|7 punct 6|2 ccomp 7|7 punct 8|7 cc 9|17 mark 10|12 det 11|17 nsubjpass 12|14 case 13|12 nmod:of 14|17 aux 15|17 auxpass 16|2 ccomp 17|7 conj:and 17|17 punct 18|22 mark 19|21 neg 20|22 nsubj 21|17 advcl:although 22|22 dobj 23|23 acl 24|2 punct 25|
+<word> He would not provide any details about the person . 
+<lemma> he would not provide any detail about the person . 
+<POS> PRP MD RB VB DT NNS IN DT NN . 
+<NER> O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP He)) (VP (MD would) (RB not) (VP (VB provide) (NP (DT any) (NNS details)) (PP (IN about) (NP (DT the) (NN person))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|6 det 5|4 dobj 6|9 case 7|9 det 8|4 nmod:about 9|4 punct 10|
+<word> Golden 's mother , Linda Golden , told the AP later Tuesday that she had been baby-sitting one of her daughter 's other sons when she was alerted to the incident by someone at the scene who called her using her daughter 's cellphone . 
+<lemma> Golden 's mother , Linda Golden , tell the ap later Tuesday that she have be baby-sit one of she daughter 's other son when she be alert to the incident by someone at the scene who call she use she daughter 's cellphone . 
+<POS> NNP POS NN , NNP NNP , VBD DT NN RBR NNP IN PRP VBD VBN VBG CD IN PRP$ NN POS JJ NNS WRB PRP VBD VBN TO DT NN IN NN IN DT NN WP VBD PRP$ VBG PRP$ NN POS NN . 
+<NER> O O O O PERSON PERSON O O O ORGANIZATION DATE DATE O O O O O NUMBER O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NP (NNP Golden) (POS 's)) (NN mother)) (, ,) (NP (NNP Linda) (NNP Golden)) (, ,)) (VP (VBD told) (ADVP (NP (DT the) (NN AP)) (RBR later)) (NP-TMP (NNP Tuesday)) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD had) (VP (VBN been) (VP (VBG baby-sitting) (NP (NP (CD one)) (PP (IN of) (NP (NP (PRP$ her) (NN daughter) (POS 's)) (JJ other) (NNS sons)))) (SBAR (WHADVP (WRB when)) (S (NP (PRP she)) (VP (VBD was) (VP (VBN alerted) (PP (TO to) (NP (NP (DT the) (NN incident)) (PP (IN by) (NP (NN someone))))) (PP (IN at) (NP (NP (DT the) (NN scene)) (SBAR (WHNP (WP who)) (S (VP (VBD called) (NP (PRP$ her)) (S (VP (VBG using) (NP (NP (PRP$ her) (NN daughter) (POS 's)) (NN cellphone))))))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 8|3 nmod:poss 1|1 case 2|8 nsubj 3|3 punct 4|6 compound 5|3 appos 6|3 punct 7|10 det 9|11 nmod:npmod 10|8 advmod 11|8 nmod:tmod 12|17 mark 13|17 nsubj 14|17 aux 15|17 aux 16|8 ccomp 17|17 dobj 18|24 case 19|21 nmod:poss 20|24 nmod:poss 21|21 case 22|24 amod 23|18 nmod:of 24|28 advmod 25|28 nsubjpass 26|28 auxpass 27|17 advcl 28|31 case 29|31 det 30|28 nmod:to 31|33 case 32|31 nmod:by 33|36 case 34|36 det 35|28 nmod:at 36|38 nsubj 36|36 ref 37|36 acl:relcl 38|38 dobj 39|38 xcomp 40|42 nmod:poss 41|44 nmod:poss 42|42 case 43|40 dobj 44|8 punct 45|
+<word> She rushed to the clini but was unable to see her daughter because paramedics were trying to save her . 
+<lemma> she rush to the clinus but be unable to see she daughter because paramedic be try to save she . 
+<POS> PRP VBD TO DT NNS CC VBD JJ TO VB PRP$ NN IN NNS VBD VBG TO VB PRP . 
+<NER> O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP She)) (VP (VP (VBD rushed) (PP (TO to) (NP (DT the) (NNS clini)))) (CC but) (VP (VBD was) (ADJP (JJ unable) (S (VP (TO to) (VP (VB see) (NP (PRP$ her) (NN daughter)) (SBAR (IN because) (S (NP (NNS paramedics)) (VP (VBD were) (VP (VBG trying) (S (VP (TO to) (VP (VB save) (NP (PRP her))))))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|8 nsubj 1|10 nsubj:xsubj 1|5 case 3|5 det 4|2 nmod:to 5|2 cc 6|8 cop 7|2 conj:but 8|10 mark 9|8 xcomp 10|12 nmod:poss 11|10 dobj 12|16 mark 13|16 nsubj 14|18 nsubj:xsubj 14|16 aux 15|10 advcl:because 16|18 mark 17|16 xcomp 18|18 dobj 19|2 punct 20|
+<word> `` I wanted to kiss her before they put her in the ambulance , '' Linda Golden said . 
+<lemma> `` I want to kiss she before they put she in the ambulance , '' Linda Golden say . 
+<POS> `` PRP VBD TO NN PRP$ IN PRP VBD PRP IN DT NN , '' NNP NNP VBD . 
+<NER> O O O O O O O O O O O O O O O PERSON PERSON O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBD wanted) (PP (TO to) (NP (NN kiss))) (NP (PRP$ her)) (SBAR (IN before) (S (NP (PRP they)) (VP (VBD put) (NP (PRP her)) (PP (IN in) (NP (DT the) (NN ambulance)))))))) (, ,) ('' '') (NP (NNP Linda) (NNP Golden)) (VP (VBD said)) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 18|18 punct 1|3 nsubj 2|18 ccomp 3|5 case 4|3 nmod:to 5|3 dobj 6|9 mark 7|9 nsubj 8|3 advcl:before 9|9 dobj 10|13 case 11|13 det 12|9 nmod:in 13|18 punct 14|18 punct 15|17 compound 16|18 nsubj 17|18 punct 19|
+<word> Ligon would n't say where the infant was found , but he said it was n't at a nearby apartment complex where officers wielding guns and riot shieldssearched earlier Tuesday evening . 
+<lemma> Ligon would not say where the infant be find , but he say it be not at a nearby apartment complex where officer wield gun and riot shieldssearch earlier Tuesday evening . 
+<POS> NNP MD RB VB WRB DT NN VBD VBN , CC PRP VBD PRP VBD RB IN DT JJ NN NN WRB NNS VBG NNS CC NN VBD JJR NNP NN . 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O TIME DATE TIME O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Ligon)) (VP (MD would) (RB n't) (VP (VB say) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN infant)) (VP (VBD was) (VP (VBN found)))))))) (, ,) (CC but) (S (NP (PRP he)) (VP (VBD said) (SBAR (S (NP (PRP it)) (VP (VBD was) (RB n't) (PP (IN at) (NP (DT a) (JJ nearby) (NN apartment) (NN complex))) (SBAR (WHADVP (WRB where)) (S (NP (NP (NNS officers)) (VP (VBG wielding) (NP (NNS guns) (CC and) (NN riot)))) (VP (VBD shieldssearched) (NP (JJR earlier)) (NP-TMP (NNP Tuesday) (NN evening)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|4 nsubj 1|4 aux 2|4 neg 3|9 advmod 5|7 det 6|9 nsubjpass 7|9 auxpass 8|4 advcl 9|4 punct 10|4 cc 11|13 nsubj 12|4 conj:but 13|21 nsubj 14|21 cop 15|21 neg 16|21 case 17|21 det 18|21 amod 19|21 compound 20|13 ccomp 21|28 advmod 22|28 nsubj 23|23 acl 24|24 dobj 25|25 cc 26|24 dobj 27|25 conj:and 27|21 advcl 28|28 dobj 29|31 compound 30|28 nmod:tmod 31|4 punct 32|
+<word> Investigators were processing evidence Tuesday night at one apartment in the complex that was searched , and they took away a vehicle that was parked in front . 
+<lemma> investigator be process evidence Tuesday night at one apartment in the complex that be search , and they take away a vehicle that be park in front . 
+<POS> NNS VBD VBG NN NNP NN IN CD NN IN DT NN WDT VBD VBN , CC PRP VBD RP DT NN WDT VBD VBN IN NN . 
+<NER> O O O O DATE TIME O NUMBER O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNS Investigators)) (VP (VBD were) (VP (VBG processing) (NP (NN evidence)) (NP-TMP (NNP Tuesday) (NN night)) (PP (IN at) (NP (NP (CD one) (NN apartment)) (PP (IN in) (NP (NP (DT the) (NN complex)) (SBAR (WHNP (WDT that)) (S (VP (VBD was) (VP (VBN searched)))))))))))) (, ,) (CC and) (S (NP (PRP they)) (VP (VBD took) (PRT (RP away)) (NP (NP (DT a) (NN vehicle)) (SBAR (WHNP (WDT that)) (S (VP (VBD was) (VP (VBN parked) (PP (IN in) (NP (NN front)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 aux 2|3 dobj 4|6 compound 5|3 nmod:tmod 6|9 case 7|9 nummod 8|3 nmod:at 9|12 case 10|12 det 11|9 nmod:in 12|15 nsubjpass 12|12 ref 13|15 auxpass 14|12 acl:relcl 15|3 punct 16|3 cc 17|19 nsubj 18|3 conj:and 19|19 compound:prt 20|22 det 21|19 dobj 22|25 nsubjpass 22|22 ref 23|25 auxpass 24|22 acl:relcl 25|27 case 26|25 nmod:in 27|3 punct 28|
+<word> Photographs taken by news media at the scene show the vehicle was a light-colored Lexus . 
+<lemma> photograph take by news media at the scene show the vehicle be a light-colored Lexus . 
+<POS> NNS VBN IN NN NNS IN DT NN VBP DT NN VBD DT JJ NNP . 
+<NER> O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Photographs)) (VP (VBN taken) (PP (IN by) (NP (NN news) (NNS media))) (PP (IN at) (NP (DT the) (NN scene))))) (VP (VBP show) (SBAR (S (NP (DT the) (NN vehicle)) (VP (VBD was) (NP (DT a) (JJ light-colored) (NNP Lexus)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 9|9 nsubj 1|1 acl 2|5 case 3|5 compound 4|2 nmod:by 5|8 case 6|8 det 7|2 nmod:at 8|11 det 10|15 nsubj 11|15 cop 12|15 det 13|15 amod 14|9 ccomp 15|9 punct 16|
+<word> Joshua Jesson said he wa in the clinic with his girlfriend when he heard gunshots . 
+<lemma> Joshua Jesson say he wa in the clinic with he girlfriend when he hear gunshot . 
+<POS> NNP NNP VBD PRP VB IN DT NN IN PRP$ NN WRB PRP VBD NNS . 
+<NER> PERSON PERSON O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Joshua) (NNP Jesson)) (VP (VBD said) (S (NP (PRP he)) (VP (VB wa) (PP (IN in) (NP (NP (DT the) (NN clinic)) (PP (IN with) (NP (PRP$ his) (NN girlfriend))))) (SBAR (WHADVP (WRB when)) (S (NP (PRP he)) (VP (VBD heard) (NP (NNS gunshots)))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nsubj 4|3 ccomp 5|8 case 6|8 det 7|5 nmod:in 8|11 case 9|11 nmod:poss 10|8 nmod:with 11|14 advmod 12|14 nsubj 13|5 advcl 14|14 dobj 15|3 punct 16|
+<word> He said he saw a Lexus next to the pickup truck , then later looked back and saw the car was gone and a woman lying in the spot where the Lexus had been parked . 
+<lemma> he say he see a Lexus next to the pickup truck , then later look back and see the car be go and a woman lie in the spot where the Lexus have be park . 
+<POS> PRP VBD PRP VBD DT NNP JJ TO DT NN NN , RB RB VBD RB CC VBD DT NN VBD VBN CC DT NN VBG IN DT NN WRB DT NNP VBD VBN VBN . 
+<NER> O O O O O MISC O O O O O O O O O O O O O O O O O O O O O O O O O MISC O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (PRP He)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VP (VBD saw) (S (NP (DT a) (NNP Lexus)) (ADJP (JJ next) (PP (TO to) (NP (DT the) (NN pickup) (NN truck)))))) (, ,) (VP (ADVP (RB then)) (ADVP (RB later)) (VBD looked) (PRT (RB back))) (CC and) (VP (VBD saw) (SBAR (S (NP (DT the) (NN car)) (VP (VBD was) (VP (VBN gone))))))))))) (CC and) (S (NP (DT a) (NN woman)) (VP (VBG lying) (PP (IN in) (NP (NP (DT the) (NN spot)) (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NNP Lexus)) (VP (VBD had) (VP (VBN been) (VP (VBN parked)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj 3|15 nsubj 3|18 nsubj 3|2 ccomp 4|6 det 5|11 nsubj 6|11 case 7|7 mwe 8|11 det 9|11 compound 10|4 nmod:next_to 11|4 punct 12|15 advmod 13|15 advmod 14|2 ccomp 15|4 conj:and 15|15 compound:prt 16|4 cc 17|2 ccomp 18|4 conj:and 18|20 det 19|22 nsubjpass 20|22 auxpass 21|18 ccomp 22|2 cc 23|25 det 24|26 nsubj 25|2 conj:and 26|29 case 27|29 det 28|26 nmod:in 29|35 advmod 30|32 det 31|35 nsubjpass 32|35 aux 33|35 auxpass 34|29 acl:relcl 35|2 punct 36|
+<word> `` I thought she just passed out . 
+<lemma> `` I think she just pass out . 
+<POS> `` PRP VBD PRP RB VBD RP . 
+<NER> O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (`` ``) (NP (PRP I)) (VP (VBD thought) (SBAR (S (NP (PRP she)) (ADVP (RB just)) (VP (VBD passed) (PRT (RP out)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 punct 1|3 nsubj 2|6 nsubj 4|6 advmod 5|3 ccomp 6|6 compound:prt 7|3 punct 8|
+<word> Then somebody ran in here and said , ` Somebody got shot , '' ' e said . 
+<lemma> then somebody run in here and say , ` somebody get shoot , '' ' e say . 
+<POS> RB NN VBD IN RB CC VBD , `` NN VBD VBN , '' '' SYM VBD . 
+<NER> O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (VP (ADVP (RB Then)) (S (NP (NP (NN somebody)) (SBAR (S (VP (VP (VBD ran) (PP (IN in) (NP (RB here)))) (CC and) (VP (VBD said) (, ,) (`` `) (S (NP (NN Somebody)) (VP (VBD got) (VP (VBN shot))) (, ,) ('' '')) ('' '))))) (SBAR (FRAG (X (SYM e)) (VP (VBD said))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 1|1 xcomp 2|2 acl:relcl 3|5 case 4|3 nmod:in 5|3 cc 6|2 acl:relcl 7|3 conj:and 7|7 punct 8|7 punct 9|12 nsubjpass 10|12 auxpass 11|7 ccomp 12|12 punct 13|12 punct 14|7 punct 15|17 dep 16|2 dep 17|1 punct 18|
+<word> Police quickly surrounded the clinic and much of the parking lot with crime-scene tape , and yellow markers were placed next to a purse and pair of brown sandals near a red pickup truck . 
+<lemma> Police quickly surround the clinic and much of the parking lot with crime-scene tape , and yellow marker be place next to a purse and pair of brown sandal near a red pickup truck . 
+<POS> NNP RB VBD DT NN CC JJ IN DT NN NN IN JJ NN , CC JJ NNS VBD VBN JJ TO DT NN CC NN IN JJ NNS IN DT JJ NN NN . 
+<NER> O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Police)) (ADVP (RB quickly)) (VP (VBD surrounded) (NP (NP (DT the) (NN clinic)) (CC and) (NP (NP (JJ much)) (PP (IN of) (NP (DT the) (NN parking) (NN lot))))) (PP (IN with) (NP (JJ crime-scene) (NN tape))))) (, ,) (CC and) (S (NP (JJ yellow) (NNS markers)) (VP (VBD were) (VP (VBN placed) (ADVP (JJ next)) (PP (TO to) (NP (NP (DT a) (NN purse) (CC and) (NN pair)) (PP (IN of) (NP (NP (JJ brown) (NNS sandals)) (PP (IN near) (NP (DT a) (JJ red) (NN pickup) (NN truck)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 nsubj 1|3 advmod 2|5 det 4|3 dobj 5|5 cc 6|3 dobj 7|5 conj:and 7|11 case 8|11 det 9|11 compound 10|7 nmod:of 11|14 case 12|14 amod 13|3 nmod:with 14|3 punct 15|3 cc 16|18 amod 17|20 nsubjpass 18|20 auxpass 19|3 conj:and 20|20 advmod 21|24 case 22|24 det 23|20 nmod:to 24|24 cc 25|20 nmod:to 26|24 conj:and 26|29 case 27|29 amod 28|24 nmod:of 29|34 case 30|34 det 31|34 amod 32|34 compound 33|29 nmod:near 34|3 punct 35|
+<word> Spent ammunition also was nearby . 
+<lemma> spent ammunition also be nearby . 
+<POS> JJ NN RB VBD JJ . 
+<NER> O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (JJ Spent) (NN ammunition)) (ADVP (RB also)) (VP (VBD was) (ADJP (JJ nearby))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|2 amod 1|5 nsubj 2|5 advmod 3|5 cop 4|5 punct 6|
+<word> Authorities late Tuesday were doing background checks on family members with te hope of returning Keegan to them on Wednesday . 
+<lemma> Authorities late Tuesday be do background check on family member with te hope of return Keegan to they on Wednesday . 
+<POS> NNP JJ NNP VBD VBG NN NNS IN NN NNS IN NN NN IN VBG NNP TO PRP IN NNP . 
+<NER> O DATE DATE O O O O O O O O O O O O PERSON O O O DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Authorities)) (NP-TMP (JJ late) (NNP Tuesday)) (VP (VBD were) (VP (VBG doing) (NP (NP (NN background) (NNS checks)) (PP (IN on) (NP (NN family) (NNS members)))) (PP (IN with) (NP (NP (NN te) (NN hope)) (PP (IN of) (S (VP (VBG returning) (NP (NNP Keegan)) (PP (TO to) (NP (PRP them))) (PP (IN on) (NP (NNP Wednesday)))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 5|5 nsubj 1|3 amod 2|5 nmod:tmod 3|5 aux 4|7 compound 6|5 dobj 7|10 case 8|10 compound 9|7 nmod:on 10|13 case 11|13 compound 12|5 nmod:with 13|15 mark 14|13 acl:of 15|15 dobj 16|18 case 17|15 nmod:to 18|20 case 19|15 nmod:on 20|5 punct 21|
+<word> Linda Golden described her daughter as sweet-natured and kind . 
+<lemma> Linda Golden describe she daughter as sweet-natured and kind . 
+<POS> NNP NNP VBD PRP$ NN IN JJ CC NN . 
+<NER> PERSON PERSON O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Linda) (NNP Golden)) (VP (VBD described) (NP (PRP$ her) (NN daughter)) (PP (IN as) (NP (NP (JJ sweet-natured)) (CC and) (NP (NN kind))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|5 nmod:poss 4|3 dobj 5|7 case 6|3 nmod:as 7|7 cc 8|3 nmod:as 9|7 conj:and 9|3 punct 10|
+<word> She said she had no idea what could have sparked the slaying and abduction . 
+<lemma> she say she have no idea what could have spark the slaying and abduction . 
+<POS> PRP VBD PRP VBD DT NN WP MD VB VBN DT NN CC NN . 
+<NER> O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (PRP She)) (VP (VBD said) (SBAR (S (NP (PRP she)) (VP (VBD had) (NP (NP (DT no) (NN idea)) (SBAR (WHNP (WP what)) (S (VP (MD could) (VP (VB have) (VP (VBN sparked) (NP (DT the) (NN slaying) (CC and) (NN abduction)))))))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 2|2 nsubj 1|4 nsubj 3|2 ccomp 4|6 neg 5|4 dobj 6|10 nsubj 6|6 ref 7|10 aux 8|10 aux 9|6 acl:relcl 10|12 det 11|10 dobj 12|12 cc 13|10 dobj 14|12 conj:and 14|2 punct 15|
+<coreference> [['1,1,3,2', '1,8,9,8', '1,13,14,13'], ['18,24,26,25', '19,4,5,4'], ['1,22,25,24', '8,1,3,2', '8,12,13,12'], ['2,1,6,5', '2,7,8,7'], ['2,7,9,8', '2,14,15,14', '11,41,44,42', '12,11,13,12', '12,19,20,19', '13,6,7,6', '13,10,11,10', '24,4,6,5'], ['2,14,16,15', '5,25,27,26'], ['3,10,11,10', '3,7,11,8', '3,7,9,8', '23,16,17,16'], ['23,9,11,10', '23,18,19,18'], ['4,2,5,4', '21,9,12,11'], ['4,13,18,14', '4,21,22,21'], ['4,16,18,17', '6,6,8,7', '6,7,8,7', '7,23,24,23', '16,10,12,11', '16,13,16,15', '18,5,7,6', '18,31,33,32'], ['4,21,24,23', '18,9,12,11'], ['4,25,32,31', '6,9,10,9', '7,34,35,34'], ['5,1,2,1', '5,21,22,21', '5,25,26,25', '7,1,2,1'], ['5,10,12,11', '14,6,8,7'], ['7,6,10,9', '17,15,16,15'], ['23,2,4,3', '8,9,10,9', '11,12,13,12'], ['8,15,19,18', '9,1,2,1', '10,1,2,1', '14,1,2,1', '14,12,13,12'], ['9,11,15,12', '10,8,10,9'], ['11,5,7,6', '3,1,2,1', '3,7,8,7', '4,6,7,6', '5,7,8,7', '8,12,14,13', '11,1,7,3', '11,1,4,3', '11,1,3,1', '11,14,15,14', '11,26,27,26', '11,39,40,39', '11,41,42,41', '12,1,2,1', '12,11,12,11', '13,2,3,2', '13,16,18,17', '24,1,3,2', '24,4,5,4', '25,1,2,1', '25,3,4,3'], ['11,35,45,36', '16,7,9,8'], ['12,4,6,5', '13,8,9,8'], ['13,12,14,13', '14,14,15,14'], ['15,1,2,1', '15,18,19,18'], ['17,1,3,2', '17,4,5,4', '17,10,11,10', '17,13,14,13', '18,1,2,1', '18,3,4,3', '19,2,3,2'], ['17,7,12,8', '21,4,6,5']]
+</DOC>

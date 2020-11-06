@@ -1,0 +1,46 @@
+<DOC> article-15473.txt.xml story
+<paragraph> | 0 1 2 3 4 5 |
+<word> The extreme climber known to some as Spiderman has struck again : this time , on France 's new tallest building . 
+<lemma> the extreme climber know to some as Spiderman have strike again : this time , on France 's new tallest building . 
+<POS> DT JJ NN VBN TO DT IN NNP VBZ VBN RB : DT NN , IN NNP POS JJ JJS NN . 
+<NER> O O O O O O O O O O O O O O O O LOCATION O O O O O 
+<Timex> None
+<parse>         (ROOT (NP (NP (NP (DT The) (JJ extreme) (NN climber)) (VP (VBN known) (PP (TO to) (NP (DT some))) (SBAR (IN as) (S (NP (NNP Spiderman)) (VP (VBZ has) (VP (VBN struck) (ADVP (RB again)))))))) (: :) (NP (NP (DT this) (NN time)) (, ,) (ADVP (IN on)) (NP (NP (NNP France) (POS 's)) (JJ new) (JJS tallest) (NN building))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 det 1|3 amod 2|3 acl 4|6 case 5|4 nmod:to 6|10 mark 7|10 nsubj 8|10 aux 9|4 advcl:as 10|10 advmod 11|3 punct 12|14 det 13|3 dep 14|14 punct 15|14 advmod 16|21 nmod:poss 17|17 case 18|21 amod 19|21 amod 20|14 dep 21|3 punct 22|
+<word> Alain Robert scaled the recently heightened First Tower in the La Defense business district west of Paris today . 
+<lemma> Alain Robert scale the recently heighten First Tower in the La Defense business district west of Paris today . 
+<POS> NNP NNP VBD DT RB VBN NNP NNP IN DT NNP NNP NN NN NN IN NNP NN . 
+<NER> PERSON PERSON O O DATE O ORDINAL O O O LOCATION LOCATION O O O O LOCATION DATE O 
+<Timex> None
+<parse>         (ROOT (S (NP (NNP Alain) (NNP Robert)) (VP (VBD scaled) (NP (NP (DT the) (ADJP (RB recently) (VBN heightened)) (NNP First) (NNP Tower)) (PP (IN in) (NP (NP (DT the) (NNP La) (NNP Defense) (NN business) (NN district) (NN west)) (PP (IN of) (NP (NNP Paris)))))) (NP-TMP (NN today))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|2 compound 1|3 nsubj 2|8 det 4|6 advmod 5|8 amod 6|8 compound 7|3 dobj 8|15 case 9|15 det 10|15 compound 11|15 compound 12|15 compound 13|15 compound 14|8 nmod:in 15|17 case 16|15 nmod:of 17|3 nmod:tmod 18|3 punct 19|
+<word> Hundreds of onlookers peered out of its windows or craned their necks as he went up . 
+<lemma> hundred of onlooker peer out of its window or crane they neck as he go up . 
+<POS> NNS IN NNS VBD IN IN PRP$ NNS CC VBD PRP$ NNS IN PRP VBD RB . 
+<NER> O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (NP (NP (NNS Hundreds)) (PP (IN of) (NP (NNS onlookers)))) (VP (VP (VBD peered) (PRT (IN out)) (PP (IN of) (NP (PRP$ its) (NNS windows)))) (CC or) (VP (VBD craned) (NP (PRP$ their) (NNS necks)) (SBAR (IN as) (S (NP (PRP he)) (VP (VBD went) (ADVP (RB up))))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|3 det:qmod 1|1 mwe 2|4 nsubj 3|10 nsubj 3|4 compound:prt 5|8 case 6|8 nmod:poss 7|4 nmod:of 8|4 cc 9|4 conj:or 10|12 nmod:poss 11|10 dobj 12|15 mark 13|15 nsubj 14|10 advcl:as 15|15 advmod 16|4 punct 17|
+<word> The Frenchman has ascended more than 100 skyscrapers and monuments over his 15-year career of daredevil climbs using no support equipment . 
+<lemma> the Frenchman have ascend more than 100 skyscraper and monument over he 15-year career of daredevil climb use no support equipment . 
+<POS> DT NNP VBZ VBN JJR IN CD NNS CC NNS IN PRP$ JJ NN IN NN VBZ VBG DT NN NN . 
+<NER> O MISC O O O O NUMBER O O O O O DURATION O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (DT The) (NNP Frenchman)) (VP (VBZ has) (VP (VBN ascended) (NP (QP (JJR more) (IN than) (CD 100)) (NNS skyscrapers))))) (CC and) (S (NP (NP (NNS monuments)) (PP (IN over) (NP (NP (PRP$ his) (JJ 15-year) (NN career)) (PP (IN of) (NP (NN daredevil)))))) (VP (VBZ climbs) (S (VP (VBG using) (NP (DT no) (NN support) (NN equipment)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 4|2 det 1|4 nsubj 2|4 aux 3|7 advmod 5|5 mwe 6|8 nummod 7|4 dobj 8|4 cc 9|17 nsubj 10|14 case 11|14 nmod:poss 12|14 amod 13|10 nmod:over 14|16 case 15|14 nmod:of 16|4 conj:and 17|17 xcomp 18|21 neg 19|21 compound 20|18 dobj 21|4 punct 22|
+<word> Often his climbs are illegal , but not this time : today 's feat up the 758ft -LRB- 231m -RRB- building was given the go-ahead by its owner . 
+<lemma> often he climb be illegal , but not this time : today 's feat up the 758ft -lrb- 231m -rrb- building be give the go-ahead by its owner . 
+<POS> RB PRP$ VBZ VBP JJ , CC RB DT NN : NN POS NN IN DT JJ -LRB- JJ -RRB- NN VBD VBN DT NN IN PRP$ NN . 
+<NER> O O O O O O O O O O O DATE O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (ADVP (RB Often)) (NP (PRP$ his)) (VP (VBZ climbs) (SBAR (S (VP (VBP are) (UCP (ADJP (JJ illegal)) (, ,) (CONJP (CC but) (RB not)) (NP (DT this) (NN time)))))))) (: :) (S (NP (NP (NP (NN today) (POS 's)) (NN feat)) (PP (IN up) (NP (DT the) (JJ 758ft) (PRN (-LRB- -LRB-) (NP (JJ 231m)) (-RRB- -RRB-)) (NN building)))) (VP (VBD was) (VP (VBN given) (NP (DT the) (NN go-ahead)) (PP (IN by) (NP (PRP$ its) (NN owner)))))) (. .))) 
+<collapsed-ccprocessed-dependencies> |0 root 3|3 advmod 1|3 nsubj 2|5 cop 4|3 ccomp 5|5 punct 6|8 cc 7|5 cc 8|10 det 9|3 ccomp 10|5 conj:negcc 10|3 punct 11|14 nmod:poss 12|12 case 13|23 nsubjpass 14|21 case 15|21 det 16|21 amod 17|19 punct 18|21 dep 19|19 punct 20|14 nmod:up 21|23 auxpass 22|3 parataxis 23|25 det 24|23 dobj 25|28 case 26|28 nmod:poss 27|23 nmod:agent 28|3 punct 29|
+<word> Robert said he does not battle fear on the way up because `` I really do n't have time to be afraid , I really have other things to do . '' 
+<lemma> Robert say he do not battle fear on the way up because `` I really do not have time to be afraid , I really have other thing to do . '' 
+<POS> NNP VBD PRP VBZ RB NN NN IN DT NN RB IN `` PRP RB VBP RB VB NN TO VB JJ , PRP RB VBP JJ NNS TO VB . '' 
+<NER> PERSON O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O 
+<Timex> None
+<parse>         (ROOT (S (S (NP (NNP Robert)) (VP (VBD said) (SBAR (S (NP (PRP he)) (VP (VBZ does) (NP (RB not) (NN battle) (NN fear)) (PP (IN on) (ADVP (NP (DT the) (NN way)) (RB up))) (SBAR (IN because) (`` ``) (S (NP (PRP I)) (ADVP (RB really)) (VP (VBP do) (RB n't) (VP (VB have) (NP (NN time)) (S (VP (TO to) (VP (VB be) (ADJP (JJ afraid)))))))))))))) (, ,) (NP (PRP I)) (ADVP (RB really)) (VP (VBP have) (NP (JJ other) (NNS things) (S (VP (TO to) (VP (VB do)))))) (. .) ('' ''))) 
+<collapsed-ccprocessed-dependencies> |0 root 26|2 nsubj 1|26 ccomp 2|4 nsubj 3|2 ccomp 4|7 neg 5|7 compound 6|4 dobj 7|11 case 8|10 det 9|11 nmod:npmod 10|4 advcl:on 11|18 mark 12|18 punct 13|18 nsubj 14|18 advmod 15|18 aux 16|18 neg 17|4 advcl:because 18|18 dobj 19|22 mark 20|22 cop 21|18 advcl:to 22|26 punct 23|26 nsubj 24|26 advmod 25|28 amod 27|26 dobj 28|30 mark 29|28 acl:to 30|26 punct 31|26 punct 32|
+<coreference> [['1,17,22,21', '1,13,22,14', '1,13,15,14', '5,9,11,10', '6,19,20,19'], ['2,1,3,2', '3,14,15,14', '6,1,2,1', '6,3,4,3', '6,14,15,14', '6,24,25,24'], ['2,4,18,8', '3,7,8,7'], ['3,1,4,1', '3,11,12,11'], ['4,1,3,2', '4,12,13,12', '5,2,3,2'], ['5,12,22,14', '5,27,28,27']]
+</DOC>
