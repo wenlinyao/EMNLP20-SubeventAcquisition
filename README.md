@@ -22,11 +22,14 @@ context_BERT_model/: Evaluation models. Baseline BERT model together with two me
 
 Examples:
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset HiEve --eval_relation subevent --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting across
+
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset HiEve --eval_relation subevent --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting within
 
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset Timebank --eval_relation temporal --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting across
+
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset Timebank --eval_relation temporal --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting within
 
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset ESL --eval_relation causal --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting across
+
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset ESL --eval_relation causal --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting within
 
