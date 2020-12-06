@@ -16,7 +16,7 @@ distant_context_model/: Main system that uses weak supervision to extract subeve
 
 model/: Scripts to extract subevent pairs or collect sentences containing subevent pairs.
 
-model_Trans/: TransE model to train event knowledge embeddings for evaluation. It will generate test_emb_20.txt
+model_Trans/: TransE model to train event knowledge embeddings for evaluation. It will generate test_emb_20.txt (I trained 20 iterations). test_emb_20.txt storages vector representation of all event phrases that will be used in evaluation datasets (RED, Timebank, etc.). Each line is the vector representation of one event phrase.
 
 context_BERT_model/: Evaluation models. Baseline BERT model together with two methods to incorporate subevent knowledge into BERT model.
 
