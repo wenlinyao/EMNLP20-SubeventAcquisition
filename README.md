@@ -33,3 +33,7 @@ python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset ESL -
 
 python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset ESL --eval_relation causal --gpu_id 0 --batch_size 16 --epochs 10 --sentence_setting within
 
+## All Event Relational Knowledge
+
+If you are interested in entire event knowledge acquired by my previous papers. Please see this link: https://github.com/wenlinyao/EventCommonSenseKnowledge_dissertation
+
