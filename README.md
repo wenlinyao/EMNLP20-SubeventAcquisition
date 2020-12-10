@@ -35,5 +35,5 @@ python ../context_BERT_model/BERT_main.py --preprocess True --eval_dataset ESL -
 
 ## All Event Relational Knowledge
 
-If you are interested in entire event knowledge acquired by my previous papers. Please see this link: https://github.com/wenlinyao/EventCommonSenseKnowledge_dissertation
+If you are interested in entire event knowledge (including temporal, causal, and subevent relations) acquired by my previous papers. The entire knowledge graph contains 126K event nodes, 174K happens-before edges, 239K parent-subevent edges and 49K cause-effect edges. Please see this link: https://github.com/wenlinyao/EventCommonSenseKnowledge_dissertation
 
