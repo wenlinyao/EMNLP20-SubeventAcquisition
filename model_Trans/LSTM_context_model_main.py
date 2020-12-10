@@ -51,7 +51,7 @@ if __name__ == "__main__":
 
     args.w2v_file = "../../tools/glove.6B/glove.6B.300d.txt"
 
-    all_pairs_news = extract_all_pairs("../annotation/valid_pairs_v3.txt") | extract_all_pairs("../annotation/invalid_pairs_v3.txt")
+    all_pairs_news = extract_all_pairs("../subevent_pairs/all_subevent_pairs.txt")
     all_pairs = all_pairs_news
     
     print("all pairs:", len(all_pairs))
